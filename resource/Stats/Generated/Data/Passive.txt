@@ -10,5 +10,14 @@ data "StatsFunctors" "RestoreResource(SELF,ActionPoint,1,0)"
 
 new entry "EquippingWeaponsTechnical"
 type "PassiveData"
+using "EquippingWeapons"
+data "Properties" ""
 data "StatsFunctorContext" "OnAttack"
+data "Conditions" ""
 data "StatsFunctors" "ApplyStatus(SELF,FIRST_ATTACK_TURN,100,1)"
+
+new entry "NoDashPreload"
+type "PassiveData"
+data "StatsFunctorContext" "OnCombatStarted"
+data "StatsFunctors" "RemoveStatus(DASH);RemoveStatus(DASH_STACKED);RemoveStatus(DASH_STACKED_2);"
+

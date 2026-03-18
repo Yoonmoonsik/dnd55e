@@ -36,6 +36,17 @@ AND
 HasPassive(_Player, "EquippingWeaponsTechnical", 0)
 THEN
 AddPassive(_Player, "EquippingWeaponsTechnical");
+
+
+// NoDashPreload
+IF
+DB_Players(_Player)
+AND
+DB_DND55e_Initialized(1)
+AND
+HasPassive(_Player, "NoDashPreload", 0)
+THEN
+AddPassive(_Player, "NoDashPreload");
 EXITSECTION
 
 ENDEXITSECTION

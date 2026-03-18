@@ -20,6 +20,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="EquippingWeaponsTechnical" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,FIRST_ATTACK_TURN,100,1)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="68145b69-891b-4f5f-8858-7db1b53ec127" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04d36a71-fb9a-4fd3-b34a-16e83bdf196f" />
+        <field name="Name" type="NameTableFieldDefinition" value="NoDashPreload" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCombatStarted" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(DASH);RemoveStatus(DASH_STACKED);RemoveStatus(DASH_STACKED_2);" />
       </fields>
     </stat_object>
   </stat_objects>
