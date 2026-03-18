@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e988a674-28fe-49d2-a6ce-c5c1e0141f4c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2dc581b0-965b-4cd5-afdf-5ec4f778afe8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Help" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e38549b5-0d0b-40c1-a46d-7a4cdb92e490" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_HelpAction;Target_Distract;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="253a5c51-2cbc-4a5a-b241-d60ceb7a5bde" />
+        <field name="Name" type="NameTableFieldDefinition" value="HelpAction" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e38549b5-0d0b-40c1-a46d-7a4cdb92e490" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Help" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cdb27210-ee60-40e2-9145-497ed7000dc9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Distract" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dfc3f62f-61cf-49d2-833c-9504d3134615" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Help" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Utility" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Start" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Help" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Help" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="810a605a-8a5f-4f67-8407-505267f0b1f2" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="e0ca5958-42d9-4284-970a-d701287a179d" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
