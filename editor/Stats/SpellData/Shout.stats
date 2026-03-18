@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="9fd4ac7a-fad7-424f-83df-0893eae93c38">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="448a052e-cdf1-4cca-a393-1ba60efb3552" />
+        <field name="Name" type="NameTableFieldDefinition" value="Disengage" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="98f7d181-873d-42a7-9534-e0c3d62c0423" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_DisengageAction;Shout_DodgeAction;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="82c3d9fa-af80-4518-b174-789823a7fdd4" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisengageAction" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="98f7d181-873d-42a7-9534-e0c3d62c0423" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_Disengage" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8940d1db-6644-425e-9f8d-8810cf5ed840" />
+        <field name="Name" type="NameTableFieldDefinition" value="DodgeAction" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="82c3d9fa-af80-4518-b174-789823a7fdd4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6dcb6809g7168g4354g88a0g1ef30ed6de8a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h725e9f8cg6262g4384g8f9fg596f94e2ceee" version="4" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_UncannyDodge" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DODGE,100,1);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DODGE,100,1)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

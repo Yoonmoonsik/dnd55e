@@ -1,0 +1,23 @@
+new entry "Shout_Disengage"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Disengage"
+data "ContainerSpells" "Shout_DisengageAction;Shout_DodgeAction;"
+data "SpellFlags" "IsLinkedSpellContainer"
+
+new entry "Shout_DisengageAction"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Disengage"
+data "SpellContainerID" "Shout_Disengage"
+
+new entry "Shout_DodgeAction"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_DisengageAction"
+data "SpellProperties" "ApplyStatus(DODGE,100,1);"
+data "Icon" "PassiveFeature_UncannyDodge"
+data "DisplayName" "h6dcb6809g7168g4354g88a0g1ef30ed6de8a;1"
+data "Description" "h725e9f8cg6262g4384g8f9fg596f94e2ceee;4"
+data "TooltipStatusApply" "ApplyStatus(DODGE,100,1)"
+
