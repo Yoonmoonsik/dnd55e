@@ -1,0 +1,4 @@
+New-Item -ItemType SymbolicLink -Path "D:\SteamLibrary\steamapps\common\Baldurs Gate 3\Data\Mods\dnd55e_8c95f3b7-04c3-f82d-e53f-82f9e7d82d06" -Target "D:\BG3\Bg3_Toolkit_Projects\dnd55e\game"
+New-Item -ItemType SymbolicLink -Path "D:\SteamLibrary\steamapps\common\Baldurs Gate 3\Data\Public\dnd55e_8c95f3b7-04c3-f82d-e53f-82f9e7d82d06" -Target "D:\BG3\Bg3_Toolkit_Projects\dnd55e\resource"
+New-Item -ItemType SymbolicLink -Path "D:\SteamLibrary\steamapps\common\Baldurs Gate 3\Data\Editor\Mods\dnd55e_8c95f3b7-04c3-f82d-e53f-82f9e7d82d06" -Target "D:\BG3\Bg3_Toolkit_Projects\dnd55e\editor"
+New-Item -ItemType SymbolicLink -Path "D:\SteamLibrary\steamapps\common\Baldurs Gate 3\Data\Projects\dnd55e_8c95f3b7-04c3-f82d-e53f-82f9e7d82d06" -Target "D:\BG3\Bg3_Toolkit_Projects\dnd55e\project"
