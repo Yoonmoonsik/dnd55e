@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="030d44f1-be8c-4538-9512-08111d49292a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe534c00-b218-457b-b1b8-839d71964d67" />
+        <field name="Name" type="NameTableFieldDefinition" value="DOWNED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="74521f11-86dc-430e-bd13-4baeb7fab3f3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h77f164a8g908ag78fdg969cg13b085d02634" version="2" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="RollDieAgainstDC(DiceType.d20,20)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="RegainHitPoints(1)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
