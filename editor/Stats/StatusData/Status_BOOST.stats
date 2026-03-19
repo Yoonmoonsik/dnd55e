@@ -28,5 +28,20 @@
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e57f2a84-8fcc-4b27-949b-06a97467523e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WEAPONMASTERY_SAP" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haf74199bg92cbg93dega0fbgebb535603f83" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h6846e460g6aecg1e76g52c0g8c751abe8744" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Debuff" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AttackRoll);" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="131ae698-d8a7-4a61-b494-51aeee3dd55c" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
