@@ -10,8 +10,9 @@
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnEquip" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="not HasStatus('FIRST_ATTACK_TURN',context.Source);" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(SELF,ActionPoint,1,0)" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1000" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9999" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WeaponMaster" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -31,6 +32,19 @@
         <field name="Name" type="NameTableFieldDefinition" value="NoDashPreload" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCombatStarted" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(DASH);RemoveStatus(DASH_STACKED);RemoveStatus(DASH_STACKED_2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="888d891e-9067-475a-97fa-5eac1bb58326" />
+        <field name="Name" type="NameTableFieldDefinition" value="OneSpellWithASpellSlotPerTurn" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="68145b69-891b-4f5f-8858-7db1b53ec127" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4d9f934eg7721gfb63gcff8gb411e659dc78" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd3ffb028g9755g52adgf223g4bb289eebf93" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnAttack;OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot') or HasUseCosts('ShadowSpellSlot');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,ONE_SPELL_WITH_A_SPELL_SLOT_PER_TURN,100,1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Magical" />
       </fields>
     </stat_object>
   </stat_objects>

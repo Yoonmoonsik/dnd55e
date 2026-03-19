@@ -47,6 +47,17 @@ AND
 HasPassive(_Player, "NoDashPreload", 0)
 THEN
 AddPassive(_Player, "NoDashPreload");
+
+
+// OneSpellWithASpellSlotPerTurn
+IF
+DB_Players(_Player)
+AND
+DB_DND55e_Initialized(1)
+AND
+HasPassive(_Player, "OneSpellWithASpellSlotPerTurn", 0)
+THEN
+AddPassive(_Player, "OneSpellWithASpellSlotPerTurn");
 EXITSECTION
 
 ENDEXITSECTION
