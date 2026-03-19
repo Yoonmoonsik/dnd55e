@@ -595,12 +595,12 @@
         <field name="Name" type="NameTableFieldDefinition" value="WPN_Trident" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
         <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
-        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
         <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="MartialMeleeWeapon" enumeration_type_name="Weapon Group" version="1" />
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Thrown;Melee;Dippable;Versatile" enumeration_type_name="WeaponFlags" version="1" />
         <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Tridents;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d3807461-7c32-44ae-9aba-49ef4d3bf35e" />
-        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d10" />
         <field name="Weight" type="FloatTableFieldDefinition" value="1.8" />
         <field name="ValueLevel" type="IntegerTableFieldDefinition" value="2" />
       </fields>
