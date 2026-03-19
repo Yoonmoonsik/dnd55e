@@ -58,7 +58,7 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9000" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeWeaponAttack()" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="AttackedWithPassiveSourceWeapon() and IsWeaponAttack();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:ApplyStatus(WEAPONMASTERY_CLEAVE_TARGET,100,0);SpawnExtraProjectiles(Projectile_WeaponMasteryCleave_10)" />
       </fields>
     </stat_object>
@@ -68,6 +68,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryCleave_12" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a9f7c060-6a28-4dd7-9dfb-b2a4fbbe58bf" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:ApplyStatus(WEAPONMASTERY_CLEAVE_TARGET,100,0);SpawnExtraProjectiles(Projectile_WeaponMasteryCleave_12)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="AttackedWithPassiveSourceWeapon() and IsWeaponAttack();" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -79,7 +80,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h0fbee9aag6abeg6294g3fd8gbeb26ffd19f6" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Slash" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeWeaponAttack() and IsMiss();" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="AttackedWithPassiveSourceWeapon() and IsWeaponAttack() and IsMiss();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(WeaponAttackRollAbility(Ability.Strength)):DealDamage(StrengthModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Dexterity)):DealDamage(DexterityModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Intelligence)):DealDamage(IntelligenceModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Wisdom)):DealDamage(WisdomModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Charisma)):DealDamage(CharismaModifier, MainMeleeWeaponDamageType)" />
       </fields>
     </stat_object>
@@ -92,6 +93,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h694f6a66g0531g98f0ga23eg525e146eb4d7" version="1" />
         <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_PushingAttack_Ranged" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="AttackedWithPassiveSourceWeapon() and IsWeaponAttack() and not IsMiss();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:IF(TargetSizeEqualOrSmaller(Size.Large)):Force(3);" />
       </fields>
