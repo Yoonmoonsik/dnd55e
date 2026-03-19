@@ -630,12 +630,13 @@
         <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
         <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
         <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="MartialMeleeWeapon" enumeration_type_name="Weapon Group" version="1" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile" enumeration_type_name="WeaponFlags" version="1" />
         <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Warpicks;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a088775a-8f75-42f2-aa74-76a3f80701fa" />
         <field name="Weight" type="FloatTableFieldDefinition" value="0.9" />
         <field name="ValueLevel" type="IntegerTableFieldDefinition" value="3" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasterySap;" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d10" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1077,7 +1078,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="75586d3e-21b2-4d94-ac99-99a6b0e8c3dd" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="4cd41c74-9c86-4233-922e-4db5bc750df5" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Magical;Versatile" enumeration_type_name="WeaponFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1434,7 +1435,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a5012da9-9cfa-467b-901a-61e33db55516" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="71191c11-966f-4c19-b4ee-eb36d31c4944" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Magical;Versatile" enumeration_type_name="WeaponFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1615,7 +1616,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="8693aa7e-cd47-4990-80e7-51041f036400" />
         <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
         <field name="Value" type="IntegerTableFieldDefinition" value="10" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Twohanded" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile" enumeration_type_name="WeaponFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
