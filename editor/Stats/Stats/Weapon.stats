@@ -159,6 +159,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="99f3b2d9-e03d-4cd5-9a67-5435a95682da" />
         <field name="Weight" type="FloatTableFieldDefinition" value="2.7" />
         <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryGraze;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -205,6 +206,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ecfb9f69-5bc3-402e-acd8-c91d57e28403" />
         <field name="Weight" type="FloatTableFieldDefinition" value="2.7" />
         <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryGraze;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3175,7 +3177,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="c6352039-a985-4b94-886a-29dd7af0d203" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="824a370a-5fc6-4435-b58f-33a0d91f5b08" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Githborn_Mindcrusher_Greatsword_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Githborn_Mindcrusher_Greatsword_Passive;" />
         <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
@@ -3189,7 +3191,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0553ced5-00b0-4c39-8ee4-519f6401f44a" />
         <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Githborn_Mindcrusher_Greatsword_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Githborn_Mindcrusher_Greatsword_Passive;" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
       </fields>
@@ -3202,7 +3204,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="769adbf8-d3bf-48f7-8c2b-21fb892b1d33" />
         <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Githborn_Mindcrusher_Greatsword_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryGraze;MAG_Githborn_Mindcrusher_Greatsword_Passive;" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
       </fields>
     </stat_object>
@@ -3214,7 +3216,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="765dd845-e71c-4a96-bff2-b4ecb08478dc" />
         <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Githborn_Mindcrusher_Greatsword_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Githborn_Mindcrusher_Greatsword_Passive;" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
       </fields>
@@ -3665,7 +3667,7 @@
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(3);WeaponProperty(Magical);" />
         <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_GiantSubjugation)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Giantslayer_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryGraze;MAG_Giantslayer_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_MAG_Legendary_GiantSlayer_EnlargeSelf)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
@@ -3762,7 +3764,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="523a959d-4101-4beb-9a8e-276c3f687c02" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_Mindcrush)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Githborn_Mindcrusher_Greatsword_Passive;MAG_InitiativeBonus_2_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryGraze;MAG_Githborn_Mindcrusher_Greatsword_Passive;MAG_InitiativeBonus_2_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
       </fields>
@@ -4319,7 +4321,7 @@
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Radiant)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Light_MoonlightGlaive_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryGraze;MAG_Light_MoonlightGlaive_Passive;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4418,7 +4420,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="9ea200ec-dc51-48b1-a989-8b3c5b98bf1f" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e76b0896-dc70-4fb9-b202-cf5efc2de15a" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Sarevok_OfChaos_Greatsword_Leeching_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryGraze;MAG_Sarevok_OfChaos_Greatsword_Leeching_Passive;" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
       </fields>
@@ -4429,7 +4431,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_BG_Sarevok_OfChaos_Greatsword_NoPassives" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="bf87dee2-d169-48ec-b858-61223b7a12be" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ed8c8311-fb23-4620-95a9-8f2b24e10c91" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryGraze;" />
         <field name="Boosts" type="StringTableFieldDefinition" value="CannotBeDisarmed()" />
       </fields>
     </stat_object>
@@ -4539,7 +4541,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="4290eddc-b607-45e5-b4cf-55f88ae1b66b" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="89f511d6-6d36-4480-9ee8-6e0145c960ef" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_ElementalWeapon)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_BG_DragonsBreath_Glaive_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryGraze;MAG_BG_DragonsBreath_Glaive_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
       </fields>
@@ -4763,7 +4765,7 @@
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(3);WeaponProperty(Magical)" />
         <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_Mindcrush)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Legendary_PsionicWeapon_Passive;MAG_Legendary_PsionicResistance_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryGraze;MAG_Legendary_PsionicWeapon_Passive;MAG_Legendary_PsionicResistance_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
       </fields>
@@ -4872,7 +4874,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_TheWoundSeeker_Greatsword" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d7f4e614-dd3e-4cb6-84ca-9f9a02634058" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="56316970-8adb-4936-8c73-9d8a7c41a8a4" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_TheWoundSeeker_Greatsword_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryGraze;MAG_TheWoundSeeker_Greatsword_Passive;" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
       </fields>
@@ -5127,7 +5129,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0c3fcc8d-bf4b-4f65-95ec-a5d1030afe66" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_MonsterSlayer_Passive;MAG_JumpBoost_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryGraze;MAG_MonsterSlayer_Passive;MAG_JumpBoost_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
