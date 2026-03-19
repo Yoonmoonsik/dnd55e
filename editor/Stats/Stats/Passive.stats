@@ -53,7 +53,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryCleave_10" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb60d9b3bg491bg7056g1bd9gc752b67bfd56" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h57100728g823cg76f4g4795g878063b680ae" version="2" />
-        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleave_New" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9000" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
@@ -78,8 +78,22 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h240aa2f4g6571ge23eg8142g83ee7b985b8d" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h0fbee9aag6abeg6294g3fd8gbeb26ffd19f6" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Slash" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeWeaponAttack() and IsMiss();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(WeaponAttackRollAbility(Ability.Strength)):DealDamage(StrengthModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Dexterity)):DealDamage(DexterityModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Intelligence)):DealDamage(IntelligenceModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Wisdom)):DealDamage(WisdomModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Charisma)):DealDamage(CharismaModifier, MainMeleeWeaponDamageType)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="483cb96d-db7e-4d80-801c-cd7d1ec0d7cb" />
+        <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryPush" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c58896d9-e503-4967-8c2f-afb00d7cc4c0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h64e7021cg8b69g3f60gde38gd59f3cdc5846" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h694f6a66g0531g98f0ga23eg525e146eb4d7" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_PushingAttack_Ranged" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="AttackedWithPassiveSourceWeapon() and IsWeaponAttack() and not IsMiss();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:IF(TargetSizeEqualOrSmaller(Size.Large)):Force(3);" />
       </fields>
     </stat_object>
   </stat_objects>
