@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="4fcdf163-88be-40b5-bf02-680ac5d776d9">
+  <stat_objects>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0b7b2417-a684-4000-b3a8-46d0dba784bf" />
+        <field name="Name" type="NameTableFieldDefinition" value="__BARBARIAN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0f3a7657-4168-438d-8591-764712f1df52" />
+        <field name="Name" type="NameTableFieldDefinition" value="TigersBloodlust" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a1f9530f-64f0-4967-9913-df4b3341530e" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

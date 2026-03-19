@@ -142,7 +142,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="RecklessAttackAction" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c1bb1604-4093-4f1a-9e34-61ee973747c9" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_RecklessAttack" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('Barbarian_9_BrutalStrike',context.Source)):DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);IF(HasPassive('Barbarian_9_BrutalStrike',context.Source)):DealDamage(1d10+MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('Barbarian_9_BrutalStrike',context.Source) and not HasStatus('RAGE_FRENZY',context.Source) and not HasStatus('RAGE_FRENZY_2',context.Source)):DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);IF(not HasPassive('Barbarian_9_BrutalStrike',context.Source) and HasStatus('RAGE_FRENZY',context.Source)):DealDamage(MainMeleeWeapon+2d6,MainMeleeWeaponDamageType);IF(not HasPassive('Barbarian_9_BrutalStrike',context.Source) and HasStatus('RAGE_FRENZY_2',context.Source)):DealDamage(MainMeleeWeapon+3d6,MainMeleeWeaponDamageType);IF(HasPassive('Barbarian_9_BrutalStrike',context.Source) and not HasStatus('RAGE_FRENZY',context.Source) and not HasStatus('RAGE_FRENZY_2',context.Source)):DealDamage(MainMeleeWeapon+1d10,MainMeleeWeaponDamageType);IF(HasPassive('Barbarian_9_BrutalStrike',context.Source) and HasStatus('RAGE_FRENZY',context.Source)):DealDamage(MainMeleeWeapon+1d10+2d6,MainMeleeWeaponDamageType);IF(HasPassive('Barbarian_9_BrutalStrike',context.Source) and HasStatus('RAGE_FRENZY_2',context.Source)):DealDamage(MainMeleeWeapon+1d10+3d6,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -151,7 +151,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="RecklessAttackForcefulBlow" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8b14bc2f-a3b2-4f7b-8070-bc3d33a3b982" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasPassive('Barbarian_9_BrutalStrike',context.Source);" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d10+MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);TARGET:Force(4.5);ApplyStatus(SELF,RECKLESSATTACK_FORCEFULBLOW,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasStatus('RAGE_FRENZY',context.Source) and not HasStatus('RAGE_FRENZY_2',context.Source)):DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);IF(HasStatus('RAGE_FRENZY',context.Source)):DealDamage(MainMeleeWeapon+2d6,MainMeleeWeaponDamageType);IF(HasStatus('RAGE_FRENZY_2',context.Source)):DealDamage(MainMeleeWeapon+3d6,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);TARGET:Force(4.5);ApplyStatus(SELF,RECKLESSATTACK_FORCEFULBLOW,100,1);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_PushingAttack_Melee" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf41a9d96ge143g36f0g9f1eg51d9ca5a4cee" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hab5f59ebgf7a8g70bag4453g8c9195f80563" version="1" />
@@ -166,11 +166,67 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6c0efa22-a3ca-44a1-bb7d-0a49411af180" />
         <field name="Name" type="NameTableFieldDefinition" value="RecklessAttackHamstringBlow" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="de3b6fc4-fbc9-49f7-b3fa-9de39e281a5c" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d10+MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);ApplyStatus(RECKLESSATTACK_HAMSTRINGBLOW,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasStatus('RAGE_FRENZY',context.Source) and not HasStatus('RAGE_FRENZY_2',context.Source)):DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);IF(HasStatus('RAGE_FRENZY',context.Source)):DealDamage(MainMeleeWeapon+2d6,MainMeleeWeaponDamageType);IF(HasStatus('RAGE_FRENZY_2',context.Source)):DealDamage(MainMeleeWeapon+3d6,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);ApplyStatus(RECKLESSATTACK_HAMSTRINGBLOW,100,1);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_CripplingStrike" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hebd8f833g052cg4774g5e19geb34be606a5f" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h0eff4b2bgeb61g4e62ga1ffg3b4f777317e1" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RECKLESSATTACK_HAMSTRINGBLOW,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="363c45ca-5041-44b6-a0fc-7ba85cc8562a" />
+        <field name="Name" type="NameTableFieldDefinition" value="BootOfTheGiants" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SLEEP);RemoveStatus(SLEEPING);RemoveStatus(SG_Sleeping);" />
+        <field name="TargetCeiling" type="StringTableFieldDefinition" value="0" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" value=".25" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="ShoveCheck()" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not Ally()):Force(ShoveDistance,OriginToEntity,Aggressive);IF(Ally()):Force(ShoveDistance,OriginToEntity,Friendly);DealDamage(UnarmedDamage , Bludgeoning)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL, 100, 0)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and CanBarbarianGiantShoveWeight() and IsMovable() and not Grounded() and not Tagged('GASEOUS_FORM') and not (not Player(context.Source) and Combat(context.Source) and Character() and not (Enemy() or HasStatus('SG_Unconscious'))) and not Tagged('CANT_SHOVE_THROW')" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_BootOfTheGiants" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc8de1446g6777ge942g7572g5cd9d6cc8f14" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf411e734g4162g32ddg2c68g075dce673ed3" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h5acf268bg7a2dgd7c7g4d2dg20caffe2e8a4" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning)" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Action_Prepare_Barbarian_BootoftheGiant" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Action_Loop_Barbarian_BootoftheGiant" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Barbarian_BootoftheGiant" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Barbarian__BootoftheGiant" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="CanShoveWeight() and not Grounded()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="0319ca29-4024-4649-9278-3c1f20c5f023,,;d596d25b-39ea-45d4-8e76-1472370a9795,,;630e6a58-db97-4891-8d66-59a5d84976cc,,;eba905b9-3f5c-4bdf-9134-a04715d22307,,;b24b3f23-6d3a-43ce-ae3a-abfb44d26082,,;fc44649c-c5d5-43fd-86d8-e82bfc409012,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="AddFallDamageOnLand;IsHarmful;CombatLogSetSingleLineRoll;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="PhysicalDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="3d42c249-4367-487e-8065-d1b366e5e776" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="841e1745-638d-4d59-a099-ca732a7440d1" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="8cc6b039-af40-4716-b900-b9e5689b3071" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+        <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="Small" enumeration_type_name="SpellSoundMagnitude" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b5b34867-70ed-4967-94f2-c8acad3bb018" />
+        <field name="Name" type="NameTableFieldDefinition" value="WildMagicBarbarian_ExplodingFlumph" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8d70c997-94fa-4280-b502-e20252bd2684" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Force);Distance(3);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d6,Force)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="49a585fc-21c1-41db-9aa1-27925b081f66" />
+        <field name="Name" type="NameTableFieldDefinition" value="WildMagicBarbarian_Teleport" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f0d941a6-f68f-460b-9da3-24e0acd4da06" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -364,5 +364,47 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1011" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d0d3f7ac-e352-4b52-886d-4ae31f298aeb" />
+        <field name="Name" type="NameTableFieldDefinition" value="RageFrenzyUnlock" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a85ab313-6b4b-4d76-903c-23d30566ab0e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h784061e1gf2a8g748bg99cfg9e391dd4569c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd21b5d53gc033g82abgfcdag21730bb83c68" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="055ea642-bc03-4b78-8e63-94dc0dfe3cb5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MindlessRage" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="72d21e4c-f0af-4a73-891b-69202b2a3c42" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7f8570c9g2cd6g2327g3c99g18d5c393bf5e" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="48633a96-65d2-404f-9b9a-dbffeff59ef9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Berserker_10_Retaliation" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h42189866g05d1g89b4g6e9dg1f97d248b2a9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hde644cc1g1dc6g103bg095ege867e6fa22ad" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Riposte" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1110" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_Berserker_10_Retaliation);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a41204a9-784d-4aaa-8446-7f7026f0fc8f" />
+        <field name="Name" type="NameTableFieldDefinition" value="WildMagicBarbarian_MagicRetribution_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="399560ab-900b-42de-8deb-de7091b1d019" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6, Force)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,2d6, Force,Magical);ApplyStatus(SELF,PASSIVE_WILDMAGIC_MAGICRETRIBUTION_DEFENDER,100,0);ApplyStatus(PASSIVE_WILDMAGIC_MAGICRETRIBUTION_ATTACKER,100,0)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

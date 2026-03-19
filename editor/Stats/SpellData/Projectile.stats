@@ -50,5 +50,50 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(max(0,OffhandMeleeWeapon), OffhandMeleeWeaponDamageType);ExecuteWeaponFunctors(OffHand);" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="91f38c2f-b1ab-4119-9eb3-e300afc22161" />
+        <field name="Name" type="NameTableFieldDefinition" value="__BARBARIAN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7f8c2b73-f75f-498b-9ef7-4b879ef45d12" />
+        <field name="Name" type="NameTableFieldDefinition" value="DivingStrike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bc77bc11-8128-4ebd-b4ab-b9c7a21c0d9e" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and YDistanceToTargetGreaterOrEqual(1) and Character();" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsJump;IsHarmful;HasHighGroundRangeExtension;CombatLogSetSingleLineRoll;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2cdb12e9-7b79-4340-b884-f074d7247ecd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Totem_Tiger_Jump" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d6d9e619-ddd0-4a06-a3ac-f789a88126ea" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="Movement:3;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsJump;AddFallDamageOnLand;HasHighGroundRangeExtension;IgnoreVisionBlock;Stealth;Invisible;CannotTargetCharacter;CannotTargetItems;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="97b2bf4d-a686-45aa-818a-4cd0d3f30e59" />
+        <field name="Name" type="NameTableFieldDefinition" value="Flumph_Explosion" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="de30271f-538e-4581-bc4a-403e3f00ab94" />
+        <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d6,Force,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d6,Force)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6ed38122-9af8-4e8d-8a63-61cce986e289" />
+        <field name="Name" type="NameTableFieldDefinition" value="WildMagicBarbarian_LightBolt" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2e740ffc-592e-4ac0-9659-63839b1dd060" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, CalculateSpellDC(Ability.Constitution, context.Source))" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d6, Radiant,Magical);ApplyStatus(WILD_MAGIC_BARBARIAN_LIGHT_BOLT_BLINDED,100,1);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d6, Radiant)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -84,6 +84,144 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a2f1050c-5984-4d38-a23f-9370e339fc3f" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAGE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="855fb809-8a50-44a1-98fc-911b67ed0f33" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('RAGE_STOP_REMOVE')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="289ae400-2e43-42da-820a-0a6e71d640bd" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAGE_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="acbc7e3a-37f6-4972-8cbd-4a470a5188b9" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('RAGE_STOP_REMOVE')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="43022659-4f40-4af6-bd73-d941ca96cb4f" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAGE_FRENZY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c2a81972-3735-4010-bd6a-94640e031589" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(VFX_RAGE);BlockSpellCast();UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);IF(HasPassive('MindlessRage',context.Source)):StatusImmunity(SG_Frightened);IF(HasPassive('MindlessRage',context.Source)):StatusImmunity(SG_Charmed);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('RAGE_STOP_REMOVE')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8685e5c6-3619-4a84-b12d-5d1859ff8856" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAGE_FRENZY_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="706954e6-c666-47d5-903f-5a1669f1a47d" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(VFX_RAGE);BlockSpellCast();UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);IF(HasPassive('MindlessRage',context.Source)):StatusImmunity(SG_Frightened);IF(HasPassive('MindlessRage',context.Source)):StatusImmunity(SG_Charmed);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('RAGE_STOP_REMOVE')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="41eb5b0d-f7d7-474d-b6e8-6b3870d08cc4" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAGE_TOTEM_BEAR" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bfc99d24-1cc1-4a74-9883-c388a1a62db6" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_FerociousAppetite);Tag(VFX_RAGE);BlockSpellCast();UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);Resistance(Slashing, Resistant);Resistance(Piercing, Resistant);Resistance(Bludgeoning, Resistant);Resistance(Acid, Resistant);Resistance(Thunder, Resistant);Resistance(Fire, Resistant);Resistance(Lightning, Resistant);Resistance(Cold, Resistant);Resistance(Poison, Resistant);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('RAGE_STOP_REMOVE')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a44893d-64a1-40e7-9e6f-49423e421790" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAGE_TOTEM_BEAR_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fafa7062-d457-4d1c-b4cf-d9c91abda28b" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_FerociousAppetite);Tag(VFX_RAGE);BlockSpellCast();UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);Resistance(Slashing, Resistant);Resistance(Piercing, Resistant);Resistance(Bludgeoning, Resistant);Resistance(Acid, Resistant);Resistance(Thunder, Resistant);Resistance(Fire, Resistant);Resistance(Lightning, Resistant);Resistance(Cold, Resistant);Resistance(Poison, Resistant);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('RAGE_STOP_REMOVE')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dbb9248c-d4be-4745-8581-43c57f29f06b" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAGE_TOTEM_EAGLE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a10a2a2b-efe0-455d-a61b-e6a71f38fed4" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_DivingStrike);UnlockSpell(Shout_Dash_BonusAction);UnlockSpell(Shout_Totem_Eagle_Disengage_BonusAction);Tag(VFX_RAGE);BlockSpellCast();UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);IF(IsReactionAttack(context.Source)):Disadvantage(AttackTarget);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('RAGE_STOP_REMOVE')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="27ff25a6-7477-4379-b428-643b73640f35" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAGE_TOTEM_EAGLE_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e07616ff-039b-4556-a043-656cbb10d715" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_DivingStrike);UnlockSpell(Shout_Dash_BonusAction);UnlockSpell(Shout_Totem_Eagle_Disengage_BonusAction);Tag(VFX_RAGE);BlockSpellCast();UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);IF(IsReactionAttack(context.Source)):Disadvantage(AttackTarget);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('RAGE_STOP_REMOVE')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a076662f-c4b3-4c51-89f0-204b7f05dd6d" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAGE_TOTEM_ELK" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4e595aad-7af9-4711-8df7-3a19dee9f573" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Rush_Primal_Stampede);Tag(VFX_RAGE);BlockSpellCast();UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);ActionResource(Movement,4.5,0);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('RAGE_STOP_REMOVE')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="049e720d-57f7-4e9c-8398-33d47f48e57c" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAGE_TOTEM_ELK_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ef7e735-f74e-40aa-95e6-b62ebce1a661" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Rush_Primal_Stampede);Tag(VFX_RAGE);BlockSpellCast();UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);ActionResource(Movement,4.5,0);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('RAGE_STOP_REMOVE')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fc5dafaa-07bf-4245-9c9c-4fab025c487d" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAGE_TOTEM_TIGER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8ea35b3d-43cc-4a9b-90c5-f8d649f84ee3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_TigersBloodlust);UnlockSpell(Projectile_Totem_Tiger_Jump);Tag(VFX_RAGE);BlockSpellCast();UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);JumpMaxDistanceMultiplier(1.5);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('RAGE_STOP_REMOVE')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9ef26e38-3333-41e2-89b0-fa925de8ddc5" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAGE_TOTEM_TIGER_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dc23abba-6b88-47dd-901a-cda00aca6a76" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_TigersBloodlust);UnlockSpell(Projectile_Totem_Tiger_Jump);Tag(VFX_RAGE);BlockSpellCast();UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);JumpMaxDistanceMultiplier(1.5);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('RAGE_STOP_REMOVE')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e6164498-f2ee-4c91-b8fa-81eb41215408" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAGE_TOTEM_WOLF" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="32f72bb3-2447-436c-89be-6053d10c4029" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PackHowl_Barbarian);Tag(VFX_RAGE);BlockSpellCast();UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('RAGE_STOP_REMOVE')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e9f3206f-32c2-4ccb-83fd-3b716fd09f99" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAGE_TOTEM_WOLF_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7d168460-cd91-4cf2-84a0-2a0f546770e0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PackHowl_Barbarian);Tag(VFX_RAGE);BlockSpellCast();UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('RAGE_STOP_REMOVE')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a8d8c28d-a796-42be-9789-029324fae4ec" />
         <field name="Name" type="NameTableFieldDefinition" value="INSTINCTIVE_POUNCE" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h28d4b453gc36cg810egf9e2g1dbff5d018d8" version="1" />
@@ -127,6 +265,68 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Restrained;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Negative" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="d787f666-8ee6-4185-9365-6aac9ebe76ae" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e3675ea1-5293-4509-bbe1-81900b02d3f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILD_MAGIC_BARBARIAN_VINE_GROWTH" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="56a50aa2-783c-4a82-acdd-a4858034c329" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="13255b54-c12a-41da-a343-8d1f2b9b08a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILD_MAGIC_BARBARIAN_PROTECTIVE_LIGHTS_AURA" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="580e3e39-cbd4-4f3e-8ced-983c7738674e" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0e7ef600g82aegeba0g077eg2ddad69731f8" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AC(2);IF(HasStatus('RAGE_2')):AC(1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c4c17edb-f81f-4ee8-a983-53ca97034d1a" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILD_MAGIC_BARBARIAN_MAGIC_RETRIBUTION" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ec798289-8989-46b1-a176-bb54a102fd7a" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Force)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4eff1729-30e9-4487-bb8e-53383c12b0e6" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILD_MAGIC_BARBARIAN_WEAPON_INFUSION" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3b036da9-1936-4ee3-8e93-d12137b77d96" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Force)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ItemReturnToOwner();WeaponProperty(Thrown);WeaponProperty(Light);WeaponDamage(2d6,Force);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7bd672bf-6633-48ef-938c-3b767846803f" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILD_MAGIC_BARBARIAN__EXPLODING_FLUMPH" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="403105dc-6c8c-4305-8960-a9f471427a51" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0b2ede7f-db17-40f1-9164-e836ec5b9143" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILD_MAGIC_BARBARIAN_TELEPORT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dbe176fd-ed68-4292-99a6-1e01718f5c2b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8cca92e6-e72e-41a1-9a38-d7bd48323501" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILD_MAGIC_BARBARIAN_LIGHT_BOLT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7ba0c9a8-faf7-4051-9006-43f69994dc00" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="819e6cc3-7eaf-4840-ad4c-c59aead3cbd6" />
+        <field name="Name" type="NameTableFieldDefinition" value="FLUMPH_EXPLODE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7f02da2c-8bda-41d1-a581-7f2e0744c356" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);DealDamage(2d6,Force)" />
       </fields>
     </stat_object>
   </stat_objects>

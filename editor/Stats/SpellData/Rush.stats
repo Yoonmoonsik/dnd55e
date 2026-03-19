@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="bbe0e72e-fa2a-41d2-be9a-c604af561421">
+  <stat_objects>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="820a94f6-7ded-495d-8394-805df4093c90" />
+        <field name="Name" type="NameTableFieldDefinition" value="__BARBARIAN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a166eebb-8db2-49c2-b4d3-a72382f3f18f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Primal_Stampede" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="18d9b6dd-27cf-4d63-8c4c-b863dfd6bfb3" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage,Bludgeoning);TARGET:IF(not SavingThrow(Ability.Strength,10+GetModifier(context.Source.Strength))):ApplyStatus(PRONE,100,2);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage,Bludgeoning)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;AddFallDamageOnLand;CanAreaDamageEvade;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

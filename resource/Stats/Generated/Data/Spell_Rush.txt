@@ -1,0 +1,12 @@
+new entry "Rush___BARBARIAN__"
+type "SpellData"
+data "SpellType" "Rush"
+
+new entry "Rush_Primal_Stampede"
+type "SpellData"
+data "SpellType" "Rush"
+using "Rush_Primal_Stampede"
+data "SpellSuccess" "DealDamage(UnarmedDamage,Bludgeoning);TARGET:IF(not SavingThrow(Ability.Strength,10+GetModifier(context.Source.Strength))):ApplyStatus(PRONE,100,2);"
+data "TooltipDamageList" "DealDamage(UnarmedDamage,Bludgeoning)"
+data "SpellFlags" "IsHarmful;AddFallDamageOnLand;CanAreaDamageEvade;Temporary"
+

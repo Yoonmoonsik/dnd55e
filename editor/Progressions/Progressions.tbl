@@ -160,5 +160,144 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Rage,1,0)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_58" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5ce67263-04f2-4ede-b30a-2eb962d828f2" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b2a03b63-809f-4df9-a179-bf5b899082ef" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BerserkerPath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RageFrenzyUnlock" />
+        <field name="PassivesRemoved" type="StringTableFieldDefinition" value="RageUnlock" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_195" />
+        <field name="UUID" type="IdTableFieldDefinition" value="27a1114c-3f84-4f47-8544-865e91db8d0f" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b2a03b63-809f-4df9-a179-bf5b899082ef" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BerserkerPath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="MindlessRage" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_55" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ad9a37aa-bc2d-4024-9b5f-5aaf330cb25c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b2a03b63-809f-4df9-a179-bf5b899082ef" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BerserkerPath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Berserker_10_Retaliation" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_59" />
+        <field name="UUID" type="IdTableFieldDefinition" value="42329ce3-0fb3-43a3-a0b4-79584c6877e7" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="48f1760f-86e7-401c-ad52-633fffbae49e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TotemWarriorPath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesRemoved" type="StringTableFieldDefinition" value="RageUnlock" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(4acd9ef6-719d-4248-90ae-0cb66da87c6a)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_67" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6777c3c3-5f17-4d49-8da7-0f0b8b380d06" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="48f1760f-86e7-401c-ad52-633fffbae49e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TotemWarriorPath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_169" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0fe6f4ec-8601-462d-a233-53fc0ad62513" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="48f1760f-86e7-401c-ad52-633fffbae49e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TotemWarriorPath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_21" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0b05af61-85e4-4183-8422-6c8ced307d7a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="48f1760f-86e7-401c-ad52-633fffbae49e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TotemWarriorPath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(fb9ea4a2-a1ce-4242-a893-84a088ac1145,1,AspectOfTheBeast)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_24" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bbc1564b-4688-484f-84f3-1b3b02173bab" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="48f1760f-86e7-401c-ad52-633fffbae49e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TotemWarriorPath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_150" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6de45010-ac1e-420d-ab84-31146c14dada" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="48f1760f-86e7-401c-ad52-633fffbae49e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TotemWarriorPath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="LandsStride_DifficultTerrain;LandsStride_Surfaces;LandsStride_Advantage" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_151" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dfb1038e-9178-475e-abdc-19f0cba244cb" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="48f1760f-86e7-401c-ad52-633fffbae49e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TotemWarriorPath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_23" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8013e565-55a5-4847-8ebc-e2971e25151e" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="48f1760f-86e7-401c-ad52-633fffbae49e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TotemWarriorPath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(fb9ea4a2-a1ce-4242-a893-84a088ac1145,1,AspectOfTheBeast)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_153" />
+        <field name="UUID" type="IdTableFieldDefinition" value="55fd65cf-928d-4ed6-b35e-76422bb0d196" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="48f1760f-86e7-401c-ad52-633fffbae49e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TotemWarriorPath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_155" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7521f3eb-efa9-4d40-9f65-e6ff247a9ee8" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="48f1760f-86e7-401c-ad52-633fffbae49e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="TotemWarriorPath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
