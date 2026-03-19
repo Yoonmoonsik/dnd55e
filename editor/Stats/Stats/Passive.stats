@@ -120,5 +120,16 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:ApplyStatus(WEAPONMASTERY_SLOW,100,1)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="270a5cf8-5d45-42be-a1f1-c3eb2f30caca" />
+        <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryTopple" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="483cb96d-db7e-4d80-801c-cd7d1ec0d7cb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha395ebeag3995g70fage1d7g718229b74f9b" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h5af643b9gd1b7g259cg51cegf17292ec2f43" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Topple" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:IF(not SavingThrow(Ability.Constution, ManeuverSaveDC())):ApplyStatus(PRONE,100,1)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
