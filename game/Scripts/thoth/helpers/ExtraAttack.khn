@@ -1,0 +1,7 @@
+function ExtraAttackSpellCheck()
+    return HasStringInSpellRoll('ShoveCheck') | HasStringInSpellRoll('WeaponAttack') | HasStringInSpellRoll('UnarmedAttack') | HasStringInSpellRoll('ThrowAttack') | SpellId('Target_CommandersStrike') | SpellId('Target_Bufotoxin_Frog_Summon') | SpellId('Projectile_ArrowOfSmokepowder') | SpellId('Projectile_ArcaneShot_SeekingArrow') | SpellId('Zone_ArcaneShot_PiercingArrow')
+end
+
+function ExtraAttackCheck()
+    return ExtraAttackSpellCheck() & HasUseCosts('ActionPoint',false)
+end

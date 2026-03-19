@@ -38,19 +38,47 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3fba017e-7d68-4ad4-a926-61cbdbe60510" />
         <field name="Name" type="NameTableFieldDefinition" value="Shove" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="71a1860f-95ef-4b18-b8d8-9394adcfe37a" />
-        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_ShovePush;Target_ShoveProne;" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb2e2d55-aef5-4d96-a881-7b5d5da09203" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_ShoveUnarmedAttack;Target_ShovePush;Target_ShoveProne;" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;AddFallDamageOnLand;IsHarmful;CombatLogSetSingleLineRoll;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsAttack;IsMelee;IsHarmful;DisableBlood;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="04508608-0500-4f78-8a4e-02f2fbbcc5b0" />
         <field name="Name" type="NameTableFieldDefinition" value="ShovePush" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="71a1860f-95ef-4b18-b8d8-9394adcfe37a" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Shove" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SLEEP);RemoveStatus(SLEEPING);RemoveStatus(SG_Sleeping);" />
+        <field name="TargetCeiling" type="StringTableFieldDefinition" value="0" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" value=".25" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="ShoveCheck()" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not Ally()):Force(ShoveDistance,OriginToEntity,Aggressive);IF(Ally()):Force(ShoveDistance,OriginToEntity,Friendly)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL, 100, 0)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and CanShoveWeight() and IsMovable() and not Grounded() and not Tagged('GASEOUS_FORM') and not (not Player(context.Source) and Combat(context.Source) and Character() and not (Enemy() or HasStatus('SG_Unconscious'))) and not Tagged('CANT_SHOVE_THROW')" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Shove" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h566b606eg4e52g452eg9313g703c8f77a44b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3921ea48g1ac9g4310gbd52gb7041dcee29f" version="7" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h0907f7c8g694cg45c2ga77fg06cc883b7a9d" version="3" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Start" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Shove" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="CanShoveWeight() and not Grounded()" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="0319ca29-4024-4649-9278-3c1f20c5f023,,;a71e11ca-95ab-463d-a4bf-fe8094126b61,,;352c3a89-f99c-4472-8424-58c0ffb15e55,,;a57fc614-ed20-4574-936b-bdcc6cebd36a,,;b24b3f23-6d3a-43ce-ae3a-abfb44d26082,,;200ab854-a989-4a6a-8ac9-4b20aecaccda,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;AddFallDamageOnLand;IsHarmful;CombatLogSetSingleLineRoll" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellActionType" type="EnumerationTableFieldDefinition" value="Shove" enumeration_type_name="SpellActionType" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="PhysicalDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Peaceful" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="c512042e-a04f-4a02-af7a-16f30e11ed95" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="3fdf3e73-59a3-4518-9521-35f40374d048" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="3fdf3e73-59a3-4518-9521-35f40374d048" />
+        <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="Small" enumeration_type_name="SpellSoundMagnitude" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -82,6 +110,14 @@
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="5d8c64e3-f9ff-4ee0-b0b6-2a081c7244a8" />
         <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="Small" enumeration_type_name="SpellSoundMagnitude" version="1" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0f04153e-0fd8-4084-8f4c-fa82a8419548" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShoveUnarmedAttack" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb2e2d55-aef5-4d96-a881-7b5d5da09203" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Shove" />
       </fields>
     </stat_object>
   </stat_objects>
