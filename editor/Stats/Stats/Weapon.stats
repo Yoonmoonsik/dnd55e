@@ -72,6 +72,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a086b825-8f17-4f0e-855b-178f8cdc515a" />
         <field name="Weight" type="FloatTableFieldDefinition" value="1.8" />
         <field name="ValueLevel" type="IntegerTableFieldDefinition" value="3" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -412,6 +413,7 @@
         <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Mauls;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5487ceb4-b009-46ae-8ed6-cd3baaf0a18d" />
         <field name="Weight" type="FloatTableFieldDefinition" value="4.5" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -460,6 +462,7 @@
         <field name="Weight" type="FloatTableFieldDefinition" value="1.8" />
         <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="0.3" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -608,6 +611,7 @@
         <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d10" />
         <field name="Weight" type="FloatTableFieldDefinition" value="1.8" />
         <field name="ValueLevel" type="IntegerTableFieldDefinition" value="2" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2593,7 +2597,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="4893bf4e-97e1-48e0-ada8-6bbf115ad68b" />
         <field name="Value" type="IntegerTableFieldDefinition" value="400" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="DEN_TunnelStaff_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;DEN_TunnelStaff_Passive;" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
@@ -2606,7 +2610,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="ceef0106-c68c-47bf-835f-be2b5bfaaf9c" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="13f6ff0c-08c4-4e9f-a624-511389b68dc2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_DEN_Entangle_Staff,,,,Wisdom)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="DEN_FaithwardenStaff_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;DEN_FaithwardenStaff_Passive;" />
         <field name="Value" type="IntegerTableFieldDefinition" value="600" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
@@ -2701,7 +2705,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="ceef0106-c68c-47bf-835f-be2b5bfaaf9c" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="baa8bd91-09ec-4c92-a0e1-4a5a9d4ea8ed" />
         <field name="Value" type="IntegerTableFieldDefinition" value="180" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="FOR_WebStaff_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;FOR_WebStaff_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
@@ -2829,6 +2833,7 @@
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;WeaponMasteryTopple;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2901,7 +2906,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="62da3651-f2e4-4371-b5f2-fd06dd705030" />
         <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="UND_SocietyOfBrilliance_ResonanceStaff_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;UND_SocietyOfBrilliance_ResonanceStaff_Passive;" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
@@ -2985,7 +2990,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="da0ba39a-366d-456b-8dbd-1c5790ca40bf" />
         <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_UND_Bless_StaffBlessMystra)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="UND_Tower_StaffBlessMystra_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;UND_Tower_StaffBlessMystra_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
@@ -3120,7 +3125,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="f214856c-402e-4dcb-998f-037574d1b68a" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2f481fef-1877-4eac-820d-dc3210ff0b36" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicWeapons" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="UNI_DoomAxe_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;UNI_DoomAxe_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
         <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
@@ -3149,7 +3154,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="ceef0106-c68c-47bf-835f-be2b5bfaaf9c" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="48b4f49b-2937-4664-ac87-7db2c64d09c9" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicArcane" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_UnarmedEnchantment_1_Passive;UNI_RepeatStaff_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_UnarmedEnchantment_1_Passive;UNI_RepeatStaff_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
         <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
@@ -3165,7 +3170,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="cab10a42-8c85-459a-9d68-b4836388c022" />
         <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Cold_IncreaseColdDamageOnCast_Passive;MAG_Cold_ChilledOnSpellDamage_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_Cold_IncreaseColdDamageOnCast_Passive;MAG_Cold_ChilledOnSpellDamage_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_MAG_RayOfFrost_Staff)" />
@@ -3300,7 +3305,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="f214856c-402e-4dcb-998f-037574d1b68a" />
         <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Mobility_ExplosionOnJump_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_Mobility_ExplosionOnJump_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="efb003c3-af98-43d7-bcf4-af29702fb531" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
@@ -3389,7 +3394,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9643f2f7-1354-45d3-857b-e88b7fe1447e" />
         <field name="Name" type="NameTableFieldDefinition" value="MAG_ChargedLightning_Trident" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2e58a363-10d1-4445-ba0a-a783d2393e30" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_ChargedLightning_Charge_OnDamage_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_ChargedLightning_Charge_OnDamage_Passive;" />
         <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
@@ -3403,7 +3408,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4d35eb7c-11fe-4077-b765-fc7cf1b93825" />
         <field name="Name" type="NameTableFieldDefinition" value="MAG_ChargedLightning_Quarterstaff" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ceef0106-c68c-47bf-835f-be2b5bfaaf9c" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_ChargedLightning_Charge_OnSpellDamage_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_ChargedLightning_Charge_OnSpellDamage_Passive;" />
         <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
@@ -3632,7 +3637,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_CQCaster_GainArcaneChargeOnDamage_Quarterstaff" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ceef0106-c68c-47bf-835f-be2b5bfaaf9c" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="26c24ccf-8f4a-44a9-ba56-e1d8e9d49ae3" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_CQCaster_GainArcaneChargeOnDamage_Quarterstaff_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_CQCaster_GainArcaneChargeOnDamage_Quarterstaff_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
@@ -3755,7 +3760,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="c47a8c9e-d6bb-4984-837e-1e4d39d0abe6" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_Critical_Critical_Combo)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Critical_DoneCritical_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_Critical_DoneCritical_Passive;" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="35465a58-d21d-46b4-a429-64d187b0781f" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
@@ -4010,7 +4015,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2e58a363-10d1-4445-ba0a-a783d2393e30" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="657678f2-5924-4d8e-b8ce-a2079154c91b" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_LC_Wave_Trident_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_LC_Wave_Trident_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
       </fields>
@@ -4033,7 +4038,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="24430d4d-2519-453f-87b4-72afd240a2cb" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="518d1630-d2bf-4dca-8c24-9d7ba9d529f3" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_MAG_WarlockSpellRestoration)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_ArcaneEnchantment_Lesser_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_ArcaneEnchantment_Lesser_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
       </fields>
@@ -4067,7 +4072,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="24430d4d-2519-453f-87b4-72afd240a2cb" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="cf42b0d0-89d8-4756-b6d7-1e258dceeab0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF (Tagged('PLAYABLE',context.Source)): UnlockSpell(Target_MAG_Blight)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_ArcaneEnchantment_Lesser_Passive;MAG_LC_CazadorVampiric_Quarterstaff_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_ArcaneEnchantment_Lesser_Passive;MAG_LC_CazadorVampiric_Quarterstaff_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
@@ -4149,7 +4154,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_LC_Lorroakan_Quarterstaff" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="24430d4d-2519-453f-87b4-72afd240a2cb" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e8eca87d-e01f-40d3-8097-a787602f1dc9" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_ArcaneEnchantment_Lesser_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_ArcaneEnchantment_Lesser_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
       </fields>
@@ -4231,7 +4236,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="c47a8c9e-d6bb-4984-837e-1e4d39d0abe6" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c77553e2-f192-4835-baa9-bdfb63521532" />
         <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_SilencingBlade)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Spellbreaker_Battleaxe_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_Spellbreaker_Battleaxe_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
       </fields>
@@ -4349,7 +4354,7 @@
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_CounterSpell)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_LC_Counterspell_Quarterstaff_Resource_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_LC_Counterspell_Quarterstaff_Resource_Passive;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4358,7 +4363,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_LC_OfTheRam_Quarterstaff" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="24430d4d-2519-453f-87b4-72afd240a2cb" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="be48362b-f8f7-499d-ae64-156374852387" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_StaffOFRam_KnockStun_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_StaffOFRam_KnockStun_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
@@ -4532,7 +4537,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_Fire_HeatOnWeaponDamage_Battleaxe" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c47a8c9e-d6bb-4984-837e-1e4d39d0abe6" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b8f28da8-f8f5-4679-8c5f-ecc505811208" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Fire_HeatOnWeaponDamage_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_Fire_HeatOnWeaponDamage_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
@@ -4590,7 +4595,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="END_Emperor_Staff" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="24430d4d-2519-453f-87b4-72afd240a2cb" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ff63ca4a-a990-43dc-a28b-c6bed7bfa617" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_ArcaneEnchantment_Lesser_Passive;MAG_END_PsychicRetaliation_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_ArcaneEnchantment_Lesser_Passive;MAG_END_PsychicRetaliation_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
       </fields>
@@ -4623,7 +4628,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_Vicious_Battleaxe" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="aa3d8380-adc7-4a47-abef-9decf7ffd712" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="3ff89075-1ef3-487e-b456-a1b536fd681a" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Vicious_Weapon_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_Vicious_Weapon_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
       </fields>
@@ -4706,7 +4711,7 @@
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(3);WeaponProperty(Magical)" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_TheThorns_ExplosiveThrowing_Passive;MAG_TheThorns_VeilOfTheWind_Passive;MAG_Light_TheThorns_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_TheThorns_ExplosiveThrowing_Passive;MAG_TheThorns_VeilOfTheWind_Passive;MAG_Light_TheThorns_Passive;" />
         <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Rush_MAG_ZephyrFlash);UnlockSpell(Zone_MAG_ZephyrBreak)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
       </fields>
@@ -4718,7 +4723,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="24430d4d-2519-453f-87b4-72afd240a2cb" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7e39ad11-f8c3-421a-940c-05348c420c7d" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_ArcaneEnchantment_Lesser_Passive;MAG_Legendary_Chromatic_Spellslot_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_ArcaneEnchantment_Lesser_Passive;MAG_Legendary_Chromatic_Spellslot_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_MAG_TheChromatic_ChromaticAttunement)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
@@ -4792,7 +4797,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_OfSpellPower_Quarterstaff" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="24430d4d-2519-453f-87b4-72afd240a2cb" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d09685e8-0122-4ecb-8e9d-2f6f1850427e" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_ArcaneEnchantment_Lesser_Passive;MAG_MagicItemPoweredCast_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_ArcaneEnchantment_Lesser_Passive;MAG_MagicItemPoweredCast_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
@@ -4808,7 +4813,7 @@
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_MAG_ArmsOfHadar_3)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Heightened_Necromancy_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_Heightened_Necromancy_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
@@ -4818,7 +4823,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_GreaterNecromancy_Staff" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="24430d4d-2519-453f-87b4-72afd240a2cb" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ecb02247-a407-445e-8046-856133d198bf" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Heightened_Necromancy_Passive;MAG_GreaterNecromancyStaff_LifeEssenceHarvest_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_Heightened_Necromancy_Passive;MAG_GreaterNecromancyStaff_LifeEssenceHarvest_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
@@ -4950,7 +4955,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1e8e2d4d-904d-4367-ad28-30012915f458" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_MAG_MelfsMagicArrow)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_ArcaneEnchantment_Lesser_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_ArcaneEnchantment_Lesser_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
@@ -5060,7 +5065,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d2d5141a-9804-49b6-96e2-5738d85feffa" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_BoundToBeBonded_Passive;MAG_Bound_Throwing_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_BoundToBeBonded_Passive;MAG_Bound_Throwing_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
@@ -5337,7 +5342,7 @@
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_IgnoreBludgeoningResistance_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_IgnoreBludgeoningResistance_Passive;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
