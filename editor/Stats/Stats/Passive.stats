@@ -106,6 +106,18 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haf74199bg92cbg93dega0fbgebb535603f83" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h6846e460g6aecg1e76g52c0g8c751abe8744" version="1" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:ApplyStatus(WEAPONMASTERY_SAP,100,1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_ConcussiveSmash" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="50fcf3d9-d232-4860-a10c-b6dd0ff9f570" />
+        <field name="Name" type="NameTableFieldDefinition" value="WeaponMasterySlow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="483cb96d-db7e-4d80-801c-cd7d1ec0d7cb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb839de91gb995ge42eg62b9g1dd41fe4da4b" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h7773a857g54d9g0e61gc338g5671eef1378d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_HamstringShot" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:ApplyStatus(WEAPONMASTERY_SLOW,100,1)" />
       </fields>
     </stat_object>
   </stat_objects>
