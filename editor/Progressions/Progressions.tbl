@@ -1270,5 +1270,119 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(154b461e-23c2-4147-97fd-b7892f031a50,ClericTrickeryDomainSpells,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_40" />
+        <field name="UUID" type="IdTableFieldDefinition" value="61eb9c49-e4c7-42f1-a6e6-9d059eb71669" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8f6048bc-47b8-49fa-956a-8a364807f6ec" />
+        <field name="FSName" type="StringTableFieldDefinition" value="WarDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(e785b163-bff3-4134-978c-20b654dc7203,ClericWarDomainSpells,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="WarPriest" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarPriestActionPoint,3,0);Proficiency(HeavyArmor);Proficiency(MartialWeapons)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_253" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2f5c8f13-a61c-4008-8a0e-83d51894e086" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8f6048bc-47b8-49fa-956a-8a364807f6ec" />
+        <field name="FSName" type="StringTableFieldDefinition" value="WarDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(4d04d97b-1bb6-4b1e-945b-be230335ede7,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_235" />
+        <field name="UUID" type="IdTableFieldDefinition" value="59fd6b2d-dcf6-4aa2-a439-22700f68b68b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8f6048bc-47b8-49fa-956a-8a364807f6ec" />
+        <field name="FSName" type="StringTableFieldDefinition" value="WarDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(921a657e-e210-4657-9e65-1e9748626354,ClericWarDomainSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_236" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1f223e87-1921-47d3-afeb-3a339b5d0cca" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8f6048bc-47b8-49fa-956a-8a364807f6ec" />
+        <field name="FSName" type="StringTableFieldDefinition" value="WarDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(9846b998-4672-4427-821f-c3647aff5e22,ClericWarDomainSpells,,,AlwaysPrepared)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarPriestActionPoint,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_237" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ae84bf7c-cfc4-4fcc-a736-8ef20a8b976c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8f6048bc-47b8-49fa-956a-8a364807f6ec" />
+        <field name="FSName" type="StringTableFieldDefinition" value="WarDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="WarGodsBlessing" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_244" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a6de4198-b729-4105-a2da-163b925508c3" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8f6048bc-47b8-49fa-956a-8a364807f6ec" />
+        <field name="FSName" type="StringTableFieldDefinition" value="WarDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(4c779ace-7ff1-461c-abc4-13182424b89a,ClericWarDomainSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_245" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bb079588-93de-40de-bf1f-2718b1e08512" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8f6048bc-47b8-49fa-956a-8a364807f6ec" />
+        <field name="FSName" type="StringTableFieldDefinition" value="WarDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(4935a640-e3ec-48f7-933b-512b72268e68,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Divine_Strike_War_Toggle" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarPriestActionPoint,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_246" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3939ff20-9ff5-43f0-bc1b-34bc4e4018db" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8f6048bc-47b8-49fa-956a-8a364807f6ec" />
+        <field name="FSName" type="StringTableFieldDefinition" value="WarDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(8e4db6a6-fbfd-42eb-9e76-de00c0e4517a,ClericWarDomainSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_92" />
+        <field name="UUID" type="IdTableFieldDefinition" value="53905c06-0af1-4c5d-a624-1074a7cb8d44" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8f6048bc-47b8-49fa-956a-8a364807f6ec" />
+        <field name="FSName" type="StringTableFieldDefinition" value="WarDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_93" />
+        <field name="UUID" type="IdTableFieldDefinition" value="247968f5-8b1a-4ff0-8ec0-a1cbea4b8aa6" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8f6048bc-47b8-49fa-956a-8a364807f6ec" />
+        <field name="FSName" type="StringTableFieldDefinition" value="WarDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarPriestActionPoint,1,0)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
