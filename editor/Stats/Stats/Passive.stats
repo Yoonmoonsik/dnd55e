@@ -629,6 +629,8 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3002" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_DivineSpark);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(ChannelDivinity,1,0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
