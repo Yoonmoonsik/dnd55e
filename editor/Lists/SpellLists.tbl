@@ -265,5 +265,39 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_GreaterRestoration;Target_CureWounds_Mass" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a322dbfe-69d0-421a-819a-4317b6c87a3b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric Light Domain channel divinity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="31037493-7a57-4dce-9412-4689c010199c" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Light Level 3 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_ScorchingRay;Shout_SeeInvisibility;Zone_BurningHands;Target_FaerieFire;Shout_RadianceOfTheDawn" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1a50d25a-27b5-4789-b2d6-532fac4437c6" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Light Level 5 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Daylight_Container;Projectile_Fireball" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="41ded14f-d752-42c0-8405-be0e7b0f2177" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Light Level 7 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_GuardianOfFaith;Wall_WallOfFire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5675d0b3-8a2c-4658-bfe3-42abbc0bdcfd" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Light Level 9 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_FlameStrike;Shout_DestructiveWave" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
