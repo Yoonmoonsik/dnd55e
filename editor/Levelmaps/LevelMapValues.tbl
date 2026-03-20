@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="2d56f038-865d-492c-b434-c2b3e821cc13">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="D8CantripCleric" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0cb5ba84-1f50-4a99-bd5f-4d5230d38f81" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level2" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level3" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level4" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level5" type="StringTableFieldDefinition" value="2d8" />
+        <field name="Level6" type="StringTableFieldDefinition" value="2d8" />
+        <field name="Level7" type="StringTableFieldDefinition" value="2d8" />
+        <field name="Level8" type="StringTableFieldDefinition" value="2d8" />
+        <field name="Level9" type="StringTableFieldDefinition" value="2d8" />
+        <field name="Level10" type="StringTableFieldDefinition" value="3d8" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="114e7aee-d1d4-4371-8d90-8a2080592faf" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="SpareTheDying" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3ade6cd6-c5c0-47da-a277-74097255517d" />
+        <field name="FallbackValue" type="StringTableFieldDefinition" value="1" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1" />
+        <field name="Level5" type="StringTableFieldDefinition" value="4" />
+        <field name="Level10" type="StringTableFieldDefinition" value="16" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

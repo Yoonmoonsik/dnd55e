@@ -30,6 +30,47 @@
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DODGE,100,1)" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ddffddcf-e01a-400b-83d4-b69369964c9e" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ABJURATION__" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="78762a53-23ce-44e7-831e-27019b8d953b" />
+        <field name="Name" type="NameTableFieldDefinition" value="__EVOCATION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f2b59a89-cbb3-4cb8-ba88-b4275fb6916b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WordOfRadiance" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Radiant,Magical);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Enemy() and Character()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_WordofRadiance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd085b0deg3cc9g0858gdf14geef98a4164c3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbb7ccd06g2737gdcf2gc167g21f32c9615fb" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(2)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Radiant,Magical);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_RadianceOfTheDawn" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_RadianceOfTheDawn" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="2f0d97b9-4a1f-4bf3-a3c2-32efb563d601,,;,,;70ddfd63-fc3f-45f4-b067-75389b85d540,,;90face3a-6607-4b3d-87e6-c6090b069160,,;57e449b3-b712-4508-afcf-f2e91dc473f6,,;,,;84f3727f-aabc-4e34-bf31-c6cd0160bec9,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Internal" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33d4ba61-8c76-4138-ac49-c33d279fb9c9" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="d837a631-a288-4047-929e-3533db129276" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="78ab57f2-edce-4697-8be4-7bf7c2e76f92" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Radiant" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c58d5984-d9d7-4f8c-97a7-449158f95b36" />

@@ -8,5 +8,19 @@
         <field name="Passives" type="StringTableFieldDefinition" value="HasWeaponMastery_Cleave,HasWeaponMastery_Graze,HasWeaponMastery_Nick,HasWeaponMastery_Push,HasWeaponMastery_Sap,HasWeaponMastery_Slow,HasWeaponMastery_Topple,HasWeaponMastery_Vex" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3ead5ccd-2598-42f4-85f2-370a93c0549f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DivineOrderList" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Cleric_DivineOrder_Protector,Cleric_DivineOrder_Thaumaturge_1,Cleric_DivineOrder_Thaumaturge_2,Cleric_DivineOrder_Thaumaturge_3,Cleric_DivineOrder_Thaumaturge_4,Cleric_DivineOrder_Thaumaturge_5,Cleric_DivineOrder_Thaumaturge_6,Cleric_DivineOrder_Thaumaturge_7,Cleric_DivineOrder_Thaumaturge_8,Cleric_DivineOrder_Thaumaturge_9," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db623e6f-18bf-45de-a99b-ccf145b574f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="BlessedStrikesList" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Cleric_7_BlessedStrikes_Radiant,Cleric_7_BlessedStrikes_Necrotic,Cleric_7_BlessedStrikes_PotentSpellcasting" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -101,7 +101,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h0fbee9aag6abeg6294g3fd8gbeb26ffd19f6" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Slash" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Graze', context.Source) andAttackedWithPassiveSourceWeapon() and IsWeaponAttack() and IsMiss();" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Graze', context.Source) and AttackedWithPassiveSourceWeapon() and IsWeaponAttack() and IsMiss();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(WeaponAttackRollAbility(Ability.Strength)):DealDamage(StrengthModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Dexterity)):DealDamage(DexterityModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Intelligence)):DealDamage(IntelligenceModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Wisdom)):DealDamage(WisdomModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Charisma)):DealDamage(CharismaModifier, MainMeleeWeaponDamageType)" />
         <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Graze', context.Source);" />
       </fields>
@@ -499,6 +499,185 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e5ca5b3e-b222-402d-97ec-20429940c924" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcc01542ag2ea8ge230g53b5g6bae54a352d2" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2203" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="66fe610b-11db-4906-b6ba-d2ed0a595376" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CLERIC__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5e7e73d4-3bb9-4ac2-856d-a279433766f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric_DivineOrder_Protector" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0dd0eba8g9b93g7909g9d9cg2a09e01a4c46" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h82c38cb3g39e6g13c8g7a26g5c63f737aa79" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_SacredWeapon" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3001" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(HeavyArmor);Proficiency(MartialWeapons);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c23a72e2-4bd5-4f3e-ad0a-d9a7994c2bf4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric_DivineOrder_Thaumaturge_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5e7e73d4-3bb9-4ac2-856d-a279433766f3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4d5b8b7cg1eddg15a0g6e0cgb4e68f50ee06" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd91012edgb1a6g4aabg14d4g0d685464de55" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h5eae110bgf170g8febg7b95gaf9957eab275" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_Guidance" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,WisdomModifier);Skill(Religion,WisdomModifier);UnlockSpell(Target_Guidance);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a1ad1c28-a4a8-4c88-aa70-2e413705614c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric_DivineOrder_Thaumaturge_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c23a72e2-4bd5-4f3e-ad0a-d9a7994c2bf4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h865f785bge303g1b8ag2f0egee91191a55fd" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf42e4215gdaa7g8b2cg6d6cg34b3a7233576" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Light" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,WisdomModifier);Skill(Religion,WisdomModifier);UnlockSpell(Target_Light);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1349b750-dc3f-4ec3-8cd7-2d73b8947570" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric_DivineOrder_Thaumaturge_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c23a72e2-4bd5-4f3e-ad0a-d9a7994c2bf4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0bfe486dga99eg5aefg818agacd35ff6e130" version="2" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h08e84982gdf0fgadf1g29d5g02cc8281827c" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_BurstingSinew" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,WisdomModifier);Skill(Religion,WisdomModifier);UnlockSpell(Target_BurstingSinew);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="117c2b2a-5fbd-4d55-bc3e-7eaf1edefe26" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric_DivineOrder_Thaumaturge_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c23a72e2-4bd5-4f3e-ad0a-d9a7994c2bf4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd5ac78c8g2d8cg02bag6ebbg2f9ccd67bc36" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf2980afegb1f3g08e3g5b30g296c1e8141b7" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_Resistance" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,WisdomModifier);Skill(Religion,WisdomModifier);UnlockSpell(Target_Resistance);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a369bea8-82e3-49f5-b428-68af23658753" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric_DivineOrder_Thaumaturge_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c23a72e2-4bd5-4f3e-ad0a-d9a7994c2bf4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h63c03147gca42g60bdgfa7ag47ceb695bc38" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h3dc64960ga68egb106gddd9g8a83f2e5394a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_SacredFlame" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,WisdomModifier);Skill(Religion,WisdomModifier);UnlockSpell(Target_SacredFlame);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b8c783f-686a-470c-9656-9a722bfa5720" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric_DivineOrder_Thaumaturge_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c23a72e2-4bd5-4f3e-ad0a-d9a7994c2bf4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf2f5e5c4g141ag2b8egb90cg9ff6727b6910" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h37124d24g1b0dg1b86g632dg14623f5d21b6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_SpareTheDying" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,WisdomModifier);Skill(Religion,WisdomModifier);UnlockSpell(Target_SpareTheDying);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e7643146-2ffd-4d54-aa99-f6a4ea0f8bc4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric_DivineOrder_Thaumaturge_7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c23a72e2-4bd5-4f3e-ad0a-d9a7994c2bf4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h50136471gff21g505fg888cgf856fc01281a" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h31c6269fga1bfge0a9gb4bfg7f845b81b38a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Thaumaturgy" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,WisdomModifier);Skill(Religion,WisdomModifier);UnlockSpell(Shout_Thaumaturgy);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1a1ae8e9-faad-4cd0-a33e-88954869c91a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric_DivineOrder_Thaumaturge_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c23a72e2-4bd5-4f3e-ad0a-d9a7994c2bf4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9b0eeaeeg6a13gc99dg6669gc97c57ec0db5" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h4d2d81f9g6a4cg493ege377gd246536aefa0" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_TollOfTheDead" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,WisdomModifier);Skill(Religion,WisdomModifier);UnlockSpell(Target_TollTheDead);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="49e86af1-314f-4cc5-9f1b-f9210b1e62d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric_DivineOrder_Thaumaturge_9" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c23a72e2-4bd5-4f3e-ad0a-d9a7994c2bf4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc0f7da49g83b0g2364gd22fg0e72e6d0f671" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hbdf4d91ege560gf373gb78fgc694716131ec" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_WordofRadiance" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,WisdomModifier);Skill(Religion,WisdomModifier);UnlockSpell(Shout_WordOfRadiance);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cf7b9846-c6c4-4166-801c-97ba76c2bb85" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric_2_ChannelDivinity" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h84a7d362gf65ag0f66g6103g7d1f4fc707d2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h619804afg28a4g6f48g9db2gb39ec7c1d073" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_DivineFavor" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3002" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_DivineSpark);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9324bcfa-6b45-4cbc-b042-bf9669e020c6" />
+        <field name="Name" type="NameTableFieldDefinition" value="DestroyUndead" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a27e6faa-a00c-4193-be4d-e0c7d57f40c3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb6ac0f1cg84d4g5137g1a23g92f5941f06dc" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d8,Radiant)" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3005" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(UNDEAD_FORTITUDE_DISABLED,100,0);DealDamage(4d8,Radiant,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="be1a9a3f-8aac-4984-9d7e-ec043dfda8cb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric_7_BlessedStrikes_Radiant" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb1119630g31c7g738eg4a76g56eb77fe86bc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb14ca27eg593ag392fgab27g2186f2a37316" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Radiant_Melee" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3007" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack() and not IsMiss();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8,Radiant)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8dc60565-c487-43e0-a322-7072a777d07c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric_7_BlessedStrikes_Necrotic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="be1a9a3f-8aac-4984-9d7e-ec043dfda8cb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha5f17982g16bdg018bg655eg1db1622f5096" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd61761e0gbebfg6542gac8bgd70ab3faa548" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Necrotic_Melee" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3007" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8,Necrotic)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8b87979f-4c7a-4605-8543-5237baedc7be" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric_7_BlessedStrikes_PotentSpellcasting" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a2823747-0e56-4c88-8b9e-f8a52a96dcf6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdbdc1e3fg886agebc7gf898gdd7b5aea06a3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2d199d0egf3a1ga886gf931gb46f01ab73e5" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_PotentSpellcasting" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3007" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

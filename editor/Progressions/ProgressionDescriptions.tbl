@@ -10,5 +10,23 @@
         <field name="SelectorId" type="FixedStringTableFieldDefinition" value="WeaponMasteryList" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_271" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ac24fbe8-baa3-4468-afe2-3c9dffa18194" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5d663b96gee20gd7abg28bdgde325d686903" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf078c843g4ca9gd89bgde69g7b94c3d7e9b4" version="1" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="DivineOrderList" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="88684917-76de-49cc-aab2-ea01033590f4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4bebd04fg3a81gc270gd50bga237aecd8ef8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0c4d3581gf44cg6a9ag27f8ge9f2dd54d6ed" version="1" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="BlessedStrikesList" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
