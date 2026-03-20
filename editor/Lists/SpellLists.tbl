@@ -189,5 +189,47 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_BurstingSinew;Target_Guidance;Target_Light;Target_Resistance;Target_SacredFlame;Target_SpareTheDying;Shout_Thaumaturgy;Target_TollTheDead;Shout_WordOfRadiance" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="269d1a3b-eed8-4131-8901-a562238f5289" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 1 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Bane;Target_Bless;Target_Command_Container;Target_CreateDestroyWater;Target_CureWounds;Projectile_GuidingBolt;Target_HealingWord;Target_InflictWounds;Target_ProtectionFromEvilAndGood;Target_Sanctuary;Target_ShieldOfFaith" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2968a3e6-6c8a-4c2e-882a-ad295a2ad8ac" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 2 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Aid;Target_Blindness;Target_CalmEmotions;Target_EnhanceAbility;Target_HoldPerson;Target_LesserRestoration;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_Silence;Target_SpiritualWeapon;Target_WardingBond" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21be0992-499f-4c7a-a77a-4430085e947a" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 3 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimateDead;Shout_AuraOfVitality;Shout_BeaconOfHope;Target_BestowCurse;Target_Daylight_Container;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_ProtectionFromEnergy;Target_RemoveCurse;Teleportation_Revivify;Target_SpeakWithDead;Shout_SpiritGuardians" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="37e9b20b-5fd1-45c5-b1c5-159c42397c83" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 4 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Banishment;Target_DeathWard;Target_FreedomOfMovement;Target_GuardianOfFaith" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b73aeea5-1ff9-4cac-b61d-b5aa6dfe31c2" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 5 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Contagion;Shout_DispelEvilAndGood;Target_FlameStrike;Target_GreaterRestoration;Target_InsectPlague;Target_CureWounds_Mass;Target_PlanarBinding" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f8ba7b05-1237-4eaa-97fa-1d3623d5862b" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 6 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Wall_BladeBarrier;Target_CreateUndead;Target_Harm;Target_Heal;Shout_HeroesFeast;Target_PlanarAlly_Container;Zone_Sunbeam" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
