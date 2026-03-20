@@ -853,7 +853,7 @@
         <field name="TableUUID" type="GuidTableFieldDefinition" value="64474b62-b4f5-46b3-b94a-c676c6da3116" />
         <field name="FSName" type="StringTableFieldDefinition" value="Cleric" />
         <field name="Level" type="ByteTableFieldDefinition" value="2" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ActionResource(ChannelDivinity,1,0)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ActionResource(ChannelDivinity,2,0)" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(239cc7cc-f642-4ddc-b091-498d81612c51,,,,AlwaysPrepared)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Cleric_2_ChannelDivinity" />
@@ -990,7 +990,6 @@
         <field name="FSName" type="StringTableFieldDefinition" value="LifeDomain" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(26ffbe70-23c6-4918-9e6a-a3e556a9d355,ClericLifeDomainSpells,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1077,6 +1076,102 @@
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(1b8b6282-c1f2-4095-89ab-aaefdf234317,ClericLifeDomainSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_515" />
+        <field name="UUID" type="IdTableFieldDefinition" value="18b60150-3f77-4f5d-9c67-b25c3b7ce404" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6ec6caad-2dfa-4661-8edd-5c4eca0e044c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="LightDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_119" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7f63932d-64bd-4a70-b1d0-0e6728c1888e" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6ec6caad-2dfa-4661-8edd-5c4eca0e044c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="LightDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_121" />
+        <field name="UUID" type="IdTableFieldDefinition" value="21725b6d-71f5-4df9-b828-b31bb20794cd" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6ec6caad-2dfa-4661-8edd-5c4eca0e044c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="LightDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(31037493-7a57-4dce-9412-4689c010199c,ClericLightDomainSpells,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="WardingFlare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_186" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b839fdb5-e6e0-4b88-8fc3-ab133f1a2d97" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6ec6caad-2dfa-4661-8edd-5c4eca0e044c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="LightDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_217" />
+        <field name="UUID" type="IdTableFieldDefinition" value="caf6d4b9-4233-4d67-af18-3a4ba3ea9996" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6ec6caad-2dfa-4661-8edd-5c4eca0e044c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="LightDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(1a50d25a-27b5-4789-b2d6-532fac4437c6,ClericLightDomainSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_209" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cc33557e-32ab-4cb9-82cb-d313ad38574e" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6ec6caad-2dfa-4661-8edd-5c4eca0e044c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="LightDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="WardingFlare_Improved" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_210" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1fe99c00-3bd1-476f-865b-c121617d7d6b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6ec6caad-2dfa-4661-8edd-5c4eca0e044c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="LightDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(41ded14f-d752-42c0-8405-be0e7b0f2177,ClericLightDomainSpells,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_219" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c993dc9e-df2b-4cc9-857c-49b17982b56e" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6ec6caad-2dfa-4661-8edd-5c4eca0e044c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="LightDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_211" />
+        <field name="UUID" type="IdTableFieldDefinition" value="00479bc3-396b-4738-9ccf-f00d7087374f" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6ec6caad-2dfa-4661-8edd-5c4eca0e044c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="LightDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(5675d0b3-8a2c-4658-bfe3-42abbc0bdcfd,ClericLightDomainSpells,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
   </stat_objects>
