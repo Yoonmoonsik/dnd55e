@@ -72,6 +72,46 @@
   - [ ] Eldritch Knight
   - [ ] Psi Warrior
 
+### Monk
+
+- [ ] Class
+- [ ] Subclasses
+
+### Paladin
+
+- [ ] Class
+- [ ] Subclasses
+- [ ] Spell Lists
+
+### Ranger
+
+- [ ] Class
+- [ ] Subclasses
+- [ ] Spell Lists
+
+### Rogue
+
+- [ ] Class
+- [ ] Subclasses
+
+### Sorcerer
+
+- [ ] Class
+- [ ] Subclasses
+- [ ] Spell Lists
+
+### Warlock
+
+- [ ] Class
+- [ ] Subclasses
+- [ ] Spell Lists
+
+### Wizard
+
+- [ ] Class
+- [ ] Subclasses
+- [ ] Spell Lists
+
 ## Spell
 
 ### Cantrip
