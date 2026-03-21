@@ -1008,7 +1008,7 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasPassive('Moon_10_MoonlightStep',context.Source);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('') and not Character() and not Self()" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Druid_Moonlight_Step" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Druid_MoonlightStep" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9203385fgb0d0gc75egca31g0264dad5cc14" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hde80ec9cg7cdbg9ea0g9225gb25148c847a9" version="1" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Moonbeam_L1to3" />
