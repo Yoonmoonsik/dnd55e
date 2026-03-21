@@ -1,7 +1,5 @@
 # DnD 5.5e Beyond
-
 ## Rule System
-
 - [ ] Hit Point Dice
 - [ ] Spell Scroll Usage Limitation
 - [x] Bloodied
@@ -12,36 +10,29 @@
 - [x] One Spell Slot Spell per Turn
 - [x] Prone
 - [x] Weapon Mastery
-
-## Classes
-
+## Classe
 ### Barbarian
-
 - [x] Class
-- [ ] Subclasses
+- [ ] Subclass
   - [ ] World Tree
   - [ ] Zealot
   - [x] Berserker
   - [x] Giant
   - [x] Wild Magic
   - [x] Wildheart
-
 ### Bard
-
 - [x] Class
-- [ ] Subclasses
+- [ ] Subclass
   - [ ] Dance
   - [x] Glamour
   - [x] Lore
   - [x] Swords
   - [x] Valor
-- [x] Spell Lists
+- [x] Spell List
 - [ ] Magical Secrets spell list
-
 ### Cleric
-
 - [x] Class
-- [x] Subclasses
+- [x] Subclass
   - [x] Death
   - [x] Knowledge
   - [x] Life
@@ -50,96 +41,65 @@
   - [x] Tempest
   - [x] Trickery
   - [x] War
-- [x] Spell Lists
-
+- [x] Spell List
 ### Druid
-
 - [x] Class
-- [ ] Subclasses
+- [ ] Subclass
   - [ ] Sea
   - [x] Land
   - [x] Moon
   - [x] Spore
   - [x] Stars
-- [x] Spell Lists
-
+- [x] Spell List
 ### Fighter
-
 - [x] Class
-- [ ] Subclasses
+- [ ] Subclass
   - [ ] Arcane Archer
   - [ ] Battle Master
   - [x] Champion
   - [x] Eldritch Knight
   - [ ] Psi Warrior
-
 ### Monk
-
 - [ ] Class
-- [ ] Subclasses
-
+- [ ] Subclass
 ### Paladin
-
 - [ ] Class
-- [ ] Subclasses
-- [ ] Spell Lists
-
+- [ ] Subclass
+- [ ] Spell List
 ### Ranger
-
 - [ ] Class
-- [ ] Subclasses
-- [ ] Spell Lists
-
+- [ ] Subclass
+- [ ] Spell List
 ### Rogue
-
 - [ ] Class
-- [ ] Subclasses
-
+- [ ] Subclass
 ### Sorcerer
-
 - [ ] Class
-- [ ] Subclasses
-- [ ] Spell Lists
-
+- [ ] Subclass
+- [ ] Spell List
 ### Warlock
-
 - [ ] Class
-- [ ] Subclasses
-- [ ] Spell Lists
-
+- [ ] Subclass
+- [ ] Spell List
 ### Wizard
-
 - [ ] Class
-- [ ] Subclasses
-- [ ] Spell Lists
-
+- [ ] Subclass
+- [ ] Spell List
 ### Artificer
-
 ### Gunslinger
-
 ### Illrigger
-
 ### Psion
-
 ## Spell
-
 ### Cantrip
-
 - [x] Spare the Dying (Cleric, Druid, ~~Artificer~~)
 - [x] Word of Radiance (Cleric)
 - [x] Poison Spray (Druid, ~~Sorcerer~~, ~~Warlock~~, ~~Wizard~~, ~~Artificer~~)
 - [x] Starry Wisp (Bard, Druid)
 - [x] Thunderclap (Bard, Druid, ~~Sorcerer~~, ~~Warlock~~, ~~Wizard~~, ~~Artificer~~)
-
 ### Level 2
-
 - [x] Mind Spike (~~Sorcerer~~, ~~Warlock~~, ~~Wizard~~, Knowledge)
-
 ### Level 4
-
 - [x] Fount of Moonlight (Bard, Druid)
-
 ### Level 5
-
 - [x] Steel Wind Strike (~~Ranger~~, ~~Wizard~~, War)
 - [x] Synaptic Static (Bard, ~~Sorcerer~~, ~~Warlock~~, ~~Wizard~~, Knowledge)
