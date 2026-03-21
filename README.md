@@ -55,7 +55,7 @@
 - [x] Class
 - [ ] Subclass
   - [ ] Arcane Archer
-  - [ ] Battle Master
+  - [x] Battle Master
   - [x] Champion
   - [x] Eldritch Knight
   - [ ] Psi Warrior

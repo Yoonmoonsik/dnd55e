@@ -1343,5 +1343,15 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3babbbfb-99ee-43fb-a1b6-262d67a39053" />
+        <field name="Name" type="NameTableFieldDefinition" value="ImprovedCombatSuperiority" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cfc4f27c-b6b0-4832-951e-1fc3002c0c5c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h66ceeddfg85e7gf6e6g45fdgf681167aa694" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5310" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
