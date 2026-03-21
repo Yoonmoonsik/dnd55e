@@ -28,5 +28,14 @@
         <field name="SelectorId" type="FixedStringTableFieldDefinition" value="BlessedStrikesList" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="edb6cd87-4949-4023-ac76-e92af140461d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha16fbd5eg7072g66aeg7f0eg739d38d2a607" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h22f70fd0g4354g1c46g6712gdc288b7803e5" version="1" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="PrimalOrderList" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
