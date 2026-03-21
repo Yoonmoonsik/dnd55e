@@ -622,5 +622,69 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SecondWind:1;" />
       </fields>
     </stat_object>
+    <stat_object color="#FF008B8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eff5ec4d-51a0-4c4a-98de-619cdff90fd2" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MONK__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2af80cee-16b4-439d-8ca2-15b51b0ff7d1" />
+        <field name="Name" type="NameTableFieldDefinition" value="PatientDefense" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4a97e468-7a6b-4ab9-93f5-d613d32ace8d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DISENGAGE,100,1);ApplyStatus(DODGE,100,1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd1fc430dg69bagc256g2318g1055bfa2fc27" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4c44c0abg262cg8e6egf06cg92cf676855e3" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DISENGAGE,100,1);ApplyStatus(DODGE,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0d7a361c-3d8e-49ce-b0e5-17f9c46c96d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="StepOfTheWind" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3f56de45-417a-4c9a-89c4-2a923fe91599" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DISENGAGE,100,1);ApplyStatus(DASH,100,1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdd4e66dbg0ac9g5c5dg463eg6076392563ce" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h83374bedgf40agd759g1784gd9c5f24545a3" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DISENGAGE,100,1);ApplyStatus(DASH,100,1);ApplyStatus(STEP_OF_THE_WIND,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5650bc3f-8959-4b31-8f23-a8db8147a428" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dash_BonusAction_Monk" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3f56de45-417a-4c9a-89c4-2a923fe91599" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Dash_Bonus" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8e2c71efgf381g9eb7gaf5cg2760015a45e2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdfc28510gf4cdgb66eg531fg3918cc8b3df9" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DASH,100,1)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="02305cec-6984-40e2-af43-605149eac195" />
+        <field name="Name" type="NameTableFieldDefinition" value="Disengage_BonusAction_Monk" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5650bc3f-8959-4b31-8f23-a8db8147a428" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Disengage_Bonus" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h78c4f622gbb2cg3636gb74cg733fbf8d0b37" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5248daffg03b1g4eeeg4498gaafc4796eece" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DISENGAGE,100,1)" />
+        <field name="SpellCategory" type="EnumerationListTableFieldDefinition" value="SC_None" enumeration_type_name="SpellCategoryFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0b821902-a45d-4c4c-b7c8-995bd3ffa357" />
+        <field name="Name" type="NameTableFieldDefinition" value="UncannyMetabolism" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f0787c90-b274-49a2-ba30-72ee16911a11" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(MartialArts)+ClassLevel(Monk));RestoreResource(SELF,KiPoint,100%,0);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6d5fdddcg3d1bg2ed8g0bebgcfcf2293742c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h48a9451fg4097gddefg1177g77b625d48f82" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(MartialArts)+ClassLevel(Monk));" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

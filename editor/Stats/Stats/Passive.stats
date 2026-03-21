@@ -1353,5 +1353,100 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF008B8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="608a56c7-9d33-485c-a11f-d75a940fd8bf" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MONK__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="23b90b11-0a44-44cc-a8f1-df087357b3b0" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnarmoredDefense_Monk" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b6aa7ecc-5234-4fd1-ac0d-f0b06484574e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1a9ea1d9gcca2gd533gd087g0e05473a8b97" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb6df1fdbgd732gf839g1534g7c3a49d1d89d" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6001" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4fecdb23-c247-4766-a6ce-8cb9cb1e8da4" />
+        <field name="Name" type="NameTableFieldDefinition" value="MartialArts_DextrousUnarmedAttacks" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e2c8917a-2082-475d-b1d7-27fc8eb5ee40" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9693b20eg4b48g52f3g8ec0gd315398b9984" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h24c5605eg0a01ge915g6899g61b6123a76ea" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6001" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="not WearingArmor(context.Source) and not HasShieldEquipped(context.Source) and IsDexterityGreaterThanStrength();" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99838412-a278-4630-8377-4e22c33cc15a" />
+        <field name="Name" type="NameTableFieldDefinition" value="MartialArts_UnarmedDamage" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="35af45a5-74a5-474d-b8db-506e4d92bcdf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0bdd8181g1932g81d9g02c5g5f889a86df8f" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h8e235ae9geb66g5d58g1353gd372c6850cab" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6001" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="not WearingArmor(context.Source) and not HasShieldEquipped(context.Source);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1eab9a94-8a3d-494d-8334-e01eb6dd96a1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MartialArts_BonusUnarmedStrike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="aefb8db8-1a3d-4796-a085-75b92ff492f5" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb6bd2af0gd6f7g18c7g118fgea0d3d7cc5c5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he192df4agfe10gd5ceg7151gebb776ff39e4" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h98c8bddbge30fgeb55gb667gd793986d0ded" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6001" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="not WearingArmor(context.Source) and not HasShieldEquipped(context.Source);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_UnarmedStrike_Monk);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4afb28d1-97d9-477d-905f-d576443c9b5e" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnarmoredMovement_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21d64b71-9121-4523-ae8e-ffae19736005" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h62169240g157dg0599gc2d2g3c5611236273" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6002" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="05bf8d1a-17a8-4fe8-957b-8fdafcac66b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnarmoredMovement_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="68633632-9efd-4892-8b12-d9c3d2b059b8" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdd7cc0dcg93b5g2722g9ad5g75eb1fd5edf9" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6006" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6b4c1d8a-a2e9-4d05-ad07-bd7a4d2452f9" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnarmoredMovement_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8ade4bc5-9528-4fba-9781-e1cb58865a4b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbb2da776g993fg5373g95abg3f33446175c5" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6010" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="795b42fe-c263-484a-954e-e7640d57ef2e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Monk_2_UncannyMetabolism" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfe07c960gd6d9ga0e1g4facgbbfc0b0a2079" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfaa042d3gf744gb60fg226bgaec318afadb8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_WholenessOfBody" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6002" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_UncannyMetabolism);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

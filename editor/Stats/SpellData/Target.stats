@@ -1032,5 +1032,20 @@
         <field name="Name" type="NameTableFieldDefinition" value="__FIGHTER__" />
       </fields>
     </stat_object>
+    <stat_object color="#FF008B8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="818ac5d5-5006-47b1-b4b3-09c556f95507" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MONK__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04680ef1-3bd0-4e0c-8d65-6f6581241a6f" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnarmedStrike_Monk" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a35a7bb-7e69-40fa-8936-6cde46310451" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful;DisableBlood" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

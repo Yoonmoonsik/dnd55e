@@ -2684,5 +2684,216 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,0,1,EldritchKnightAbjEvo)" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA0522D" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_264" />
+        <field name="UUID" type="IdTableFieldDefinition" value="01115231-fa37-4cd2-b750-5f282c8ab667" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="69eb2e41-0317-46d7-a6b6-3593de1a5220" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BattleMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SuperiorityDie,4,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(e51a2ef5-3663-43f9-8e74-5e28520323f1,3,Maneuvers)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_132" />
+        <field name="UUID" type="IdTableFieldDefinition" value="59505762-9251-463c-a81b-420e9a14c8cd" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="69eb2e41-0317-46d7-a6b6-3593de1a5220" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BattleMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SuperiorityDie,4,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(e51a2ef5-3663-43f9-8e74-5e28520323f1,3,Maneuvers)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_263" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0f5b48cb-619d-4153-b100-f42321a44dc3" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="69eb2e41-0317-46d7-a6b6-3593de1a5220" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BattleMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SuperiorityDie,1,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(e51a2ef5-3663-43f9-8e74-5e28520323f1,2,Maneuvers)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_262" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bddec33b-81db-4941-ae71-e044799bae05" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="69eb2e41-0317-46d7-a6b6-3593de1a5220" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BattleMaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(e51a2ef5-3663-43f9-8e74-5e28520323f1,2,Maneuvers)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ImprovedCombatSuperiority" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF008B8B" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_133" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c091d27e-009b-4841-8bde-5e63e5ca8f4e" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Monk" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(SimpleWeapons);Proficiency(Shortswords);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(5f1c7177-6e28-4a42-a7a5-cfaf4c31519c,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmoredDefense_Monk;MartialArts_DextrousUnarmedAttacks;MartialArts_UnarmedDamage;MartialArts_BonusUnarmedStrike;Monk_SoundSwitch" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_500" />
+        <field name="UUID" type="IdTableFieldDefinition" value="297e0cb5-9743-4ae8-b053-b3850f0fa134" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Monk" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(SimpleWeapons);Proficiency(Shortswords);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmoredDefense_Monk;MartialArts_DextrousUnarmedAttacks;MartialArts_UnarmedDamage;MartialArts_BonusUnarmedStrike;Monk_SoundSwitch" />
+        <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_134" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c17915f1-df2b-4cce-876f-68faf153f373" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Monk" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(KiPoint,2,0)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="FlurryOfBlowsUnlock;UnarmoredMovement_1;Monk_2_UncannyMetabolism" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(2715246d-3375-4766-9a3e-5961efd56748)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_135" />
+        <field name="UUID" type="IdTableFieldDefinition" value="296468cb-3640-4460-9f44-b30ee820a9ed" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Monk" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="22894c32-54cf-49ea-b366-44bfcf01bb2a;2a5e3097-384c-4d29-8d6e-054fdfd26b80;bf46d73f-d406-4cb8-9a1d-e6e758ca02c7" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(KiPoint,1,0);ActionResource(DeflectMissiles_Charge,1,0)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DeflectMissiles" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_136" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e2bd97c2-4de1-43eb-bbeb-6383c472a4a2" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Monk" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(KiPoint,1,0)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SlowFall" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_137" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7b354b75-537f-464e-a28d-cafa72323ab9" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Monk" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(KiPoint,1,0)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(3ba6090a-a8be-4938-82ef-40eba0083441)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_138" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9286a35f-e58b-4f56-95a4-78dfb19ed5d5" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Monk" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(KiPoint,1,0)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmoredMovement_2;KiEmpoweredStrikes" />
+        <field name="PassivesRemoved" type="StringTableFieldDefinition" value="UnarmoredMovement_1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_139" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e715d543-451b-419f-9cf1-ed88339d9387" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Monk" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(KiPoint,1,0)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Evasion;StillnessOfMind" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_140" />
+        <field name="UUID" type="IdTableFieldDefinition" value="584f5806-6809-4fbf-8776-843ba611a404" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Monk" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(KiPoint,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_141" />
+        <field name="UUID" type="IdTableFieldDefinition" value="62d54d84-80f8-4c89-9a1a-6b15aeaf697a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Monk" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(KiPoint,1,0)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmoredMovement_DifficultTerrain" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_142" />
+        <field name="UUID" type="IdTableFieldDefinition" value="153f55a7-4c75-4748-a9f7-a756239a3fe6" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Monk" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(KiPoint,1,0)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmoredMovement_3;PurityOfBody" />
+        <field name="PassivesRemoved" type="StringTableFieldDefinition" value="UnarmoredMovement_2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_143" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8aa410ea-1fe2-4f9f-ab19-b2ab87f652cb" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Monk" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(KiPoint,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_145" />
+        <field name="UUID" type="IdTableFieldDefinition" value="67747624-d156-4e2b-917f-3d795ad06e8e" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Monk" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(KiPoint,1,0)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -522,5 +522,18 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_MoonlightStep" />
       </fields>
     </stat_object>
+    <stat_object color="#FF008B8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="16bc2dbf-2cf1-4141-86ff-bbb2e01e3579" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MONK__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2715246d-3375-4766-9a3e-5961efd56748" />
+        <field name="Name" type="NameTableFieldDefinition" value="Monk Level 2" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Dash_BonusAction_Monk;Shout_Disengage_BonusAction_Monk;Shout_PatientDefense;Shout_StepOfTheWind" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

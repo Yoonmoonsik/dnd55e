@@ -628,5 +628,21 @@
         <field name="StackId" type="StringTableFieldDefinition" value="REMARKABLE_ATHLETE" />
       </fields>
     </stat_object>
+    <stat_object color="#FF008B8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="39ed4673-c749-4248-963c-700038f953f0" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MONK__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0b9a10a8-ce2e-4665-886d-daa211a52714" />
+        <field name="Name" type="NameTableFieldDefinition" value="STEP_OF_THE_WIND" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="062235a8-3c4b-442a-95b2-b6277d03489f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h554e1c9cgf636g08a4gf6ebg1d3611ee623a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha6d44a5ag5a9ag0c67gfbb0ge9a5772193c3" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="JumpMaxDistanceMultiplier(2);UnlockSpell(Projectile_StepOfTheWind_Jump);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
