@@ -7,6 +7,7 @@
 - [x] Bloodied
 - [x] Equipping Weapons
 - [x] Extra Attack (War Magic Integration)
+- [x] Heavy Armor Strength Requirement
 - [x] Hiding
 - [x] One Spell Slot Spell per Turn
 - [x] Prone
@@ -111,6 +112,14 @@
 - [ ] Class
 - [ ] Subclasses
 - [ ] Spell Lists
+
+### Artificer
+
+### Gunslinger
+
+### Illrigger
+
+### Psion
 
 ## Spell
 

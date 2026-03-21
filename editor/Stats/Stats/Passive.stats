@@ -70,6 +70,58 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5626b21a-f80a-4f55-bb46-19cca7ba91b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Illusion_Disappear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d409d52c-cf4c-4890-bd3c-0917c63a066f" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ACT1_HAG_ILLUSION);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9daae7da-e5d9-4b0e-943b-ad63b909e1c1" />
+        <field name="Name" type="NameTableFieldDefinition" value="HeavyArmor" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="81604d00-d15e-45b7-97c6-ea49cfb00218" />
+        <field name="Name" type="NameTableFieldDefinition" value="HeavyArmor_ChainMail" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1261d64eg6ff9gfcfcg691agbb4378c7bc02" version="2" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h36e05e75gb0acgebbeg511ag25cc56fcde31" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="13;Distance(3)" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="99998" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not AbilityGreaterThan('Strength',12,context.Source)):ActionResource(Movement,-3,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ef05970c-cdfc-4989-a4cb-e17b988c6391" />
+        <field name="Name" type="NameTableFieldDefinition" value="HeavyArmor_SplintArmor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="81604d00-d15e-45b7-97c6-ea49cfb00218" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h412ee86dgfedcga2beg54adgbd1f6bc466f9" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="15;Distance(3)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not AbilityGreaterThan('Strength',14,context.Source)):ActionResource(Movement,-3,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d2615f43-01d3-4724-a899-6fa5c5d457c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="HeavyArmor_PlateArmor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="81604d00-d15e-45b7-97c6-ea49cfb00218" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1855925eg36d7g774cg4917gc8135001356f" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="15;Distance(3)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not AbilityGreaterThan('Strength',14,context.Source)):ActionResource(Movement,-3,0);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b9a68ac6-55da-4cea-933f-3c989946c818" />
+        <field name="Name" type="NameTableFieldDefinition" value="WeaponMastery" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a9f7c060-6a28-4dd7-9dfb-b2a4fbbe58bf" />
         <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryCleave_10" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb60d9b3bg491bg7056g1bd9gc752b67bfd56" version="1" />
@@ -279,15 +331,6 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf0019ff2g27f5g13abg7a86g646b2f8a1f55" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd724f72fgcda8gb6acgb5c4gd95d169dd0b4" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_OpeningAttack" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="5626b21a-f80a-4f55-bb46-19cca7ba91b4" />
-        <field name="Name" type="NameTableFieldDefinition" value="Illusion_Disappear" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="d409d52c-cf4c-4890-bd3c-0917c63a066f" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ACT1_HAG_ILLUSION);" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
