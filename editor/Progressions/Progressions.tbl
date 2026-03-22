@@ -2978,6 +2978,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="FourElements" />
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(c841dfad-9d3b-486d-ad6b-ac3eaebc2db4)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3008,7 +3009,6 @@
         <field name="FSName" type="StringTableFieldDefinition" value="FourElements" />
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ImprovedElementalCasting" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3029,6 +3029,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="FourElements" />
         <field name="Level" type="ByteTableFieldDefinition" value="11" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Elemental_11_StrideOfTheElement" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3039,7 +3040,6 @@
         <field name="FSName" type="StringTableFieldDefinition" value="FourElements" />
         <field name="Level" type="ByteTableFieldDefinition" value="12" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(cf014f77-4d0a-4322-a2bf-95e38b89435b,0,1,FourElements,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
   </stat_objects>

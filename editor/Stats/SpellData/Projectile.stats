@@ -191,9 +191,18 @@
         <field name="Name" type="NameTableFieldDefinition" value="Deflect_Missiles" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="326314ee-216e-44fc-89dc-991e31d870d5" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, ManeuverSaveDC())" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+DexterityModifier, Bludgeoning);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_ACID',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_COLD',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_FIRE',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_LIGHTNING',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_THUNDER',context.Source)):DealDamage(LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+DexterityModifier , Bludgeoning);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_ACID',context.Source)):DealDamage(LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+DexterityModifier, Acid);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_COLD',context.Source)):DealDamage(LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+DexterityModifier, Cold);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_FIRE',context.Source)):DealDamage(LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+DexterityModifier, Fire);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_LIGHTNING',context.Source)):DealDamage(LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+DexterityModifier, Lightning);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_THUNDER',context.Source)):DealDamage(LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+DexterityModifier, Thunder);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd8199896gbae1g11ceg6ba1g523b41f8b9ef" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4487767egdb77g3708g93a8gd0279452056a" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3ac7ee4f-a889-4f2e-9a86-052c4109a03b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fly_Monk" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21a440e2-13ce-4b12-b7a3-5847137807b2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="Movement:Distance;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsJump;HasHighGroundRangeExtension;IgnoreVisionBlock;RangeIgnoreVerticalThreshold;Stealth;Invisible;CannotTargetCharacter;CannotTargetItems;NoAOEDamageOnLand;Temporary" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

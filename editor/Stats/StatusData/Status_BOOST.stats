@@ -694,6 +694,7 @@
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="e44d2344-4875-41b4-bde9-56c018c8bcff" />
         <field name="Passives" type="StringTableFieldDefinition" value="ElementalAttunement_Reach;ElementalAttunement_Push;ElementalAttunement_Pull;" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasPassive('Elemental_11_StrideOfTheElement',context.Source)):UnlockSpell(Projectile_Fly_Monk);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

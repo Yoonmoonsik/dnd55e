@@ -62,6 +62,15 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Custom_Topple" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="79cbdbe7-ec99-45d9-a901-96a9ca633abc" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnarmedAttack" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb2e2d55-aef5-4d96-a881-7b5d5da09203" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_ACID',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_COLD',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_FIRE',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_LIGHTNING',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_THUNDER',context.Source)):DealDamage(UnarmedDamage , Bludgeoning);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_ACID',context.Source)):DealDamage(UnarmedDamage, Acid);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_COLD',context.Source)):DealDamage(UnarmedDamage, Cold);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_FIRE',context.Source)):DealDamage(UnarmedDamage, Fire);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_LIGHTNING',context.Source)):DealDamage(UnarmedDamage, Lightning);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_THUNDER',context.Source)):DealDamage(UnarmedDamage, Thunder);" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0f75e60f-64c4-406b-9aee-8768415dfec6" />
@@ -986,6 +995,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="6a35a7bb-7e69-40fa-8936-6cde46310451" />
         <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful;DisableBlood" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_ACID',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_COLD',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_FIRE',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_LIGHTNING',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_THUNDER',context.Source)):DealDamage(UnarmedDamage , Bludgeoning);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_ACID',context.Source)):DealDamage(UnarmedDamage, Acid);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_COLD',context.Source)):DealDamage(UnarmedDamage, Cold);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_FIRE',context.Source)):DealDamage(UnarmedDamage, Fire);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_LIGHTNING',context.Source)):DealDamage(UnarmedDamage, Lightning);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_THUNDER',context.Source)):DealDamage(UnarmedDamage, Thunder);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -994,9 +1004,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="FlurryOfBlows" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="287b9102-acaf-40dc-bdd0-0eb0fa05e922" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack)" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_ACID',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_COLD',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_FIRE',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_LIGHTNING',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_THUNDER',context.Source)):DealDamage(UnarmedDamage , Bludgeoning);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_ACID',context.Source)):DealDamage(UnarmedDamage, Acid);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_COLD',context.Source)):DealDamage(UnarmedDamage, Cold);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_FIRE',context.Source)):DealDamage(UnarmedDamage, Fire);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_LIGHTNING',context.Source)):DealDamage(UnarmedDamage, Lightning);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_THUNDER',context.Source)):DealDamage(UnarmedDamage, Thunder);" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="LevelMapValue(FlurryOfBlows)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MartialArtsUnarmedDamage, Bludgeoning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1bbdc30f-a221-4682-88e2-48dae50d474b" />
+        <field name="Name" type="NameTableFieldDefinition" value="StunningStrike_Unarmed" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e426bfa6-df42-4df4-9c5b-6dea0e114d8e" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC())):ApplyStatus(STUNNED,100,1);IF(not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_ACID',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_COLD',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_FIRE',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_LIGHTNING',context.Source) and not HasStatus('MONK_ELEMENTAL_ATTUNEMENT_THUNDER',context.Source)):DealDamage(UnarmedDamage , Bludgeoning);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_ACID',context.Source)):DealDamage(UnarmedDamage, Acid);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_COLD',context.Source)):DealDamage(UnarmedDamage, Cold);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_FIRE',context.Source)):DealDamage(UnarmedDamage, Fire);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_LIGHTNING',context.Source)):DealDamage(UnarmedDamage, Lightning);IF(HasStatus('MONK_ELEMENTAL_ATTUNEMENT_THUNDER',context.Source)):DealDamage(UnarmedDamage, Thunder);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1077,6 +1095,130 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Self() and not HasObscuredStateAtPosition(ObscuredState.Clear);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MartialArtsUnarmedDamage, Bludgeoning);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;KiPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000080" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="581485eb-7945-4385-bb15-c493949a40f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ff736f9d-3563-4d2f-a343-16a3cf33230c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b577c2ca-33ad-484b-aba4-b52203620540" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalBurst" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_ElementalBurst_1;Target_ElementalBurst_2;Target_ElementalBurst_3;Target_ElementalBurst_4;Target_ElementalBurst_5;" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+LevelMapValue(MartialArts)), Fire);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+LevelMapValue(MartialArts))/2, Fire);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FlameStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="habf53306g66b3gb76ag5a1bgf0e155fe7d9b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h637a148fgbbb7g2269gfdd1g3f81fddd5949" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(6);Distance(36)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+LevelMapValue(MartialArts)), Fire);" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
+        <field name="TooltipOnSave" type="StringTableFieldDefinition" value="f762efbb-f8f1-493e-b248-2de1567b4bd2" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;KiPoint:2" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="ba181bb4-331a-4e69-92af-d09bde86d835,,;,,;f5fb622a-71f4-4f14-9b19-a31d2d3e6d59,,;fdb800db-41b6-4c7d-a386-f649bff4f0c7,,;a1c2c833-b2c8-465f-a902-b6ae38f6553d,,;,,;74dead2e-d842-4d29-976a-d1cb373f7f0e,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;CanAreaDamageEvade;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="12b395bd-32d7-45d5-b75f-288f1c0f6a7f" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="a758e379-9f9f-43de-a9d1-c0f01480770e" />
+        <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="41de42e1-56d0-4336-8b44-99fc38281525" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="992d2ee5-d074-49c8-a2ce-c6d363ffcfda" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Fire" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1c550245-b723-40b0-a248-8a482427f09e" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalBurst_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b577c2ca-33ad-484b-aba4-b52203620540" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_ElementalBurst" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+LevelMapValue(MartialArts)), Acid);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+LevelMapValue(MartialArts))/2, Acid);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Monk_ElementalBurst_Acid" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h13e2605fg4015g36b3g1800g126360f78534" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+LevelMapValue(MartialArts)), Acid);" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;CanAreaDamageEvade" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="d54a3eba-3ed7-4474-9ce9-6967d3b9bd14" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="6b9003b3-aa7a-4acc-b39c-926484eb9ec8" />
+        <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="81b6ad2d-3c22-4e2d-8f3d-036b50f87ee9" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="a32f9756-5520-4cf8-9427-c04a4af41ef1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Acid" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b09b9ab6-e2cf-4918-821b-0a523e81af8f" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalBurst_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1c550245-b723-40b0-a248-8a482427f09e" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+LevelMapValue(MartialArts)), Cold);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+LevelMapValue(MartialArts))/2, Cold);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Monk_ElementalBurst_Cold" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heb32a441g2a41g2be1g94a8gfb7868573b40" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+LevelMapValue(MartialArts)), Cold);" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="f4aab3ad-a4ad-48e1-9052-3808e2b65981" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="842f3fd6-e2a8-4cf9-86c3-03217df99c07" />
+        <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="20891751-3bd8-40f4-93f4-fc0650fe0183" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="97777f81-2e55-4779-a02d-8f92d7831ec4" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Cold" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ce5d68e9-4100-4255-8a42-69c2215696d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalBurst_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1c550245-b723-40b0-a248-8a482427f09e" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+LevelMapValue(MartialArts)), Fire);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+LevelMapValue(MartialArts))/2, Fire);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FlameStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h20cb80c4gd3bag353egbaeagfc09e502126d" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+LevelMapValue(MartialArts)), Fire);" />
+        <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="41de42e1-56d0-4336-8b44-99fc38281525" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="992d2ee5-d074-49c8-a2ce-c6d363ffcfda" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Fire" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="98bf2b98-c83b-4440-a351-ec917eaf3f8f" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalBurst_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1c550245-b723-40b0-a248-8a482427f09e" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+LevelMapValue(MartialArts)), Lightning);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+LevelMapValue(MartialArts))/2, Lightning);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Monk_ElementalBurst_Lightning" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb75cfe1fg5fb8gb857g1067ge5e38e4b4046" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+LevelMapValue(MartialArts)), Lightning);" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="c7634ae0-0fff-4baa-9e09-7aad7319a803" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="8e4c068c-33a5-4545-bc87-f1ffedc5711b" />
+        <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="f2ca2970-0882-412b-9c84-033ac7160ed7" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="63935355-1e22-458e-9dbe-7d11752d49e9" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Lightning" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="579418b1-f271-4030-ba2e-29329390be23" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalBurst_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1c550245-b723-40b0-a248-8a482427f09e" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+LevelMapValue(MartialArts)), Thunder);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+LevelMapValue(MartialArts))/2, Thunder);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Monk_ElementalBurst_Thunder" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha9461978g325bg8b56g0b7fga747967bcf5b" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(MartialArts)+LevelMapValue(MartialArts)+LevelMapValue(MartialArts)), Thunder);" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="323e4a39-e8f0-41c4-b598-9e416ac34539" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="7be34b37-43b8-4b47-bd2d-a20c7ea1c8fd" />
+        <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="62c93179-7074-43f1-9fb9-71851615c279" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="cd83b389-9b6f-4326-add5-b0fa379a5d19" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Thunder" enumeration_type_name="Damage Type" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

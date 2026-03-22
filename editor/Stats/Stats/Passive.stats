@@ -1573,5 +1573,16 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PULL_3M,100,0,,,,not SavingThrow(Ability.Strength, ManeuverSaveDC()))" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e399275d-e5b1-4329-9ed9-09f1ff83c8ce" />
+        <field name="Name" type="NameTableFieldDefinition" value="Elemental_11_StrideOfTheElement" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd0321dfag2f41g5984g2a27g4ba878286102" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h90c565bfgdc8eg1fc2gde60ga457cc60135b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Fly" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6211" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
