@@ -119,6 +119,22 @@
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnHeal" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d2fc0a9-07ef-4c38-ac43-618f2814e496" />
+        <field name="Name" type="NameTableFieldDefinition" value="PUSH_3M" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisablePortraitIndicator;DisableOverhead;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="Force(3)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b87a1171-d944-467e-94ef-3d497ebbb049" />
+        <field name="Name" type="NameTableFieldDefinition" value="PULL_3M" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisablePortraitIndicator;DisableOverhead;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="Force(-3)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1fac10e1-f974-4943-ab3b-0a15f2d0d1a0" />
@@ -656,6 +672,68 @@
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7147f546-ab7f-49d7-9011-f4fa0704ac66" />
+        <field name="Name" type="NameTableFieldDefinition" value="DARKNESS_MONK" />
+        <field name="StackId" type="StringTableFieldDefinition" value="DARKNESS_MONK" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="StatusStackType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Target_Darkness_Monk'),ModifyUseCosts(Replace,ActionPoint,0,0,ActionPoint),ModifyUseCosts(Replace,KiPoint,0,0,KiPoint),ModifyIconGlow());" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6f54feee-7f24-44fc-9c4c-68be4123977d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MONK_ELEMENTAL_ATTUNEMENT_ACID" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5c61ee4bg56f8gfe0fgb3c5g7712a4e3d87e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ChromaticOrb_Acid" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MONK_ELEMENTAL_ATTUNEMENT_ACID" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="e44d2344-4875-41b4-bde9-56c018c8bcff" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ElementalAttunement_Reach;ElementalAttunement_Push;ElementalAttunement_Pull;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="02cd3f0f-9b78-4f5c-b170-de740adafd28" />
+        <field name="Name" type="NameTableFieldDefinition" value="MONK_ELEMENTAL_ATTUNEMENT_COLD" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6f54feee-7f24-44fc-9c4c-68be4123977d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he11f6bc3ga347g550fg0466g52c1a9c5aad4" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ChromaticOrb_Cold" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="3b7aa5cd-4637-4b16-9ea5-d8832636f531" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2ca9ef85-d616-4e5b-857a-3570a633414c" />
+        <field name="Name" type="NameTableFieldDefinition" value="MONK_ELEMENTAL_ATTUNEMENT_FIRE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6f54feee-7f24-44fc-9c4c-68be4123977d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb648df73g12d6gb0b3g24e3g1c88ad261547" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ChromaticOrb_Fire" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="582231f4-5641-46c4-a596-3f1cca00ca09" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ef53b5cf-06ec-41eb-9106-8811a10945fc" />
+        <field name="Name" type="NameTableFieldDefinition" value="MONK_ELEMENTAL_ATTUNEMENT_LIGHTNING" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6f54feee-7f24-44fc-9c4c-68be4123977d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="habb49dadg47e5gc5bag6c56g45bf51c0e30c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ChromaticOrb_Lightning" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="6d053a98-6954-4fee-8e32-2b3e18154aeb" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="97001ff1-9dcd-446d-a10f-ee0f1fdfde1d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MONK_ELEMENTAL_ATTUNEMENT_THUNDER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6f54feee-7f24-44fc-9c4c-68be4123977d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h33483b7agbd7cg35c6gf796g0a198715f127" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ChromaticOrb_Thunder" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="f955f6a0-aaf9-444f-9d84-dc6792971fba" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -1529,5 +1529,49 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="868c5b01-1bcd-474a-9bdd-784dae18ec3e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shadow_3_ShadowArts" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc41f1b91gbedcg876fg1542g2c46f2f4be27" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h62e16743gcb72g9068gb2d0gb1a62ea9d321" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(18);ActiveCharacterLight(c46e7ba8-e746-7020-5146-287474d7b9f7);StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0b54e985-7c75-4937-8472-defa2be6d0db" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalAttunement_Reach" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(HasStringInSpellRoll('UnarmedAttack'),ModifyTargetRadius(Override,4.5));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="900ee8fb-6144-4874-8a8f-7f38578e78d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalAttunement_Push" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h02454f9dg7610g957dg5d40g829bab542a09" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h05885430gd722g322ag7f6agbaf1e13b70fd" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Charger_Push" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeUnarmedAttack() and not IsMiss();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PUSH_3M,100,0,,,,not SavingThrow(Ability.Strength, ManeuverSaveDC()))" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="ElementalAttunement_Push" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da18589f-68ac-4aca-b958-e162d16989a6" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalAttunement_Pull" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="900ee8fb-6144-4874-8a8f-7f38578e78d4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1441fb09g0c66g1899g0bf1g7aee316c859c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_MagicItem_PullingShout" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PULL_3M,100,0,,,,not SavingThrow(Ability.Strength, ManeuverSaveDC()))" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

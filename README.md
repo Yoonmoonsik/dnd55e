@@ -63,7 +63,7 @@
 - [x] Class
 - [ ] Subclass
   - [ ] Mercy
-  - [ ] Shadow
+  - [x] Shadow
   - [ ] Elements
   - [ ] Open Hand
 ### Paladin

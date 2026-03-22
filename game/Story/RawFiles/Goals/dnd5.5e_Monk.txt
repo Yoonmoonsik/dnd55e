@@ -1,0 +1,12 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+CastedSpell((CHARACTER)_Character,"Target_Darkness_Monk", _, _, _)
+THEN
+ApplyStatus(_Character, "DARKNESS_MONK", 60.0, 0, _Character);
+EXITSECTION
+
+ENDEXITSECTION

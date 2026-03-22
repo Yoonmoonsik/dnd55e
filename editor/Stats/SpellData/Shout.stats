@@ -3,29 +3,12 @@
   <stat_objects>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="448a052e-cdf1-4cca-a393-1ba60efb3552" />
-        <field name="Name" type="NameTableFieldDefinition" value="Disengage" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="98f7d181-873d-42a7-9534-e0c3d62c0423" />
-        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_DisengageAction;Shout_DodgeAction;" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="82c3d9fa-af80-4518-b174-789823a7fdd4" />
-        <field name="Name" type="NameTableFieldDefinition" value="DisengageAction" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="98f7d181-873d-42a7-9534-e0c3d62c0423" />
-        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_Disengage" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8940d1db-6644-425e-9f8d-8810cf5ed840" />
-        <field name="Name" type="NameTableFieldDefinition" value="DodgeAction" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="82c3d9fa-af80-4518-b174-789823a7fdd4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dodge" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="98f7d181-873d-42a7-9534-e0c3d62c0423" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6dcb6809g7168g4354g88a0g1ef30ed6de8a" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h725e9f8cg6262g4384g8f9fg596f94e2ceee" version="4" />
-        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_UncannyDodge" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Dodge" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DODGE,100,1);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DODGE,100,1)" />
       </fields>
@@ -684,6 +667,98 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h48a9451fg4097gddefg1177g77b625d48f82" version="1" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(MartialArts)+ClassLevel(Monk));" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Vocal_Component_Monk_Utility" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Action_Loop_Monk_StepoftheWind" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8e45f48f-34f2-49db-87ae-625329b58609" />
+        <field name="Name" type="NameTableFieldDefinition" value="HarmonyOfFireAndWater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="74b92b47-f91d-4135-bf7c-3bca3579e585" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_HarmonyOfFireAndWater_1;Shout_HarmonyOfFireAndWater_2;Shout_HarmonyOfFireAndWater_3;Shout_HarmonyOfFireAndWater_4;Shout_HarmonyOfFireAndWater_5;" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf18cec4dgc5a5gd248gadb2gacd0002e8ee0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdd54bf99g06bfg8a6cg5904g1e14b2426411" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Vocal_Component_Monk_Utility" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Action_Loop_Monk_StepoftheWind" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Monk_WholenessOfBody_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Monk_WholenessOfBody_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_Stop" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="KiPoint:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="Requirements" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dab124ca-f1b8-4ab7-9ce8-b8b72ae977fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="HarmonyOfFireAndWater_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8e45f48f-34f2-49db-87ae-625329b58609" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_HarmonyOfFireAndWater" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MONK_ELEMENTAL_ATTUNEMENT_ACID,100,100)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ChromaticOrb_Acid" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h103f93c5g91eeg4b52g3977gd60b8e4ef8da" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MONK_ELEMENTAL_ATTUNEMENT_ACID,100,100)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="d54a3eba-3ed7-4474-9ce9-6967d3b9bd14" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="6b9003b3-aa7a-4acc-b39c-926484eb9ec8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3799a52f-768d-475a-8569-afec78689400" />
+        <field name="Name" type="NameTableFieldDefinition" value="HarmonyOfFireAndWater_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dab124ca-f1b8-4ab7-9ce8-b8b72ae977fb" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MONK_ELEMENTAL_ATTUNEMENT_COLD,100,100)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ChromaticOrb_Cold" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1778d7a2g0b0cga6a0gcfcdg8f6f656d1e50" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MONK_ELEMENTAL_ATTUNEMENT_COLD,100,100)" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="0ff6f43f-79bc-43e8-94a8-723b4f03bb50" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="842f3fd6-e2a8-4cf9-86c3-03217df99c07" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1cda4d95-25fd-4e4f-9adb-b58f53e2e7ef" />
+        <field name="Name" type="NameTableFieldDefinition" value="HarmonyOfFireAndWater_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3799a52f-768d-475a-8569-afec78689400" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MONK_ELEMENTAL_ATTUNEMENT_FIRE,100,100)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ChromaticOrb_Fire" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5644171bg3f2cg52f1gc8dcgc1e6b38d6a9b" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MONK_ELEMENTAL_ATTUNEMENT_FIRE,100,100)" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="50a38379-3d86-4145-9061-2cfaf8fcea63" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="620268d9-9f2a-4b0f-b47a-c718edebd860" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3d464d51-752a-4cbe-a069-66318d9364d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="HarmonyOfFireAndWater_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3799a52f-768d-475a-8569-afec78689400" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MONK_ELEMENTAL_ATTUNEMENT_LIGHTNING,100,100)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ChromaticOrb_Lightning" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h60fd53fcgbe77gcb48gd29dg52f09c53ad87" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MONK_ELEMENTAL_ATTUNEMENT_LIGHTNING,100,100)" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="c7634ae0-0fff-4baa-9e09-7aad7319a803" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="8e4c068c-33a5-4545-bc87-f1ffedc5711b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4adf0f8b-3d53-4f32-aaa3-9c35c55e0593" />
+        <field name="Name" type="NameTableFieldDefinition" value="HarmonyOfFireAndWater_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3799a52f-768d-475a-8569-afec78689400" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MONK_ELEMENTAL_ATTUNEMENT_THUNDER,100,100)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ChromaticOrb_Thunder" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h459ce897gc32bgf940g855egc984bd313c7c" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MONK_ELEMENTAL_ATTUNEMENT_THUNDER,100,100)" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="e24845e1-b6cf-49fe-bd74-f4d6a3067be3" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="7be34b37-43b8-4b47-bd2d-a20c7ea1c8fd" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -535,5 +535,30 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Shout_Dash_BonusAction_Monk;Shout_Disengage_BonusAction_Monk;Shout_PatientDefense;Shout_StepOfTheWind" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e050fe59-a8f0-4c03-a7f4-569ac747c80e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shadow Monk level 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Darkness_Monk;Target_MinorIllusion" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9da8ef4f-676b-46f1-81e4-f7c3cfd1c34c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Four Elements Monk Level 3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c841dfad-9d3b-486d-ad6b-ac3eaebc2db4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Four Elements Monk Level 6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cf014f77-4d0a-4322-a2bf-95e38b89435b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Four Elements Monk Level 11" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
