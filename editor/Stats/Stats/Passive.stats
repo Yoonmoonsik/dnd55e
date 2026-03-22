@@ -117,7 +117,7 @@
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9daae7da-e5d9-4b0e-943b-ad63b909e1c1" />
-        <field name="Name" type="NameTableFieldDefinition" value="HeavyArmor" />
+        <field name="Name" type="NameTableFieldDefinition" value="HeavyEquipment" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -149,6 +149,26 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1855925eg36d7g774cg4917gc8135001356f" version="1" />
         <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="15;Distance(3)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(not AbilityGreaterThan('Strength',14,context.Source)):ActionResource(Movement,-3,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="737bb26c-3de9-4c58-b1a2-90184c3ee234" />
+        <field name="Name" type="NameTableFieldDefinition" value="HeavyWeapon_Melee" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="81604d00-d15e-45b7-97c6-ea49cfb00218" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0e9a944dgb216gb539gf48dg822147b343bd" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hd97fac61ge406g7715gc8b7g188472b4140a" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not AbilityGreaterThan('Strength',12,context.Source) and IsMeleeWeaponAttack()):Disadvantage(AttackRoll);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0a3b7a57-1ae7-4e7a-ab97-b37cb63f0f1a" />
+        <field name="Name" type="NameTableFieldDefinition" value="HeavyWeapon_Ranged" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="81604d00-d15e-45b7-97c6-ea49cfb00218" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h73497683g65cdged9eg85abge93a8ba9aede" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h07e8d8cdgee47gf8bdge26eg6ddb468803f3" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not AbilityGreaterThan('Dexterity',12,context.Source) and IsRangedWeaponAttack()):Disadvantage(AttackRoll);" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

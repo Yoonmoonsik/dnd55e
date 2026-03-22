@@ -1,4 +1,4 @@
-# DnD 5.5e Beyond
+# [DnD 5.5e Beyond](https://github.com/Yoonmoonsik/dnd55e)
 ## Rule System
 - [ ] Hit Point Dice
 - [ ] Spell Scroll Usage Limitation
@@ -6,6 +6,7 @@
 - [x] Equipping Weapons
 - [x] Extra Attack (War Magic Integration)
 - [x] Heavy Armor Strength Requirement
+- [x] Heavy Weapon Ability Requirement
 - [x] Hiding
 - [x] One Spell Slot Spell per Turn
 - [x] Prone
@@ -65,7 +66,7 @@
   - [ ] Mercy
   - [x] Shadow
   - [x] Elements
-  - [ ] Open Hand
+  - [x] Open Hand
 ### Paladin
 - [ ] Class
 - [ ] Subclass
