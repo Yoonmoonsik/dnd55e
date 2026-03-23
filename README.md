@@ -106,7 +106,12 @@
 ### Warlock
 - [ ] Class
 - [ ] Subclass
-- [ ] Spell List
+  - [ ] Archfey
+  - [ ] Celestial
+  - [ ] Fiend
+  - [ ] Great Old One
+  - [ ] Hexblade
+- [x] Spell List
 ### Wizard
 - [ ] Class
 - [ ] Subclass
@@ -117,16 +122,19 @@
 ### Psion
 ## Spell
 ### Cantrip
-- [x] Spare the Dying (Cleric, Druid, ~~Artificer~~)
-- [x] Word of Radiance (Cleric)
-- [x] Poison Spray (Druid, Sorcerer, ~~Warlock~~, ~~Wizard~~, ~~Artificer~~)
-- [x] Starry Wisp (Bard, Druid)
-- [x] Thunderclap (Bard, Druid, Sorcerer, ~~Warlock~~, ~~Wizard~~, ~~Artificer~~)
+- [ ] Mind Sliver
+- [x] Poison Spray (Druid, Sorcerer, Warlock, ~~Wizard~~, ~~Artificer~~)
 - [x] Sorcerous Burst (Sorcerer)
+- [x] Spare the Dying (Cleric, Druid, ~~Artificer~~)
+- [x] Starry Wisp (Bard, Druid)
+- [x] Thunderclap (Bard, Druid, Sorcerer, Warlock, ~~Wizard~~, ~~Artificer~~)
+- [x] Word of Radiance (Cleric)
 ### Level 2
-- [x] Mind Spike (Sorcerer, ~~Warlock~~, ~~Wizard~~, Knowledge)
+- [x] Arcane Vigor (Sorcerer, ~~Wizard~~, ~~Artificer~~, Hexblade)
+- [x] Find Steed (Paladin)
+- [x] Mind Spike (Sorcerer, Warlock, ~~Wizard~~, Knowledge)
 ### Level 4
 - [x] Fount of Moonlight (Bard, Druid)
 ### Level 5
-- [x] Steel Wind Strike (~~Ranger~~, ~~Wizard~~, War)
-- [x] Synaptic Static (Bard, Sorcerer, ~~Warlock~~, ~~Wizard~~, Knowledge)
+- [x] Steel Wind Strike (~~Ranger~~, ~~Wizard~~, War, Hexblade)
+- [x] Synaptic Static (Bard, Sorcerer, Warlock, ~~Wizard~~, Knowledge)
