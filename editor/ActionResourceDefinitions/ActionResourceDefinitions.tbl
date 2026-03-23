@@ -192,5 +192,36 @@
         <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Turn" />
       </fields>
     </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_18" />
+        <field name="UUID" type="IdTableFieldDefinition" value="157308a0-6698-4cdc-a65b-7326f8e0cce6" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="__SORCERER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_21" />
+        <field name="UUID" type="IdTableFieldDefinition" value="46886ba5-6505-4875-a747-ac14118e1e08" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="SorceryPoint" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf7441cebg5087gb813g35d8g6732e3fae8e6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8b175862g0d58g482ag2d06g7b4654769d66" version="1" />
+        <field name="MaxValue" type="IntegerTableFieldDefinition" value="14" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_20" />
+        <field name="UUID" type="IdTableFieldDefinition" value="00a07211-42df-43a6-b6e3-de597b6f18c1" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="InnateSorcery" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h59e594d8g8dd2ga3b4gd22fgc151ebfb31cd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5c2324bag11d4g3d36g7a4eg5a90c1b041a2" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -29,5 +29,12 @@
         <field name="Passives" type="StringTableFieldDefinition" value="Cleric_PrimalOrder_Warden,Cleric_PrimalOrder_Magician_1,Cleric_PrimalOrder_Magician_2,Cleric_PrimalOrder_Magician_3,Cleric_PrimalOrder_Magician_4,Cleric_PrimalOrder_Magician_5,Cleric_PrimalOrder_Magician_6,Cleric_PrimalOrder_Magician_7,Cleric_PrimalOrder_Magician_8,Cleric_PrimalOrder_Magician_9," />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3506532-36eb-4d18-823e-497a537a9619" />
+        <field name="Name" type="NameTableFieldDefinition" value="Metamagic level 3" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Metamagic_Careful,Metamagic_Distant,Metamagic_Empowered,Metamagic_Extended,Metamagic_Heightened,Metamagic_Quickened,Metamagic_Subtle,Metamagic_Twinned" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

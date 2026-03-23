@@ -94,6 +94,143 @@
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Radiant" enumeration_type_name="Damage Type" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6addfbf2-efa7-441e-a475-d01825cc6405" />
+        <field name="Name" type="NameTableFieldDefinition" value="SorcerousBurst" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_SorcerousBurst_1;Projectile_SorcerousBurst_2;Projectile_SorcerousBurst_3;Projectile_SorcerousBurst_4;Projectile_SorcerousBurst_5;Projectile_SorcerousBurst_6;Projectile_SorcerousBurst_7;" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedSpellAttack)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead()" />
+        <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_SorcerousBurst" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h186d2005gce77g5134gd47dgcd1286eb95f5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf0be6fffg6e33g9c45g69bdg8f11958d0454" version="2" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedSpellAttack" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;HasVerbalComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cdbfa965-2bc3-4558-bc99-cdd25fbd02db" />
+        <field name="Name" type="NameTableFieldDefinition" value="SorcerousBurst_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6addfbf2-efa7-441e-a475-d01825cc6405" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_SorcerousBurst" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Acid,Magical);IF(RollDieAgainstDC(DiceType.d20,18)):DealDamage(1d8,Acid,Magical);IF(CharacterLevelGreaterThan(4) and RollDieAgainstDC(DiceType.d20,18)):DealDamage(1d8,Acid,Magical);IF(CharacterLevelGreaterThan(10) and RollDieAgainstDC(DiceType.d20,18)):DealDamage(1d8,Acid,Magical);" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="f77c14be-cc25-40d6-a7dd-99b2e0a2df1c" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Acid" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Acid)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Acid_ChromaticOrbAcid_L1to3" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;38cdb41c-2eec-4e03-bb31-83cff0346c35,,;85414f5f-b448-4dda-9370-1b6c4b38b561,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;HasVerbalComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="17173dd6-e330-4769-b6bd-d757689e7f9a" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="eb96a8c6-37b4-4a13-a622-034a1dcbee60" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Acid" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5756fa59-e45c-46a2-8ec4-ffca864a2f53" />
+        <field name="Name" type="NameTableFieldDefinition" value="SorcerousBurst_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cdbfa965-2bc3-4558-bc99-cdd25fbd02db" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Cold,Magical);IF(RollDieAgainstDC(DiceType.d20,18)):DealDamage(1d8,Cold,Magical);IF(CharacterLevelGreaterThan(4) and RollDieAgainstDC(DiceType.d20,18)):DealDamage(1d8,Cold,Magical);IF(CharacterLevelGreaterThan(10) and RollDieAgainstDC(DiceType.d20,18)):DealDamage(1d8,Cold,Magical);" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="32fab210-8c88-4fe2-a33c-ade6a9c880b7" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Cold" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Cold)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Ice_ChromaticOrbIce_L1to3" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="cc7c02e9-b4f2-4c4d-bb4a-7526d7bef885" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="31fdeb9c-f917-4fc5-a0ac-93993a17cab4" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Cold" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b40743ee-0db7-4806-95c5-290a4ec18632" />
+        <field name="Name" type="NameTableFieldDefinition" value="SorcerousBurst_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5756fa59-e45c-46a2-8ec4-ffca864a2f53" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Fire,Magical);IF(RollDieAgainstDC(DiceType.d20,18)):DealDamage(1d8,Fire,Magical);IF(CharacterLevelGreaterThan(4) and RollDieAgainstDC(DiceType.d20,18)):DealDamage(Fire,Cold,Magical);IF(CharacterLevelGreaterThan(10) and RollDieAgainstDC(DiceType.d20,18)):DealDamage(Fire,Cold,Magical);" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="02038395-3092-4580-a119-0e5fd1a650ee" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Fire" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Fire)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Fire_ChromaticOrbFire_L1to3" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="25fc6c31-fc26-497a-af6d-ef816a82be3c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="3911e604-b850-43da-baa6-816ca49aa823" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Fire" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="410c9b93-b663-4660-a028-3fa879a0e395" />
+        <field name="Name" type="NameTableFieldDefinition" value="SorcerousBurst_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5756fa59-e45c-46a2-8ec4-ffca864a2f53" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Lightning,Magical);IF(RollDieAgainstDC(DiceType.d20,18)):DealDamage(1d8,Lightning,Magical);IF(CharacterLevelGreaterThan(4) and RollDieAgainstDC(DiceType.d20,18)):DealDamage(Fire,Lightning,Magical);IF(CharacterLevelGreaterThan(10) and RollDieAgainstDC(DiceType.d20,18)):DealDamage(Fire,Lightning,Magical);" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="7a2eea92-5a51-408d-ac76-c45098c87d93" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Lightning" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Lightning)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Lightning_ChromaticOrbLightning_L1to3" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="a0aead53-5047-4b0f-a31f-ecc89e5599c0" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="fa7b3b8f-3187-45c2-9895-f1ce4c432679" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Lightning" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b6a29188-2e20-4132-9eb7-6e4ea513b349" />
+        <field name="Name" type="NameTableFieldDefinition" value="SorcerousBurst_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5756fa59-e45c-46a2-8ec4-ffca864a2f53" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Poison,Magical);IF(RollDieAgainstDC(DiceType.d20,18)):DealDamage(1d8,Poison,Magical);IF(CharacterLevelGreaterThan(4) and RollDieAgainstDC(DiceType.d20,18)):DealDamage(Fire,Poison,Magical);IF(CharacterLevelGreaterThan(10) and RollDieAgainstDC(DiceType.d20,18)):DealDamage(Fire,Poison,Magical);" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="8c7bb016-4706-45b0-bcf4-5b59011ced12" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Poison" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Poison)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Poison_ChromaticOrbPoison_L1to3" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="92a96bf8-28c7-4565-8ceb-7cd02978b1ee" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="ecd2a765-5888-42bc-bc88-7bb2303e82b7" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Poison" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b094c71c-70bb-441e-afda-fa6df8ebf179" />
+        <field name="Name" type="NameTableFieldDefinition" value="SorcerousBurst_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5756fa59-e45c-46a2-8ec4-ffca864a2f53" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Psychic,Magical);IF(RollDieAgainstDC(DiceType.d20,18)):DealDamage(1d8,Psychic,Magical);IF(CharacterLevelGreaterThan(4) and RollDieAgainstDC(DiceType.d20,18)):DealDamage(1d8,Psychic,Magical);IF(CharacterLevelGreaterThan(10) and RollDieAgainstDC(DiceType.d20,18)):DealDamage(1d8,Psychic,Magical);" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="ada4b2b0-5e65-4257-9fea-b7376bd92d5f" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Psychic" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Psychic)" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Arcane_Debuff" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Arcane_Debuff" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Debuff_RayOfEnfeeblement_L1to3" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="556fd141-698d-4c08-9322-ad155821260a" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="ccc5dbad-ad6d-4439-821a-844d4c9df9b9" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="527282d9-be5c-4574-a31d-55117da5a6cd" />
+        <field name="Name" type="NameTableFieldDefinition" value="SorcerousBurst_7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5756fa59-e45c-46a2-8ec4-ffca864a2f53" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Thunder,Magical);IF(RollDieAgainstDC(DiceType.d20,18)):DealDamage(1d8,Thunder,Magical);IF(CharacterLevelGreaterThan(4) and RollDieAgainstDC(DiceType.d20,18)):DealDamage(1d8,Thunder,Magical);IF(CharacterLevelGreaterThan(10) and RollDieAgainstDC(DiceType.d20,18)):DealDamage(1d8,Thunder,Magical);" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="c7cd4b0a-2b2e-47ae-a4e8-849ad5d448f8" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Thunder" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Thunder)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Thunder_ChromaticOrbThunder_L1to3" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="db5705a1-824d-42a3-8d09-2352b9cd4af9" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2b284468-04a1-4730-a5c0-8ce54afbd937" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Thunder" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ddc08ef3-f67d-4603-9773-158f2aecabbc" />

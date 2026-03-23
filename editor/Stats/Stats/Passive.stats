@@ -1986,5 +1986,82 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9303" />
       </fields>
     </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2f954a32-f7b2-49a8-a64b-261d90576136" />
+        <field name="Name" type="NameTableFieldDefinition" value="__SORCERER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="69480514-dd8d-49d8-9e5a-af9a85d2c352" />
+        <field name="Name" type="NameTableFieldDefinition" value="Sorcerer_7_SorceryIncarnate" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hea7a291eg87bag417cg8ac2gdece9fc65308" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd8409099g42e6g3a17g9b47gc6bd4fec7de5" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Sorcerer_InnateSorcery" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1007" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasActionResource('InnateSorcery',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Shout_InnateSorcery'),ModifyUseCosts(Replace,InnateSorcery,0,-1,InnateSorcery),ModifyUseCosts(Add,SorceryPoint,2,0));" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnCombatStarted;OnCreate;OnTurn" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b0fe4fe1-8f3c-45ba-8c2d-bed2ffd5930b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Careful" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4934c1a7-4e55-40c1-8d37-7d0d877b9922" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc81419d-8402-44b4-b0a6-f999a0597da3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Distant" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5fae949d-95d0-4d52-980d-093d3641808a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="571896ab-79b8-4225-a584-28882d42b857" />
+        <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Empowered" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4b1bec57-9505-4015-a519-3ccde0cc970a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="29fc84b3-1e6b-499f-bf6a-a43527688f94" />
+        <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Extended" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="38afe5df-8cf9-4023-afee-1b72d052e180" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="112780bd-cccd-4af7-a714-c392907ad57c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Heightened" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c3c01a6e-8e28-400d-a26f-6f2b24ba829b" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(HeightenedSpellCheck(),ModifyUseCosts(Add,SorceryPoint,2,0),ModifySavingThrowDisadvantage());" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7443524d-4756-4b10-817c-4a93bd0bcc03" />
+        <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Quickened" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3545c2ba-eede-464c-8521-bcc2146ccee1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(QuickenedSpellCheck(),ModifyUseCosts(Add,SorceryPoint,2,0),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="23e5a723-1146-447a-b2cd-c1b59cfe92f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Subtle" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ba4b264c-9417-4f24-a409-51ee6d386f42" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb0431f3-2ccb-4008-9149-dfb86e3e7a70" />
+        <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Twinned" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="692e3104-8120-4a2e-b672-55a138303fb1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -926,5 +926,25 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(AttackRoll);" />
       </fields>
     </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5b751f3e-87d4-4163-b666-37c11c5d67a7" />
+        <field name="Name" type="NameTableFieldDefinition" value="__SORCERER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ff36e6c3-fd6f-4056-ba51-8d526f155833" />
+        <field name="Name" type="NameTableFieldDefinition" value="INNATE_SORCERY" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h82f19e57gbf88g3a8bg03e7g5886ec5f6ac0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h591ca3fag8585g7042gec5dgab33a05594bb" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Sorcerer_InnateSorcery" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INNATE_SORCERY" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsSpell()):Advantage(AttackRoll);IF(not HasPassive('Sorcerer_7_SorceryIncarnate',context.Source)):SpellSaveDC(1);IF(HasPassive('Sorcerer_7_SorceryIncarnate',context.Source)):SpellSaveDC(2);" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="2e0b20bb-9d15-4b14-b892-73484f66fd76" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

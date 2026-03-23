@@ -37,5 +37,15 @@
         <field name="SelectorId" type="FixedStringTableFieldDefinition" value="PrimalOrderList" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_303" />
+        <field name="UUID" type="IdTableFieldDefinition" value="afe0cc28-1288-4181-910b-10f2e850d009" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc9e4f723g5054g3b21ga6bage65df9a6ae78" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h98cf324dg4c24g1b78gdb54g670e46f0f8fb" version="1" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="Metamagic" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

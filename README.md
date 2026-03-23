@@ -33,13 +33,13 @@
 - [ ] Magical Secrets spell list
 ### Cleric
 - [x] Class
-- [x] Subclass
-  - [x] Death
+- [ ] Subclass
+  - [ ] Death
   - [x] Knowledge
   - [x] Life
   - [x] Light
-  - [x] Nature
-  - [x] Tempest
+  - [ ] Nature
+  - [ ] Tempest
   - [x] Trickery
   - [x] War
 - [x] Spell List
@@ -56,7 +56,7 @@
 - [x] Class
 - [ ] Subclass
   - [ ] Arcane Archer
-  - [x] Battle Master
+  - [ ] Battle Master
   - [x] Champion
   - [x] Eldritch Knight
   - [ ] Psi Warrior
@@ -94,9 +94,15 @@
   - [ ] Soulknife
   - [x] Thief
 ### Sorcerer
-- [ ] Class
+- [x] Class
 - [ ] Subclass
-- [ ] Spell List
+  - [ ] Aberrant
+  - [ ] Clockwork
+  - [ ] Draconic
+  - [ ] Shadow Magic
+  - [ ] Storm Sorcery
+  - [ ] Wild Magic
+- [x] Spell List
 ### Warlock
 - [ ] Class
 - [ ] Subclass
@@ -113,13 +119,14 @@
 ### Cantrip
 - [x] Spare the Dying (Cleric, Druid, ~~Artificer~~)
 - [x] Word of Radiance (Cleric)
-- [x] Poison Spray (Druid, ~~Sorcerer~~, ~~Warlock~~, ~~Wizard~~, ~~Artificer~~)
+- [x] Poison Spray (Druid, Sorcerer, ~~Warlock~~, ~~Wizard~~, ~~Artificer~~)
 - [x] Starry Wisp (Bard, Druid)
-- [x] Thunderclap (Bard, Druid, ~~Sorcerer~~, ~~Warlock~~, ~~Wizard~~, ~~Artificer~~)
+- [x] Thunderclap (Bard, Druid, Sorcerer, ~~Warlock~~, ~~Wizard~~, ~~Artificer~~)
+- [x] Sorcerous Burst (Sorcerer)
 ### Level 2
-- [x] Mind Spike (~~Sorcerer~~, ~~Warlock~~, ~~Wizard~~, Knowledge)
+- [x] Mind Spike (Sorcerer, ~~Warlock~~, ~~Wizard~~, Knowledge)
 ### Level 4
 - [x] Fount of Moonlight (Bard, Druid)
 ### Level 5
 - [x] Steel Wind Strike (~~Ranger~~, ~~Wizard~~, War)
-- [x] Synaptic Static (Bard, ~~Sorcerer~~, ~~Warlock~~, ~~Wizard~~, Knowledge)
+- [x] Synaptic Static (Bard, Sorcerer, ~~Warlock~~, ~~Wizard~~, Knowledge)
