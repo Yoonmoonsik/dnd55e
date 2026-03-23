@@ -30,6 +30,30 @@
                         </node>
                     </children>
                 </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="10"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Paladin_Devotion"/>
+                    <attribute id="Description" type="TranslatedString" handle="h3bda8161g54fbg0765gf90ag164a1cc634ba" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h60ea26b2gbcebg085dg4445g8f07a9d3ff4c" version="1"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="6"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MulticlassSpellcasterModifier" type="double" value="0.5"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Paladin"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="ba2afe85-acba-4ea1-a238-2b4543f47821"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Paladin"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="SpellList" type="guid" value="4ed41a6d-19fd-4ca8-940a-072314b71e43"/>
+                    <attribute id="UUID" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6d85ab2d-5c23-498c-a61e-98f05a00177a"/>
+                        </node>
+                    </children>
+                </node>
             </children>
         </node>
     </region>
