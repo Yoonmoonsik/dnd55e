@@ -112,6 +112,37 @@
   - [ ] Great Old One
   - [ ] Hexblade
 - [x] Spell List
+- [ ] Invocations
+  - [ ] PactOfTheBlade_Hex
+  - [ ] PactOfTheChain
+  - [ ] PactOfTheTome
+  - [x] ArmorOfShadows
+  - [x] BeastSpeech
+  - [x] BeguilingInfluence
+  - [x] EldritchMind
+  - [ ] AgonizingBlast
+  - [ ] DevilsSight
+  - [ ] EldritchSpear
+  - [ ] MaskOfManyFaces
+  - [ ] OtherworldlyLeap
+  - [ ] RepellingBlast
+  - [ ] ThiefOfFiveFates
+  - [ ] ThirstingBlade_Check
+  - [ ] GiftOfTheDepths
+  - [ ] ThirstingBlade
+  - [ ] EldritchSmite
+  - [ ] BookOfAncientSecrets
+  - [ ] MireTheMind
+  - [ ] OneWithShadows
+  - [ ] SignOfIllOmen
+  - [ ] DreadfulWord
+  - [ ] SculptorOfFlesh
+  - [ ] WhispersOfTheGrave
+  - [ ] Lifedrinker
+  - [ ] GiftOfTheProtectors
+  - [ ] MinionsOfChaos
+  - [ ] DevouringBlade
+
 ### Wizard
 - [ ] Class
 - [ ] Subclass
@@ -122,7 +153,7 @@
 ### Psion
 ## Spell
 ### Cantrip
-- [ ] Mind Sliver
+- [x] Mind Sliver (Sorcerer, Warlock, Wizard, ~~Aberrant~~)
 - [x] Poison Spray (Druid, Sorcerer, Warlock, Wizard, ~~Artificer~~)
 - [x] Sorcerous Burst (Sorcerer)
 - [x] Spare the Dying (Cleric, Druid, ~~Artificer~~)
