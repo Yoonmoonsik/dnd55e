@@ -115,7 +115,7 @@
 ### Wizard
 - [ ] Class
 - [ ] Subclass
-- [ ] Spell List
+- [x] Spell List
 ### Artificer
 ### Gunslinger
 ### Illrigger
@@ -123,18 +123,18 @@
 ## Spell
 ### Cantrip
 - [ ] Mind Sliver
-- [x] Poison Spray (Druid, Sorcerer, Warlock, ~~Wizard~~, ~~Artificer~~)
+- [x] Poison Spray (Druid, Sorcerer, Warlock, Wizard, ~~Artificer~~)
 - [x] Sorcerous Burst (Sorcerer)
 - [x] Spare the Dying (Cleric, Druid, ~~Artificer~~)
 - [x] Starry Wisp (Bard, Druid)
-- [x] Thunderclap (Bard, Druid, Sorcerer, Warlock, ~~Wizard~~, ~~Artificer~~)
+- [x] Thunderclap (Bard, Druid, Sorcerer, Warlock, Wizard, ~~Artificer~~)
 - [x] Word of Radiance (Cleric)
 ### Level 2
-- [x] Arcane Vigor (Sorcerer, ~~Wizard~~, ~~Artificer~~, Hexblade)
+- [x] Arcane Vigor (Sorcerer, Wizard, ~~Artificer~~, Hexblade)
 - [x] Find Steed (Paladin)
-- [x] Mind Spike (Sorcerer, Warlock, ~~Wizard~~, Knowledge)
+- [x] Mind Spike (Sorcerer, Warlock, Wizard, Knowledge)
 ### Level 4
 - [x] Fount of Moonlight (Bard, Druid)
 ### Level 5
-- [x] Steel Wind Strike (~~Ranger~~, ~~Wizard~~, War, Hexblade)
-- [x] Synaptic Static (Bard, Sorcerer, Warlock, ~~Wizard~~, Knowledge)
+- [x] Steel Wind Strike (~~Ranger~~, Wizard, War, Hexblade)
+- [x] Synaptic Static (Bard, Sorcerer, Warlock, Wizard, Knowledge)
