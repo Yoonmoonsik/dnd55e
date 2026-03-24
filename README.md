@@ -120,11 +120,11 @@
   - [x] BeastSpeech
   - [x] BeguilingInfluence
   - [x] EldritchMind
-  - [ ] AgonizingBlast
-  - [ ] DevilsSight
-  - [ ] EldritchSpear
-  - [ ] MaskOfManyFaces
-  - [ ] OtherworldlyLeap
+  - [x] AgonizingBlast
+  - [x] DevilsSight
+  - [x] EldritchSpear
+  - [x] MaskOfManyFaces
+  - [x] OtherworldlyLeap
   - [ ] RepellingBlast
   - [ ] ThiefOfFiveFates
   - [ ] ThirstingBlade_Check
@@ -153,6 +153,7 @@
 ### Psion
 ## Spell
 ### Cantrip
+- [x] Eldritch Blast
 - [x] Mind Sliver (Sorcerer, Warlock, Wizard, ~~Aberrant~~)
 - [x] Poison Spray (Druid, Sorcerer, Warlock, Wizard, ~~Artificer~~)
 - [x] Sorcerous Burst (Sorcerer)

@@ -659,7 +659,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="ValorCollege" />
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttackWarmagic_AC;ExtraAttackWarmagic_CA" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack_Warmagic;WarMagic" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(c213ca01-3767-457b-a5c8-fd4c1dd656e2,1,1,BardSpells)" />
       </fields>
     </stat_object>
@@ -2528,7 +2528,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,2,1,EldritchKnightAbjEvo)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel2;ExtraAttackWarmagic_AC;ExtraAttackWarmagic_CA" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel2;ExtraAttack_Warmagic;WarMagic" />
         <field name="PassivesRemoved" type="StringTableFieldDefinition" value="ExtraAttack" />
       </fields>
     </stat_object>
@@ -2576,8 +2576,8 @@
         <field name="Level" type="ByteTableFieldDefinition" value="11" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttackWarmagic_AAC;ExtraAttackWarmagic_CAA;" />
-        <field name="PassivesRemoved" type="StringTableFieldDefinition" value="ExtraAttackWarmagic_AC;ExtraAttackWarmagic_CA" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack_Warmagic_2" />
+        <field name="PassivesRemoved" type="StringTableFieldDefinition" value="ExtraAttack_2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5486,7 +5486,7 @@
         <field name="TableUUID" type="GuidTableFieldDefinition" value="eb51387c-6990-4f9b-965a-3acae7ba49d1" />
         <field name="FSName" type="StringTableFieldDefinition" value="BladesingingSchool" />
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack_Warmagic;WarMagic" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
       </fields>
     </stat_object>

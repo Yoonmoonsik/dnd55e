@@ -97,5 +97,29 @@
         <field name="Level11" type="StringTableFieldDefinition" value="8d6" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="BoomingBlade" />
+        <field name="UUID" type="IdTableFieldDefinition" value="15165867-0baa-4c17-bf99-f29e26c81ffe" />
+        <field name="Level5" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level6" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level7" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level8" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level9" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level10" type="StringTableFieldDefinition" value="2d8" />
+        <field name="Level11" type="StringTableFieldDefinition" value="2d8" />
+        <field name="Level12" type="StringTableFieldDefinition" value="2d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="BoomingBlade_Walk" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8558c32a-ad41-42fc-be0f-96aba474306a" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level5" type="StringTableFieldDefinition" value="2d8" />
+        <field name="Level11" type="StringTableFieldDefinition" value="3d8" />
+        <field name="Level10" type="StringTableFieldDefinition" value="3d8" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

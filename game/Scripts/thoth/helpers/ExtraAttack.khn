@@ -1,5 +1,21 @@
+function TrueStrikeMelee()
+    return SpellId('Target_TrueStrike_Weapon') | SpellId('Target_TrueStrike_Radiant') | SpellId('Target_TrueStrike_Radiant_Sneak') | SpellId('Target_MAG_TrueStrike_Radiant')
+end
+
+function TrueStrikeRanged()
+    return SpellId('Projectile_TrueStrike_Weapon') | SpellId('Projectile_TrueStrike_Radiant') | SpellId('Projectile_TrueStrike_Radiant_Sneak')
+end
+
+function TrueStrikeCheck()
+    return TrueStrikeMelee() | TrueStrikeRanged()
+end
+
+function BreathWeaponCheck()
+    return SpellId('Zone_BreathWeapon_Acid_Line') | SpellId('Zone_BreathWeapon_Acid') | SpellId('Zone_BreathWeapon_Poison_Line') | SpellId('Zone_BreathWeapon_Poison') | SpellId('Zone_BreathWeapon_Lightning_Line') | SpellId('Zone_BreathWeapon_Lightning') | SpellId('Zone_BreathWeapon_Fire_Line') | SpellId('Zone_BreathWeapon_Fire_Cone') | SpellId('Zone_BreathWeapon_Cold_Line') | SpellId('Zone_BreathWeapon_Cold')
+end
+
 function ExtraAttackSpellCheck()
-    return HasStringInSpellRoll('ShoveCheck') | HasStringInSpellRoll('WeaponAttack') | HasStringInSpellRoll('UnarmedAttack') | HasStringInSpellRoll('ThrowAttack') | SpellId('Target_CommandersStrike') | SpellId('Target_Bufotoxin_Frog_Summon') | SpellId('Projectile_ArrowOfSmokepowder') | SpellId('Projectile_ArcaneShot_SeekingArrow') | SpellId('Zone_ArcaneShot_PiercingArrow')
+    return ~TrueStrikeCheck() & ~SpellId('Target_VengefulBlade') & ~SpellId('Target_BoomingBlade_ClassSpell') & ~SpellId('Target_GreenFlameBlade') & HasStringInSpellRoll('WeaponAttack') | HasStringInSpellRoll('UnarmedAttack') | HasStringInSpellRoll('ThrowAttack') | SpellId('Target_CommandersStrike') | SpellId('Target_Shove') | SpellId('Target_Trip') | BreathWeaponCheck() | SpellId('Target_BootOfTheGiants') | SpellId('Teleportation_PactOfTheChain')
 end
 
 function ExtraAttackCheck()

@@ -12,3 +12,10 @@ function IsWarlockCantrip()
 	| SpellId('Target_TollTheDead')
 	| SpellId('Target_TrueStrike')
 end
+
+function IsEldritchSpearCantrip()
+	return SpellId('Projectile_EldritchBlast')
+	| SpellId('Target_MindSliver')
+	| SpellId('Projectile_PoisonSpray')
+	| SpellId('Target_TollTheDead')
+end

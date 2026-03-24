@@ -49,52 +49,30 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="cd9dd169-8155-4cf4-996a-38a3da1a37bf" />
-        <field name="Name" type="NameTableFieldDefinition" value="ExtraAttackWarmagic_AC" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d05ecbd1-13d3-4ec3-bc3d-ccbcd3e195a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="ExtraAttack_Warmagic" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d6652b46-7134-4986-a0a9-8eeb61148be8" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnCast)):ApplyStatus(SELF,EXTRA_ATTACK_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(EXTRA_ATTACK_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and not HasHigherPriorityExtraAttackQueued('EXTRA_ATTACK_Q') and not HasAnyExtraAttack()):ApplyStatus(EXTRA_ATTACK_WARMAGIC, 100, 1)" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfac955c9g640eg8dc8gfdefgfa559fa195f8" version="3" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he6112d47g8846ge668gbd97g45ddd36eeb46" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WarMagic" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="0e3a4ac8-ce16-4be9-9912-24f8e254b22e" />
-        <field name="Name" type="NameTableFieldDefinition" value="ExtraAttackWarmagic_CA" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="cd9dd169-8155-4cf4-996a-38a3da1a37bf" />
         <field name="Conditions" type="StringTableFieldDefinition" value="(context.HasContextFlag(StatsFunctorContext.OnCast) and (IsCantrip() or ExtraAttackSpellCheck()) and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and not HasStatus('SLAYER_PLAYER',context.Source) and not HasStatus('SLAYER_PLAYER_10',context.Source) and TurnBased(context.Source)) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased()) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('EXTRA_ATTACK_Q'));" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnCast)):ApplyStatus(SELF,EXTRA_ATTACK_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(EXTRA_ATTACK_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and not HasHigherPriorityExtraAttackQueued('EXTRA_ATTACK_Q') and not HasAnyExtraAttack()):ApplyStatus(EXTRA_ATTACK, 100, 1)" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="587ebac7-4127-406e-9a7e-8a32c1f0fa49" />
-        <field name="Name" type="NameTableFieldDefinition" value="ExtraAttackWarmagic_AAC" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5b002b10-8a70-4b87-9818-5db202cc4e45" />
+        <field name="Name" type="NameTableFieldDefinition" value="ExtraAttack_Warmagic_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="01832daf-a490-4334-9354-05b5afb16868" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hea3538f1g6d4fgd692gdf5cg16c0c6d70258" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd383ab64gcd01g6437g4439gcce1bcafb30c" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(EXTRA_ATTACK_2_WARMAGIC,100,1)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="919248ee-0eaa-4a2a-b993-21fae395d01b" />
-        <field name="Name" type="NameTableFieldDefinition" value="ExtraAttackWarmagic_CAA" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="01832daf-a490-4334-9354-05b5afb16868" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="(context.HasContextFlag(StatsFunctorContext.OnCast) and (IsCantrip() or ExtraAttackSpellCheck()) and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and not HasStatus('SLAYER_PLAYER',context.Source) and not HasStatus('SLAYER_PLAYER_10',context.Source) and TurnBased(context.Source)) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased()) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('EXTRA_ATTACK_2_Q'));" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(EXTRA_ATTACK_2,100,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="0caf02b6-90f5-44cb-be5a-3fc2ba8f04b5" />
-        <field name="Name" type="NameTableFieldDefinition" value="ExtraAttackWarmagic_Block_ACC" />
-        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnAttack;OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsCantrip();" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(EXTRA_ATTACK,100,1)" />
+        <field name="UUID" type="IdTableFieldDefinition" value="19fe2fc4-f123-44c4-8bc3-86d595100619" />
+        <field name="Name" type="NameTableFieldDefinition" value="WarMagic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="765eaa1a-39b9-42bf-833b-b3ed41241cb8" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h66fbaf70g36bcg4313g969fgfabc9b4f1f69" version="3" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsCantrip()" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(WAR_MAGIC_BLOCK,100,1)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2147,7 +2125,7 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1102" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(2,'Warlock',context.Source);" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWarlockCantrip() and IsCharismaModifierPositive()):DamageBonus(CharismaModifier,Force);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWarlockCantrip() and IsCharismaModifierPositive()):DamageBonus(CharismaModifier);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2171,7 +2149,8 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf94f288fge015g4a15g6c34g367d15c45d89" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h2c66be28g9561g15fcg3b9dga1250371427d" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1102" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Projectile_EldritchBlast'),ModifyTargetRadius(Multiplicative,1.5),);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(IsEldritchSpearCantrip(),ModifyTargetRadius(Multiplicative,1.5),);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1be8ef4cg573bg9247g8bf7gbe003418678b" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(2,'Warlock',context.Source);" />
       </fields>
@@ -2214,6 +2193,8 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1102" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar;Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h92b0f41cg7222g57a1gf293g5f9b67f6c76a" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="EnabledConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(2,'Warlock',context.Source);" />
         <field name="EnabledContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
