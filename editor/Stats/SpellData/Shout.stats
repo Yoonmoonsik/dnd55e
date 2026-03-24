@@ -1226,11 +1226,34 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="d822f332-8213-49a1-bc48-4668a89199ad" />
       </fields>
     </stat_object>
+    <stat_object color="#FF8A2BE2" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f8ca137f-7ee2-4e3b-894b-71c8eb15772a" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WARLOCK__" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="e25d1224-30c0-4d9a-94c9-fad619954c50" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="5c05066f-8be1-4fe3-b702-047aeee15009" />
+        <field name="UUID" type="IdTableFieldDefinition" value="83f0c00d-8b94-4d7d-ab71-a64acfe79bad" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicalCunning" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RestoreResource(WarlockSpellSlot,1,1);RestoreResource(WarlockSpellSlot,1,2);RestoreResource(WarlockSpellSlot,1,3);RestoreResource(WarlockSpellSlot,1,4);RestoreResource(WarlockSpellSlot,1,5)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Mag_CaitiffsRestoration" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h20d548d9g2600gaf44geda5gd71ed6825255" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0475c80dgb3d2g65a0g32e3g51e0604b9fae" version="1" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Action_Prepare_Warlock_FiendishResiliencePiercing" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Action_Loop_Warlock_FiendishResiliencePiercing" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Warlock_SpellSlotRestoration" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Warlock_SpellSlotRestoration" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="0de4f5f1-c143-4dc4-a98a-f75d9d8c3fa5,,;,,;0ae52657-3910-4d5a-b561-623524505704,,;5184b801-24e1-4ec5-b078-489ec2c7c6ee,,;0afd108e-fc08-405d-906d-4778b833388e,,;,,;ffea93f3-ec0c-4639-be9e-5760c7f67ae1,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="f4d1d3da-0193-4f35-bd70-44f3a889810c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="c90dca7b-0926-4158-8015-9acc390fea0f" />
       </fields>
     </stat_object>
   </stat_objects>

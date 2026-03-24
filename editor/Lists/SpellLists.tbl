@@ -964,6 +964,13 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ddbeea70-f3a5-41be-8754-3885d5eb9999" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock Level 2" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_MagicalCunning" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f5c4af9c-5d8d-4526-9057-94a4b243cd40" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock Cantrip" />
         <field name="Spells" type="StringTableFieldDefinition" value="Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_ChillTouch;Projectile_EldritchBlast;Target_Friends;Target_MageHand;Target_MinorIllusion;Projectile_PoisonSpray;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike" />

@@ -4500,7 +4500,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedWarlockSpellSlotLevel1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,1,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(SimpleWeapons)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,,,,AlwaysPrepared);SelectSpells(24c2b246-bb86-47ed-b85e-24dc6695b6ca,2,0);SelectSkills(675236ba-c3cc-44ec-a58b-0e46351c85bd,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,,,,AlwaysPrepared);SelectSpells(24c2b246-bb86-47ed-b85e-24dc6695b6ca,2,0);SelectPassives(8d8ac513-c7c8-4f8b-b67f-5a9a14741aae,1,WarlockInvocations);SelectSkills(675236ba-c3cc-44ec-a58b-0e46351c85bd,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4513,7 +4513,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedWarlockSpellSlotLevel1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,1,1);Proficiency(LightArmor);Proficiency(SimpleWeapons)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,,,,AlwaysPrepared);SelectSpells(24c2b246-bb86-47ed-b85e-24dc6695b6ca,2,0);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,,,,AlwaysPrepared);SelectSpells(24c2b246-bb86-47ed-b85e-24dc6695b6ca,2,0);SelectPassives(8d8ac513-c7c8-4f8b-b67f-5a9a14741aae,1,WarlockInvocations);" />
         <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
@@ -4526,7 +4526,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,1,1)" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(333fb1b0-9398-4ca8-953e-6c0f9a59bbed,2,WarlockInvocations);SelectSpells(24c2b246-bb86-47ed-b85e-24dc6695b6ca,1,1);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(ab56f79f-95ec-48e5-bd83-e80ba9afc844,2,WarlockInvocations);SelectSpells(24c2b246-bb86-47ed-b85e-24dc6695b6ca,1,1);AddSpells(ddbeea70-f3a5-41be-8754-3885d5eb9999)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4539,7 +4539,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedWarlockSpellSlotLevel2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,2,2);ActionResourceOverride(WarlockSpellSlot,0,1)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(0e140900-14d9-4c38-8720-49936dbb8ba7,1,PactBoon);SelectSpells(854033fe-84b8-4a22-9a0c-ddc0eb2a74d1,1,1);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(854033fe-84b8-4a22-9a0c-ddc0eb2a74d1,1,1);" />
         <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="733ddf8c-9ec4-4c5a-85e3-c70fd3df3c24;8866db28-7dda-4fd6-93ed-20eca16314f0;e1e4a21f-9405-46ec-81a0-ccc8d58d9736;8fb57960-eb92-48f5-b99d-ab36519e4d4f" />
       </fields>
     </stat_object>
@@ -4564,7 +4564,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,2,3);ActionResourceOverride(WarlockSpellSlot,0,2)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(8adab8f9-e360-4f79-851b-2c7e050ca23d,1,WarlockInvocations);SelectSpells(f2067e9a-2780-44d0-b696-1870cc537dd4,1,1);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(ab56f79f-95ec-48e5-bd83-e80ba9afc844,2,WarlockInvocations);SelectSpells(f2067e9a-2780-44d0-b696-1870cc537dd4,1,1);" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="ThirstingBlade_Check;ThirstingBlade_Blade;ThirstingBlade_Tome;UnlockedWarlockSpellSlotLevel3" />
       </fields>
     </stat_object>
@@ -4588,7 +4588,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="7" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,2,4);ActionResourceOverride(WarlockSpellSlot,0,3)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(39efef92-9987-46e2-8c43-54052c1be535,1,WarlockInvocations);SelectSpells(94fb74d6-c832-40f1-9e08-159ce46091a1,1,1);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(ab56f79f-95ec-48e5-bd83-e80ba9afc844,1,WarlockInvocations);SelectSpells(94fb74d6-c832-40f1-9e08-159ce46091a1,1,1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4612,7 +4612,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,2,5);ActionResourceOverride(WarlockSpellSlot,0,4)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(a2d72748-0792-4f1e-a798-713a66d648eb,1,WarlockInvocations);SelectSpells(648310a4-d9b7-4cf5-b6a0-51bd957a798f,1,1);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(ab56f79f-95ec-48e5-bd83-e80ba9afc844,1,WarlockInvocations);SelectSpells(648310a4-d9b7-4cf5-b6a0-51bd957a798f,1,1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

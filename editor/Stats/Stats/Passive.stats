@@ -2063,5 +2063,318 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="692e3104-8120-4a2e-b672-55a138303fb1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF8A2BE2" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d72cbd2d-e371-4e9d-8dd8-927fd5682ec8" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WARLOCK__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d1949884-78ad-4017-b8c3-a49cefb933ad" />
+        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade_Hex" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ecde94b6-438c-4bae-b871-e1d47af3c98d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha12d8231ga51ag15b0gaa53g6e00282dc4a2" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1101" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b6f8450f-0b7f-47ea-a333-67b098c65f3a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheChain" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c4d6c4c6-78f2-4188-b1ce-03c01a528cfd" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he1bd3e3eg338fg58d5g3de3g9be05e9302e7" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1101" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="08d1209c-396d-4b36-bfe3-755eeb2b85b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="PactOfTheTome" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a86efcde-4bd1-4000-86f5-282dad36734e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9e2924dag8101gd3b2g68a2g6add03aed4dd" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1101" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9cf1ae30-5865-46aa-b677-d2a9040068f8" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArmorOfShadows" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9794faa6-9321-4a60-834a-cb6fd2dee0a6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h25396b5dgdf7bg8d51g09d5g87f669d3be25" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1101" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="348d51dc-8624-4470-81ff-5507de8ad1e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="BeastSpeech" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0b544088-6fd8-43a3-92bd-03a3411a89ec" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h007cf464gd375gf74bg38ccgdc14ddbc38cf" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da5c1657-2e35-4960-96b9-f9490d23be9d" />
+        <field name="Name" type="NameTableFieldDefinition" value="BeguilingInfluence" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2bcce1b-0be1-43b9-9cf5-3d26e4bc0962" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f9d1ae5g4592g2f49gb8c7g87c552837f15" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="07481fa2-b16f-4adf-a923-56d64e28ba3a" />
+        <field name="Name" type="NameTableFieldDefinition" value="EldritchMind" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbe38acefg243eg2454ge187g5d1c50d4bb2b" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9958bcb7g9126g6467g3b95g0f07e49ea19d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchMind" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1101" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Concentration)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c1c4b91b-0da5-4618-8382-232d365652b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="AgonizingBlast" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9826308d-cdc0-4d2b-9981-07692ee6592b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h25cfc459ge325g3d22g7037g9a95573234b1" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hd84b885bge9e8g3573gd4ffg49076a30df65" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1102" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e6152982-4260-4489-9e95-ca47494dcdab" />
+        <field name="Name" type="NameTableFieldDefinition" value="DevilsSight" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="705567e0-1a6a-4c5c-b0d3-846d8500b6b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h56007d5dgf3f2gc9c2g10eegc2fef230c9e6" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hecbef4dfg8243g14d6g9693gac003507a80f" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1102" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(24);ActiveCharacterLight(c46e7ba8-e746-7020-5146-287474d7b9f7);StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="164b6a81-ce8a-4e1f-a841-7b579af76dc9" />
+        <field name="Name" type="NameTableFieldDefinition" value="EldritchSpear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="22c801fc-d816-4402-9508-6917d55ff03d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf94f288fge015g4a15g6c34g367d15c45d89" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h2c66be28g9561g15fcg3b9dga1250371427d" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1102" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Projectile_EldritchBlast'),ModifyTargetRadius(Multiplicative,1.5),);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a987d772-9d92-4c5d-9efc-0b7382d1c72d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MaskOfManyFaces" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f8fff257-d7ed-4c3c-b2c0-59a5b18de41b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc803f28bg3024g3fd8gc979gbeb1263f4991" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h5998bc9cg0a28g94afg1a59g5ef2c18cef61" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1102" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DisguiseSelf_MaskOfManyFaces,Singular);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c6ea6d4e-3584-4061-a1db-ac328342bf4c" />
+        <field name="Name" type="NameTableFieldDefinition" value="OtherworldlyLeap" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d41fb64f-3a18-43ae-a617-cd650ba0ede0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha97e7097gda9cgc3eegbb86g9bf88d36ee68" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h2d4bd307g5d48gebb2g299bg828ff537fd3c" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1102" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Jump,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f020a416-8316-4e9e-91d4-e8cd8514991b" />
+        <field name="Name" type="NameTableFieldDefinition" value="RepellingBlast" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="213e8842-2088-4f06-93bd-1060e83bf727" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd47c4e1cg1e7ag651cg8c57g7deb405ec80c" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h35ea3bedgaf6dg4319gd657g95569aedae04" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1102" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar;Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="SpellId('Projectile_EldritchBlast') and HasDamageEffectFlag(DamageFlags.Hit);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ee9e9a63-b51c-400f-be3d-c17a93f80fde" />
+        <field name="Name" type="NameTableFieldDefinition" value="ThiefOfFiveFates" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a733f7ec-ff13-42b6-82ba-ff30e28ba23d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6657b78egb581g0244g06feg115830c4d5fe" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h96b23ed5g9f6eg5ed9gc731gf83643845844" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Bane_ThiefOfFiveFates,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a,UntilRest);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="71624f19-f85d-4e65-b7e8-87faf7a2c01d" />
+        <field name="Name" type="NameTableFieldDefinition" value="InvestmentOfTheChainMaster" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0c1dba3ag239egef50g0d52g47241e4e6016" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="ha94435d8g091cgce68gaca4gc20e3eea7844" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="73de262b-f0f6-4c16-bb44-18e8a22c774f" />
+        <field name="Name" type="NameTableFieldDefinition" value="GiftOfTheDepths" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he5f3196agc9ccg5177gedd9ged594f4d1f5a" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h5c3434c5ge1cfg2712gf301g25080935ac60" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e07a3f3a-fb0f-488b-9ef1-a3c8ca82cf87" />
+        <field name="Name" type="NameTableFieldDefinition" value="ThirstingBlade" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb2501172gdfd6gb7ebg0621ga38a34e3f573" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha794dab4gf433ga08bg7d82gda68964c691c" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h8d4f86adg3e6fg113dg666fg926e6f0083ba" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f8effc44-5431-4a0d-ba53-b3b5bef0b51e" />
+        <field name="Name" type="NameTableFieldDefinition" value="EldritchSmite" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h425487e0g16b7ga256gb63ag56872a5ea672" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4d483577g0d77g722dg50ddga9f231b29ec2" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h284ddfa3g663ag50c2g07e9g9ac8fe753bcd" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="108eb481-ed13-43df-ae2d-d0c2ee201873" />
+        <field name="Name" type="NameTableFieldDefinition" value="BookOfAncientSecrets" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d9f2f980-ee12-4b9d-b338-f5d1835968e7" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hda504259gf2e4g3266g40fdge92c642b1182" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hdc954407ge07fg170agc027gb3ac7e6afda9" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d212f981-be99-46aa-b875-98365807452d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MireTheMind" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="65f0fb4b-34cb-4183-b927-50c3e6366181" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hda228a0eg1468g0defg7675gfa912f042658" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h8dd81e23g9a97gc012g10f6g34aea3e1b3be" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fdb999bd-444c-4d7c-8be4-6223b076f7f9" />
+        <field name="Name" type="NameTableFieldDefinition" value="OneWithShadows" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="29108894-b0cc-457a-8028-817ee0f515a0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc0ad688dged59g744fgf3e6g1e706f4ee29c" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h5c37c62dg8f18g4212gc85fgb76c2c9723ec" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="095ffacc-8f0c-4a2b-a733-66e2301b8ab4" />
+        <field name="Name" type="NameTableFieldDefinition" value="SignOfIllOmen" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="71a0087e-bffd-49f8-8cca-bb72f6377ee5" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdb88100cgafa2g940ag4433gb000edb33a07" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h1b7fb0eag8d29g4cf4g04fag91b2e056cf0c" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a5609f93-c61f-410d-940c-2a8857cf0def" />
+        <field name="Name" type="NameTableFieldDefinition" value="DreadfulWord" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0dbfb5aa-ac37-412e-a1d2-144712bb7843" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0738ad5cg28e2g4092gfc87gc94c75bc8f5b" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h1e82dd96g79f2g67a9g365dgc089cab1b728" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1107" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2eda3667-bc3a-4766-b7b3-cd44fc600299" />
+        <field name="Name" type="NameTableFieldDefinition" value="SculptorOfFlesh" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0cf6a78c-9da8-49ba-8431-dbc5138d9807" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1fb30dc3ge20dgcb22g34d0gcdd0e387793b" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hd6f07d39ge321g7e13gcdabgbcbf12aaa406" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1107" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="75146659-b871-4d01-8a46-91ee299aa6e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="WhispersOfTheGrave" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="55c6c60e-d907-4cb0-9fc2-9b92d2e24cbc" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h307a5339gff1ag9485g5387gfb0813a818b3" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hde2d1489gd4e5gf6f4g63e9g804d8eb5d149" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1107" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1435f4a5-b61b-43a8-923b-c37409d4c2b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Lifedrinker" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="860972fa-757f-4db6-991f-d7dc7c4d8593" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb8aec518g6d45g1454g58cbgbac23fec6617" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35551526g84e1g78f3g1277g241f3a6077bb" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hb7444fe8g6554g6a31ged37g03cc050ef8d3" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1109" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04882b06-c497-4ce1-be59-98044d133e80" />
+        <field name="Name" type="NameTableFieldDefinition" value="GiftOfTheProtectors" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd7310e4agc213gc092gf6fag5e8c8130b34d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h87d4e985gc3a3g6b66g2385g07e2b48896df" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h79064293gdc22g33fcgf577g81a7411a9720" version="1" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="375fe7a4-7a8a-4bbe-812c-0af9584c0740" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1109" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c862eb6e-1c32-4b32-9d03-ca2ac62a6b1d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MinionsOfChaos" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="11a18d88-abeb-407f-9e4a-662439fc9c90" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5ebc0953g6724g72fageab4g7f5682f9fb32" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf1a63187g9766gc5aeg0b86g693324a45025" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1109" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f2919c6-9173-4ae3-990d-c3dcf3f79a1f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DevouringBlade" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd69af339g9d2bg91b6gba38g8dbeb8503f7b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haf78a66bg2f9bg5fb7g8c9ag5da07aa459f4" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hc579ca24g72d1g35dfg46c5g5274d47b30cc" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1112" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
