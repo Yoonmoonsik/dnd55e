@@ -6,6 +6,10 @@ KBSECTION
 IF
 HitpointsChanged((CHARACTER)_Character,_Percentage)
 AND
+IsItem(_Character, 0)
+AND
+IsCharacter(_Character, 1)
+AND
 _Percentage < 50.0
 THEN
 ApplyStatus(_Character, "BLOODED", -1.0, 1, _Character);
