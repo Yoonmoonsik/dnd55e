@@ -7,7 +7,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e5a796ab-3b90-4cd3-8b5a-c3aa5d993833" />
         <field name="FeatId" type="GuidTableFieldDefinition" value="d674aa33-8633-4b67-8623-b6788f0d5fc4" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2d1c35beg6336gdd1eg258dg69afd0b6b19f" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he017d973g0291gbe65g86dbgfc62954d6af5" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he017d973g0291gbe65g86dbgfc62954d6af5" version="3" />
         <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Athlete" />
       </fields>
     </stat_object>
@@ -17,8 +17,68 @@
         <field name="UUID" type="IdTableFieldDefinition" value="cfe571e4-5d45-4715-82e6-d63dd4a8335b" />
         <field name="FeatId" type="GuidTableFieldDefinition" value="eab25714-15d6-4e26-b809-3fad832d0484" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf57c9070gd267g0022g18deg38ad134018ab" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9ed109c6ga680g6d73gce1ag6e136e676cb2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9ed109c6ga680g6d73gce1ag6e136e676cb2" version="2" />
         <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Charger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0715b482-2377-4288-a2b3-9c818a1836b3" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="94a78b4c-a8f2-404f-8cdc-2d454c13cb97" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hafd66c3cg4becg70e3gdeb1g96e635182645" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc7b891e9gd9c0g1617g0233ga492c5e47dc7" version="2" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="CrossbowExpert" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="413644a9-3cb5-4f76-980a-bf2397dcac3d" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="661eee63-ff91-4f29-9f21-3a974c9d6fe5" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h32eff9e8g416dgc4dagd8e6g74260b215e68" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd032f660g8a39g73eagc4bdgd4038c7dc8de" version="2" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="DefensiveDuelist" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="95777965-bb2b-4ad5-8cc8-3c0c407c4bc4" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="f692f7b5-ffd5-4942-91a1-a71ebb2f5e7c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfa2c5254ge5fag62b7gffb6g392787c61974" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2d809685g28ffge26ag3e6ag5fa20f63c9e3" version="3" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="DualWielder" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5438a1a6-83e6-44dd-813a-b87c0f8fba36" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="71b65667-0eac-4e62-b878-fa862e88ebbf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfba39959g9b2dg1bffgffd6g069588fe122e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9dd8a551g9f01g98dbg64f1ga485e59f0e9d" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="DungeonDelver" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
+        <field name="UUID" type="IdTableFieldDefinition" value="43c5159d-1ba2-400b-8657-805aa84bec04" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="56c3c247-35cf-4ffd-86dd-7d249cc1808f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3e8e3421g4852g1a98g9d7cgf3947ee60a89" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6299a92eg8049g117bga5b7g17d26b0619d6" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Durable" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="da220d1c-c365-4695-9c3a-60927f364201" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="c09815f7-282b-4ccf-bd89-a51caa1b550f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3f1eb96eg51f4gaf8cg5396g435ffda2161a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h00f044d5gf4edgc900g397bgca53d410bdad" version="2" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="GreatWeaponMaster" />
       </fields>
     </stat_object>
   </stat_objects>

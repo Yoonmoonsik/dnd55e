@@ -323,5 +323,26 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fc9131eb-e555-4081-b52f-9f96c4c58caf" />
+        <field name="Name" type="NameTableFieldDefinition" value="__GENERAL FEAT__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="91a54166-b035-4d7f-a62d-369a13a8a50e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_DefensiveDuelist" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dee86b86-10a3-42ab-b11c-6b3cb9ae7cf6" />
+        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(OBSERVER_OBSERVER,0-ProficiencyBonus);ApplyStatus(SWAP,PASSIVE_DEFENSIVE_DUELIST,100,0);ApplyStatus(OBSERVER_OBSERVER,INTERRUPT_DEFENSIVE_DUELIST,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="23677e64-a1ae-4b9e-bb11-f0c3f440cf4a" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8d53d12a-97bf-46a0-b8cc-fb1f0c1a3f4e" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

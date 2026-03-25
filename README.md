@@ -434,6 +434,13 @@
 ### General
 - [x] Athlete
 - [x] Charger
+- [x] Crossbow Expert
+- [x] Defensive Duelist
+- [x] Dual Wielder
+- [ ] Dungeon Delver
+- [ ] Durable (보행으로 전체 생명력 절반 회복 짧휴당)
+- [x] Elemental Adept
+- [x] Great Weapon Master
 ### Fighting Style
 ## Spell
 ### Cantrip

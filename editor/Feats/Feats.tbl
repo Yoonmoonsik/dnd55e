@@ -70,5 +70,70 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="94a78b4c-a8f2-404f-8cdc-2d454c13cb97" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="CrossbowExpert" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="CrossbowExpert_PointBlank;CrossbowExpert_Wounding" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="FeatRequirementAbilityGreaterEqual('Dexterity',13)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(b54e54c7-fc1d-4fbf-9fae-83c89a196da7,1,1,DEX)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_20" />
+        <field name="UUID" type="IdTableFieldDefinition" value="661eee63-ff91-4f29-9f21-3a974c9d6fe5" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="DefensiveDuelist" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DefensiveDuelist" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="FeatRequirementAbilityGreaterEqual('Dexterity',13)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(b54e54c7-fc1d-4fbf-9fae-83c89a196da7,1,1,DEX)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_21" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f692f7b5-ffd5-4942-91a1-a71ebb2f5e7c" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="DualWielder" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DualWielder_BonusAC;DualWielder_PassiveBonuses" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="FeatRequirementAbilityGreaterEqual('Strength',13) or FeatRequirementAbilityGreaterEqual('Dexterity',13)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="71b65667-0eac-4e62-b878-fa862e88ebbf" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="DungeonDelver" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DungeonDelver_Perception;DungeonDelver_ResistTraps" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="56c3c247-35cf-4ffd-86dd-7d249cc1808f" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Durable" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Durable" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_11" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cec2d95b-451c-40f8-8e17-9e547d363e8e" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="ElementalAdept" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);SelectPassives(f6b6e71f-79b1-4ba3-8fd8-ee38a44d3d39,1)" />
+        <field name="CanBeTakenMultipleTimes" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_22" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c09815f7-282b-4ccf-bd89-a51caa1b550f" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="GreatWeaponMaster" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="GreatWeaponMaster_BonusAttack" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="FeatRequirementAbilityGreaterEqual('Strength',13)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(c8c86d75-2abc-40a2-8d40-2b1a341afa00,1,1,STR)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

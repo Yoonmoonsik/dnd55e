@@ -9,6 +9,16 @@
                     <attribute id="Name" type="FixedString" value="STR DEX"/>
                     <attribute id="UUID" type="guid" value="499230af-5946-4680-a7ee-4d76d421f2ef"/>
                 </node>
+                <node id="AbilityList">
+                    <attribute id="Abilities" type="LSString" value="Dexterity"/>
+                    <attribute id="Name" type="FixedString" value="DEX"/>
+                    <attribute id="UUID" type="guid" value="b54e54c7-fc1d-4fbf-9fae-83c89a196da7"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Abilities" type="LSString" value="Intelligence, Wisdom, Charisma"/>
+                    <attribute id="Name" type="FixedString" value="INT WIS CHA"/>
+                    <attribute id="UUID" type="guid" value="e9912c21-bfdf-4c75-ab58-0750e257e76c"/>
+                </node>
             </children>
         </node>
     </region>

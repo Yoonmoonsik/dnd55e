@@ -2881,7 +2881,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Athlete_StandUp" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="19c32712-ac61-4049-98b1-b66808f1860a" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4fa37f8dgea0ag8e9eg9222g12cdf8ef50af" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hac8cf59bgb29dg6896g2a11g689bf333570e" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hac8cf59bgb29dg6896g2a11g689bf333570e" version="3" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="200" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Athlete_Jump);" />
       </fields>
@@ -2892,12 +2892,76 @@
         <field name="Name" type="NameTableFieldDefinition" value="Charger" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="89c11c83-9cd9-40aa-8cc6-89aa7e5d5a3d" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbc6e4744g6835g4d25g3453g224b9eed2a70" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4e972de5g72bbgc7d9gfda3g1c89f2af41d0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4e972de5g72bbgc7d9gfda3g1c89f2af41d0" version="2" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="200" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(ChargerTurn,1,0);UnlockSpell(Rush_Charger_Attack);UnlockSpell(Rush_Charger_Push);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="SpellCategoryIs(SpellCategory.Dash) and Combat()" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(MAG_MOMENTUM,100,2);ApplyStatus(MAG_MOMENTUM_DURATION_TECHNICAL, 100, 1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3c12b512-f5aa-4f2b-bf22-b641e3c162da" />
+        <field name="Name" type="NameTableFieldDefinition" value="CrossbowExpert_PointBlank" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7657e18a-c802-4743-89a8-68e2bc1b2764" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9dde7fdcgac74g74cag98d7g044c58ef3023" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="201" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2488abe4-9e86-4f3f-a6ef-cab41fa83cf8" />
+        <field name="Name" type="NameTableFieldDefinition" value="CrossbowExpert_Wounding" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ad66ea82-7b55-4e7e-8922-a06571a65ba7" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2b11e796g7a1fga346gb3e4g85e96274b6ef" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h48bb1d7fga4e5g9f8fga414g0fe42c7616ac" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="201" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsRangedWeaponAttack() and not IsMiss();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:ApplyStatus(GAPING_WOUND,100,2,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()))" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ddd92846-a273-4774-b16f-1b1c3e23dd68" />
+        <field name="Name" type="NameTableFieldDefinition" value="DefensiveDuelist" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="466e7f83-05a2-486c-9088-5105f1417718" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h208b7de3g5f3cge001gfe82gdd2940dee59c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfd0b3091g52f6g2cd7ga7cbg9c61332d3252" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="202" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cd63d3bc-d531-4f9b-bdc0-2e274468becf" />
+        <field name="Name" type="NameTableFieldDefinition" value="DualWielder_PassiveBonuses" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8ebf055f-009b-477a-9a7f-157f6e26b738" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7ed3574cg898aga3cage4bcg72bfa5e60a5c" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="203" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a7216254-15fa-47ae-95a7-8dbd8297b30e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DualWielder_BonusAC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43440de7-517d-40e8-b04b-638ec2b2c0b2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h720a62a8g5de9g9909gb1cagf61131cf2df9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5cc813aagcb96gf7f3g42e4g17b7234b86eb" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="203" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_DualWielder_OffhandAttack);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4de3d2fb-4276-4e98-8066-f8af602c8fe7" />
+        <field name="Name" type="NameTableFieldDefinition" value="GreatWeaponMaster_BonusAttack" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8df892b6-6c6c-45dc-8eda-b7923c406b27" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h349877e7geb40gb92agf0ebg6d7a8824b88d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf5c74f9cg9d34g5f2dgb774g506b6adf6782" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="204" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(GreatWeaponMaster(context.Source)):CharacterWeaponDamage(ProficiencyBonus);" />
       </fields>
     </stat_object>
   </stat_objects>

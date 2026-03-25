@@ -20,3 +20,17 @@ function MeleeUnarmed(entity)
 	entity = entity or context.Target
     return ~WieldingWeapon('Melee', false, true, entity)
 end
+
+function GreatWeaponMaster(entity)
+    local entity = entity or context.Source
+    local weapon = context.AttackWeapon
+
+    local isHeavy = HasWeaponProperty(WeaponProperties.Heavy, weapon)
+    local isTwoHanded = HasWeaponProperty(WeaponProperties.Twohanded, weapon)
+    local isVersatile = HasWeaponProperty(WeaponProperties.Versatile, weapon)
+    local isOffhandMelee = WieldingWeapon('Melee', true, false, entity)
+    local isOffhandAmmunition = WieldingWeapon('Ammunition', true, false, entity)
+    local hasShield = HasShieldEquipped(entity)
+
+    return IsProficientWith(entity, weapon) & ((isTwoHanded) | (isVersatile & ~isOffhandMelee & ~isOffhandAmmunition & ~hasShield))
+end

@@ -1,0 +1,11 @@
+new entry "__GENERAL FEAT__"
+type "StatusData"
+data "StatusType" "EFFECT"
+
+new entry "INTERRUPT_DEFENSIVE_DUELIST"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "INTERRUPT_DEFENSIVE_DUELIST"
+data "Boosts" "AC(2);IF(CharacterLevelGreaterThan(4)):AC(1);IF(CharacterLevelGreaterThan(8)):AC(1);IF(CharacterLevelGreaterThan(11)):AC(1);"
+data "TickType" "StartTurn"
+

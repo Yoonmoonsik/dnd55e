@@ -8,5 +8,19 @@
         <field name="Abilities" type="StringTableFieldDefinition" value="Strength, Dexterity" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b54e54c7-fc1d-4fbf-9fae-83c89a196da7" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEX" />
+        <field name="Abilities" type="StringTableFieldDefinition" value="Dexterity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e9912c21-bfdf-4c75-ab58-0750e257e76c" />
+        <field name="Name" type="NameTableFieldDefinition" value="INT WIS CHA" />
+        <field name="Abilities" type="StringTableFieldDefinition" value="Intelligence, Wisdom, Charisma" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
