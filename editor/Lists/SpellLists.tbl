@@ -344,14 +344,14 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2968a3e6-6c8a-4c2e-882a-ad295a2ad8ac" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 2 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Aid;Target_Blindness;Target_CalmEmotions;Target_EnhanceAbility;Target_HoldPerson;Target_LesserRestoration;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_Silence;Target_SpiritualWeapon;Target_WardingBond" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_Blindness;Target_CalmEmotions;Target_EnhanceAbility;Target_HoldPerson;Target_LesserRestoration;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_Silence;Target_SpiritualWeapon;Target_WardingBond" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="eed8f010-b97e-4c37-a709-b749499e3305" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 2 List to Bard" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Aid;Target_Blindness;Target_CalmEmotions;Target_EnhanceAbility;Target_HoldPerson;Target_LesserRestoration;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_Silence;Target_SpiritualWeapon;Target_WardingBond" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_Blindness;Target_CalmEmotions;Target_EnhanceAbility;Target_HoldPerson;Target_LesserRestoration;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_Silence;Target_SpiritualWeapon;Target_WardingBond" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
@@ -380,7 +380,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="bbaf0bab-b0b3-44c9-a567-304e35c063c9" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Life Level 3 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Aid;Target_LesserRestoration;Target_Bless;Target_CureWounds;Target_PreserveLife" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_LesserRestoration;Target_Bless;Target_CureWounds;Target_PreserveLife" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -821,7 +821,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c14c9564-1503-47a1-be19-98e77f22ff59" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Paladin SLevel 2 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Aid;Target_LesserRestoration;Target_MagicWeapon;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_Smite_Branding_Container;Target_WardingBond" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_LesserRestoration;Target_MagicWeapon;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_Smite_Branding_Container;Target_WardingBond" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
