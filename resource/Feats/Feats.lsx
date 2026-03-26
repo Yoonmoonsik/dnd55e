@@ -57,12 +57,6 @@
                     <attribute id="UUID" type="guid" value="94a78b4c-a8f2-404f-8cdc-2d454c13cb97"/>
                 </node>
                 <node id="Feat">
-                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="ElementalAdept"/>
-                    <attribute id="Selectors" type="LSString" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);SelectPassives(f6b6e71f-79b1-4ba3-8fd8-ee38a44d3d39,1)"/>
-                    <attribute id="UUID" type="guid" value="cec2d95b-451c-40f8-8e17-9e547d363e8e"/>
-                </node>
-                <node id="Feat">
                     <attribute id="Name" type="FixedString" value="DefensiveDuelist"/>
                     <attribute id="PassivesAdded" type="LSString" value="DefensiveDuelist"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual(&apos;Dexterity&apos;,13)"/>
@@ -85,6 +79,12 @@
                     <attribute id="Name" type="FixedString" value="Durable"/>
                     <attribute id="PassivesAdded" type="LSString" value="Durable"/>
                     <attribute id="UUID" type="guid" value="56c3c247-35cf-4ffd-86dd-7d249cc1808f"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="ElementalAdept"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);SelectPassives(f6b6e71f-79b1-4ba3-8fd8-ee38a44d3d39,1)"/>
+                    <attribute id="UUID" type="guid" value="cec2d95b-451c-40f8-8e17-9e547d363e8e"/>
                 </node>
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="GreatWeaponMaster"/>
@@ -152,6 +152,20 @@
                     <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual(&apos;Strength&apos;,13) or FeatRequirementAbilityGreaterEqual(&apos;Dexterity&apos;,13)"/>
                     <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)"/>
                     <attribute id="UUID" type="guid" value="fdf0be80-cc1e-4501-bd2e-7a1ea737362c"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Sentinel"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Sentinel_Attack;Sentinel_ZeroSpeed;Sentinel_OpportunityAdvantage"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual(&apos;Strength&apos;,13) or FeatRequirementAbilityGreaterEqual(&apos;Dexterity&apos;,13)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)"/>
+                    <attribute id="UUID" type="guid" value="816b1554-9384-49e9-aaa0-05dd622e60f7"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Sharpshooter"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Sharpshooter"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual(&apos;Dexterity&apos;,13)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(b54e54c7-fc1d-4fbf-9fae-83c89a196da7,1,1,DEX)"/>
+                    <attribute id="UUID" type="guid" value="010f717e-c6e2-45cf-bbf9-298a72db4cad"/>
                 </node>
             </children>
         </node>

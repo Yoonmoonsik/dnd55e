@@ -191,5 +191,25 @@
         <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="PolearmMaster" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_17" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5a63d60f-5dea-423f-8acf-14b76da93a50" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="816b1554-9384-49e9-aaa0-05dd622e60f7" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1015def7gafdbg59d8g86d2g26b83e1c4b9e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h531047f9gd6d4g5415g3f87gada7b4be2fa4" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Sentinel" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_20" />
+        <field name="UUID" type="IdTableFieldDefinition" value="19ec3631-4933-4695-a65c-84fbbcebe796" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="010f717e-c6e2-45cf-bbf9-298a72db4cad" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h90887d29g0a12g4a4eg7f87ga23f7765f7dc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5b4e785ag06afgf727gca99g7e0aa28facda" version="3" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Sharpshooter" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

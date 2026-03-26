@@ -451,8 +451,8 @@
 - [x] Polearm Master
 - [x] Resilient
 - [ ] Ritual Caster (활보 등 리추얼 태그 빠지면 그 주문들 추가)
-- [ ] Sentinel
-- [ ] 
+- [x] Sentinel
+- [x] Sharpshooter
 ### Fighting Style
 ## Spell
 ### Cantrip

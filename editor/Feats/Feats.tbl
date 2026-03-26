@@ -222,5 +222,25 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_12" />
+        <field name="UUID" type="IdTableFieldDefinition" value="816b1554-9384-49e9-aaa0-05dd622e60f7" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Sentinel" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Sentinel_Attack;Sentinel_ZeroSpeed;Sentinel_OpportunityAdvantage" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="FeatRequirementAbilityGreaterEqual('Strength',13) or FeatRequirementAbilityGreaterEqual('Dexterity',13)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_16" />
+        <field name="UUID" type="IdTableFieldDefinition" value="010f717e-c6e2-45cf-bbf9-298a72db4cad" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Sharpshooter" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Sharpshooter" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="FeatRequirementAbilityGreaterEqual('Dexterity',13)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(b54e54c7-fc1d-4fbf-9fae-83c89a196da7,1,1,DEX)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

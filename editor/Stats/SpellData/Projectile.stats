@@ -3,6 +3,15 @@
   <stat_objects>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="187b9e32-9524-4858-880c-91e6e4c8c337" />
+        <field name="Name" type="NameTableFieldDefinition" value="MainHandAttack_Sharpshooter" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dc75f60c-beac-4588-a14a-43834eeb8f8f" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeWeaponAttack);CastOffhand[Attack(AttackType.MeleeOffHandWeaponAttack)]" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5fdafc2f-e844-41a5-98ea-aa23c39f959b" />
         <field name="Name" type="NameTableFieldDefinition" value="Jump" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d6d9e619-ddd0-4a06-a3ac-f789a88126ea" />

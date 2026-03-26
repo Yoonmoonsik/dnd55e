@@ -25,9 +25,14 @@
                     <attribute id="UUID" type="guid" value="c8c86d75-2abc-40a2-8d40-2b1a341afa00"/>
                 </node>
                 <node id="AbilityList">
+                    <attribute id="Abilities" type="LSString" value="Dexterity, Constitution"/>
+                    <attribute id="Name" type="FixedString" value="DEX CON"/>
+                    <attribute id="UUID" type="guid" value="5336dfdd-cc35-4909-a5d7-65f4e0e2f4f9"/>
+                </node>
+                <node id="AbilityList">
                     <attribute id="Abilities" type="LSString" value="Strength, Constitution"/>
                     <attribute id="Name" type="FixedString" value="STR CON"/>
-                    <attribute id="UUID" type="guid" value="9b261df4-1d57-4b9e-b89a-72b4cd295302"/>
+                    <attribute id="UUID" type="guid" value="111c055b-ddcf-430e-a5b0-1a0a598e203a"/>
                 </node>
             </children>
         </node>
