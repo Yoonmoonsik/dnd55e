@@ -453,6 +453,10 @@
 - [ ] Ritual Caster (활보 등 리추얼 태그 빠지면 그 주문들 추가)
 - [x] Sentinel
 - [x] Sharpshooter
+- [x] Shield Master
+- [x] Spell Sniper
+- [x] War Caster
+- [x] Weapon Master
 ### Fighting Style
 ## Spell
 ### Cantrip

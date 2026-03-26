@@ -167,6 +167,30 @@
                     <attribute id="Selectors" type="LSString" value="SelectAbilities(b54e54c7-fc1d-4fbf-9fae-83c89a196da7,1,1,DEX)"/>
                     <attribute id="UUID" type="guid" value="010f717e-c6e2-45cf-bbf9-298a72db4cad"/>
                 </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="ShieldMaster"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ShieldMaster"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(c8c86d75-2abc-40a2-8d40-2b1a341afa00,1,1,STR)"/>
+                    <attribute id="UUID" type="guid" value="3fe71254-d1b2-44c7-886c-927552fe5f2e"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="SpellSniper"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SpellSniper;SpellSniper_Melee"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);"/>
+                    <attribute id="UUID" type="guid" value="c02f22c9-9a06-4001-b917-4d5cf09be399"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="WarCaster"/>
+                    <attribute id="PassivesAdded" type="LSString" value="WarCaster"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);"/>
+                    <attribute id="UUID" type="guid" value="ed4e367d-d136-4285-abac-077147e84cf2"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="WeaponMaster"/>
+                    <attribute id="PassivesAdded" type="LSString" value="WeaponMaster"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2)"/>
+                    <attribute id="UUID" type="guid" value="b153e75c-27a2-4412-95cd-60b477121679"/>
+                </node>
             </children>
         </node>
     </region>

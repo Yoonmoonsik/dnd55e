@@ -151,6 +151,34 @@
                     <attribute id="FeatId" type="guid" value="010f717e-c6e2-45cf-bbf9-298a72db4cad"/>
                     <attribute id="UUID" type="guid" value="19ec3631-4933-4695-a65c-84fbbcebe796"/>
                 </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="he75553c3gd15ag322eg1dcega59ac6593319" version="3"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hcf7e607eg1421g2fc9g4205gd10b92961b19" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="ShieldMaster"/>
+                    <attribute id="FeatId" type="guid" value="3fe71254-d1b2-44c7-886c-927552fe5f2e"/>
+                    <attribute id="UUID" type="guid" value="367e04a9-9e10-481c-987f-8b94f9ae0015"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hd2aeaec7g64f4g180fg4fc9g91918a557c3c" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc89bef70gb4acgcaf4g1bd4gc4db62830233" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="SpellSniper"/>
+                    <attribute id="FeatId" type="guid" value="c02f22c9-9a06-4001-b917-4d5cf09be399"/>
+                    <attribute id="UUID" type="guid" value="78660721-cdf0-4218-bb19-e1c8b50b4d4d"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="haea51e98gfb73g894eg965bg2978e243f5e4" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hdfe62e0fgf3abgc70ag0019g4af2fcfb5109" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="WarCaster"/>
+                    <attribute id="FeatId" type="guid" value="ed4e367d-d136-4285-abac-077147e84cf2"/>
+                    <attribute id="UUID" type="guid" value="ce02138b-918a-4191-87d1-092892642ff8"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h71ada843g58a3g712bgd82agc840de1595e5" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h1e8be1d2gda52g488egf12aga4dbd08a8b2c" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="WeaponMaster"/>
+                    <attribute id="FeatId" type="guid" value="b153e75c-27a2-4412-95cd-60b477121679"/>
+                    <attribute id="UUID" type="guid" value="e1c40138-38a8-4067-87a6-597b52f379fa"/>
+                </node>
             </children>
         </node>
     </region>

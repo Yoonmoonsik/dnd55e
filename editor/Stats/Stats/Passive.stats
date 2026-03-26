@@ -3160,5 +3160,67 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreLowGroundPenalty(RangedWeaponAttack);IgnoreLowGroundPenalty(RangedOffHandWeaponAttack);IgnorePointBlankDisadvantage(Ammunition);AttackSpellOverride(Projectile_MainHandAttack_Sharpshooter, Projectile_MainHandAttack);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b01c63c7-9303-4eff-bc2a-c4cf0660b433" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShieldMaster" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9d53cfae-2026-44d5-87af-1684c16e8483" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h99a1f866g5649g1e74gc90fgd29c50fa0426" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5752835cge17egb9e8g58cdgb5e2500ab72d" version="2" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="200" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_ShieldMaster);UnlockSpell(Target_ShieldBash_Shove);UnlockSpell(Target_ShieldBash_Prone);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasShieldEquipped(context.Source) and (IsWeaponAttack() or IsUnarmedAttack() or SpellId('Target_CommandersStrike')) and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and TurnBased() and ConditionResult(context.HitDescription.FirstAttack)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, SHIELD_MASTER_SHOVE, 100, 1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0534edfa-8933-4411-9889-2aaaf23b5594" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpellSniper" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c4c9c969-8647-4db6-b1cf-1cf37f25b3c0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h83a93112gc496g26f6g27f3ge5d63171ca0b" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h14ab49cfg831ag83b9g1ddcgbadda155b2c0" version="2" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="200" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;Highlighted;ToggledDefaultOn;Temporary" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(DistantSpellCheck(),ModifyTargetRadius(Multiplicative,1.5));IgnoreLowGroundPenalty(RangedSpellAttack);StatusImmunity(FLANKED);" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="SpellSniper" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="905eb522-61c9-45b1-bd06-51fb9f2cde4b" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpellSniper_Melee" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h70813330g91cdg841fgd506g43cca562e934" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd8edfd84g6945ged2dg5a75gac1ea9cf87c7" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Buff" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="200" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;Highlighted;Temporary" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(RangedSpellAttackCheck(), ModifySpellRoll('AttackType.RangedSpellAttack','AttackType.MeleeSpellAttack'), ModifyTargetRadius(Override, 3),ModifyIconGlow(), ModifyTooltipDescription());" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="SpellSniper" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="14c807c3-03b6-44ed-a4f7-6f3372d62a3c" />
+        <field name="Name" type="NameTableFieldDefinition" value="WarCaster" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8b2b494a-9854-4a6a-a0d3-a3edb982ef37" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he811ea2cg5f7ega90cgc208g301ddc5eb96c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2d86c838g5e8cg8763gdf9bgaeb1290ded87" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="200" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Concentration);UnlockInterrupt(Interrupt_WarCaster);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3dc27764-03e6-4580-89b2-dbe02f732e97" />
+        <field name="Name" type="NameTableFieldDefinition" value="WeaponMaster" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f5acb798-17da-491b-a006-457b335408c6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6f27cfe3g88f5geb3eg8790gd6ce157dfac9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hba5a50e4g4e44gccaag18b0ga7d653029db5" version="3" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="200" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(MartialWeapons);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

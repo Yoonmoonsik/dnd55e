@@ -211,5 +211,45 @@
         <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Sharpshooter" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_21" />
+        <field name="UUID" type="IdTableFieldDefinition" value="367e04a9-9e10-481c-987f-8b94f9ae0015" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="3fe71254-d1b2-44c7-886c-927552fe5f2e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf7e607eg1421g2fc9g4205gd10b92961b19" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he75553c3gd15ag322eg1dcega59ac6593319" version="3" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="ShieldMaster" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_22" />
+        <field name="UUID" type="IdTableFieldDefinition" value="78660721-cdf0-4218-bb19-e1c8b50b4d4d" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="c02f22c9-9a06-4001-b917-4d5cf09be399" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc89bef70gb4acgcaf4g1bd4gc4db62830233" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd2aeaec7g64f4g180fg4fc9g91918a557c3c" version="2" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="SpellSniper" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_23" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ce02138b-918a-4191-87d1-092892642ff8" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="ed4e367d-d136-4285-abac-077147e84cf2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdfe62e0fgf3abgc70ag0019g4af2fcfb5109" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haea51e98gfb73g894eg965bg2978e243f5e4" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="WarCaster" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_24" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e1c40138-38a8-4067-87a6-597b52f379fa" />
+        <field name="FeatId" type="GuidTableFieldDefinition" value="b153e75c-27a2-4412-95cd-60b477121679" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1e8be1d2gda52g488egf12aga4dbd08a8b2c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h71ada843g58a3g712bgd82agc840de1595e5" version="2" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="WeaponMaster" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
