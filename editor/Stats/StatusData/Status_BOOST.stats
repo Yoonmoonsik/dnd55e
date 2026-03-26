@@ -574,6 +574,59 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);DealDamage(2d6,Force)" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a308be6b-cd4d-4674-a590-870eaa5e56bd" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WORLD TREE__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f9f8fe36-f688-4ee0-80db-2f5c650062cf" />
+        <field name="Name" type="NameTableFieldDefinition" value="VITALITY_SURGE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haa81c0f2ge2b2gd7b9gc090gd87edfd50eab" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hde63b209g1d1dg2fb9gf3abg0f84f42a69f8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="WorldTree_3_VitalityOfTheTree" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VITALITY_SURGE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(ClassLevel(Barbarian));" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2fa8ea55-2b1a-46b4-9ff6-28d8bb9faf0b" />
+        <field name="Name" type="NameTableFieldDefinition" value="LIFE_GIVING_FORCE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc60cc039g3202g31b4gacf6gcd33f83a5892" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb7d8ce7cga74egd272g4ed3gebe2eec3f346" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="WorldTree_3_VitalityOfTheTree" />
+        <field name="StackId" type="StringTableFieldDefinition" value="LIFE_GIVING_FORCE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(Cause.LevelMapValue(RageDamageDice));" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value=" IF(IsDowned()):RegainHitPoints(1)" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="782d95e9-5c86-48ae-b2df-29c46017a50e" />
+        <field name="Name" type="NameTableFieldDefinition" value="BRANCHES_OF_THE_TREE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h89126fa9g133eg379eg0309gc7c31b95136d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hed7feb7bg4d7cg4f19g7010g6ecd461345dd" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="WorldTree_6_BranchesOfTheTree" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Snared" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Snared" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="EXHAUSTED" enumeration_type_name="SoundVocalType" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BRANCHES_OF_THE_TREE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(Movement);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Restrained;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="92f376fb-aa71-4858-99b2-785cb9694734" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="b5561d10-6cc4-4403-a567-b569c96a5d76" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFEE82EE" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="54d8d41e-a60b-47b4-ae10-fee4fb6e10ad" />

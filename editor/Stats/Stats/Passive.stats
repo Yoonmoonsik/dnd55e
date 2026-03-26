@@ -743,6 +743,67 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,2d6, Force,Magical);ApplyStatus(SELF,PASSIVE_WILDMAGIC_MAGICRETRIBUTION_DEFENDER,100,0);ApplyStatus(PASSIVE_WILDMAGIC_MAGICRETRIBUTION_ATTACKER,100,0)" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8c2b9822-4e1d-4443-b67e-1f10c7e9f8d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="WorldTree_3_VitalityOfTheTree" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7f11fde8g7022gc624gc07cg0bf0afe43eb0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h17806188g48eag72daga9fag423961387d39" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="WorldTree_3_VitalityOfTheTree" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1203" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_LifeGivingForce);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasUseCosts('Rage');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,VITALITY_SURGE,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="946c947f-bbd5-48ae-b3ec-edb426a5b8c0" />
+        <field name="Name" type="NameTableFieldDefinition" value="WorldTree_6_BranchesOfTheTree" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h39e02d12g9361g9427gcabbg9c625c015d9e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc973bce4g12d2g5a53g43a8g98cefe571124" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="WorldTree_6_BranchesOfTheTree" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1206" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_BranchesOfTheTree);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b71d0588-317e-4cd2-9204-ce0c70abcc2c" />
+        <field name="Name" type="NameTableFieldDefinition" value="WorldTree_10_BatteringRoots" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h73b80082g2131g52abg5e7bg5ef03ffa6906" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h26a9d040g90ffg7098gc158g401ddd420d2e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="WorldTree_10_BatteringRoots" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1210" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(HasStringInSpellRoll('AttackType.MeleeWeaponAttack'),ModifyTargetRadius(Multiplicative, 2));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e715e02a-4ada-49a3-8725-d77d0a70d47e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WorldTree_10_BatteringRoots_Push" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e1eee326-88e7-444d-854d-b4eb8dd411ef" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf26f1c7dg99f2g62d7g6798gaf1e5640053f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_PushingAttack_Melee" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1210" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cd603106-484f-4c82-af71-a9115ed44e75" />
+        <field name="Name" type="NameTableFieldDefinition" value="WorldTree_10_BatteringRoots_Topple" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e715e02a-4ada-49a3-8725-d77d0a70d47e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd109b0dbg19e8ga1d2g4826gc3978e7b2e7f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hacfddf65g2ec1gdb58g7ef1g360e33d3d696" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Topple" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, ManeuverSaveDC()))" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFEE82EE" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="152e5b9f-4ddf-4005-8e45-65c53081eb4f" />

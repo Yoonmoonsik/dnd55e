@@ -49,5 +49,21 @@
         <field name="ClassEquipment" type="FixedStringTableFieldDefinition" value="EQP_CC_Paladin_Devotion" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d6db66be-cc60-4ebd-bf63-2a856bbfedaf" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="WorldTreePath" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hed4fadaag2f33gc2b5g10bcg877f54981719" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h07ac58a7gdc95gd7d3g0b48g2015e769d0d0" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="d3377ec8-8734-46e6-93b7-30d65f774362" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Barbarian" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

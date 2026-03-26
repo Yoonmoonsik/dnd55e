@@ -51,7 +51,10 @@
   - [ ] Giant
   - [ ] Wild Magic
   - [ ] Wildheart
-  - [ ] World Tree
+  - [x] World Tree
+    - [x] Level 3: Vitality of the Tree
+    - [x] Level 6: Branches of the Tree
+    - [x] Level 10: Battering Roots
   - [ ] Zealot
 ### Bard
 - [x] Class

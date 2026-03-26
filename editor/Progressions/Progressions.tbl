@@ -55,7 +55,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Rage,1,0)" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="32eee7d8-1b2f-4de5-b9ee-78fbd286c6ef;07234f31-c239-4a57-aeb4-868f3e1a318e;2e585948-d775-451d-b58b-15b75321d11e;d6bf00fc-3518-4d63-ba8b-03532c1abc4d" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="32eee7d8-1b2f-4de5-b9ee-78fbd286c6ef;07234f31-c239-4a57-aeb4-868f3e1a318e;2e585948-d775-451d-b58b-15b75321d11e;d6bf00fc-3518-4d63-ba8b-03532c1abc4d;d6db66be-cc60-4ebd-bf63-2a856bbfedaf" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Barbarian_3_PrimalKnowledge" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,1)" />
       </fields>
@@ -161,7 +161,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Rage,1,0)" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_58" />
         <field name="UUID" type="IdTableFieldDefinition" value="5ce67263-04f2-4ede-b30a-2eb962d828f2" />
@@ -195,7 +195,7 @@
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Berserker_10_Retaliation" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_59" />
         <field name="UUID" type="IdTableFieldDefinition" value="42329ce3-0fb3-43a3-a0b4-79584c6877e7" />
@@ -298,6 +298,39 @@
         <field name="FSName" type="StringTableFieldDefinition" value="TotemWarriorPath" />
         <field name="Level" type="ByteTableFieldDefinition" value="12" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_554" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d3377ec8-8734-46e6-93b7-30d65f774362" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="d3377ec8-8734-46e6-93b7-30d65f774362" />
+        <field name="FSName" type="StringTableFieldDefinition" value="WorldTreePath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="WorldTree_3_VitalityOfTheTree" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_556" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2ef55660-1bb9-4b63-9527-b26c4deaaa60" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="d3377ec8-8734-46e6-93b7-30d65f774362" />
+        <field name="FSName" type="StringTableFieldDefinition" value="WorldTreePath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="WorldTree_6_BranchesOfTheTree" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_557" />
+        <field name="UUID" type="IdTableFieldDefinition" value="353b6d9b-a7ae-4c0f-9e29-b70290b008e6" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="d3377ec8-8734-46e6-93b7-30d65f774362" />
+        <field name="FSName" type="StringTableFieldDefinition" value="WorldTreePath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="WorldTree_10_BatteringRoots;WorldTree_10_BatteringRoots_Push;WorldTree_10_BatteringRoots_Topple" />
       </fields>
     </stat_object>
     <stat_object color="#FFEE82EE" is_substat="false">

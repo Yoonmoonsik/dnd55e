@@ -146,5 +146,14 @@
         <field name="FallbackValue" type="StringTableFieldDefinition" value="1d6" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="RageDamageDice" />
+        <field name="UUID" type="IdTableFieldDefinition" value="35cc5d5c-f5a3-4e9a-a90b-33e98e671e9f" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399" />
+        <field name="Level1" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level9" type="StringTableFieldDefinition" value="3d6" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -682,6 +682,70 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3b742d1d-f941-4d39-8cdf-d245aeaf5c55" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WORLD TREE__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cf8ee31d-f3fe-4a63-8180-e4eebce2c5af" />
+        <field name="Name" type="NameTableFieldDefinition" value="LifeGivingForce" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(LIFE_GIVING_FORCE,100,-1);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="3" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Self();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="WorldTree_3_VitalityOfTheTree" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbc51a963g20c5g876cgc0b3g1fda844b3830" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h21000e09gdda6g7a5fg404eg1458b9ccd985" version="2" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Healing_CureWounds_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Healing_CureWounds_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Ally() and not Dead() and not Self();" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="414bbf02-2918-4f01-83fb-1ddc7a588d88,,;,,;454e3439-19f2-4c42-8773-e18cf4ee233a,,;ccdf11dc-08f7-4d7f-bca9-55cfcc8f94bd,,;0c5dcc83-fa78-41da-b6a5-440b5ea30936,,;,,;bea988a0-2ec5-40d8-a67e-ffbd7454bc53,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="96a51ac8-2e7e-4718-bb62-dcfd18964a02" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="ce5a1256-d5c8-45b5-98fc-ee9a16e3673c" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="d16a93f4-ddb5-4175-9b3f-22eced19ff02" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('SG_Rage', context.Source);" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2eb5229e-ad63-4a37-bcab-f884e6d7aed4" />
+        <field name="Name" type="NameTableFieldDefinition" value="BranchesOfTheTree" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Strength, ManeuverSaveDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:IF(not Grounded() and TargetSizeEqualOrSmaller(Size.Large)):Force(-6, OriginToEntity, Neutral, false, true);ApplyStatus(BRANCHES_OF_THE_TREE,100,1);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL,100,0)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and (Item() or Character() or Dead())" />
+        <field name="Icon" type="StringTableFieldDefinition" value="WorldTree_6_BranchesOfTheTree" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0742adb9g8528gcb3ag3596ge883d9faa6ab" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1d68851cgda5ag5482g75f2gc0f7b6817b16" version="2" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Strength" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BRANCHES_OF_THE_TREE,100,1);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="CrSpell_Prepare_Claw" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_BarbedVines" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="CrSpell_Impact_Claw" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_DamagePiercingWhip" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ReactionActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;ad12e2fa-1b15-4fcd-884f-38ba82d7e50e,,;5ee4c893-0149-4d08-a1f7-c4fe633530ba,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Control" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="AddFallDamageOnLand" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="613e61ed-610d-4380-89f4-6c977a85b4df" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="3a66dd23-61fe-4716-a8af-69d85bff09b7" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="037dc8e8-15e0-439f-ae4d-ad6a93e85cfd" />
+        <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="32b12e6c-7b91-4dab-aeb6-061578dbdf51" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('SG_Rage', context.Source);" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFEE82EE" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f080580c-75ed-4b5a-8590-cc396d7f0235" />
