@@ -147,7 +147,7 @@
   - [x] Level 5: Wild Resurgence
   - [x] Level 7: Elemental Fury
 - [ ] Subclass
-  - [x] Land
+  - [ ] Land
   - [ ] Sea
   - [x] Spore
   - [x] Stars
@@ -242,7 +242,7 @@
   - [x] Crown
   - [ ] Glory
   - [x] Oathbreaker
-  - [ ] Ancients
+  - [x] Ancients
     - [x] Level 3: Nature's Wrath
     - [x] Level 3: Oath of the Ancients Spells
     - [x] Level 7: Aura of Warding

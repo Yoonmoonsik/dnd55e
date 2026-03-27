@@ -8,7 +8,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8a519044g61f3g7166g3e0cg6c97799602e4" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_GiantBadger" />
         <field name="StackId" type="StringTableFieldDefinition" value="WILDSHAPE" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(12);ActiveCharacterLight(233033a1-b43a-4ad9-976a-8a062b345e21);UnlockSpell(Shout_WildShape_Dismiss);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(12);ActiveCharacterLight(233033a1-b43a-4ad9-976a-8a062b345e21);UnlockSpell(Shout_WildShape_Dismiss);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
         <field name="TemplateID" type="StringTableFieldDefinition" value="47263893-8aab-48f1-96ad-13907d1e23e8" />
         <field name="Rules" type="GuidObjectTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Polymorph;SG_Polymorph_BeastShape;SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
@@ -65,7 +65,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9c56ac47g3984g90a8g0115g3a3000abd94a" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_PolarBear" />
         <field name="TemplateID" type="StringTableFieldDefinition" value="960a6318-3fc0-4b85-8b70-887e99ff248f" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WildShape_Dismiss);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WildShape_Dismiss);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_BEAR_POLAR_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
         <field name="Rules" type="GuidObjectTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
       </fields>
@@ -117,7 +117,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="b5a5b652-26b8-4164-b703-c665372366f0" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h55c8bb9fgab04g0e14gce66g6d7734c64973" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_Cat" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(12);ActiveCharacterLight(233033a1-b43a-4ad9-976a-8a062b345e21);UnlockSpell(Shout_WildShape_Dismiss);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);FallDamageMultiplier(0.5);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(12);ActiveCharacterLight(233033a1-b43a-4ad9-976a-8a062b345e21);UnlockSpell(Shout_WildShape_Dismiss);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);FallDamageMultiplier(0.5);" />
         <field name="TemplateID" type="StringTableFieldDefinition" value="398887ea-5013-4c9b-8f89-37f44efef8dc" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_CAT_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="086b6322-f3d7-47a5-ac8d-6ee6b09dd69e" />
@@ -132,7 +132,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4bd8abf4gf0adgc66cgc5bag97c641b5e998" version="1" />
         <field name="TemplateID" type="StringTableFieldDefinition" value="201de8c4-a88a-45b8-abb4-1ee67df8bf81" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_DeepRothe" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(24);ActiveCharacterLight(e278f6a0-26d7-49be-b11a-9b84bc313c3c);UnlockSpell(Shout_WildShape_Dismiss);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(24);ActiveCharacterLight(e278f6a0-26d7-49be-b11a-9b84bc313c3c);UnlockSpell(Shout_WildShape_Dismiss);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_DEEP_ROTHE_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
       </fields>
     </stat_object>
@@ -175,7 +175,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="b5a5b652-26b8-4164-b703-c665372366f0" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb0d5b816gde08g18fag0b3dg87d87c0c5144" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_Raven" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WildShape_Dismiss);ActionResource(Movement,3,0);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);Attribute(Floating);IgnoreFallDamage();" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WildShape_Dismiss);ActionResource(Movement,3,0);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);Attribute(Floating);IgnoreFallDamage();" />
         <field name="TemplateID" type="StringTableFieldDefinition" value="6c2fc745-20b3-44c0-9032-97e97a5368eb" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_RAVEN_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
         <field name="Rules" type="GuidObjectTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
@@ -189,7 +189,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5290eb7agca74g04fdg1c90gf56091132a96" version="1" />
         <field name="TemplateID" type="StringTableFieldDefinition" value="e0e6f504-8114-46c8-834a-186466edbd87" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_GiantSpider" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(24);ActiveCharacterLight(e278f6a0-26d7-49be-b11a-9b84bc313c3c);StatusImmunity(WEB);StatusImmunity(DIFFICULT_TERRAIN_WEB);UnlockSpell(Shout_WildShape_Dismiss);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);FallDamageMultiplier(0.5);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(24);ActiveCharacterLight(e278f6a0-26d7-49be-b11a-9b84bc313c3c);StatusImmunity(WEB);StatusImmunity(DIFFICULT_TERRAIN_WEB);UnlockSpell(Shout_WildShape_Dismiss);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);FallDamageMultiplier(0.5);" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_SPIDER_GIANT_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
         <field name="Rules" type="GuidObjectTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
       </fields>
@@ -242,7 +242,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="b5a5b652-26b8-4164-b703-c665372366f0" />
         <field name="TemplateID" type="StringTableFieldDefinition" value="71e2c062-fdf8-40c7-88d7-05ef57cdff41" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_DireWolf" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WildShape_Dismiss);ActionResource(Movement,3,0);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WildShape_Dismiss);ActionResource(Movement,3,0);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_WOLF_DIRE_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
         <field name="Passives" type="StringTableFieldDefinition" value="PackTactics" />
         <field name="Rules" type="GuidObjectTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
@@ -633,6 +633,15 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdcc80e1bg50d8g4d7egf3c5gd88613415b9a" version="1" />
         <field name="TemplateID" type="StringTableFieldDefinition" value="4c928f84-e72e-4a10-9e15-3549f2c65dc0" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_DireWolf" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a47a3643-7604-44f0-8386-2823e7f7d792" />
+        <field name="Name" type="NameTableFieldDefinition" value="GOB_WolfPens_WILDSHAPE_BEAR" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="16c55783-dad0-4a5c-b80f-c43405a3791e" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WildShape_Dismiss);UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
       </fields>
     </stat_object>
   </stat_objects>
