@@ -3920,7 +3920,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Rogue_1_Expertise;SneakAttack_Unlock" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(LightArmor);ActionResource(SneakAttack_Charge,1,0);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(SimpleWeapons);Proficiency(HandCrossbows);Proficiency(Scimitars);Proficiency(Shortswords)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(LightArmor);ActionResource(SneakAttack_Charge,1,0);Proficiency(SimpleWeapons);Proficiency(HandCrossbows);Proficiency(Scimitars);Proficiency(Shortswords)ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Intelligence);" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(a1c2b712-2ed6-4e5b-820f-c5db654fe006,4);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList)" />
       </fields>
     </stat_object>
@@ -5331,7 +5331,7 @@
         <field name="TableUUID" type="GuidTableFieldDefinition" value="d18eda7e-4b7d-490d-9952-cd33a3c60479" />
         <field name="FSName" type="StringTableFieldDefinition" value="Wizard" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Intelligence);ProficiencyBonus(SavingThrow,Wisdom);Proficiency(Daggers);Proficiency(Quarterstaffs);Proficiency(LightCrossbows);ActionResource(ArcaneRecoveryPoint,1,0)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(ArcaneRecoveryPoint,1,0);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Intelligence);ProficiencyBonus(SavingThrow,Wisdom);Proficiency(SimpleWeapons)" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,3,0,,,,AlwaysPrepared);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,6,0);AddSpells(34c3321d-75ab-4b50-a44d-cbac8705a360,,,,AlwaysPrepared);SelectSkills(9f3a9f8d-f645-40b5-b36f-fb079b7b805e,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel1" />

@@ -3151,10 +3151,13 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="db4a3e0f-6315-4337-abce-aad5f38513aa" />
         <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyWeapon_Ranged;WeaponMasterySlow;UNI_Bow_SpellslotRecharge_Passive;" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryVex;UNI_Bow_SpellslotRecharge_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+        <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="SimpleRangedWeapon" enumeration_type_name="Weapon Group" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Shortbows;SimpleWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4978,8 +4981,11 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a1d1634c-02e6-4428-a822-7603e9163264" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_HuntersMark)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryVex;MAG_LC_MonsterHunter_Passive;" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyWeapon_Ranged;WeaponMasterySlow;MAG_LC_MonsterHunter_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
+        <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="MartialRangedWeapon" enumeration_type_name="Weapon Group" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Longbows;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

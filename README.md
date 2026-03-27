@@ -73,7 +73,7 @@
   - [x] Level 5: Font of Inspiration
   - [x] Level 7: Countercharm
   - [x] Level 10: Magical Secrets
-- [ ] Subclass
+- [x] Subclass
   - [x] Dance
     - [x] Level 3: Dazzling Footwork
     - [x] Level 6: Inspiring Movement
@@ -104,10 +104,10 @@
   - [x] Level 2: Channel Divinity
   - [x] Level 5: Sear Undead
   - [x] Level 7: Blessed Strikes
-- [ ] Subclass
-  - [ ] Death
-  - [ ] Nature
-  - [ ] Tempest
+- [x] Subclass
+  - [x] Death
+  - [x] Nature
+  - [x] Tempest
   - [x] Knowledge
     - [x] Level 3: Blessings of Knowledge
     - [x] Level 3: Knowledge Domain Spells
@@ -147,10 +147,10 @@
   - [x] Level 5: Wild Resurgence
   - [x] Level 7: Elemental Fury
 - [ ] Subclass
-  - [ ] Land
+  - [x] Land
   - [ ] Sea
-  - [ ] Spore
-  - [ ] Stars
+  - [x] Spore
+  - [x] Stars
   - [x] Moon
     - [x] Level 3: Circle Forms
     - [x] Level 6: Improved Circle Forms
@@ -239,9 +239,9 @@
   - [x] Level 10: Aura of Courage
   - [x] Level 11: Radiant Strikes
 - [ ] Subclass
-  - [ ] Crown
+  - [x] Crown
   - [ ] Glory
-  - [ ] Oathbreaker
+  - [x] Oathbreaker
   - [ ] Ancients
     - [ ] Level 3: Nature's Wrath
     - [x] Level 3: Oath of the Ancients Spells
@@ -270,9 +270,9 @@
   - [x] Level 9: Expertise
   - [x] Level 10: Tireless
 - [ ] Subclass
-  - [ ] Beast Master
+  - [x] Beast Master
   - [ ] Fey Wanderer
-  - [ ] Swarm Keeper
+  - [x] Swarm Keeper
   - [x] Gloom Stalker
     - [x] Level 3: Dread Ambusher
     - [x] Level 3: Gloom Stalker Spells
@@ -302,8 +302,8 @@
   - [x] Level 11: Improved Cunning Strike
 - [ ] Subclass
   - [ ] Soulknife
-  - [ ] Arcane Trickster
-    - [ ] Level 3: Mage Hand Legerdemain
+  - [x] Arcane Trickster
+    - [x] Level 3: Mage Hand Legerdemain
     - [x] Level 3: Spellcasting
     - [x] Level 9: Magical Ambush
   - [x] Assassin
