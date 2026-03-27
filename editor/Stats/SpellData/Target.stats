@@ -213,29 +213,184 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="e4db9a93-90fb-42c0-9690-e7519966540b" />
-        <field name="Name" type="NameTableFieldDefinition" value="Attack_Steed" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="3" />
-        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeSpellAttack)" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d8+SpellCastingAbilityModifier,Bludgeoning,Magical);" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Self()" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FindSteed" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he8975525g4266g8430g813bg4d65176a35f5" version="1" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d8+SpellCastingAbilityModifier,Bludgeoning);" />
-        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeSpellAttack" />
-        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Rally" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c5c14e47-5792-4ed6-8204-3e0c70bb6c48" />
+        <field name="Name" type="NameTableFieldDefinition" value="CloudOfDaggers" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_CloudOfDaggers" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3f315172g0ecag6f6ag14c9g3d5db880a811" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8a7a7954g6da6g0f9cgced3g9dfea486d831" version="1" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
-        <field name="CycleConditions" type="StringTableFieldDefinition" value="Character() and Enemy() and not Dead()" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="SteedActionPoint:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;ab7b6aac-b3c9-4918-8f17-f777a94dcb5e,,;57211a11-ed0b-46d7-9369-81df25a85df6,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful;DisableBlood;Temporary" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="PhysicalDamage" enumeration_type_name="HitAnimationType" version="1" />
-        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="fc0bf64d-73e3-4c2d-9ee0-803c630df649" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="4d97dc4c-0b6f-4c87-a65a-6e6f08c186b9" />
-        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
-        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;IsConcentration;IsHarmful;CannotTargetItems" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d4,Slashing)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:ApplyStatus(SELF,CLOUD_OF_DAGGERS_OWNER,100,10);AI_IGNORE:GROUND:Summon(0ba4af65-19d0-4a31-9a42-2c365462841b, 10,,,'CloudOfDaggersStack',CLOUD_OF_DAGGERS_AURA);AI_ONLY:DealDamage(4d4,Slashing);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="e61d2266-f041-4bd5-a488-7b66e76d781c" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="1a3a7ca5-2072-43fe-b07e-cd52e1bbf3e6" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Physical_CloudOfDaggers_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_Physical_CloudOfDaggers_L1to3" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Slashing" enumeration_type_name="Damage Type" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOUD_OF_DAGGERS_AURA,100,10)" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Slashing)" />
+        <field name="ConcentrationSpellID" type="StringTableFieldDefinition" value="CloudOfDaggers_Move" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3e1b1057-a47d-4097-9f19-a43056103f16" />
+        <field name="Name" type="NameTableFieldDefinition" value="CloudOfDaggers_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c5c14e47-5792-4ed6-8204-3e0c70bb6c48" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:ApplyStatus(SELF,CLOUD_OF_DAGGERS_OWNER_3,100,10);AI_IGNORE:GROUND:Summon(0ba4af65-19d0-4a31-9a42-2c365462841b, 10,,,'CloudOfDaggersStack',,,,CLOUD_OF_DAGGERS_AURA_3);AI_ONLY:DealDamage(6d4,Slashing);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CloudOfDaggers" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d4,Slashing)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOUD_OF_DAGGERS_AURA_3,100,10)" />
+        <field name="ConcentrationSpellID" type="StringTableFieldDefinition" value="CloudOfDaggers_Move_3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8e06395e-c164-4d5a-a9bd-82230e5add5a" />
+        <field name="Name" type="NameTableFieldDefinition" value="CloudOfDaggers_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c5c14e47-5792-4ed6-8204-3e0c70bb6c48" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:ApplyStatus(SELF,CLOUD_OF_DAGGERS_OWNER_4,100,10);AI_IGNORE:GROUND:Summon(0ba4af65-19d0-4a31-9a42-2c365462841b, 10,,,'CloudOfDaggersStack',,,,CLOUD_OF_DAGGERS_AURA_4);AI_ONLY:DealDamage(8d4,Slashing);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CloudOfDaggers" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d4,Slashing)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOUD_OF_DAGGERS_AURA_4,100,10)" />
+        <field name="ConcentrationSpellID" type="StringTableFieldDefinition" value="CloudOfDaggers_Move_4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4c207879-0c4a-4a09-8317-3f6fe2404790" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c5c14e47-5792-4ed6-8204-3e0c70bb6c48" />
+        <field name="Name" type="NameTableFieldDefinition" value="CloudOfDaggers_5" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:ApplyStatus(SELF,CLOUD_OF_DAGGERS_OWNER_5,100,10);AI_IGNORE:GROUND:Summon(0ba4af65-19d0-4a31-9a42-2c365462841b,10,,,'CloudOfDaggersStack',,,,CLOUD_OF_DAGGERS_AURA_5);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CloudOfDaggers" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(10d4,Slashing)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOUD_OF_DAGGERS_AURA_5,100,10)" />
+        <field name="ConcentrationSpellID" type="StringTableFieldDefinition" value="CloudOfDaggers_Move_5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5dd05ee9-7611-43c4-b265-46dc6f777dc2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c5c14e47-5792-4ed6-8204-3e0c70bb6c48" />
+        <field name="Name" type="NameTableFieldDefinition" value="CloudOfDaggers_6" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:ApplyStatus(SELF,CLOUD_OF_DAGGERS_OWNER_6,100,10);AI_IGNORE:GROUND:Summon(0ba4af65-19d0-4a31-9a42-2c365462841b,10,,,'CloudOfDaggersStack',,,,CLOUD_OF_DAGGERS_AURA_6);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CloudOfDaggers" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(12d4,Slashing)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOUD_OF_DAGGERS_AURA_6,100,10)" />
+        <field name="ConcentrationSpellID" type="StringTableFieldDefinition" value="CloudOfDaggers_Move_6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="872851dc-2a93-4b42-b20d-6faf08715746" />
+        <field name="Name" type="NameTableFieldDefinition" value="CloudOfDaggers_Move" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_CloudOfDaggers" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81c2ba2bgde76gcf4dgb0feg9c1e82f5c048" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h397f04c0gccd3gd295ga021g620c652c55a6" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;IsHarmful;CannotTargetItems;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d4,Slashing)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:GROUND:Summon(0ba4af65-19d0-4a31-9a42-2c365462841b, 10,,true,'CloudOfDaggersStack',,,,CLOUD_OF_DAGGERS_AURA);AI_ONLY:DealDamage(4d4,Slashing);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="e61d2266-f041-4bd5-a488-7b66e76d781c" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="1a3a7ca5-2072-43fe-b07e-cd52e1bbf3e6" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Physical_CloudOfDaggers_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_Physical_CloudOfDaggers_L1to3" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Slashing" enumeration_type_name="Damage Type" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOUD_OF_DAGGERS_AURA,100,10)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bc4a8dbc-1cfb-4ad3-b92c-ae910352ed8b" />
+        <field name="Name" type="NameTableFieldDefinition" value="CloudOfDaggers_Move_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="872851dc-2a93-4b42-b20d-6faf08715746" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:GROUND:Summon(0ba4af65-19d0-4a31-9a42-2c365462841b, 10,,true,'CloudOfDaggersStack',,,,CLOUD_OF_DAGGERS_AURA_3);AI_ONLY:DealDamage(6d4,Slashing);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d4,Slashing)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOUD_OF_DAGGERS_AURA_3,100,10)" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h933efb07gb6d9g6ac3g1616gcb30169f9ef8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdc6544c3gfdf8g7fbeg01beg66ea43bb6f3b" version="1" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d0294d5d-5949-4cae-9a57-b5cd1729d398" />
+        <field name="Name" type="NameTableFieldDefinition" value="CloudOfDaggers_Move_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="872851dc-2a93-4b42-b20d-6faf08715746" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:GROUND:Summon(0ba4af65-19d0-4a31-9a42-2c365462841b, 10,,true,'CloudOfDaggersStack',,,,CLOUD_OF_DAGGERS_AURA_4);AI_ONLY:DealDamage(8d4,Slashing);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d4,Slashing)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOUD_OF_DAGGERS_AURA_4,100,10)" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf9903a34g76c3gfdf1g4be2g6ded0a0cde47" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h32b22995g2857gfa18gcd1cg50ffda0195dd" version="1" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9553a79d-0c74-4f99-b538-cefea691741d" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="872851dc-2a93-4b42-b20d-6faf08715746" />
+        <field name="Name" type="NameTableFieldDefinition" value="CloudOfDaggers_Move_5" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:GROUND:Summon(0ba4af65-19d0-4a31-9a42-2c365462841b,10,,true,'CloudOfDaggersStack',,,,CLOUD_OF_DAGGERS_AURA_5);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(10d4,Slashing)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOUD_OF_DAGGERS_AURA_5,100,10)" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h91d412b9gc3c1g03ddg9d69g14b5660c1d16" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha97083f1g4db3gf664gd422g662591619c09" version="1" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f459576c-8cc5-49f0-8285-3a12ed3439c8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="872851dc-2a93-4b42-b20d-6faf08715746" />
+        <field name="Name" type="NameTableFieldDefinition" value="CloudOfDaggers_Move_6" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:GROUND:Summon(0ba4af65-19d0-4a31-9a42-2c365462841b,10,,true,'CloudOfDaggersStack',,,,CLOUD_OF_DAGGERS_AURA_6);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(12d4,Slashing)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOUD_OF_DAGGERS_AURA_6,100,10)" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haaf05dcegc1c7g957cg76bagbacf907adfb7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h80951a8egaf3eg2e55g487ag32eaf1d2ca05" version="1" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2091,89 +2246,6 @@
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="e4c72416-8872-4278-9bd2-ce1529ca88d7" />
         <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="Small" enumeration_type_name="SpellSoundMagnitude" version="1" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="c5c14e47-5792-4ed6-8204-3e0c70bb6c48" />
-        <field name="Name" type="NameTableFieldDefinition" value="CloudOfDaggers" />
-        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_CloudOfDaggers" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3f315172g0ecag6f6ag14c9g3d5db880a811" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8a7a7954g6da6g0f9cgced3g9dfea486d831" version="1" />
-        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
-        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;IsConcentration;IsHarmful;CannotTargetItems" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
-        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d4,Slashing)" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:GROUND:Summon(0ba4af65-19d0-4a31-9a42-2c365462841b, 10,,,,CLOUD_OF_DAGGERS_AURA);AI_ONLY:DealDamage(4d4,Slashing)" />
-        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
-        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="e61d2266-f041-4bd5-a488-7b66e76d781c" />
-        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="1a3a7ca5-2072-43fe-b07e-cd52e1bbf3e6" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Physical_CloudOfDaggers_L1to3" />
-        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_Physical_CloudOfDaggers_L1to3" />
-        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Slashing" enumeration_type_name="Damage Type" version="1" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOUD_OF_DAGGERS_AURA,100,10)" />
-        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
-        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Slashing)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="3e1b1057-a47d-4097-9f19-a43056103f16" />
-        <field name="Name" type="NameTableFieldDefinition" value="CloudOfDaggers_3" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="c5c14e47-5792-4ed6-8204-3e0c70bb6c48" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:GROUND:Summon(0ba4af65-19d0-4a31-9a42-2c365462841b, 10,,,,CLOUD_OF_DAGGERS_AURA_3);AI_ONLY:DealDamage(6d4,Slashing)" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
-        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CloudOfDaggers" />
-        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d4,Slashing)" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOUD_OF_DAGGERS_AURA_3,100,10)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="8e06395e-c164-4d5a-a9bd-82230e5add5a" />
-        <field name="Name" type="NameTableFieldDefinition" value="CloudOfDaggers_4" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="c5c14e47-5792-4ed6-8204-3e0c70bb6c48" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:GROUND:Summon(0ba4af65-19d0-4a31-9a42-2c365462841b, 10,,,,CLOUD_OF_DAGGERS_AURA_4);AI_ONLY:DealDamage(8d4,Slashing)" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
-        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CloudOfDaggers" />
-        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d4,Slashing)" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOUD_OF_DAGGERS_AURA_4,100,10)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="4c207879-0c4a-4a09-8317-3f6fe2404790" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="c5c14e47-5792-4ed6-8204-3e0c70bb6c48" />
-        <field name="Name" type="NameTableFieldDefinition" value="CloudOfDaggers_5" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:GROUND:Summon(0ba4af65-19d0-4a31-9a42-2c365462841b,10,,,,CLOUD_OF_DAGGERS_AURA_5)" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
-        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CloudOfDaggers" />
-        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(10d4,Slashing)" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOUD_OF_DAGGERS_AURA_5,100,10)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="5dd05ee9-7611-43c4-b265-46dc6f777dc2" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="c5c14e47-5792-4ed6-8204-3e0c70bb6c48" />
-        <field name="Name" type="NameTableFieldDefinition" value="CloudOfDaggers_6" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:GROUND:Summon(0ba4af65-19d0-4a31-9a42-2c365462841b,10,,,,CLOUD_OF_DAGGERS_AURA_6)" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
-        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CloudOfDaggers" />
-        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(12d4,Slashing)" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOUD_OF_DAGGERS_AURA_6,100,10)" />
       </fields>
     </stat_object>
   </stat_objects>

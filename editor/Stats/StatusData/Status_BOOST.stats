@@ -339,6 +339,48 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7d29bf57-4d63-48c2-988b-c3ba9b8d6add" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_OWNER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3eb5c0aa-94dc-4607-b4b0-51b715d496f8" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_CloudOfDaggers" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CLOUD_OF_DAGGERS_OWNER" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CloudOfDaggers_Move);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2ec6932a-8fac-4b19-910a-b134f5e1267f" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_OWNER_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7d29bf57-4d63-48c2-988b-c3ba9b8d6add" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CloudOfDaggers_Move_3);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1c9b6ce8-3fff-4ed7-a292-2f447e03f4a1" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_OWNER_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7d29bf57-4d63-48c2-988b-c3ba9b8d6add" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CloudOfDaggers_Move_4);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="44ce0043-285d-4e8d-bbf9-344a18bee2a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_OWNER_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7d29bf57-4d63-48c2-988b-c3ba9b8d6add" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CloudOfDaggers_Move_5);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="27e1e284-3f12-4ec1-b63a-89a30688469e" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_OWNER_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7d29bf57-4d63-48c2-988b-c3ba9b8d6add" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CloudOfDaggers_Move_6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="50c36bb8-6b7e-422e-95f6-c9b1ae98e326" />
         <field name="Name" type="NameTableFieldDefinition" value="FIND_STEED" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h969b831eg23d1g5115g756bg2f5d95f425ab" version="1" />

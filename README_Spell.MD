@@ -21,7 +21,7 @@
 - Blindness
 - Find Steed
 - Mind Spike
-- Cloud of Daggers (작업중)
+- Cloud of Daggers
 ## Level 3
 - Aura of Vitality
 - Blink
