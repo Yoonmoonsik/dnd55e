@@ -430,7 +430,7 @@
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(7ea8f476-97a1-4256-8f10-afa76a845cce,1,1,BardSpells)" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="a06241d2-c432-472c-8c7d-84228d530cfa;d21368ac-c776-465c-9dcf-6123dd52734f;c4bd5252-d68a-4330-9431-5e8ab24c5f29;2b46330d-0ada-4eb5-a131-3d250a41ca6a" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="0da91e7c-7880-4cfa-819b-82eb6f41130f;a06241d2-c432-472c-8c7d-84228d530cfa;d21368ac-c776-465c-9dcf-6123dd52734f;c4bd5252-d68a-4330-9431-5e8ab24c5f29;2b46330d-0ada-4eb5-a131-3d250a41ca6a" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -541,7 +541,7 @@
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FFEE82EE" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_50" />
         <field name="UUID" type="IdTableFieldDefinition" value="534a3151-5a0a-4da1-bd5f-ccdb50cbc964" />
@@ -629,7 +629,7 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FFEE82EE" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_82" />
         <field name="UUID" type="IdTableFieldDefinition" value="a951662b-afb5-4eae-abcf-ec4a501ac6df" />
@@ -718,7 +718,7 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FFEE82EE" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_144" />
         <field name="UUID" type="IdTableFieldDefinition" value="517fc6b8-bdf4-4687-a7fc-9d94b559f787" />
@@ -809,7 +809,7 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FFEE82EE" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_193" />
         <field name="UUID" type="IdTableFieldDefinition" value="647925f6-a7de-44a8-834c-1bc6e496921a" />
@@ -894,6 +894,95 @@
         <field name="UUID" type="IdTableFieldDefinition" value="21977aaf-8287-4e04-b16b-86697555d0fb" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="68f61c89-be48-41aa-acb6-2f3bd15303c7" />
         <field name="FSName" type="StringTableFieldDefinition" value="SwordsCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFEE82EE" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_562" />
+        <field name="UUID" type="IdTableFieldDefinition" value="300669be-c07a-42cc-85a7-f1f956e79059" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="300669be-c07a-42cc-85a7-f1f956e79059" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DanceCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Dance_3_DazzlingFootwork;MeleeUnarmedAttackBonus" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_563" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d19cea11-6c89-4ddf-881b-cb43812b2bf0" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="300669be-c07a-42cc-85a7-f1f956e79059" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DanceCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Dance_6_InspiringMovement;Dance_6_TandemFootwork;ExtraAttack" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(c213ca01-3767-457b-a5c8-fd4c1dd656e2,1,1,BardSpells)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_564" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5ab20879-c450-4e9d-87f7-35092f25eca8" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="300669be-c07a-42cc-85a7-f1f956e79059" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DanceCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_565" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cc508b51-36ca-49c2-b46e-aba1faacaa62" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="300669be-c07a-42cc-85a7-f1f956e79059" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DanceCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_566" />
+        <field name="UUID" type="IdTableFieldDefinition" value="63d07b65-a60d-4468-b4f6-5011d1bd4c8c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="300669be-c07a-42cc-85a7-f1f956e79059" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DanceCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,1,1,BardSpells)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_567" />
+        <field name="UUID" type="IdTableFieldDefinition" value="93c899bd-1667-4d8b-930c-d541ac0c7d27" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="300669be-c07a-42cc-85a7-f1f956e79059" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DanceCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_568" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d149dd46-910b-4671-94c8-3ee1947904e9" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="300669be-c07a-42cc-85a7-f1f956e79059" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DanceCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_569" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3fdb602b-bb6e-45a5-95c9-ca73b618e63a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="300669be-c07a-42cc-85a7-f1f956e79059" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DanceCollege" />
         <field name="Level" type="ByteTableFieldDefinition" value="12" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)" />
@@ -2728,7 +2817,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Scimitars);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(5f1c7177-6e28-4a42-a7a5-cfaf4c31519c,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmoredDefense_Monk;MartialArts_DextrousUnarmedAttacks;MartialArts_UnarmedDamage;MartialArts_BonusUnarmedStrike;Monk_SoundSwitch" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmoredDefense_Monk;MartialArts_DextrousUnarmedAttacks;MartialArts_UnarmedDamage;MartialArts_BonusUnarmedStrike;Monk_SoundSwitch;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2767,7 +2856,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="d8d9e1e3-cbd6-4240-ab1e-bd3626cb5532;22894c32-54cf-49ea-b366-44bfcf01bb2a;2a5e3097-384c-4d29-8d6e-054fdfd26b80;bf46d73f-d406-4cb8-9a1d-e6e758ca02c7" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(KiPoint,1,0);ActionResource(DeflectMissiles_Charge,1,0)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DeflectMissiles" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DeflectMissiles;MeleeUnarmedAttackBonus" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

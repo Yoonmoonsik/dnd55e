@@ -81,5 +81,21 @@
         <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0da91e7c-7880-4cfa-819b-82eb6f41130f" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="92cd50b6-eb1b-4824-8adb-853e90c34c90" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="DanceCollege" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heb20c7adg4399g29d8g90d1g05ee938a1427" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="300669be-c07a-42cc-85a7-f1f956e79059" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Bard" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf0b95e32g4ebbg93cdgf26eg83a31fd8654e" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

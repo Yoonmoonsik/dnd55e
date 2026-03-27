@@ -723,6 +723,71 @@
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
       </fields>
     </stat_object>
+    <stat_object color="#FFEE82EE" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9a557e67-af5b-4b6f-8c7c-b9d59531f9ff" />
+        <field name="Name" type="NameTableFieldDefinition" value="__DANCE__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fda63e64-622e-45af-9c50-8c19d983049a" />
+        <field name="Name" type="NameTableFieldDefinition" value="InspiringMovement" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(INSPIRING_MOVEMENT,100,1);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Dance_6_InspiringMovement" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h92f7f7b1gd3ccg8bd7gc59bgddaff5a65f29" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9565b8f9gf2e2g563ag5bc6g05137c600621" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(INSPIRING_MOVEMENT,100,1);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Start" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Disengage" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Disengage" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ReactionActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="71c7b6a4-8178-45da-81f7-2ecb3fa5ec2a,,;925779e7-8bf6-4d56-8c4d-42c3bc01c60c,,;50398f4e-dd82-4d6a-ad43-aedd578543d9,,;1c343e00-7e6c-4f53-b588-074a3cdb9c7d,,;71c7b6a4-8178-45da-81f7-2ecb3fa5ec2a,,;,,;71c7b6a4-8178-45da-81f7-2ecb3fa5ec2a,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="NoCameraMove" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellActionType" type="EnumerationTableFieldDefinition" value="Disengage" enumeration_type_name="SpellActionType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not Immobilized()" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="f56fb8e0-815b-41e0-9071-3c2305c93660" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="08ecdc25-31ea-4f32-8787-19b97971a9f1" />
+        <field name="CinematicArenaFlags" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="CinematicArenaFlags" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="DontChange" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4fc7b75d-f8a3-43bc-b0cc-c230d646574a" />
+        <field name="Name" type="NameTableFieldDefinition" value="TandemFootwork" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(TANDEM_FOOTWORK,100,-1);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="9" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and Ally()" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7fda03e0g1c44gfb83gc8c5g36e83d6dc3c8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h22dd46abgbee6g491bg8b3eg17ea18400639" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(TANDEM_FOOTWORK,100,-1);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Start" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Bard_SongOfRest_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Bard_SongOfRest_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="InstrumentComponentPrepareSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Prepare" />
+        <field name="InstrumentComponentLoopingSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Loop" />
+        <field name="InstrumentComponentCastSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Cast" />
+        <field name="InstrumentComponentImpactSound" type="StringTableFieldDefinition" value="Instrument_Bard_SongOfRest_Impact" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BardicInspiration:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="71c7b6a4-8178-45da-81f7-2ecb3fa5ec2a,,;,,;8bfc0edf-5baa-4344-a486-14032de5ab69,,;3935e00c-7d43-4243-a4ef-4c680530d593,,;71c7b6a4-8178-45da-81f7-2ecb3fa5ec2a,,;,,;71c7b6a4-8178-45da-81f7-2ecb3fa5ec2a,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="NoCameraMove" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="d2c9dc70-d8d8-40fc-87a8-3c14a3ea842a" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="5e248293-1a8d-4557-a2e1-f399e4552ff0" />
+        <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="b4d2ce64-af72-45a2-8146-6a9c3b71f1a6" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Instrument" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Dance_6_TandemFootwork" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFD700" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="353cfeae-ddd9-407f-8811-3324e14ffa3f" />

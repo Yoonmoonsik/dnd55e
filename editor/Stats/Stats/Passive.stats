@@ -84,6 +84,17 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="befac179-9944-4d96-be9b-401b88d020c1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MeleeUnarmedAttackBonus" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hccb47037gb339g8c2eg956ag7d3cea211410" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h10eeb88agf2c6g47b1g2699g122c116ad4fb" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MartialArts_UnarmedDamage" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(MeleeUnarmedAttack,ProficiencyBonus/2);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9daae7da-e5d9-4b0e-943b-ad63b909e1c1" />
@@ -996,6 +1007,53 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd4f3b039g6204g1bbagd21fgb72f806b54d8" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2303" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFEE82EE" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d74ecedd-50c4-47d8-95e3-4dad7a8f1a13" />
+        <field name="Name" type="NameTableFieldDefinition" value="__DANCE__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a6568f47-d49a-4cc6-b31d-95f1ada1fde7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dance_3_DazzlingFootwork" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h284201cfg7ef2g3386g799dgb94060c50b96" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d579a81g52d6g1a4cg3fe1ge97bcb251943" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Dance_3_DazzlingFootwork" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="not WearingArmor(context.Source) and not HasShieldEquipped(context.Source)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Skill, Performance)UnlockSpell(Target_AgileStrike);IF(not WearingArmor(context.Source) and not HasShieldEquipped(context.Source)):ACOverrideFormula(10,true,Dexterity,Charisma);IF(not WearingArmor(context.Source) and not HasShieldEquipped(context.Source) and MeleeUnarmed()):MonkWeaponAttackOverride();IF(not WearingArmor(context.Source) and not HasShieldEquipped(context.Source) and MeleeUnarmed()):MonkWeaponDamageDiceOverride(LevelMapValue(BardicInspiration));" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasUseCosts('BardicInspiration');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,AGILE_STRIKE,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6ebc978c-7a8b-420d-81a4-db2a19d7fb49" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dance_6_InspiringMovement" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h75cac7b5gabc0ge6d4gcf1bg66c77bcb1d31" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ad23fb9gc206g78bagd3d1g8369951939b3" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Dance_6_InspiringMovement" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2406" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_InspiringMovement);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c64584e-8429-4e2c-b7ee-a18661af8504" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dance_6_TandemFootwork" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1af76b4dg4b9cga7cdgf8e7g353530ee4ff9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h22f95eb6g9866gb41fg1f08gece44a7945f9" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Dance_6_TandemFootwork" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2406" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_TandemFootwork);" />
       </fields>
     </stat_object>
     <stat_object color="#FFFFD700" is_substat="false">

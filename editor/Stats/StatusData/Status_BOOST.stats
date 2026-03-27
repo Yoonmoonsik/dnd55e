@@ -627,6 +627,12 @@
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="b5561d10-6cc4-4403-a567-b569c96a5d76" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="911c58a5-de1d-41f2-80b3-5526e1c45eb4" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ZEALOT__" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ac98b0dc-df4b-4983-999e-ff2e5add42dc" />
@@ -687,6 +693,57 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(Cause.LevelMapValue(BardicInspiration)+Cause.LevelMapValue(BardicInspiration));" />
         <field name="Passives" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DISENGAGE,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFEE82EE" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3b50f183-d3e9-4cec-8770-da727d92de89" />
+        <field name="Name" type="NameTableFieldDefinition" value="__DANCE__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c81d9048-eea1-470d-8711-376bcfdd92e5" />
+        <field name="Name" type="NameTableFieldDefinition" value="AGILE_STRIKE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5336df21g7ddfg1231gfc57ga39ec7e78e9d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6d7a7de1g2c02gc8bbgcf20g79bdbdc08374" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Dance_3_DazzlingFootwork" />
+        <field name="StackId" type="StringTableFieldDefinition" value="AGILE_STRIKE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="de0189cb-8276-4441-9ada-11b031763730" />
+        <field name="Name" type="NameTableFieldDefinition" value="INSPIRING_MOVEMENT" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5c2fd98dg730eg0f81g45d9g556839f62f6a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h40405809g5c4fgdea3g37aag18b85b437b5f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Dance_6_InspiringMovement" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INSPIRING_MOVEMENT" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceMultiplier(Movement,150,0);UnlockSpell(Target_InspiringMovement);" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DISENGAGE,100,1)" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="d787f666-8ee6-4185-9365-6aac9ebe76ae" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a3bfc351-0d11-4ba6-b509-47f93a1d0d95" />
+        <field name="Name" type="NameTableFieldDefinition" value="INSPIRING_MOVEMENT_ALLY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="de0189cb-8276-4441-9ada-11b031763730" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INSPIRING_MOVEMENT_ALLY" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceMultiplier(Movement,150,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ffec0c89-1f6b-41d2-8224-9f41b3153ed4" />
+        <field name="Name" type="NameTableFieldDefinition" value="TANDEM_FOOTWORK" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdd7ddd39gf7b8g5306g8adcg34646c6a8890" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9c848dbfg9142g2e12g3ccagbc63f31bc4aa" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Dance_6_TandemFootwork" />
+        <field name="StackId" type="StringTableFieldDefinition" value="TANDEM_FOOTWORK" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Initiative(5);" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FFFFD700" is_substat="false">
@@ -993,6 +1050,8 @@
         <field name="Name" type="NameTableFieldDefinition" value="RELENTLESS_AVENGER" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0e95830b-d385-49b7-98b0-bfae94cfc30e" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceMultiplier(Movement,150,0);" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="d787f666-8ee6-4185-9365-6aac9ebe76ae" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

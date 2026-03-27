@@ -80,6 +80,19 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="6"/>
                     <attribute id="UUID" type="guid" value="0e37e9bc-3909-49f4-8035-6d9736ad6867"/>
                 </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="hf0b95e32g4ebbg93cdgf26eg83a31fd8654e" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="heb20c7adg4399g29d8g90d1g05ee938a1427" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="DanceCollege"/>
+                    <attribute id="ParentGuid" type="guid" value="92cd50b6-eb1b-4824-8adb-853e90c34c90"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="300669be-c07a-42cc-85a7-f1f956e79059"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Bard"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="0da91e7c-7880-4cfa-819b-82eb6f41130f"/>
+                </node>
             </children>
         </node>
     </region>

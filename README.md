@@ -74,10 +74,10 @@
   - [x] Level 7: Countercharm
   - [x] Level 10: Magical Secrets
 - [ ] Subclass
-  - [ ] Dance
-    - [ ] Level 3: Dazzling Footwork
-    - [ ] Level 6: Inspiring Movement
-    - [ ] Level 6: Tandem Footwork
+  - [x] Dance
+    - [x] Level 3: Dazzling Footwork
+    - [x] Level 6: Inspiring Movement
+    - [x] Level 6: Tandem Footwork
   - [x] Swords
   - [x] Glamour
     - [x] Level 3: Beguiling Magic
