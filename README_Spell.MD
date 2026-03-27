@@ -16,22 +16,27 @@
 - Armor of Agathys
 - Chromatic Orb
 - Color Spray
+- Cure Wounds
 ## Level 2
 - Aid
 - Arcane Vigor
 - Blindness
+- Cloud of Daggers
+- Crown of Madness
+- Darkness
 - Find Steed
 - Mind Spike
-- Cloud of Daggers
 ## Level 3
 - Aura of Vitality
 - Blink
 - Conjure Barrage
+- Crusader's Mantle
 ## Level 4
 - Fount of Moonlight
 - Banishment
 ## Level 5
 - Cone of Cold
+- Contagion
 - Steel Wind Strike
 - Synaptic Static
 ## Level 6

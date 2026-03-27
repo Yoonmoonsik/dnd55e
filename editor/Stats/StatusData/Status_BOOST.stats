@@ -413,6 +413,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f4cb13fa-cc17-4ac3-a182-716b99461f3e" />
+        <field name="Name" type="NameTableFieldDefinition" value="CROWN_OF_MADNESS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bb5cb102-77f5-4f12-b2f9-728b94f11f1f" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="StatusDurationLessThan(context.Target,'CROWN_OF_MADNESS',9) and SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnCharmed())" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ebf2968b-a315-40aa-a354-8038bf9f939a" />
         <field name="Name" type="NameTableFieldDefinition" value="SYNAPTIC_STATIC" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0eb6a1ccg061cg7757g2ce7gb1ae17ae8a0f" version="1" />
@@ -459,6 +467,25 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7147f546-ab7f-49d7-9011-f4fa0704ac66" />
+        <field name="Name" type="NameTableFieldDefinition" value="DARKNESS_RECAST" />
+        <field name="StackId" type="StringTableFieldDefinition" value="DARKNESS_RECAST" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="StatusStackType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(Darkness(),ModifyUseCosts(Replace,ActionPoint,0,0,ActionPoint),ModifyUseCosts(Replace,KiPoint,0,0,KiPoint),ModifyUseCosts(Replace,SpellSlot,0,-1,SpellSlot),ModifyUseCosts(Replace,WarlockSpellSlot,0,-1,WarlockSpellSlot),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyIconGlow());" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8f56644d-8630-4d41-b217-07a8d84f33fe" />
+        <field name="Name" type="NameTableFieldDefinition" value="CRUSADERS_MANTLE_AURA" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="be521c42-11c8-4e5c-a83b-ab3940c64371" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="CharacterWeaponDamage(1d4,Radiant);CharacterUnarmedDamage(1d4,Radiant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b96199e3-de70-4525-8e23-8bcfa5ce8f92" />
         <field name="Name" type="NameTableFieldDefinition" value="FOUNT_OF_MOONLIGHT" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a281f4cgfc20gce12g5a55ge741d085a992" version="1" />
@@ -471,7 +498,7 @@
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="c15c513d-b7df-43c9-b35d-b3e73b5c51b7" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dfb1cf75-94aa-4601-b1fa-059e5edaff47" />
         <field name="Name" type="NameTableFieldDefinition" value="__ILLUSION__" />
@@ -1126,17 +1153,6 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(LevelMapValue(MartialArts)+LevelMapValue(MartialArts));" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
-        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="7147f546-ab7f-49d7-9011-f4fa0704ac66" />
-        <field name="Name" type="NameTableFieldDefinition" value="DARKNESS_MONK" />
-        <field name="StackId" type="StringTableFieldDefinition" value="DARKNESS_MONK" />
-        <field name="StackType" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="StatusStackType" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Target_Darkness_Monk'),ModifyUseCosts(Replace,ActionPoint,0,0,ActionPoint),ModifyUseCosts(Replace,KiPoint,0,0,KiPoint),ModifyIconGlow());" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>

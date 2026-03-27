@@ -1,0 +1,12 @@
+function Darkness()
+	return SpellId('Target_Darkness')
+	| SpellId('Target_Darkness_3')
+	| SpellId('Target_Darkness_4')
+	| SpellId('Target_Darkness_5')
+	| SpellId('Target_Darkness_6')
+	| SpellId('Target_Darkness_Drider')
+	| SpellId('Target_Darkness_DrowMagic')
+	| SpellId('Target_Darkness_Monk')
+	| SpellId('Target_Darkness_Sorcerer')
+end
+
