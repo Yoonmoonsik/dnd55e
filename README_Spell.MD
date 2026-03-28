@@ -12,6 +12,7 @@
 - Starry Wisp
 - Thunderclap
 - True Strike
+- Vicious Mockery
 - Word of Radiance
 ## Level 1
 - Armor of Agathys
@@ -49,6 +50,7 @@
 - Mind Spike
 - Misty Step
 - Ray of Enfeeblement
+- Warding Bond
 ## Level 3
 - Aura of Vitality
 - Bestow Curse

@@ -335,6 +335,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="41044994-9f28-45b6-b90f-2d9ba7a163b6" />
+        <field name="Name" type="NameTableFieldDefinition" value="WARDING_BOND" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="546fe62a-78bd-4794-b816-a45a011eb4a2" />
+        <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="175e35ad-0c0c-4970-a669-2f690beed48b" />
         <field name="Name" type="NameTableFieldDefinition" value="AURA_OF_VITALITY_AURA" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="539331b7-b7f8-434b-8b8f-afdbe2d3d06e" />
