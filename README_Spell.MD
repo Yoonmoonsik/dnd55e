@@ -32,6 +32,7 @@
 - Magic Missile
 - Ray of Sickness
 - Searing Smite
+- Sleep
 ## Level 2
 - Aid
 - Arcane Vigor
