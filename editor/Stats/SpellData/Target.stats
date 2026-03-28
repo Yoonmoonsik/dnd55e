@@ -1193,6 +1193,12 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7bf6d45c-a16d-4c80-b74b-0de81ff6fd13" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ENCHANTMENT__SLEVEL__1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4fed088b-4166-4434-9904-77a8356b2ab5" />
         <field name="Name" type="NameTableFieldDefinition" value="Hex" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
@@ -1917,6 +1923,60 @@
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;IsHarmful;RangeIgnoreVerticalThreshold;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
         <field name="MaximumTotalTargetHP" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="444ea86e-941c-49e5-a373-09eb939cb470" />
+        <field name="Name" type="NameTableFieldDefinition" value="HideousLaughter" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="22bedbec-1743-4df2-bbc4-47e832a91e19" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="1" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="04cc3403-f67a-4747-b49e-a1802cc7a6ad" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c49e20aa-dd61-4ce7-b5be-6416c4ec69c3" />
+        <field name="Name" type="NameTableFieldDefinition" value="HideousLaughter_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e1bc8a9e-158a-4da1-9a1e-ffdc0bb459ed" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="2" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="04cc3403-f67a-4747-b49e-a1802cc7a6ad" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="41d0cfde-cac0-44c5-80c2-a3dd7e979c91" />
+        <field name="Name" type="NameTableFieldDefinition" value="HideousLaughter_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3c3d42ce-8078-4d04-97c9-e43d9f2eeab0" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="3" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="04cc3403-f67a-4747-b49e-a1802cc7a6ad" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8b58e955-09f9-4e98-b7bc-2a7cf5c86d72" />
+        <field name="Name" type="NameTableFieldDefinition" value="HideousLaughter_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43da1286-a87b-4347-aae8-6982643b1d88" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="4" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="04cc3403-f67a-4747-b49e-a1802cc7a6ad" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="00505f28-686e-4b61-9587-9f221c826791" />
+        <field name="Name" type="NameTableFieldDefinition" value="HideousLaughter_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3ca7cd83-a2b8-4ee3-b68b-7659f644a6b2" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="5" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="04cc3403-f67a-4747-b49e-a1802cc7a6ad" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a1833a33-bd6e-4089-ac22-f68e442f8624" />
+        <field name="Name" type="NameTableFieldDefinition" value="HideousLaughter_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="66b2b123-d3ff-424e-924a-2e671332cec4" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="6" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="04cc3403-f67a-4747-b49e-a1802cc7a6ad" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

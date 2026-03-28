@@ -33,6 +33,7 @@
 - Ray of Sickness
 - Searing Smite
 - Sleep
+- Tasha's Hideous Laughter
 ## Level 2
 - Aid
 - Arcane Vigor
@@ -67,6 +68,7 @@
 - Otiluke's Resilient Sphere
 - Phantasmal Killer
 - Polymorph
+- Stoneskin
 ## Level 5
 - Cone of Cold
 - Contagion
