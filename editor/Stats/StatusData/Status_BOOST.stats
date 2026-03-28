@@ -549,6 +549,41 @@
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;Blind;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="64c01e65-31cd-4597-b212-97c31dce70ea" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTOM_STEED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="50c36bb8-6b7e-422e-95f6-c9b1ae98e326" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f489216gb640gb35fg24f2ge484d18842ab" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he5f0f47cg9e31g78f9g3de0gbcdc5fe67dd8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_PhantomSteed" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SteedActionPoint,1,0);UnlockSpellVariant(SteedAction(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,SteedActionPoint,1,0),ModifyIconGlow());" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bb5ae1fb-e5e1-4c88-8d3f-d384ca2493af" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_KILLER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="415e89f2-8d0c-4370-804d-19910721e2f1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AllAbilities);Disadvantage(AttackRoll);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe2179ba-52b7-4b50-b106-8d6344c330d1" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_KILLER_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d3aefdc2-03b7-4a95-8ff3-61ca05c71541" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AllAbilities);Disadvantage(AttackRoll);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f8d9e86f-7e40-477a-a120-c3e4baaeeebb" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_KILLER_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fb3b118f-e423-4369-a4bc-6f743a12dbf8" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AllAbilities);Disadvantage(AttackRoll);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a999c096-e824-4644-bac9-5e98d05aa1a0" />

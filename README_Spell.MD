@@ -52,12 +52,16 @@
 - Fear
 - Lightning Arrow
 - Mass Healing Word
+- Phantom Steed
 ## Level 4
 - Banishment
 - Confusion
 - Dominate Beast
 - Fount of Moonlight
 - Ice Storm
+- Otiluke's Resilient Sphere
+- Phantasmal Killer
+- Polymorph
 ## Level 5
 - Cone of Cold
 - Contagion

@@ -369,6 +369,36 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1af7980f-0c33-4e67-b3a2-6e184a36a0f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="ResilientSphere" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5ddd7210-e917-441d-a33d-35f03712ba6b" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(RESILIENT_SPHERE,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RESILIENT_SPHERE,100,10)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ca32a3e4-b0bc-422a-a081-4516120303b3" />
+        <field name="Name" type="NameTableFieldDefinition" value="ResilientSphere_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6f0261df-4960-47a4-89ed-9ecbd6852e08" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(RESILIENT_SPHERE,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RESILIENT_SPHERE,100,10)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="703a3926-53ee-42e8-999b-0ec231fcdcb4" />
+        <field name="Name" type="NameTableFieldDefinition" value="ResilientSphere_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="077be817-07b0-4438-8ab7-fed3b2466730" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(RESILIENT_SPHERE,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RESILIENT_SPHERE,100,10)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="562828c4-944f-45da-ad52-ab7f9e7779dd" />
         <field name="Name" type="NameTableFieldDefinition" value="CureWounds_Mass" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c39b2bcd-f615-41c8-a2b6-07ee3c2df1e6" />
@@ -2162,6 +2192,92 @@
         <field name="Name" type="NameTableFieldDefinition" value="__ILLUSION__" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04f49018-af87-4c8c-978d-89e8c3bb8a38" />
+        <field name="Name" type="NameTableFieldDefinition" value="PhantomSteed" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Illusion" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(PHANTOM_STEED,100,10);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Ally() and not Dead();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_PhantomSteed" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he922cbadga1cagc50eg44aagb22738ab6296" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d1b5755g3943g8854gdc14g83c3921a9c89" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PHANTOM_STEED,100,10);" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Summon_FindFamiliar_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Summon_FindFamiliar_L1to3" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Summon_FindFamiliar_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Summon_FindFamiliar_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Ally() and not Dead();" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="f489d217-b699-4e8e-bf22-6ef539c5d65b,,;,,;b0d26d2e-df57-4bca-85a1-806b7434cda6,,;38e8f7d0-ca6b-4298-a132-d23bee9c7480,,;f9414915-2da7-4f40-bcbd-90e956461246,,;,,;f2a62277-c87a-4ec7-b4f2-c3c37e6e30ae,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Summon" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="1a34e89b-4685-4dfc-a7ea-6efc03e448cc" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="111a8b8c-b395-46d0-b2f0-a10ac6f9731f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6fb96ac3-be23-434d-907f-57d1e2539645" />
+        <field name="Name" type="NameTableFieldDefinition" value="PhantomSteed_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="04f49018-af87-4c8c-978d-89e8c3bb8a38" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_PhantomSteed" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="305cb7f9-2d8c-4730-bead-77beeee0dea0" />
+        <field name="Name" type="NameTableFieldDefinition" value="PhantomSteed_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6fb96ac3-be23-434d-907f-57d1e2539645" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f88a525-3ab8-4f19-8ce2-b28ce9f7e327" />
+        <field name="Name" type="NameTableFieldDefinition" value="PhantomSteed_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6fb96ac3-be23-434d-907f-57d1e2539645" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0c7b8b84-6bd4-490f-89a4-15eb1e6544bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="PhantasmalKiller" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="501f7f93-5535-4172-97fb-7fd97be8c1c6" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1fc6d592gcc27gfae8g9211ge723a0f1c0e7" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b3b8486e-9328-4192-98b6-11a7c545c3bd" />
+        <field name="Name" type="NameTableFieldDefinition" value="PhantasmalKiller_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="988aa473-885a-42ad-87c0-db2912c5364e" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h28a36b4cg27b2gab96g42b0gbade6f8162f6" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1223b653-97a2-421d-8ce3-bf41ea0c117a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PhantasmalKiller_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="eedb2281-c8eb-46e2-bbfa-90f1e6e82a00" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h32d2aff6ga0b0g13a1g550dgd7e4309b96fb" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fcad2503-af3b-4305-9102-03fcd72cc119" />
@@ -3399,6 +3515,33 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_ElementalWeapon_Thunder" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0d235a1c-364d-4fa1-b869-73eee9535ada" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsMelee;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="60478081-4b41-49d0-9772-302ef05b3bb7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Polymorph" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="004b1ec8-9eb7-4519-b28e-bc4098ee8f1b" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POLYMORPH_SHEEP,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(POLYMORPH_SHEEP,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe5c2d80-8d01-44db-8dd0-77a5b3b2b019" />
+        <field name="Name" type="NameTableFieldDefinition" value="Polymorph_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="102d9a20-4fb1-40fc-8cda-7da95a7edde1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POLYMORPH_SHEEP,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(POLYMORPH_SHEEP,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a40a743c-fff4-4ef1-9d8a-c522e1d14ff0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Polymorph_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="11427ef0-2756-49f9-8e79-52f07e0f111b" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POLYMORPH_SHEEP,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(POLYMORPH_SHEEP,100,10);" />
       </fields>
     </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
