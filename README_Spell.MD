@@ -35,6 +35,7 @@
 - Searing Smite
 - Sleep
 - Tasha's Hideous Laughter
+- Wrathful Smite
 ## Level 2
 - Aid
 - Arcane Vigor

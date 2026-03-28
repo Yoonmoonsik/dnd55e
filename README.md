@@ -48,9 +48,9 @@
     - [x] Level 3: Frenzy
     - [x] Level 6: Mindless Rage
     - [x] Level 10: Retaliation
-  - [x] Giant
-  - [x] Wild Magic
-  - [x] Wildheart
+  - [ ] Giant
+  - [ ] Wild Magic
+  - [ ] Wildheart
   - [x] World Tree
     - [x] Level 3: Vitality of the Tree
     - [x] Level 6: Branches of the Tree
@@ -78,7 +78,7 @@
     - [x] Level 3: Dazzling Footwork
     - [x] Level 6: Inspiring Movement
     - [x] Level 6: Tandem Footwork
-  - [x] Swords
+  - [ ] Swords
   - [x] Glamour
     - [x] Level 3: Beguiling Magic
     - [x] Level 3: Mantle of Inspiration
@@ -105,9 +105,9 @@
   - [x] Level 5: Sear Undead
   - [x] Level 7: Blessed Strikes
 - [x] Subclass
-  - [x] Death
-  - [x] Nature
-  - [x] Tempest
+  - [ ] Death
+  - [ ] Nature
+  - [ ] Tempest
   - [x] Knowledge
     - [x] Level 3: Blessings of Knowledge
     - [x] Level 3: Knowledge Domain Spells
@@ -149,8 +149,8 @@
 - [ ] Subclass
   - [ ] Land
   - [ ] Sea
-  - [x] Spore
-  - [x] Stars
+  - [ ] Spore
+  - [ ] Stars
   - [x] Moon
     - [x] Level 3: Circle Forms
     - [x] Level 6: Improved Circle Forms
@@ -173,8 +173,8 @@
   - [x] Level 9: Tactical Master
   - [x] Level 11: Two Extra Attacks
 - [ ] Subclass
-  - [x] Arcane Archer
-  - [x] Battle Master
+  - [ ] Arcane Archer
+  - [ ] Battle Master
   - [ ] Psi Warrior
   - [x] Champion
     - [x] Level 3: Improved Critical
@@ -239,7 +239,7 @@
   - [x] Level 10: Aura of Courage
   - [x] Level 11: Radiant Strikes
 - [ ] Subclass
-  - [x] Crown
+  - [ ] Crown
   - [ ] Glory
   - [x] Oathbreaker
   - [x] Ancients
@@ -270,9 +270,9 @@
   - [x] Level 9: Expertise
   - [x] Level 10: Tireless
 - [ ] Subclass
-  - [x] Beast Master
+  - [ ] Beast Master
   - [ ] Fey Wanderer
-  - [x] Swarm Keeper
+  - [ ] Swarm Keeper
   - [x] Gloom Stalker
     - [x] Level 3: Dread Ambusher
     - [x] Level 3: Gloom Stalker Spells
@@ -390,9 +390,9 @@
     - [ ] Level 10: Beguiling Defenses
   - [ ] Celestial
   - [ ] Fiend
-    - [ ] Level 3: Dark One’s Blessing
+    - [ ] Level 3: Dark One's Blessing
     - [x] Level 3: Fiend Spells
-    - [ ] Level 6: Dark One’s Own Luck
+    - [ ] Level 6: Dark One's Own Luck
     - [ ] Level 10: Fiendish Resilience
   - [ ] Great Old One
     - [ ] Level 3: Awakened Mind
