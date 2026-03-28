@@ -724,19 +724,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="8c6d7c03-9920-4c67-8fd4-0b70aa0452d9" />
-        <field name="Name" type="NameTableFieldDefinition" value="BLINK_VANISH" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h83b85c59gb22dg5169g66f4ge07c7b7871db" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1508cdd1g54acg7e72gc647gec06dce25778" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Blink" />
-        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
-        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
-        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(GASEOUSFORM_BLINK,100,-1)" />
-        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="41a4d8ca-f29d-486a-9f4e-afd9deb55b62" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e9f8b188-0ad9-4c43-ab91-b8862c82441f" />
         <field name="Name" type="NameTableFieldDefinition" value="MAGIC_WEAPON" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0dfaec7d-fb0e-4bd6-82cc-2d713e3169a2" />
@@ -758,6 +745,28 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="8f8b9876-1e8a-4eb6-be11-c7d980930c60" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
         <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8c6d7c03-9920-4c67-8fd4-0b70aa0452d9" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLINK_VANISH" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h83b85c59gb22dg5169g66f4ge07c7b7871db" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1508cdd1g54acg7e72gc647gec06dce25778" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Blink" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(GASEOUSFORM_BLINK,100,-1)" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="41a4d8ca-f29d-486a-9f4e-afd9deb55b62" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="32853af9-c07f-4ec7-a3cf-ea2ba122bd57" />
+        <field name="Name" type="NameTableFieldDefinition" value="STONESKIN" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e33de664-e0bb-4a6f-8474-aa0903fd7c8f" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9bcb3486gd911g3c9fgace0g779c9bda1aa7" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Bludgeoning, Resistant);Resistance(Piercing, Resistant);Resistance(Slashing, Resistant);" />
       </fields>
     </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
