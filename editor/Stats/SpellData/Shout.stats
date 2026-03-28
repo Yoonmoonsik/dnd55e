@@ -322,6 +322,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2f9fa70a-a0a0-46b7-952e-dff4570ad0db" />
+        <field name="Name" type="NameTableFieldDefinition" value="WitchBolt_Activate" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5576e387-3937-43e0-8f00-973525cfc91b" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('WITCH_BOLT_FIRST_TURN')" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="10ba27a0-0f55-4f06-8145-15fa3e46d88f" />
         <field name="Name" type="NameTableFieldDefinition" value="FountOfMoonlight" />
         <field name="Level" type="IntegerTableFieldDefinition" value="4" />

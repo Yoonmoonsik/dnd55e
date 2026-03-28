@@ -601,6 +601,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d103c40a-684e-4cd7-b53c-ab3923097e55" />
+        <field name="Name" type="NameTableFieldDefinition" value="WITCH_BOLT_FIRST_TURN" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="616c542e-af33-4523-9383-164e70ce4e5d" />
         <field name="Name" type="NameTableFieldDefinition" value="DARKNESS_CASTER" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h48d3643fg9150g4323g6a3bg15e71e622720" version="1" />

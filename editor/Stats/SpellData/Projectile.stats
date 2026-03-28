@@ -454,6 +454,66 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="50633762-134d-43c0-8ffc-8a5dc56b022f" />
+        <field name="Name" type="NameTableFieldDefinition" value="WitchBolt" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ea4ff8c0-3eff-46d5-b188-5e7cb9534411" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(1d12,Lightning);ApplyStatus(SELF,WITCH_BOLT_FIRST_TURN,100,1);ApplyStatus(WITCH_BOLT,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d12,Lightning,Magical);ApplyStatus(AI_HELPER_WITCHBOLT,100,2);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d12,Lightning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b72ab07f-ba49-4f9a-98b4-7f0d982cd093" />
+        <field name="Name" type="NameTableFieldDefinition" value="WitchBolt_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d697c17-2983-44ee-83f2-db3f0a5ec4d8" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(1d12,Lightning);ApplyStatus(SELF,WITCH_BOLT_FIRST_TURN,100,1);ApplyStatus(WITCH_BOLT,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d12,Lightning,Magical);ApplyStatus(AI_HELPER_WITCHBOLT,100,2);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d12,Lightning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e88831be-390f-435f-b097-650a387dc90f" />
+        <field name="Name" type="NameTableFieldDefinition" value="WitchBolt_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac78698c-14e4-47e1-807a-0e8f7175180c" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(1d12,Lightning);ApplyStatus(SELF,WITCH_BOLT_FIRST_TURN,100,1);ApplyStatus(WITCH_BOLT,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d12,Lightning,Magical);ApplyStatus(AI_HELPER_WITCHBOLT,100,2);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d12,Lightning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4e7f202a-519c-406c-9c64-47e8e57c8e84" />
+        <field name="Name" type="NameTableFieldDefinition" value="WitchBolt_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e405d05c-29f2-47b8-a963-aa315c2f42de" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(1d12,Lightning);ApplyStatus(SELF,WITCH_BOLT_FIRST_TURN,100,1);ApplyStatus(WITCH_BOLT,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d12,Lightning,Magical);ApplyStatus(AI_HELPER_WITCHBOLT,100,2);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d12,Lightning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c287467c-0e1d-4ac4-adb4-7f46b44dec4b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WitchBolt_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6363ef2e-3f6a-4e33-95ba-4d073d7d094c" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(1d12,Lightning);ApplyStatus(SELF,WITCH_BOLT_FIRST_TURN,100,1);ApplyStatus(WITCH_BOLT,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d12,Lightning,Magical);ApplyStatus(AI_HELPER_WITCHBOLT,100,2);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d12,Lightning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5e830e65-02d0-4607-9414-73d653ff8de2" />
+        <field name="Name" type="NameTableFieldDefinition" value="WitchBolt_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="36c9faed-04e1-472f-822b-90aa96b40301" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(1d12,Lightning);ApplyStatus(SELF,WITCH_BOLT_FIRST_TURN,100,1);ApplyStatus(WITCH_BOLT,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d12,Lightning,Magical);ApplyStatus(AI_HELPER_WITCHBOLT,100,2);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d12,Lightning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1fe57f34-716a-4deb-8a29-10e10757f4b2" />
         <field name="Name" type="NameTableFieldDefinition" value="AcidArrow" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1c273ec5-643b-495a-8b44-bd044a4ceed6" />
