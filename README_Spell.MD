@@ -51,6 +51,7 @@
 - Mind Spike
 - Misty Step
 - Ray of Enfeeblement
+- Snilloc's Snowball Swarm
 - Warding Bond
 ## Level 3
 - Aura of Vitality
