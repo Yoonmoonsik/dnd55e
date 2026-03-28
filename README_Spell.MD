@@ -61,6 +61,7 @@
 - Dominate Person
 - Hold Monster
 - Insect Plague
+- Mass Cure Wounds
 - Steel Wind Strike
 - Synaptic Static
 ## Level 6

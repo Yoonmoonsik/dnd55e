@@ -367,6 +367,28 @@
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BANISHED, 100, 10)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="562828c4-944f-45da-ad52-ab7f9e7779dd" />
+        <field name="Name" type="NameTableFieldDefinition" value="CureWounds_Mass" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c39b2bcd-f615-41c8-a2b6-07ee3c2df1e6" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(5d8+SpellCastingAbilityModifier);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(5d8+SpellCastingAbilityModifier)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(5d8+SpellCastingAbilityModifier)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b28849a0-4e38-4e6c-befb-d5d9c6b98576" />
+        <field name="Name" type="NameTableFieldDefinition" value="CureWounds_Mass_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a493b1ed-3344-461c-908d-b03928bdb3bc" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(6d8+SpellCastingAbilityModifier);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(6d8+SpellCastingAbilityModifier)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(6d8+SpellCastingAbilityModifier)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e3f7b69e-b25c-4f39-b19b-2974cc677bfe" />
