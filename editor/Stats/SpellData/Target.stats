@@ -3020,6 +3020,59 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c86c4a16-b225-43e1-aa24-38e0e132e4bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicWeapon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9afe4468-ad49-416c-8890-121940499ba9" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf3454d49ga887g5e0fg8d2agc0bbd2b7d8f1" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6c783010-b337-4b65-8207-99f529d350a7" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicWeapon_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ad7e0ec0-a7f6-41a0-861c-95e2e3d12f69" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(Item()):ApplyStatus(MAGIC_WEAPON_4,100,-1);IF(not Item()):ApplyEquipmentStatus(MainHand,MAGIC_WEAPON_4,100,-1)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3de4daa5g270dgd865g3b17g917d23d9331c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MAGIC_WEAPON_4,100,-1)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1245227c-98d8-4614-8ce7-9dc762b9db8d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicWeapon_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fca26f45-ab20-410b-9586-0c417d0ebdf8" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h50bff1e7g1854g3605g542bg6e07ef5207cb" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="98824690-8b0f-46ca-928b-5247a5d56f4f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicWeapon_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a0f8b5f-310a-499a-b3d0-637b4f25a968" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfa97514cg1b62ge708ge36dg6b7323d4da3e" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3bb4a008-9398-4c84-8bd7-8fbc726d5e67" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicWeapon_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb6f4a0e-b57b-448a-961d-d97f0b0d256b" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h85706f21g3bf8g589fgb2e1gb85b9c796d1c" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e39823f4-c4dd-45cb-a029-0aab328c2617" />
         <field name="Name" type="NameTableFieldDefinition" value="MAG_ElementalWeapon" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="acb3f23b-a5b9-4a6b-af9d-a7d79ca63ad1" />

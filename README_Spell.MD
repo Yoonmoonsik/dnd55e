@@ -39,7 +39,7 @@
 - Find Steed
 - Gust of Wind
 - Lesser Restoration
-- Magic Weapon 작업중
+- Magic Weapon
 - Mind Spike
 ## Level 3
 - Aura of Vitality

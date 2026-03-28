@@ -626,6 +626,31 @@
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="41a4d8ca-f29d-486a-9f4e-afd9deb55b62" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e9f8b188-0ad9-4c43-ab91-b8862c82441f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAGIC_WEAPON" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0dfaec7d-fb0e-4bd6-82cc-2d713e3169a2" />
+        <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="56fa6829-8b0a-410b-9180-8b1073aed156" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAGIC_WEAPON_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e3eb44a5-f05e-4eac-b9f9-032ad0b36c2c" />
+        <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c7298102-b774-4b91-a631-ff2fc6dd66b5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAGIC_WEAPON_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8f8b9876-1e8a-4eb6-be11-c7d980930c60" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="69ede3eb-5730-413d-b072-32395b13a5fc" />
