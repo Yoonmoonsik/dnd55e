@@ -41,6 +41,7 @@
 - Lesser Restoration
 - Magic Weapon
 - Mind Spike
+- Melf's Acid Arrow
 ## Level 3
 - Aura of Vitality
 - Bestow Curse
