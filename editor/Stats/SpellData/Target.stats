@@ -5038,6 +5038,32 @@
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dfe2e496-17d5-4c2b-aee6-b739fb51e5ae" />
+        <field name="Name" type="NameTableFieldDefinition" value="LandsAid" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(3,10,Overgrowth,true);IF(Enemy()):DealDamage(LevelMapValue(LandsAid),Necrotic);IF(not Enemy()):RegainHitPoints(LevelMapValue(LandsAid));" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2b54832cgd102gec1dg521dgc5239b16c5b9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d366d57g2abcg334egec99gd574e5abbc31" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(LandsAid),Necrotic);&#xD;&#xA;RegainHitPoints(LevelMapValue(LandsAid));" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Control_Entangle_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Control_Entangle_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_SurfaceCreationVines" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;WildShape:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Control" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RechargeValues" type="StringTableFieldDefinition" value="5-6" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="e8109f4b-2439-4424-9bc8-743270220f47" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="31e60ea0-1592-4e14-a1b5-5d32a9b36b76" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="0295bd38-d6e5-48cb-9544-8f38e10a1532" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Druid_LandsAid" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="589fa89e-faf4-4619-a3fa-c5e43bb5f9f3" />
