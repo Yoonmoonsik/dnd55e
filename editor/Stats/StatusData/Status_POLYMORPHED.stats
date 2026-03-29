@@ -417,6 +417,26 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WildShape_Dismiss_Starry);Tag(STARRYFORM_DRAGON);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cfb92ad3-d109-4663-85b0-e7c5af6a851c" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_SEA" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2441e241g48f9g90deg04f4gc1d4278870d3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf8470c53gc4a7gf584g96f0g33c340603191" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Sea_WrathOfTheSea" />
+        <field name="SoundStart" type="StringTableFieldDefinition" value="Spell_Status_ElementalWildShapeWaterMyrmidon_Start" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_ElementalWildShapeWaterMyrmidon_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_ElementalWildShapeWaterMyrmidon_End" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WILDSHAPE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WildShape_Dismiss);UnlockSpell(Target_WrathOfTheSea);IF(HasPassive('Sea_10_Stormborn',context.Source)):UnlockSpell(Projectile_Fly_Equal);IF(HasPassive('Sea_10_Stormborn',context.Source)):Resistance(Cold,Resistant);IF(HasPassive('Sea_10_Stormborn',context.Source)):Resistance(Lightning,Resistant);IF(HasPassive('Sea_10_Stormborn',context.Source)):Resistance(Thunder,Resistant);" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_ACTIVE,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_MYRMIDON_WATER_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="acc89ec3-a77f-45bc-be5d-8e0f0d7cc68a" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Polymorph;SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="f515b011-9b9d-462c-85e1-a79bc9055962" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="715c7070-5394-4ef2-9732-ee2796deada0" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="965560da-68d2-4758-98dd-f62cce8acd61" />

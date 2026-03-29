@@ -115,10 +115,13 @@
 - Level 3: Land's Aid
 - Level 3: Natural Recovery
 - Level 10: Nature's Ward
-### Sea [ ]
+### Sea
 - Level 3: Circle of the Sea Spells
-### Spore [ ]
-### Stars [ ]
+- Level 3: Wrath of the Sea
+- Level 6: Aquatic Affinity
+- Level 10: Stormborn
+### Spore
+### Stars
 ### Moon
 - Level 3: Circle Forms
 - Level 6: Improved Circle Forms
@@ -138,8 +141,8 @@
 - Level 9: Indomitable
 - Level 9: Tactical Master
 - Level 11: Two Extra Attacks
-### Arcane Archer [ ]
-### Battle Master [ ]
+### Arcane Archer
+### Battle Master
 ### Psi Warrior [ ]
 ### Champion
 - Level 3: Improved Critical
@@ -230,7 +233,7 @@
 - Level 10: Tireless
 ### Beast Master [ ]
 ### Fey Wanderer [ ]
-### Swarm Keeper [ ]
+### Swarm Keeper
 ### Gloom Stalker
 - Level 3: Dread Ambusher
 - Level 3: Gloom Stalker Spells
@@ -269,7 +272,7 @@
 - Level 3: Fast Hands
 - Level 3: Second-Story Work
 - Level 9: Supreme Sneak
-### Swashbuckler [ ]
+### Swashbuckler
 ## Sorcerer
 - Core Traits
   - Skill Proficiencies
@@ -284,8 +287,8 @@
 ### Aberrant [ ]
 ### Clockwork [ ]
 ### Draconic [ ]
-### Shadow Magic [ ]
-### Storm Sorcery [ ]
+### Shadow Magic
+### Storm Sorcery
 ### Wild Magic [ ]
 ## Warlock
 - Core Traits

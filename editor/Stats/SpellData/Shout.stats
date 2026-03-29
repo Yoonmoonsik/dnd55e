@@ -1042,6 +1042,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99ab277e-6835-4023-834c-72a277ed47e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="WildShape_Dismiss" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="48843997-ae61-41f6-b44a-1c5a1f9a7f96" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SG_Polymorph_BeastShape);RemoveStatus(WILDSHAPE_STARRY_ARCHER_PLAYER);RemoveStatus(WILDSHAPE_STARRY_CHALICE_PLAYER);RemoveStatus(WILDSHAPE_STARRY_DRAGON_PLAYER);RemoveStatus(WILDSHAPE_SEA);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="acf44129-4bdf-45dc-8fcc-ac04ac7267f5" />
         <field name="Name" type="NameTableFieldDefinition" value="WildResurgence" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_WildResurgence_1;" />
@@ -1241,6 +1249,36 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4c72b567g1ff6gde9ag626fg50843dbe309d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdd145debg872fgb1b1gc2f0g1c799a4601c4" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(LAND_TROPICAL,100,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="534c8287-8d7d-4687-8284-92955518a20c" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CIRCLE OF THE SEA 4400__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="053c31f2-e19c-41f8-9acc-9bf40aa2c0f6" />
+        <field name="Name" type="NameTableFieldDefinition" value="WrathOfTheSea" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WILDSHAPE_SEA,100,-1);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Sea_WrathOfTheSea" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf1921250gb124g8471g9413g503117f1b821" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h57810054gfe7fgd3feg857agf79b5362dc6c" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WILDSHAPE_SEA,100,-1);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Buff_WildShape_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Buff_WildShape_L1to3" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Druid_ElementalWildShapeWaterMyrmidon" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Druid_ElementalWildShapeWaterMyrmidon" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;WildShape:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="22ceaac1-3968-469d-b4d5-15a0914af799,,;,,;79fd8d9f-7792-4b25-a89d-0ae60a4ce985,,;721abca5-2d52-4317-82a3-2a2e970a7a16,,;bd7e60ea-fc63-4bad-8219-760b05893bda,,;,,;fbe4f9d7-7dd5-4a76-b75d-c6da3c80c21f,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;UnavailableInDialogs;Wildshape" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('WILDSHAPE_ACTIVE')" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="22330577-b4cb-49ea-ade9-7ff183aa9209" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="3f474e1e-2d23-40ad-9a07-f65309fa756e" />
       </fields>
     </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">

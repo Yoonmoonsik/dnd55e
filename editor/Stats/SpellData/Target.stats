@@ -5064,6 +5064,33 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Druid_LandsAid" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3508d02b-c74a-4da8-bbb9-21b62d654f1b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WrathOfTheSea" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not AbilityGreaterThan('Wisdom',13,context.Source)):DealDamage(1d6,Cold);IF(AbilityGreaterThan('Wisdom',13,context.Source) and not AbilityGreaterThan('Wisdom',15,context.Source)):DealDamage(2d6,Cold);IF(AbilityGreaterThan('Wisdom',15,context.Source) and not AbilityGreaterThan('Wisdom',17,context.Source)):DealDamage(3d6,Cold);IF(AbilityGreaterThan('Wisdom',17,context.Source) and not AbilityGreaterThan('Wisdom',19,context.Source)):DealDamage(4d6,Cold);IF(AbilityGreaterThan('Wisdom',19,context.Source) and not AbilityGreaterThan('Wisdom',21,context.Source)):DealDamage(5d6,Cold);IF(AbilityGreaterThan('Wisdom',21,context.Source) and not AbilityGreaterThan('Wisdom',23,context.Source)):DealDamage(6d6,Cold);IF(AbilityGreaterThan('Wisdom',23,context.Source)):DealDamage(7d6,Cold);IF(TargetSizeEqualOrSmaller(Size.Large)):Force(4.5);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_WaterWhip" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3c20f33cgc7dag94d0ge8cag9a5b89fd4b90" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfce3b1a5gd494ge7ddge2b2gaa37f42771ce" version="1" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Monk_WaterWhip_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Monk_WaterWhip_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;ad12e2fa-1b15-4fcd-884f-38ba82d7e50e,,;5ee4c893-0149-4d08-a1f7-c4fe633530ba,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;DisableBlood;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="8e096e97-26bb-4da1-bb6a-374acb434c54" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="903263b5-afca-4370-bf00-32aba5f01757" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="7f8485a2-920d-49e7-903e-bdf8e684db46" />
+        <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="bb97ac24-8aae-463b-a080-072c2957db0e" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Cold" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="589fa89e-faf4-4619-a3fa-c5e43bb5f9f3" />

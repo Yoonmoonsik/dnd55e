@@ -1707,6 +1707,46 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Disease);StatusImmunity(SG_Poisoned);StatusImmunity(SG_Charmed,ELEMENTAL,FEY);StatusImmunity(SG_Frightened,ELEMENTAL,FEY);IF(HasStatus('LAND_ARID',context.Source)):Resistance(Fire,Resistant);IF(HasStatus('LAND_COLD',context.Source)):Resistance(Cold,Resistant);IF(HasStatus('LAND_TEMPERATE',context.Source)):Resistance(Lightning,Resistant);IF(HasStatus('LAND_PROPICAL',context.Source)):Resistance(Poison,Resistant);" />
       </fields>
     </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0810e30b-8dce-49b9-a529-fe502d4a0cc8" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CIRCLE OF THE SEA 4400__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="42111d85-2619-4df3-a92b-938472b6e121" />
+        <field name="Name" type="NameTableFieldDefinition" value="Sea_3_WrathOfTheSea" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h098af219gb42agf6c9gb202g7d21b599c435" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he83b406cg6857g3e88gd60dg2ef8a8d31d88" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Sea_WrathOfTheSea" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b86b3b90-1986-4e7b-8edc-438234642d65" />
+        <field name="Name" type="NameTableFieldDefinition" value="Sea_6_AquaticAffinity" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb8de1b6fge14agdb53gd966gfe3270131b62" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8e98b937g68e2gbad3g7b1ag31a19750c163" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Sea_WrathOfTheSea" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4406" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Target_WrathOfTheSea'),ModifyTargetRadius(Override,3),ModifySpellFlags(Melee,0));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7d4f9fee-e1c4-4e8f-90c0-e813b7f7587f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Sea_10_Stormborn" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h52d70b1eg7be8gdc25g22fcg6446989e556c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcd9d1097ga19dg7c70g4d29gc5f6d7f4a948" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Sea_WrathOfTheSea" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4410" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b84ecbb2-39b9-48d5-8b36-840a87d33d6b" />
