@@ -2986,6 +2986,116 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="056a0c12-3e41-4e67-a705-01e9fea8219f" />
+        <field name="Name" type="NameTableFieldDefinition" value="__FIGHTING STYLE FEAT__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d2fbf3e8-7b8d-450d-95f9-bcceb8f6dc26" />
+        <field name="Name" type="NameTableFieldDefinition" value="FightingStyle_Archery" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="32d107e3-b069-45b0-8fd2-8e55e22bf531" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha6d01a56gfaf0g86a4g2382g2a35c4b61006" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="90" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="01d1edad-8df4-4d4e-afad-78e62037f8e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="FightingStyle_BlindFighting" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h69e7fd0agdd1bg3905gad72g557418af9202" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h55c4eaaag12b5gf38cg05acg5df6c318f96c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_Blindness" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="90" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Blinded);IgnoreSurfaceCover(SurfaceDarknessCloud);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0a3aa26a-35d3-43d8-b473-a4ab6166c1ab" />
+        <field name="Name" type="NameTableFieldDefinition" value="FightingStyle_Defense" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="67f6d4b4-e200-4e67-849f-06762d3230d7" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8ce9b68cg7cf7gd7e9gf97cg858986c85631" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="90" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="789feb73-f372-485b-9183-e0286fa1a9af" />
+        <field name="Name" type="NameTableFieldDefinition" value="FightingStyle_Dueling" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="05ab81f2-e6e8-473f-bfab-0356865a1776" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc04efb72g5cb0g6a76g382bg0ec7961b5cbd" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="90" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="664f716a-9d3c-43fe-be9a-21ae5b4e8120" />
+        <field name="Name" type="NameTableFieldDefinition" value="FightingStyle_GreatWeaponFighting" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="261a5f2a-7f51-4788-b1ee-e7093cc66fda" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha6c87343g6e71g7201g8527g497e52c85300" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="90" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e839dfa8-3d3b-40fa-ab31-2024cf1baa27" />
+        <field name="Name" type="NameTableFieldDefinition" value="FightingStyle_Interception" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d65025cd-6888-4146-844b-528a363e8b52" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd08c1324g269cg7152g313bg4e06de33fc52" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6a4c6bc1g64e8gd02bg6b68g3e2d7bb52c48" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Parry" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_FightingStyle_Interception);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d65025cd-6888-4146-844b-528a363e8b52" />
+        <field name="Name" type="NameTableFieldDefinition" value="FightingStyle_Protection" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c064cca8-88d4-41c5-bd79-c622afab5176" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he0410f21gce36gc8d3g92efgc5ac77312265" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbc14bfc3g2a23g0472g6c3bg1d7d1cdd6c67" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="90" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2844631b-02c4-4ea6-8663-8ff59e1f7a4c" />
+        <field name="Name" type="NameTableFieldDefinition" value="FightingStyle_ThrownWeaponFighting" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="789feb73-f372-485b-9183-e0286fa1a9af" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9ce496e3g82adg5203g54a1gf6d3f0b7bfe3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc14aec27g6210g39e2g3e06g4354d61fda0f" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="EntityThrowDamage(2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3ff70108-56a2-40c9-ad8b-139f2b05bb22" />
+        <field name="Name" type="NameTableFieldDefinition" value="FightingStyle_TwoWeaponFighting" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5186208a-4ab6-476f-8c39-3d89f2beaa3c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h83c327a7g73d2g3cd4g5cd3g80e43c101d1d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_FrenziedThrow" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="90" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="602a63d1-6f7d-45e0-a87b-e7601f0b6f56" />
+        <field name="Name" type="NameTableFieldDefinition" value="FightingStyle_UnarmedFighting" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h50d829e8g75c2gf73cgee0fgb100f1e4a832" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb9ea2886ge218gb461g7d99gf5eea1cf55f9" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_FreeUnarmedStrike" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="90" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="MeleeUnarmed();" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="MonkWeaponDamageDiceOverride(LevelMapValue(UnarmedFighting));" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f6aa89a2-4069-4e8a-bf9a-8c9e9902801b" />
         <field name="Name" type="NameTableFieldDefinition" value="__ORIGIN FEAT__" />
       </fields>

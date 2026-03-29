@@ -325,6 +325,43 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c92b2f4b-211b-41c6-bc5d-4a2826de83c5" />
+        <field name="Name" type="NameTableFieldDefinition" value="__FIGHTING STYLE FEAT__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="49dcc7fc-e9ca-476e-9074-222bf422ed03" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_FightingStyle_Interception" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="493ec5bb-f3c5-49a3-b25c-d6bda949c4f9" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and (not Self(context.Target,context.Observer) and Ally(context.Target, context.Observer)) and IsAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not DistanceToEntityGreaterThan(2, context.ObserverPosition, context.Target) and ( HasShieldEquipped(context.Observer) or not Unarmed(context.Observer)) and not HasStatus('SG_Blinded') and not HasStatus('SG_Prone') and not HasStatus('SG_Incapacitated') and not HasStatus('SG_Restrained');" />
+        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(OBSERVER_TARGET,-(1d10+context.Observer.ProficiencyBonus),All);ApplyStatus(OBSERVER_TARGET,INTERRUPT_FIGHTINGSTYLE_PROTECTION,100,0);" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4aee1702-142c-4967-889a-2a3eb44a0362" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_FightingStyle_Protection" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4422dc64-95de-448f-8a58-fca66a269ad0" />
+        <field name="Properties" type="StringTableFieldDefinition" value="SetDisadvantage();ApplyStatus(OBSERVER_TARGET,INTERRUPT_FIGHTINGSTYLE_PROTECTION,100,0);ApplyStatus(OBSERVER_OBSERVER,INTERRUPT_FIGHTINGSTYLE_PROTECTION_UNLOCK,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a22b7922-b799-4e68-bd60-c0e37a125736" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_FightingStyle_Protection_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4422dc64-95de-448f-8a58-fca66a269ad0" />
+        <field name="Cost" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fc9131eb-e555-4081-b52f-9f96c4c58caf" />
         <field name="Name" type="NameTableFieldDefinition" value="__GENERAL FEAT__" />
       </fields>

@@ -240,5 +240,26 @@
         <field name="Passives" type="StringTableFieldDefinition" value="TavernBrawler" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da3203d8-750a-4de1-b8eb-1eccfccddf46" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fighter fighting style" />
+        <field name="Passives" type="StringTableFieldDefinition" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting,FightingStyle_BlindFighting,FightingStyle_UnarmedFighting,FightingStyle_Interception,FightingStyle_ThrownWeaponFighting," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0bdb113-1cce-45ac-94fb-72d4c3f207e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Ranger fighting style" />
+        <field name="Passives" type="StringTableFieldDefinition" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting,FightingStyle_BlindFighting,FightingStyle_UnarmedFighting,FightingStyle_Interception,FightingStyle_ThrownWeaponFighting," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f8ebba38-932a-4c64-ae55-3df23e2f60fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="Paladin Fighting Styles" />
+        <field name="Passives" type="StringTableFieldDefinition" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting,FightingStyle_BlindFighting,FightingStyle_UnarmedFighting,FightingStyle_Interception,FightingStyle_ThrownWeaponFighting," />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

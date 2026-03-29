@@ -155,5 +155,12 @@
         <field name="Level9" type="StringTableFieldDefinition" value="3d6" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="UnarmedFighting" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0672ebc4-5d25-4853-9f45-55260bc6aa3f" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d6" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
