@@ -494,6 +494,25 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a8539210-a87a-4eee-b439-0e072abc7257" />
+        <field name="Name" type="NameTableFieldDefinition" value="MIND_WHIP" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(ReactionActionPoint);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Slow_ActionPoint;" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h045ce8b1g3aa7gda4dgce76ge7dd467da035" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc474f769g4628g2168g1fd4gbc21c1c9e1d5" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_MindWhip" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Misc_Status_Madness_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Misc_Status_Madness_MO_Stop" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MIND_WHIP" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="8af705b5-4179-448e-abc0-2e1b50bf3a52" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="4c525a3b-17d2-4636-a26f-6cf8282eb879" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Negative" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="bc4f779b-7424-4770-90bb-bdea0f4e9ead" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="bb845123-372d-4ce1-8956-d350a97d8357" />
         <field name="Name" type="NameTableFieldDefinition" value="DOMINATE_BEAST" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="22e5714c-c13b-4957-9eb9-906ae38ba0a2" />

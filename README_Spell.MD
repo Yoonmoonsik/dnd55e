@@ -52,6 +52,7 @@
 - Misty Step
 - Ray of Enfeeblement
 - Snilloc's Snowball Swarm
+- Tasha's Mind Whip
 - Warding Bond
 ## Level 3
 - Aura of Vitality
