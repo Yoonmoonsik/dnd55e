@@ -57,7 +57,7 @@
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h07ac58a7gdc95gd7d3g0b48g2015e769d0d0" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="hed4fadaag2f33gc2b5g10bcg877f54981719" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hed4fadaag2f33gc2b5g10bcg877f54981719" version="3"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="Name" type="FixedString" value="WorldTreePath"/>
                     <attribute id="ParentGuid" type="guid" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399"/>
@@ -70,7 +70,7 @@
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h0e363cf3g0162gc215g7872g2aa8512bdbd6" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="hfa0367c5gd524g439egbb91gf1d01da462a1" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hfa0367c5gd524g439egbb91gf1d01da462a1" version="3"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="Name" type="FixedString" value="ZealotPath"/>
                     <attribute id="ParentGuid" type="guid" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399"/>
@@ -92,6 +92,21 @@
                     <attribute id="SoundClassType" type="FixedString" value="Bard"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="6"/>
                     <attribute id="UUID" type="guid" value="0da91e7c-7880-4cfa-819b-82eb6f41130f"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h135ef26bgf199g1ad5g7571gfe75a8983f9c" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="haf5be1bagceecg0615g9988g0af66eb534ad" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="EvocationSchool"/>
+                    <attribute id="ParentGuid" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="953e6528-acd2-48b5-95e7-9d54ad555d39"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Wizard"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="c059dca1-c17d-4dce-8260-83ede5070eac"/>
                 </node>
             </children>
         </node>

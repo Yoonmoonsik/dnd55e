@@ -2458,7 +2458,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hea7a291eg87bag417cg8ac2gdece9fc65308" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd8409099g42e6g3a17g9b47gc6bd4fec7de5" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Sorcerer_InnateSorcery" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1007" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10007" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasActionResource('InnateSorcery',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Shout_InnateSorcery'),ModifyUseCosts(Replace,InnateSorcery,0,-1,InnateSorcery),ModifyUseCosts(Add,SorceryPoint,2,0));" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnCombatStarted;OnCreate;OnTurn" enumeration_type_name="StatsFunctorContext" version="1" />
@@ -2535,7 +2535,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="PactOfTheBlade_Hex" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ecde94b6-438c-4bae-b871-e1d47af3c98d" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha12d8231ga51ag15b0gaa53g6e00282dc4a2" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1101" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11001" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h3952e016gc549gd27fgc618ga417ad5120c1" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(1,'Warlock',context.Source);" />
@@ -2547,7 +2547,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="PactOfTheChain" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c4d6c4c6-78f2-4188-b1ce-03c01a528cfd" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he1bd3e3eg338fg58d5g3de3g9be05e9302e7" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1101" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11001" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="he0d8fa8bgadb5g8c7fga076gbec7aa4441cb" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(1,'Warlock',context.Source);" />
@@ -2559,7 +2559,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="PactOfTheTome" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a86efcde-4bd1-4000-86f5-282dad36734e" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9e2924dag8101gd3b2g68a2g6add03aed4dd" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1101" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11001" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h30fd69d5ge1a6gda26g435dgb055ede6ab30" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(1,'Warlock',context.Source);" />
@@ -2571,7 +2571,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ArmorOfShadows" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9794faa6-9321-4a60-834a-cb6fd2dee0a6" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h25396b5dgdf7bg8d51g09d5g87f669d3be25" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1101" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11001" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h9216324dgcc3bg6778ga40aga3796b155c0c" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
@@ -2585,7 +2585,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="0b544088-6fd8-43a3-92bd-03a3411a89ec" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h007cf464gd375gf74bg38ccgdc14ddbc38cf" version="1" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1101" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11001" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h29e638a5g9fe4gca09gb884g608413f8e11f" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(1,'Warlock',context.Source);" />
@@ -2597,7 +2597,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="BeguilingInfluence" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f2bcce1b-0be1-43b9-9cf5-3d26e4bc0962" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f9d1ae5g4592g2f49gb8c7g87c552837f15" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1101" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11001" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h74e5b82bg3e1eg42d0g108ag8296ce9e9f59" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(1,'Warlock',context.Source);" />
@@ -2610,7 +2610,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbe38acefg243eg2454ge187g5d1c50d4bb2b" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9958bcb7g9126g6467g3b95g0f07e49ea19d" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchMind" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1101" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11001" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Concentration)" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h89cc571cg9734g0e75g9d8fg69ec4116823f" version="1" />
@@ -2625,7 +2625,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="9826308d-cdc0-4d2b-9981-07692ee6592b" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h25cfc459ge325g3d22g7037g9a95573234b1" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hd84b885bge9e8g3573gd4ffg49076a30df65" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1102" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11002" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(2,'Warlock',context.Source);" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWarlockCantrip() and IsCharismaModifierPositive()):DamageBonus(CharismaModifier);" />
@@ -2638,7 +2638,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="705567e0-1a6a-4c5c-b0d3-846d8500b6b1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h56007d5dgf3f2gc9c2g10eegc2fef230c9e6" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hecbef4dfg8243g14d6g9693gac003507a80f" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1102" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11002" />
         <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(24);ActiveCharacterLight(c46e7ba8-e746-7020-5146-287474d7b9f7);StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud);" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(2,'Warlock',context.Source);" />
@@ -2651,7 +2651,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="22c801fc-d816-4402-9508-6917d55ff03d" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf94f288fge015g4a15g6c34g367d15c45d89" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h2c66be28g9561g15fcg3b9dga1250371427d" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1102" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11002" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(IsEldritchSpearCantrip(),ModifyTargetRadius(Multiplicative,1.5),);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1be8ef4cg573bg9247g8bf7gbe003418678b" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
@@ -2665,7 +2665,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="f8fff257-d7ed-4c3c-b2c0-59a5b18de41b" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc803f28bg3024g3fd8gc979gbeb1263f4991" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h5998bc9cg0a28g94afg1a59g5ef2c18cef61" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1102" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11002" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DisguiseSelf_MaskOfManyFaces,Singular);" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
@@ -2679,7 +2679,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="d41fb64f-3a18-43ae-a617-cd650ba0ede0" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha97e7097gda9cgc3eegbb86g9bf88d36ee68" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h2d4bd307g5d48gebb2g299bg828ff537fd3c" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1102" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11002" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Jump,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
@@ -2693,7 +2693,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="213e8842-2088-4f06-93bd-1060e83bf727" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd47c4e1cg1e7ag651cg8c57g7deb405ec80c" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h35ea3bedgaf6dg4319gd657g95569aedae04" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1102" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11002" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar;Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h92b0f41cg7222g57a1gf293g5f9b67f6c76a" version="1" />
@@ -2713,7 +2713,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h96b23ed5g9f6eg5ed9gc731gf83643845844" version="1" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Bane_ThiefOfFiveFates,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a,UntilRest);" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1102" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11002" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(2,'Warlock',context.Source);" />
       </fields>
@@ -2725,7 +2725,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb2501172gdfd6gb7ebg0621ga38a34e3f573" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha794dab4gf433ga08bg7d82gda68964c691c" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h8d4f86adg3e6fg113dg666fg926e6f0083ba" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11005" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_PactOfTheBlade" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnStatusRemoved;OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
@@ -2740,7 +2740,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ThirstingBlade_Check" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0c1dba3ag239egef50g0d52g47241e4e6016" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="ha94435d8g091cgce68gaca4gc20e3eea7844" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11005" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Warlock_PactOfTheChain_Imp" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h17b4c239g8209gd0fbg57b8gadfb6d1e2826" version="1" />
@@ -2753,7 +2753,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="GiftOfTheDepths" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he5f3196agc9ccg5177gedd9ged594f4d1f5a" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h5c3434c5ge1cfg2712gf301g25080935ac60" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11005" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_PactOfTheTome" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="HasPassive('PactOfTheTome',context.Source) and ClassLevelHigherOrEqualThan(5,'Warlock',context.Source);" />
@@ -2769,7 +2769,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h425487e0g16b7ga256gb63ag56872a5ea672" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4d483577g0d77g722dg50ddga9f231b29ec2" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h284ddfa3g663ag50c2g07e9g9ac8fe753bcd" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11005" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
@@ -2784,7 +2784,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="d9f2f980-ee12-4b9d-b338-f5d1835968e7" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hda504259gf2e4g3266g40fdge92c642b1182" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hdc954407ge07fg170agc027gb3ac7e6afda9" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11005" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(5,'Warlock',context.Source);" />
       </fields>
@@ -2796,7 +2796,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="65f0fb4b-34cb-4183-b927-50c3e6366181" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hda228a0eg1468g0defg7675gfa912f042658" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h8dd81e23g9a97gc012g10f6g34aea3e1b3be" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11005" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(5,'Warlock',context.Source);" />
@@ -2809,7 +2809,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="29108894-b0cc-457a-8028-817ee0f515a0" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc0ad688dged59g744fgf3e6g1e706f4ee29c" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h5c37c62dg8f18g4212gc85fgb76c2c9723ec" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11005" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(5,'Warlock',context.Source);" />
       </fields>
@@ -2821,7 +2821,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="71a0087e-bffd-49f8-8cca-bb72f6377ee5" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdb88100cgafa2g940ag4433gb000edb33a07" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h1b7fb0eag8d29g4cf4g04fag91b2e056cf0c" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1105" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11005" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(5,'Warlock',context.Source);" />
@@ -2834,7 +2834,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="0dbfb5aa-ac37-412e-a1d2-144712bb7843" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0738ad5cg28e2g4092gfc87gc94c75bc8f5b" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h1e82dd96g79f2g67a9g365dgc089cab1b728" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1107" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11007" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(7,'Warlock',context.Source);" />
@@ -2847,7 +2847,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="0cf6a78c-9da8-49ba-8431-dbc5138d9807" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1fb30dc3ge20dgcb22g34d0gcdd0e387793b" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hd6f07d39ge321g7e13gcdabgbcbf12aaa406" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1107" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11007" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(7,'Warlock',context.Source);" />
@@ -2860,7 +2860,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="55c6c60e-d907-4cb0-9fc2-9b92d2e24cbc" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h307a5339gff1ag9485g5387gfb0813a818b3" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hde2d1489gd4e5gf6f4g63e9g804d8eb5d149" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1107" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11007" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(7,'Warlock',context.Source);" />
@@ -2874,7 +2874,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb8aec518g6d45g1454g58cbgbac23fec6617" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35551526g84e1g78f3g1277g241f3a6077bb" version="2" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hb7444fe8g6554g6a31ged37g03cc050ef8d3" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1109" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11009" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('PactOfTheBlade_Hex',context.Source) and ClassLevelHigherOrEqualThan(9,'Warlock',context.Source) and not IsMiss() and IsMeleeWeaponAttack();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d6,Necrotic,Magical);RegainHitPoints(SELF,1d6+ConstitutionModifier)" />
@@ -2887,7 +2887,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd7310e4agc213gc092gf6fag5e8c8130b34d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h87d4e985gc3a3g6b66g2385g07e2b48896df" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h79064293gdc22g33fcgf577g81a7411a9720" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1109" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11009" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_DeathWard" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
@@ -2902,7 +2902,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="11a18d88-abeb-407f-9e4a-662439fc9c90" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5ebc0953g6724g72fageab4g7f5682f9fb32" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf1a63187g9766gc5aeg0b86g693324a45025" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1109" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11009" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(9,'Warlock',context.Source);" />
@@ -2915,7 +2915,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd69af339g9d2bg91b6gba38g8dbeb8503f7b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haf78a66bg2f9bg5fb7g8c9ag5da07aa459f4" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hc579ca24g72d1g35dfg46c5g5274d47b30cc" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1112" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11012" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_PactOfTheBlade" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnStatusRemoved;OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
@@ -2931,11 +2931,57 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7ec66370-28b3-4170-a69f-178044370abb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wizard_2_RitualAdept" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h566e69efg081cg4f88g70abg51276f90b3b7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1edea2d1ga8eeg0549g7c32g5718c99dd110" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_RitualCaster_MemorizeSpells" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12002" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9b7cfe39-5ed9-49c3-a792-479c30fe68c3" />
         <field name="Name" type="NameTableFieldDefinition" value="Wizard_2_Scholar" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h24650f10g65f0gdad5g30cdg3e4777297c7c" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h32ed567egee36g91e1g2accgb992c0f4d730" version="1" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_BookOfAncientSecrets" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12002" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF0000FF" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f1311622-7914-4c81-862f-9fd5889c5159" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WIZARD__EVOKER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="702ade9c-26bb-4fa3-b1e4-6be34e4434ae" />
+        <field name="Name" type="NameTableFieldDefinition" value="PotentCantrip" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0980c03c-1ba2-4dd9-8201-5133f4707333" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e928dcfg9f9cg0dd6g966egff06f62b9e21" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12103" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="edc36ade-106c-4717-8fce-ab0ec2f6a333" />
+        <field name="Name" type="NameTableFieldDefinition" value="SculptSpells" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="aae3e2d4-68f4-47ca-80b7-8242829fba93" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h480dcb8bge39dg992bgfa3bg9f0cf957ce9c" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12106" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e1a2382b-3e30-4bba-b3f1-0b7ce0dbd3ac" />
+        <field name="Name" type="NameTableFieldDefinition" value="EmpoweredEvocation" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a0816772-32d4-4753-ad65-16abdc05f87f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4df2acb8g6e7eg6b07ga5afg05bc5f965277" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12110" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

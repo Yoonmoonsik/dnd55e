@@ -264,7 +264,7 @@
 - Level 3: Fast Hands
 - Level 3: Second-Story Work
 - Level 9: Supreme Sneak
-- Swashbuckler [ ]
+### Swashbuckler [ ]
 ## Sorcerer
 - Core Traits
   - Skill Proficiencies
@@ -291,43 +291,36 @@
 - Level 1: Pact Magic
 - Level 2: Magical Cunning
 - Level 11: Mystic Arcanum
-### Invocations [ ]
-- PactOfTheBlade
-- Necrotic [ ]
-- Psychic [ ]
-- Radiant [ ]
-- PactOfTheChain
-- PactOfTheTome
-- ArmorOfShadows
-- BeastSpeech
-- BeguilingInfluence
-- EldritchMind
-- AgonizingBlast
-- DevilsSight
-- EldritchSpear
-- MaskOfManyFaces
-- OtherworldlyLeap
-- RepellingBlast
-- ThiefOfFiveFates
-- ThirstingBlade
-- InvestmentOfTheChainMaster
-- GiftOfTheDepths
-- EldritchSmite
-- BookOfAncientSecrets
-- MireTheMind
-- OneWithShadows
-- SignOfIllOmen
-- DreadfulWord
-- SculptorOfFlesh
-- WhispersOfTheGrave
+### Invocations
+- Pact of the Blade
+- Pact of the Chain
+- Pact of the Tome
+- Armor of Shadows
+- Beast Speech
+- Beguiling Influence
+- Eldritch Mind
+- Agonizing Blast
+- Devils Sight
+- Eldritch Spear
+- Mask of ManyFaces
+- Otherworldly Leap
+- Repelling Blast
+- Thief of FiveFates
+- Thirsting Blade
+- Investment of the ChainMaster
+- Gift of the Depths
+- Eldritch Smite
+- Book of AncientSecrets
+- Mire the Mind
+- OneWith Shadows
+- Sign of IllOmen
+- Dreadful Word
+- Sculptor of Flesh
+- Whispers of the Grave
 - Lifedrinker
-- Necrotic
-- Psychic [ ]
-- Radiant [ ]
-- Hit Point Dice [ ]
-- GiftOfTheProtectors
-- MinionsOfChaos
-- DevouringBlade
+- Gift of the Protectors
+- Minions of Chaos
+- Devouring Blade
 ### Archfey [ ]
 - Level 3: Archfey Spells
 - Level 3: Steps of the Fey [ ]
@@ -354,14 +347,16 @@
   - Weapon Proficiencies
   - Armor Training
 - Level 1: Spellcasting
-- Level 1: Ritual Adept [ ]
 - Level 1: Arcane Recovery
+- Level 2: Ritual Adept
 - Level 2: Scholar
-- Level 5: Memorize Spell [ ]
 ### Abjurer [ ]
 ### Bladesinger [ ]
 ### Diviner [ ]
-### Evoker [ ]
+### Evoker
+- Level 3: Potent Cantrip
+- Level 6: Sculpt Spells
+- Level 10: Empowered Evocation
 ### Illusionist [ ]
 ## Artificer
 ## Gunslinger

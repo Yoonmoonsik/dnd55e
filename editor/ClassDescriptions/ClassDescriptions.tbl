@@ -55,7 +55,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d6db66be-cc60-4ebd-bf63-2a856bbfedaf" />
         <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="WorldTreePath" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hed4fadaag2f33gc2b5g10bcg877f54981719" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hed4fadaag2f33gc2b5g10bcg877f54981719" version="3" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h07ac58a7gdc95gd7d3g0b48g2015e769d0d0" version="1" />
         <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="d3377ec8-8734-46e6-93b7-30d65f774362" />
         <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Barbarian" />
@@ -71,7 +71,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0e37e9bc-3909-49f4-8035-6d9736ad6867" />
         <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="ZealotPath" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfa0367c5gd524g439egbb91gf1d01da462a1" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfa0367c5gd524g439egbb91gf1d01da462a1" version="3" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0e363cf3g0162gc215g7872g2aa8512bdbd6" version="1" />
         <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="c5fb3d32-6c46-4c9e-a2c9-8849f52e16e4" />
         <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Barbarian" />
@@ -95,6 +95,24 @@
         <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
         <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf0b95e32g4ebbg93cdgf26eg83a31fd8654e" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF0000FF" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c059dca1-c17d-4dce-8260-83ede5070eac" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="a865965f-501b-46e9-9eaa-7748e8c04d09" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="EvocationSchool" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haf5be1bagceecg0615g9988g0af66eb534ad" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="953e6528-acd2-48b5-95e7-9d54ad555d39" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h135ef26bgf199g1ad5g7571gfe75a8983f9c" version="2" />
+        <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="True" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CanLearnSpells" type="BoolTableFieldDefinition" value="True" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Wizard" />
       </fields>
     </stat_object>
   </stat_objects>
