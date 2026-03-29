@@ -1694,6 +1694,19 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('LAND_TROPICAL',context.Source)):UnlockSpell(Projectile_AcidSplash);IF(HasStatus('LAND_TROPICAL',context.Source)):UnlockSpell(Projectile_RayOfSickness,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_TROPICAL',context.Source)):UnlockSpell(Target_Web,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_TROPICAL',context.Source)and ClassLevelHigherOrEqualThan(5,'Druid')):UnlockSpell(Target_StinkingCloud,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_TROPICAL',context.Source)and ClassLevelHigherOrEqualThan(7,'Druid')):UnlockSpell(Target_Polymorph,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);IF(HasStatus('LAND_TROPICAL',context.Source)and ClassLevelHigherOrEqualThan(9,'Druid')):UnlockSpell(Target_InsectPlague,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90fa8cec-8eba-4c7d-820a-a90de9e2feb3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Land_10_NaturesWard" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h971b2780g3870g87c7g5557ge1126bfcc79b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h08f86230g6e53ga6e6g6abfg870e7ec18f88" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_NaturesWard" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4310" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnStatusApply;OnStatusRemove" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Disease);StatusImmunity(SG_Poisoned);StatusImmunity(SG_Charmed,ELEMENTAL,FEY);StatusImmunity(SG_Frightened,ELEMENTAL,FEY);IF(HasStatus('LAND_ARID',context.Source)):Resistance(Fire,Resistant);IF(HasStatus('LAND_COLD',context.Source)):Resistance(Cold,Resistant);IF(HasStatus('LAND_TEMPERATE',context.Source)):Resistance(Lightning,Resistant);IF(HasStatus('LAND_PROPICAL',context.Source)):Resistance(Poison,Resistant);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b84ecbb2-39b9-48d5-8b36-840a87d33d6b" />

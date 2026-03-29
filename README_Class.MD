@@ -110,9 +110,11 @@
 - Level 2: Wild Shape
 - Level 5: Wild Resurgence
 - Level 7: Elemental Fury
-### Land [ ]
+### Land
 - Level 3: Circle of the Land Spells
 - Level 3: Land's Aid
+- Level 3: Natural Recovery
+- Level 10: Nature's Ward
 ### Sea [ ]
 ### Spore [ ]
 ### Stars [ ]
