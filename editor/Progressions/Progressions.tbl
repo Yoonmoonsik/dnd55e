@@ -4208,6 +4208,18 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Assassinate_Initiative;Assassinate_Ambush;Assassin_3_AssassinsTool" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(2a9f03ae-49e7-4dee-a3a5-8e7bb395d5ac)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Poisoner,2,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_570" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2025c299-d5b3-4d32-a8c1-0ebe4b15ce64" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="43c75b78-757b-4875-9932-427bc95278a0" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Assassin" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Poisoner,1,0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4220,6 +4232,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Assassin_9_RovingAim" />
         <field name="PassivesRemoved" type="StringTableFieldDefinition" value="Rogue_3_SteadyAim" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Poisoner,1,0)" />
       </fields>
     </stat_object>
     <stat_object color="#FF483D8B" is_substat="false">

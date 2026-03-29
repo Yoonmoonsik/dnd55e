@@ -56,9 +56,11 @@
 - Tavern Brawler
 - Tough
 ### General
+- Actor
 - Athlete
 - Charger
 - Crossbow Expert
+- Crusher
 - Defensive Duelist
 - Dual Wielder
 - Dungeon Delver
@@ -71,13 +73,17 @@
 - Mage Slayer
 - Martial Adept
 - Medium Armor Master
-- Speedy
+- Mounted Combatant
+- Piercer
+- Poisoner
 - Polearm Master
 - Resilient
 - Ritual Caster
 - Sentinel
 - Sharpshooter
 - Shield Master
+- Slasher
+- Speedy
 - Spell Sniper
 - War Caster
 - Weapon Master

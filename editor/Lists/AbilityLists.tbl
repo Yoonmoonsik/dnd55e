@@ -57,5 +57,19 @@
         <field name="Abilities" type="StringTableFieldDefinition" value="Constitution" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2bf617c6-3c48-4ed4-b457-d97b5748aabb" />
+        <field name="Name" type="NameTableFieldDefinition" value="STR DEX WIS" />
+        <field name="Abilities" type="StringTableFieldDefinition" value="Strength, Dexterity, Wisdom" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="15494b6c-d694-4782-ae5c-c0bf7e0f0cf2" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEX INT" />
+        <field name="Abilities" type="StringTableFieldDefinition" value="Dexterity, Intelligence" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -54,5 +54,12 @@
         <field name="SplatterDirtAmount" type="FloatTableFieldDefinition" value="0.1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="081c4b8e-0d32-4758-b5a2-63690a6bcf0b" />
+        <field name="Name" type="NameTableFieldDefinition" value="PRONE_MOUNT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e07d50-9fb5-4bbd-9e7c-2479524c4c53" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

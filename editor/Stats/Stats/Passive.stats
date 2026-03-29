@@ -166,7 +166,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h57100728g823cg76f4g4795g878063b680ae" version="2" />
         <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleave_New" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="900" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('HasWeaponMastery_Cleave', context.Source) and AttackedWithPassiveSourceWeapon() and IsWeaponAttack();" />
@@ -386,7 +386,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haccfb564g42d5gbcf1g17e3g6bd3bb113a44" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5ec953edgae89gbe4fgbc37g46d66f973083" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Acrobatics" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="99" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -572,7 +572,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="TotalDamageDoneGreaterThan(3);" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,8));" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PRONE_MOUNT,100,1,,,,not SavingThrow(Ability.Dexterity,8));" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -2164,7 +2164,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_LandsStride_PlantSurfaces" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8010" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnLongRest;OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnProficiencyChange;OnShortRest;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Tireless,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(Tireless,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(Tireless,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(Tireless,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(Tireless,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(Tireless,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(Tireless,1,0);" />
       </fields>
     </stat_object>
@@ -2408,7 +2408,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1164cde2g07a2g7ecag87dag7b7ebcb49bf2" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_DippedPoison_Melee" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9203" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerCombat" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DisguiseSelf);UnlockSpell(Shout_PoisonersKit);" />
       </fields>
     </stat_object>
@@ -3158,6 +3158,29 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d97057de-058e-4cf8-85e3-6706c51bfd32" />
+        <field name="Name" type="NameTableFieldDefinition" value="Healer" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h662f011dg6d26gcaa0g9ddbg1bec71384d88" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb5fed628gc7a2g2040gd0adgb152d0d9aa4a" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Healing" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="100" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Healer,2,0);IF(CharacterLevelGreaterThan(4)):ActionResource(Healer,1,0);IF(CharacterLevelGreaterThan(8)):ActionResource(Healer,1,0);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnHeal" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HealDoneGreaterThan(0)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(ProficiencyBonus);ApplyStatus(PASSIVE_DISCIPLE_OF_LIFE,100,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="811d8d1a-0c8a-4bb4-934a-b94374b1f4f8" />
+        <field name="Name" type="NameTableFieldDefinition" value="HealerSpellUnlock" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_BattleMedic);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dfebbd34-7982-4a75-a9d0-60633a967dc0" />
         <field name="Name" type="NameTableFieldDefinition" value="Performer" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1c16ff18-f4a3-4666-8391-5ff3570e7a08" />
@@ -3230,6 +3253,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="add53424-dff2-4ea2-83a5-ab08d4e9ffb8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Actor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="305d1edc-2a55-4a81-9b56-c76e91d96f36" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h55628146g051fgf97agdef9g4359a2f1d8f0" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="279a60f7-e8b3-4682-afd5-d62b123dbda2" />
         <field name="Name" type="NameTableFieldDefinition" value="Athlete_StandUp" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="19c32712-ac61-4049-98b1-b66808f1860a" />
@@ -3273,7 +3304,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsRangedWeaponAttack() and not IsMiss();" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:ApplyStatus(GAPING_WOUND,100,2,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()))" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC())):ApplyStatus(GAPING_WOUND,100,1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3605,6 +3636,71 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hba5a50e4g4e44gccaag18b0ga7d653029db5" version="3" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="200" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(MartialWeapons);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0af27124-eacf-4b90-b70b-f35386f661f0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Crusher" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd28472dcg3ccag8ba5g3424g645e17f370db" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9ac2c1d5gd0dcga37bgf4d5gb17546182f77" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_MagicItem_BludgeonTheWeak" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="200" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasAttackDamageDoneForType(DamageType.Bludgeoning);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Strength, ManeuverSaveDC())):ApplyStatus(DAZED,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a64135b4-a59e-4fbe-9a87-63e46516dd12" />
+        <field name="Name" type="NameTableFieldDefinition" value="Piercer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0af27124-eacf-4b90-b70b-f35386f661f0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f24fc73ge6b5g8e1fg0b3eg4216fa3191e9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5f23ece1gd28eg37b5gb2f7g57554d7c8da9" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_MagicItem_PierceTheWeak" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasAttackDamageDoneForType(DamageType.Piercing);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC())):ApplyStatus(GAPING_WOUND,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6b6c7ff9-b6c7-4682-bf07-3270d473d922" />
+        <field name="Name" type="NameTableFieldDefinition" value="Slasher" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0af27124-eacf-4b90-b70b-f35386f661f0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h540810fdg8dc8g2211g0121gd8e6f4397c51" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfd222472gd8acg6b69g6068g2840b34f0315" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_MagicItem_SlashTheWeak" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasAttackDamageDoneForType(DamageType.Slashing);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Strength, ManeuverSaveDC())):ApplyStatus(BLEEDING,100,2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4765253b-b061-498f-8539-f4b6836170ca" />
+        <field name="Name" type="NameTableFieldDefinition" value="MountedCombatant" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2bcebb1fgce9aga6edgfb96gb1208491f0c1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3242d16eg8787g1d4cg8a1ag1ed7c22edd47" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FindSteed" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="200" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(PRONE_MOUNT);IF(HasPassive('FindSteedProne_Passive',context.Source) and TargetSizeEqualOrSmaller(Size.Small) and IsMeleeAttack()):Advantage(AttackRoll);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f027081e-c905-43b8-a6a8-7876f2bf36bf" />
+        <field name="Name" type="NameTableFieldDefinition" value="Poisoner" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6f880a83gf538g3473g56f7g616ba93a3e5b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9e96b030g4a5fgfbd9g8d73g10831d134be3" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DippedPoison_Melee" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="200" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(MainDamageTypeIs(DamageType.Poison)):MinimumRollResult(Damage,2);IgnoreResistance(Poison,Resistant);UnlockSpell(Shout_PoisonersKit_Feat);ActionResource(Poisoner,2,0);IF(CharacterLevelGreaterThan(4)):ActionResource(Poisoner,1,0);IF(CharacterLevelGreaterThan(8)):ActionResource(Poisoner,1,0);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasAttackDamageDoneForType(DamageType.Poison);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Constitution, PoisonerSaveDC())):ApplyStatus(POISONED,100,2);" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

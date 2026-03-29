@@ -80,6 +80,31 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Attribute(Grounded);StatusImmunity(SG_Prone);StatusImmunity(PRONE);StatusImmunity(PRONE_FALLEN);StatusImmunity(PRONE_GREASE);StatusImmunity(PRONE_ICE);StatusImmunity(PRONE_SEWER);StatusImmunity(PRONE_THUNDEROUS_SMITE);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ebd1dcc5-41dd-4500-9c14-d68158a98205" />
+        <field name="Name" type="NameTableFieldDefinition" value="DAZED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="98d3bc76-ade0-498a-8584-34f9bf6c3fb7" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1c8c3e3d-9d36-4f4f-b790-cb6a087f68eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="GAPING_WOUND" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e3e3c8-88e9-4406-b8f0-e0fb0a1f3fe4" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dff4f0b0-3a7a-4792-a31b-0c2743a5aaf3" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLEEDING" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b67ac2b9-1af6-4810-bb68-48f447df53fa" />
+        <field name="StackId" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e0405962-0cf5-459b-903c-6276d0d2dd34" />
@@ -461,7 +486,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FindSteed" />
         <field name="StackId" type="StringTableFieldDefinition" value="FIND_STEED" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SteedActionPoint,1,0);UnlockSpellVariant(SteedAction(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,SteedActionPoint,1,0),ModifyIconGlow());UnlockSpell(Target_Attack_Steed);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SteedActionPoint,1,0);UnlockSpellVariant(SteedAction(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,SteedActionPoint,1,0),ModifyIconGlow());UnlockSpell(Rush_Attack_Steed);" />
         <field name="Passives" type="StringTableFieldDefinition" value="FindSteedProne_Passive;" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="e14337a2-55b0-495a-8294-02f7de8d0209" />

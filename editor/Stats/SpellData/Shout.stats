@@ -1470,9 +1470,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0eb3b8a6-ca50-4f00-b031-fd59994d6e9a" />
         <field name="Name" type="NameTableFieldDefinition" value="PoisonersKit" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_PoisonersKit_Poison;Shout_PoisonersKit_Toxin;" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not ClassLevelHigherOrEqualThan(4,'Rogue') and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_SIMPLE_DIPPED,100,10);IF(not ClassLevelHigherOrEqualThan(4,'Rogue') and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_SIMPLE_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(4,'Rogue') and not ClassLevelHigherOrEqualThan(8,'Rogue') and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_DROW_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(4,'Rogue') and not ClassLevelHigherOrEqualThan(8,'Rogue') and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_DROW_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(8,'Rogue') and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_CRAWLER_MUCUS_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(8,'Rogue') and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_CRAWLER_MUCUS_DIPPED,100,10);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not ClassLevelHigherOrEqualThan(5,'Rogue') and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_SIMPLE_DIPPED,100,10);IF(not ClassLevelHigherOrEqualThan(5,'Rogue') and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_SIMPLE_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(5,'Rogue') and not ClassLevelHigherOrEqualThan(9,'Rogue') and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_DROW_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(5,'Rogue') and not ClassLevelHigherOrEqualThan(9,'Rogue') and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_DROW_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(9,'Rogue') and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_CRAWLER_MUCUS_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(9,'Rogue') and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_CRAWLER_MUCUS_DIPPED,100,10);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_DippedPoison_Melee" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h38a88f4cg35f3g31d8g00d6g8d7544ea0cd0" version="1" />
@@ -1484,7 +1483,7 @@
         <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Dipped_Poison" />
         <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="CursorMode" version="1" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;Poisoner:1;" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="2ba949b7-0329-4190-992c-11b0d29183c5,,;,,;1ddf9200-f60c-403f-b61c-ba41277c160d,624022e7-081d-414a-be52-b6927e01666c,95434012-e43d-4d77-a60d-616fbe0df3ca;,,;a0503ad0-c1b1-449c-b431-4ac6c39c58d7,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
@@ -1502,9 +1501,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e060f351-2c3b-4c05-a08d-07e67b4f4c09" />
         <field name="Name" type="NameTableFieldDefinition" value="PoisonersKit_Poison" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_PoisonersKit" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
         <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not ClassLevelHigherOrEqualThan(4,'Rogue') and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_SIMPLE_DIPPED,100,10);IF(not ClassLevelHigherOrEqualThan(4,'Rogue') and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_SIMPLE_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(4,'Rogue') and not ClassLevelHigherOrEqualThan(8,'Rogue') and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_DROW_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(4,'Rogue') and not ClassLevelHigherOrEqualThan(8,'Rogue') and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_DROW_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(8,'Rogue') and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_CRAWLER_MUCUS_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(8,'Rogue') and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_CRAWLER_MUCUS_DIPPED,100,10);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not ClassLevelHigherOrEqualThan(5,'Rogue') and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_SIMPLE_DIPPED,100,10);IF(not ClassLevelHigherOrEqualThan(5,'Rogue') and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_SIMPLE_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(5,'Rogue') and not ClassLevelHigherOrEqualThan(9,'Rogue') and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_DROW_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(5,'Rogue') and not ClassLevelHigherOrEqualThan(9,'Rogue') and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_DROW_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(9,'Rogue') and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_CRAWLER_MUCUS_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(9,'Rogue') and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_CRAWLER_MUCUS_DIPPED,100,10);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Item_CONS_Poison_Drow" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbd7ad3e9g7a42gc5e6gc2fdga2aedc0b75ce" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8c7b0986g2c44g4065gc905g112f0d2b3ba7" version="1" />
@@ -1515,7 +1513,7 @@
         <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Dipped_Poison" />
         <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="CursorMode" version="1" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;Poisoner:1;" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="2ba949b7-0329-4190-992c-11b0d29183c5,,;,,;1ddf9200-f60c-403f-b61c-ba41277c160d,624022e7-081d-414a-be52-b6927e01666c,95434012-e43d-4d77-a60d-616fbe0df3ca;,,;a0503ad0-c1b1-449c-b431-4ac6c39c58d7,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
@@ -1526,6 +1524,7 @@
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="3c2a573f-fbe5-4f5f-952b-222f67cee16e" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="90695daf-5c41-4d72-bd14-58c531e4f860" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="WeaponSet" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1533,8 +1532,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="02429e94-a412-4139-9b0e-1f01e8df296f" />
         <field name="Name" type="NameTableFieldDefinition" value="PoisonersKit_Toxin" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e060f351-2c3b-4c05-a08d-07e67b4f4c09" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not ClassLevelHigherOrEqualThan(4,'Rogue') and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,TOXIN_SERPENTVENOM_DIPPED,100,10);IF(not ClassLevelHigherOrEqualThan(4,'Rogue') and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,TOXIN_SERPENTVENOM_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(4,'Rogue') and not ClassLevelHigherOrEqualThan(8,'Rogue') and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,TOXIN_WYVERN_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(4,'Rogue') and not ClassLevelHigherOrEqualThan(8,'Rogue') and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,TOXIN_WYVERN_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(8,'Rogue') and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,TOXIN_PURPLEWORM_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(8,'Rogue') and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,TOXIN_PURPLEWORM_DIPPED,100,10);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not ClassLevelHigherOrEqualThan(5,'Rogue') and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_SIMPLE_DIPPED,100,10);IF(not ClassLevelHigherOrEqualThan(5,'Rogue') and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_SIMPLE_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(5,'Rogue') and not ClassLevelHigherOrEqualThan(9,'Rogue') and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_DROW_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(5,'Rogue') and not ClassLevelHigherOrEqualThan(9,'Rogue') and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_DROW_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(9,'Rogue') and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_CRAWLER_MUCUS_DIPPED,100,10);IF(ClassLevelHigherOrEqualThan(9,'Rogue') and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_CRAWLER_MUCUS_DIPPED,100,10);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Item_GRN_Poison_vial_D_Sheathe" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5a82f53dg51e2g741cg6a2dg0b0bcdccd4fd" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h39c54639gfc00g9983g819dg040b092116ce" version="1" />
@@ -1951,6 +1949,79 @@
         <field name="Name" type="NameTableFieldDefinition" value="FeatherFall_Ritual" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6693c822-f1c9-463a-9d9a-1c4d562b1e00" />
         <field name="RitualCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="874d9d9a-a6f5-40d8-9125-eb58d3b54c92" />
+        <field name="Name" type="NameTableFieldDefinition" value="PoisonersKit_Feat" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_PoisonersKit_Poison_Feat;Shout_PoisonersKit_Toxin_Feat;" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not CharacterLevelGreaterThan(4) and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_SIMPLE_DIPPED,100,10);IF(not CharacterLevelGreaterThan(4) and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_SIMPLE_DIPPED,100,10);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_DROW_DIPPED,100,10);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_DROW_DIPPED,100,10);IF(CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_CRAWLER_MUCUS_DIPPED,100,10);IF(CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_CRAWLER_MUCUS_DIPPED,100,10);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DippedPoison_Melee" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd96c9a15gcab7gfe30g113bg3a931597f197" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc75d67a3g0d25g5303gc7a2ga9450b0024d2" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h0c2f65eegc089g9bd2g0b8cg8544a81b14cb" version="1" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Start" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Dipped_Poison" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Dipped_Poison" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;Poisoner:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="2ba949b7-0329-4190-992c-11b0d29183c5,,;,,;1ddf9200-f60c-403f-b61c-ba41277c160d,624022e7-081d-414a-be52-b6927e01666c,95434012-e43d-4d77-a60d-616fbe0df3ca;,,;a0503ad0-c1b1-449c-b431-4ac6c39c58d7,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="WeaponType" type="EnumerationListTableFieldDefinition" value="Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Stealth;Invisible;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellActionType" type="EnumerationTableFieldDefinition" value="Dip" enumeration_type_name="SpellActionType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="3c2a573f-fbe5-4f5f-952b-222f67cee16e" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="90695daf-5c41-4d72-bd14-58c531e4f860" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="WeaponSet" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a87d7b37-b51e-43ca-8217-9b5d64cbad85" />
+        <field name="Name" type="NameTableFieldDefinition" value="PoisonersKit_Poison_Feat" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_PoisonersKit_Feat" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not CharacterLevelGreaterThan(4) and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_SIMPLE_DIPPED,100,10);IF(not CharacterLevelGreaterThan(4) and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_SIMPLE_DIPPED,100,10);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_DROW_DIPPED,100,10);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_DROW_DIPPED,100,10);IF(CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_CRAWLER_MUCUS_DIPPED,100,10);IF(CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_CRAWLER_MUCUS_DIPPED,100,10);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Item_CONS_Poison_Drow" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6b917f97g0e9egc17ag8e8cg647d97a99967" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h71e44abbge57bg7ad1g947ag37e74b144b9f" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h33116f45g7e7bgc7ceg8c72g03da6816dff4" version="1" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Start" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Dipped_Poison" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Dipped_Poison" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;Poisoner:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="2ba949b7-0329-4190-992c-11b0d29183c5,,;,,;1ddf9200-f60c-403f-b61c-ba41277c160d,624022e7-081d-414a-be52-b6927e01666c,95434012-e43d-4d77-a60d-616fbe0df3ca;,,;a0503ad0-c1b1-449c-b431-4ac6c39c58d7,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="WeaponType" type="EnumerationListTableFieldDefinition" value="Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Stealth;Invisible" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellActionType" type="EnumerationTableFieldDefinition" value="Dip" enumeration_type_name="SpellActionType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="3c2a573f-fbe5-4f5f-952b-222f67cee16e" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="90695daf-5c41-4d72-bd14-58c531e4f860" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="WeaponSet" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3108d080-5c64-4d9d-826a-5a4ecaee0850" />
+        <field name="Name" type="NameTableFieldDefinition" value="PoisonersKit_Toxin_Feat" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a87d7b37-b51e-43ca-8217-9b5d64cbad85" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not CharacterLevelGreaterThan(4) and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_SIMPLE_DIPPED,100,10);IF(not CharacterLevelGreaterThan(4) and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_SIMPLE_DIPPED,100,10);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_DROW_DIPPED,100,10);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_DROW_DIPPED,100,10);IF(CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,POISON_CRAWLER_MUCUS_DIPPED,100,10);IF(CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,POISON_CRAWLER_MUCUS_DIPPED,100,10);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Item_GRN_Poison_vial_D_Sheathe" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1c64e7ffg27dfg1336g4d10g922cd9e93f4f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbe9f2752g8f47geea4gedcfg417ece6cb1bd" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

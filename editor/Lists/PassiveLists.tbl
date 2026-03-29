@@ -207,6 +207,13 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="054df8f8-2d1a-487f-8a62-20bee102b16b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Feat Healer" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Healer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="95d5a8a2-a010-4af7-a618-f1efe3a13f55" />
         <field name="Name" type="NameTableFieldDefinition" value="Feat Lucky" />
         <field name="Passives" type="StringTableFieldDefinition" value="Lucky_Unlock" />

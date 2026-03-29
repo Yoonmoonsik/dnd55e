@@ -17,7 +17,34 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;AddFallDamageOnLand;CanAreaDamageEvade;Temporary" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFA500" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b821c56a-187e-4550-ba53-363f9b4eec6a" />
+        <field name="Name" type="NameTableFieldDefinition" value="__PALADIN__" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db3c4202-43a6-4b39-b31d-4ff171066e90" />
+        <field name="Name" type="NameTableFieldDefinition" value="Attack_Steed" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6dcd5f62-fadc-4dbc-bdff-025e4f38cb61" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="3" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeSpellAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d8+SpellCastingAbilityModifier, Bludgeoning);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hadc251cegfa83ge72dgb40fg8799ee8d6cfe" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6abe2717g78bdgfbc5g2d30g1cc22e96ca24" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d8+SpellCastingAbilityModifier, Bludgeoning);" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeSpellAttack" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SteedActionPoint:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="StopAtFirstContact" type="BoolTableFieldDefinition" value="True" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ab68bea8-c977-4e3a-899d-4128b9396ae9" />
         <field name="Name" type="NameTableFieldDefinition" value="__GENERAL FEAT__" />

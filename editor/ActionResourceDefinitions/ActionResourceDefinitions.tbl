@@ -20,7 +20,7 @@
         <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Turn" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_25" />
         <field name="UUID" type="IdTableFieldDefinition" value="dec23621-7b1f-446c-96ce-36c8cae3210f" />
@@ -238,6 +238,33 @@
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="InnateSorcery" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h59e594d8g8dd2ga3b4gd22fgc151ebfb31cd" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5c2324bag11d4g3d36g7a4eg5a90c1b041a2" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_27" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d6f88eae-2cc1-405f-b544-abd2d9ce747b" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="__ORIGIN FEAT__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_28" />
+        <field name="UUID" type="IdTableFieldDefinition" value="288d0cf4-4b1d-433a-a4cb-166f8d56eac2" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Healer" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7ca7faf7g389dge7bag91abg08e0440c9ca6" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_29" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c7175970-634d-4d7e-81d0-0ce5f93adca8" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Poisoner" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7617ab21g9a01g5fbcg9493ga7c3ac3dc194" version="1" />
         <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
         <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
       </fields>

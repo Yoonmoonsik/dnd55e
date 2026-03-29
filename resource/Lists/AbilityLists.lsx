@@ -44,6 +44,16 @@
                     <attribute id="Name" type="FixedString" value="CON"/>
                     <attribute id="UUID" type="guid" value="a0129b5e-ae05-4b07-905e-ec1c244728ae"/>
                 </node>
+                <node id="AbilityList">
+                    <attribute id="Abilities" type="LSString" value="Strength, Dexterity, Wisdom"/>
+                    <attribute id="Name" type="FixedString" value="STR DEX WIS"/>
+                    <attribute id="UUID" type="guid" value="2bf617c6-3c48-4ed4-b457-d97b5748aabb"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Abilities" type="LSString" value="Dexterity, Intelligence"/>
+                    <attribute id="Name" type="FixedString" value="DEX INT"/>
+                    <attribute id="UUID" type="guid" value="15494b6c-d694-4782-ae5c-c0bf7e0f0cf2"/>
+                </node>
             </children>
         </node>
     </region>

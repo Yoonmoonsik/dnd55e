@@ -34,3 +34,7 @@ function GreatWeaponMaster(entity)
 
     return IsProficientWith(entity, weapon) & ((isTwoHanded) | (isVersatile & ~isOffhandMelee & ~isOffhandAmmunition & ~hasShield))
 end
+
+function PoisonerSaveDC()
+    return 8 + context.Source.ProficiencyBonus + math.max(GetModifier(context.Source.Dexterity), GetModifier(context.Source.Intelligence))
+end
