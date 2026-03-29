@@ -1939,5 +1939,19 @@
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasProficiencyBonus(context.CheckedAbility,Skill.Survival,context.Source)" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6b2042b-4167-4cd8-908b-1d2a9b1678e8" />
+        <field name="Name" type="NameTableFieldDefinition" value="__GENERAL FEAT__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f716580a-c586-4825-9760-34a029cb8474" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeatherFall_Ritual" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6693c822-f1c9-463a-9d9a-1c4d562b1e00" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

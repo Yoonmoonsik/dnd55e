@@ -1648,5 +1648,18 @@
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="80c6b070-c3a6-4864-84ca-e78626784eb4" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7cfc2be6-2cf7-403b-b5a8-864753d40604" />
+        <field name="Name" type="NameTableFieldDefinition" value="__GENERAL FEAT__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8c32c900-a8ea-4f2f-9f6f-eccd0d361a9d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Ritual Caster Feat" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_SpeakWithDead;Shout_FeatherFall_Ritual;Target_FindFamiliar;Target_Longstrider_Ritual;Target_Jump_Ritual;Shout_DisguiseSelf;Shout_SpeakWithAnimals" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

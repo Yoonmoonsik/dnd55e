@@ -3320,6 +3320,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8867448c-8ec7-499b-b3b3-4990b2134e24" />
+        <field name="Name" type="NameTableFieldDefinition" value="RitualCaster_FreeSpells" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8a2ec75a-05b7-4da8-8e9d-6295e5371d84" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8155116dgb434g017cg6396g666179cd6bbd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h81682b22g3da3g86c5g11f5gbebe41d25951" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="29236085-e0df-4aa9-a657-ab53e5e0bd65" />
         <field name="Name" type="NameTableFieldDefinition" value="Sentinel_Attack" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6c5b5874-9b7e-4974-a9fc-9da6a1c3faf1" />
@@ -3418,7 +3427,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(MartialWeapons);" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3d439271-bb9f-4910-9651-8c198e30c3a9" />
         <field name="Name" type="NameTableFieldDefinition" value="__MAGIC ITEM__" />

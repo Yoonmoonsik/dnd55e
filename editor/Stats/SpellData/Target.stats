@@ -5523,6 +5523,12 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bb71e2ea-8e87-4fab-90a3-ca041d24f783" />
+        <field name="Name" type="NameTableFieldDefinition" value="__GENERAL FEAT__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d36e42ed-4618-4ffa-a962-f4d91f567927" />
         <field name="Name" type="NameTableFieldDefinition" value="DualWielder_OffhandAttack" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="34c87ba1-754a-4700-9178-d939ad7003c6" />
@@ -5602,6 +5608,22 @@
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="e4c72416-8872-4278-9bd2-ce1529ca88d7" />
         <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="Small" enumeration_type_name="SpellSoundMagnitude" version="1" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c9495fc8-832b-4b72-9074-73dc01470023" />
+        <field name="Name" type="NameTableFieldDefinition" value="Longstrider_Ritual" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0e372d58-ec10-49ca-b8f6-a2198d7054a4" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="51a9a2dd-2391-4b8b-b844-a3531a91417f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Jump_Ritual" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8a9f43f8-85cc-4ffc-836e-750508a925ab" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
   </stat_objects>
