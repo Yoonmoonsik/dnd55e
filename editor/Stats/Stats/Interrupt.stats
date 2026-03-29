@@ -117,6 +117,51 @@
         <field name="Cost" type="StringTableFieldDefinition" value="HeroicWarrior:1;" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA0522D" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="726dc1d4-c902-4a81-b389-03389ba8fbfe" />
+        <field name="Name" type="NameTableFieldDefinition" value="__PSI WARRIOR__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="14807b1f-0447-4b28-a152-2cd23a05e881" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ProtectiveField" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="49dcc7fc-e9ca-476e-9074-222bf422ed03" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8bf4bd01g12ddg80fag3922gb5bd2d3c378f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h11246ce1g1053g5998g5c40ga6494d732ee0" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PsiWarrior_3_ProtectiveField" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Ally(context.Target, context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not DistanceToEntityGreaterThan(9, context.ObserverPosition, context.Target) and not HasStatus('SG_Blinded') and not HasStatus('SG_Prone') and not HasStatus('SG_Incapacitated') and not HasStatus('SG_Restrained');" />
+        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(OBSERVER_TARGET,-(LevelMapValue(PsiWarrior)+IntelligenceModifier));ApplyStatus(OBSERVER_TARGET,INTERRUPT_FIGHTINGSTYLE_PROTECTION,100,0);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;PsiWarrior:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e577a153-b255-4c27-a435-d4f6e069a1a8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_PsionicStrike" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Force" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e9a71b36-bfed-431c-bf1a-52bbab849309" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e07ba43g48ccgb3bag0de0g3c6c93d8eabb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h26010d04g5728g38d0g7666g1a3a63e82e9a" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Source,context.Observer) and not Self() and IsWeaponAttack() and not IsCritical() and not IsKillingBlow() and IsHit() and not IsDivineStrike() and Character() and not AnyEntityIsItem();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(PsiWarrior)+IntelligenceModifier,Force,Magical);IF(HasPassive('PsiWarrior_7_TelekineticThrust_Prone',context.Source)):ApplyStatus(OBSERVER_TARGET,PRONE,100,1,,,,not SavingThrow(Ability.Strength,IntAttackSaveDC()));IF(HasPassive('PsiWarrior_7_TelekineticThrust_Push',context.Source)):ApplyStatus(OBSERVER_TARGET,PUSH_3M,100,1,,,,not SavingThrow(Ability.Strength,IntAttackSaveDC()));" />
+        <field name="Cost" type="StringTableFieldDefinition" value="PsionicStrikeTurn:1;PsiWarrior:1;" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(PsiWarrior)+IntelligenceModifier,Force,Magical);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="13d5b031-51e7-4657-9d1b-5b13830607bd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_PsionicStrike_Critical" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e577a153-b255-4c27-a435-d4f6e069a1a8" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h87667666gffa0g8813gb1a6gcf359a467b69" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Source,context.Observer) and not Self() and IsWeaponAttack() and IsCritical() and not IsKillingBlow() and IsHit() and not IsDivineStrike() and Character() and not AnyEntityIsItem();" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF008B8B" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="17659215-06c7-4af0-9a12-0bf061a24b79" />

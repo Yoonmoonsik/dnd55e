@@ -1755,6 +1755,19 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="617bfe92-7a1e-4ac4-9d46-ec9771f9dd4a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fighter_1_SecondWind" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb9f5892dg60a5g8c87g7282g224efd74a6fb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he3bdd368gcf28g40aag8743gc422e859a060" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Fighter_SecondWind" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5001" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(SecondWind,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b4d4d9a0-00c5-43b7-a99f-b27ec7b9a435" />
         <field name="Name" type="NameTableFieldDefinition" value="Fighter_2_TacticalMind" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h539b326cga713g3705gbe13g1aa9f8c71bde" version="1" />
@@ -1903,6 +1916,73 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h66ceeddfg85e7gf6e6g45fdgf681167aa694" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5310" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFA0522D" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5dc89dcf-9f1d-4042-a537-16f9b514a59d" />
+        <field name="Name" type="NameTableFieldDefinition" value="__PSI WARRIOR 5400__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="58e0f7f5-6d83-4c3e-978f-aab22a7e5fe1" />
+        <field name="Name" type="NameTableFieldDefinition" value="PsiWarrior_3_PsionicPower" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hba0867adg6296gbd1cg160cg13de0e01f398" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha4121401g58f8gaedagc70dg1c134e1ef50a" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PsiWarrior_3_PsionicPower" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_ProtectiveField);UnlockInterrupt(Interrupt_PsionicStrike);UnlockInterrupt(Interrupt_PsionicStrike_Critical);UnlockSpell(Teleportation_TelekineticMovement);UnlockSpell(Teleportation_TelekineticMovement_ShortRest);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(PsiWarrior,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28a6cc64-64e4-4f73-be2b-98250e5de50f" />
+        <field name="Name" type="NameTableFieldDefinition" value="PsiWarrior_7_PsiPoweredLeap" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb9f6e95bg1ecbg4d70g2b47g004a19f989d8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h53a46d69g6181g8c48g7c48g569803d1df00" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PsiWarrior_7_PsiPoweredLeap" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5407" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_PsiPoweredLeap);UnlockSpell(Projectile_PsiPoweredLeap_ShortRest);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a68b3237-83ff-4540-920d-28f2a8410ebd" />
+        <field name="Name" type="NameTableFieldDefinition" value="PsiWarrior_7_TelekineticThrust_Prone" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h890ef36dga451ge5acgb49dg6c441e309f11" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9fa30afdgf4e2g7e74ga57fgdbedd4b1e363" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_TripAttack_Melee" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5407" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="PsiWarrior_7_TelekineticThrust_Prone" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fec51037-8cab-40a1-8798-e6ded72a8f6a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PsiWarrior_7_TelekineticThrust_Push" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a68b3237-83ff-4540-920d-28f2a8410ebd" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heae343e1g10f2g46fcgb78cgffc541e0c708" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_PushingAttack_Melee" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5407" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9bfd005a-ddd6-4a2f-b351-15281a525659" />
+        <field name="Name" type="NameTableFieldDefinition" value="PsiWarrior_10_GuardedMind" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd22b82f8g71dfg62f2g255eg6bc04daa6824" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha5b2a394g2eb1g625dg2bdfgb9595a404a80" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ThoughtShield_PsychicReflection" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5410" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Psychic, Resistant);StatusImmunity(SG_Charmed);StatusImmunity(SG_Frightened);" />
       </fields>
     </stat_object>
     <stat_object color="#FF008B8B" is_substat="false">

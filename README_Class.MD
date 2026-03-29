@@ -47,7 +47,7 @@
 - Level 3: Dazzling Footwork
 - Level 6: Inspiring Movement
 - Level 6: Tandem Footwork
-### Swords [ ]
+### Swords
 ### Glamour
 - Level 3: Beguiling Magic
 - Level 3: Mantle of Inspiration
@@ -71,9 +71,9 @@
 - Level 2: Channel Divinity
 - Level 5: Sear Undead
 - Level 7: Blessed Strikes
-### Death [ ]
-### Nature [ ]
-### Tempest [ ]
+### Death
+### Nature
+### Tempest
 ### Knowledge
 - Level 3: Blessings of Knowledge
 - Level 3: Knowledge Domain Spells
@@ -143,7 +143,10 @@
 - Level 11: Two Extra Attacks
 ### Arcane Archer
 ### Battle Master
-### Psi Warrior [ ]
+### Psi Warrior
+- Level 3: Psionic Power
+- Level 7: Telekinetic Adept
+- Level 10: Guarded Mind
 ### Champion
 - Level 3: Improved Critical
 - Level 3: Remarkable Athlete
@@ -203,7 +206,7 @@
 - Level 9: Abjure Foes
 - Level 10: Aura of Courage
 - Level 11: Radiant Strikes
-### Crown [ ]
+### Crown
 ### Glory [ ]
 ### Oathbreaker
 ### Ancients

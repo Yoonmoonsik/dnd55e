@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="c777d263-6c6a-4347-9652-667e59945528">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0d8c201a-b89a-4e46-b6b1-bd4cd29663d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="TelekineticMovement" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f48dfb67-37f1-45aa-9148-74b7c25e28fc" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="9" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OriginTargetConditions" type="StringTableFieldDefinition" value="not Self() Ally() and not Grounded() and (Tagged('WEIGHT_MEDIUM') or Tagged('WEIGHT_SMALL') or Tagged('WEIGHT_TINY'));" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PsiWarrior_3_TelekineticMovement" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h112e5aabgae68g5b63g8e95g3c2e5fd8ebb8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h789e4f7cgbbfdgd136g7526g0cb392afcf9d" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;PsiWarrior:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fc7cf6a9-4a36-4bce-b523-fc3844836f35" />
+        <field name="Name" type="NameTableFieldDefinition" value="TelekineticMovement_ShortRest" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0d8c201a-b89a-4e46-b6b1-bd4cd29663d4" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

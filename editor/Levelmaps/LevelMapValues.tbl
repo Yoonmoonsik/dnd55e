@@ -172,5 +172,15 @@
         <field name="Level10" type="StringTableFieldDefinition" value="4d6" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="PsiWarrior" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9c626287-4b69-49a8-ac79-bcc0befdd255" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="721dfac3-92d4-41f5-b773-b7072a86232f" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level5" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level11" type="StringTableFieldDefinition" value="1d10" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
