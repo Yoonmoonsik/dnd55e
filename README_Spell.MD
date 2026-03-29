@@ -11,6 +11,7 @@
 - Sorcerous Burst
 - Spare the Dying
 - Starry Wisp
+- Sword Burst
 - Thunderclap
 - True Strike
 - Vicious Mockery

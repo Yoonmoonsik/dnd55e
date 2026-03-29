@@ -188,6 +188,35 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4da3d550-119c-40af-93ed-00eacddc4b82" />
+        <field name="Name" type="NameTableFieldDefinition" value="SwordBurst" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, SourceSpellDC());" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Force)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_SwordBurst" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h959cb550g10b0g1785ga0e3gd4203b55f7b8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h650ea344gc449g2751g4692g5f60cf3d64d3" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Force)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Force)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Physical_CloudOfDaggers_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_Physical_CloudOfDaggers_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="e4abb54b-8d1a-4940-a6e0-71cd6a895831" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a3a7ca5-2072-43fe-b07e-cd52e1bbf3e6" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="b51922cf-e412-4462-8274-144781bac7f3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="375c6ac3-bac5-46ee-bdd4-ee5b2e09e391" />
         <field name="Name" type="NameTableFieldDefinition" value="FindSteed" />
         <field name="Level" type="IntegerTableFieldDefinition" value="2" />
@@ -1652,7 +1681,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5fa7a877-3096-40a2-9d25-3f37c0fa4db6" />
         <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_Cantrip" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1d3388f0-3d3d-4bdf-8bf5-fd9a6b22e86b" />
-        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Target_ChillTouch;Target_DancingLights;Projectile_FireBolt;Target_Friends;Target_Light;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Projectile_RayOfFrost;Target_ShockingGrasp;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike;" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Target_ChillTouch;Target_DancingLights;Projectile_FireBolt;Target_Friends;Target_GreenFlameBlade;Target_Light;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Projectile_RayOfFrost;Target_ShockingGrasp;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike;" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf7beb3cg8662gd7d0ga3aag9f047d9b8897" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd31cacc2g7f81g20c3gc487gec7d06e97e53" version="2" />
       </fields>
