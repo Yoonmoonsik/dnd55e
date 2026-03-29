@@ -116,6 +116,7 @@
 - Level 3: Natural Recovery
 - Level 10: Nature's Ward
 ### Sea [ ]
+- Level 3: Circle of the Sea Spells
 ### Spore [ ]
 ### Stars [ ]
 ### Moon

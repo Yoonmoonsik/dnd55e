@@ -97,6 +97,23 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf0b95e32g4ebbg93cdgf26eg83a31fd8654e" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4d73bb8e-5405-4586-9947-0cda0e2f424b" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="457d0a6e-9da8-4f95-a225-18382f0e94b5" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="CircleOfTheSea" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h993714a3gef7eg3fa3g8208g34aa994bdb90" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h620c69f6g5443g20cdg6ba6g742691ee6c08" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="f95cd60e-234f-4724-a5c2-bc2ac8e543f5" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Druid" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Wisdom" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Wisdom" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="True" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />

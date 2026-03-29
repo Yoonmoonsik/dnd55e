@@ -744,6 +744,40 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Shout_NaturalRecovery;Shout_CircleOfTheLandSpells;Target_LandsAid" />
       </fields>
     </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aa5df717-887e-4b05-b08c-8c1690b23694" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CIRCLE OF THE SEA__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2799765b-6707-4835-9f4c-ce5a99c2bccc" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Sea Druid SLevel 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_RayOfFrost;Target_FogCloud;Zone_Thunderwave;Zone_GustOfWind;Target_Shatter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b1f00545-c6bd-4697-90cc-865220a44769" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Sea Druid SLevel 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Zone_LightningBolt" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="66953664-1519-40c1-bc65-3021f274409b" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Sea Druid SLevel 7" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_IceStorm" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f5685e94-1abd-4b31-b95c-eddcad33461e" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Sea Druid SLevel 9" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_HoldMonster" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF008B8B" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="16bc2dbf-2cf1-4141-86ff-bbb2e01e3579" />
