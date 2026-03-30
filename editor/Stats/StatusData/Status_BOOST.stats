@@ -1061,7 +1061,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e9f3206f-32c2-4ccb-83fd-3b716fd09f99" />
         <field name="Name" type="NameTableFieldDefinition" value="RAGE_TOTEM_WOLF_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7d168460-cd91-4cf2-84a0-2a0f546770e0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PackHowl_Barbarian);Tag(VFX_RAGE);BlockSpellCast();UnlockSpell(Shout_EndRage);UnlockSpell(Shout_ExtendRage);Attribute(ForceMainhandAlternativeEquipBones);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,4.5,0);" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasStatus('RAGE_STOP_REMOVE')" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
       </fields>
@@ -1080,7 +1080,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="INSTINCTIVE_POUNCE" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h28d4b453gc36cg810egf9e2g1dbff5d018d8" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdb025275gf26dg03dfg7370g4dddf3f0ffb9" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceMultiplier(Movement,150,0);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,4.5,0);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_Rage" />
         <field name="StackId" type="StringTableFieldDefinition" value="INSTINCTIVE_POUNCE" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
@@ -1097,7 +1097,7 @@
         <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="DODGE" enumeration_type_name="SoundVocalType" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="RECKLESSATTACK_FORCEFULBLOW" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreLeaveAttackRange();ActionResourceMultiplier(Movement,150,0);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreLeaveAttackRange();ActionResource(Movement,4.5,0);" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="d787f666-8ee6-4185-9365-6aac9ebe76ae" />
       </fields>
@@ -1329,7 +1329,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h40405809g5c4fgdea3g37aag18b85b437b5f" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Dance_6_InspiringMovement" />
         <field name="StackId" type="StringTableFieldDefinition" value="INSPIRING_MOVEMENT" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceMultiplier(Movement,150,0);UnlockSpell(Target_InspiringMovement);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,4.5,0);UnlockSpell(Target_InspiringMovement);" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DISENGAGE,100,1)" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="d787f666-8ee6-4185-9365-6aac9ebe76ae" />
@@ -1341,7 +1341,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="INSPIRING_MOVEMENT_ALLY" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="de0189cb-8276-4441-9ada-11b031763730" />
         <field name="StackId" type="StringTableFieldDefinition" value="INSPIRING_MOVEMENT_ALLY" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceMultiplier(Movement,150,0);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,4.5,0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1527,7 +1527,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Fighter_EvasiveFootwork" />
         <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="DODGE" enumeration_type_name="SoundVocalType" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="TACTICAL_SHIFT" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceMultiplier(Movement,150,0);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,4.5,0);" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DISENGAGE,100,1)" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="d787f666-8ee6-4185-9365-6aac9ebe76ae" />
@@ -1726,7 +1726,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c2d185ee-05d0-4cb4-b376-d880cde5942c" />
         <field name="Name" type="NameTableFieldDefinition" value="RELENTLESS_AVENGER" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0e95830b-d385-49b7-98b0-bfae94cfc30e" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceMultiplier(Movement,150,0);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,4.5,0);" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="d787f666-8ee6-4185-9365-6aac9ebe76ae" />
       </fields>
