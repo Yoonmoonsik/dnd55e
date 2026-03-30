@@ -368,7 +368,7 @@
 - Level 6: Clairvoyant Combatant [ ]
 - Level 10: Eldritch Hex [ ]
 - Level 10: Thought Shield [ ]
-### Hexblade [ ]
+### Hexblade
 - Level 3: Hexblade Spells
 ## Wizard [ ]
 - Core Traits

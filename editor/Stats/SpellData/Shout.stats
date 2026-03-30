@@ -1679,7 +1679,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a7e7db4a-eed4-4599-8760-9c6e1a13d723" />
         <field name="Name" type="NameTableFieldDefinition" value="PsychicBlades" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(IsWeaponOfProficiencyGroup('Daggers|Shortswords|Scimitars', GetActiveWeapon())):ApplyEquipmentStatus(MainHand,PSYCHIC_BLADE,100, -1);IF(IsWeaponOfProficiencyGroup('Daggers|Shortswords|Scimitars', GetActiveWeapon(context.Target, false))):):ApplyEquipmentStatus(OffHand,PSYCHIC_BLADE_OFFHAND,100, -1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(IsWeaponOfProficiencyGroup('Daggers|Shortswords|Scimitars', GetActiveWeapon())):ApplyEquipmentStatus(MainHand,PSYCHIC_BLADE,100, -1);IF(IsWeaponOfProficiencyGroup('Daggers|Shortswords|Scimitars', GetActiveWeapon(context.Target, false))):ApplyEquipmentStatus(OffHand,PSYCHIC_BLADE_OFFHAND,100, -1);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Soulknife_3_PsychicBlades" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h535f8fd1g0766g1526ge835g936f753a3b27" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35a0000fg8dc5g3af7ge6b5g3ad5700dd6e6" version="2" />
@@ -1689,7 +1689,7 @@
         <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Item_ShadowBlade" />
         <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_EnchantWeapon" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
-        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="BonusActionPoint:1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;35b644cf-5c13-4407-9dc1-23bf4309216e,,;823e3ddf-c670-41ef-b7b4-9f4a4e38300b,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
@@ -1707,7 +1707,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="836bf8a4-30b3-4183-aa05-58f95408eec2" />
         <field name="Name" type="NameTableFieldDefinition" value="PsychicBlades_Dissmiss" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a7e7db4a-eed4-4599-8760-9c6e1a13d723" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(IsWeaponOfProficiencyGroup('Daggers|Shortswords|Scimitars', GetActiveWeapon())):ApplyEquipmentStatus(MainHand,PSYCHIC_BLADE,100, 0);IF(IsWeaponOfProficiencyGroup('Daggers|Shortswords|Scimitars', GetActiveWeapon(context.Target, false))):):ApplyEquipmentStatus(OffHand,PSYCHIC_BLADE_OFFHAND,100, 0);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(IsWeaponOfProficiencyGroup('Daggers|Shortswords|Scimitars', GetActiveWeapon())):ApplyEquipmentStatus(MainHand,PSYCHIC_BLADE,100, 0);IF(IsWeaponOfProficiencyGroup('Daggers|Shortswords|Scimitars', GetActiveWeapon(context.Target, false))):ApplyEquipmentStatus(OffHand,PSYCHIC_BLADE_OFFHAND,100, 0);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Soulknife_3_PsychicBlades_Dismiss" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h43839460gafc1g5826gd796g265c77684acc" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />

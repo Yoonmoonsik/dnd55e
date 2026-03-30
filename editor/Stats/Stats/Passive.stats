@@ -2691,7 +2691,7 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9003" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="BoostConditions" type="StringTableFieldDefinition" value="WieldingFinesseWeaponInSpecificHand(context.Source,true) or WieldingFinesseWeaponInSpecificHand(context.Source,false);" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="IsWeaponOfProficiencyGroup('Daggers|Shortswords|Scimitars', GetActiveWeapon());" />
         <field name="Boosts" type="StringTableFieldDefinition" value="MonkWeaponAttackOverride();" />
       </fields>
     </stat_object>

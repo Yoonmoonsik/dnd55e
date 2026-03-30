@@ -3,25 +3,9 @@
   <stat_objects>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="75f02344-5f9b-49af-a1dc-d2840baeef01" />
-        <field name="Name" type="NameTableFieldDefinition" value="Throw" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="5cce39b4-8be9-46d3-86b3-ed1fa836d336" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:IF(IsLightThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(1d4,Bludgeoning);TARGET:IF(IsMediumThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(2d4,Bludgeoning);TARGET:IF(IsHeavyThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(3d4,Bludgeoning);TARGET:IF(HasWeaponProperty(WeaponProperties.Thrown,context.HitDescription.ThrownObject)):DealDamage(ThrownWeapon, ThrownWeaponDamageType);TARGET:IF(HasWeightGreaterThan(context.Target.Weight/2, context.HitDescription.ThrownObject)):Force(2);TARGET:IF(HasWeightGreaterThan(context.Target.Weight, context.HitDescription.ThrownObject)):ApplyStatus(PRONE,100,1);TARGET:IF(Tagged('BOO',context.HitDescription.ThrownObject)):ApplyStatus(BLINDED,100,1,,,,not SavingThrow(Ability.Dexterity, 15));TARGET:IF(Tagged('DWARF', context.Source) and HasStatus('MAG_DWARVEN_THROWER_TECHNICAL', context.HitDescription.ThrownObject) and not SizeEqualOrGreater(Size.Large)):DealDamage(1d8, Bludgeoning,Magical,,0,,true);TARGET:IF(Tagged('DWARF', context.Source) and HasStatus('MAG_DWARVEN_THROWER_TECHNICAL', context.HitDescription.ThrownObject) and SizeEqualOrGreater(Size.Large)):DealDamage(2d8, Bludgeoning,Magical,,0,,true);IF(HasWeaponProperty(WeaponProperties.Thrown,context.HitDescription.ThrownObject) and HasStatus('HUNTERS_MARK',context.Target,context.Source)):DealDamage(1d6, ThrownWeaponDamageType,Magical,,0,,true);TARGET:IF(HasStatus('ELEMENTAL_CLEAVER_ACID', context.HitDescription.ThrownObject)):DealDamage(1d6,Acid,Nonmagical,,0,,true);TARGET:IF(HasStatus('ELEMENTAL_CLEAVER_COLD', context.HitDescription.ThrownObject)):DealDamage(1d6,Cold,Nonmagical,,0,,true);TARGET:IF(HasStatus('ELEMENTAL_CLEAVER_FIRE', context.HitDescription.ThrownObject)):DealDamage(1d6,Fire,Nonmagical,,0,,true);TARGET:IF(HasStatus('ELEMENTAL_CLEAVER_LIGHTNING', context.HitDescription.ThrownObject)):DealDamage(1d6,Lightning,Nonmagical,,0,,true);TARGET:IF(HasStatus('ELEMENTAL_CLEAVER_THUNDER', context.HitDescription.ThrownObject)):DealDamage(1d6,Thunder,Nonmagical,,0,,true);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="2c908b7e-4ca2-4c3a-8d45-836a82544eaf" />
-        <field name="Name" type="NameTableFieldDefinition" value="ImprovisedWeapon" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="e740c380-637c-49d6-96f4-515940a694a5" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:IF(IsLightThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(2d4,Bludgeoning);TARGET:IF(IsMediumThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(3d4,Bludgeoning);TARGET:IF(IsHeavyThrownObject(context.HitDescription.ThrownObject, false)):DealDamage(3d4,Bludgeoning);TARGET:IF(HasWeaponProperty(WeaponProperties.Thrown,context.HitDescription.ThrownObject)):DealDamage(ThrownWeapon, ThrownWeaponDamageType);TARGET:IF(HasWeightGreaterThan(context.Target.Weight/2, context.HitDescription.ThrownObject)):Force(2);TARGET:IF(HasWeightGreaterThan(context.Target.Weight, context.HitDescription.ThrownObject)):ApplyStatus(PRONE,100,1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5c0af544-09b8-43f6-9aaf-e21915785497" />
         <field name="Name" type="NameTableFieldDefinition" value="Throw_BonusAction" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="75f02344-5f9b-49af-a1dc-d2840baeef01" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5cce39b4-8be9-46d3-86b3-ed1fa836d336" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Throw_BonusAction" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2fc3807bg34e4gbdbeg88f4gb50fa0facd7e" version="1" />
