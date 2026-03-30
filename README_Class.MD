@@ -108,6 +108,7 @@
 - Level 1: Druidic
 - Level 1: Primal Order
 - Level 2: Wild Shape
+- Level 2: Wild Companion
 - Level 5: Wild Resurgence
 - Level 7: Elemental Fury
 ### Land
