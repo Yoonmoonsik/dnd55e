@@ -313,10 +313,17 @@
 - Level 3: Clockwork Spells
 - Level 3: Restore Balance
 - Level 6: Bastion of Law
-### Draconic [ ]
+### Draconic Sorcery
+- Level 3: Draconic Resilience
+- Level 6: Elemental Affinity
+- Level 11: Dragon Wings
 ### Shadow Magic
 ### Storm Sorcery
-### Wild Magic [ ]
+### Wild Magic Sorcery
+- Level 3: Wild Magic Surge
+- Level 3: Tides of Chaos
+- Level 6: Bend Luck
+- Level 11: Controlled Chaos
 ## Warlock
 - Core Traits
   - Skill Proficiencies
@@ -347,7 +354,7 @@
 - Eldritch Smite
 - Book of AncientSecrets
 - Mire the Mind
-- OneWith Shadows
+- One With Shadows
 - Sign of IllOmen
 - Dreadful Word
 - Sculptor of Flesh

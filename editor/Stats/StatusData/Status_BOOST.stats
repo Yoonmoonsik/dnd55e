@@ -2045,6 +2045,60 @@
         <field name="EndEffect" type="GuidObjectTableFieldDefinition" value="f1ce7559-a4ea-4a4a-893c-ca289290b21a" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="af9c4f25-c7dd-4b6e-9d87-3f7aa073e7c8" />
+        <field name="Name" type="NameTableFieldDefinition" value="BEND_LUCK_ABILITY_BONUS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="165d913f-b359-48bb-bf16-064659468b2b" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BEND_LUCK_ABILITY_BONUS" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="618e844f-8928-4778-a9e2-b782be8a33c2" />
+        <field name="Name" type="NameTableFieldDefinition" value="BEND_LUCK_ABILITY_PENALTY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c64fd844-8fa2-48e3-9462-c999c0882a6c" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BEND_LUCK_ABILITY_PENALTY" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="26809303-9476-4b79-bb4f-4fcd032dd099" />
+        <field name="Name" type="NameTableFieldDefinition" value="BEND_LUCK_ATTACK_BONUS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e6782297-6af9-4ce7-bf8e-73fb03715f84" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BEND_LUCK_ATTACK_BONUS" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c276dda1-1884-47b0-b885-1e68df036bc5" />
+        <field name="Name" type="NameTableFieldDefinition" value="BEND_LUCK_ATTACK_PENALTY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f7a05071-b035-476c-bde2-233f26cb504b" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BEND_LUCK_ATTACK_PENALTY" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7244d87b-c98a-4834-bee7-7c94e17a5715" />
+        <field name="Name" type="NameTableFieldDefinition" value="BEND_LUCK_SAVE_BONUS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a5f664b-c4dd-4d20-b841-92ce37bb2430" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BEND_LUCK_SAVE_BONUS" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aa2ddd14-33df-4609-8d74-efddcbadf102" />
+        <field name="Name" type="NameTableFieldDefinition" value="BEND_LUCK_SAVE_PENALTY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="53f90afe-eaa8-4759-8239-0d78315fec4c" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BEND_LUCK_SAVE_PENALTY" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cd5cb601-39fb-41ed-9029-5d6fe8911f26" />

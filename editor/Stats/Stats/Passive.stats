@@ -3064,6 +3064,94 @@
     </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ec1066cd-fb65-488c-bf06-e61c01f188d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="__DRACONIC 10300__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc37fb7f-d817-4c39-ad97-ba07a409751e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DraconicResilience" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3e687354-b55c-40e4-bc8d-9e9975abaafb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfc97be68g0890g2eb4g60ceg4fcde289a6f3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1f6491c1gcf0ag5432gd45cg4c396aeb83ed" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10303" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ACOverrideFormula(10,true,Dexterity,Charisma);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5259dc15-ac54-4afb-8998-ceb9e623f792" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalAffinity_Damage" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bba52e0c-e26d-4188-b3aa-1976123a064d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e8a436fg7af5g1f7eg57f2g2e9aeaf85bd9" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="966146c4-12a4-47b5-bb8c-51da49c9e66a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalAffinity_Resistance_Check" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1c2d6d5a-e48f-4880-8679-9d54233b29b0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd62b7853g8592g9285gb42bgac6b36b210fb" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="70539005-b7bd-4621-b9f1-20d43fbdb4ea" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WILD MAGIC 10400__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="38c71993-68d4-4169-8f5c-ff3b349eff5b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WildMagic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="16af3823-46a6-4803-a105-e3029a0b02a7" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdc8c75ffg7a02g2926g526bgd090debe8ddf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4f44c253geed3g7c67g3a13g4d233307de70" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10403" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(Tagged('SORCERER_WILD_MAGIC_GUARANTEED', context.Source)):TriggerRandomCast(1,,WildMagic);IF(HasStatus('TIDES_OF_CHAOS',context.Source) and not Tagged('SORCERER_WILD_MAGIC_GUARANTEED', context.Source)):TriggerRandomCast(1,,WildMagic,WildMagicTurn);IF(not HasStatus('TIDES_OF_CHAOS',context.Source) and not (HasStatus('WILD_MAGIC_GUARANTEED',context.Source) or Tagged('SORCERER_WILD_MAGIC_SUPRESSED', context.Source))):TriggerRandomCast(20,,WildMagic,WildMagicTurn);IF(HasStatus('TIDES_OF_CHAOS',context.Source)):RemoveStatus(SELF,TIDES_OF_CHAOS)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="92175401-31dd-4dc8-a869-9f40557c0d76" />
+        <field name="Name" type="NameTableFieldDefinition" value="TidesOfChaos" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6bc57c86-b0fb-4e4a-baf3-7b55e46a0e08" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a832abfgfed6g1f5fgab2ag1ba65771f70f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5d220f70g754fg8fc3g0596ge5dd3a6a27a9" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10403" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="35757ba7-05f8-4aad-8e0c-66924c3a0f83" />
+        <field name="Name" type="NameTableFieldDefinition" value="TidesOfChaos_Unlock" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3b12cdd1-364d-42c0-8718-d6534e9033f4" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnAttack;OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsSpell() and (HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot') or HasUseCosts('ShadowSpellSlot'));" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(SELF,TidesOfChaos,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="15322695-ecc4-477a-8688-3a5ecfa9703b" />
+        <field name="Name" type="NameTableFieldDefinition" value="BendLuck" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bc080a5-d28e-4589-abbe-2cb23997ba2c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3cab5040g2f51gf20bg9f65ge152e797670f" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10406" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bbdc5b05-f040-43d8-bb63-6779e5a6e4e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="ControlledChaos" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d162eb8-d53d-4bac-9406-d40621dc7fba" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3fa61546gfe2agba6cga260g8953a67a0644" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10411" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f2082bb4-d1fe-4f0c-918b-4d5a8d43b9f1" />
         <field name="Name" type="NameTableFieldDefinition" value="__METAMAGIC__" />
       </fields>
