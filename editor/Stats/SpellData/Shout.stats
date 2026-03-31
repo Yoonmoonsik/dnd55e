@@ -1235,12 +1235,20 @@
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="DontChange" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7de6dc2a-ad14-493b-b0c4-857c076ec4ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CIRCLE OF THE STAR__" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0d0eb9df-6745-489b-9885-3134e283b745" />
         <field name="Name" type="NameTableFieldDefinition" value="Wildshape_Star_Archer" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5f60eccc-1829-4df5-8098-092b85215974" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WILDSHAPE_STARRY_ARCHER_PLAYER,100,100);IF(ClassLevelHigherOrEqualThan(10,'Druid')):ApplyStatus(TWINKLINGCONSTELLATIONS,100,1);IF(ClassLevelHigherOrEqualThan(10,'Druid')):ApplyStatus(TWINKLINGCONSTELLATIONS_ARCHER,100,-1);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WILDSHAPE_STARRY_ARCHER_PLAYER,100,100)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1249,6 +1257,8 @@
         <field name="Name" type="NameTableFieldDefinition" value="Wildshape_Star_Chalice" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f38230c7-cdd9-4bef-b110-7345a3d36867" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WILDSHAPE_STARRY_CHALICE_PLAYER,100,100);IF(ClassLevelHigherOrEqualThan(10,'Druid')):ApplyStatus(TWINKLINGCONSTELLATIONS_CHALICE,100,-1);IF(ClassLevelHigherOrEqualThan(10,'Druid')):ApplyStatus(TWINKLINGCONSTELLATIONS,100,1);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WILDSHAPE_STARRY_CHALICE_PLAYER,100,100)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1258,6 +1268,8 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="4ee17c4b-3d9f-4eb4-ae74-15a067569395" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h019511d5gb330g2cd9gd860g84e25789d117" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WILDSHAPE_STARRY_DRAGON_PLAYER,100,100);IF(ClassLevelHigherOrEqualThan(10,'Druid')):ApplyStatus(TWINKLINGCONSTELLATIONS_DRAGON,100,-1);IF(ClassLevelHigherOrEqualThan(10,'Druid')):ApplyStatus(TWINKLINGCONSTELLATIONS,100,1);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WILDSHAPE_STARRY_DRAGON_PLAYER,100,100)" />
       </fields>
     </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
@@ -1341,12 +1353,12 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="053c31f2-e19c-41f8-9acc-9bf40aa2c0f6" />
         <field name="Name" type="NameTableFieldDefinition" value="WrathOfTheSea" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WILDSHAPE_SEA,100,-1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WILDSHAPE_SEA,100,100);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
         <field name="Icon" type="StringTableFieldDefinition" value="Sea_WrathOfTheSea" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf1921250gb124g8471g9413g503117f1b821" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h57810054gfe7fgd3feg857agf79b5362dc6c" version="1" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WILDSHAPE_SEA,100,-1);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WILDSHAPE_SEA,100,100);" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Buff_WildShape_L1to3" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Buff_WildShape_L1to3" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Druid_ElementalWildShapeWaterMyrmidon" />

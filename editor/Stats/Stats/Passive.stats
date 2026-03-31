@@ -2089,6 +2089,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h363f8861g503bg174cgc576g28e60841fa32" version="3" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6003" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('SG_Polymorph_BeastShape')):UnlockInterrupt(Interrupt_55_DeflectMissiles);UnlockInterrupt(Interrupt_55_DeflectMissiles_Return);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2280,7 +2281,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e7e4b405-1ff4-4f66-9898-df25ecd514c9" />
         <field name="Name" type="NameTableFieldDefinition" value="Mercy_3_ImplementsOfMercy" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb7d53c92gd795g4719g0be5g78a9b3fa1a4a" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0e2f0dfaga02cg9ad3g9586ga7ad2ece81cf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0e2f0dfaga02cg9ad3g9586ga7ad2ece81cf" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Mercy_HandOfHealing" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6403" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />

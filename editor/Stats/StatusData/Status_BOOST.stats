@@ -494,7 +494,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FindSteed" />
         <field name="StackId" type="StringTableFieldDefinition" value="FIND_STEED" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SteedActionPoint,1,0);UnlockSpellVariant(SteedAction(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,SteedActionPoint,1,0),ModifyIconGlow());UnlockSpell(Rush_Attack_Steed);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SteedActionPoint,1,0);UnlockSpellVariant(SteedAction(),ModifyUseCosts(Replace,ActionPoint,0,-1,ActionPoint),ModifyUseCosts(Add,SteedActionPoint,1,0),ModifyIconGlow());UnlockSpell(Rush_Attack_Steed);" />
         <field name="Passives" type="StringTableFieldDefinition" value="FindSteedProne_Passive;" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="e14337a2-55b0-495a-8294-02f7de8d0209" />
@@ -773,7 +773,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f489216gb640gb35fg24f2ge484d18842ab" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he5f0f47cg9e31g78f9g3de0gbcdc5fe67dd8" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_PhantomSteed" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SteedActionPoint,1,0);UnlockSpellVariant(SteedAction(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,SteedActionPoint,1,0),ModifyIconGlow());" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SteedActionPoint,1,0);UnlockSpellVariant(SteedAction(),ModifyUseCosts(Replace,ActionPoint,0,-1,ActionPoint),ModifyUseCosts(Add,SteedActionPoint,1,0),ModifyIconGlow());" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
