@@ -500,6 +500,7 @@
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="e14337a2-55b0-495a-8294-02f7de8d0209" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="d787f666-8ee6-4185-9365-6aac9ebe76ae" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -1646,30 +1647,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="60d21864-10f5-4ab9-ba65-0decddb93160" />
-        <field name="Name" type="NameTableFieldDefinition" value="PALADINS_SMITE" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h39de8d3fgd862g0342g0a3ag9205f4e7bf55" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haaa7e52ege832ge271gecfdge010d65df535" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_DivineSmite" />
-        <field name="StackId" type="StringTableFieldDefinition" value="PALADINS_SMITE" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(DivineSmite(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyIconGlow());" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="DivineSmite()" />
-        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSpellCast" enumeration_type_name="StatusEvent" version="1" />
-        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="519a8125-def3-4274-b601-02f8f8e87b6c" />
         <field name="Name" type="NameTableFieldDefinition" value="FAITHFUL_STEED" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1e887af9gf132g931bgf5ffgfd331943059d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0aaffea6g03a3g6185g2b3eg67a082d34700" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FindSteed" />
-        <field name="StackId" type="StringTableFieldDefinition" value="FAITHFUL_STEED" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FIND_STEED" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(FindSteed(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyIconGlow());" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="FindSteed()" />
-        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSpellCast" enumeration_type_name="StatusEvent" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

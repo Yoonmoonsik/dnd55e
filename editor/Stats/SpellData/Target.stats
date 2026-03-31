@@ -2427,10 +2427,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="430caf04-0af1-42df-9ee2-5147da224b13" />
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Divine" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9d355be4-587d-41d9-a288-4fbd1211ff6e" />
-        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SELF,SPELLSLOT_1,100,-1);" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:1" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
       </fields>
     </stat_object>
@@ -2439,10 +2437,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5f6ffaa1-7a8b-4ff0-8592-da67b4988459" />
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Divine_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6586dbf9-2884-4870-b669-97dd97e75e5e" />
-        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:2" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SELF,SPELLSLOT_2,100,-1);" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
       </fields>
     </stat_object>
@@ -2451,10 +2447,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b513bc63-c6ed-4fde-962e-42a301fe3552" />
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Divine_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0282c13e-834e-472e-a19a-88ea08badbe3" />
-        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SELF,SPELLSLOT_3,100,-1);" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
       </fields>
     </stat_object>
@@ -2463,10 +2457,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f3f37f48-7a40-4708-80d9-d213b345de59" />
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Divine_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="28e78a9b-174d-4a6b-a1b6-43fde353f1ec" />
-        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SELF,SPELLSLOT_4,100,-1);" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
       </fields>
     </stat_object>
@@ -2475,10 +2467,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="839da5f7-c968-4b59-aecc-0d7d13e8aea0" />
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Divine_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="cd66c216-7a2d-4f13-acb6-9f6f1741e3d6" />
-        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SELF,SPELLSLOT_5,100,-1);" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
       </fields>
     </stat_object>
@@ -2487,10 +2477,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6c91c4ba-f756-4bf1-9a86-019dcd8e1583" />
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Divine_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="cc5040a3-e7cc-43a2-958c-90426d283151" />
-        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SELF,SPELLSLOT_6,100,-1);" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
       </fields>
     </stat_object>
@@ -5077,7 +5065,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dfe2e496-17d5-4c2b-aee6-b739fb51e5ae" />
         <field name="Name" type="NameTableFieldDefinition" value="LandsAid" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(3,10,Overgrowth,true);IF(Enemy()):DealDamage(LevelMapValue(LandsAid),Necrotic);IF(not Enemy()):RegainHitPoints(LevelMapValue(LandsAid));" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(3,1,Overgrowth,true);IF(Enemy()):DealDamage(LevelMapValue(LandsAid),Necrotic);IF(not Enemy()):RegainHitPoints(LevelMapValue(LandsAid));" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2b54832cgd102gec1dg521dgc5239b16c5b9" version="1" />
@@ -5431,6 +5419,22 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="633b23a6-92eb-431b-90af-fa459a18c2b3" />
         <field name="Name" type="NameTableFieldDefinition" value="__PALADIN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="977c1e63-bd93-4718-b228-fb62f47f530d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Smite_Divine_Paladin" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="430caf04-0af1-42df-9ee2-5147da224b13" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(not Tagged('FIEND') and not Tagged('UNDEAD')):DealDamage(LevelMapValue(Paladin),Radiant,Magical);IF(Tagged('FIEND')):DealDamage(LevelMapValue(Paladin)+1d8,Radiant,Magical);IF(Tagged('UNDEAD')):DealDamage(LevelMapValue(Paladin)+1d8,Radiant,Magical);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2adc185egdb92gc42cgef83gd94b5364f467" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(Paladin),Radiant)" />
+        <field name="TooltipOnMiss" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsMelee;NoCooldownOnMiss" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

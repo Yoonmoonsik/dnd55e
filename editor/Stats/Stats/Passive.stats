@@ -2326,8 +2326,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_DivineSmite" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7002" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnLongRest;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PALADINS_SMITE,100,-1)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Smite_Divine_Paladin);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2351,7 +2350,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8d9bb995gd364g7b4fgd6f8gb78ed0bdda9b" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FindSteed" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7005" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;OncePerLongRest" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnLongRest;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(FAITHFUL_STEED,100,-1)" />
       </fields>
