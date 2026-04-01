@@ -368,7 +368,11 @@
 - Level 3: Steps of the Fey
 - Level 6: Misty Escape
 - Level 10: Beguiling Defenses
-### Celestial [ ]
+### Celestial
+- Level 3: Celestial Spells
+- Level 3: Healing Light
+- Level 6: Radiant Soul
+- Level 10: Celestial Resilience
 ### Fiend [ ]
 - Level 3: Dark One's Blessing [ ]
 - Level 3: Fiend Spells

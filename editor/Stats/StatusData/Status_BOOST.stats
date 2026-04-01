@@ -2165,6 +2165,23 @@
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="96ad7781-e20c-4041-b29c-3efafeae2f3f" />
+        <field name="Name" type="NameTableFieldDefinition" value="CELESTIAL_RESILIENCE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9a77bd65gc6e8gc16bgece1g0bad2814b83d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1a05b56aga724gdcdbge2deg4a389d5eeb0b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_PrayerOfHealing" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CELESTIAL_RESILIENCE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(Cause.ClassLevel(Warlock)+Cause.CharismaModifier);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value=" IF(IsDowned()):RegainHitPoints(1)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cd5cb601-39fb-41ed-9029-5d6fe8911f26" />

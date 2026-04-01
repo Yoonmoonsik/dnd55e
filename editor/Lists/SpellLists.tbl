@@ -1568,6 +1568,34 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_DominatePerson" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7dbb766e-1a1e-4d6c-ba03-531cd447ed9f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock Celestial SLevel 2" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Light;Target_SacredFlame;Target_CureWounds;Projectile_GuidingBolt;Target_Aid;Target_LesserRestoration;Target_HealingLight" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="60a3bfa7-8a42-4d90-b4c6-45ed8fd3f60d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock Celestial SLevel 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Daylight_Container;Teleportation_Revivify" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="77bcf7e9-9985-47de-b0b0-32280d12eb3c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock Celestial SLevel 4" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_GuardianOfFaith;Wall_WallOfFire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="62bfc46e-2f6f-44ba-88a2-ad71b881dd40" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock Celestial SLevel 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_GreaterRestoration" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="96a8fca1-ed5a-43b2-9ebc-673dc8a2fb7d" />

@@ -5123,7 +5123,7 @@
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedWarlockSpellSlotLevel2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarlockSpellSlot,2,2);ActionResourceOverride(WarlockSpellSlot,0,1)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(854033fe-84b8-4a22-9a0c-ddc0eb2a74d1,1,1);" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="733ddf8c-9ec4-4c5a-85e3-c70fd3df3c24;8866db28-7dda-4fd6-93ed-20eca16314f0;e1e4a21f-9405-46ec-81a0-ccc8d58d9736;8fb57960-eb92-48f5-b99d-ab36519e4d4f" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="733ddf8c-9ec4-4c5a-85e3-c70fd3df3c24;1e077f6b-1034-43ab-b54c-5718d78e9437;8866db28-7dda-4fd6-93ed-20eca16314f0;e1e4a21f-9405-46ec-81a0-ccc8d58d9736;8fb57960-eb92-48f5-b99d-ab36519e4d4f" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5739,6 +5739,123 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Archfey" />
         <field name="Level" type="ByteTableFieldDefinition" value="12" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF8A2BE2" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_621" />
+        <field name="UUID" type="IdTableFieldDefinition" value="26e6c591-746b-4ba2-b46b-218f3a24fb84" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="26e6c591-746b-4ba2-b46b-218f3a24fb84" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Celestial" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Celestial_3_CelestialSpells;Celestial_3_HealingLight" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HealingLight,4,0);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(7dbb766e-1a1e-4d6c-ba03-531cd447ed9f)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_627" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b5655824-bd99-4ad9-aa68-1c89a8264554" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="26e6c591-746b-4ba2-b46b-218f3a24fb84" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Celestial" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HealingLight,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_622" />
+        <field name="UUID" type="IdTableFieldDefinition" value="94c952a1-b071-4f02-94df-a070f844dfd4" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="26e6c591-746b-4ba2-b46b-218f3a24fb84" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Celestial" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HealingLight,1,0);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(60a3bfa7-8a42-4d90-b4c6-45ed8fd3f60d)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_625" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5f1ab382-27cd-4a88-9a86-29a16ec14d9c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="26e6c591-746b-4ba2-b46b-218f3a24fb84" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Celestial" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Celestial_6_RadiantSoul" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HealingLight,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_623" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f538791f-fa39-42be-b67e-8ca6e9aaff7d" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="26e6c591-746b-4ba2-b46b-218f3a24fb84" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Celestial" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HealingLight,1,0);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(77bcf7e9-9985-47de-b0b0-32280d12eb3c)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_628" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a6e31ee2-8697-4697-bd5c-da7376f75f35" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="26e6c591-746b-4ba2-b46b-218f3a24fb84" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Celestial" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HealingLight,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_624" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c858940f-cf74-411d-ae65-5f0c64dea5da" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="26e6c591-746b-4ba2-b46b-218f3a24fb84" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Celestial" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HealingLight,1,0);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(62bfc46e-2f6f-44ba-88a2-ad71b881dd40)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_626" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d23f7cc3-194e-45f5-b6b6-0ce5379fa317" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="26e6c591-746b-4ba2-b46b-218f3a24fb84" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Celestial" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Celestial_10_CelestialResilience" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HealingLight,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_629" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0e7f7321-2982-4c34-8544-e6b6f6e62e28" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="26e6c591-746b-4ba2-b46b-218f3a24fb84" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Celestial" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HealingLight,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_630" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8f271a5e-ae2d-42cf-9925-3e34675435a7" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="26e6c591-746b-4ba2-b46b-218f3a24fb84" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Celestial" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HealingLight,1,0);" />
       </fields>
     </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">

@@ -6232,6 +6232,104 @@
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="68b1219a-ccc2-4b29-bb42-b18996de3b4d" />
       </fields>
     </stat_object>
+    <stat_object color="#FF8A2BE2" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1087a391-69ef-4d2a-8ed2-1be6883f11db" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CELESTIAL__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="598202d2-b155-4893-8798-1c85860fb80c" />
+        <field name="Name" type="NameTableFieldDefinition" value="HealingLight" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(1d6+CharismaModifier);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Tagged('UNDEAD') and not Tagged('CONSTRUCT')" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Celestial_HealingLight" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h57173a7egcdf0g4150gbb9eg91bada654a99" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h13ee529eg2e3ag6b49ge487g5564265ef86c" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(1d6+CharismaModifier);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Radiant_SacredFlame_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Healing_CureWounds_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Ally() and not Dead() and not Tagged('UNDEAD')" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;HealingLight:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="96a51ac8-2e7e-4718-bb62-dcfd18964a02" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="ce5a1256-d5c8-45b5-98fc-ee9a16e3673c" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="78c8a29a-cd3d-40a2-ba01-41d0ec4ccd74" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_HealingLight_1;Target_HealingLight_2;Target_HealingLight_3;Target_HealingLight_4;Target_HealingLight_5;Target_HealingLight_6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5d8d21c0-0c86-4a70-b47a-c8477ccfbbb5" />
+        <field name="Name" type="NameTableFieldDefinition" value="HealingLight_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="598202d2-b155-4893-8798-1c85860fb80c" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="Target_HealingLight;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_HealingLight" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7307f6a1-7df2-46b5-99ed-dfef7d05a6be" />
+        <field name="Name" type="NameTableFieldDefinition" value="HealingLight_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5d8d21c0-0c86-4a70-b47a-c8477ccfbbb5" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(2d6+CharismaModifier);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(2d6+CharismaModifier);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;HealingLight:2" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b95532e4-7bb0-48a9-8076-edc6a65a7d71" />
+        <field name="Name" type="NameTableFieldDefinition" value="HealingLight_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7307f6a1-7df2-46b5-99ed-dfef7d05a6be" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(3d6+CharismaModifier);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(3d6+CharismaModifier);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;HealingLight:3" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d64de80-974f-4874-bcab-fdd1561d8d5b" />
+        <field name="Name" type="NameTableFieldDefinition" value="HealingLight_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7307f6a1-7df2-46b5-99ed-dfef7d05a6be" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(4d6+CharismaModifier);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(4d6+CharismaModifier);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;HealingLight:4" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="638e9881-1fd9-4d44-96d3-b6fc2e2afb02" />
+        <field name="Name" type="NameTableFieldDefinition" value="HealingLight_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7307f6a1-7df2-46b5-99ed-dfef7d05a6be" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(5d6+CharismaModifier);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(5d6+CharismaModifier);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;HealingLight:5" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db08d7a9-3059-418d-843c-3918822bcb35" />
+        <field name="Name" type="NameTableFieldDefinition" value="HealingLight_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7307f6a1-7df2-46b5-99ed-dfef7d05a6be" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(6d6+CharismaModifier);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(6d6+CharismaModifier);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;HealingLight:6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="38f8798f-1d23-4982-b4c7-dffc0ae00453" />

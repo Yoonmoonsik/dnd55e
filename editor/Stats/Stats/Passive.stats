@@ -3319,7 +3319,7 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11002" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(2,'Warlock',context.Source);" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWarlockCantrip() and IsCharismaModifierPositive()):DamageBonus(CharismaModifier);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWarlockCantrip() and IsCharismaModifierPositive()):DamageBonus(CharismaModifier);IF(HasPassive('Celestial_3_CelestialSpells',context.Source) and SpellId('Target_SacredFlame') and IsCharismaModifierPositive()):DamageBonus(CharismaModifier);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3675,6 +3675,58 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11110" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Charmed);ActionResource(BeguilingDefenses,1,0);UnlockInterrupt(Interrupt_BeguilingDefenses_Free);UnlockInterrupt(Interrupt_BeguilingDefenses);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF8A2BE2" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="656e3b81-38f7-4abf-9a36-fe1792e15db7" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CELESTIAL 11200__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="012a329b-1294-4acc-9479-1d2e8593d6d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Celestial_3_CelestialSpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff333ee0g15bdgad7fg8fefg3ee93e01df77" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbcb1d930g4757g8ed9g69dagacdb27a4f791" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateWarlock" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11203" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fbb6820f-a73a-4e1d-9ee4-7c0e0e6ff51d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Celestial_3_HealingLight" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf6fabff6g83a2gbd76gb861g272a6aa3b80c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdaeea362gfb80g3de3gfc7bgaaff6ca3e93f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Celestial_HealingLight" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11203" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0c935e2-325a-4001-aa2d-5c4bc2ea4e4e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Celestial_6_RadiantSoul" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0c3b5562gfcc3gad99gd963g1df27e943cd2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h870b18d3g13d8ge83dg1253gf5261403acb2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11206" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsSpell() and IsDamageTypeFire()):DamageBonus(max(0, CharismaModifier));IF(IsSpell() and IsDamageTypeRadiant()):DamageBonus(max(0, CharismaModifier));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9934a9b4-7261-48a0-b176-89df764f39d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Celestial_10_CelestialResilience" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heab6ca12g945dg3d00g4c47g4b04d1d8218e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcdda7ab4ge734g2112g0666gf41d8d14e579" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11210" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_CelestialResilience);" />
       </fields>
     </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
