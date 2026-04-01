@@ -459,7 +459,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="38241cc8-c7aa-428f-bb66-4f33d4a76b3d" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_MistyEscape" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a848bcf0-aab2-44ab-8892-0b9b06583672" />
-        <field name="Properties" type="StringTableFieldDefinition" value="UseSpell(OBSERVER_OBSERVER,Shout_Invisibility_MistyEscape,true,true,true);ApplyStatus(OBSERVER_OBSERVER,MISTY_ESCAPE_INVISIBLE,100,2);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_OBSERVER,MISTY_ESCAPE_INVISIBLE,100,2);" />
         <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;MistyStep:1;" />
         <field name="EnableCondition" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="EnableContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />

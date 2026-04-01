@@ -2722,6 +2722,332 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;IsSpell;IsConcentration;Stealth;Invisible;Temporary" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5410440b-b36d-4116-95a2-cf701274fc23" />
+        <field name="Name" type="NameTableFieldDefinition" value="__EVOCATION__SLEVEL__2__SPIRITUAL_WEAPON__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="beb05f01-ab8d-4258-aa69-a854b1010a2e" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ed15a85d-43b7-4581-ae27-e7f85f2bd7e3" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;IsLinkedSpellContainer;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9e14c2c5-3ff4-47c1-b91d-245faeeefb76" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Greataxe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ab986e39-7b8c-4245-b894-d4518f5b6ec7" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6b7a355-7a03-45af-b9b2-48f44b07bf01" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Greatsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd2b34e0-4f9b-4cc0-9781-8eab6bc0f777" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6071895e-a8f0-4dca-9f68-d44261d32186" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Halberd" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="10b6153d-b692-40cd-8a3a-798a95d6c01e" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="71c44c41-f206-472a-8a15-670aba8ce92c" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Maul" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="22e1f356-85fb-4ca8-b10f-561209ee7875" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5d43c361-8f2e-409b-9732-2d93be20bc2d" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Spear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="758f6101-5234-4c50-bf0d-a043aab2b263" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db3f40c3-9582-48ac-96c3-b949155b0785" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Trident" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0a0e8848-df50-4bbc-9f49-e253b70f23eb" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="af5c10ff-f4f5-4e00-97d6-d81ba6dcf3ef" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Greataxe_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="07d84f83-5e51-4352-b0a7-6e5e7786a5f5" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(63854225-bfb0-4585-a427-ee47fcaabced, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_3,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b50b7b1a-1dd5-4948-a221-d6e591fdeaf1" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Greataxe_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fbd98f98-e6c3-4e3a-9525-518d76f2bbb0" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d14c33e-be7c-4b8a-96c6-b2c38751ce7b" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Greataxe_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="77ea077d-8d7e-4571-8cc2-74afc51e234d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(63854225-bfb0-4585-a427-ee47fcaabced, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_5,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a24ed76-9873-45cf-a516-85cc9b156f2d" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Greataxe_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4f477dc1-adcd-4cfb-a7a4-4fb98f646c3a" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2643322-b339-4c39-a766-4294f510a992" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Greatsword_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e43cfbf0-d7cd-487e-a7ed-8fc41e63e068" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(dcb87672-84d5-4d18-9f1d-30ee66a69cc3, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_3,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="69506457-34da-4a30-a266-c5fb2733a180" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Greatsword_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4509a441-b815-4760-bf56-5ccc112acdd3" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8a2ced7a-9209-4eee-b1e3-aaec8022fc35" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Greatsword_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d2287320-919f-4202-93f3-78aa471e1554" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(dcb87672-84d5-4d18-9f1d-30ee66a69cc3, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_5,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fd2f6b8b-86b6-4ace-8482-5836c216ade9" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Greatsword_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a9b9868d-1e50-427e-8655-c0d177426d79" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="37cfe861-3cdb-4745-86be-eac430e57898" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Halberd_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="faa43f06-9222-452f-a4c8-50f12c9df1ba" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(b3b9353a-4b03-4599-bcc2-a0b86807f430, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_3,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3ac24084-3fca-41f9-aa34-516875776d9f" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Halberd_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d72d21f-39b3-4ed0-a877-2a7a7260d4da" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="61eeba67-0c0b-4925-b97b-c12820fdd010" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Halberd_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f35cec34-55ce-4509-aed7-dae9e2c06415" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(b3b9353a-4b03-4599-bcc2-a0b86807f430, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_5,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f0e64e80-585e-4db2-b4b2-59e5902bc7da" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Halberd_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="82180b05-9e9d-4aa4-af3b-b72483540cfe" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="81011d52-117c-4b11-9e8d-9bce8bd4f8ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Maul_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0bc532e7-ab10-44cd-bdfa-4f5dbd166221" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(d5718e22-445e-4a59-bc5b-cfc239443b01, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_3,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ded9092-2ed3-4f38-bfb4-1d7f7fdce26d" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Maul_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4c75e8b5-cfbb-4dd1-a1b5-48e37c60162e" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3b325dfc-4cce-4749-8b60-e05fab666a54" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Maul_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="524349fd-5a24-442c-950b-300ac4770e8f" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(d5718e22-445e-4a59-bc5b-cfc239443b01, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_5,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="38b88e77-e8fc-46c7-9c02-961b6104bf7a" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Maul_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="01ecef35-de0e-4cf7-a97a-691f2ec0c6e5" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3001e0e5-8e8e-4810-b0c9-bf2c63d66107" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Spear_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3a3f95b5-698e-4a1f-b182-2e88d5b4c621" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b44b5e6c-1df7-4b7a-8113-604a123fedd6" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Spear_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="957b67cb-5158-4f14-ab1a-5f5876e883df" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fb4770fb-e838-4bb3-9784-23f410eb4501" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Spear_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a4cd81e-4967-4288-ae10-ee8a3cfaf514" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(637e4035-0368-44c9-8bce-53a639594fb7, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_5,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6841d79c-3911-4d3e-bdbd-6ee2342ffe72" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Spear_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3a2dae35-a155-4532-9d1e-39f956f820a8" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aa8d33f8-6297-4ffb-bb6e-1d791c7ef74a" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Trident_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bf878d59-f89d-425f-9789-4b66b6eed959" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(6beb5e0e-2557-4be3-854e-e8af7fb7723d, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_3,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e5d4a2a5-f2d6-48b4-86e3-407fb07df532" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Trident_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="58fdc8c9-ca8d-41a8-9c4f-a53e2aa0d934" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ccfe9d10-93ed-4032-a4ac-c8a003d5f24e" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Trident_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0391d029-dbec-441e-9348-faaaa84a0908" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(6beb5e0e-2557-4be3-854e-e8af7fb7723d, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_5,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b5a5d110-43e5-40e9-a9d2-0ba78f3d7688" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Trident_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="45d3c730-58c4-4892-9cc0-6bd622b32674" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8+SpellCastingAbilityModifier, Force)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f78737af-c9f5-4cb4-8477-2823c45a1080" />
+        <field name="Name" type="NameTableFieldDefinition" value="__EVOCATION__SLEVEL__4__" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d70e5aa3-42fd-4794-8328-3c40cb7b2b4e" />
@@ -5027,6 +5353,8 @@
         <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(d5718e22-445e-4a59-bc5b-cfc239443b01, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_3,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8+SpellCastingAbilityModifier, Force)" />
       </fields>
     </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">

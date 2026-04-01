@@ -54,6 +54,7 @@
 - Misty Step
 - Ray of Enfeeblement
 - Snilloc's Snowball Swarm
+- Spiritual Weapon
 - Tasha's Mind Whip
 - Warding Bond
 ## Level 3

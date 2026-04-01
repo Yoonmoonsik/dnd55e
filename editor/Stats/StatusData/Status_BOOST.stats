@@ -724,6 +724,45 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3f8cee0-7998-4a40-a12b-50787c88862d" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITUAL_WEAPON" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0cf3667d-eced-4d6b-8e24-92d477abc6f3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5ef8049d-1475-4191-955a-39f57f2a1af2" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITUAL_WEAPON_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0cf3667d-eced-4d6b-8e24-92d477abc6f3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonusOverride(Owner.LevelMapValue(StandardProficiencyBonusScale));RollBonus(Attack,Owner.SpellCastingAbilityModifier);MonkWeaponDamageDiceOverride(LevelMapValue(SpiritualWeapon_2d8));IncreaseMaxHP(4);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b3dd17f6-d197-41a2-8390-6f29d1daa01b" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITUAL_WEAPON_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8d354aa5-c33d-4848-82c5-bcd318c2a697" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonusOverride(Owner.LevelMapValue(StandardProficiencyBonusScale));RollBonus(Attack,Owner.SpellCastingAbilityModifier);MonkWeaponDamageDiceOverride(LevelMapValue(SpiritualWeapon_3d8));IncreaseMaxHP(8);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="248d83b2-79ff-4e81-8ddc-87911a103b4a" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITUAL_WEAPON_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8d354aa5-c33d-4848-82c5-bcd318c2a697" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonusOverride(Owner.LevelMapValue(StandardProficiencyBonusScale));RollBonus(Attack,Owner.SpellCastingAbilityModifier);MonkWeaponDamageDiceOverride(LevelMapValue(SpiritualWeapon_4d8));IncreaseMaxHP(12);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e8bfb5d9-6de3-43cd-8183-05e9ed3b4d40" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIRITUAL_WEAPON_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="13df8e56-584a-42a8-ab5d-6867ec579f1d" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonusOverride(Owner.LevelMapValue(StandardProficiencyBonusScale));RollBonus(Attack,Owner.SpellCastingAbilityModifier);MonkWeaponDamageDiceOverride(LevelMapValue(SpiritualWeapon_5d8));IncreaseMaxHP(16);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8f56644d-8630-4d41-b217-07a8d84f33fe" />
         <field name="Name" type="NameTableFieldDefinition" value="CRUSADERS_MANTLE_AURA" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="be521c42-11c8-4e5c-a83b-ab3940c64371" />
@@ -1929,7 +1968,6 @@
         <field name="StackId" type="StringTableFieldDefinition" value="PSYCHIC_BLADE" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="CannotBeDisarmed();ItemReturnToOwner();WeaponDamageTypeOverride(Psychic);WeaponProperty(Thrown);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisableOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="4504bfe8-72c8-4344-b3c4-d4518f773340" />
         <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
       </fields>
