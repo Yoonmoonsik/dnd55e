@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="SkillLists">
+        <node id="root">
+            <children>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="5.5 Wizard Scholar Skill List"/>
+                    <attribute id="Skills" type="LSString" value="Arcana,History,Investigation,Medicine,Nature,Religion"/>
+                    <attribute id="UUID" type="guid" value="28366079-082c-4237-b931-05ec91542ab6"/>
+                </node>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="5.5 Fighter Skill List"/>
+                    <attribute id="Skills" type="LSString" value="Acrobatics,AnimalHandling,Athletics,History,Insight,Intimidation,Persuasion,Perception,Survival"/>
+                    <attribute id="UUID" type="guid" value="6a4f8598-3a17-42d1-beac-d7ced582bafa"/>
+                </node>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="5.5 Fey Wanderer Skill List"/>
+                    <attribute id="Skills" type="LSString" value="Deception,Performance,Persuasion"/>
+                    <attribute id="UUID" type="guid" value="e65a325d-d626-4421-8c76-0f5fc0fde5a5"/>
+                </node>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="5.5 Elf Keen Senses"/>
+                    <attribute id="Skills" type="LSString" value="Insight, Perception, Survival "/>
+                    <attribute id="UUID" type="guid" value="50b06c2b-a523-4950-9c1f-a246e1e0f8ec"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

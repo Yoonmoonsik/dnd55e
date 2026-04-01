@@ -1,0 +1,63 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_DND55e_Initialized(0);
+KBSECTION
+// Initialization
+IF
+LevelLoaded(_)
+AND
+DB_DND55e_Initialized(0)
+THEN
+TimerLaunch("DND55e_InitDelay", 0);
+
+IF
+TimerFinished("DND55e_InitDelay")
+THEN
+NOT DB_DND55e_Initialized(0);
+DB_DND55e_Initialized(1);
+
+
+// EquippingWeapons
+IF
+DB_Players(_Player)
+AND
+DB_DND55e_Initialized(1)
+AND
+HasPassive(_Player, "EquippingWeapons", 0)
+THEN
+AddPassive(_Player, "EquippingWeapons");
+
+IF
+DB_Players(_Player)
+AND
+DB_DND55e_Initialized(1)
+AND
+HasPassive(_Player, "EquippingWeaponsTechnical", 0)
+THEN
+AddPassive(_Player, "EquippingWeaponsTechnical");
+
+
+// NoDashPreload
+IF
+DB_Players(_Player)
+AND
+DB_DND55e_Initialized(1)
+AND
+HasPassive(_Player, "NoDashPreload", 0)
+THEN
+AddPassive(_Player, "NoDashPreload");
+
+
+// OneSpellWithASpellSlotPerTurn
+IF
+DB_Players(_Player)
+AND
+DB_DND55e_Initialized(1)
+AND
+HasPassive(_Player, "OneSpellWithASpellSlotPerTurn", 0)
+THEN
+AddPassive(_Player, "OneSpellWithASpellSlotPerTurn");
+EXITSECTION
+
+ENDEXITSECTION

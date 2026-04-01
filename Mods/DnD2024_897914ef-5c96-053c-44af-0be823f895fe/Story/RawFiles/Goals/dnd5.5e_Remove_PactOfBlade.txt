@@ -1,0 +1,95 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+Equipped(_MagicItem, _Char)
+AND
+DB_Players(_Char)
+AND
+HasPassive(_Char,"BattleSmith_3_ArcaneEmpowerment",1)
+AND
+IsWeapon(_MagicItem, 1)
+THEN
+ApplyStatus(_MagicItem, "ARCANE_EMPOWERMENT", -1.0, 1, _Char);
+
+IF
+Unequipped(_MagicItem, _Char)
+AND
+HasActiveStatus(_MagicItem, "ARCANE_EMPOWERMENT", 1)
+THEN
+RemoveStatus(_MagicItem, "ARCANE_EMPOWERMENT", NULL_00000000-0000-0000-0000-000000000000);
+
+IF
+Unequipped(_MagicItem, _Char)
+AND
+HasActiveStatus(_MagicItem, "ARCANE_ARMOR_WEAPON", 1)
+THEN
+RemoveStatus(_MagicItem, "ARCANE_ARMOR_WEAPON", NULL_00000000-0000-0000-0000-000000000000);
+
+IF
+Unequipped(_MagicItem, _Char)
+AND
+HasActiveStatus(_MagicItem, "PACT_BLADE", 1)
+THEN
+RemoveStatus(_MagicItem, "PACT_BLADE", NULL_00000000-0000-0000-0000-000000000000);
+
+IF
+Unequipped(_MagicItem, _Char)
+AND
+HasActiveStatus(_MagicItem, "PACTOFTHEBLADE_NECROTIC", 1)
+THEN
+RemoveStatus(_MagicItem, "PACTOFTHEBLADE_NECROTIC", NULL_00000000-0000-0000-0000-000000000000);
+
+IF
+Unequipped(_MagicItem, _Char)
+AND
+HasActiveStatus(_MagicItem, "PACTOFTHEBLADE_PSYCHIC", 1)
+THEN
+RemoveStatus(_MagicItem, "PACTOFTHEBLADE_PSYCHIC", NULL_00000000-0000-0000-0000-000000000000);
+
+IF
+Unequipped(_MagicItem, _Char)
+AND
+HasActiveStatus(_MagicItem, "PACTOFTHEBLADE_RADIANT", 1)
+THEN
+RemoveStatus(_MagicItem, "PACTOFTHEBLADE_RADIANT", NULL_00000000-0000-0000-0000-000000000000);
+
+IF
+Unequipped(_MagicItem, _Char)
+AND
+HasActiveStatus(_MagicItem, "PACTOFTHEBLADE_WEAPON", 1)
+THEN
+RemoveStatus(_MagicItem, "PACTOFTHEBLADE_WEAPON", NULL_00000000-0000-0000-0000-000000000000);
+
+IF
+Unequipped(_MagicItem, _Char)
+AND
+HasActiveStatus(_MagicItem, "HEXBLADE_BIND", 1)
+THEN
+RemoveStatus(_MagicItem, "HEXBLADE_BIND", NULL_00000000-0000-0000-0000-000000000000);
+
+IF
+Unequipped(_MagicItem, _Char)
+AND
+HasActiveStatus(_MagicItem, "HEXBLADE_BIND_TECHNICAL", 1)
+THEN
+RemoveStatus(_MagicItem, "HEXBLADE_BIND_TECHNICAL", NULL_00000000-0000-0000-0000-000000000000);
+
+IF
+Unequipped(_MagicItem, _Char)
+AND
+HasActiveStatus(_MagicItem, "PACT_BLADE_ILLRIGGER", 1)
+THEN
+RemoveStatus(_MagicItem, "PACT_BLADE_ILLRIGGER", NULL_00000000-0000-0000-0000-000000000000);
+
+IF
+Unequipped(_MagicItem, _Char)
+AND
+HasActiveStatus(_MagicItem, "ARTIFICER_HOMING_WEAPON", 1)
+THEN
+RemoveStatus(_MagicItem, "ARTIFICER_HOMING_WEAPON", NULL_00000000-0000-0000-0000-000000000000);
+EXITSECTION
+
+ENDEXITSECTION

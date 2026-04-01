@@ -1,0 +1,6 @@
+new entry "SLEEP"
+type "StatusData"
+data "StatusType" "INCAPACITATED"
+using "SLEEP"
+data "TickFunctors" "IF(SavingThrow(Ability.Wisdom, SourceSpellDC())):RemoveStatus(SLEEP)"
+

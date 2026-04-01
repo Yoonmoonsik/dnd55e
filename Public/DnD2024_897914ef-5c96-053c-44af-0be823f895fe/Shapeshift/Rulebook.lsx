@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="Rulebook">
+        <node id="root">
+            <children>
+                <node id="Rule">
+                    <attribute id="ApplySpellsFromTemplate" type="bool" value="true"/>
+                    <attribute id="ApplyTagsFromTemplate" type="bool" value="true"/>
+                    <attribute id="ApplyVisual" type="bool" value="true"/>
+                    <attribute id="BaseACOverride" type="bool" value="true"/>
+                    <attribute id="ChangeAi" type="bool" value="true"/>
+                    <attribute id="ChangeBodyType" type="bool" value="false"/>
+                    <attribute id="ChangeIcon" type="bool" value="true"/>
+                    <attribute id="ChangeRace" type="bool" value="true"/>
+                    <attribute id="DisableEquipmentSlots" type="bool" value="true"/>
+                    <attribute id="FootstepsType" type="bool" value="true"/>
+                    <attribute id="IgnoreCustomLooks" type="bool" value="true"/>
+                    <attribute id="MuteEquipmentSound" type="bool" value="true"/>
+                    <attribute id="RemoveOldTags" type="bool" value="true"/>
+                    <attribute id="RemovePrevSpells" type="bool" value="true"/>
+                    <attribute id="RetainDisplayName" type="bool" value="true"/>
+                    <attribute id="RuleName" type="LSString" value="WildShapeKeepName"/>
+                    <attribute id="UUID" type="guid" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0"/>
+                    <attribute id="UnarmedAbilityFromTemplate" type="bool" value="true"/>
+                    <attribute id="WildShapeHotBar" type="bool" value="true"/>
+                    <children>
+                        <node id="AbilityChanges">
+                            <children>
+                                <node id="Object">
+                                    <attribute id="type" type="uint8" value="4"/>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="AbilityChanges">
+                            <children>
+                                <node id="Object">
+                                    <attribute id="type" type="uint8" value="4"/>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="AbilityChanges">
+                            <children>
+                                <node id="Object">
+                                    <attribute id="type" type="uint8" value="4"/>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="AbilityChanges">
+                            <children>
+                                <node id="Object">
+                                    <attribute id="type" type="uint8" value="0"/>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="AbilityChanges">
+                            <children>
+                                <node id="Object">
+                                    <attribute id="type" type="uint8" value="0"/>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="AbilityChanges">
+                            <children>
+                                <node id="Object">
+                                    <attribute id="type" type="uint8" value="0"/>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="ActionsCapabilities">
+                            <children>
+                                <node id="ActionCapabilities">
+                                    <attribute id="Name" type="LSString" value="Disarming"/>
+                                </node>
+                                <node id="ActionCapabilities">
+                                    <attribute id="Name" type="LSString" value="Lockpicking"/>
+                                </node>
+                                <node id="ActionCapabilities">
+                                    <attribute id="Name" type="LSString" value="Pickpocketing"/>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Hp">
+                            <attribute id="type" type="uint8" value="0"/>
+                        </node>
+                        <node id="Scale">
+                            <attribute id="type" type="uint8" value="4"/>
+                        </node>
+                        <node id="Weight">
+                            <attribute id="type" type="uint8" value="4"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Rule">
+                    <attribute id="RuleName" type="LSString" value="WildshapeStarry"/>
+                    <attribute id="UUID" type="guid" value="acc89ec3-a77f-45bc-be5d-8e0f0d7cc68a"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

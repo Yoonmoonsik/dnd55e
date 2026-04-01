@@ -1,0 +1,8 @@
+function AbberantPsionicSpells()
+	return SpellId('Shout_ArmsOfHadar')
+	| SpellId('Target_BlackTentacles')
+	| SpellId('Target_CalmEmotions')
+	| SpellId('Target_DissonantWhisper')
+	| SpellId('Target_HungerOfHadar')
+	| SpellId('Throw_Telekinesis')
+end

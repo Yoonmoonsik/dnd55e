@@ -1,0 +1,16 @@
+new entry "DOWNED"
+type "StatusData"
+data "StatusType" "DOWNED"
+using "DOWNED"
+data "Description" "h77f164a8g908ag78fdg969cg13b085d02634;2"
+data "Boosts" "AbilityFailedSavingThrow(Strength);AbilityFailedSavingThrow(Dexterity);CriticalHit(AttackTarget,Success,Always,2.5);IF(not DistanceToTargetGreaterThan(3)):Advantage(AttackTarget);IF(DistanceToTargetGreaterThan(3)):Disadvantage(AttackTarget);StatusImmunity(SG_Prone);StatusImmunity(PRONE);StatusImmunity(PRONE_FALLEN);StatusImmunity(PRONE_GREASE);StatusImmunity(PRONE_ICE);StatusImmunity(PRONE_SEWER);StatusImmunity(PRONE_THUNDEROUS_SMITE);StatusImmunity(SG_Condition);StatusImmunity(SHOCKWAVE);"
+data "OnTickRoll" "RollDieAgainstDC(DiceType.d20,20)"
+data "OnTickSuccess" "RegainHitPoints(1)"
+
+new entry "RELENTLESS_RAGE_DOWNED"
+type "StatusData"
+data "StatusType" "DOWNED"
+using "RELENTLESS_RAGE_DOWNED"
+data "Boosts" "AbilityFailedSavingThrow(Strength);AbilityFailedSavingThrow(Dexterity);CriticalHit(AttackTarget,Success,Always,2.5);IF(not DistanceToTargetGreaterThan(3)):Advantage(AttackTarget);IF(DistanceToTargetGreaterThan(3)):Disadvantage(AttackTarget);StatusImmunity(SG_Prone);StatusImmunity(PRONE);StatusImmunity(PRONE_FALLEN);StatusImmunity(PRONE_GREASE);StatusImmunity(PRONE_ICE);StatusImmunity(PRONE_SEWER);StatusImmunity(PRONE_THUNDEROUS_SMITE);StatusImmunity(SG_Condition);StatusImmunity(SHOCKWAVE);"
+data "OnApplyFunctors" "RemoveStatus(RELENTLESS_RAGE);RegainHitPoints(ClassLevel(Barbarian)*2,Guaranteed)"
+

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="11fa382c-a1d2-45ba-913c-b13062365ce8">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b9543135-eceb-4ca9-b9fc-43befc11de3b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryList" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HasWeaponMastery_Cleave,HasWeaponMastery_Graze,HasWeaponMastery_Nick,HasWeaponMastery_Push,HasWeaponMastery_Sap,HasWeaponMastery_Slow,HasWeaponMastery_Topple,HasWeaponMastery_Vex" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3ead5ccd-2598-42f4-85f2-370a93c0549f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DivineOrderList" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Cleric_DivineOrder_Protector,Cleric_DivineOrder_Thaumaturge_1,Cleric_DivineOrder_Thaumaturge_2,Cleric_DivineOrder_Thaumaturge_3,Cleric_DivineOrder_Thaumaturge_4,Cleric_DivineOrder_Thaumaturge_5,Cleric_DivineOrder_Thaumaturge_6,Cleric_DivineOrder_Thaumaturge_7,Cleric_DivineOrder_Thaumaturge_8,Cleric_DivineOrder_Thaumaturge_9," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db623e6f-18bf-45de-a99b-ccf145b574f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="BlessedStrikesList" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Cleric_7_BlessedStrikes_Radiant,Cleric_7_BlessedStrikes_Necrotic,Cleric_7_BlessedStrikes_PotentSpellcasting" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eb5672b5-ee56-4aed-a7aa-208f3092c432" />
+        <field name="Name" type="NameTableFieldDefinition" value="PrimalOrderList" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Cleric_PrimalOrder_Warden,Cleric_PrimalOrder_Magician_1,Cleric_PrimalOrder_Magician_2,Cleric_PrimalOrder_Magician_3,Cleric_PrimalOrder_Magician_4,Cleric_PrimalOrder_Magician_5,Cleric_PrimalOrder_Magician_6,Cleric_PrimalOrder_Magician_7,Cleric_PrimalOrder_Magician_8,Cleric_PrimalOrder_Magician_9," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b3cf8b48-035f-4f2c-887f-d9bc55522d0c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalFuryList" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Druid_7_ElementalFury_PotentSpellcasting,Druid_7_ElementalFury_Cold,Druid_7_ElementalFury_Fire,Druid_7_ElementalFury_Lightning,Druid_7_ElementalFury_Thunder" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3506532-36eb-4d18-823e-497a537a9619" />
+        <field name="Name" type="NameTableFieldDefinition" value="Metamagic level 3" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Metamagic_Careful,Metamagic_Distant,Metamagic_Empowered,Metamagic_Extended,Metamagic_Heightened,Metamagic_Quickened,Metamagic_Subtle,Metamagic_Twinned" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 12" />
+        <field name="Passives" type="StringTableFieldDefinition" value="DevouringBlade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a2d72748-0792-4f1e-a798-713a66d648eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 9" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Lifedrinker,GiftOfTheProtectors,MinionsOfChaos" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bfddbe6a-86d3-4664-a7cf-804ab4d82c0c" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 9 to 12" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Lifedrinker,GiftOfTheProtectors,MinionsOfChaos" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="39efef92-9987-46e2-8c43-54052c1be535" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 7" />
+        <field name="Passives" type="StringTableFieldDefinition" value="DreadfulWord,SculptorOfFlesh,WhispersOfTheGrave" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="303036ec-ace4-4587-91b0-215bcde3213c" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 7 to 9" />
+        <field name="Passives" type="StringTableFieldDefinition" value="DreadfulWord,SculptorOfFlesh,WhispersOfTheGrave" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="a2d72748-0792-4f1e-a798-713a66d648eb" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21b5f1b6-2207-43d8-83a0-335641ba195b" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 7 to 12" />
+        <field name="Passives" type="StringTableFieldDefinition" value="DreadfulWord,SculptorOfFlesh,WhispersOfTheGrave" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8adab8f9-e360-4f79-851b-2c7e050ca23d" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 5" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ThirstingBlade,ThirstingBlade_Check,GiftOfTheDepths,EldritchSmite,BookOfAncientSecrets,MireTheMind,OneWithShadows,SignOfIllOmen" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8d822b59-5dea-4696-b181-7c55d2c40f79" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 5 to 7" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ThirstingBlade,ThirstingBlade_Check,GiftOfTheDepths,EldritchSmite,BookOfAncientSecrets,MireTheMind,OneWithShadows,SignOfIllOmen" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="39efef92-9987-46e2-8c43-54052c1be535" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="05d35084-517b-4df3-be68-e913510ed17a" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 5 to 9" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ThirstingBlade,ThirstingBlade_Check,GiftOfTheDepths,EldritchSmite,BookOfAncientSecrets,MireTheMind,OneWithShadows,SignOfIllOmen" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="a2d72748-0792-4f1e-a798-713a66d648eb" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6c1ba4f-e458-4d8b-8600-9b3897e7c6bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 5 to 12" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ThirstingBlade,ThirstingBlade_Check,GiftOfTheDepths,EldritchSmite,BookOfAncientSecrets,MireTheMind,OneWithShadows,SignOfIllOmen" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="333fb1b0-9398-4ca8-953e-6c0f9a59bbed" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 2" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AgonizingBlast,DevilsSight,EldritchSpear,MaskOfManyFaces,OtherworldlyLeap,RepellingBlast,ThiefOfFiveFates" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea315980-74ab-43cf-830a-1d237c7e28f6" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 2 to 5" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AgonizingBlast,DevilsSight,EldritchSpear,MaskOfManyFaces,OtherworldlyLeap,RepellingBlast,ThiefOfFiveFates" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="8adab8f9-e360-4f79-851b-2c7e050ca23d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c512275e-26f2-4728-b9c2-c82f88884d60" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 2 to 7" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AgonizingBlast,DevilsSight,EldritchSpear,MaskOfManyFaces,OtherworldlyLeap,RepellingBlast,ThiefOfFiveFates" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="39efef92-9987-46e2-8c43-54052c1be535" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="087aeaaa-29ee-408a-81b6-603db8f0f5f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 2 to 9" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AgonizingBlast,DevilsSight,EldritchSpear,MaskOfManyFaces,OtherworldlyLeap,RepellingBlast,ThiefOfFiveFates" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="a2d72748-0792-4f1e-a798-713a66d648eb" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="540b796e-9861-4285-b3c0-d181c07320bc" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 2 to 12" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AgonizingBlast,DevilsSight,EldritchSpear,MaskOfManyFaces,OtherworldlyLeap,RepellingBlast,ThiefOfFiveFates" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8d8ac513-c7c8-4f8b-b67f-5a9a14741aae" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PactOfTheBlade_Hex,PactOfTheChain,PactOfTheTome,ArmorOfShadows,BeastSpeech,BeguilingInfluence,EldritchMind" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2468b50d-e1cc-48c3-993b-9beaa644e329" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 1 to 2" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PactOfTheBlade_Hex,PactOfTheChain,PactOfTheTome,ArmorOfShadows,BeastSpeech,BeguilingInfluence,EldritchMind" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="333fb1b0-9398-4ca8-953e-6c0f9a59bbed" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="66f09485-bed6-425d-9b64-79c0dfb067b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 1 to 5" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PactOfTheBlade_Hex,PactOfTheChain,PactOfTheTome,ArmorOfShadows,BeastSpeech,BeguilingInfluence,EldritchMind" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="8adab8f9-e360-4f79-851b-2c7e050ca23d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="23e2b7db-8605-49df-a6c3-f59663c8217a" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 1 to 7" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PactOfTheBlade_Hex,PactOfTheChain,PactOfTheTome,ArmorOfShadows,BeastSpeech,BeguilingInfluence,EldritchMind" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="39efef92-9987-46e2-8c43-54052c1be535" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8ac7a31c-e60e-4478-a2ac-d105cb87b0b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 1 to 9" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PactOfTheBlade_Hex,PactOfTheChain,PactOfTheTome,ArmorOfShadows,BeastSpeech,BeguilingInfluence,EldritchMind" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="a2d72748-0792-4f1e-a798-713a66d648eb" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="305f105f-97a8-4d4f-b698-36099a1d316a" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock invocations 1 to 12" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PactOfTheBlade_Hex,PactOfTheChain,PactOfTheTome,ArmorOfShadows,BeastSpeech,BeguilingInfluence,EldritchMind" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e5a5b6fe-571c-4831-b752-0f7eea1a5659" />
+        <field name="Name" type="NameTableFieldDefinition" value="Feat Alert" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Alert" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="054df8f8-2d1a-487f-8a62-20bee102b16b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Feat Healer" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Healer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="95d5a8a2-a010-4af7-a618-f1efe3a13f55" />
+        <field name="Name" type="NameTableFieldDefinition" value="Feat Lucky" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Lucky_Unlock" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4d5463ed-a78f-49ba-bb92-6e6be5319bf7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Feat Musician" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Performer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5d87ff80-3037-4018-9aa9-3abb18d248d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Feat SavageAttacker" />
+        <field name="Passives" type="StringTableFieldDefinition" value="SavageAttacker" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="22254a0a-d047-48af-802d-a99af005b2a0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Feat TavernBrawler" />
+        <field name="Passives" type="StringTableFieldDefinition" value="TavernBrawler" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9623a438-58c9-4857-a681-6e9691a459e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Feat Tough" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Tough" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da3203d8-750a-4de1-b8eb-1eccfccddf46" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fighter fighting style" />
+        <field name="Passives" type="StringTableFieldDefinition" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting,FightingStyle_BlindFighting,FightingStyle_UnarmedFighting,FightingStyle_Interception,FightingStyle_ThrownWeaponFighting," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0bdb113-1cce-45ac-94fb-72d4c3f207e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Ranger fighting style" />
+        <field name="Passives" type="StringTableFieldDefinition" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting,FightingStyle_BlindFighting,FightingStyle_UnarmedFighting,FightingStyle_Interception,FightingStyle_ThrownWeaponFighting," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f8ebba38-932a-4c64-ae55-3df23e2f60fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="Paladin Fighting Styles" />
+        <field name="Passives" type="StringTableFieldDefinition" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting,FightingStyle_BlindFighting,FightingStyle_UnarmedFighting,FightingStyle_Interception,FightingStyle_ThrownWeaponFighting," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="51988e80-d7cc-4351-aa7d-83b8ba3f989a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Human Origin Feat" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Alert,Healer,Lucky_Unlock,OriginFeat_MagicInitiate_Cleric,OriginFeat_MagicInitiate_Druid,OriginFeat_MagicInitiate_Wizard,Performer,SavageAttacker,OriginFeat_Skilled,TavernBrawler,Tough" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,15 @@
+function TrueStrike()
+    return SpellId('Target_TrueStrike_Melee') | SpellId('Target_TrueStrike_Radiant')
+end
+
+function BreathWeaponCheck()
+    return SpellId('Zone_BreathWeapon_Acid') | SpellId('Zone_BreathWeapon_Poison') | SpellId('Zone_BreathWeapon_Cold') | SpellId('Zone_BreathWeapon_Fire_Cone') | SpellId('Zone_BreathWeapon_Fire_Line') | SpellId('Zone_BreathWeapon_Lightning')
+end
+
+function ExtraAttackSpellCheck()
+    return ~TrueStrike() & ~SpellId('Target_VengefulBlade') & ~SpellId('Target_BoomingBlade_ClassSpell') & ~SpellId('Target_GreenFlameBlade') & HasStringInSpellRoll('WeaponAttack') | HasStringInSpellRoll('UnarmedAttack') | HasStringInSpellRoll('ThrowAttack') | SpellId('Target_CommandersStrike') | SpellId('Target_Shove') | SpellId('Target_Trip') | BreathWeaponCheck() | SpellId('Target_BootOfTheGiants') | SpellId('Teleportation_PactOfTheChain')
+end
+
+function ExtraAttackCheck()
+    return ExtraAttackSpellCheck() & HasUseCosts('ActionPoint',false)
+end

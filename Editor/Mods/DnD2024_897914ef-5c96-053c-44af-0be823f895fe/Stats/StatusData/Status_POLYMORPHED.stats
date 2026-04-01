@@ -1,0 +1,695 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="ee4c30a6-9728-40e1-9722-b8a1ec68599e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b5a5b652-26b8-4164-b703-c665372366f0" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BADGER_PLAYER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8a519044g61f3g7166g3e0cg6c97799602e4" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_GiantBadger" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WILDSHAPE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(12);ActiveCharacterLight(233033a1-b43a-4ad9-976a-8a062b345e21);UnlockSpell(Shout_WildShape_Dismiss);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="47263893-8aab-48f1-96ad-13907d1e23e8" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Polymorph;SG_Polymorph_BeastShape;SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_BADGER_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="f515b011-9b9d-462c-85e1-a79bc9055962" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_ACTIVE,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5e9f8eb8-3d3b-4cbb-bd4d-c393e473ef21" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BADGER_PLAYER_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b5a5b652-26b8-4164-b703-c665372366f0" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="f036b8a7-c977-441b-9e75-758e5eaa431c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="31eb8824-b4e4-480e-8cbe-ac8469fe2c4d" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BADGER_PLAYER_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5e9f8eb8-3d3b-4cbb-bd4d-c393e473ef21" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="456696c2-815e-4dbb-a968-c86666c8ac52" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d5f84ee8-ef1c-4ea6-81ea-d0f13c9efc9d" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BADGER_PLAYER_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="31eb8824-b4e4-480e-8cbe-ac8469fe2c4d" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="33c4856f-cc16-4966-9ce5-022807cf5cdc" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b7d484e2-4a2e-4f01-845c-40644d43def2" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BADGER_PLAYER_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d5f84ee8-ef1c-4ea6-81ea-d0f13c9efc9d" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="90c3fb9e-a61d-4bee-adfb-6dffd4ed5802" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="153324b6-b328-4d66-a617-4be376ede790" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BADGER_PLAYER_12" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b7d484e2-4a2e-4f01-845c-40644d43def2" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="628bb49e-4d57-4641-9951-6ad7266dd408" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eae6ede0-f443-41ff-8812-148b90be4c9c" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BEAR_POLAR_PLAYER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b5a5b652-26b8-4164-b703-c665372366f0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9c56ac47g3984g90a8g0115g3a3000abd94a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_PolarBear" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="960a6318-3fc0-4b85-8b70-887e99ff248f" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WildShape_Dismiss);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_BEAR_POLAR_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d696d4b0-e482-4617-9992-e043c0ccd38c" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BEAR_POLAR_PLAYER_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="eae6ede0-f443-41ff-8812-148b90be4c9c" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="78de40fe-5575-431a-82c2-f4f356803524" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5fcea63b-cf89-4b91-ac11-8400f765d6a3" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BEAR_POLAR_PLAYER_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d696d4b0-e482-4617-9992-e043c0ccd38c" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="08e4fb18-b7ee-4a3b-bfbe-29b567e3ce30" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="42a1e8dc-c0b3-43d9-b9bb-659bfa0e0719" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BEAR_POLAR_PLAYER_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5fcea63b-cf89-4b91-ac11-8400f765d6a3" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="c35ccd84-6318-405f-ada8-b83d7ae0c1b9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ba49344d-8b35-4267-a017-b2cdf4379906" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BEAR_POLAR_PLAYER_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="42a1e8dc-c0b3-43d9-b9bb-659bfa0e0719" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="1b5953f0-a051-4b6b-b480-1d686200f484" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="44eb9ed4-9e05-4705-9c13-5c79177ab8bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BEAR_POLAR_PLAYER_12" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ba49344d-8b35-4267-a017-b2cdf4379906" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="28505fd9-6d9f-4698-b7f0-aca40441f2aa" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90e4b9ff-129f-4b05-a83d-fc2b2f9aa5b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_CAT_PLAYER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b5a5b652-26b8-4164-b703-c665372366f0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h55c8bb9fgab04g0e14gce66g6d7734c64973" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_Cat" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(12);ActiveCharacterLight(233033a1-b43a-4ad9-976a-8a062b345e21);UnlockSpell(Shout_WildShape_Dismiss);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);FallDamageMultiplier(0.5);" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="398887ea-5013-4c9b-8f89-37f44efef8dc" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_CAT_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="086b6322-f3d7-47a5-ac8d-6ee6b09dd69e" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b53bb523-bbc0-40d8-b04d-25f4499f4ac8" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_DEEP_ROTHE_PLAYER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b5a5b652-26b8-4164-b703-c665372366f0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4bd8abf4gf0adgc66cgc5bag97c641b5e998" version="1" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="201de8c4-a88a-45b8-abb4-1ee67df8bf81" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_DeepRothe" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(24);ActiveCharacterLight(e278f6a0-26d7-49be-b11a-9b84bc313c3c);UnlockSpell(Shout_WildShape_Dismiss);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_DEEP_ROTHE_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1c7eb3e4-5340-4c77-bf9f-42cc3c34d217" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_DEEP_ROTHE_PLAYER_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b53bb523-bbc0-40d8-b04d-25f4499f4ac8" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="8de80f5d-197a-4933-9713-21a01bcd132f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4312e0a5-6689-4948-9da9-67ab3040a19e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_DEEP_ROTHE_PLAYER_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1c7eb3e4-5340-4c77-bf9f-42cc3c34d217" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="02fa83e7-f9f6-4b53-8491-30087d97d1c7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6dc6c773-194e-472c-9129-686611a05ba0" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_DEEP_ROTHE_PLAYER_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4312e0a5-6689-4948-9da9-67ab3040a19e" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="9171686c-687b-4db8-b83a-f01a9b09d31a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f7f57d16-6669-4ac9-9ec6-d6115da4a373" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_DEEP_ROTHE_PLAYER_12" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6dc6c773-194e-472c-9129-686611a05ba0" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="e8988f8f-2f6f-4610-bab3-885f4a006a41" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5fbb0cc9-3444-454c-8a9c-a60104620a5b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_RAVEN_PLAYER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b5a5b652-26b8-4164-b703-c665372366f0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb0d5b816gde08g18fag0b3dg87d87c0c5144" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_Raven" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WildShape_Dismiss);ActionResource(Movement,3,0);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);Attribute(Floating);IgnoreFallDamage();" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="6c2fc745-20b3-44c0-9032-97e97a5368eb" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_RAVEN_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="760c7250-c1c8-41bb-b8fd-5d07a35255ca" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_SPIDER_GIANT_PLAYER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b5a5b652-26b8-4164-b703-c665372366f0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5290eb7agca74g04fdg1c90gf56091132a96" version="1" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="e0e6f504-8114-46c8-834a-186466edbd87" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_GiantSpider" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(24);ActiveCharacterLight(e278f6a0-26d7-49be-b11a-9b84bc313c3c);StatusImmunity(WEB);StatusImmunity(DIFFICULT_TERRAIN_WEB);UnlockSpell(Shout_WildShape_Dismiss);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);FallDamageMultiplier(0.5);" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_SPIDER_GIANT_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9774d684-a615-44b0-970c-4af84ee03349" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_SPIDER_GIANT_PLAYER_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="760c7250-c1c8-41bb-b8fd-5d07a35255ca" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="61655dd4-78e9-47c8-b5e3-8e217846b985" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2703152f-42cc-4262-ae2c-92bda9d39f92" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_SPIDER_GIANT_PLAYER_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9774d684-a615-44b0-970c-4af84ee03349" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="892f2169-20c9-462f-b7ad-84570276b285" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="96612cb5-e45a-4a14-b6b9-9c5e64416a28" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_SPIDER_GIANT_PLAYER_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2703152f-42cc-4262-ae2c-92bda9d39f92" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="edd1c7bc-9897-4d22-9fa1-812e67f15e84" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="49fa7e42-9675-434c-af7c-38e847125213" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_SPIDER_GIANT_PLAYER_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="96612cb5-e45a-4a14-b6b9-9c5e64416a28" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="95bf7fee-81d8-4092-9567-fdb1230b4625" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bd4c9764-633f-4fa0-bb4c-ae5ab14c5136" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_SPIDER_GIANT_PLAYER_12" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="49fa7e42-9675-434c-af7c-38e847125213" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="ef8227ae-c3d5-4277-9287-ab02186a6017" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1bb2c0f7-c45c-42bb-9e76-441f67314415" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_WOLF_DIRE_PLAYER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h78df260fgc265gf45fg5e7eg3a5e3f320112" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b5a5b652-26b8-4164-b703-c665372366f0" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="71e2c062-fdf8-40c7-88d7-05ef57cdff41" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_DireWolf" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WildShape_Dismiss);ActionResource(Movement,3,0);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_WOLF_DIRE_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e4dbf010-4f9c-4605-bdcc-0acacc34aafe" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_WOLF_DIRE_PLAYER_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1bb2c0f7-c45c-42bb-9e76-441f67314415" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="ceaac6e4-7eec-4b7f-9334-f5ae3439e4af" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="31c13f52-0204-4203-a466-f91c169280ec" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_WOLF_DIRE_PLAYER_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e4dbf010-4f9c-4605-bdcc-0acacc34aafe" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="c1149690-5a2c-4aa5-8e34-94355103f63b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8ee366a6-50d4-41af-99d8-a8ee95808818" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_WOLF_DIRE_PLAYER_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="31c13f52-0204-4203-a466-f91c169280ec" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="ef4ac0c6-a68b-47dc-bd31-5abc9f2fd757" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5fcf088c-79a9-4a23-a629-aa779661ad5b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_WOLF_DIRE_PLAYER_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8ee366a6-50d4-41af-99d8-a8ee95808818" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="a915541a-f6e2-49b2-8685-3bbcb49bf00d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="16a9eb20-19e7-4204-95cc-1fcc5fdc7aef" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_WOLF_DIRE_PLAYER_12" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5fcf088c-79a9-4a23-a629-aa779661ad5b" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="1e0d7dcd-353c-4677-96f5-445ce15174aa" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="836c4406-039c-43c3-bb60-07bb85fda91e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_SABERTOOTH_TIGER_PLAYER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b5a5b652-26b8-4164-b703-c665372366f0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc9efa391g3349g9633gd775ge547b21394a6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_WildShape_SaberTooth" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_SABERTOOTH_TIGER_REMOVE_VFX,100,1);RemoveStatus(REGENERATION_SABERTOOTH);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="007a0a64-d763-4daf-9697-21765a4c2d4d" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(REGENERATION_SABERTOOTH,100,-1);ApplyStatus(SELF,WILDSHAPE_ACTIVE,100,-1)" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ca4aaed-8655-4031-96b9-f8bb47700596" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_SABERTOOTH_TIGER_PLAYER_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="836c4406-039c-43c3-bb60-07bb85fda91e" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="08ccee3e-1428-4dbc-b8e2-759f5d3ef7c6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bc0b99b7-4bab-438f-ac2d-a9f64abb92b8" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_SABERTOOTH_TIGER_PLAYER_12" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ca4aaed-8655-4031-96b9-f8bb47700596" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="afcdf266-a1ff-478c-b6f4-b7c0f661b188" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="561e94f8-17cf-46a3-b7e7-4d40011dfa33" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_PANTHER_PLAYER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b5a5b652-26b8-4164-b703-c665372366f0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf4e0bdf5g2bedgdb25gd9c5ge125ee988248" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_WildShape_Panther" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_PANTHER_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="e7780038-d09c-48e1-8bb8-db86538a3cb9" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8cf58300-93c7-4dc9-b87d-ed4c5eadc225" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_PANTHER_PLAYER_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="561e94f8-17cf-46a3-b7e7-4d40011dfa33" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="baefae7b-fced-4466-b0da-cd9aa79ffe62" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="df52305a-37ec-40dc-a0b8-562fba640090" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_PANTHER_PLAYER_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8cf58300-93c7-4dc9-b87d-ed4c5eadc225" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="8d9dc22a-801d-4e50-89b6-31ba64dda04d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a431344-c708-4bab-84d1-155a3d239004" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_PANTHER_PLAYER_12" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="df52305a-37ec-40dc-a0b8-562fba640090" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="abad7ace-9b77-40a6-a6a5-05f615adbef7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="68e8dd6d-ffe9-44ea-885e-a906b2f36a4b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_DILOPHOSAURUS_PLAYER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b5a5b652-26b8-4164-b703-c665372366f0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4a06421fg399bge851g94a3gc50cf5ac4685" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_WildShape_Dilophosaurus" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_DILOPHOSAURUS_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="fca74933-fb42-45c0-af31-c9f806368453" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28f6e53e-b1b8-4247-afeb-5398a427f50a" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_DILOPHOSAURUS_PLAYER_12" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="68e8dd6d-ffe9-44ea-885e-a906b2f36a4b" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="087bf82e-e9e4-4218-8b60-8018d8078a91" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b7322240-c8db-4853-8837-db2e4b3e05df" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_OWLBEAR_PLAYER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b5a5b652-26b8-4164-b703-c665372366f0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h98a60dc7g4df3g01fbg8fd5g832b47cc24aa" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_Owlbear" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_OWLBEAR_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="92467fe9-2452-47f4-8c19-59883cca6dc5" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f4a3ed2b-00b3-486d-a486-08bcdbc47345" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_OWLBEAR_PLAYER_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b7322240-c8db-4853-8837-db2e4b3e05df" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="a35b18be-2692-47e5-a53c-fbef4fed7f24" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="274bb7b0-8ddc-48fb-93e9-af5e9be4399d" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_OWLBEAR_PLAYER_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f4a3ed2b-00b3-486d-a486-08bcdbc47345" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="940514fe-e16b-4e2f-b034-be0d52709466" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0eaf5dc5-4b98-417f-9af8-43a4e698be78" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_OWLBEAR_PLAYER_12" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="274bb7b0-8ddc-48fb-93e9-af5e9be4399d" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="054c1e88-c279-4627-a859-a9098fa8b438" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="609e9144-069e-471d-bada-e1ff12dbd857" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_STARRY_DRAGON_PLAYER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0a167948-b108-47c0-83a9-d4550f45d6bd" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WildShape_Dismiss_Starry);Tag(STARRYFORM_DRAGON);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cfb92ad3-d109-4663-85b0-e7c5af6a851c" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_SEA" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2441e241g48f9g90deg04f4gc1d4278870d3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf8470c53gc4a7gf584g96f0g33c340603191" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Sea_WrathOfTheSea" />
+        <field name="SoundStart" type="StringTableFieldDefinition" value="Spell_Status_ElementalWildShapeWaterMyrmidon_Start" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_ElementalWildShapeWaterMyrmidon_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_ElementalWildShapeWaterMyrmidon_End" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WILDSHAPE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WildShape_Dismiss);UnlockSpell(Target_WrathOfTheSea);IF(HasPassive('Sea_10_Stormborn',context.Source)):UnlockSpell(Projectile_Fly_Equal);IF(HasPassive('Sea_10_Stormborn',context.Source)):Resistance(Cold,Resistant);IF(HasPassive('Sea_10_Stormborn',context.Source)):Resistance(Lightning,Resistant);IF(HasPassive('Sea_10_Stormborn',context.Source)):Resistance(Thunder,Resistant);" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_ACTIVE,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_MYRMIDON_WATER_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="acc89ec3-a77f-45bc-be5d-8e0f0d7cc68a" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Polymorph;SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="f515b011-9b9d-462c-85e1-a79bc9055962" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="715c7070-5394-4ef2-9732-ee2796deada0" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="965560da-68d2-4758-98dd-f62cce8acd61" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_NPC" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h556b4fb3g5a97gb81cg3f21gd57ac1f02a0d" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WILDSHAPE" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Polymorph;SG_Polymorph_BeastShape;SG_Polymorph_BeastShape_NPC" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_WOLF_DIRE_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1)" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="f515b011-9b9d-462c-85e1-a79bc9055962" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6850b182-5576-468d-9bb7-b15f9490bf80" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BADGER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h59a5a380g59f1gfdb0g9a4fgef72e80eb679" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_GiantBadger" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(12);" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="2b705d6d-b15e-41fe-b044-c1c1fa313eea" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="965560da-68d2-4758-98dd-f62cce8acd61" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_BADGER_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="909d97e8-392d-4d2a-b8a5-8e72715dedf4" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BADGER_MOON" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6850b182-5576-468d-9bb7-b15f9490bf80" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="3d2b5ed8-0ca2-4e70-a340-214f418a19b5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ac997b58-ff00-4211-be40-be828397d27e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BEAR" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="965560da-68d2-4758-98dd-f62cce8acd61" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8d42344bg665dge300g935bg0d9887bee468" version="1" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="71c3bd5a-2232-406b-a4cb-2886dff5eee3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_Bear" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_BEAR_POLAR_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cd5312e6-4fd9-40b6-bedb-0c533442bfd6" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BEAR_MOON" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac997b58-ff00-4211-be40-be828397d27e" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="58981406-39e5-4f60-ab14-bb61f902b452" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="34534b79-2d23-4cce-b6e9-7ec2fa4571f9" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BEAR_BLACK" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="965560da-68d2-4758-98dd-f62cce8acd61" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd15c9166gcb1dg4177g3646gbdb76e9200cc" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_Bear" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="77cbfb55-0c74-43f7-b864-4d8f5c3229d2" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_BEAR_POLAR_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="08ef3e8d-9198-4f6b-b202-0454c5d16e14" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BEAR_GREY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="965560da-68d2-4758-98dd-f62cce8acd61" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h267295feg37f1gf983g6cedg02a6401df1fd" version="1" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="fe596669-da4b-402c-bedb-6061f8a04997" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_Bear" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_BEAR_POLAR_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="25bb7f45-9c0f-4d0b-8434-e35366c2f5e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BEAR_GREY_MOON" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="08ef3e8d-9198-4f6b-b202-0454c5d16e14" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="6ac3cb77-f9f1-4d41-851e-df2cb1078f84" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8982bb76-7adf-4acf-b6bc-64cd9ff60999" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BEAR_POLAR" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="965560da-68d2-4758-98dd-f62cce8acd61" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5cdd815bge132g3d37gdabfg758fee1fd2ff" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_PolarBear" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="d7ed7e22-a442-40fd-a537-94b5ae2ae7f9" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_BEAR_POLAR_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="afcdbdbe-ce3d-44b5-89dc-8dc94aff351c" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BOAR" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="965560da-68d2-4758-98dd-f62cce8acd61" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h434d69begc8f3gbd6cg78e1gc7b1896221ee" version="1" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="9c699956-3729-432a-aa64-b03b0ffcb7c7" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_Boar" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dd9ed5d3-c790-450b-aeb4-63ec71c742d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BOAR_MOON" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="afcdbdbe-ce3d-44b5-89dc-8dc94aff351c" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="86099a24-d9c0-46f5-ae3c-11283ac414fa" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a10dee6c-4782-43ff-8b87-798c8dd7e196" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_DEEP_ROTHE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="965560da-68d2-4758-98dd-f62cce8acd61" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he834ae45gcae8gf3bag6df2ga3f6b92b7407" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_DeepRothe" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="b2a849d6-8931-4361-9b57-34c455cb7a46" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(24);" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_DEEP_ROTHE_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d2f5f61-cbc6-443c-839b-94f4abdb41a1" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_GIANT_SPIDER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="965560da-68d2-4758-98dd-f62cce8acd61" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h82d61545g3d50gbd71gb81cg49ba5440aca5" version="1" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="5839bb55-50f1-4677-a147-8bd7f0bd5529" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_GiantSpider" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(24);StatusImmunity(DIFFICULT_TERRAIN_WEB);" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_SPIDER_GIANT_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3357c270-56c3-4948-a9fc-5276d3148130" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_GIANT_SPIDER_MOON" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d2f5f61-cbc6-443c-839b-94f4abdb41a1" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="ec17ea60-b8b0-415d-8609-bcc957e1f7e2" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_SPIDER_GIANT_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d879211e-1622-4100-a86b-84415a7514fc" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_RAT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="965560da-68d2-4758-98dd-f62cce8acd61" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2a5396efg111ag7d25gf58fgce2d27775b14" version="1" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="c1ccd3e4-2864-469e-92d3-6b1d8d019fec" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_Rat" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_CAT_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="121f7656-e2af-4b49-8bc0-248a007821fd" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_RAVEN" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="965560da-68d2-4758-98dd-f62cce8acd61" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4838ee09g3746g4dc0g2baeg7a9ddd9bf1d4" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_Raven" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="5d0193a4-d64b-49ab-a489-bee24509bcae" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Attribute(Floating);FallDamageMultiplier(0.0);" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_RAVEN_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b0d2df58-abfd-4b25-a80b-aa167710a43c" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_RAVEN_MOON" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="121f7656-e2af-4b49-8bc0-248a007821fd" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="c554b802-5c7e-4724-8cb3-751827057aff" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9ec19400-590f-4eee-b19b-f0f083eadbba" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_WOLF" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0fbca55age4a4g5797ga82fge26fc359b66c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_DireWolf" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="087f6eef-be8d-4070-b97d-5e261e71cb3d" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="965560da-68d2-4758-98dd-f62cce8acd61" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="af534dc7-ddf2-4175-a30d-6345779c59d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_WOLF_MOON" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9ec19400-590f-4eee-b19b-f0f083eadbba" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="a3795dc9-b898-4a9d-b3c4-945746724871" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c218d26e-60b9-438f-8bd2-5976be9f9419" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_WOLF_WHITE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9ec19400-590f-4eee-b19b-f0f083eadbba" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="3648f726-d412-49b0-bcbb-aa1dc09d35c9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b28fe10-4f39-4cdf-b762-686003e1ffce" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_WOLF_WHITE_MOON" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c218d26e-60b9-438f-8bd2-5976be9f9419" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="0302a8c3-53a0-4d8c-9fab-974cf1921f68" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="26249091-6b45-4149-b99a-276b24141b47" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_WOLF_DIRE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="965560da-68d2-4758-98dd-f62cce8acd61" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdcc80e1bg50d8g4d7egf3c5gd88613415b9a" version="1" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="4c928f84-e72e-4a10-9e15-3549f2c65dc0" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_DireWolf" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a47a3643-7604-44f0-8386-2823e7f7d792" />
+        <field name="Name" type="NameTableFieldDefinition" value="GOB_WolfPens_WILDSHAPE_BEAR" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="16c55783-dad0-4a5c-b80f-c43405a3791e" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WildShape_Dismiss);UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="98c7a193-3eca-4e95-be85-c21f47178a9f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOO_KETHERIC_APOSTLEFORM" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MOO_KETHERIC_PHASE" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(APOSTLE_AURA,100,-1);ApplyStatus(APOSTLE_VFX,100,-1);ApplyStatus(MOO_KETHERIC_APOSTLEFORM_NORMAL,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(APOSTLE_AURA_AURA);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1)" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="760f2d17-de55-4f38-83c1-279399b22096" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="74a9eb8a-aab9-4a40-810d-fb73ce2c166c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6ad2bdeag8e58g6b4fg3462g9aff44485001" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ImmutableForm" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Attribute(Grounded);ActionResourceBlock(Movement);Tag(EXTRA_ATTACK_BLOCKED);Resistance(Cold, Resistant);Resistance(Necrotic, Resistant);Resistance(Poison, Resistant);StatusImmunity(SG_Charmed);StatusImmunity(SG_Poisoned);StatusImmunity(SG_Incapacitated);StatusImmunity(SG_Polymorph);StatusImmunity(SG_Frightened);StatusImmunity(SG_Prone);StatusImmunity(PRONE);StatusImmunity(PRONE_FALLEN);StatusImmunity(PRONE_GREASE);StatusImmunity(PRONE_ICE);StatusImmunity(PRONE_SEWER);StatusImmunity(PRONE_THUNDEROUS_SMITE);StatusImmunity(SG_Sleeping);StatusImmunity(BLEEDING);StatusImmunity(GAPING_WOUND);StatusImmunity(CHEST_TRAUMA);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a571e954-d0d7-4e0b-8c99-98f48a23874a" />
+        <field name="Name" type="NameTableFieldDefinition" value="WYR_DRAGONANIMATED" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8ccd7ec2g9ed6g29bdgcacfg269b2a087595" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Poison, Immune);Resistance(Necrotic, Resistant);StatusImmunity(SG_Paralyzed);StatusImmunity(SG_Poisoned);StatusImmunity(BLEEDING);StatusImmunity(SLEEPING);StatusImmunity(GAPING_WOUND);StatusImmunity(CHEST_TRAUMA);StatusImmunity(DAZED);StatusImmunity(SG_Charmed);Tag(UNDEAD);Tag(CHASM_IMMUNE);Tag(IGNORE_CHASMS);StatusImmunity(SG_Prone);StatusImmunity(PRONE);StatusImmunity(PRONE_FALLEN);StatusImmunity(PRONE_GREASE);StatusImmunity(PRONE_ICE);StatusImmunity(PRONE_SEWER);StatusImmunity(PRONE_THUNDEROUS_SMITE);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="368935f0-4a15-4122-b101-9174dee70163" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="efda7381-8f19-4ed2-b0b6-be3dc6c7af33" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

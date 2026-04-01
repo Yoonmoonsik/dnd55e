@@ -1,0 +1,18 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+StatusApplied(_Character, "RESISTANCE_OSIRIS", _, _)
+AND
+Random(3, _Random)
+AND
+IntegerToString(_Random,_NumberString)
+AND
+Concatenate("RESISTANCE_",_NumberString,_Resistance)
+THEN
+ApplyStatus(_Character, _Resistance, 6.0);
+EXITSECTION
+
+ENDEXITSECTION

@@ -1,0 +1,117 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+StatusApplied((CHARACTER)_Player, "MAGICINITIATE_CLERIC_CANTRIP", _, _)
+AND
+GetStatusCurrentLifetime(_Player,"MAGICINITIATE_CLERIC_CANTRIP",_Duration)
+AND
+_Duration > 11.0
+THEN
+RemoveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", NULL_00000000-0000-0000-0000-000000000000);
+ApplyStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_END", -1.0, 1, _Player);
+OpenMessageBox(_Player, "Magic Initiate (Cleric): You have learned two cantrips. Well chosen.");
+
+IF
+CastedSpell((CHARACTER)_Player,"Target_BurstingSinew",_,_,_)
+AND
+HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Cleric",1)
+THEN
+ApplyStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Magic Initiate (Cleric): You have learned the selected cantrip.");
+ApplyStatus(_Player, "MAGICINITIATE_BURSTINGSINEW", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Target_Guidance",_,_,_)
+AND
+HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Cleric",1)
+THEN
+ApplyStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Magic Initiate (Cleric): You have learned the selected cantrip.");
+ApplyStatus(_Player, "MAGICINITIATE_GUIDANCE", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Target_Light",_,_,_)
+AND
+HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Cleric",1)
+THEN
+ApplyStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Magic Initiate (Cleric): You have learned the selected cantrip.");
+ApplyStatus(_Player, "MAGICINITIATE_LIGHT", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Target_Resistance",_,_,_)
+AND
+HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Cleric",1)
+THEN
+ApplyStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Magic Initiate (Cleric): You have learned the selected cantrip.");
+ApplyStatus(_Player, "MAGICINITIATE_RESISTANCE", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Target_SacredFlame",_,_,_)
+AND
+HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Cleric",1)
+THEN
+ApplyStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Magic Initiate (Cleric): You have learned the selected cantrip.");
+ApplyStatus(_Player, "MAGICINITIATE_SACREDFLAME", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Target_SpareTheDying",_,_,_)
+AND
+HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Cleric",1)
+THEN
+ApplyStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Magic Initiate (Cleric): You have learned the selected cantrip.");
+ApplyStatus(_Player, "MAGICINITIATE_SPARETHEDYING", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_Thaumaturgy",_,_,_)
+AND
+HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Cleric",1)
+THEN
+ApplyStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Magic Initiate (Cleric): You have learned the selected cantrip.");
+ApplyStatus(_Player, "MAGICINITIATE_THAUMATURGY", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Target_TollTheDead",_,_,_)
+AND
+HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Cleric",1)
+THEN
+ApplyStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Magic Initiate (Cleric): You have learned the selected cantrip.");
+ApplyStatus(_Player, "MAGICINITIATE_TOLLTHEDEAD", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_WordOfRadiance",_,_,_)
+AND
+HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Cleric",1)
+THEN
+ApplyStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Magic Initiate (Cleric): You have learned the selected cantrip.");
+ApplyStatus(_Player, "MAGICINITIATE_WORDOFRADIANCE", -1.0, 1, _Player);
+EXITSECTION
+
+ENDEXITSECTION

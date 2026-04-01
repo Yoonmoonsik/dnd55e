@@ -1,0 +1,22 @@
+function DivineSmite()
+	return SpellId('Target_Smite_Divine')
+	| SpellId('Target_Smite_Divine_2')
+	| SpellId('Target_Smite_Divine_3')
+	| SpellId('Target_Smite_Divine_4')
+	| SpellId('Target_Smite_Divine_5')
+	| SpellId('Target_Smite_Divine_6')
+end
+
+function FindSteed()
+	return SpellId('Shout_FindSteed')
+	| SpellId('Shout_FindSteed_3')
+	| SpellId('Shout_FindSteed_4')
+	| SpellId('Shout_FindSteed_5')
+	| SpellId('Shout_FindSteed_6')
+end
+
+function SteedAction()
+	return SpellId('Shout_Dash')
+	| SpellId('Shout_Disengage')
+	| SpellId('Shout_Dodge')
+end

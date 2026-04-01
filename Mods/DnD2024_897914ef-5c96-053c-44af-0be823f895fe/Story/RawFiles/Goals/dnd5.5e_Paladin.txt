@@ -1,0 +1,12 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+CastedSpell((CHARACTER)_Character,"Target_VowOfEnmity", _, _, _)
+THEN
+ApplyStatus(_Character, "VOW_OF_ENMITY_RECAST", 60.0, 0, _Character);
+EXITSECTION
+
+ENDEXITSECTION

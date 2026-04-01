@@ -1,0 +1,3 @@
+function BladeWard()
+    return (HasAnyStatus({'BLADE_WARD','MAG_BLADE_WARD','MAG_MONK_MOUNTAIN_BLADE_WARD',}, {}, {},context.Target))
+end

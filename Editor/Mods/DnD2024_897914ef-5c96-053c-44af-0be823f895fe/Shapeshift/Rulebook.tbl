@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="4a20cc05-eed3-46b0-bd19-62b9954ffd5e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0" />
+        <field name="Hp" type="ModifierTableFieldDefinition">
+          <modifier value="" type="None" />
+        </field>
+        <field name="FootstepsType" type="BoolTableFieldDefinition" value="True" />
+        <field name="Weight" type="ModifierTableFieldDefinition">
+          <modifier value="" type="Template" />
+        </field>
+        <field name="Abilities" type="ModifierListTableFieldDefinition">
+          <value>
+            <modifier value="" type="Template" />
+            <modifier value="" type="Template" />
+            <modifier value="" type="Template" />
+            <modifier value="" type="None" />
+            <modifier value="" type="None" />
+            <modifier value="" type="None" />
+          </value>
+        </field>
+        <field name="RemoveOldTags" type="BoolTableFieldDefinition" value="True" />
+        <field name="ApplyTagsFromTemplate" type="BoolTableFieldDefinition" value="True" />
+        <field name="ChangeRace" type="BoolTableFieldDefinition" value="True" />
+        <field name="ChangeBodyType" type="BoolTableFieldDefinition" value="False" />
+        <field name="ChangeAi" type="BoolTableFieldDefinition" value="True" />
+        <field name="ApplyVisual" type="BoolTableFieldDefinition" value="True" />
+        <field name="IgnoreCustomLooks" type="BoolTableFieldDefinition" value="True" />
+        <field name="RetainDisplayName" type="BoolTableFieldDefinition" value="True" />
+        <field name="ChangeIcon" type="BoolTableFieldDefinition" value="True" />
+        <field name="Scale" type="ModifierTableFieldDefinition">
+          <modifier value="" type="Template" />
+        </field>
+        <field name="MuteEquipmentSound" type="BoolTableFieldDefinition" value="True" />
+        <field name="RemovePrevSpells" type="BoolTableFieldDefinition" value="True" />
+        <field name="ApplySpellsFromTemplate" type="BoolTableFieldDefinition" value="True" />
+        <field name="UnarmedAbilityFromTemplate" type="BoolTableFieldDefinition" value="True" />
+        <field name="ActionCapabilities" type="EnumerationListTableFieldDefinition" value="Disarming;Lockpicking;Pickpocketing" enumeration_type_name="ActionsCapabilities" version="1" />
+        <field name="RuleName" type="StringTableFieldDefinition" value="WildShapeKeepName" />
+        <field name="BaseACOverride" type="BoolTableFieldDefinition" value="True" />
+        <field name="WildShapeHotBar" type="BoolTableFieldDefinition" value="True" />
+        <field name="DisableEquipmentSlots" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="acc89ec3-a77f-45bc-be5d-8e0f0d7cc68a" />
+        <field name="RuleName" type="StringTableFieldDefinition" value="WildshapeStarry" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="239de60a-29b5-4010-bf7d-f6169d4ddd8a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7f85f7e9-b500-4035-ab27-2d6741e1cdf4" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_ChainMail_Body" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="17fbd33d-6377-4ec4-b642-5c6e9b063366" />
+        <field name="ArmorClass" type="IntegerTableFieldDefinition" value="16" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="ChainMail" enumeration_type_name="ArmorType" version="1" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="HeavyArmor" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b973e3cb-c18d-4514-ba01-ebcabbf26968" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="18" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Skill,Stealth)" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyArmor_ChainMail;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="86f78c4a-2a29-42ce-8ba6-43eb5599fd6e" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Splint_Body" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="17fbd33d-6377-4ec4-b642-5c6e9b063366" />
+        <field name="ArmorClass" type="IntegerTableFieldDefinition" value="17" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Splint" enumeration_type_name="ArmorType" version="1" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="HeavyArmor" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="8ed82f7e-fdd4-4a9f-94b6-f256c599bfdd" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="19" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Skill,Stealth)" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyArmor_SplintArmor;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5a66c5af-621a-4bbd-86cb-775477536313" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Plate_Body" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="17fbd33d-6377-4ec4-b642-5c6e9b063366" />
+        <field name="ArmorClass" type="IntegerTableFieldDefinition" value="18" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Plate" enumeration_type_name="ArmorType" version="1" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="HeavyArmor" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="95b4e2c4-759a-4d33-a2d1-4e0ee6ed4f29" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="20" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Skill,Stealth)" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyArmor_PlateArmor;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="47486280-84a9-446d-a7fe-b42be16fd849" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_ChainMail_Body_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7f85f7e9-b500-4035-ab27-2d6741e1cdf4" />
+        <field name="ArmorClass" type="IntegerTableFieldDefinition" value="17" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ed7a8055-cf36-42c8-ad77-15a80d19744f" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyArmor_ChainMail;ARM_SuperiorMaterial_1_Passive;" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="4024ce6c-f02d-4d7c-8033-869ada06ef82" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a874f745-33d5-4a8f-98ae-2a9296702b6a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_ChainMail_Body_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7f85f7e9-b500-4035-ab27-2d6741e1cdf4" />
+        <field name="ArmorClass" type="IntegerTableFieldDefinition" value="18" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d8120501-e5bb-4eb1-b5cf-120b8bfd2ab2" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyArmor_ChainMail;ARM_SuperiorMaterial_2_Passive;" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f0307da3-feb7-40b0-bd62-18eea9167021" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="26abc776-8c7b-4f6e-9b24-d7ade168b33d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Splint_Body_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="86f78c4a-2a29-42ce-8ba6-43eb5599fd6e" />
+        <field name="ArmorClass" type="IntegerTableFieldDefinition" value="18" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ecfb1364-b1a0-4d0e-b82a-0becd8c291fd" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyArmor_SplintArmor;ARM_SuperiorPlate_1_Passive;" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="4024ce6c-f02d-4d7c-8033-869ada06ef82" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="16b7d39e-2648-490e-b236-a52b0f4f3312" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Splint_Body_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="86f78c4a-2a29-42ce-8ba6-43eb5599fd6e" />
+        <field name="ArmorClass" type="IntegerTableFieldDefinition" value="19" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2e8dfe32-cd6e-475b-98b5-5e2d9c42a7df" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyArmor_SplintArmor;ARM_SuperiorPlate_1_Passive;ARM_BodyAid_1_Passive;" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f0307da3-feb7-40b0-bd62-18eea9167021" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3d41d2b7-0cff-4af9-a093-3270ce65e566" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Plate_Body_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5a66c5af-621a-4bbd-86cb-775477536313" />
+        <field name="ArmorClass" type="IntegerTableFieldDefinition" value="19" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="dd905194-9a67-4c61-b26d-5b4da4725cde" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyArmor_PlateArmor;ARM_SuperiorPlate_1_Passive;" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="4024ce6c-f02d-4d7c-8033-869ada06ef82" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c14150c6-7f94-4deb-8c82-dbe4563b5ed9" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Plate_Body_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5a66c5af-621a-4bbd-86cb-775477536313" />
+        <field name="ArmorClass" type="IntegerTableFieldDefinition" value="20" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="fdb8ce53-51dc-4ccb-9e29-d1d99040e60b" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyArmor_PlateArmor;ARM_ExceptionalPlate_2_Passive;" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f0307da3-feb7-40b0-bd62-18eea9167021" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b911be81-6171-4b07-94bd-a39e12cf3f85" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Splint_Body_Dwarven" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="16b7d39e-2648-490e-b236-a52b0f4f3312" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ed0e4aee-affe-4d80-bf09-086d4515fc2f" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Skill,Stealth);Ability(Constitution, 2, 20, true)" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="240eb257-ef20-4877-89bd-6956b4b7c41a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bcf0832a-56b9-4fa6-b306-cc7b7ce4fa54" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_MeleeDebuff_AttackDebuff2_OnDamage_SplintMail" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="26abc776-8c7b-4f6e-9b24-d7ade168b33d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ea3cf349-19ab-4104-9253-8e182bdbf538" />
+        <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyArmor_SplintArmor;ARM_MagicalPlate_2_Passive;MAG_MeleeDebuff_AttackDebuff2_OnDamaged_Passive;" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="adfdafe5-f4da-4c64-a1e6-a33d626437d2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Skill,Stealth);CriticalHit(AttackTarget,Success,Never)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a1d5fbd8-0333-42c8-be74-867c901c898f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_MeleeDebuff_AttackDebuff1_OnDamage_Helmet" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c7ffe1f5-6b2b-48dd-9893-72600c9513f0" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6b1c4d55-e0d1-4b58-a26d-57d807bca488" />
+        <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="CriticalHit(AttackTarget,Success,Never);Resistance(Fire, Resistant);UnlockSpell(Target_MAG_HuntersMark_Grymskull)" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="HeavyArmor" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyArmor_PlateArmor;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="71d01550-97e1-421f-8c7f-921f01240ec9" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Paladin_RestoreChannelDivinity_Armor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5a66c5af-621a-4bbd-86cb-775477536313" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c4af39d8-628d-4791-9dc4-4446ee31e160" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Skill,Stealth);UnlockSpell(Shout_MAG_Restore_ChannelDivinity)" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="240eb257-ef20-4877-89bd-6956b4b7c41a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="34548bad-7e54-4742-8b0d-a1bc4699688f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOO_Ketheric_Armor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3d41d2b7-0cff-4af9-a093-3270ce65e566" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyArmor_PlateArmor;ARM_MagicalPlate_2_Passive;MOO_KethericArmor;" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Skill,Stealth);UnlockSpell(Shout_MOO_MAG_Ketheric_HowlOfTheDead)" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="53b3e771-5835-4703-8845-28169b836b8c" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="adfdafe5-f4da-4c64-a1e6-a33d626437d2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="78757b19-8ae4-4179-a150-096246a45390" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_ZOC_ForceConduit_ChainMail" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="47486280-84a9-446d-a7fe-b42be16fd849" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b2530a6b-1235-4f5f-b61c-d174a980bc0b" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyArmor_ChainMail;MAG_ZOC_ForceConduit_HeavyArmor_Passive;" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="240eb257-ef20-4877-89bd-6956b4b7c41a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7cd538ba-017d-4f99-bf43-e5fdb8538a4b" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Illithid_Carapace_Armor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5a66c5af-621a-4bbd-86cb-775477536313" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ee3c78be-d33b-4d1b-b433-2634a39f50aa" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyArmor_PlateArmor;MAG_Frightened_Immunity_Passive;MAG_Illithid_CarapaceArmor_Passive;" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="240eb257-ef20-4877-89bd-6956b4b7c41a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="421cff03-544d-40c8-a459-59bab1eff311" />
+        <field name="Name" type="NameTableFieldDefinition" value="TWN_AasimarSurvivor_HazmatSuit" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5a66c5af-621a-4bbd-86cb-775477536313" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Necrotic, Resistant)" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="be545ee9-311c-4ab8-ab14-fefcc552cace" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0b3d63e9-ad32-4c89-b79c-0557551cf5f9" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_EndGame_Plate_Armor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c14150c6-7f94-4deb-8c82-dbe4563b5ed9" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="fb2ff6d1-3096-4904-813c-a448e3fbec4d" />
+        <field name="StatusOnEquip" type="StringTableFieldDefinition" value="MAG_BLADE_WARD;MAG_END_GAME_RESISTANCE" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyArmor_PlateArmor;ARM_MagicalPlate_2_Passive;MAG_MAG_EndGame_Plate_Armor_Passive;" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="adfdafe5-f4da-4c64-a1e6-a33d626437d2" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="55ed102d-c3b4-4d0b-b91f-11c8176a106c" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Oathbreaker_Platemail" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3d41d2b7-0cff-4af9-a093-3270ce65e566" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c67137ac-4ece-4652-aaab-14615aa25b20" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c1aecbf1-7279-4c60-aca6-69e350b33e72" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Lesser_Infernal_Plate_Armor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3d41d2b7-0cff-4af9-a093-3270ce65e566" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d76dd47b-e1bf-4e30-b366-6069d9eb9e22" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyArmor_PlateArmor;MAG_Lesser_Infernal_Plate_Armor_FireDamage_Passive;ARM_SuperiorPlate_1_Passive;" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="240eb257-ef20-4877-89bd-6956b4b7c41a" />
+        <field name="ArmorClass" type="IntegerTableFieldDefinition" value="18" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e9c6491-aaa4-4fab-bb13-5263c52730c8" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNI_ARM_Sarevok_Armor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c14150c6-7f94-4deb-8c82-dbe4563b5ed9" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="935f9927-2df0-4a8d-a831-b7cb5bbbcae3" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyArmor_PlateArmor;ARM_MagicalPlate_2_Passive;MAG_SarevokArmor_WitheringBarrier_Passive;" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="adfdafe5-f4da-4c64-a1e6-a33d626437d2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="125ae3bd-d40b-4118-be70-ba00acd52122" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_OB_Paladin_DeathKnight_Armor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3d41d2b7-0cff-4af9-a093-3270ce65e566" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1109da0a-2d12-4ed3-a93a-fe369023ead3" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="adfdafe5-f4da-4c64-a1e6-a33d626437d2" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyArmor_PlateArmor;ARM_MagicalPlate_1_Passive;" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(SavingThrow, Wisdom); Disadvantage(Skill,Stealth)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1accb69a-e7c8-4111-92b2-95d12402964e" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNI_Ravengard_Plate" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3d41d2b7-0cff-4af9-a093-3270ce65e566" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="637f2b2f-9947-406e-b942-8b3b884172c0" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="adfdafe5-f4da-4c64-a1e6-a33d626437d2" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyArmor_PlateArmor;ARM_MagicalPlate_2_Passive;MAG_LesserFlamingDispersion_Passive;" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_MAG_FireShield_Ravengard);Disadvantage(Skill,Stealth)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

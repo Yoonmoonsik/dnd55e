@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="afc508da-dd39-4821-b0af-9955e5e2f087">
+  <stat_objects>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="20ce5e36-21ca-4d99-9957-812c36ec22c6" />
+        <field name="Name" type="NameTableFieldDefinition" value="__GENERAL FEAT__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2cd4181d-53c5-4b61-b0a1-ccdea82d4cdb" />
+        <field name="Name" type="NameTableFieldDefinition" value="INTERRUPT_DEFENSIVE_DUELIST" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ec999733-b7f6-44a6-b1d9-808ed61fe991" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AC(2);IF(CharacterLevelGreaterThan(4)):AC(1);IF(CharacterLevelGreaterThan(8)):AC(1);IF(CharacterLevelGreaterThan(11)):AC(1);" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

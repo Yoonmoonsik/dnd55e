@@ -1,0 +1,180 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+StatusApplied((CHARACTER)_Player, "SKILLED", _, _)
+AND
+GetStatusCurrentLifetime(_Player,"SKILLED",_Duration)
+AND
+_Duration > 17.0
+THEN
+RemoveStatus(_Player, "SKILLED_START", NULL_00000000-0000-0000-0000-000000000000);
+ApplyStatus(_Player, "SKILLED_END", -1.0, 1, _Player);
+OpenMessageBox(_Player, "Skilled: You have gained proficiency in three skills. Well chosen.");
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_Acrobatics",_,_,_)
+AND
+HasActiveStatus(_Player, "SKILLED_START", 1)
+THEN
+ApplyStatus(_Player, "SKILLED", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Skilled: You have gained proficiency in the selected skill.");
+ApplyStatus(_Player, "SKILLED_ACROBATICS", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_AnimalHandling",_,_,_)
+AND
+HasActiveStatus(_Player, "SKILLED_START", 1)
+THEN
+ApplyStatus(_Player, "SKILLED", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Skilled: You have gained proficiency in the selected skill.");
+ApplyStatus(_Player, "SKILLED_ANIMALHANDLING", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_Arcana",_,_,_)
+AND
+HasActiveStatus(_Player, "SKILLED_START", 1)
+THEN
+ApplyStatus(_Player, "SKILLED", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Skilled: You have gained proficiency in the selected skill.");
+ApplyStatus(_Player, "SKILLED_ARCANA", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_Athletics",_,_,_)
+AND
+HasActiveStatus(_Player, "SKILLED_START", 1)
+THEN
+ApplyStatus(_Player, "SKILLED", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Skilled: You have gained proficiency in the selected skill.");
+ApplyStatus(_Player, "SKILLED_ATHLETICS", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_Deception",_,_,_)
+AND
+HasActiveStatus(_Player, "SKILLED_START", 1)
+THEN
+ApplyStatus(_Player, "SKILLED", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Skilled: You have gained proficiency in the selected skill.");
+ApplyStatus(_Player, "SKILLED_DECEPTION", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_History",_,_,_)
+AND
+HasActiveStatus(_Player, "SKILLED_START", 1)
+THEN
+ApplyStatus(_Player, "SKILLED", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Skilled: You have gained proficiency in the selected skill.");
+ApplyStatus(_Player, "SKILLED_HISTORY", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_Insight",_,_,_)
+AND
+HasActiveStatus(_Player, "SKILLED_START", 1)
+THEN
+ApplyStatus(_Player, "SKILLED", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Skilled: You have gained proficiency in the selected skill.");
+ApplyStatus(_Player, "SKILLED_INSIGHT", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_Intimidation",_,_,_)
+AND
+HasActiveStatus(_Player, "SKILLED_START", 1)
+THEN
+ApplyStatus(_Player, "SKILLED", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Skilled: You have gained proficiency in the selected skill.");
+ApplyStatus(_Player, "SKILLED_INTIMIDATION", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_Investigation",_,_,_)
+AND
+HasActiveStatus(_Player, "SKILLED_START", 1)
+THEN
+ApplyStatus(_Player, "SKILLED", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Skilled: You have gained proficiency in the selected skill.");
+ApplyStatus(_Player, "SKILLED_INVESTIGATION", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_Medicine",_,_,_)
+AND
+HasActiveStatus(_Player, "SKILLED_START", 1)
+THEN
+ApplyStatus(_Player, "SKILLED", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Skilled: You have gained proficiency in the selected skill.");
+ApplyStatus(_Player, "SKILLED_MEDICINE", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_Nature",_,_,_)
+AND
+HasActiveStatus(_Player, "SKILLED_START", 1)
+THEN
+ApplyStatus(_Player, "SKILLED", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Skilled: You have gained proficiency in the selected skill.");
+ApplyStatus(_Player, "SKILLED_NATURE", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_Perception",_,_,_)
+AND
+HasActiveStatus(_Player, "SKILLED_START", 1)
+THEN
+ApplyStatus(_Player, "SKILLED", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Skilled: You have gained proficiency in the selected skill.");
+ApplyStatus(_Player, "SKILLED_PERCEPTION", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_Performance",_,_,_)
+AND
+HasActiveStatus(_Player, "SKILLED_START", 1)
+THEN
+ApplyStatus(_Player, "SKILLED", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Skilled: You have gained proficiency in the selected skill.");
+ApplyStatus(_Player, "SKILLED_PERFORMANCE", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_Persuasion",_,_,_)
+AND
+HasActiveStatus(_Player, "SKILLED_START", 1)
+THEN
+ApplyStatus(_Player, "SKILLED", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Skilled: You have gained proficiency in the selected skill.");
+ApplyStatus(_Player, "SKILLED_PERSUASION", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_Religion",_,_,_)
+AND
+HasActiveStatus(_Player, "SKILLED_START", 1)
+THEN
+ApplyStatus(_Player, "SKILLED", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Skilled: You have gained proficiency in the selected skill.");
+ApplyStatus(_Player, "SKILLED_RELIGION", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_SleightOfHand",_,_,_)
+AND
+HasActiveStatus(_Player, "SKILLED_START", 1)
+THEN
+ApplyStatus(_Player, "SKILLED", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Skilled: You have gained proficiency in the selected skill.");
+ApplyStatus(_Player, "SKILLED_SLEIGHTOFHAND", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_Stealth",_,_,_)
+AND
+HasActiveStatus(_Player, "SKILLED_START", 1)
+THEN
+ApplyStatus(_Player, "SKILLED", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Skilled: You have gained proficiency in the selected skill.");
+ApplyStatus(_Player, "SKILLED_STEALTH", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_Survival",_,_,_)
+AND
+HasActiveStatus(_Player, "SKILLED_START", 1)
+THEN
+ApplyStatus(_Player, "SKILLED", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Skilled: You have gained proficiency in the selected skill.");
+ApplyStatus(_Player, "SKILLED_SURVIVAL", -1.0, 1, _Player);
+EXITSECTION
+
+ENDEXITSECTION

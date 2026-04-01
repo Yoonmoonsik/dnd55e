@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="b25e092b-5372-4008-b900-a2f52b6b903b">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3465b31a-3939-405e-ae5c-0a212845f9c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="SNEAKING" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1f5ba2bd-25d9-44c1-ac25-e62f17f57dcd" />
+        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" value="SkillCheck(Skill.Stealth, 20)" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="ApplyStatus(INVISIBILITY,100,1)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
