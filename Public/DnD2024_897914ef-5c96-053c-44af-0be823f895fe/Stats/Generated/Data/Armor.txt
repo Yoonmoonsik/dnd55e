@@ -231,3 +231,314 @@ data "Boosts" "UnlockSpell(Shout_MAG_FireShield_Ravengard);Disadvantage(Skill,St
 data "PassivesOnEquip" "HeavyArmor_PlateArmor;ARM_MagicalPlate_2_Passive;MAG_LesserFlamingDispersion_Passive;"
 data "Unique" "1"
 
+new entry "__GLOVES__"
+type "Armor"
+
+new entry "MAG_Gortash_Gloves"
+type "Armor"
+using "MAG_Gortash_Gloves"
+
+new entry "DEN_RaidingParty_GoblinCaptain_Gloves"
+type "Armor"
+using "DEN_RaidingParty_GoblinCaptain_Gloves"
+
+new entry "DEN_HellridersPride"
+type "Armor"
+using "DEN_HellridersPride"
+
+new entry "PLA_ZhentCave_Gloves"
+type "Armor"
+using "PLA_ZhentCave_Gloves"
+
+new entry "MAG_Fire_ApplyBurningOnFireDamage_Gloves"
+type "Armor"
+using "MAG_Fire_ApplyBurningOnFireDamage_Gloves"
+
+new entry "UND_Myco_Alchemist_HealerGloves"
+type "Armor"
+using "UND_Myco_Alchemist_HealerGloves"
+
+new entry "MAG_LowHP_ResistanceFire_Gloves"
+type "Armor"
+using "MAG_LowHP_ResistanceFire_Gloves"
+
+new entry "MAG_Rage_TempHPOnExit_Gloves"
+type "Armor"
+using "MAG_Rage_TempHPOnExit_Gloves"
+
+new entry "MAG_Mobility_JumpOnDash_Gloves"
+type "Armor"
+using "MAG_Mobility_JumpOnDash_Gloves"
+
+new entry "MAG_ChargedLightning_AbilityCheckBoost_Gloves"
+type "Armor"
+using "MAG_ChargedLightning_AbilityCheckBoost_Gloves"
+
+new entry "MAG_Paladin_LayOnHandsSupport_Gloves"
+type "Armor"
+using "MAG_Paladin_LayOnHandsSupport_Gloves"
+
+new entry "SHA_JusticiarArmor_Gloves"
+type "Armor"
+using "SHA_JusticiarArmor_Gloves"
+
+new entry "MAG_JusticiarArmor_Gloves"
+type "Armor"
+using "MAG_JusticiarArmor_Gloves"
+
+new entry "MAG_Frost_GenerateFrostOnDamage_Gloves"
+type "Armor"
+using "MAG_Frost_GenerateFrostOnDamage_Gloves"
+
+new entry "MAG_ElementalGish_BaneOnElementalWeaponDamage_Gloves"
+type "Armor"
+using "MAG_ElementalGish_BaneOnElementalWeaponDamage_Gloves"
+
+new entry "MAG_Gish_ArcaneAcuity_Gloves"
+type "Armor"
+using "MAG_Gish_ArcaneAcuity_Gloves"
+
+new entry "MAG_Radiant_RadiatingOrb_Gloves"
+type "Armor"
+using "MAG_Radiant_RadiatingOrb_Gloves"
+
+new entry "MAG_ZOC_AdvantageOnMeleeAttackWhileSurounded_Gloves"
+type "Armor"
+using "MAG_ZOC_AdvantageOnMeleeAttackWhileSurounded_Gloves"
+
+new entry "MAG_Fire_HeatOnFireDamage_Gloves"
+type "Armor"
+using "MAG_Fire_HeatOnFireDamage_Gloves"
+
+new entry "MAG_Thunder_Reverberation_Gloves"
+type "Armor"
+using "MAG_Thunder_Reverberation_Gloves"
+
+new entry "MAG_Poison_PoisonExposure_Gloves"
+type "Armor"
+using "MAG_Poison_PoisonExposure_Gloves"
+
+new entry "MAG_Acid_NoxiousFumes_Gloves"
+type "Armor"
+using "MAG_Acid_NoxiousFumes_Gloves"
+
+new entry "MAG_CQCaster_CloseRangedSpellMastery_Gloves"
+type "Armor"
+using "MAG_CQCaster_CloseRangedSpellMastery_Gloves"
+
+new entry "MAG_Critical_Force_Gloves"
+type "Armor"
+using "MAG_Critical_Force_Gloves"
+
+new entry "MAG_Critical_ArcanicCritical_Gloves"
+type "Armor"
+using "MAG_Critical_ArcanicCritical_Gloves"
+
+new entry "MAG_Psychic_MentalFatigue_Gloves"
+type "Armor"
+using "MAG_Psychic_MentalFatigue_Gloves"
+
+new entry "MAG_FlamingFist_BattleWizardGloves"
+type "Armor"
+using "MAG_FlamingFist_BattleWizardGloves"
+
+new entry "MAG_Illithid_Carapace_Gloves"
+type "Armor"
+using "MAG_Illithid_Carapace_Gloves"
+
+new entry "MAG_Harpers_JhannylGloves"
+type "Armor"
+using "MAG_Harpers_JhannylGloves"
+
+new entry "MAG_Monk_Magic_Gloves"
+type "Armor"
+using "MAG_Monk_Magic_Gloves"
+
+new entry "MAG_Infernal_Metal_Gloves"
+type "Armor"
+using "MAG_Infernal_Metal_Gloves"
+
+new entry "MAG_Zhentarim_Lockpicking_Gloves"
+type "Armor"
+using "MAG_Zhentarim_Lockpicking_Gloves"
+
+new entry "MAG_LC_DrowSpider_Gloves"
+type "Armor"
+using "MAG_LC_DrowSpider_Gloves"
+
+new entry "MAG_LC_Tinkerer_Gloves"
+type "Armor"
+using "MAG_LC_Tinkerer_Gloves"
+
+new entry "MAG_OpenHand_Radiant_Gloves"
+type "Armor"
+using "MAG_OpenHand_Radiant_Gloves"
+
+new entry "MAG_Monk_Cold_Gloves"
+type "Armor"
+using "MAG_Monk_Cold_Gloves"
+
+new entry "MAG_Banites_Gloves"
+type "Armor"
+using "MAG_Banites_Gloves"
+
+new entry "MAG_Monk_Lightning_Gloves"
+type "Armor"
+using "MAG_Monk_Lightning_Gloves"
+
+new entry "MAG_Monk_Thunder_Gloves"
+type "Armor"
+using "MAG_Monk_Thunder_Gloves"
+
+new entry "MAG_Monk_Fire_Gloves"
+type "Armor"
+using "MAG_Monk_Fire_Gloves"
+
+new entry "MAG_Zhentarim_Demonspirit_Gloves"
+type "Armor"
+using "MAG_Zhentarim_Demonspirit_Gloves"
+
+new entry "MAG_Warlock_Twinned_Gloves"
+type "Armor"
+using "MAG_Warlock_Twinned_Gloves"
+
+new entry "MAG_Githborn_MageHandSupport_Gloves"
+type "Armor"
+using "MAG_Githborn_MageHandSupport_Gloves"
+
+new entry "MAG_Bhaalist_Gloves"
+type "Armor"
+using "MAG_Bhaalist_Gloves"
+
+new entry "UNI_ARM_OfGiantHillStrength_Gloves"
+type "Armor"
+using "UNI_ARM_OfGiantHillStrength_Gloves"
+
+new entry "MAG_Oathbreaker_Gloves"
+type "Armor"
+using "MAG_Oathbreaker_Gloves"
+
+new entry "MAG_OfAutomaton_Gloves"
+type "Armor"
+using "MAG_OfAutomaton_Gloves"
+
+new entry "MAG_Lesser_Infernal_Metal_Gloves"
+type "Armor"
+using "MAG_Lesser_Infernal_Metal_Gloves"
+
+new entry "UNI_ARM_OfMissileSnaring_Gloves"
+type "Armor"
+using "UNI_ARM_OfMissileSnaring_Gloves"
+
+new entry "UNI_ARM_OfArchery_Gloves"
+type "Armor"
+using "UNI_ARM_OfArchery_Gloves"
+
+new entry "UNI_ARM_OfDefense_Gloves"
+type "Armor"
+using "UNI_ARM_OfDefense_Gloves"
+
+new entry "MAG_Vampiric_Gloves"
+type "Armor"
+using "MAG_Vampiric_Gloves"
+
+new entry "MAG_PHB_OfThievery_Gloves"
+type "Armor"
+using "MAG_PHB_OfThievery_Gloves"
+
+new entry "MAG_PHB_OfSoulCatching_Gloves"
+type "Armor"
+using "MAG_PHB_OfSoulCatching_Gloves"
+
+new entry "MAG_Warlock_Quickened_Gloves"
+type "Armor"
+using "MAG_Warlock_Quickened_Gloves"
+
+new entry "MAG_Martial_Exertion_Gloves"
+type "Armor"
+using "MAG_Martial_Exertion_Gloves"
+
+new entry "MAG_OfSwordmaster_Gloves"
+type "Armor"
+using "MAG_OfSwordmaster_Gloves"
+
+new entry "MAG_MM_Sorcery_SeekingSpell_Gloves"
+type "Armor"
+using "MAG_MM_Sorcery_SeekingSpell_Gloves"
+
+new entry "MAG_OfWarMaster_Gloves"
+type "Armor"
+using "MAG_OfWarMaster_Gloves"
+
+new entry "MAG_BG_OfDexterity_Gloves"
+type "Armor"
+using "MAG_BG_OfDexterity_Gloves"
+
+new entry "MAG_OfTheDuelist_Gloves"
+type "Armor"
+using "MAG_OfTheDuelist_Gloves"
+
+new entry "MAG_BG_OfTheMasters_Legacy_Gauntlet"
+type "Armor"
+using "MAG_BG_OfTheMasters_Legacy_Gauntlet"
+
+new entry "MAG_BG_Wondrous_Gloves"
+type "Armor"
+using "MAG_BG_Wondrous_Gloves"
+
+new entry "MAG_BG_OfCrushing_Gloves"
+type "Armor"
+using "MAG_BG_OfCrushing_Gloves"
+
+new entry "MAG_Illithid_Carapace_Boots"
+type "Armor"
+using "MAG_Illithid_Carapace_Boots"
+
+new entry "MAG_BG_Nimblefinger_Gloves"
+type "Armor"
+using "MAG_BG_Nimblefinger_Gloves"
+
+new entry "MAG_Stalker_Gloves"
+type "Armor"
+using "MAG_Stalker_Gloves"
+
+new entry "MAG_OB_Paladin_DeathKnight_Gloves"
+type "Armor"
+using "MAG_OB_Paladin_DeathKnight_Gloves"
+
+new entry "MAG_Fighter_ActionSurge_AttackBonus_Gloves"
+type "Armor"
+using "MAG_Fighter_ActionSurge_AttackBonus_Gloves"
+
+new entry "MAG_Barbarian_BoneSpike_Gloves"
+type "Armor"
+using "MAG_Barbarian_BoneSpike_Gloves"
+
+new entry "MAG_Zhentarim_Swap_Gloves"
+type "Armor"
+using "MAG_Zhentarim_Swap_Gloves"
+
+new entry "MAG_Arcanist_Gloves"
+type "Armor"
+using "MAG_Arcanist_Gloves"
+
+new entry "MAG_OfTheBalancedHands_Gloves"
+type "Armor"
+using "MAG_OfTheBalancedHands_Gloves"
+
+new entry "MAG_OfRevivify_Gloves"
+type "Armor"
+using "MAG_OfRevivify_Gloves"
+
+new entry "MAG_Raven_Gloves"
+type "Armor"
+using "MAG_Raven_Gloves"
+
+new entry "WYR_Circus_ThiefGloves"
+type "Armor"
+using "WYR_Circus_ThiefGloves"
+
+new entry "MAG_DevilsBlackmith_Gloves"
+type "Armor"
+using "MAG_DevilsBlackmith_Gloves"
+

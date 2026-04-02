@@ -303,5 +303,550 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_MAG_FireShield_Ravengard);Disadvantage(Skill,Stealth)" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab43ffbf-069c-4c37-a712-f0754bda4795" />
+        <field name="Name" type="NameTableFieldDefinition" value="__GLOVES__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0e295fab-5923-40dd-a1b2-4c21a97c5955" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Gortash_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="aab51329-c366-4bac-ac3f-998d99114ed9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="42e0b667-735d-46ec-b8b4-39ba481fb0d2" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_RaidingParty_GoblinCaptain_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="69a06667-8b3b-4268-8735-050d065ddbde" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="799e1f08-d29c-45e3-90a4-a439226cbadf" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_HellridersPride" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3fec8d80-ec23-4bb3-aecc-209d7f8c4607" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4c743a69-b555-4349-a971-08967378dd8a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PLA_ZhentCave_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bc2c6c3d-89d1-4633-a779-09aec3bfe3b1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8a3fe828-a8ab-4704-b3ab-87b83ced10cd" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Fire_ApplyBurningOnFireDamage_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="76a97b87-c03d-4ccc-8adc-e170d0a6c671" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="affcafb9-b3d6-46d3-b5f2-74f97e65b7f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_Myco_Alchemist_HealerGloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c02b2716-db16-4a11-8f9c-a64bf4a8616b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="356827bb-f3ea-4ab1-9443-5279ee5f67f6" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_LowHP_ResistanceFire_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9e844463-261b-4c87-ab6c-6ffe048aa9be" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ba79ac2-9832-4369-a727-de92986ee74e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Rage_TempHPOnExit_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="302baa36-efb7-4b60-a914-7888b6a32a69" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ddc7d858-ce9c-4fbd-9268-c449e6894985" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Mobility_JumpOnDash_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fae57ebc-5991-4afe-9626-b5523cfb2770" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2cbce6c-9deb-4104-a37c-7c439f386a3d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_ChargedLightning_AbilityCheckBoost_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="18b8a672-1382-404f-bec9-a638c9501938" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9186c9d7-f987-44ee-8fa7-9fb259f6cfb7" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Paladin_LayOnHandsSupport_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="99d3e47a-e89e-4d72-8877-f20eec7de2ce" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4e023287-782f-4752-9528-6e398f3dbee2" />
+        <field name="Name" type="NameTableFieldDefinition" value="SHA_JusticiarArmor_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a0c54019-a8fc-49f3-9e1f-d6b8a1fb1844" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eb1dee15-8457-471d-9809-49fd0b0912c0" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_JusticiarArmor_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0469ecea-6209-4577-a261-5809cecb5e6a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c6cbc2e9-77a3-4ed8-bf76-86a2b159b5bc" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Frost_GenerateFrostOnDamage_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="aaefdf71-01fc-487d-9ecc-5e81a4bd7e78" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cd7fa38c-46e6-489b-99de-ab56ef075db2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_ElementalGish_BaneOnElementalWeaponDamage_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c649ce44-7ef7-4218-8cb1-428c5c87023d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bfdf319b-7d8f-4bc6-989a-3fb6dbde0e6f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Gish_ArcaneAcuity_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3dd541d3-9a8d-466c-abc3-80e6606b5035" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e41b1c27-928a-44af-9453-13d1b1e4a209" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Radiant_RadiatingOrb_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="18e58462-b12f-4f26-8d9a-791053428a43" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7a7fbdf9-d1c7-486c-94e1-fe1c695f7e1b" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_ZOC_AdvantageOnMeleeAttackWhileSurounded_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="15ca1f6f-93a2-4ee0-9e07-e028306b9186" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f5e08395-7bb7-437e-b654-6f32cb2b152b" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Fire_HeatOnFireDamage_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="742bd8d1-50a0-41c7-a2c8-80260256c5e8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6a2f637d-dfb2-4555-9601-df7f4b154065" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Thunder_Reverberation_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a769f35a-b736-4bc3-b42b-bcc547083331" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d1598d69-a860-4fcc-b84f-d90bc5a5d538" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Poison_PoisonExposure_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0451fdad-c1ac-40c5-acc3-ca891a12b2b0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a484a14-f7fb-4186-a633-2e0e4aca1fb4" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Acid_NoxiousFumes_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ea7ac756-b2f2-42c6-b6a0-446121385908" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6c1e6cb5-53c4-45a2-926a-06388ee042c2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_CQCaster_CloseRangedSpellMastery_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ecc99b18-1c99-4378-8b6d-b913985d938f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="038e50bb-1f36-4141-95eb-205646992c89" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Critical_Force_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ff123d06-d30e-40f1-a659-7d4d717333b3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b36df138-a86b-4758-8a6e-c7e12e3cd5af" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Critical_ArcanicCritical_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cfdee18f-fc99-497e-a97a-2102b6eaf89d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="95088b88-355b-431d-bb7c-3b013149b98b" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Psychic_MentalFatigue_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d911571e-f539-459a-8200-7ee840aa91ab" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="91080867-3608-4321-a6a6-c61a41deb460" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_FlamingFist_BattleWizardGloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a2361f45-ec45-44cf-a9ee-5efeb60cb8a9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b03394e1-0f30-4cbd-8839-088b2b8044e5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Illithid_Carapace_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8d223c0c-f196-4c83-b136-b5a0bd572d6f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2332d41b-8cfd-4f8a-8584-bcf718da02a7" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Harpers_JhannylGloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e870f49f-784f-4864-8978-2e5219a95ccb" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e0dcc184-b7af-4a0f-9486-b6778acd0dbb" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Monk_Magic_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ed463431-ad9d-42cd-af71-69a70d71d722" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="37ff77d4-8c17-436b-b650-5d9cc447f53c" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Infernal_Metal_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9d0a4c47-70da-4452-ba79-6a0f98ec71e9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3e07c74f-4f94-49ea-a56d-1bf0820a536f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Zhentarim_Lockpicking_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c8577dd-315e-41bf-8022-f3a50ca7e4b9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f827a8cb-e03b-477f-9075-f615aa7a9aef" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_LC_DrowSpider_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c5961733-d95f-42a4-abba-6ca3be02dcb8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7b4bb078-c0bf-434d-bb6b-043172a7082e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_LC_Tinkerer_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fad9bd60-6358-4c46-a97c-f9721b2ba9ea" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e384462-ab9a-4734-86c1-bd13b7256cac" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_OpenHand_Radiant_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="913972fb-ca61-4d42-83b1-500c171d3510" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bd7607cd-a3bb-44e2-8b42-fb79fa937d73" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Monk_Cold_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7536c00b-7cd6-48f5-8141-f3213626d119" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b73abaf2-9f9e-46ac-88c8-62902e51321a" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Banites_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="35145526-2ff0-4690-88cf-b0810d94d2b2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="61d012bd-263e-4c1f-9c7d-ad659c660d01" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Monk_Lightning_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2e4db587-f4aa-4d66-be51-d6c6642996e7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="34ca682f-ccc0-4aea-8bc2-24d2bfe027f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Monk_Thunder_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6ec8ccc8-f05d-4d83-9ecf-5aec9fe187b8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6cac8be1-6038-4013-a7c4-12cc9e5f4285" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Monk_Fire_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="77e1d836-dc2c-4c10-8592-d35d5def584f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5e600cd5-d416-4d53-8155-3e9ef67cf428" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Zhentarim_Demonspirit_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="407b9215-02b2-4189-b6eb-6ed6e802c25e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5315fbb4-3e52-4211-8367-0bd372a855ac" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Warlock_Twinned_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="29fc49ec-6695-4b27-a85f-377450c94c10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8c82ce73-e4f5-474a-9f4f-a9bd374b1c51" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Githborn_MageHandSupport_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cbf5ce61-bdee-4e96-ab0c-b8ef4f385131" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="52e989ee-3a2c-4213-9e0a-dd42b752bde0" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Bhaalist_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4390c9bc-b0ea-41a4-81f3-eaad580bc55a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="73764747-e535-4cff-993d-8a6acf6d564e" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNI_ARM_OfGiantHillStrength_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f8cc9d1a-915d-4f63-b875-96847b0be5e8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="06e52fb0-94b8-4f84-a052-6e4d23cb9543" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Oathbreaker_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f418d684-f91f-41a5-b25e-e245faf677e5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="450d1e5a-f8b9-46c6-80da-243814ccf440" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_OfAutomaton_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8ef7c788-f4cb-47af-96ce-180feaf8add6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bb80c8b3-e07b-458f-b1af-3585cf2ea6d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Lesser_Infernal_Metal_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="91272909-eb01-4c07-80da-a84db261f3f8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b5832f31-feb4-486b-9f7d-d73804b8b5db" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNI_ARM_OfMissileSnaring_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4b9e958f-c776-4d99-917b-ab294af83443" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b2eef022-4059-43c4-9d35-8569f31164d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNI_ARM_OfArchery_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6fa805a5-a589-4b43-86aa-083547290a13" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6576e847-8be2-4272-94f8-07f0837c70a2" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNI_ARM_OfDefense_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a4daefcf-dde1-4251-8bae-504dc7ffe20a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d5c9922b-b6c9-45b3-acb1-6b17a1a67450" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Vampiric_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5a3f1595-3a7b-4caa-b2ff-be621a2b74e6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe5b4080-4828-450a-be31-0bccf80e33e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_PHB_OfThievery_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f65a58f5-d764-4ff3-8bae-87d8e8b5c3e8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1be171a5-9d87-41ac-8018-e27d38594f5a" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_PHB_OfSoulCatching_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0640f0ad-16ca-47f9-9be3-80bd954c04ed" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="028700df-3096-410b-9e5d-d794c18aa4c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Warlock_Quickened_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6e89bb95-92bc-4ed1-bfce-305622371138" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1bf533d1-1be1-49ed-8388-acec6054422e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Martial_Exertion_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="90ef037f-3ed7-4929-a168-fb430b93b3e6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0a970d77-1560-4ae8-a603-63436425e73c" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_OfSwordmaster_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4163b2cd-7727-4ed0-b396-1d1d1b16e70f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7e35abaf-8c3d-4de3-b315-fffeaa62956f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_MM_Sorcery_SeekingSpell_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8ba4fd84-8de8-450e-825c-3f6d7cb6ac1d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="85c418f2-a04a-4ef6-9473-69eff7a05e9f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_OfWarMaster_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f31a93cb-01d5-4c78-8b9d-11eb2b0f9c90" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="363dee0a-82b0-41e3-8f7c-eb388781bd11" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BG_OfDexterity_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="05a2f765-a6ab-4d52-9b0e-05bf060eed33" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="32de4698-0781-47ce-a682-51c2de59210c" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_OfTheDuelist_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1a14f60e-12f2-47a2-bf51-1536e67d79f2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aec6ea43-5430-492a-8191-3cd55ca2ecad" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BG_OfTheMasters_Legacy_Gauntlet" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e1979d49-217e-4606-bd57-25e8476f0b88" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9264835e-bf25-4d89-aab0-1cdc7f38c189" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BG_Wondrous_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5af993a7-b521-45f4-ad0b-b5c4c2b14411" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f40b6cd2-4918-42e4-bd7a-fc1b5e339355" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BG_OfCrushing_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="722a7a0c-e4d6-4056-98f6-b7939a3af583" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="92dbc1ea-c501-4175-9ff4-c4a7cb18fb63" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Illithid_Carapace_Boots" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="38bece8f-b332-447b-b6d4-1467428a9cec" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="613692ab-7b5f-4066-9961-10bce8dd1008" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BG_Nimblefinger_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a9b02aaf-99f8-4a94-839c-11775fb90828" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0e4a0517-3cde-4eaa-97a4-17d876346551" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Stalker_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="971f9507-a010-45ed-a631-cbcdfabbcfac" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="139eccbf-5b0b-4d90-9800-bfdccff8a644" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_OB_Paladin_DeathKnight_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8571bea0-5230-462d-95ca-68d914a89420" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9ea630ab-3972-4b88-aaaa-ad879e0cab5a" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Fighter_ActionSurge_AttackBonus_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1346d776-8663-4fec-bd16-26c5ee044957" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="279c27b0-5e96-4d56-b65f-bb7643850408" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Barbarian_BoneSpike_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dbfcd0b2-e76e-4311-9c61-a5f8238b9f7a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="79d8c504-6539-4b6a-ae4d-546150988b8b" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Zhentarim_Swap_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0a54295b-6a80-4d60-baa4-3542fec8eb3a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ff42ebd5-5dbb-441f-8adc-1c9f7d9228eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Arcanist_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="03379975-01be-4a51-8be0-36e45770b9f4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0fbf5302-320b-430d-a304-8bd428b5492b" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_OfTheBalancedHands_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dc3f77b3-346a-4569-9930-98dfc1c94a7d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3591ae49-af96-4d90-8b5c-320126de0f43" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_OfRevivify_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="35eaf379-4d23-4808-b628-21e05f328be7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="57b686cd-2d2f-4f6d-8f5f-a568cb196508" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Raven_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="57709c1f-a00c-4701-bf52-b5288d912d8c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b116c478-6050-4ead-9c2f-0e22a9748418" />
+        <field name="Name" type="NameTableFieldDefinition" value="WYR_Circus_ThiefGloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="56cee01a-05e1-47fb-86db-619ed5ac90be" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a2ebe129-7c22-43c4-9623-28fd9641a345" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_DevilsBlackmith_Gloves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4cd5b815-3e7f-46ee-bf39-2effb2a6e500" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
