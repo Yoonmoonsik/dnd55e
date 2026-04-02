@@ -34,7 +34,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryCleave_10" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="21252e04-71ca-447d-91b3-7dc76b13979f" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="DealDamage(1d10, Slashing);ExecuteWeaponFunctors(MainHand);" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="3" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="2" />
         <field name="SpellRoll" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and Enemy() and not HasStatus('WEAPONMASTERY_CLEAVE_TARGET');" />
@@ -58,7 +58,7 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and Enemy();" />
         <field name="Icon" type="StringTableFieldDefinition" value="Target_OffHandAttack" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="DealDamage(max(0,OffhandMeleeWeapon), OffhandMeleeWeaponDamageType);ExecuteWeaponFunctors(OffHand);" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="0.5" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

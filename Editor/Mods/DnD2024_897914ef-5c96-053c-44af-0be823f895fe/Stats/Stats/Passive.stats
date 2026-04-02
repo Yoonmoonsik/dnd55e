@@ -182,7 +182,7 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('HasWeaponMastery_Cleave', context.Source) and AttackedWithPassiveSourceWeapon() and IsWeaponAttack();" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Cleave', context.Source) and AttackedWithPassiveSourceWeapon() and IsWeaponAttack();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:ApplyStatus(WEAPONMASTERY_CLEAVE_TARGET,100,0);TARGET:IF(Attack(AttackType.MeleeWeaponAttack)):SpawnExtraProjectiles(Projectile_WeaponMasteryCleave_10)" />
         <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Cleave', context.Source);" />
       </fields>
@@ -311,6 +311,7 @@
         <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3a51e8b8gf631gf9b1g55bdg6af9de9235ef" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleave_New" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -321,6 +322,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h0fbee9aag6abeg6294g3fd8gbeb26ffd19f6" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfdefde84gd74bg13d6g3599g34e7bc9cbafe" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Slash" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -331,6 +333,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h84f8977cg06ecg1e31gebd6g21e4b7346121" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0de5940ag21a0gff32gb8dfg01c84e54f73e" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Multiattack_WhirlwindAttack" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -342,6 +345,7 @@
         <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6fd4a879g6dd9g5936gc329gc012af72f9c6" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_PushingAttack_Ranged" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -352,6 +356,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h6846e460g6aecg1e76g52c0g8c751abe8744" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h05a1ab8cg6b39gabd2g55c7g3a1f851c31fb" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_ConcussiveSmash" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -362,6 +367,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h7773a857g54d9g0e61gc338g5671eef1378d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h53e29765gaf78g1680g5805g24b5594244ac" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_HamstringShot" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -372,6 +378,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h5af643b9gd1b7g259cg51cegf17292ec2f43" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8ab19fdega28dg1fd1g0de1gc672bac4e6d3" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Topple" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -382,6 +389,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf0019ff2g27f5g13abg7a86g646b2f8a1f55" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd724f72fgcda8gb6acgb5c4gd95d169dd0b4" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_OpeningAttack" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
