@@ -1321,7 +1321,7 @@ Bardic Damage. You can use Dexterity instead of Strength for the attack rolls of
 Speedy Recovery. You regains the maximum &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; possible when healed.</content>
   <content contentuid="h566e69efg081cg4f88g70abg51276f90b3b7" version="1">Level 2: Ritual Adept</content>
   <content contentuid="h1edea2d1ga8eeg0549g7c32g5718c99dd110" version="1">At Wizard level 2, 4, and 7, you add one Ritual spell of your choice to your spellbook, and it is always prepared.</content>
-  <content contentuid="h7e928dcfg9f9cg0dd6g966egff06f62b9e21" version="1">Level 2: Potent Cantrip</content>
+  <content contentuid="h7e928dcfg9f9cg0dd6g966egff06f62b9e21" version="2">Level 3: Potent Cantrip</content>
   <content contentuid="h480dcb8bge39dg992bgfa3bg9f0cf957ce9c" version="1">Level 6: Sculpt Spells</content>
   <content contentuid="h4df2acb8g6e7eg6b07ga5afg05bc5f965277" version="1">Level 10: Empowered Evocation</content>
   <content contentuid="haf5be1bagceecg0615g9988g0af66eb534ad" version="1">Evoker</content>
@@ -1703,8 +1703,8 @@ As a Bonus Action, you can heal yourself or one creature you can see within 60 f
   <content contentuid="h24e5006bg1411g65a8g188eg3cd830a72dbf" version="1">You have Advantage on saving throws you make to avoid or end the Charmed condition.</content>
   <content contentuid="h71c75422gccadg03e2gacb5g05a65c1f8188" version="1">Resourceful</content>
   <content contentuid="hd06d9d97g3639gb022g0e2eg25f5ab8ca49e" version="1">You gain Heroic Inspiration whenever you finish a Long Rest. If you have Heroic Inspiration, you can expend it to reroll any die immediately after rolling it.</content>
-  <content contentuid="h229c085dgef48gd2b7ga8b1g7ed5f027b17a" version="1">Heroic Inspiration: Reroll with Advantage</content>
-  <content contentuid="hac21fc5bg9d5cg705egede3g663945541420" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+  <content contentuid="h229c085dgef48gd2b7ga8b1g7ed5f027b17a" version="2">Heroic Inspiration: Reroll with Advantage (Attack Roll)</content>
+  <content contentuid="hac21fc5bg9d5cg705egede3g663945541420" version="2">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
   <content contentuid="hd3b6f9bdga558g9498gb53egf8707edcbf80" version="1">Heroic Inspiration</content>
   <content contentuid="h43bcb1b9g7661gd847g5c69g16cf92019e88" version="1">If you have Heroic Inspiration, you can expend it to reroll any die immediately after rolling it.</content>
   <content contentuid="h046f2142g4017g500fg9e5cg829c2bf7808e" version="1">Adrenaline Rush</content>
@@ -1745,4 +1745,21 @@ You can use this trait a number of times equal to your Proficiency Bonus, and yo
   <content contentuid="h99239365g1e0eg35cfgc2edg0a2bbfb668ae" version="1">The creature suffers an additional [1] from the spellcaster. It also has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
   <content contentuid="h2fccb783g0014g25e8g73fbg7879e3ab30ce" version="1">Level 10: Illusory Self</content>
   <content contentuid="hd251b05fg755bge84dgf97egf45679814510" version="1">When a creature hits you with an attack roll, you can take a Reaction to interpose an illusory duplicate of yourself between the attacker and yourself. The attack automatically misses you, then the illusion dissipates.&lt;br&gt;&lt;br&gt;Once you use this feature, you can’t use it again until you finish a Short or Long Rest. You can also restore your use of it by expending a level 2+ spell slot.</content>
+  <content contentuid="he7cabbf1ge807gac91g4abcgfb35ab2c9647" version="1">Hit Point Dice: D6</content>
+  <content contentuid="h8bfb7f80g721ag09e2gdb7dg65a174f7dcc5" version="1">You can spend Hit Dice to regain Hit Points.</content>
+  <content contentuid="h5ef2c7b9g9a55g39f5g3136gac436a7a1d84" version="1">Hit Point Dice: D8</content>
+  <content contentuid="h67791a1age70fg0b79gb82fgb57afe86a787" version="1">You can spend Hit Dice to regain Hit Points.</content>
+  <content contentuid="hc0a574f2g927fg6104gda6dg115f48564c90" version="1">Hit Point Dice: D10</content>
+  <content contentuid="h9d8184d6gf0c0ga54fg90cdgd24b60276c11" version="1">You can spend Hit Dice to regain Hit Points.</content>
+  <content contentuid="ha21b6867g8c9ag6927g327eg5540215147d3" version="1">Hit Point Dice: D12</content>
+  <content contentuid="hccd9a187g5ef0g2ac6g358dg004b907a372c" version="1">You can spend Hit Dice to regain Hit Points.</content>
+  <content contentuid="hda98b41agfc26g23d3g9dafg4d09cb0cc2d8" version="1">Use Hit Point Dice</content>
+  <content contentuid="h9a5993cagb688g4704g8ed3gd3d161fe6ef5" version="1">Use Hit Point Dice: D6</content>
+  <content contentuid="h3e687a50gd1a3g26feg6792ged6ab0a5dc00" version="1">Use Hit Point Dice: D8</content>
+  <content contentuid="h9df0d5e3gb8b4g35c0g6ef3gc428f067f2a7" version="1">Use Hit Point Dice: D10</content>
+  <content contentuid="hd6b15ae8g883dgdf02gd6abg7ee0b10eb571" version="1">Use Hit Point Dice: D12</content>
+  <content contentuid="h4fbdbfa6g8ef2g4e61g0c7bg465466a0df32" version="1">Rule: Hit Point Dice</content>
+  <content contentuid="hfd791ef7g7534g8fdcgba6ag9741c29e31d4" version="1">Your class’s description tells you the die type of your character’s Hit Point Dice (or Hit Dice for short). At level 1, your character has 1 Hit Die. You can spend Hit Dice to recover Hit Points.</content>
+  <content contentuid="hc1919180g48a0ga814g77dega72819b9d91a" version="1">Heroic Inspiration: Reroll with Advantage (Saving Throw)</content>
+  <content contentuid="h665b0831g0a27gcf47g1dafg16ce9df4ed5c" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
 </contentList>

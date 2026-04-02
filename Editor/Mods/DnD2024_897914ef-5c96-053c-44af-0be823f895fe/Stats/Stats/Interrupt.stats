@@ -652,10 +652,21 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a9cf7ecb-773f-40da-ade0-03c2b6a81c63" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_HeroicInspiration_RollAdditionalDie" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="01eed6cd-d3d1-40e1-948c-a3cdc722aed8" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h229c085dgef48gd2b7ga8b1g7ed5f027b17a" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hac21fc5bg9d5cg705egede3g663945541420" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h229c085dgef48gd2b7ga8b1g7ed5f027b17a" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hac21fc5bg9d5cg705egede3g663945541420" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Human_HeroicInspiration" />
         <field name="Cost" type="StringTableFieldDefinition" value="HeroicInspiration:1;" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not Dead(context.Observer) and (HasInterruptedAttack() and Self(context.Observer,context.Source) and IsRerollInterruptInteresting(context.Source)) and not AnyEntityIsItem()" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4fd8cdbb-fe22-4c38-955c-42a95a61ee8b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_HeroicInspiration_RollAdditionalDie_SavingThrow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a9cf7ecb-773f-40da-ade0-03c2b6a81c63" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc1919180g48a0ga814g77dega72819b9d91a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h665b0831g0a27gcf47g1dafg16ce9df4ed5c" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not Dead(context.Observer) and (HasInterruptedSavingThrow() and Self(context.Observer,context.Target) and IsRerollInterruptInteresting()) and not AnyEntityIsItem()" />
       </fields>
     </stat_object>
   </stat_objects>

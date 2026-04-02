@@ -1,6 +1,6 @@
 # [DnD 5.5e Beyond](https://github.com/Yoonmoonsik/dnd55e)
 ## Basic Rule
-- Hit Point Dice [ ]
+- Hit Point Dice
 - Spell Scroll Usage Limitation [ ]
 - Bloodied
 - Equipping Weapons

@@ -99,6 +99,14 @@
     <stat_object is_substat="true">
       <fields>
         <field name="Using" type="BaseClassTableFieldDefinition" value="7108fe85-3ece-41ab-a857-e0fcb05048a1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="58a6b6c5-939d-4c97-9559-62b03fe80b2f" />
+        <field name="Name" type="NameTableFieldDefinition" value="7108fe85-3ece-41ab-a857-e0fcb05048a1_substat_11" />
+        <field name="Spells" type="StatReferenceTableFieldDefinition" value="Shout_HitPointDice" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7108fe85-3ece-41ab-a857-e0fcb05048a1" />
         <field name="UUID" type="IdTableFieldDefinition" value="25fca0e3-90a3-4a4e-afc5-af2e889f35cb" />
         <field name="Name" type="NameTableFieldDefinition" value="7108fe85-3ece-41ab-a857-e0fcb05048a1_substat_10" />
         <field name="Spells" type="StatReferenceTableFieldDefinition" value="Target_UnarmedAttack" />

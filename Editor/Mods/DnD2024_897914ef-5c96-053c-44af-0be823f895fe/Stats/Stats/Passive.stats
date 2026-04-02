@@ -28,14 +28,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="04d36a71-fb9a-4fd3-b34a-16e83bdf196f" />
-        <field name="Name" type="NameTableFieldDefinition" value="NoDashPreload" />
-        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCombatStarted" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(DASH);RemoveStatus(DASH_STACKED);RemoveStatus(DASH_STACKED_2);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="888d891e-9067-475a-97fa-5eac1bb58326" />
         <field name="Name" type="NameTableFieldDefinition" value="OneSpellWithASpellSlotPerTurn" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="68145b69-891b-4f5f-8858-7db1b53ec127" />
@@ -45,6 +37,27 @@
         <field name="Conditions" type="StringTableFieldDefinition" value="IsSpell() and (HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot') or HasUseCosts('ShadowSpellSlot'));" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,ONE_SPELL_WITH_A_SPELL_SLOT_PER_TURN,100,1)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Magical" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a343a66e-0fc8-4c90-a4a3-bdb2d85f6706" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShortResting" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="359ef9a1-57cc-4ab0-9e44-ff99fe7e7a59" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="99999" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(1)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4fbdbfa6g8ef2g4e61g0c7bg465466a0df32" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfd791ef7g7534g8fdcgba6ag9741c29e31d4" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="HitPointDice06" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04d36a71-fb9a-4fd3-b34a-16e83bdf196f" />
+        <field name="Name" type="NameTableFieldDefinition" value="NoDashPreload" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCombatStarted" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(DASH);RemoveStatus(DASH_STACKED);RemoveStatus(DASH_STACKED_2);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3857,7 +3870,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="702ade9c-26bb-4fa3-b1e4-6be34e4434ae" />
         <field name="Name" type="NameTableFieldDefinition" value="PotentCantrip" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0980c03c-1ba2-4dd9-8201-5133f4707333" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e928dcfg9f9cg0dd6g966egff06f62b9e21" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e928dcfg9f9cg0dd6g966egff06f62b9e21" version="2" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12103" />
       </fields>
     </stat_object>
@@ -4662,7 +4675,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Human_HeroicInspiration" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HeroicInspiration,1,0);UnlockInterrupt(Interrupt_HeroicInspiration_RollAdditionalDie);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HeroicInspiration,1,0);UnlockInterrupt(Interrupt_HeroicInspiration_RollAdditionalDie);UnlockInterrupt(Interrupt_HeroicInspiration_RollAdditionalDie_SavingThrow);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
