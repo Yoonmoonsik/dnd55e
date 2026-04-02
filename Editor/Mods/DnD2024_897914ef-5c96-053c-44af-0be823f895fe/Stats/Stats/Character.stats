@@ -21,5 +21,14 @@
         <field name="ThunderResistance" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="ResistanceFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab293130-6510-4580-aef7-b9702e978f0c" />
+        <field name="Name" type="NameTableFieldDefinition" value="GLO_Baelen" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a695b43-2d29-4405-9323-cb0bd8b7bb2b" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:9;ReactionActionPoint:1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Dwarf_DwarvenResilience;AttackOfOpportunity;Darkvision;DarknessRules;Metamagic_Distant_GLO_Baelen" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

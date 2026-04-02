@@ -4685,6 +4685,14 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Attribute(Grounded);StatusImmunity(DIFFICULT_TERRAIN);StatusImmunity(DIFFICULT_TERRAIN_WEB);StatusImmunity(DIFFICULT_TERRAIN_MUD);StatusImmunity(DIFFICULT_TERRAIN_VINES);StatusImmunity(DIFFICULT_TERRAIN_OVERGROWTH);StatusImmunity(DIFFICULT_TERRAIN_LAVA);StatusImmunity(SG_Prone);StatusImmunity(PRONE);StatusImmunity(PRONE_FALLEN);StatusImmunity(PRONE_GREASE);StatusImmunity(PRONE_ICE);StatusImmunity(PRONE_SEWER);StatusImmunity(PRONE_THUNDEROUS_SMITE);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4a077cd3-2877-4e06-82b6-f50a6cbd0b70" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_HellridersPride_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0585173c-9e2b-4b77-bf7f-68a9e3942ce1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haa6b6306gc9beg2335g7d38gc8a89fd7d942" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6e19c092-a7fb-4108-a3e4-a2fb86227572" />
@@ -4725,6 +4733,19 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_AdrenalineRush);ActionResource(AdrenalineRush,2,0);IF(CharacterLevelGreaterThan(4)):ActionResource(AdrenalineRush,1,0);IF(CharacterLevelGreaterThan(8)):ActionResource(AdrenalineRush,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="487be05c-3e51-40ff-bf28-4a19d4be839f" />
+        <field name="Name" type="NameTableFieldDefinition" value="__NPC__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="78f6de1a-86d1-4d19-8863-fa2629bff2b1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Distant_GLO_Baelen" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(DistantSpellCheck(),ModifyTargetRadius(Multiplicative,2.5));" />
       </fields>
     </stat_object>
   </stat_objects>

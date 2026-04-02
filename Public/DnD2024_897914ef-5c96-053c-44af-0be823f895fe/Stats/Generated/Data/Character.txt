@@ -15,3 +15,9 @@ data "PsychicResistance" ""
 data "RadiantResistance" ""
 data "ThunderResistance" ""
 
+new entry "GLO_Baelen"
+type "Character"
+using "GLO_Baelen"
+data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:9;ReactionActionPoint:1"
+data "Passives" "Dwarf_DwarvenResilience;AttackOfOpportunity;Darkvision;DarknessRules;Metamagic_Distant_GLO_Baelen"
+
