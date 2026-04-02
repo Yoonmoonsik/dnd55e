@@ -489,6 +489,21 @@
         <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;BeguilingDefenses:1;" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="13aedb55-b324-43fd-aef3-0dbdf0f871ba" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_DarkOnesBlessings" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hde74c01eg8bb3gbf23g8416g7da16527c0d5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he0b3dcccga1b5gd89bgf47ag768a98964bc3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_DarkOnesBlessing" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnDeath" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Enemy(context.Target,context.Observer) and not DistanceToEntityGreaterThan(3, context.ObserverPosition, context.Target);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(PASSIVE_DARK_ONES_BLESSING,100,0);ApplyStatus(SELF,DARK_ONES_BLESSING,100,-1);" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c92b2f4b-211b-41c6-bc5d-4a2826de83c5" />

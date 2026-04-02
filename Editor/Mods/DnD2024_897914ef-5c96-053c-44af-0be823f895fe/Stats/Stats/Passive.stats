@@ -3729,6 +3729,37 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_CelestialResilience);" />
       </fields>
     </stat_object>
+    <stat_object color="#FF8A2BE2" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="301d5496-1477-4bec-9e35-3d212cdc8210" />
+        <field name="Name" type="NameTableFieldDefinition" value="__FIEND 11300__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="85de31e2-0148-46ee-8d81-55bbec90c33d" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkOnesBlessing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ba7e6951-6525-48eb-bfe7-57fd5db8fb2e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h10997edbg285bg8db6g0718gb2e6c09ff676" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h03df3855gb482gdaf5g11f0gbf6d6d9fbb62" version="1" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11303" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_DarkOnesBlessings);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5f67d7f8-04d3-47fd-a8bf-cc94f39a29af" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="64bc60bb-ea9f-4183-8e9b-aa1da0d4e2bc" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="eb1cbe42-0730-470a-8946-510854f7a4e2" />

@@ -373,11 +373,11 @@
 - Level 3: Healing Light
 - Level 6: Radiant Soul
 - Level 10: Celestial Resilience
-### Fiend [ ]
-- Level 3: Dark One's Blessing [ ]
+### Fiend
+- Level 3: Dark One's Blessing
 - Level 3: Fiend Spells
-- Level 6: Dark One's Own Luck [ ]
-- Level 10: Fiendish Resilience [ ]
+- Level 6: Dark One's Own Luck
+- Level 10: Fiendish Resilience
 ### Great Old One [ ]
 - Level 3: Awakened Mind [ ]
 - Level 3: Great Old One Spells

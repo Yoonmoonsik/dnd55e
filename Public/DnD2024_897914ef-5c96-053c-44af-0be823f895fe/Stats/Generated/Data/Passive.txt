@@ -2700,6 +2700,25 @@ data "PriorityOrder" "11210"
 data "Properties" "Highlighted;ForceShowInCC"
 data "Boosts" "UnlockSpell(Shout_CelestialResilience);"
 
+new entry "__FIEND 11300__"
+type "PassiveData"
+
+new entry "DarkOnesBlessing"
+type "PassiveData"
+using "DarkOnesBlessing"
+data "DisplayName" "h10997edbg285bg8db6g0718gb2e6c09ff676;1"
+data "Description" "h03df3855gb482gdaf5g11f0gbf6d6d9fbb62;1"
+data "TooltipPermanentWarnings" ""
+data "PriorityOrder" "11303"
+data "Properties" "Highlighted;ForceShowInCC"
+data "Boosts" "UnlockInterrupt(Interrupt_DarkOnesBlessings);"
+
+new entry "New_Stat_2"
+type "PassiveData"
+
+new entry "New_Stat_3"
+type "PassiveData"
+
 new entry "__WIZARD__"
 type "PassiveData"
 

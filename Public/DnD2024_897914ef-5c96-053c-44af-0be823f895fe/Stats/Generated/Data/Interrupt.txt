@@ -353,6 +353,18 @@ type "InterruptData"
 using "Interrupt_BeguilingDefenses"
 data "Cost" "ReactionActionPoint:1;BeguilingDefenses:1;"
 
+new entry "Interrupt_DarkOnesBlessings"
+type "InterruptData"
+data "DisplayName" "hde74c01eg8bb3gbf23g8416g7da16527c0d5;1"
+data "Description" "he0b3dcccga1b5gd89bgf47ag768a98964bc3;1"
+data "Icon" "PassiveFeature_DarkOnesBlessing"
+data "InterruptContext" "OnDeath"
+data "InterruptContextScope" "Nearby"
+data "Container" "YesNoDecision"
+data "Conditions" "Enemy(context.Target,context.Observer) and not DistanceToEntityGreaterThan(3, context.ObserverPosition, context.Target);"
+data "Properties" "ApplyStatus(PASSIVE_DARK_ONES_BLESSING,100,0);ApplyStatus(SELF,DARK_ONES_BLESSING,100,-1);"
+data "InterruptDefaultValue" "Enabled"
+
 new entry "__FIGHTING STYLE FEAT__"
 type "InterruptData"
 
