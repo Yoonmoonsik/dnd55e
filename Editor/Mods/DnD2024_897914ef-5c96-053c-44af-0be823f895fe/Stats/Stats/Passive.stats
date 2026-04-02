@@ -916,6 +916,30 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6549ac7-f23d-49a8-87f4-889964420720" />
+        <field name="Name" type="NameTableFieldDefinition" value="BardicInspiration_Ability" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="029c8bf4-f660-4676-a37e-0244a93c11d0" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;Temporary" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eea659ff-cabd-46d2-a0a9-c9c87d361b9a" />
+        <field name="Name" type="NameTableFieldDefinition" value="BardicInspiration_Ability_d8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ff9e0339-790e-4888-b545-d2ceec801edd" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;Temporary" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2435438-be2e-4a38-8124-54ed336438e8" />
+        <field name="Name" type="NameTableFieldDefinition" value="BardicInspiration_Ability_d10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c9854bb8-4b6c-44e8-b938-f62bcaf0bea7" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;Temporary" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="363d0195-be69-4147-9c2e-a3d48e32f8e3" />
         <field name="Name" type="NameTableFieldDefinition" value="BardicInspirationCharge" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h63129871gfb37gc314g1fdfg9b10303bcc26" version="1" />
