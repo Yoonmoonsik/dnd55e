@@ -538,6 +538,57 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="85f2a845-8650-4c71-bdbc-cbe155057a86" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ILLUSION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2c98a39c-a044-41c5-adf6-22d816ba7b18" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowBlade_Class" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="73051268-f0b9-4cb4-bac0-f7aed9958e24" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:SummonInInventory(66d6cbd5-c231-4fc4-a3b7-80f781b579f7,10,1,true,true,true,,,'ShadowBlade',SHADOW_BLADE);ApplyStatus(SELF, MAG_SHADOW_BLADE_OWNER, 100, 10);" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="703a0f36-3732-4d15-b23b-8e5388dd5fb0" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowBlade_Class_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2c11455c-3a63-4f07-a63a-32e29f9c70cb" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:SummonInInventory(66d6cbd5-c231-4fc4-a3b7-80f781b579f7,10,1,true,true,true,,,'ShadowBlade',SHADOW_BLADE,SHADOWBLADE_TECHNICAL_1);ApplyStatus(SELF, MAG_SHADOW_BLADE_OWNER, 100, 10);" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f7e0e44b-d7a2-4534-86f2-a3dc41721fd4" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowBlade_Class_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="493cd99e-67ec-440b-86e1-29fd6d30eb9f" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:SummonInInventory(66d6cbd5-c231-4fc4-a3b7-80f781b579f7,10,1,true,true,true,,,'ShadowBlade',SHADOW_BLADE,SHADOWBLADE_TECHNICAL_1);ApplyStatus(SELF, MAG_SHADOW_BLADE_OWNER, 100, 10);" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3ad97b47-4322-4039-a76d-57ebde5bac57" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowBlade_Class_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cf1023be-5ee7-41ec-ad09-c952ff2f5943" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:SummonInInventory(66d6cbd5-c231-4fc4-a3b7-80f781b579f7,10,1,true,true,true,,,'ShadowBlade',SHADOW_BLADE,SHADOWBLADE_TECHNICAL_2);ApplyStatus(SELF, MAG_SHADOW_BLADE_OWNER, 100, 10);" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="69190cd1-0b5e-4149-b3d4-7271dadc7a31" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowBlade_Class_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9f8786d1-5ab4-472d-97f3-de7218ffe9b5" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:SummonInInventory(66d6cbd5-c231-4fc4-a3b7-80f781b579f7,10,1,true,true,true,,,'ShadowBlade',SHADOW_BLADE,SHADOWBLADE_TECHNICAL_2);ApplyStatus(SELF, MAG_SHADOW_BLADE_OWNER, 100, 10);" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="725b3161-6bf5-48be-9173-8ba985a26c8c" />
         <field name="Name" type="NameTableFieldDefinition" value="__TRANSMUTATION__" />
       </fields>
