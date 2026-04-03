@@ -49,6 +49,13 @@
                     <attribute id="Type" type="FixedString" value="HighElf"/>
                     <attribute id="UUID" type="guid" value="fe1ddfe9-0d84-4114-9705-ae55ff51babd"/>
                 </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hd08ff7b2gae53g91e3g1c43g984682ce4af8" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h70590391g8a16g000bg3b85gb758c7f01fc9" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="IncreaseMaxHP(ClassLevel(Sorcerer))"/>
+                    <attribute id="ProgressionId" type="guid" value="15f581f8-b68a-46ab-b2c7-6212c7fcd83b"/>
+                    <attribute id="UUID" type="guid" value="4143bf4b-264a-474e-a3ff-3909d54df3b1"/>
+                </node>
             </children>
         </node>
     </region>

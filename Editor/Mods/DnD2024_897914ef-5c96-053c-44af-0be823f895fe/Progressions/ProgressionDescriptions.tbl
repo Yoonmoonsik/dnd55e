@@ -67,5 +67,15 @@
         <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="5fd1dfd5-b5bd-4152-a04a-87fb3faba1e9" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_252" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4143bf4b-264a-474e-a3ff-3909d54df3b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h70590391g8a16g000bg3b85gb758c7f01fc9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd08ff7b2gae53g91e3g1c43g984682ce4af8" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="IncreaseMaxHP(ClassLevel(Sorcerer))" />
+        <field name="ProgressionId" type="GuidTableFieldDefinition" value="15f581f8-b68a-46ab-b2c7-6212c7fcd83b" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
