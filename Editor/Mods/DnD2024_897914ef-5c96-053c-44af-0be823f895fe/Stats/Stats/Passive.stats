@@ -4722,6 +4722,16 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(LevelMapValue(BardicInspiration))" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8208f335-6987-4391-8a56-e4d9632ca461" />
+        <field name="Name" type="NameTableFieldDefinition" value="FOR_OwlbearCubs_Armor_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="34ae3648-61e1-4075-b1db-061ae022fc80" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h67022386g828fg30bag1c0cg215dae9c4f39" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d12,Radiant)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF((HasDamageEffectFlag(DamageFlags.Hit) or HasDamageEffectFlag(DamageFlags.Critical)) and Tagged('UNDEAD',context.Source)):DealDamage(SWAP,1d12,Radiant,Magical);IF((HasDamageEffectFlag(DamageFlags.Hit) or HasDamageEffectFlag(DamageFlags.Critical)) and Tagged('BEAST',context.Source)):ApplyStatus(SWAP,CHARMED,100,10)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6e19c092-a7fb-4108-a3e4-a2fb86227572" />

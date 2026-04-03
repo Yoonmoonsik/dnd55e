@@ -3408,6 +3408,13 @@ data "Description" "h4b3bbd82gcfdegf0b2g8843g1b27f8c2a5b8;1"
 data "DescriptionParams" "RegainHitPoints(LevelMapValue(BardicInspiration))"
 data "StatsFunctors" "RegainHitPoints(LevelMapValue(BardicInspiration))"
 
+new entry "FOR_OwlbearCubs_Armor_Passive"
+type "PassiveData"
+using "FOR_OwlbearCubs_Armor_Passive"
+data "Description" "h67022386g828fg30bag1c0cg215dae9c4f39;3"
+data "DescriptionParams" "DealDamage(1d12,Radiant)"
+data "StatsFunctors" "IF((HasDamageEffectFlag(DamageFlags.Hit) or HasDamageEffectFlag(DamageFlags.Critical)) and Tagged('UNDEAD',context.Source)):DealDamage(SWAP,1d12,Radiant,Magical);IF((HasDamageEffectFlag(DamageFlags.Hit) or HasDamageEffectFlag(DamageFlags.Critical)) and Tagged('BEAST',context.Source)):ApplyStatus(SWAP,CHARMED,100,10)"
+
 new entry "__RACE__"
 type "PassiveData"
 

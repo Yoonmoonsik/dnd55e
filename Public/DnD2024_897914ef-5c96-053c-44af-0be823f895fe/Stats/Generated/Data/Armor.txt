@@ -234,6 +234,12 @@ data "Boosts" "UnlockSpell(Shout_MAG_FireShield_Ravengard);Disadvantage(Skill,St
 data "PassivesOnEquip" "HeavyArmor_PlateArmor;ARM_MagicalPlate_2_Passive;MAG_LesserFlamingDispersion_Passive;"
 data "Unique" "1"
 
+new entry "__MEDIUM ARMOR__"
+type "Armor"
+
+new entry "New_Stat_1"
+type "Armor"
+
 new entry "__LIGHT ARMOR__"
 type "Armor"
 
