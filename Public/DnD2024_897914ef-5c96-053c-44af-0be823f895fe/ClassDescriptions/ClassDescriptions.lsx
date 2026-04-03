@@ -228,6 +228,20 @@
                     </children>
                 </node>
                 <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h3662fdcag8fe4g979eg5288g490b31f1f882" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc3053d70g9f50g8beeg6377g17705d962791" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Celestial"/>
+                    <attribute id="ParentGuid" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="26e6c591-746b-4ba2-b46b-218f3a24fb84"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Warlock"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="SpellList" type="guid" value="9bcde680-356e-445e-abdb-c21f3400648b"/>
+                    <attribute id="UUID" type="guid" value="1e077f6b-1034-43ab-b54c-5718d78e9437"/>
+                </node>
+                <node id="ClassDescription">
                     <attribute id="CanLearnSpells" type="bool" value="true"/>
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h135ef26bgf199g1ad5g7571gfe75a8983f9c" version="2"/>
@@ -241,20 +255,6 @@
                     <attribute id="SoundClassType" type="FixedString" value="Wizard"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="4"/>
                     <attribute id="UUID" type="guid" value="c059dca1-c17d-4dce-8260-83ede5070eac"/>
-                </node>
-                <node id="ClassDescription">
-                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="h3662fdcag8fe4g979eg5288g490b31f1f882" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="hc3053d70g9f50g8beeg6377g17705d962791" version="1"/>
-                    <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="Name" type="FixedString" value="Celestial"/>
-                    <attribute id="ParentGuid" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
-                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="26e6c591-746b-4ba2-b46b-218f3a24fb84"/>
-                    <attribute id="SoundClassType" type="FixedString" value="Warlock"/>
-                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
-                    <attribute id="SpellList" type="guid" value="9bcde680-356e-445e-abdb-c21f3400648b"/>
-                    <attribute id="UUID" type="guid" value="1e077f6b-1034-43ab-b54c-5718d78e9437"/>
                 </node>
             </children>
         </node>
