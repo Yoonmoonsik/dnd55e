@@ -500,7 +500,7 @@
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
         <field name="Conditions" type="StringTableFieldDefinition" value="Enemy(context.Target,context.Observer) and not DistanceToEntityGreaterThan(3, context.ObserverPosition, context.Target);" />
-        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(PASSIVE_DARK_ONES_BLESSING,100,0);ApplyStatus(SELF,DARK_ONES_BLESSING,100,-1);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(PASSIVE_DARK_ONES_BLESSING,100,0);ApplyStatus(OBSERVER_OBSERVER,DARK_ONES_BLESSING,100,-1);" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
       </fields>
     </stat_object>

@@ -364,7 +364,7 @@ data "InterruptContext" "OnDeath"
 data "InterruptContextScope" "Nearby"
 data "Container" "YesNoDecision"
 data "Conditions" "Enemy(context.Target,context.Observer) and not DistanceToEntityGreaterThan(3, context.ObserverPosition, context.Target);"
-data "Properties" "ApplyStatus(PASSIVE_DARK_ONES_BLESSING,100,0);ApplyStatus(SELF,DARK_ONES_BLESSING,100,-1);"
+data "Properties" "ApplyStatus(PASSIVE_DARK_ONES_BLESSING,100,0);ApplyStatus(OBSERVER_OBSERVER,DARK_ONES_BLESSING,100,-1);"
 data "InterruptDefaultValue" "Enabled"
 
 new entry "Interrupt_EntropicWard_3"
