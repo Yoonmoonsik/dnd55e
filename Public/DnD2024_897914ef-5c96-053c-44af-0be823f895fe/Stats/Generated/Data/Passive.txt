@@ -3401,6 +3401,13 @@ data "DescriptionParams" "GainTemporaryHitPoints(ClassLevel(Bard))"
 data "StatsFunctorContext" "OnCast;OnAttack;OnCastResolved"
 data "Conditions" "HasUseCosts('BardicInspiration');"
 
+new entry "MAG_BardicInspiration_Heal_Hat_Passive"
+type "PassiveData"
+using "MAG_BardicInspiration_Heal_Hat_Passive"
+data "Description" "h4b3bbd82gcfdegf0b2g8843g1b27f8c2a5b8;1"
+data "DescriptionParams" "RegainHitPoints(LevelMapValue(BardicInspiration))"
+data "StatsFunctors" "RegainHitPoints(LevelMapValue(BardicInspiration))"
+
 new entry "__RACE__"
 type "PassiveData"
 

@@ -4712,6 +4712,16 @@
         <field name="Conditions" type="StringTableFieldDefinition" value="HasUseCosts('BardicInspiration');" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c15d7055-82b2-4969-9487-29996a70e4df" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BardicInspiration_Heal_Hat_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="73ba08a2-01d4-4e7e-86b8-f741811b767f" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b3bbd82gcfdegf0b2g8843g1b27f8c2a5b8" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(BardicInspiration))" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(LevelMapValue(BardicInspiration))" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6e19c092-a7fb-4108-a3e4-a2fb86227572" />
