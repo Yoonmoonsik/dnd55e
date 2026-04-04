@@ -5800,6 +5800,38 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f2f7652-049a-4a27-8119-60ecacae5478" />
+        <field name="Name" type="NameTableFieldDefinition" value="LayOnHands" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="32d798cb-9fd8-4f21-aa1c-86806ef9ea9a" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;LayOnHandsCharge:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7a27baab-41c2-401e-9224-d7f02a564fda" />
+        <field name="Name" type="NameTableFieldDefinition" value="LayOnHands_BigHeal" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bb0d4dd3-f76b-4e92-8a81-547598a62044" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;LayOnHandsCharge:2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7a020dc5-268c-4eac-853c-20d75a10a8e4" />
+        <field name="Name" type="NameTableFieldDefinition" value="LayOnHands_Cure" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d43488cb-2308-4c94-ad36-d394266ef953" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;LayOnHandsCharge:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed6bb3f5-44f2-42f4-ac0b-893df61abeb6" />
+        <field name="Name" type="NameTableFieldDefinition" value="LayOnHands_SmallHeal" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4be0b495-ed71-44ed-9673-a05c73ba1ed1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;LayOnHandsCharge:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="977c1e63-bd93-4718-b228-fb62f47f530d" />
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Divine_Paladin" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="430caf04-0af1-42df-9ee2-5147da224b13" />
