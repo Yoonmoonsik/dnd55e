@@ -47,6 +47,7 @@
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
         <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Peaceful" enumeration_type_name="SpellAnimationIntentType" version="1" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_HitPointDice06;Shout_HitPointDice08;Shout_HitPointDice10;Shout_HitPointDice12;" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="!Combat" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

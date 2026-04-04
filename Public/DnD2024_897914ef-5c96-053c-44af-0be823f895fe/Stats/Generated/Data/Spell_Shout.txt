@@ -37,6 +37,7 @@ data "VerbalIntent" "Healing"
 data "SpellFlags" "IsLinkedSpellContainer"
 data "HitAnimationType" "MagicalNonDamage"
 data "SpellAnimationIntentType" "Peaceful"
+data "Requirements" "!Combat"
 
 new entry "Shout_HitPointDice06"
 type "SpellData"
