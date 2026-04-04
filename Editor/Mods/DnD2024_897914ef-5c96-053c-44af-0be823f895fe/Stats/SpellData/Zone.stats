@@ -327,22 +327,11 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="57d578a5-c9aa-4d32-903c-cce80b7356cc" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="a26e5bbe-3786-49c0-809e-267e2f10f0de" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4f4d8c51-a889-4ad9-ac20-e5719b500bb2" />
         <field name="Name" type="NameTableFieldDefinition" value="BreathWeapon_Acid" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1a0c453c-c96d-4d36-880d-4775cd7cf93b" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BreathWeapon:1;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -353,6 +342,7 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, CalculateSpellDC(Ability.Constitution, context.Source))" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BreathWeapon:1;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -361,6 +351,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="BreathWeapon_Fire_Cone" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0f4d9d05-8635-4b28-8dce-763e5edc005b" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BreathWeapon:1;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -369,6 +360,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="BreathWeapon_Fire_Line" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="332bc514-b92d-4e59-b428-9e342534b972" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BreathWeapon:1;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -377,6 +369,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="BreathWeapon_Lightning" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b30a08a4-ead3-4d68-ac87-131f840f1c3c" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BreathWeapon:1;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -387,6 +380,7 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, CalculateSpellDC(Ability.Constitution, context.Source))" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BreathWeapon:1;" />
       </fields>
     </stat_object>
   </stat_objects>
