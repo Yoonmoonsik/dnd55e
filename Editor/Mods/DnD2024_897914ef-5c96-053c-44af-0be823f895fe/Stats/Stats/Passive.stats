@@ -1821,7 +1821,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he3bdd368gcf28g40aag8743gc422e859a060" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Fighter_SecondWind" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5001" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(SecondWind,1,0)" />
       </fields>
