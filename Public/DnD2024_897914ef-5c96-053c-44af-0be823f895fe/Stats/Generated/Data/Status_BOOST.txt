@@ -2631,6 +2631,12 @@ data "Boosts" "TemporaryHP(ClassLevel(Bard));"
 data "OnApplyFunctors" "IF(IsDowned()):RegainHitPoints(1)"
 data "StatusGroups" "SG_RemoveOnRespec"
 
+new entry "MAG_PALADIN_TEMP_HP"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_PALADIN_TEMP_HP"
+data "StackId" "MAG_PALADIN_TEMP_HP"
+
 new entry "__RACE__"
 type "StatusData"
 data "StatusType" "BOOST"

@@ -1,0 +1,11 @@
+function IsSmiteSpells()
+    return
+    SpellId('Target_Smite_Branding_ZarielTiefling') | SpellId('Projectile_Smite_Branding') | SpellId('Projectile_Smite_Branding_3') | SpellId('Target_Smite_Branding') | SpellId('Target_Smite_Branding_3') | SpellId('Target_Smite_Branding_4') | SpellId('Target_Smite_Branding_5') | SpellId('Target_Smite_Branding_6')
+    | SpellId('Target_Smite_Searing_ZarielTiefling') | SpellId('Target_FOR_Smite_Searing_DeathOfATrueSoul') | SpellId('Target_UND_Smite_Searing_DuergarBlacksmithHammer') | SpellId('Target_Smite_Searing') | SpellId('Target_Smite_Searing_2') | SpellId('Target_Smite_Searing_3') | SpellId('Target_Smite_Searing_4') | SpellId('Target_Smite_Searing_5') | SpellId('Target_Smite_Searing_6')
+    | SpellId('Projectile_Smite_Banishing') | SpellId('Projectile_Smite_Banishing_4') | SpellId('Projectile_Smite_Banishing_5') | SpellId('Projectile_Smite_Banishing_6') | SpellId('Target_Smite_Banishing')
+    | SpellId('Target_Smite_Blinding')
+    | SpellId('Target_Smite_Divine') | SpellId('Target_Smite_Divine_2') | SpellId('Target_Smite_Divine_3') | SpellId('Target_Smite_Divine_4') | SpellId('Target_Smite_Divine_5') | SpellId('Target_Smite_Divine_6')
+    | SpellId('Target_Smite_Thunderous') | SpellId('Target_Smite_Thunderous_2') | SpellId('Target_Smite_Thunderous_3') | SpellId('Target_Smite_Thunderous_4') | SpellId('Target_Smite_Thunderous_5') | SpellId('Target_Smite_Thunderous_6') | SpellId('Target_MAG_ThunderousSmite')
+    | SpellId('Target_Smite_Wrathful') | SpellId('Target_Smite_Wrathful_2') | SpellId('Target_Smite_Wrathful_3') | SpellId('Target_Smite_Wrathful_4') | SpellId('Target_Smite_Wrathful_5') | SpellId('Target_Smite_Wrathful_6') | SpellId('Target_MAG_Smite_Wrathful')
+    | SpellId('Target_StaggeringSmite') | SpellId('Target_Smite_Divine_Paladin')
+end

@@ -3314,6 +3314,14 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e19e5b83-67c3-426c-84e4-b4c48521cfcd" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_PALADIN_TEMP_HP" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cde3ec7a-8057-4213-b996-294cf8ae37cf" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MAG_PALADIN_TEMP_HP" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7a06d37d-46d5-4533-83cb-ddc805c76c24" />

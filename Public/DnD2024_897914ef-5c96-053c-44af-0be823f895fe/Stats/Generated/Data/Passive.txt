@@ -3462,6 +3462,14 @@ data "Description" "h67022386g828fg30bag1c0cg215dae9c4f39;3"
 data "DescriptionParams" "DealDamage(1d12,Radiant)"
 data "StatsFunctors" "IF((HasDamageEffectFlag(DamageFlags.Hit) or HasDamageEffectFlag(DamageFlags.Critical)) and Tagged('UNDEAD',context.Source)):DealDamage(SWAP,1d12,Radiant,Magical);IF((HasDamageEffectFlag(DamageFlags.Hit) or HasDamageEffectFlag(DamageFlags.Critical)) and Tagged('BEAST',context.Source)):ApplyStatus(SWAP,CHARMED,100,10)"
 
+new entry "MAG_Paladin_SmiteSpellsSupport_Helmet_Passive"
+type "PassiveData"
+using "MAG_Paladin_SmiteSpellsSupport_Helmet_Passive"
+data "Description" "h9e1946a3g463agb8b7g75e7gd94f9c36f9f7;1"
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "IsSmiteSpells();"
+data "StatsFunctors" "ApplyStatus(SELF, MAG_PALADIN_TEMP_HP, 100, -1)"
+
 new entry "__RACE__"
 type "PassiveData"
 
