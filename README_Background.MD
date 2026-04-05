@@ -1,0 +1,40 @@
+# Character Background
+## Player's Handbook
+- Acolyte
+- Charlatan
+- Criminal
+- Entertainer
+- Farmer
+- Folk Hero
+- Guide
+- Guild Artisan
+- Haunted One
+- Hermit
+- Merchant
+- Noble
+- Outlander
+- Sage
+- Sailor
+- Scribe
+- Soldier
+- Urchin
+- Wayfarer
+## Forgotten Realms: Heroes of Faerûn
+- Chondathan Freebooter
+- Dead Magic Dweller
+- Dragon Cultist
+- Emerald Enclave Caretaker
+- Flaming Fist Mercenary
+- Genie Touched
+- Harper
+- Ice Fisher
+- Knight of the Gauntlet
+- Lords' Alliance Vassal
+- Moonwell Pilgrim
+- Mulhorandi Tomb Raider
+- Mythalkeeper
+- Purple Dragon Squire
+- Rashemi Wanderer
+- Shadowmasters Exile
+- Spellfire Initiate
+- Zhentarim Mercenary

@@ -55,6 +55,19 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a7740787-4c8e-496e-bc59-b8acdda7526a" />
+        <field name="Name" type="NameTableFieldDefinition" value="InspirationFromBackground" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2ab2a67bgf459gef48gcc42g14876f553c65" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf6c8b7d7g7a21gfa34ga88ege53492351a58" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Human_HeroicInspiration" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="99998" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(RollDieAgainstDC(DiceType.d20,11)):ApplyStatus(INSPIRATION_FROM_BACKGROUND,100,10)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="04d36a71-fb9a-4fd3-b34a-16e83bdf196f" />
         <field name="Name" type="NameTableFieldDefinition" value="NoDashPreload" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCombatStarted" enumeration_type_name="StatsFunctorContext" version="1" />
@@ -4142,18 +4155,10 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Healing" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Healer,2,0);IF(CharacterLevelGreaterThan(4)):ActionResource(Healer,1,0);IF(CharacterLevelGreaterThan(8)):ActionResource(Healer,1,0);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Healer,2,0);UnlockSpell(Target_BattleMedic);IF(CharacterLevelGreaterThan(4)):ActionResource(Healer,1,0);IF(CharacterLevelGreaterThan(8)):ActionResource(Healer,1,0);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnHeal" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HealDoneGreaterThan(0)" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(ProficiencyBonus);ApplyStatus(PASSIVE_DISCIPLE_OF_LIFE,100,0)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="811d8d1a-0c8a-4bb4-934a-b94374b1f4f8" />
-        <field name="Name" type="NameTableFieldDefinition" value="HealerSpellUnlock" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_BattleMedic);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4931,6 +4936,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h96873617g1939g4ab3g3ea5g0e3840510734" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Target_Distract'),ModifyTargetRadius(Override,9),ModifySpellFlags(Melee,0));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

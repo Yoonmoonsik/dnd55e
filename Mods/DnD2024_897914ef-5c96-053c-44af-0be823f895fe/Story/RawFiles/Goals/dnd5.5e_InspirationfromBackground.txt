@@ -1,0 +1,12 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+StatusApplied(_Player, "INSPIRATION_FROM_BACKGROUND", _, _)
+THEN
+GiveInspirationPoints((CHARACTER)_Player, 1.0, "", "");
+EXITSECTION
+
+ENDEXITSECTION

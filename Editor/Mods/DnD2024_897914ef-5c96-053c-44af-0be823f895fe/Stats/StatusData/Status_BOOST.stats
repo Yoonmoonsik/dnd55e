@@ -24,6 +24,16 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2ffd5236-4d17-4a47-a6dc-3670df813b2f" />
+        <field name="Name" type="NameTableFieldDefinition" value="INSPIRATION_FROM_BACKGROUND" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb07fe333g4275g1c07gea70g9c7c1eced411" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd5c61c76gdec1g8787g7cc4g876ca085fd07" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Human_HeroicInspiration" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INSPIRATION_FROM_BACKGROUND" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6b9dd668-c2fb-4157-a246-f41c6d8e2c39" />
         <field name="Name" type="NameTableFieldDefinition" value="HEROIC_INSPIRATION_TEMP" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hee930e39g569egbf9bgf8d4gce1dcff3b5cd" version="1" />

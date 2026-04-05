@@ -11,19 +11,7 @@
 - One Spell Slot Spell per Turn
 - Prone
 - Weapon Mastery
-## Character Background
-- Acolyte
-- Charlatan
-- Criminal
-- Entertainer
-- Folk Hero
-- Guild Artisan
-- Haunted One
-- Noble
-- Outlander
-- Sage
-- Soldier
-- Urchin
+## [Character Background](./README_Background.MD)
 ## [Class](./README_Class.MD)
 ## Common Action
 - Distract
