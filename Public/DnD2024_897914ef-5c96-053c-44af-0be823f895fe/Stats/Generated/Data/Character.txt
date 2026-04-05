@@ -21,3 +21,9 @@ using "GLO_Baelen"
 data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:9;ReactionActionPoint:1"
 data "Passives" "Dwarf_DwarvenResilience;AttackOfOpportunity;Darkvision;DarknessRules;Metamagic_Distant_GLO_Baelen"
 
+new entry "DexterityBasedUnarmedAttack"
+type "Character"
+using "HeroHumanMale"
+data "UnarmedAttackAbility" "Dexterity"
+data "UnarmedRangedAttackAbility" "Dexterity"
+

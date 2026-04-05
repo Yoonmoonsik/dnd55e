@@ -720,7 +720,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="DanceCollege"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Dance_3_DazzlingFootwork;MeleeUnarmedAttackBonus"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dance_3_DazzlingFootwork;MeleeUnarmedAttackBonus;DexterityBasedUnarmedAttack_Passive"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="300669be-c07a-42cc-85a7-f1f956e79059"/>
                     <attribute id="UUID" type="guid" value="300669be-c07a-42cc-85a7-f1f956e79059"/>
@@ -3309,7 +3309,7 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0);"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Rogue"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Rogue_3_SteadyAim;Rogue_3_SteadyAim_Throw"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Rogue_3_SteadyAim;DexterityBasedUnarmedAttack_Passive"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="9a44e828-92db-4d6c-acbc-a4f8ef340415"/>
                     <attribute id="UUID" type="guid" value="6f8d3e70-9b20-4fe0-914f-0f8f19206329"/>
@@ -5929,26 +5929,14 @@
                     <attribute id="UUID" type="guid" value="60758c3f-d9c5-4f1a-a253-cf2a5e60b627"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Name" type="LSString" value="__NPC__"/>
-                    <attribute id="UUID" type="guid" value="99597b6a-61a4-4763-85c5-ffe2e0573f7e"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="Tag(DRUID);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(Clubs);Proficiency(Daggers);Proficiency(Javelins);Proficiency(Maces);Proficiency(Quarterstaffs);Proficiency(Scimitars);Proficiency(Sickles);Proficiency(Spears)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0);Resistance(Psychic,Poison)"/>
                     <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="NPC_Druid"/>
-                    <attribute id="PassivesAdded" type="LSString" value="WildShape_TempHP_NPC"/>
-                    <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
-                    <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
-                    <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="Githyanki"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Gith_MartialProdigy"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(02686970-eb05-450f-8d17-fa1ddbea9295,,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(5216169f-6b32-4860-8664-61348d970e48);AddSpells(4d7bfb6c-5001-4a83-8728-94e3711516d3,,Intelligence,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="81e2cb57-6a12-4429-b3a5-f72549355b3b"/>
-                    <attribute id="UUID" type="guid" value="37ad7172-291b-4a05-b226-2734170fb4fa"/>
+                    <attribute id="UUID" type="guid" value="f653d537-bc14-4fea-b7d2-25734ec928a2"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
@@ -5960,14 +5948,26 @@
                     <attribute id="UUID" type="guid" value="851880cb-3b5d-4129-9b25-3bb17d849f87"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0);Resistance(Psychic,Poison)"/>
-                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
+                    <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="Githyanki"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Gith_MartialProdigy"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(5216169f-6b32-4860-8664-61348d970e48);AddSpells(4d7bfb6c-5001-4a83-8728-94e3711516d3,,Intelligence,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(02686970-eb05-450f-8d17-fa1ddbea9295,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="81e2cb57-6a12-4429-b3a5-f72549355b3b"/>
-                    <attribute id="UUID" type="guid" value="f653d537-bc14-4fea-b7d2-25734ec928a2"/>
+                    <attribute id="UUID" type="guid" value="37ad7172-291b-4a05-b226-2734170fb4fa"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Name" type="LSString" value="__NPC__"/>
+                    <attribute id="UUID" type="guid" value="99597b6a-61a4-4763-85c5-ffe2e0573f7e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="Tag(DRUID);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(Clubs);Proficiency(Daggers);Proficiency(Javelins);Proficiency(Maces);Proficiency(Quarterstaffs);Proficiency(Scimitars);Proficiency(Sickles);Proficiency(Spears)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="NPC_Druid"/>
+                    <attribute id="PassivesAdded" type="LSString" value="WildShape_TempHP_NPC"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
+                    <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
                 </node>
             </children>
         </node>

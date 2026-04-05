@@ -30,5 +30,14 @@
         <field name="Passives" type="StringTableFieldDefinition" value="Dwarf_DwarvenResilience;AttackOfOpportunity;Darkvision;DarknessRules;Metamagic_Distant_GLO_Baelen" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6b7dddb0-6892-46b9-8faa-ab3896088d20" />
+        <field name="Name" type="NameTableFieldDefinition" value="DexterityBasedUnarmedAttack" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b0556939-ba3e-409d-8ccb-ce9df9917af9" />
+        <field name="UnarmedAttackAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="UnarmedRangedAttackAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

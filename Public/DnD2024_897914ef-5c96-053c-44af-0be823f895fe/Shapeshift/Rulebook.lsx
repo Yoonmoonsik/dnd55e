@@ -95,6 +95,11 @@
                     <attribute id="RuleName" type="LSString" value="WildshapeStarry"/>
                     <attribute id="UUID" type="guid" value="acc89ec3-a77f-45bc-be5d-8e0f0d7cc68a"/>
                 </node>
+                <node id="Rule">
+                    <attribute id="RuleName" type="LSString" value="DexterityBasedUnarmedAttack"/>
+                    <attribute id="UUID" type="guid" value="e82210e0-9c35-4f64-b93e-937ca3b97ca9"/>
+                    <attribute id="UnarmedAbilityFromTemplate" type="bool" value="true"/>
+                </node>
             </children>
         </node>
     </region>

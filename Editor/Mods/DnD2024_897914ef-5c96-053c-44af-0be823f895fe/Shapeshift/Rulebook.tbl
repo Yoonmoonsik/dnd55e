@@ -52,5 +52,13 @@
         <field name="RuleName" type="StringTableFieldDefinition" value="WildshapeStarry" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e82210e0-9c35-4f64-b93e-937ca3b97ca9" />
+        <field name="RuleName" type="StringTableFieldDefinition" value="DexterityBasedUnarmedAttack" />
+        <field name="UnarmedAbilityFromTemplate" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -122,6 +122,16 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(MeleeUnarmedAttack,ProficiencyBonus/2);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="565a6524-fb21-4df0-8ca3-80531c306e11" />
+        <field name="Name" type="NameTableFieldDefinition" value="DexterityBasedUnarmedAttack_Passive" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9003" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnLongRest;OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,DEXTERITY_BASED_UNARMED_ATTACK,100,-1)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9daae7da-e5d9-4b0e-943b-ad63b909e1c1" />
@@ -1088,8 +1098,7 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2403" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="BoostConditions" type="StringTableFieldDefinition" value="not WearingArmor(context.Source) and not HasShieldEquipped(context.Source)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Skill, Performance)UnlockSpell(Target_AgileStrike);IF(not WearingArmor(context.Source) and not HasShieldEquipped(context.Source)):ACOverrideFormula(10,true,Dexterity,Charisma);IF(not WearingArmor(context.Source) and not HasShieldEquipped(context.Source) and MeleeUnarmed()):MonkWeaponAttackOverride();IF(not WearingArmor(context.Source) and not HasShieldEquipped(context.Source) and MeleeUnarmed()):MonkWeaponDamageDiceOverride(LevelMapValue(BardicInspiration));" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Skill, Performance);UnlockSpell(Target_AgileStrike);IF(not WearingArmor(context.Source) and not HasShieldEquipped(context.Source)):ACOverrideFormula(10,true,Dexterity,Charisma);CharacterUnarmedDamage(LevelMapValue(BardicInspiration));" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasUseCosts('BardicInspiration');" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,AGILE_STRIKE,100,1)" />
@@ -2755,17 +2764,6 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9003" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SteadyAim);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="565a6524-fb21-4df0-8ca3-80531c306e11" />
-        <field name="Name" type="NameTableFieldDefinition" value="Rogue_3_SteadyAim_Throw" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9003" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="BoostConditions" type="StringTableFieldDefinition" value="IsWeaponOfProficiencyGroup('Daggers|Shortswords|Scimitars', GetActiveWeapon());" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="MonkWeaponAttackOverride();" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
