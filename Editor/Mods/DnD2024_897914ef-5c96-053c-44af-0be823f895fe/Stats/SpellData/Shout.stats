@@ -2252,6 +2252,24 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b73580fe-4ac1-4a62-b681-0fed22e0e7b5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shield_Dummy" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="92ca505f-4c09-47e7-b83c-37cefaa9a3ca" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SHIELD,100,1);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Radiant_Gen_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Radiant_Gen_L1to3_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_BladeWard_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Buff_BladeWard_L1to3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+        <field name="InterruptPrototype" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a9079b4e-65e8-4b23-a7f7-c7907ef0ace6" />
         <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Cleric_Spell" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1d3388f0-3d3d-4bdf-8bf5-fd9a6b22e86b" />
@@ -2275,7 +2293,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a31d6179-c93f-4153-9ac5-dcdba4879811" />
         <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_Spell" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5fa7a877-3096-40a2-9d25-3f37c0fa4db6" />
-        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb_Acid;Projectile_ChromaticOrb_Cold;Projectile_ChromaticOrb_Fire;Projectile_ChromaticOrb_Lightning;Projectile_ChromaticOrb_Poison;Projectile_ChromaticOrb_Thunder;Zone_ColorSpray;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar_Cat;Target_FindFamiliar_Crab;Target_FindFamiliar_Frog;Target_FindFamiliar_Rat;Target_FindFamiliar_Raven;Target_FindFamiliar_Spider;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Target_Sleep;Target_HideousLaughter;Zone_Thunderwave;Projectile_WitchBolt;" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Zone_BurningHands;Target_CharmPerson;Projectile_ChromaticOrb_Acid;Projectile_ChromaticOrb_Cold;Projectile_ChromaticOrb_Fire;Projectile_ChromaticOrb_Lightning;Projectile_ChromaticOrb_Poison;Projectile_ChromaticOrb_Thunder;Zone_ColorSpray;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar_Cat;Target_FindFamiliar_Crab;Target_FindFamiliar_Frog;Target_FindFamiliar_Rat;Target_FindFamiliar_Raven;Target_FindFamiliar_Spider;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Shout_Shield_Dummy;Target_Sleep;Shield_Dummy;Target_HideousLaughter;Zone_Thunderwave;Projectile_WitchBolt;" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc6335af1g4129g0308g8518g3cb980ec4a55" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hffa4fb6cg516eg4f17g0656geecaebcd5045" version="2" />
       </fields>

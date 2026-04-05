@@ -312,7 +312,7 @@ OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected 
 ApplyStatus(_Player, "MAGICINITIATE_RAYOFSICKNESS", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Shout_Shield_Wizard",_,_,_)
+CastedSpell((CHARACTER)_Player,"Shout_Shield_Dummy",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND

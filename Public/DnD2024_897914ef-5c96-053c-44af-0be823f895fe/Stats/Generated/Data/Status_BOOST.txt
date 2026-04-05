@@ -2449,6 +2449,13 @@ using "MAGICINITIATE_ACIDSPLASH"
 data "StackId" "MAGICINITIATE_SANCTUARY"
 data "Boosts" "UnlockSpell(Target_Sanctuary,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);"
 
+new entry "MAGICINITIATE_SHIELD"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAGICINITIATE_ACIDSPLASH"
+data "StackId" "MAGICINITIATE_SHIELD"
+data "Boosts" "UnlockSpell(Shout_Shield_Wizard,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);"
+
 new entry "MAGICINITIATE_SHIELDOFFAITH"
 type "StatusData"
 data "StatusType" "BOOST"
