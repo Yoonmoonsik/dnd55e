@@ -1308,6 +1308,7 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="bd2fc245-5645-452f-a2cd-d158b751bbe4" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="c34b836f-ac14-4222-8e32-bdb4d1c0f504" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="IF(HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D6Cantrip)/2,Psychic);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1317,6 +1318,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="ff31b0b2-53f7-4147-adba-c3e63dbe62f9" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(VICIOUSMOCKERY,100,1);DealDamage(LevelMapValue(D6Cantrip),Psychic,Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Psychic)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="IF(HasPassive('PotentCantrip',context.Source)):DealDamage((LevelMapValue(D6Cantrip))/2,Psychic,Magical), IF(not HasPassive('PotentCantrip',context.Source)):ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL,100,0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1326,6 +1328,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="1798e677-9428-43f8-a29d-e78c51926a2a" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(VICIOUSMOCKERY,100,1);DealDamage(LevelMapValue(D6Cantrip),Psychic,Magical);ApplyStatus(SELF,SWASHBUCKLER_ADV,100,2);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Psychic)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="IF(HasPassive('PotentCantrip',context.Source)):DealDamage((LevelMapValue(D6Cantrip))/2,Psychic,Magical), IF(not HasPassive('PotentCantrip',context.Source)):ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL,100,0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2446,6 +2449,14 @@
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="54865f83-afeb-4900-a7da-25b89e70d296" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShockingGrasp" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4d5442cc-62cb-49f0-8e01-a5a90ff09f0c" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="IF(HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D8Cantrip),Lightning,Magical);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a5d5dbd2-4a39-4c01-bb0d-5f868adc2db5" />
@@ -3262,6 +3273,7 @@
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeSpellAttack)" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CHILL_TOUCH,100,1);DealDamage(LevelMapValue(D10Cantrip), Necrotic,Magical);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D10Cantrip), Necrotic)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="IF(HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D10Cantrip), Necrotic,Magical);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
