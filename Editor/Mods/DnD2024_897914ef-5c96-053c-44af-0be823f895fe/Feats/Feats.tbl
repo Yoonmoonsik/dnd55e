@@ -588,5 +588,121 @@
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="ZhentarimRuffian" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_67" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c1eece42-0a28-4c4b-800d-7c378eb1cf17" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="FRHOF_GENERAL_FEAT" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="FeatRequirementAbilityGreaterEqual('Charisma',100)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_68" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0ffdc323-8a42-4d1d-84b8-bf4997918bf9" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="ColdCaster" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ColdCaster" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_69" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d5f64547-82ed-4b24-8ae6-e69c3e7519c6" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Dragonscarred" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Dragonscarred" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(1baa6c04-8cd1-4049-bdad-4bed4abbf461,1,1,CON_CHA);SelectPassives(0f3b7196-cad8-424f-a5c6-082879221f36,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_70" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fd17c873-ed49-48a7-b757-a057e68efcd9" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="EnclaveMagic" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="EnclaveMagic" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_71" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3477234e-6bed-4fac-9201-63e48a286aca" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="FairyTrickster" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="FairyTrickster" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(ed9b9504-0b9e-491b-83c2-8eb12888b3a1,1,1,DEX_CHA)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_72" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c1ca1854-00af-4ef2-8e98-615b6fdf1a4f" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="GenieMagic" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="GenieMagic" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_73" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6552e7c3-701f-41f0-ad04-dfe27a01a6ba" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="HarperTeamwork" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="HarperTeamwork" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(ed9b9504-0b9e-491b-83c2-8eb12888b3a1,1,1,DEX_CHA)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_74" />
+        <field name="UUID" type="IdTableFieldDefinition" value="517d59f8-340e-4123-91f0-d67f7dd78097" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="LordlyResolve" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="LordlyResolve" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(1013e678-c264-4563-850c-4d590a2fc071,1,1,STR_CHA)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_75" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9f038fd8-6641-4803-9e09-8508db8e20b3" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="MythalTouched" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="MythalTouched" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_76" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cd4048c8-09b5-48b3-9c85-fe42790ac454" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="OrdersResilience" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="OrdersResilience" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(625c82c2-9b61-4a92-870e-f399190f910e,1,1,STR_WIS_CHA);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_77" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dbe1a4dc-2883-4f34-869c-2ca23f736475" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="PurpleDragonCommandant" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="PurpleDragonCommandant" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_78" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fc1fb2ea-675a-4e23-95eb-2f82c20446f6" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="SpellfireAdept" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SpellfireAdept" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_79" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cbd956c2-755d-4de6-97de-664ce7c31650" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="ZhentarimTactics" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ZhentarimTactics" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(ed9b9504-0b9e-491b-83c2-8eb12888b3a1,1,1,DEX_CHA);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,1)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

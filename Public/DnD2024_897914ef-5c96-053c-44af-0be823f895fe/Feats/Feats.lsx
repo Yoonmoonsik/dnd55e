@@ -390,6 +390,83 @@
                     <attribute id="PassivesAdded" type="LSString" value="ZhentarimRuffian"/>
                     <attribute id="UUID" type="guid" value="ad0e0884-9af9-4dea-b497-d4394ca68903"/>
                 </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="FRHOF_GENERAL_FEAT"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual(&apos;Charisma&apos;,100)"/>
+                    <attribute id="UUID" type="guid" value="c1eece42-0a28-4c4b-800d-7c378eb1cf17"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="ColdCaster"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ColdCaster"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);"/>
+                    <attribute id="UUID" type="guid" value="0ffdc323-8a42-4d1d-84b8-bf4997918bf9"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Dragonscarred"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dragonscarred"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(1baa6c04-8cd1-4049-bdad-4bed4abbf461,1,1,CON_CHA);SelectPassives(0f3b7196-cad8-424f-a5c6-082879221f36,1)"/>
+                    <attribute id="UUID" type="guid" value="d5f64547-82ed-4b24-8ae6-e69c3e7519c6"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="EnclaveMagic"/>
+                    <attribute id="PassivesAdded" type="LSString" value="EnclaveMagic"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);"/>
+                    <attribute id="UUID" type="guid" value="fd17c873-ed49-48a7-b757-a057e68efcd9"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="FairyTrickster"/>
+                    <attribute id="PassivesAdded" type="LSString" value="FairyTrickster"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(ed9b9504-0b9e-491b-83c2-8eb12888b3a1,1,1,DEX_CHA)"/>
+                    <attribute id="UUID" type="guid" value="3477234e-6bed-4fac-9201-63e48a286aca"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="GenieMagic"/>
+                    <attribute id="PassivesAdded" type="LSString" value="GenieMagic"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);"/>
+                    <attribute id="UUID" type="guid" value="c1ca1854-00af-4ef2-8e98-615b6fdf1a4f"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="HarperTeamwork"/>
+                    <attribute id="PassivesAdded" type="LSString" value="HarperTeamwork"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(ed9b9504-0b9e-491b-83c2-8eb12888b3a1,1,1,DEX_CHA)"/>
+                    <attribute id="UUID" type="guid" value="6552e7c3-701f-41f0-ad04-dfe27a01a6ba"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="LordlyResolve"/>
+                    <attribute id="PassivesAdded" type="LSString" value="LordlyResolve"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(1013e678-c264-4563-850c-4d590a2fc071,1,1,STR_CHA)"/>
+                    <attribute id="UUID" type="guid" value="517d59f8-340e-4123-91f0-d67f7dd78097"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="MythalTouched"/>
+                    <attribute id="PassivesAdded" type="LSString" value="MythalTouched"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);"/>
+                    <attribute id="UUID" type="guid" value="9f038fd8-6641-4803-9e09-8508db8e20b3"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="OrdersResilience"/>
+                    <attribute id="PassivesAdded" type="LSString" value="OrdersResilience"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(625c82c2-9b61-4a92-870e-f399190f910e,1,1,STR_WIS_CHA);"/>
+                    <attribute id="UUID" type="guid" value="cd4048c8-09b5-48b3-9c85-fe42790ac454"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="PurpleDragonCommandant"/>
+                    <attribute id="PassivesAdded" type="LSString" value="PurpleDragonCommandant"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)"/>
+                    <attribute id="UUID" type="guid" value="dbe1a4dc-2883-4f34-869c-2ca23f736475"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="SpellfireAdept"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SpellfireAdept"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);"/>
+                    <attribute id="UUID" type="guid" value="fc1fb2ea-675a-4e23-95eb-2f82c20446f6"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="ZhentarimTactics"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ZhentarimTactics"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(ed9b9504-0b9e-491b-83c2-8eb12888b3a1,1,1,DEX_CHA);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,1)"/>
+                    <attribute id="UUID" type="guid" value="cbd956c2-755d-4de6-97de-664ce7c31650"/>
+                </node>
             </children>
         </node>
     </region>

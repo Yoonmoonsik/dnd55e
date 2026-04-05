@@ -11,6 +11,13 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fc6d935a-1a2e-405e-bb92-373b38a9c668" />
+        <field name="Name" type="NameTableFieldDefinition" value="DISTRACTED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="942bd505-0e28-4bea-996a-8e40da0d0237" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e958d50e-3cdd-4599-b5f6-c99c6b423f4a" />
         <field name="Name" type="NameTableFieldDefinition" value="ONE_SPELL_WITH_A_SPELL_SLOT_PER_TURN" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4d9f934eg7721gfb63gcff8gb411e659dc78" version="1" />
@@ -96,6 +103,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8010ca64-7309-453d-95bb-7b7e48a6e867" />
+        <field name="Name" type="NameTableFieldDefinition" value="DISENGAGE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ec8273bd-c522-49c3-b0bf-c2b833c549eb" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreLeaveAttackRange();IF(HasPassive('FairyTrickster',context.Source)):StatusImmunity(DIFFICULT_TERRAIN);IF(HasPassive('FairyTrickster',context.Source)):StatusImmunity(DIFFICULT_TERRAIN_MUD);IF(HasPassive('FairyTrickster',context.Source)):StatusImmunity(DIFFICULT_TERRAIN_VINES);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="07113431-0704-4d72-b41b-86d8a3a0071b" />
         <field name="Name" type="NameTableFieldDefinition" value="MAG_UNMOVABLE" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6e88b225-23a2-42f0-8abc-4783cfc71ba3" />
@@ -141,6 +156,30 @@
         <field name="Name" type="NameTableFieldDefinition" value="GOADING_ATTACK" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0443e394-3de0-45f2-a922-d266e101611c" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="LoseControl;OverheadOnTurn;LoseControlFriendly;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="16999899-6a9a-4d5a-b44d-387d5cc502cd" />
+        <field name="Name" type="NameTableFieldDefinition" value="DISADVANTAGE_ALL_SAVINGTHROW" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8b2a4760g816bg9df8ge286g6fbe1c2b0bcd" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Debuff" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="WEAK" enumeration_type_name="SoundVocalType" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="DISADVANTAGE_ALL_SAVINGTHROW" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AllSavingThrows);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0b3f1e0c-c437-48c9-ad7f-c801760a12c2" />
+        <field name="Name" type="NameTableFieldDefinition" value="DISADVANTAGE_ALL_SAVINGTHROW_START_TURN" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="16999899-6a9a-4d5a-b44d-387d5cc502cd" />
+        <field name="StackId" type="StringTableFieldDefinition" value="DISADVANTAGE_ALL_SAVINGTHROW_START_TURN" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -574,10 +613,18 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bf7f8e54-e294-4368-a4b6-ce625295d345" />
+        <field name="Name" type="NameTableFieldDefinition" value="BANE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ffcef28f-c270-4e59-9f7f-b39e0fcad34d" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;BringIntoCombat;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f4cb13fa-cc17-4ac3-a182-716b99461f3e" />
         <field name="Name" type="NameTableFieldDefinition" value="CROWN_OF_MADNESS" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="bb5cb102-77f5-4f12-b2f9-728b94f11f1f" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="StatusDurationLessThan(context.Target,'CROWN_OF_MADNESS',10) and SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnCharmed())" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="LoseControl;OverheadOnTurn;InitiateCombat;BringIntoCombat;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -604,7 +651,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="bb845123-372d-4ce1-8956-d350a97d8357" />
         <field name="Name" type="NameTableFieldDefinition" value="DOMINATE_BEAST" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="22e5714c-c13b-4957-9eb9-906ae38ba0a2" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="StatusDurationLessThan(context.Target,'DOMINATE_BEAST',10) and SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnCharmed())" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="LoseControl;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -612,7 +659,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="620bd8d0-6e3e-415e-b761-6c5e1657b4f3" />
         <field name="Name" type="NameTableFieldDefinition" value="DOMINATE_PERSON" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="54821fa4-01b2-4e7d-912a-581f1aa4a16b" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="StatusDurationLessThan(context.Target,'DOMINATE_PERSON',10) and SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnCharmed())" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="LoseControl;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -3377,8 +3424,8 @@
         <field name="StackId" type="StringTableFieldDefinition" value="STAND_AS_ONE" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="10" />
         <field name="AuraRadius" type="IntegerTableFieldDefinition" value="2" />
-        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(Ally() and not Tagged('INANIMATE')):ApplyStatus(STAND_AS_ONE_BUFF)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Attribute(Grounded);ActionResourceBlock(ReactionActionPoint);" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(Ally() and not Tagged('INANIMATE')):ApplyStatus(STAND_AS_ONE_BUFF);IF(HasPassive('OrdersResilience',context.Source) and Ally() and not Tagged('INANIMATE')):ApplyStatus(STAND_AS_ONE_BUFF_2)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Attribute(Grounded);ActionResourceBlock(ReactionActionPoint);IF(HasPassive('OrdersResilience',context.Source)):StatusImmunity(SG_Prone);IF(HasPassive('OrdersResilience',context.Source)):StatusImmunity(PRONE);IF(HasPassive('OrdersResilience',context.Source)):StatusImmunity(PRONE_FALLEN);IF(HasPassive('OrdersResilience',context.Source)):StatusImmunity(PRONE_GREASE);IF(HasPassive('OrdersResilience',context.Source)):StatusImmunity(PRONE_ICE);IF(HasPassive('OrdersResilience',context.Source)):StatusImmunity(PRONE_SEWER);IF(HasPassive('OrdersResilience',context.Source)):StatusImmunity(PRONE_THUNDEROUS_SMITE);IF(HasPassive('OrdersResilience',context.Source)):Advantage(SavingThrow,Strength);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3387,9 +3434,22 @@
         <field name="Name" type="NameTableFieldDefinition" value="STAND_AS_ONE_BUFF" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e8b8b4ff-1fb2-4f8e-86cb-9c07de447290" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8a6c93d3gcdf4g613agfc21g4b2eb3d82a7e" version="1" />
-        <field name="StackId" type="StringTableFieldDefinition" value="STAND_AS_ONE" />
+        <field name="StackId" type="StringTableFieldDefinition" value="STAND_AS_ONE_BUFF" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="5" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Attribute(Grounded);" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2c50ed5c-9ab1-48ed-a636-0cc472c0146a" />
+        <field name="Name" type="NameTableFieldDefinition" value="STAND_AS_ONE_BUFF_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ecb5a9d5-2827-463c-a8b3-5b36ca64dcb8" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5d1b146eg0fd5g7577gcd29g2497b1c1beae" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7f09b2d2g5ce4g617bgbbb7gae4f47ac82af" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="STAND_AS_ONE_BUFF_2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Prone);StatusImmunity(PRONE);StatusImmunity(PRONE_FALLEN);StatusImmunity(PRONE_GREASE);StatusImmunity(PRONE_ICE);StatusImmunity(PRONE_SEWER);StatusImmunity(PRONE_THUNDEROUS_SMITE);Advantage(SavingThrow,Strength);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3400,6 +3460,17 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h45c64306g0c10g4b75g2a61ga03cdc9f028f" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Threat" />
         <field name="StackId" type="StringTableFieldDefinition" value="FAMILY_FIRST" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c23f9e5f-2364-4e2c-989e-fc50fd47acba" />
+        <field name="Name" type="NameTableFieldDefinition" value="ENCOURAGE_ALLY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3991b5d7-47c8-419c-8039-598fffe460b8" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h84f4adf1gf6eag1710g1245gca69206d05fe" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2287dbd5gd1ffga56ag677eg771e23ed7f4c" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ENCOURAGE_ALLY" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(2d6+Cause.ProficiencyBonus);" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

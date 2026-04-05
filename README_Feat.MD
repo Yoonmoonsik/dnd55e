@@ -87,3 +87,15 @@
 - Tyro of the Gauntlet
 - Zhentarim Ruffian
 ### General Feat
+- Cold Caster
+- Dragonscarred
+- Enclave Magic
+- Fairy Trickster
+- Genie Magic
+- Harper Teamwork
+- Lordly Resolve
+- Mythal Touched
+- Order’s Resilience
+- Purple Dragon Commandant
+- Spellfire Adept
+- Zhentarim Tactics

@@ -2,5 +2,7 @@ new entry "SLEEP"
 type "StatusData"
 data "StatusType" "INCAPACITATED"
 using "SLEEP"
+data "TickType" "StartTurn"
 data "TickFunctors" "IF(SavingThrow(Ability.Wisdom, SourceSpellDC())):RemoveStatus(SLEEP)"
+data "StatusPropertyFlags" "InitiateCombat;OverheadOnTurn;TickingWithSource"
 

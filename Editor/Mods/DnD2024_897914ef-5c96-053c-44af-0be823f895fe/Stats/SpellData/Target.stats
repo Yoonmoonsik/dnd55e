@@ -21,6 +21,7 @@
         <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Help" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="810a605a-8a5f-4f67-8407-505267f0b1f2" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="e0ca5958-42d9-4284-970a-d701287a179d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DISTRACTED,100,1);IF(HasPassive('HarperTeamwork',context.Source)):ApplyStatus(DISADVANTAGE_ALL_SAVINGTHROW_START_TURN,100,1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6643,6 +6644,30 @@
         <field name="Name" type="NameTableFieldDefinition" value="SacredFlame_BonusAction" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="25ce081c-3fdc-45d2-a883-2db61e61d225" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SacredFlame:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="25920f33-9589-40d0-adcf-844835762996" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpikeGrowth_EnclaveMagic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40072364-5f8b-4bc8-ac02-1e7d9f8bd676" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasPassive('EmeraldEnclaveFledgling',context.Source);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe8254f6-0e91-422d-ad43-f8769010650e" />
+        <field name="Name" type="NameTableFieldDefinition" value="EncourageAlly" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b5f37c13-89e3-4a2a-ba0f-c3b6f654a78f" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ENCOURAGE_ALLY,100,-1);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h11b2630egba57g41bfg86afga1a03173230e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h74764f94g16bbg3291g6bf1g64f2467c1d2d" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ENCOURAGE_ALLY,100,-1)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;EncourageAlly:1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

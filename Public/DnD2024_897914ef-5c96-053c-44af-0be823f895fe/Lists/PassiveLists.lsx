@@ -224,6 +224,11 @@
                     <attribute id="Passives" type="LSString" value="AnimalHandling, Athletics, Intimidation, Nature, Perception, Survival"/>
                     <attribute id="UUID" type="guid" value="4f027368-7aa6-4a3a-a1ce-d5195ba2ba27"/>
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Dragonscarred Resistance List"/>
+                    <attribute id="Passives" type="LSString" value="Dragonscarred_Acid,Dragonscarred_Cold,Dragonscarred_Fire,Dragonscarred_Lightning,Dragonscarred_Poison"/>
+                    <attribute id="UUID" type="guid" value="0f3b7196-cad8-424f-a5c6-082879221f36"/>
+                </node>
             </children>
         </node>
     </region>

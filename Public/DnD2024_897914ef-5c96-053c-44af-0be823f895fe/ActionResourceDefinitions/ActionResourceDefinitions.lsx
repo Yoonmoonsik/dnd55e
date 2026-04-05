@@ -347,6 +347,25 @@
                     <attribute id="UUID" type="guid" value="d9f8521e-1bd2-435d-aebd-3e0a1a847308"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="Name" type="FixedString" value="__FORGOTTEN REALMS HEROES OF FAERUN__"/>
+                    <attribute id="UUID" type="guid" value="d70aaca9-9ebe-4bf9-9f82-a3b244b4b12e"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h6fcd846dgd479g5f4dgffd4g14a8140f6ba1" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7a0876d7g8491g0bbeg8ee3g09ef60d525a6" version="1"/>
+                    <attribute id="Name" type="FixedString" value="SacredFlame"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="8dfea2e1-ff94-4212-b537-c5b1039e3ac7"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h7b8e3a06gdde1gc2ecgce15ga5797c09467a" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h55a0b294g7523g791cgb041gfe4ae841cef0" version="1"/>
+                    <attribute id="Name" type="FixedString" value="SpellfireSpark"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="bfb62029-8c64-4c96-ab75-5000447ddf62"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__RACE__"/>
                     <attribute id="UUID" type="guid" value="d0a8fbe1-fb92-44ba-bdf3-f1356ca328d0"/>
                 </node>
@@ -368,23 +387,18 @@
                     <attribute id="UUID" type="guid" value="cab54f89-f8bf-4f78-a512-5327880c6a65"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="Name" type="FixedString" value="__FORGOTTEN REALMS HEROES OF FAERUN__"/>
-                    <attribute id="UUID" type="guid" value="d70aaca9-9ebe-4bf9-9f82-a3b244b4b12e"/>
-                </node>
-                <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="h6fcd846dgd479g5f4dgffd4g14a8140f6ba1" version="2"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h7a0876d7g8491g0bbeg8ee3g09ef60d525a6" version="1"/>
-                    <attribute id="Name" type="FixedString" value="SacredFlame"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h5f50ef61g2ff2g155dg73ecgcdb03dd1d00d" version="1"/>
+                    <attribute id="Name" type="FixedString" value="FairyTrickster"/>
                     <attribute id="ReplenishType" type="FixedString" value="Rest"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="8dfea2e1-ff94-4212-b537-c5b1039e3ac7"/>
+                    <attribute id="UUID" type="guid" value="85d3737e-010c-4ba9-baf2-e5561156354c"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="h7b8e3a06gdde1gc2ecgce15ga5797c09467a" version="2"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h55a0b294g7523g791cgb041gfe4ae841cef0" version="1"/>
-                    <attribute id="Name" type="FixedString" value="SpellfireSpark"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
-                    <attribute id="UUID" type="guid" value="bfb62029-8c64-4c96-ab75-5000447ddf62"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2c67fd73g9c3bg2dc8gf508gba72fd03b787" version="1"/>
+                    <attribute id="Name" type="FixedString" value="EncourageAlly"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="b55e618d-78af-4920-b7ae-9a82f0a04327"/>
                 </node>
             </children>
         </node>

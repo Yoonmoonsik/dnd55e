@@ -303,5 +303,12 @@
         <field name="Passives" type="StringTableFieldDefinition" value="AnimalHandling, Athletics, Intimidation, Nature, Perception, Survival" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0f3b7196-cad8-424f-a5c6-082879221f36" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dragonscarred Resistance List" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Dragonscarred_Acid,Dragonscarred_Cold,Dragonscarred_Fire,Dragonscarred_Lightning,Dragonscarred_Poison" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

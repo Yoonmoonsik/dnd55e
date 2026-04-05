@@ -515,6 +515,26 @@
         <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Turn" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_54" />
+        <field name="UUID" type="IdTableFieldDefinition" value="85d3737e-010c-4ba9-baf2-e5561156354c" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="FairyTrickster" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5f50ef61g2ff2g155dg73ecgcdb03dd1d00d" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_55" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b55e618d-78af-4920-b7ae-9a82f0a04327" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="EncourageAlly" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2c67fd73g9c3bg2dc8gf508gba72fd03b787" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_42" />

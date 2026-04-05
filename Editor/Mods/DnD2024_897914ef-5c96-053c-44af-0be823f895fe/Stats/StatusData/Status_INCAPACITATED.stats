@@ -7,6 +7,8 @@
         <field name="Name" type="NameTableFieldDefinition" value="SLEEP" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3e043fcd-bcd0-4962-bd61-04aa9acd4955" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(SavingThrow(Ability.Wisdom, SourceSpellDC())):RemoveStatus(SLEEP)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;OverheadOnTurn;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
   </stat_objects>
