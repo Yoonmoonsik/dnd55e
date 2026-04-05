@@ -202,7 +202,18 @@ OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected 
 ApplyStatus(_Player, "MAGICINITIATE_TOLLTHEDEAD", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_TrueStrike",_,_,_)
+CastedSpell((CHARACTER)_Player,"Target_TrueStrike_Melee",_,_,_)
+AND
+HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+THEN
+ApplyStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, "Magic Initiate (Wizard): You have learned the selected cantrip.");
+ApplyStatus(_Player, "MAGICINITIATE_TRUESTRIKE", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Projectile_TrueStrike_Ranged",_,_,_)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
 AND
