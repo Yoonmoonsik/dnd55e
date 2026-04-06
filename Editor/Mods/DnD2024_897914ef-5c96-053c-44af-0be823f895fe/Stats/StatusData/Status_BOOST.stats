@@ -617,6 +617,20 @@
         <field name="Name" type="NameTableFieldDefinition" value="BANE" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ffcef28f-c270-4e59-9f7f-b39e0fcad34d" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;BringIntoCombat;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a9a4b3f9-4127-44a9-b107-9e9b205f56c1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MIND_SLIVER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bf7f8e54-e294-4368-a4b6-ce625295d345" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6ef5198eg577fg6ca6gc4d9gb725efc2c584" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h868292b4g07bag5039g7a39g8b646671c67e" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_MindSliver" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MIND_SLIVER" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,-1d4);" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
