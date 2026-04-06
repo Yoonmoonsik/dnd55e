@@ -2671,7 +2671,7 @@ data "PriorityOrder" "11012"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnCast;OnStatusRemoved;OnStatusApplied"
 data "Conditions" "HasPassive('PactOfTheBlade_Hex',context.Source) and HasPassive('ThirstingBlade',context.Source) and ClassLevelHigherOrEqualThan(12,'Warlock',context.Source) and ((context.HasContextFlag(StatsFunctorContext.OnCast) and ExtraAttackSpellCheck() and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and not HasStatus('SLAYER_PLAYER',context.Source) and not HasStatus('SLAYER_PLAYER_10',context.Source) and TurnBased(context.Source) and (HasPactWeapon(context.Source) or HasHexbladeWeapon(context.Source))) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased() and (HasPactWeapon(context.Target) or  HasHexbladeWeapon(context.Target))) or (context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('EXTRA_ATTACK_THIRSTING_BLADE_Q'))) and (HasPassive('PactOfTheBlade',context.Source) or HasPassive('PactOfTheBlade_Hex',context.Source));"
-data "StatsFunctors" "IF(context.HasContextFlag(StatsFunctorContext.OnCast)):ApplyStatus(SELF,EXTRA_ATTACK_THIRSTING_BLADE_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(EXTRA_ATTACK_THIRSTING_BLADE_Q,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and not HasHigherPriorityExtraAttackQueued('EXTRA_ATTACK_THIRSTING_BLADE_Q') and not HasAnyExtraAttack()):ApplyStatus(EXTRA_ATTACK_THIRSTING_BLADE_2, 100, 1)"
+data "StatsFunctors" "ApplyStatus(EXTRA_ATTACK_THIRSTING_BLADE_2, 100, 1)"
 
 new entry "__ARCHFEY 11100___"
 type "PassiveData"
