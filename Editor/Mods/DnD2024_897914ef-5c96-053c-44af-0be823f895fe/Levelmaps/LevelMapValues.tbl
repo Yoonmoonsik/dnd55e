@@ -255,5 +255,14 @@
         <field name="Level10" type="StringTableFieldDefinition" value="3d10" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="ProficiencyBonusD4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5ef395be-a8fe-4665-bd85-98edeef69760" />
+        <field name="Level1" type="StringTableFieldDefinition" value="2d4" />
+        <field name="Level5" type="StringTableFieldDefinition" value="3d4" />
+        <field name="Level9" type="StringTableFieldDefinition" value="4d4" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

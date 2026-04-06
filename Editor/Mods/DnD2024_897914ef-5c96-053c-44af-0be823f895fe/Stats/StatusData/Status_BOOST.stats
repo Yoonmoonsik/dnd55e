@@ -3581,5 +3581,67 @@
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b010b2c7-0777-4517-b556-82eccf4ebde1" />
+        <field name="Name" type="NameTableFieldDefinition" value="HEAVENLY_WINGS" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h34ab3782g568fg1b60g9a2eg148d28686613" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbcd3d36fgdc84gb744gaaf6ge51968dbc88e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Fly" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_Fly_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_Fly_MO_Stop" />
+        <field name="StackId" type="StringTableFieldDefinition" value="HEAVENLY_WINGS" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsAttack() or IsSpell()):DamageBonus(ProficiencyBonus, Radiant);UnlockSpell(Projectile_Fly_Equal);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="70e3142f-6fde-4718-815f-a419e6bfaa23" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c5b53d04-bcf7-4f73-a028-444a7f69d67d" />
+        <field name="Name" type="NameTableFieldDefinition" value="INNER_RADIANCE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb450a1d2g4f77g57dbg4c25gd3acee588f18" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4049a129gb079gf0dagb270g0aa72eb1171d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
+        <field name="StackId" type="StringTableFieldDefinition" value="HEAVENLY_WINGS" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Character() and not Dead() and not Ally()):ApplyStatus(INNER_RADIANCE_DAMAGE,100,0)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="GameplayLight(3,false,0.1);IF(IsAttack() or IsSpell()):DamageBonus(ProficiencyBonus, Radiant);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="dd02e9e1-8ab7-4da0-9097-26fd886c06d4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9bdcc1d3-d8f1-43a7-b920-32fa587bbd1f" />
+        <field name="Name" type="NameTableFieldDefinition" value="INNER_RADIANCE_DAMAGE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h14b0a7adg6f8dg3aefgbc10ge9f1398e2825" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INNER_RADIANCE_DAMAGE" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;BringIntoCombat;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.ProficiencyBonus,Radiant,Magical);ApplyStatus(INNER_RADIANCE_DAMAGED,100,1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(INNER_RADIANCE_DAMAGED,100,1)" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="62710804-ff29-4936-9d45-0e6a44372526" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1e04c0cf-222a-4428-be43-9ad7c0afd9c1" />
+        <field name="Name" type="NameTableFieldDefinition" value="INNER_RADIANCE_DAMAGED" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INNER_RADIANCE_DAMAGE" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;BringIntoCombat;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c8dad782-c704-41bc-9b9a-23d3766f6d12" />
+        <field name="Name" type="NameTableFieldDefinition" value="NECROTIC_SHROUD" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5455adb5gc4c2g9159g585eg6c24762cbd53" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3a16b87eg8dd3g9578gd609gbf2f106aa676" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
+        <field name="StackId" type="StringTableFieldDefinition" value="HEAVENLY_WINGS" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsAttack() or IsSpell()):DamageBonus(ProficiencyBonus, Necrotic);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

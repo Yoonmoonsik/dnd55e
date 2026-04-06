@@ -3872,6 +3872,15 @@ data "PriorityOrder" "500"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Shout_AdrenalineRush);ActionResource(AdrenalineRush,2,0);IF(CharacterLevelGreaterThan(4)):ActionResource(AdrenalineRush,1,0);IF(CharacterLevelGreaterThan(8)):ActionResource(AdrenalineRush,1,0);"
 
+new entry "Race_Aasimar"
+type "PassiveData"
+data "DisplayName" "hc2022d67g4441g1ca0g979ag85847dde7f08;2"
+data "Description" "ha694feb3g0781gc772g6147gd804e68c64f8;1"
+data "Icon" "Action_EndGameAlly_NightsongSummon"
+data "PriorityOrder" "500"
+data "Properties" "Highlighted"
+data "Boosts" "Resistance(Necrotic,Resistant);Resistance(Radiant,Resistant);UnlockSpell(Target_Light);UnlockSpell(Target_HealingHands);UnlockSpell(Shout_CelestialRevelation);DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989);"
+
 new entry "__NPC__"
 type "PassiveData"
 

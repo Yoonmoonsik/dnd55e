@@ -212,6 +212,13 @@
                     <attribute id="Name" type="FixedString" value="BreathWeapon"/>
                     <attribute id="UUID" type="guid" value="b1341ab8-3254-4594-813d-2f3ce35f5843"/>
                 </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="2d4"/>
+                    <attribute id="Level5" type="LSString" value="3d4"/>
+                    <attribute id="Level9" type="LSString" value="4d4"/>
+                    <attribute id="Name" type="FixedString" value="ProficiencyBonusD4"/>
+                    <attribute id="UUID" type="guid" value="5ef395be-a8fe-4665-bd85-98edeef69760"/>
+                </node>
             </children>
         </node>
     </region>

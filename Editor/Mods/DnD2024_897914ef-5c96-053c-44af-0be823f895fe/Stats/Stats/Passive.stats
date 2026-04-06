@@ -5360,6 +5360,18 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_AdrenalineRush);ActionResource(AdrenalineRush,2,0);IF(CharacterLevelGreaterThan(4)):ActionResource(AdrenalineRush,1,0);IF(CharacterLevelGreaterThan(8)):ActionResource(AdrenalineRush,1,0);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5804bb42-736a-4a4b-9199-61f94c4e209e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Race_Aasimar" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc2022d67g4441g1ca0g979ag85847dde7f08" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha694feb3g0781gc772g6147gd804e68c64f8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_EndGameAlly_NightsongSummon" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Necrotic,Resistant);Resistance(Radiant,Resistant);UnlockSpell(Target_Light);UnlockSpell(Target_HealingHands);UnlockSpell(Shout_CelestialRevelation);DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="487be05c-3e51-40ff-bf28-4a19d4be839f" />

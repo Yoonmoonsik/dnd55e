@@ -1,4 +1,13 @@
 # Race
+## Aasimar (Select as a Human Level 1 Passive)
+- Creature Type: Humanoid
+- Size: Medium (about 4–7 feet tall)
+- Speed: 30 feet
+- Celestial Resistance
+- Darkvision
+- Healing Hands
+- Light Bearer
+- Celestial Revelation
 ## Dragonborn
 - Creature Type: Humanoid
 - Size: Medium (about 5–7 feet tall)
