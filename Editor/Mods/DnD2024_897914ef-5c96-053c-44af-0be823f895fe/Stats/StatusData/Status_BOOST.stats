@@ -2259,6 +2259,44 @@
         <field name="StackId" type="StringTableFieldDefinition" value="PSYCHIC_BLADE_OFFHAND" />
       </fields>
     </stat_object>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da1ab890-7df4-4511-8fa4-4999beccbd06" />
+        <field name="Name" type="NameTableFieldDefinition" value="__DEADTHREE 9500__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a395188f-68e3-46cb-8efe-93528ba58e60" />
+        <field name="Name" type="NameTableFieldDefinition" value="DREAD_ALLEGIANCE_1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9a96305agf2f9g7267gdc69g37c278977066" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haa7b4b2bga3d4g5493g0cd0g0d1480ede8e3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Psychic" />
+        <field name="StackId" type="StringTableFieldDefinition" value="DREAD_ALLEGIANCE_1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="01bf703d-45ac-488a-b3ef-8e31c1f94cac" />
+        <field name="Name" type="NameTableFieldDefinition" value="DREAD_ALLEGIANCE_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a395188f-68e3-46cb-8efe-93528ba58e60" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3d0aa39dg266bg7c47g97e8g8d257554171a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h58ee4755g4d7eg3830g0e23g9eeb9de00bf1" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a3d1f05-d6ab-41d9-94ab-0de3ca2dd1a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="DREAD_ALLEGIANCE_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a395188f-68e3-46cb-8efe-93528ba58e60" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb44a03abgc118ge0f2g55eegf877db7779de" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6e38ab81gffdegf60dgddc7gdd71c617d269" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5b751f3e-87d4-4163-b666-37c11c5d67a7" />

@@ -3252,6 +3252,67 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PsychicVeil);" />
       </fields>
     </stat_object>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="40a56104-1b45-4577-8329-19aead0c855e" />
+        <field name="Name" type="NameTableFieldDefinition" value="__DEAD THREE 9500__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="49a59e8a-baca-4766-a11a-81bb66e0b157" />
+        <field name="Name" type="NameTableFieldDefinition" value="DeadThree_3_Bloodthirst" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfffd3126gea34g1eb6g8f8dge04162d1ab9b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc8d05a2bgbefbg9d12gb34fg7f2025113439" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Blood" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_Bloodthirst_50);UnlockInterrupt(Interrupt_Bloodthirst_25);UnlockInterrupt(Interrupt_Bloodthirst_10);ActionResource(Bloodthirst,1,0);IF(AbilityGreaterThan('Intelligence',13,context.Source)):ActionResource(Bloodthirst,1,0);IF(AbilityGreaterThan('Intelligence',15,context.Source)):ActionResource(Bloodthirst,1,0);IF(AbilityGreaterThan('Intelligence',17,context.Source)):ActionResource(Bloodthirst,1,0);IF(AbilityGreaterThan('Intelligence',19,context.Source)):ActionResource(Bloodthirst,1,0);IF(AbilityGreaterThan('Intelligence',21,context.Source)):ActionResource(Bloodthirst,1,0);IF(AbilityGreaterThan('Intelligence',23,context.Source)):ActionResource(Bloodthirst,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b902b5a5-e09a-45fe-96a9-9de8eb4136a8" />
+        <field name="Name" type="NameTableFieldDefinition" value="DeadThree_3_DreadAllegiance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7fa7c6fagab40g7237g2bd1g55927793880a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h717c2effgcfefg6531g04eeg3d6a10c88329" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Death" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc7382cc-9341-47c2-86e5-4bbd82c24224" />
+        <field name="Name" type="NameTableFieldDefinition" value="DeadThree_3_DreadAllegiance_Buff" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('DREAD_ALLEGIANCE_1',context.Source)):UnlockSpell(Target_MinorIllusion);IF(HasStatus('DREAD_ALLEGIANCE_2',context.Source)):UnlockSpell(Shout_BladeWard);IF(HasStatus('DREAD_ALLEGIANCE_3',context.Source)):UnlockSpell(Target_ChillTouch);IF(HasStatus('DREAD_ALLEGIANCE_1',context.Source)):Resistance(Psychic,Resistant);IF(HasStatus('DREAD_ALLEGIANCE_2',context.Source)):Resistance(Poison,Resistant);IF(HasStatus('DREAD_ALLEGIANCE_3',context.Source)):Resistance(Necrotic,Resistant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a90425df-bed6-4dc3-9e91-a93b945d1dea" />
+        <field name="Name" type="NameTableFieldDefinition" value="DeadThree_9_StrikeFear" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h61d8213ag34d1ge059g35c8g26bc6021371c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0343e6b8g3fecg85eag5ab7gd8f289bd951a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_Fear" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9509" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('SG_Frightened', context.Target)):Advantage(AttackRoll);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="31462a28-95a6-4596-a214-646be222622c" />
+        <field name="Name" type="NameTableFieldDefinition" value="CunningStrike_Terrify" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h736d5bdeg69c8gbab3g930bg6890a9ba3432" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbe719ba9g332bgafefgf142g2c86ce3fd743" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_Fear" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="Rogue_5_CunningStrike" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2f954a32-f7b2-49a8-a64b-261d90576136" />

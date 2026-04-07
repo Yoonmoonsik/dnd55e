@@ -236,6 +236,13 @@
                     <attribute id="UUID" type="guid" value="e73a6a89-0730-40fd-80b7-43059406383a"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2dc72da7geb6fg6757g65b9g28c64f77f068" version="1"/>
+                    <attribute id="Name" type="FixedString" value="ChillingRetribution"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="95ea1262-7759-475b-84e1-7a57d6e51799"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__ROGUE__"/>
                     <attribute id="UUID" type="guid" value="4ca95f96-d55e-416c-a05d-49ba42eef7e2"/>
                 </node>
@@ -411,11 +418,12 @@
                     <attribute id="UUID" type="guid" value="cab54f89-f8bf-4f78-a512-5327880c6a65"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h2dc72da7geb6fg6757g65b9g28c64f77f068" version="1"/>
-                    <attribute id="Name" type="FixedString" value="ChillingRetribution"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha452dc39g9152gfd66g823bg912ea1d1d763" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="Bloodthirst"/>
                     <attribute id="ReplenishType" type="FixedString" value="Rest"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="95ea1262-7759-475b-84e1-7a57d6e51799"/>
+                    <attribute id="UUID" type="guid" value="d12ddb57-7213-411d-9053-52200293e1fc"/>
                 </node>
             </children>
         </node>

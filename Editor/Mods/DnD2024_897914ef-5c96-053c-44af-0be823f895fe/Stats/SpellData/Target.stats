@@ -6553,7 +6553,7 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="HitCosts" type="StringTableFieldDefinition" value="SneakAttack_Charge:1;" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + LevelMapValue(SneakAttack), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('CunningStrike_Poison',context.Source)):ApplyStatus(CUNNINGSTRIKE_POISON,100,10,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + LevelMapValue(SneakAttack), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('CunningStrike_Poison',context.Source)):ApplyStatus(CUNNINGSTRIKE_POISON,100,10,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);IF(HasPassive('CunningStrike_Terrify',context.Source)):ApplyStatus(FRIGHTENED,100,10,,,,not SavingThrow(Ability.Wisdom,ManeuverSaveDC()));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6564,7 +6564,22 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="HitCosts" type="StringTableFieldDefinition" value="SneakAttack_Charge:1;" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + LevelMapValue(SneakAttack), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('CunningStrike_Poison',context.Source)):ApplyStatus(CUNNINGSTRIKE_POISON,100,10,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + LevelMapValue(SneakAttack), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('CunningStrike_Poison',context.Source)):ApplyStatus(CUNNINGSTRIKE_POISON,100,10,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);IF(HasPassive('CunningStrike_Terrify',context.Source)):ApplyStatus(FRIGHTENED,100,10,,,,not SavingThrow(Ability.Wisdom,ManeuverSaveDC()));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2c781446-d329-410d-8e5e-46bff51ae276" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bloodthirst" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6707901c-81b4-4e77-8b0c-4eb486b44976" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_SneakAttack" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_SneakAttack" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="a0be34b6-48c6-4ff7-a57a-b2e9fccbdda0,,;ceace50f-ceef-4cdd-9995-b18aed12acd5,,;71cc648d-73f2-4db8-ae9f-76e649c7613f,,;7765e1e7-f20a-4323-af19-ad3752626797,,;a097bbc5-568d-4c01-a84d-56960e2f6545,,;6dfe95cd-e8f6-4e6f-854b-b7d2886f5dcd,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="62fa9d2f-ec0b-4900-a455-ec9b5e6e3eb4" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="6ebc0b77-460f-4be0-90ce-355cfa5b67c1" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="b51922cf-e412-4462-8274-144781bac7f3" />
+        <field name="SpellEffect" type="GuidObjectTableFieldDefinition" value="4d97dc4c-0b6f-4c87-a65a-6e6f08c186b9" />
       </fields>
     </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">

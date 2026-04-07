@@ -356,6 +356,17 @@
         <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_59" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d12ddb57-7213-411d-9053-52200293e1fc" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Bloodthirst" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha452dc39g9152gfd66g823bg912ea1d1d763" version="1" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_18" />

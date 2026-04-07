@@ -261,9 +261,25 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d72f0d7g2c0egb1bbgde11g3864f11ceed2" version="2" />
         <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
         <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
-        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
         <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
         <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Rogue" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_14" />
+        <field name="UUID" type="IdTableFieldDefinition" value="eeb1f97b-7cc4-4720-b2a8-bf8cbb4dc76e" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="DeadThree" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4876a353g9a95g73aag2414g5dbd7bc595cb" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha031b042gd64ag0b74g62b9g7aa92b2a2119" version="3" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="60cd0d4d-532d-4a1c-bc6e-1bc2ca458db8" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Rogue" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
       </fields>
     </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">

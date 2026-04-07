@@ -3499,6 +3499,9 @@
                                     <attribute id="Object" type="guid" value="b53a8061-f31d-4985-adfe-d4d691a918d9"/>
                                 </node>
                                 <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="eeb1f97b-7cc4-4720-b2a8-bf8cbb4dc76e"/>
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="5764faec-f81c-4708-a652-15b3459715e8"/>
                                 </node>
                                 <node id="SubClass">
@@ -3782,6 +3785,23 @@
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="abc7b271-82a1-4139-9653-4c90a7984a38"/>
                     <attribute id="UUID" type="guid" value="119bec63-7f72-485d-b363-ba9d6717cf16"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="DeadThree"/>
+                    <attribute id="PassivesAdded" type="LSString" value="DeadThree_3_Bloodthirst;DeadThree_3_DreadAllegiance;DeadThree_3_DreadAllegiance_Buff"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(dcc68396-ebf2-4555-8139-63a43b5366ee)"/>
+                    <attribute id="TableUUID" type="guid" value="60cd0d4d-532d-4a1c-bc6e-1bc2ca458db8"/>
+                    <attribute id="UUID" type="guid" value="60cd0d4d-532d-4a1c-bc6e-1bc2ca458db8"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="DeadThree"/>
+                    <attribute id="PassivesAdded" type="LSString" value="DeadThree_9_StrikeFear;CunningStrike_Terrify"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="60cd0d4d-532d-4a1c-bc6e-1bc2ca458db8"/>
+                    <attribute id="UUID" type="guid" value="aaa370df-434f-41d5-8088-638572f023b9"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice06,1,0);ActionResource(InnateSorcery,2,0);Proficiency(SimpleWeapons);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Charisma)"/>

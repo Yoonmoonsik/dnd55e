@@ -482,7 +482,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2e82c420-2bda-4e98-97c4-fae00669674a" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_SneakAttack" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="72661729-cdf5-4b19-8879-80e56bab21a3" />
-        <field name="Properties" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):DealDamage(LevelMapValue(SneakAttack), MainMeleeWeaponDamageType);IF(IsRangedAttack()):DealDamage(LevelMapValue(SneakAttack), MainRangedWeaponDamageType);IF(HasPassive('MAG_ForcefulSneakAttack_Passive', context.Source)):DealDamage(1d4, Force,Magical);IF(HasPassive('CunningStrike_Poison',context.Source)):ApplyStatus(CUNNINGSTRIKE_POISON,100,10,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):DealDamage(LevelMapValue(SneakAttack), MainMeleeWeaponDamageType);IF(IsRangedAttack()):DealDamage(LevelMapValue(SneakAttack), MainRangedWeaponDamageType);IF(HasPassive('MAG_ForcefulSneakAttack_Passive', context.Source)):DealDamage(1d4, Force,Magical);IF(HasPassive('CunningStrike_Poison',context.Source)):ApplyStatus(CUNNINGSTRIKE_POISON,100,10,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);IF(HasPassive('CunningStrike_Terrify',context.Source)):ApplyStatus(FRIGHTENED,100,10,,,,not SavingThrow(Ability.Wisdom,ManeuverSaveDC()));" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
       </fields>
     </stat_object>
@@ -491,7 +491,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1a436c88-6091-4fbd-8da8-2f72c4505e64" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_SneakAttack_Critical" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="73bc746d-c201-4da7-a561-2f69f26637e5" />
-        <field name="Properties" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):DealDamage(LevelMapValue(SneakAttack), MainMeleeWeaponDamageType);IF(IsRangedAttack()):DealDamage(LevelMapValue(SneakAttack), MainRangedWeaponDamageType);IF(HasPassive('MAG_ForcefulSneakAttack_Passive', context.Source)):DealDamage(1d4, Force,Magical);IF(HasPassive('CunningStrike_Poison',context.Source)):ApplyStatus(CUNNINGSTRIKE_POISON,100,10,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):DealDamage(LevelMapValue(SneakAttack), MainMeleeWeaponDamageType);IF(IsRangedAttack()):DealDamage(LevelMapValue(SneakAttack), MainRangedWeaponDamageType);IF(HasPassive('MAG_ForcefulSneakAttack_Passive', context.Source)):DealDamage(1d4, Force,Magical);IF(HasPassive('CunningStrike_Poison',context.Source)):ApplyStatus(CUNNINGSTRIKE_POISON,100,10,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);IF(HasPassive('CunningStrike_Terrify',context.Source)):ApplyStatus(FRIGHTENED,100,10,,,,not SavingThrow(Ability.Wisdom,ManeuverSaveDC()));" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
       </fields>
     </stat_object>
@@ -500,7 +500,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="048f5f3a-a6d4-40e6-8d5e-a27b4ba93796" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_SneakAttack_Rakish" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="74903a62-b217-4e08-abe6-ef01ef9ed929" />
-        <field name="Properties" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):DealDamage(LevelMapValue(SneakAttack), MainMeleeWeaponDamageType);IF(IsRangedAttack()):DealDamage(LevelMapValue(SneakAttack), MainRangedWeaponDamageType);IF(HasPassive('MAG_ForcefulSneakAttack_Passive', context.Source)):DealDamage(1d4, Force,Magical);IF(HasPassive('CunningStrike_Poison',context.Source)):ApplyStatus(CUNNINGSTRIKE_POISON,100,10,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):DealDamage(LevelMapValue(SneakAttack), MainMeleeWeaponDamageType);IF(IsRangedAttack()):DealDamage(LevelMapValue(SneakAttack), MainRangedWeaponDamageType);IF(HasPassive('MAG_ForcefulSneakAttack_Passive', context.Source)):DealDamage(1d4, Force,Magical);IF(HasPassive('CunningStrike_Poison',context.Source)):ApplyStatus(CUNNINGSTRIKE_POISON,100,10,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);IF(HasPassive('CunningStrike_Terrify',context.Source)):ApplyStatus(FRIGHTENED,100,10,,,,not SavingThrow(Ability.Wisdom,ManeuverSaveDC()));" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
       </fields>
     </stat_object>
@@ -509,8 +509,47 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ad3b78ca-a543-46b0-9bff-414f8f117823" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_SneakAttack_Rakish_Critical" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c0c4e380-0593-442f-8d3d-964cf85e194d" />
-        <field name="Properties" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):DealDamage(LevelMapValue(SneakAttack), MainMeleeWeaponDamageType);IF(IsRangedAttack()):DealDamage(LevelMapValue(SneakAttack), MainRangedWeaponDamageType);IF(HasPassive('MAG_ForcefulSneakAttack_Passive', context.Source)):DealDamage(1d4, Force,Magical);IF(HasPassive('CunningStrike_Poison',context.Source)):ApplyStatus(CUNNINGSTRIKE_POISON,100,10,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):DealDamage(LevelMapValue(SneakAttack), MainMeleeWeaponDamageType);IF(IsRangedAttack()):DealDamage(LevelMapValue(SneakAttack), MainRangedWeaponDamageType);IF(HasPassive('MAG_ForcefulSneakAttack_Passive', context.Source)):DealDamage(1d4, Force,Magical);IF(HasPassive('CunningStrike_Poison',context.Source)):ApplyStatus(CUNNINGSTRIKE_POISON,100,10,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);IF(HasPassive('CunningStrike_Terrify',context.Source)):ApplyStatus(FRIGHTENED,100,10,,,,not SavingThrow(Ability.Wisdom,ManeuverSaveDC()));" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="958dd0a5-8538-4a5f-b627-eccc98a1b65e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Bloodthirst_50" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h055feb92gbffeg6927gaafbg9aa2a91bc4cb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf46c88e2g570bgc9f5g75e9g56ae359baec0" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="50" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Blood" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not Self(context.Source, context.Observer) and IsAbleToReact(context.Observer) and Enemy(context.Target,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and HasFunctor(StatsFunctorType.DealDamage) and not Dead(context.Target) and not DistanceToEntityGreaterThan(9, context.ObserverPosition, context.Target) and HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Target);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="UseSpell(OBSERVER_TARGET,Target_Bloodthirst,true,true,true);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;Bloodthirst:1;" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" value="not HasStatus('SG_Blinded');" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="726e3015-013a-474d-a046-4fef8c9b4142" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Bloodthirst_25" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="958dd0a5-8538-4a5f-b627-eccc98a1b65e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f8f6fcfga64egf53bg718egd42ff95fd724" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="25" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not Self(context.Source, context.Observer) and IsAbleToReact(context.Observer) and Enemy(context.Target,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and HasFunctor(StatsFunctorType.DealDamage) and not Dead(context.Target) and not DistanceToEntityGreaterThan(9, context.ObserverPosition, context.Target) and HasHPPercentageWithoutTemporaryHPEqualOrLessThan(25, context.Target);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="222d5c1a-5784-4b0a-bdd8-b9d5709b0bee" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Bloodthirst_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="958dd0a5-8538-4a5f-b627-eccc98a1b65e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3afdceeegb918g70fcg89fagf3a2ca1e6ad3" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="10" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not Self(context.Source, context.Observer) and IsAbleToReact(context.Observer) and Enemy(context.Target,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and HasFunctor(StatsFunctorType.DealDamage) and not Dead(context.Target) and not DistanceToEntityGreaterThan(9, context.ObserverPosition, context.Target) and HasHPPercentageWithoutTemporaryHPEqualOrLessThan(10, context.Target);" />
       </fields>
     </stat_object>
     <stat_object color="#FF483D8B" is_substat="false">

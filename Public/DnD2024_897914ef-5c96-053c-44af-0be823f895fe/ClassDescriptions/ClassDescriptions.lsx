@@ -241,8 +241,21 @@
                     <attribute id="PrimaryAbility" type="uint8" value="2"/>
                     <attribute id="ProgressionTableUUID" type="guid" value="abc7b271-82a1-4139-9653-4c90a7984a38"/>
                     <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
-                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
                     <attribute id="UUID" type="guid" value="5764faec-f81c-4708-a652-15b3459715e8"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="ha031b042gd64ag0b74g62b9g7aa92b2a2119" version="3"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h4876a353g9a95g73aag2414g5dbd7bc595cb" version="2"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="DeadThree"/>
+                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="60cd0d4d-532d-4a1c-bc6e-1bc2ca458db8"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="eeb1f97b-7cc4-4720-b2a8-bf8cbb4dc76e"/>
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>

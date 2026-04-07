@@ -1995,7 +1995,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="1a3ee454-7f4e-4a48-ac31-756e8d28a024" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
         <field name="HitCosts" type="StringTableFieldDefinition" value="SneakAttack_Charge:1" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+ LevelMapValue(SneakAttack), MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('CunningStrike_Poison',context.Source)):ApplyStatus(CUNNINGSTRIKE_POISON,100,10,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+ LevelMapValue(SneakAttack), MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('CunningStrike_Poison',context.Source)):ApplyStatus(CUNNINGSTRIKE_POISON,100,10,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);IF(HasPassive('CunningStrike_Terrify',context.Source)):ApplyStatus(FRIGHTENED,100,10,,,,not SavingThrow(Ability.Wisdom,ManeuverSaveDC()));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2005,7 +2005,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e950a0a4-276f-404a-a5d2-ffd55ebdba6b" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
         <field name="HitCosts" type="StringTableFieldDefinition" value="SneakAttack_Charge:1" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+ LevelMapValue(SneakAttack), MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('CunningStrike_Poison',context.Source)):ApplyStatus(CUNNINGSTRIKE_POISON,100,10,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+ LevelMapValue(SneakAttack), MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('CunningStrike_Poison',context.Source)):ApplyStatus(CUNNINGSTRIKE_POISON,100,10,,,,not SavingThrow(Ability.Constitution,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Dexterity,ManeuverSaveDC()));IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);IF(HasPassive('CunningStrike_Terrify',context.Source)):ApplyStatus(FRIGHTENED,100,10,,,,not SavingThrow(Ability.Wisdom,ManeuverSaveDC()));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

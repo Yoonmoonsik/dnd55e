@@ -471,24 +471,24 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Druid SLevel 3 List"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon ;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify ;Target_SleetStorm"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm"/>
                     <attribute id="UUID" type="guid" value="3156daf5-9266-41d0-b52c-5bc559a98654"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                     <attribute id="Name" type="FixedString" value="5.5 Druid SLevel 3 List to Bard"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon ;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify ;Target_SleetStorm"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm"/>
                     <attribute id="UUID" type="guid" value="7dc7cd4c-d5ca-4b5b-81a8-c7528f76866d"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Druid SLevel 2 List"/>
-                    <attribute id="Spells" type="LSString" value="Target_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce ;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth"/>
+                    <attribute id="Spells" type="LSString" value="Target_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth"/>
                     <attribute id="UUID" type="guid" value="92126d17-7f1a-41d2-ae6c-a8d254d2b135"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                     <attribute id="Name" type="FixedString" value="5.5 Druid SLevel 2 List to Bard"/>
-                    <attribute id="Spells" type="LSString" value="Target_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce ;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth"/>
+                    <attribute id="Spells" type="LSString" value="Target_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth"/>
                     <attribute id="UUID" type="guid" value="c874c33c-1241-4181-918c-0466abbcade5"/>
                 </node>
                 <node id="SpellList">
@@ -697,6 +697,21 @@
                     <attribute id="UUID" type="guid" value="f2f2b450-a126-4f1a-a524-dc24a5672922"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Paladin Noble Spell Level 3"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_ChromaticOrb;Target_Smite_Thunderous"/>
+                    <attribute id="UUID" type="guid" value="c806a879-10ff-4da2-9bde-5a98ec12e95d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Paladin Noble Spell Level 5"/>
+                    <attribute id="Spells" type="LSString" value="Shout_MirrorImage;Target_PhantasmalForce"/>
+                    <attribute id="UUID" type="guid" value="076f5b81-8589-4516-9af1-6f956f720836"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Paladin Noble Spell Level 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_Fly;Target_GaseousForm"/>
+                    <attribute id="UUID" type="guid" value="b84fa5b9-209a-472a-add4-9db277b89fdf"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="__RANGER__"/>
                     <attribute id="UUID" type="guid" value="40b9f92a-90a7-45dd-a189-1b249b2c49a2"/>
                 </node>
@@ -800,7 +815,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 6 List"/>
-                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Projectile_ChainLightning;Target_CircleOfDeath;Projectile_Disintegrate;Target_Eyebite;Target_FleshToStone ;Target_GlobeOfInvulnerability;Target_FreezingSphere ;Zone_Sunbeam"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Projectile_ChainLightning;Target_CircleOfDeath;Projectile_Disintegrate;Target_Eyebite;Target_FleshToStone;Target_GlobeOfInvulnerability;Target_FreezingSphere;Zone_Sunbeam"/>
                     <attribute id="UUID" type="guid" value="1270a6db-980b-4e3b-bf26-2924da61dfd5"/>
                 </node>
                 <node id="SpellList">
@@ -1448,19 +1463,9 @@
                     <attribute id="UUID" type="guid" value="a1d806b1-c3b9-4d89-9ad9-95e382a25b92"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Paladin Noble Spell Level 3"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_ChromaticOrb;Target_Smite_Thunderous"/>
-                    <attribute id="UUID" type="guid" value="c806a879-10ff-4da2-9bde-5a98ec12e95d"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Paladin Noble Spell Level 5"/>
-                    <attribute id="Spells" type="LSString" value="Shout_MirrorImage;Target_PhantasmalForce"/>
-                    <attribute id="UUID" type="guid" value="076f5b81-8589-4516-9af1-6f956f720836"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Paladin Noble Spell Level 9"/>
-                    <attribute id="Spells" type="LSString" value="Target_Fly;Target_GaseousForm"/>
-                    <attribute id="UUID" type="guid" value="b84fa5b9-209a-472a-add4-9db277b89fdf"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Scions of the Three Level 3 List"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DreadAllegiance"/>
+                    <attribute id="UUID" type="guid" value="dcc68396-ebf2-4555-8139-63a43b5366ee"/>
                 </node>
             </children>
         </node>

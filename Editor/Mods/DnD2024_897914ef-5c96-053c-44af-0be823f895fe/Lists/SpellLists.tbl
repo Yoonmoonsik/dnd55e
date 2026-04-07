@@ -648,14 +648,14 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3156daf5-9266-41d0-b52c-5bc559a98654" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 3 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon ;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify ;Target_SleetStorm" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7dc7cd4c-d5ca-4b5b-81a8-c7528f76866d" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 3 List to Bard" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon ;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify ;Target_SleetStorm" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
@@ -663,14 +663,14 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="92126d17-7f1a-41d2-ae6c-a8d254d2b135" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 2 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce ;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c874c33c-1241-4181-918c-0466abbcade5" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Druid SLevel 2 List to Bard" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce ;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_Barkskin;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HeatMetal;Target_HoldPerson;Target_LesserRestoration;Target_Moonbeam;Shout_PassWithoutTrace;Target_ProtectionFromPoison;Target_SpikeGrowth" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
@@ -1101,6 +1101,13 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Shout_DisguiseSelf;Shout_PoisonersKit" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dcc68396-ebf2-4555-8139-63a43b5366ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Scions of the Three Level 3 List" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_DreadAllegiance" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="408b991d-6e0a-44b0-b0fb-5fdc3777834f" />
@@ -1132,7 +1139,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1270a6db-980b-4e3b-bf26-2924da61dfd5" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Sorcerer SLevel 6 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Teleportation_ArcaneGate;Projectile_ChainLightning;Target_CircleOfDeath;Projectile_Disintegrate;Target_Eyebite;Target_FleshToStone ;Target_GlobeOfInvulnerability;Target_FreezingSphere ;Zone_Sunbeam" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Teleportation_ArcaneGate;Projectile_ChainLightning;Target_CircleOfDeath;Projectile_Disintegrate;Target_Eyebite;Target_FleshToStone;Target_GlobeOfInvulnerability;Target_FreezingSphere;Zone_Sunbeam" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
