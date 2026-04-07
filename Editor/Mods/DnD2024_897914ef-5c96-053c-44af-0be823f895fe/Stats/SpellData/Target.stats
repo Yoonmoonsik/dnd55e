@@ -1154,10 +1154,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="def7aa93-b48c-4bdb-8f08-d00517b8bc29" />
         <field name="Name" type="NameTableFieldDefinition" value="TrueStrike" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1be8baac-7f76-4259-b495-22b597e542d5" />
-        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_TrueStrike_Melee;Projectile_TrueStrike_Ranged;" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_TrueStrike_Melee;Projectile_TrueStrike_Ranged;Target_TrueStrike_Radiant;Projectile_TrueStrike_Radiant;" />
         <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="(Character() or Item()) and not Self() and not Dead()" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h573020b3g1241g8748g5cccgf1a7c580e5d4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h573020b3g1241g8748g5cccgf1a7c580e5d4" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;IsHarmful;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
@@ -1172,10 +1172,10 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="DeathType" type="EnumerationTableFieldDefinition" value="Radiant" enumeration_type_name="Death Type" version="1" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanUseWeaponActions() and IsProficientWithEquippedWeapon();" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon+LevelMapValue(TrueStrike), Radiant);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Melee" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(TrueStrike), Radiant);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Physical_Melee" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hde7eade7g981dg355bg6e30g0089c6fe0377" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfc5b991fgffcdgbc3bgbe4eg4bbb47637ce8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfc5b991fgffcdgbc3bgbe4eg4bbb47637ce8" version="2" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, Radiant);DealDamage(LevelMapValue(TrueStrike),Radiant)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Action_Prepare_Cleric_DivineStrike" />
@@ -1191,6 +1191,15 @@
         <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="dee9d375-0113-42c2-b8de-7ab45fe8750b" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Radiant" enumeration_type_name="Damage Type" version="1" />
         <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="Normal" enumeration_type_name="SpellSoundMagnitude" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a58aeff1-e8a9-4cdd-b2d2-be8ce02c01ea" />
+        <field name="Name" type="NameTableFieldDefinition" value="TrueStrike_Radiant" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="df292230-8467-4510-a646-8b27bd6ee8e7" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon+LevelMapValue(TrueStrike), Radiant);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Melee" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

@@ -87,12 +87,12 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="RangedMainWeaponRange" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedWeaponAttack)" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+LevelMapValue(TrueStrike), Radiant);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);DealDamage(LevelMapValue(TrueStrike), Radiant);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="IF(HasStatus('YSRSLIDFWWADNIWHWIHLY')):SpawnExtraProjectiles(Projectile_MainHandAttack);ApplyStatus(YSRSLIDFWWADNIWHWIHLY_YWNK,100,1)" />
         <field name="Trajectories" type="StringTableFieldDefinition" value="8646984b-91d6-47b8-afd5-0a3eebe3d447" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Ranged" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Physical_Ranged" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc48575fbg3411gc50ag88aeg18f05fb53a0f" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he4de88abg8ba4g6afeg8c45g9069fad18699" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he4de88abg8ba4g6afeg8c45g9069fad18699" version="2" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, Radiant);DealDamage(LevelMapValue(TrueStrike),Radiant)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedWeaponAttack" />
         <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Bow" enumeration_type_name="CursorMode" version="1" />
@@ -104,6 +104,15 @@
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanUseWeaponActions() and IsProficientWithEquippedWeapon();" />
         <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnSourceStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e3b2fa74-ab21-49c9-8a0a-a1400c5a6716" />
+        <field name="Name" type="NameTableFieldDefinition" value="TrueStrike_Radiant" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b96113c3-6efe-4d75-b34a-9e827b59c4e7" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+LevelMapValue(TrueStrike), Radiant);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Ranged" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

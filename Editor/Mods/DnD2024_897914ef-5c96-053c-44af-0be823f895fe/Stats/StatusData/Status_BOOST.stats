@@ -498,8 +498,18 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="89c018bd-be4c-4313-a995-dffc752bdae7" />
+        <field name="Name" type="NameTableFieldDefinition" value="YMS_TRUE_STRIKE_ON_WEAPON" />
+        <field name="StackId" type="StringTableFieldDefinition" value="YMS_TRUE_STRIKE_ON" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);WeaponAttackRollAbilityOverride(SpellCastingAbility);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5a0a6e11-8fb5-4aa5-92df-ec351c5e0f19" />
-        <field name="Name" type="NameTableFieldDefinition" value="YMS_TRUE_STRIKE_ON" />
+        <field name="Name" type="NameTableFieldDefinition" value="YMS_TRUE_STRIKE_ON_RADIANT" />
         <field name="StackId" type="StringTableFieldDefinition" value="YMS_TRUE_STRIKE_ON" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);WeaponAttackRollAbilityOverride(SpellCastingAbility);WeaponDamageTypeOverride(Radiant);" />
