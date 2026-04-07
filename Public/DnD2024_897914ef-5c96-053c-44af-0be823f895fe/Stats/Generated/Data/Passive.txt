@@ -1011,7 +1011,7 @@ data "DescriptionParams" "Distance(9)"
 data "Icon" "PassiveFeature_WardingFlare"
 data "PriorityOrder" "3203"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "UnlockInterrupt(Interrupt_WardingFlare);UnlockInterrupt(Interrupt_WardingFlare_Improved);"
+data "Boosts" "UnlockInterrupt(Interrupt_WardingFlare);UnlockInterrupt(Interrupt_WardingFlare_Improved);ActionResource(WardingFlare,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(WardingFlare,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(WardingFlare,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(WardingFlare,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(WardingFlare,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(WardingFlare,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(WardingFlare,1,0);"
 
 new entry "WardingFlare_Improved"
 type "PassiveData"

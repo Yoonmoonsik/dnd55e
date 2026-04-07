@@ -1384,7 +1384,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WardingFlare" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_WardingFlare);UnlockInterrupt(Interrupt_WardingFlare_Improved);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_WardingFlare);UnlockInterrupt(Interrupt_WardingFlare_Improved);ActionResource(WardingFlare,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(WardingFlare,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(WardingFlare,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(WardingFlare,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(WardingFlare,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(WardingFlare,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(WardingFlare,1,0);" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3203" />
       </fields>
     </stat_object>
