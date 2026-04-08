@@ -930,5 +930,76 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fd8cdbb-fe22-4c38-955c-42a95a61ee8b" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9a3d6cb6-3123-4e85-a889-72a90f552d59" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_FiresBurn" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9f2c7e1c-0d0c-4e6e-9092-0885ddd2ef40" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h72da1e02g769fgc8d7g7225g3cd201f1dbdb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdf8e40d0g3c82gf0f5gdd0aga190d5e39a3e" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Source,context.Observer) and not Self() and IsWeaponAttack() and not IsKillingBlow() and IsHit() and not IsDivineStrike() and Character() and not AnyEntityIsItem();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(1d10,Fire,Magical);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="Goliath:1;" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e18da5dc-074a-46a5-b970-26399baf8075" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_FrostsChill" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e9a71b36-bfed-431c-bf1a-52bbab849309" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1d1c4cffgbb73g4ef9g71d5gd8a78baa4388" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h49c049d7g63a5ga36cgc3a4g77287ea4217d" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Source,context.Observer) and not Self() and IsWeaponAttack() and not IsKillingBlow() and IsHit() and not IsDivineStrike() and Character() and not AnyEntityIsItem();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(1d6,Cold,Magical);ApplyStatus(RAY_OF_FROST,100,2);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="Goliath:1;" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="205a3695-2986-4005-9258-1ada4c2a809a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_HillsTumble" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fe73af9a-cd2a-4501-b941-05c16b9582dc" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfe86680bged34g3e7ag4b91g82b68408be4c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7e92df67g8bccg75dcgb550ga5e15856d9d9" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Trip" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(PRONE,100,1);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="Goliath:1;" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b9484aee-3352-4a57-9240-b93ea91ecdee" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_StonesEndurance" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="493ec5bb-f3c5-49a3-b25c-d6bda949c4f9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5739f3d4gb5c6g5f9agc4b7g7c8095805ed8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h62045b01g1a09g4697g2c04gdffed6c1900a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_WallOfStone" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and IsAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not HasStatus('SG_Blinded') and not HasStatus('SG_Incapacitated');" />
+        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(-(1d12+ConstitutionModifier));" />
+        <field name="Cost" type="StringTableFieldDefinition" value="Goliath:1;" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0fe27881-4a6c-4ba1-8269-ebe50a0c21d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_StormsThunder" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="509b1ef5-e0ab-44d3-b1e6-b6525e89531b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0bd2a433g5363g8187gc1ffg0d26612f57e4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h29815b88g3422g56c3g5aa5gb7806dbe47bc" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Target,context.Observer) and not Self(context.Source,context.Observer) and Enemy(context.Source,context.Observer) and IsAbleToReact(context.Observer) and IsAttack() and IsHit() and not DistanceToGreaterThan(context.SourcePosition, context.TargetPosition, 18) and not AnyEntityIsItem() and HasLastAttackTriggered();" />
+        <field name="Cost" type="StringTableFieldDefinition" value="Goliath:1;" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

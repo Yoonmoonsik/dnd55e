@@ -54,6 +54,18 @@
 - Speed: 30 feet
 - Darkvision
 - Gnomish Cunning
+## Goliath (Select as a Human Level 1 Passive)
+- Creature Type: Humanoid
+- Size: Medium (about 7–8 feet tall)
+- Speed: 35 feet
+- Giant Ancestry
+  - Cloud’s Jaunt
+  - Fire’s Burn
+  - Frost’s Chill
+  - Hill’s Tumble
+  - Stone’s Endurance
+  - Storm’s Thunder
+- Large Form
 ## Half Elf
 - Creature Type: Humanoid
 - Size: Medium (about 5–6 feet tall)

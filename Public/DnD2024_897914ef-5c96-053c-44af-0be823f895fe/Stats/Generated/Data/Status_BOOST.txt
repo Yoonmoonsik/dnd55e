@@ -2158,6 +2158,43 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
+new entry "__GUNSLINGER__"
+type "StatusData"
+data "StatusType" "BOOST"
+
+new entry "GUT_SHOT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "ha0793978g9cb2g100fg7822gda43641de6da;1"
+data "Description" "hdcd6979dg2bd0g509ega76dgb581147ab1b4;1"
+data "Icon" "Gunslinger_5_GutShot"
+data "StillAnimationType" "Weakened"
+data "StillAnimationPriority" "Weakened"
+data "SoundVocalStart" "PAIN"
+data "StackId" "GUT_SHOT"
+data "Boosts" "ActionResourceConsumeMultiplier(Movement,2,0);MovementSpeedLimit(Walk);Disadvantage(AttackRoll);"
+data "StatusEffect" "a9414b2d-91c7-4c44-8e92-91dff2a4b667"
+
+new entry "New_Stat_2"
+type "StatusData"
+data "StatusType" "BOOST"
+
+new entry "New_Stat_0"
+type "StatusData"
+data "StatusType" "BOOST"
+
+new entry "New_Stat_3"
+type "StatusData"
+data "StatusType" "BOOST"
+
+new entry "New_Stat_4"
+type "StatusData"
+data "StatusType" "BOOST"
+
+new entry "New_Stat_5"
+type "StatusData"
+data "StatusType" "BOOST"
+
 new entry "__FIGHTING STYLE FEAT__"
 type "StatusData"
 data "StatusType" "BOOST"

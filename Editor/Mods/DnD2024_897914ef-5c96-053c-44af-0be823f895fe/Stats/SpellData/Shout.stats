@@ -2938,5 +2938,16 @@
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="68ad05e0-ad4d-48cf-8b19-84434100711a" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2f6f2af7-d1fa-42c8-9f6e-595a1dde8e66" />
+        <field name="Name" type="NameTableFieldDefinition" value="LargeForm" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f6b57c12-fac3-4bc7-917c-b6a2da294900" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ENLARGE_DUERGAR, 100, 100);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h955ac611g781fg6ebfge3d7gd118e6f415a5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb1577082gdd8ag5ff6g60bcgd99dc936bbc9" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="CharacterLevelGreaterThan(4)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

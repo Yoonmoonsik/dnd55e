@@ -4420,6 +4420,95 @@
         <field name="Name" type="NameTableFieldDefinition" value="Bladesong_Weapon_Message" />
       </fields>
     </stat_object>
+    <stat_object color="#FF800000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="71acf0b4-411c-4ad5-ae2b-03d8048d1cc3" />
+        <field name="Name" type="NameTableFieldDefinition" value="__GUNSLINGER 13000__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d1c0ff9f-0f05-4a3e-987e-72be6151e44f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Gunslinger_1_QuickDraw" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8e96cab4g48c9gd240gfed5g58286ad0f05c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haf0986acg9405g2fdbg4ba9g8fdaa5a30601" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Gunslinger_1_QuickDraw" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13001" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Initiative(5);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9a3bae77-6818-442c-848d-036b3418a357" />
+        <field name="Name" type="NameTableFieldDefinition" value="Gunslinger_2_CriticalShot" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc58f9b38gf7dag2ca0g6cb2g22cf805f0366" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9200202eg02d1g77b7gd08cgcdd8fe5b794f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ImprovedCritical" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13002" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsRangedWeaponAttack()):ReduceCriticalAttackThreshold(1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b3c985e5-6a79-465f-971a-7073070b73b6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Gunslinger_2_Risk" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7d983a4eg695fg923dg4a7fg825cd8f6143f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc954e882g16cegbaa5geb0bgf93add6a9f64" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Gunslinger_2_Risk" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13002" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_BiteTheBullet);UnlockSpell(Shout_Blindfire);UnlockSpell(Shout_DodgeRoll);UnlockInterrupt(Interrupt_GrazingShot);UnlockInterrupt(Interrupt_MaverickSpirit);UnlockInterrupt(Interrupt_SkinOfYourTeath);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0d65b520-a992-483e-be49-caca5fbdde84" />
+        <field name="Name" type="NameTableFieldDefinition" value="Gunslinger_5_GutShot" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he5fbff85g7fc3g5a80ge481g51072629781a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9ce3665eg2bb4g9141g98d5ged02bb1becb1" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Gunslinger_5_GutShot" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13005" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasDamageEffectFlag(DamageFlags.Critical) and not HasDamageEffectFlag(DamageFlags.Miss) and IsRangedWeaponAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(GUT_SHOT,100,3)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="12b563c9-4718-4b16-8a08-bafcf3505d7c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Gunslinger_7_Evasion" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c155d842-60eb-4a11-8c30-e84cc9eff703" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h83187c75g7360g6a76g69b2g056444294567" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13007" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0192a4cb-d3c4-47e7-b62c-9d6e5c68c7db" />
+        <field name="Name" type="NameTableFieldDefinition" value="Gunslinger_9_CriticalShot" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he8361fb8g999fg30ceg5b76g9c0e5da35ec7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf88019fag13a2g173ege79egebe738b8ee20" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ImprovedCritical" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13009" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsRangedWeaponAttack()):ReduceCriticalAttackThreshold(1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="19da8147-0696-48f1-bd0e-925e43dc6500" />
+        <field name="Name" type="NameTableFieldDefinition" value="Gunslinger_11_Overkill" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf4d391c4gb00agbe23gc911g1d8d9c6ca9ec" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc87bcd1cg1649gb998g7e26g83dd5ad52f38" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Gunslinger_11_Overkill" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13011" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsRangedWeaponAttack()):CharacterWeaponDamage(1d8);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="056a0c12-3e41-4e67-a705-01e9fea8219f" />
@@ -5822,6 +5911,18 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Necrotic,Resistant);Resistance(Radiant,Resistant);UnlockSpell(Target_Light);UnlockSpell(Target_HealingHands);UnlockSpell(Shout_CelestialRevelation);DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="83349e45-765e-40b0-8d29-a78b29a99744" />
+        <field name="Name" type="NameTableFieldDefinition" value="Race_Goliath" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heaf54f1fg5a38gb0bcgce29ga8bbc11c1a24" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35af86fcg2186gfbc2g672fgcbee62e25113" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_FeralInstinct" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CloudsJaunt);UnlockSpell(Shout_LargeForm);UnlockInterrupt(Interrupt_FiresBurn);UnlockInterrupt(Interrupt_FrostsChill);UnlockInterrupt(Interrupt_HillsTumble);UnlockInterrupt(Interrupt_StonesEndurance);UnlockInterrupt(Interrupt_StormsThunder);ActionResource(Goliath,2,0);ActionResource(Movement,1.5,0);IF(CharacterLevelGreaterThan(4)):ActionResource(Goliath,1,0);IF(CharacterLevelGreaterThan(8)):ActionResource(Goliath,1,0);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="487be05c-3e51-40ff-bf28-4a19d4be839f" />
@@ -5833,13 +5934,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="78f6de1a-86d1-4d19-8863-fa2629bff2b1" />
         <field name="Name" type="NameTableFieldDefinition" value="Metamagic_Distant_GLO_Baelen" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(DistantSpellCheck(),ModifyTargetRadius(Multiplicative,2.5));" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="959681b3-8f21-4ef9-9070-44df0cd94811" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="58f3fcbf-861b-44ff-a868-bb2f135c43b8" />
       </fields>
     </stat_object>
   </stat_objects>

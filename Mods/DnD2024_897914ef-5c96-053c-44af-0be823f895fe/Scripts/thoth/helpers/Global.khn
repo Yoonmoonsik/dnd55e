@@ -35,6 +35,14 @@ function GreatWeaponMaster(entity)
     return IsProficientWith(entity, weapon) & ((isTwoHanded) | (isVersatile & ~isOffhandMelee & ~isOffhandAmmunition & ~hasShield))
 end
 
+function FightingStyle_GreatWeapon(entity)
+	-- Default to Target, like cpp functions
+    entity = entity or context.Target
+    local hasTwohandedWeapon = WieldingWeapon('Twohanded', false, false, entity)
+    local hasVersatileWeapon = WieldingWeapon('Versatile', false, false, entity) & ~WieldingWeapon('Melee', true, false, entity) & ~WieldingWeapon('Ammunition', true, false, entity) & ~HasShieldEquipped(entity)
+    return hasTwohandedWeapon | hasVersatileWeapon
+end
+
 function PoisonerSaveDC()
     return 8 + context.Source.ProficiencyBonus + math.max(GetModifier(context.Source.Dexterity), GetModifier(context.Source.Intelligence))
 end

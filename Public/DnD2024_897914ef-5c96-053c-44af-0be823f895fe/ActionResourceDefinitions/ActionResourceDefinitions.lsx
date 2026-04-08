@@ -255,6 +255,14 @@
                     <attribute id="UUID" type="guid" value="37d21767-84b4-4805-844b-0b52764c5617"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha452dc39g9152gfd66g823bg912ea1d1d763" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="Bloodthirst"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="d12ddb57-7213-411d-9053-52200293e1fc"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__SORCERER__"/>
                     <attribute id="UUID" type="guid" value="157308a0-6698-4cdc-a65b-7326f8e0cce6"/>
                 </node>
@@ -418,12 +426,13 @@
                     <attribute id="UUID" type="guid" value="cab54f89-f8bf-4f78-a512-5327880c6a65"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="ha452dc39g9152gfd66g823bg912ea1d1d763" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="h3f95591ag3b57ge6b7g67dag6b78011d07e5" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc7fb5801ga410g0b94g4884g81b249ee370c" version="1"/>
                     <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="Name" type="FixedString" value="Bloodthirst"/>
+                    <attribute id="Name" type="FixedString" value="Goliath"/>
                     <attribute id="ReplenishType" type="FixedString" value="Rest"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="d12ddb57-7213-411d-9053-52200293e1fc"/>
+                    <attribute id="UUID" type="guid" value="e6681241-1b8c-4098-b58f-cc4e1b77f1e0"/>
                 </node>
             </children>
         </node>

@@ -7299,5 +7299,32 @@
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="d16a93f4-ddb5-4175-9b3f-22eced19ff02" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bca6c761-46ee-4c72-9e80-5e064ce9768d" />
+        <field name="Name" type="NameTableFieldDefinition" value="CloudsJaunt" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fdf25d3d-b45f-47b6-9760-d2f2f0651239" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h423aa2bdgc981gde37g9921g76d99865cb47" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc2d61264g8816g804bg2a62g2c5d7e343f46" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;Goliath:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f6f0dfa-f834-4290-900f-ad3610e634dc" />
+        <field name="Name" type="NameTableFieldDefinition" value="StormsThunder" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="49bb7e74-7a63-454e-85d0-c06154f60902" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="DealDamage(1d8,Thunder,Magical);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="19" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellFail" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he859361dg2b9agac3fg2bdcg3f27f7143f6a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h352899a3g7e44g14c0g1466gcef7fe4c478f" version="1" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

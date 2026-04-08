@@ -2463,3 +2463,12 @@ data "PrepareEffect" "c218f05b-1e12-4298-beff-e4d33a5fa5a5"
 data "CastEffect" "1eee1ec0-263e-4f15-8909-84da438559e4"
 data "TargetEffect" "68ad05e0-ad4d-48cf-8b19-84434100711a"
 
+new entry "Shout_LargeForm"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Enlarge_Duergar"
+data "SpellProperties" "ApplyStatus(ENLARGE_DUERGAR, 100, 100);"
+data "DisplayName" "h955ac611g781fg6ebfge3d7gd118e6f415a5;1"
+data "Description" "hb1577082gdd8ag5ff6g60bcgd99dc936bbc9;1"
+data "RequirementConditions" "CharacterLevelGreaterThan(4)"
+

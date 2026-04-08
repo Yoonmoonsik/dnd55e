@@ -2705,6 +2705,57 @@
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF800000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="225b12be-03af-4bcd-aff2-d34a0419aac2" />
+        <field name="Name" type="NameTableFieldDefinition" value="__GUNSLINGER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="11732f26-be57-448d-96c6-31d306420d20" />
+        <field name="Name" type="NameTableFieldDefinition" value="GUT_SHOT" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha0793978g9cb2g100fg7822gda43641de6da" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdcd6979dg2bd0g509ega76dgb581147ab1b4" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Gunslinger_5_GutShot" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="PAIN" enumeration_type_name="SoundVocalType" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="GUT_SHOT" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceConsumeMultiplier(Movement,2,0);MovementSpeedLimit(Walk);Disadvantage(AttackRoll);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="a9414b2d-91c7-4c44-8e92-91dff2a4b667" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d2c9167c-240c-48ae-a25f-67901533a587" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fc5e9986-371e-4f35-8645-485499ba034c" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5b6c6c28-3ca9-4b43-9ee1-a0e8864909f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="658caacd-ff64-4926-9d7f-1a3157555fba" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="efa973fe-ce39-491a-b1c3-a847688e880c" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cd5cb601-39fb-41ed-9029-5d6fe8911f26" />

@@ -26,8 +26,13 @@
                 </node>
                 <node id="SkillList">
                     <attribute id="Name" type="FixedString" value="5.5 Bladesinger Skill List"/>
-                    <attribute id="Skills" type="LSString" value=" Acrobatics, Athletics, Performance, Persuasion"/>
+                    <attribute id="Skills" type="LSString" value="Acrobatics, Athletics, Performance, Persuasion"/>
                     <attribute id="UUID" type="guid" value="6cb5bcdd-7107-49aa-a508-de1f99ecb6ba"/>
+                </node>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="5.5 Gunslinger Skill List"/>
+                    <attribute id="Skills" type="LSString" value="Acrobatics, AnimalHandling, Athletics, Deception, Insight, Intimidation, Perception, Persuasion, SleightOfHand,Stealth"/>
+                    <attribute id="UUID" type="guid" value="2ae028ad-6390-4504-b22b-a87b9badf348"/>
                 </node>
             </children>
         </node>

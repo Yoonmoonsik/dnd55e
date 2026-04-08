@@ -386,5 +386,20 @@
         <field name="Tags" type="GuidObjectListTableFieldDefinition" value="bc52a699-cf55-4dad-9710-927e655910fd" />
       </fields>
     </stat_object>
+    <stat_object color="#FF800000" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_18" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b6cd23fa-ec1a-44a6-86c5-693201654dba" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Gunslinger" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd858b0fag8269g3078g7c9aga7aa5e71ba17" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcf74d85ag3ed2g6eecga0d3g6e6a0fa87154" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Gunslinger" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

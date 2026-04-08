@@ -439,5 +439,12 @@
 - Level 10: Illusory Self
 ## Artificer
 ## Gunslinger
+- Core Traits
+  - Skill Proficiencies
+  - Weapon Proficiencies
+  - Armor Training
+- Level 1: Fighting Style
+- Level 1: Quick Draw
+- Level 1: Weapon Mastery
 ## Illrigger
 ## Psion

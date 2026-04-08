@@ -33,7 +33,14 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6cb5bcdd-7107-49aa-a508-de1f99ecb6ba" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Bladesinger Skill List" />
-        <field name="Skills" type="StringTableFieldDefinition" value=" Acrobatics, Athletics, Performance, Persuasion" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Acrobatics, Athletics, Performance, Persuasion" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2ae028ad-6390-4504-b22b-a87b9badf348" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Gunslinger Skill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Acrobatics, AnimalHandling, Athletics, Deception, Insight, Intimidation, Perception, Persuasion, SleightOfHand,Stealth" />
       </fields>
     </stat_object>
   </stat_objects>

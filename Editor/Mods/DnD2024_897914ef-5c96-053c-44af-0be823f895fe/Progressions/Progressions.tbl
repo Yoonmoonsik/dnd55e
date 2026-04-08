@@ -7409,6 +7409,169 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF800000" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_716" />
+        <field name="UUID" type="IdTableFieldDefinition" value="34c98cb2-54e6-49e3-8563-a79ebdf5f182" />
+        <field name="FSName" type="StringTableFieldDefinition" value="__GUNSLINGER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_717" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Gunslinger_1_QuickDraw" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Charisma);Proficiency(SimpleWeapons);Proficiency(Longbows);Proficiency(HeavyCrossbows);Proficiency(HandCrossbows);Proficiency(LightArmor)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(2ae028ad-6390-4504-b22b-a87b9badf348,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(da3203d8-750a-4de1-b8eb-1eccfccddf46,1,FightingStyle);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_718" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7967f011-2e85-4f0e-a9df-c2a344f4ce27" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Gunslinger_1_QuickDraw" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);Proficiency(Longbows);Proficiency(HeavyCrossbows);Proficiency(HandCrossbows);" />
+        <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_719" />
+        <field name="UUID" type="IdTableFieldDefinition" value="19b73cff-77d0-43c3-8aa5-36571b753c2d" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Gunslinger_2_CriticalShot;Gunslinger_2_Risk" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_720" />
+        <field name="UUID" type="IdTableFieldDefinition" value="14571c71-2086-4f7c-b788-a88f3405277c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_721" />
+        <field name="UUID" type="IdTableFieldDefinition" value="db244b81-0eea-4d85-b410-4cbaa0f0cdcb" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,1,WeaponMasteryList)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_722" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a6a017ef-0de2-4eb3-aa4c-3c81a8a6b968" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack;Gunslinger_5_GutShot" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_723" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5b927b18-2ee1-4fe0-928c-d6f31d1a67b1" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_724" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f5c901cb-908b-4641-af23-bb37868492b7" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Gunslinger_7_Evasion" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_725" />
+        <field name="UUID" type="IdTableFieldDefinition" value="76fd2aa7-c847-4c00-9df3-0dd7f180146a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_726" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1820bf4e-8e41-45fe-a4f2-c42eabdd3993" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Gunslinger_9_CriticalShot" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_727" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5571b99d-dc66-41fb-8f52-962d0f1df5bc" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_728" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b4dda627-e6d9-4e89-8833-f90a76680d7c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Gunslinger_11_Overkill" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_729" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2f873703-1e77-4e68-a820-204441ed0539" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Gunslinger" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_672" />
