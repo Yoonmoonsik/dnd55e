@@ -39,5 +39,41 @@
         <field name="UnarmedRangedAttackAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d4f7f461-7fce-4544-945b-3222e126b8d2" />
+        <field name="Name" type="NameTableFieldDefinition" value="DragonShape" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5691e019-c997-4b8b-9408-a5d6e15c9988" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="200" />
+        <field name="GameSize" type="EnumerationTableFieldDefinition" value="Medium" enumeration_type_name="ObjectSize" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Wisdom" enumeration_type_name="Ability" version="1" />
+        <field name="UnarmedAttackAbility" type="EnumerationTableFieldDefinition" value="Wisdom" enumeration_type_name="Ability" version="1" />
+        <field name="UnarmedRangedAttackAbility" type="EnumerationTableFieldDefinition" value="Wisdom" enumeration_type_name="Ability" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="AcidResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ColdResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="FireResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="LightningResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PoisonResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="22993b4a-37ff-43f2-9702-6ee319cef0a2" />
+        <field name="Name" type="NameTableFieldDefinition" value="DragonShape_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d4f7f461-7fce-4544-945b-3222e126b8d2" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="14" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="93b8d177-8cd6-48e4-8941-48077bfb64ad" />
+        <field name="Name" type="NameTableFieldDefinition" value="DragonShape_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d4f7f461-7fce-4544-945b-3222e126b8d2" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="15" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

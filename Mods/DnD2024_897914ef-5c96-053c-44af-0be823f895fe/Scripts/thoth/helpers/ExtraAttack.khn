@@ -3,7 +3,7 @@ function TrueStrike()
 end
 
 function BreathWeaponCheck()
-    return SpellId('Zone_BreathWeapon_Acid') | SpellId('Zone_BreathWeapon_Poison') | SpellId('Zone_BreathWeapon_Cold') | SpellId('Zone_BreathWeapon_Fire_Cone') | SpellId('Zone_BreathWeapon_Fire_Line') | SpellId('Zone_BreathWeapon_Lightning')
+    return SpellId('Zone_BreathWeapon_Acid') | SpellId('Zone_BreathWeapon_Poison') | SpellId('Zone_BreathWeapon_Cold') | SpellId('Zone_BreathWeapon_Fire_Cone') | SpellId('Zone_BreathWeapon_Fire_Line') | SpellId('Zone_BreathWeapon_Lightning') | SpellId('Zone_BreathWeapon_DragonShape')
 end
 
 function ExtraAttackSpellCheck()

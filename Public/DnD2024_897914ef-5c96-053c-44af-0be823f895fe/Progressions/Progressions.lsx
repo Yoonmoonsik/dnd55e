@@ -1589,6 +1589,12 @@
                         <node id="SubClasses">
                             <children>
                                 <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="2db79008-fad4-4e31-bda3-8d5d34ccda3f"/>
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="fe416267-36f0-4346-90fc-4aeb7f25ec07"/>
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="7458da78-34b7-4150-a42f-37197ab04510"/>
                                 </node>
                                 <node id="SubClass">
@@ -1599,9 +1605,6 @@
                                 </node>
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="4b61af6c-4a44-436e-aa0a-0d11a2d6b8ee"/>
-                                </node>
-                                <node id="SubClass">
-                                    <attribute id="Object" type="guid" value="fe416267-36f0-4346-90fc-4aeb7f25ec07"/>
                                 </node>
                             </children>
                         </node>
@@ -6460,6 +6463,30 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="CircleOfDragons"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dragons_3_DraconicLore;Dragons_3_DragonShape"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="7a3b896a-3acd-45a3-8c79-24f5aaa4034f"/>
+                    <attribute id="UUID" type="guid" value="7a3b896a-3acd-45a3-8c79-24f5aaa4034f"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="CircleOfDragons"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dragons_6_ImprovedDragonShape"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="7a3b896a-3acd-45a3-8c79-24f5aaa4034f"/>
+                    <attribute id="UUID" type="guid" value="1f60957b-4431-44a0-a681-c1a8de704f8b"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="CircleOfDragons"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dragons_10_DraconicMagic"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="7a3b896a-3acd-45a3-8c79-24f5aaa4034f"/>
+                    <attribute id="UUID" type="guid" value="e1b3144d-6132-4697-a345-17e4972530b3"/>
                 </node>
             </children>
         </node>

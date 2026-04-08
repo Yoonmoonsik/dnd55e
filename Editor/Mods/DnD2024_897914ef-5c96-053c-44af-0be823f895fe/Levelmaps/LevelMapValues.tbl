@@ -273,5 +273,15 @@
         <field name="Level10" type="StringTableFieldDefinition" value="1d10" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="DragonShapeBreath" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fb26ce2d-a06d-4c5e-87a9-18b2c54f8c2c" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="457d0a6e-9da8-4f95-a225-18382f0e94b5" />
+        <field name="Level1" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level6" type="StringTableFieldDefinition" value="3d6" />
+        <field name="Level10" type="StringTableFieldDefinition" value="4d6" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

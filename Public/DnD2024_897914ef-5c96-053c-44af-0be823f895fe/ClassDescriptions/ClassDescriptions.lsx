@@ -411,6 +411,20 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="4"/>
                     <attribute id="UUID" type="guid" value="d215aa58-a49c-4e43-ad94-ccabe49dcdaa"/>
                 </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h4dcc12fag7d0cgb63ag23cfg441ee129b6df" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8a2a463cg9e0fg4e84gefd3g2307577a9b84" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="CircleOfDragons"/>
+                    <attribute id="ParentGuid" type="guid" value="457d0a6e-9da8-4f95-a225-18382f0e94b5"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="7a3b896a-3acd-45a3-8c79-24f5aaa4034f"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Druid"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="2db79008-fad4-4e31-bda3-8d5d34ccda3f"/>
+                </node>
             </children>
         </node>
     </region>

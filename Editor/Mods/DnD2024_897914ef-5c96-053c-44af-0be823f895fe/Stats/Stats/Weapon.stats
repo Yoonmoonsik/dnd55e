@@ -3725,7 +3725,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="bc4a1eb6-dd53-40ee-b720-09991b0c1833" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="56a7539c-7c5c-4c44-b8e0-5ff2e5beb4e9" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Zone_Mag_WeaponAction_RazorGale)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Zone_Mag_WeaponAction_RazorGale);" />
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Versatile;Melee;Dippable;Finesse" enumeration_type_name="WeaponFlags" version="1" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
@@ -3790,7 +3790,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="13236988-83df-4bf2-8005-b4ac31f21ff4" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Projectile_MAG_PushingAttack)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_MAG_PushingAttack);" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyWeapon_Ranged;WeaponMasterySlow;MAG_StrengthBonusToWeaponDamage_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
       </fields>
@@ -3848,7 +3848,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_Githborn_TelekineticBolt_HeavyCrossbow" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="945076ce-b4c8-4d64-a09b-f5ced2b8aebc" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b11756a8-519a-406c-be36-c3603c3edae1" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Shout_MAG_WeaponAction_TelekineticBolt)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Shout_MAG_WeaponAction_TelekineticBolt);" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
       </fields>
@@ -3860,7 +3860,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="bc4a1eb6-dd53-40ee-b720-09991b0c1833" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d4cb8410-096a-480e-88fb-7224c6b654f6" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Target_MAG_WeaponAction_FlamingBlade)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_FlamingBlade);" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
       </fields>
@@ -3931,7 +3931,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="bc4a1eb6-dd53-40ee-b720-09991b0c1833" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0a024202-84d0-4466-a958-76b2a163781c" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Target_MAG_WeaponAction_Mindoverload)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_Mindoverload);" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
       </fields>
@@ -4137,7 +4137,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_LC_Fleshred_Longsword" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="10a873f8-9736-49d7-975f-128ad5f7b3bf" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5c41bb72-9a50-4d98-a12a-0de374c43f19" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Target_MAG_WeaponAction_Fleshrend)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_Fleshrend);" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
       </fields>
@@ -4148,7 +4148,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_SWA_Roaring_Maul" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4a7d3c75-acec-47e1-8f67-00ec5f097ca7" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c1aa1bf6-2bb8-4472-9e18-b5285101c4b3" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Target_MAG_WeaponAction_GrandSlam)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_GrandSlam);" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
       </fields>
@@ -4300,7 +4300,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_OfRupture_Rapier" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ef1690a2-2b6d-44f5-8aa5-640b89ca91f1" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2d55309e-52ab-4270-9211-e432e4d8fc59" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Target_MAG_WeaponAction_SearingBlood)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_SearingBlood);" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
       </fields>
@@ -4323,7 +4323,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_Poison_Greatclub" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="13d125b4-d863-4fb4-acdf-efd635a30ab7" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="fddc251b-22d8-4036-a9fb-85fba8635cf0" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Target_MAG_WeaponAction_PoisonMist)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_PoisonMist);" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
       </fields>
@@ -4334,7 +4334,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_Shadow_Shortsword" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c6352039-a985-4b94-886a-29dd7af0d203" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="82afffba-16cb-47ff-8520-bac8b9c46ad3" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Target_MAG_WeaponAction_ShadowBlade)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_ShadowBlade);" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
@@ -4357,7 +4357,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_Revitalizing_Warpick" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1ba3b9ce-31b8-4ffa-940e-f7aba75dd144" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1a0860bf-aa35-4ac4-b98b-2f9fb04426bd" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Target_MAG_WeaponAction_RevitalizingStrike)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_RevitalizingStrike);" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
       </fields>
@@ -4368,7 +4368,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_Steadfast_Maul" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f214856c-402e-4dcb-998f-037574d1b68a" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9c0b228c-8330-4407-9877-3b980810a1ae" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Target_MAG_WeaponAction_SteadfastStrike)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_SteadfastStrike);" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
       </fields>
@@ -4379,7 +4379,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_Dawn_Morningstar" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d8efee0f-28c0-4102-a702-faa16e011ced" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="907df6ab-93ab-4f51-bf57-ac767d48e382" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Target_MAG_WeaponAction_FlashingDawn)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_FlashingDawn);" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
       </fields>
@@ -4390,7 +4390,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_Moonlight_Glaive" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ee9ecdc8-b753-4e64-b339-eb3fba9b6305" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="24f276e7-f08f-44f1-ab97-3df34fd52add" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Target_MAG_WeaponAction_MoonlightButterfly)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_MoonlightButterfly);" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
@@ -4456,7 +4456,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="54eae900-9d46-4794-9265-a5884202b72e" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f8578a13-a857-4043-91e4-8101c9e7c004" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Shout_MAG_DevoteesMace_Healing_Aura)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Shout_MAG_DevoteesMace_Healing_Aura);" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
         <field name="Value" type="IntegerTableFieldDefinition" value="0" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
@@ -4482,7 +4482,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="945076ce-b4c8-4d64-a09b-f5ced2b8aebc" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="12710611-6c85-4280-a597-8286e18f5740" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyWeapon_Ranged;WeaponMasteryPush;MAG_LC_MonsterHunter_Passive;" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Shout_MAG_WeaponAction_UndeadTurningBolt)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Shout_MAG_WeaponAction_UndeadTurningBolt);" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
       </fields>
@@ -4692,7 +4692,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_LC_Fleshrend_Shortsword" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b7675deb-a7c9-4d6c-a477-72703cadd152" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="3db6b7be-1e36-405e-94fd-cf5a9f0e4b68" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Target_MAG_WeaponAction_Fleshrend)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_Fleshrend);" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
       </fields>
@@ -4751,7 +4751,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_MAG_Victory_Longbow_Haste)" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyWeapon_Ranged;WeaponMasterySlow;MAG_Victory_Longbow_Passive;MAG_Light_TheVictory_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Projectile_MAG_Victory_Longbow_RoaringShot)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_MAG_Victory_Longbow_RoaringShot);" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
       </fields>
     </stat_object>
@@ -4765,7 +4765,7 @@
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(3);WeaponProperty(Magical)" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryTopple;MAG_TheThorns_ExplosiveThrowing_Passive;MAG_TheThorns_VeilOfTheWind_Passive;MAG_Light_TheThorns_Passive;" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Rush_MAG_ZephyrFlash);UnlockSpell(Zone_MAG_ZephyrBreak)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Rush_MAG_ZephyrFlash);UnlockSpell(Zone_MAG_ZephyrBreak);" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
       </fields>
     </stat_object>
@@ -4824,7 +4824,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d49bf05e-4f94-4860-bd8c-ae63dae811be" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(3);WeaponProperty(Magical)" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Target_MAG_Legendary_CompelledDuel);UnlockSpell(Target_MAG_TheDueller_BonusAttack)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_Legendary_CompelledDuel);UnlockSpell(Target_MAG_TheDueller_BonusAttack);" />
         <field name="PassivesMainHand" type="StringTableFieldDefinition" value="MAG_TheDueller_ImprovedDuelist_Passive;MAG_TheDueller_WitheringCut_Passive" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
@@ -5410,7 +5410,7 @@
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Target_MAG_WeaponAction_FlashingDawn)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_FlashingDawn);" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasterySap;MAG_Radiant_RadiatingOrb_Melee_OnDamage_Passive;MAG_UndeadTurning_Weapon_Passive;" />
       </fields>
     </stat_object>
@@ -5434,7 +5434,7 @@
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Target_MAG_WeaponAction_ShadowBlade)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_ShadowBlade);" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_ShadowBlinding_Weapon_Passive;MAG_IllusionBlade_Passive" />
         <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="ProficiencyGroupFlags" version="1" />
       </fields>
@@ -5470,7 +5470,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="53023726-12bd-4871-805a-66744321dfdb" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Target_MAG_WeaponAction_Bloodrend)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_MAG_WeaponAction_Bloodrend);" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyWeapon_Melee;WeaponMasteryPush;MAG_ImpalerDamageBonus_Passive;MAG_ImpalerTempHP_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
       </fields>
@@ -5485,7 +5485,7 @@
         <field name="Value" type="IntegerTableFieldDefinition" value="1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value=";UnlockSpell(Projectile_WYR_Circus_MumblingStaff_FireBolt)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_WYR_Circus_MumblingStaff_FireBolt);" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>

@@ -1643,6 +1643,35 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="3f474e1e-2d23-40ad-9a07-f65309fa756e" />
       </fields>
     </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="02e0c2a3-9c70-48a3-b648-fe3c225ad953" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CIRCLE OF DRAGONS__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f3304796-8d5c-4f7d-be0f-faed0e73c751" />
+        <field name="Name" type="NameTableFieldDefinition" value="DragonShape" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not ClassLevelHigherOrEqualThan(6,'Druid')):ApplyStatus(DRAGONSHAPE,100,-1);IF(ClassLevelHigherOrEqualThan(6,'Druid') and not ClassLevelHigherOrEqualThan(10,'Druid')):ApplyStatus(DRAGONSHAPE_6,100,-1);IF(ClassLevelHigherOrEqualThan(10,'Druid')):ApplyStatus(DRAGONSHAPE_10,100,-1);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_EndGameAlly_ZhentarimUnits" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha7a4dc42gd5c2g913bg0030gb9bacfc6f4d8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hea98e86cg6f0eg6fa9gd366g94bd7a432ec2" version="2" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hc56adb28g1c39g4a79g84bbgc0a1b6238a22" version="1" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Buff_WildShape_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Buff_WildShape_L1to3" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_WildShapeBadger_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;WildShape:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="f324c7b4-4fb8-4088-ae4a-02fa323a8701,,;,,;825a94f3-b675-402a-a275-adcc465f4f62,,;721abca5-2d52-4317-82a3-2a2e970a7a16,,;c5b317da-4fc3-4d59-a45e-2681592cf0ed,,;,,;ad2cf583-ad84-4165-8d04-9fea86af396e,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;UnavailableInDialogs" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('WILDSHAPE_ACTIVE')" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="22330577-b4cb-49ea-ade9-7ff183aa9209" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="cc1dcf3b-9fc9-4d11-993d-296af54dc67a" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="009c46a4-53fe-41c6-9942-641b6b9438eb" />

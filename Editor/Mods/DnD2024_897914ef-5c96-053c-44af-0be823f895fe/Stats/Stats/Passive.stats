@@ -1919,6 +1919,64 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2372d9b9-4a83-4f08-8566-9c6200cef232" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CIRCLE OF DRAGONS 4500__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5e27f43c-e847-47e3-b1db-2a655f01a911" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dragons_3_DraconicLore" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hea0350ecg3563gf151g3949ge2a04d0eb3da" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hda6df4cdg93a3gab23g3fd8ga7f8a4585d19" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_EndGameAlly_ZhentarimUnits" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,History);ExpertiseBonus(History);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2188fa92-dba7-41e0-badf-111f14fa806a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dragons_3_DragonShape" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8ea85d5eg5bc3gd5aagf3e6g7179f506b3ef" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc9360440gfe54g46f9gbb9dge1b352d710ba" version="2" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hcb4664e4g5158g21d8ga6dcgb912ed163b0d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_EndGameAlly_ZhentarimUnits" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DragonShape);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL_3X,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c7e84274-b27d-4d54-8beb-bc43303df7c8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dragons_6_ImprovedDragonShape" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1dfb4f40g1c13gaa7fg1d57g9a9c0d160f6b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h188fcbccg032fg827cg4fc8g0526eb475df0" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_EndGameAlly_ZhentarimUnits" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4506" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnarmedMagicalProperty()" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d1df802-6723-41ec-87e0-e90913a6ce13" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dragons_10_DraconicMagic" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd3ad95cbg5d22g8cf8g0922gb17a3e44311f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8a430f87g813dg7f42g06f9gd34f0e6f79f3" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h7ee8c4acge213gdc57g0743g89e268308429" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_EndGameAlly_ZhentarimUnits" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4510" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b84ecbb2-39b9-48d5-8b36-840a87d33d6b" />

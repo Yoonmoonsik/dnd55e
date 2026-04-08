@@ -14,6 +14,49 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e4393222-383a-4721-b54e-92d32945cc79" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONSHAPE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hae35f153g7a35g4565ga666g79bb16da7dd3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_EndGameAlly_ZhentarimUnits" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WILDSHAPE" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_ACTIVE,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_BADGER_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE);ApplyStatus(SELF,DRAGONSHAPE_REMOVE,100,0);" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="7fb257e6-cc4e-474c-9d20-32a2ea966b83" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="5273f8cb-c96c-4efb-ac86-b045c32004aa" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Polymorph;SG_Polymorph_BeastShape;SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0518d01-72d0-47c1-bd8e-100e07aea4b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONSHAPE_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e4393222-383a-4721-b54e-92d32945cc79" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="b0a9ccd3-fbbe-4567-9515-9f2cf53216f2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d1e8b91a-ace0-4dc7-9821-f4b3bece9509" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONSHAPE_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e4393222-383a-4721-b54e-92d32945cc79" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WILDSHAPE" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="13803ef3-b4f8-423b-af2f-846a3d53ac99" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="a5c52d66-106d-4204-934a-a63e9c83b685" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="77577be2-6b5f-4891-9dd7-2690228c6fff" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONSHAPE_REMOVE" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WILDSHAPE" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="b3a80594-e55e-4ec8-83b2-448e713ec933" />
+        <field name="Rules" type="GuidObjectTableFieldDefinition" value="5273f8cb-c96c-4efb-ac86-b045c32004aa" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;ApplyToDead;IgnoreResting;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b5a5b652-26b8-4164-b703-c665372366f0" />
         <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BADGER_PLAYER" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8a519044g61f3g7166g3e0cg6c97799602e4" version="1" />

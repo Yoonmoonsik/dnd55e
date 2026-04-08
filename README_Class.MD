@@ -115,22 +115,27 @@
 - Level 2: Wild Companion
 - Level 5: Wild Resurgence
 - Level 7: Elemental Fury
-### Land
+### Circle of the Stars
+### Circle of Dragons
+- Level 3: Draconic Lore
+- Level 3: Dragon Shape
+- Level 6: Improved Dragon Shape
+- Level 10: Draconic Magic
+### Circle of the Land
 - Level 3: Circle of the Land Spells
 - Level 3: Land's Aid
 - Level 3: Natural Recovery
 - Level 10: Nature's Ward
-### Sea
+### Circle of the Moon
+- Level 3: Circle Forms
+- Level 6: Improved Circle Forms
+- Level 10: Moonlight Step
+### Circle of the Sea
 - Level 3: Circle of the Sea Spells
 - Level 3: Wrath of the Sea
 - Level 6: Aquatic Affinity
 - Level 10: Stormborn
-### Spore
-### Stars
-### Moon
-- Level 3: Circle Forms
-- Level 6: Improved Circle Forms
-- Level 10: Moonlight Step
+### Circle of the Spores
 ## Fighter
 - Core Traits
   - Skill Proficiencies
