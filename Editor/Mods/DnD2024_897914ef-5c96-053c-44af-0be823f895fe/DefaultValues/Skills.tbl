@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="db45b32f-877a-45bd-afb5-32e7d415d1e6">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e2b192ea-3a6d-440d-b19b-9f6c0615d0d9" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="SleightOfHand;Stealth;Acrobatics;AnimalHandling;Athletics;Deception;Insight;Intimidation;Perception;Persuasion" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Gunslinger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f4b4885a-b79b-4f0d-b1cf-d306aee9d919" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="e8fd7f3c-a1e3-41b9-80ac-d0cc8a6238f4" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Deception" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="High Roller" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

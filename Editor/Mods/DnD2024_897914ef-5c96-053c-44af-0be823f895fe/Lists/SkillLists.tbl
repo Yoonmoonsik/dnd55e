@@ -43,5 +43,12 @@
         <field name="Skills" type="StringTableFieldDefinition" value="Acrobatics, AnimalHandling, Athletics, Deception, Insight, Intimidation, Perception, Persuasion, SleightOfHand,Stealth" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d4202817-9db9-4377-aa9a-0d0096e556ba" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 High Roller SKill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Deception, Insight, Perception" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

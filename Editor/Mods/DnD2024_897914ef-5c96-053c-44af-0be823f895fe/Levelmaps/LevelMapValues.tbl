@@ -264,5 +264,14 @@
         <field name="Level9" type="StringTableFieldDefinition" value="4d4" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="Risk" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f2694731-e5cf-40a4-a9bd-b24b602fb54e" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="b6cd23fa-ec1a-44a6-86c5-693201654dba" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level10" type="StringTableFieldDefinition" value="1d10" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

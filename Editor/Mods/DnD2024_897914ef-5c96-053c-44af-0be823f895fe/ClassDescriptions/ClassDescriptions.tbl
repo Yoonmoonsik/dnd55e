@@ -399,6 +399,59 @@
         <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
         <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
         <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="BaseHp" type="IntegerTableFieldDefinition" value="10" />
+        <field name="HpPerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="CommonHotbarColumns" type="IntegerTableFieldDefinition" value="9" />
+        <field name="ClassHotbarColumns" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ItemsHotbarColumns" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_19" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3f014425-480c-49d8-9b9d-2303543c0d11" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="b6cd23fa-ec1a-44a6-86c5-693201654dba" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="HighRoller" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he1d26149g3d4dgbec3g0b58g70c8afd98072" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1594d7ffge703g7b01g1f9bg2776670f8c1f" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="e8fd7f3c-a1e3-41b9-80ac-d0cc8a6238f4" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Gunslinger" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_20" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f617ec08-b29d-4ac0-a742-3fd6c25c4520" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="b6cd23fa-ec1a-44a6-86c5-693201654dba" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Spellslinger" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd5cd42c6g00b9gf97bg188bgb80ad6f17e94" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc1e20b2eg75ccg05fcgecaag065752a6e0ac" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="87c98e6f-682b-4296-b763-837ba2555205" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Gunslinger" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_21" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d215aa58-a49c-4e43-ad94-ccabe49dcdaa" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="b6cd23fa-ec1a-44a6-86c5-693201654dba" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="WhiteHat" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf49c14dg93ceg7906g770dg50e2ea6a3c87" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5e8ae88cg3e3fg20acg354bg8c4bea47525e" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="e2f9bb71-e529-4de1-beb0-7eb1568aec36" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Gunslinger" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
       </fields>
     </stat_object>
   </stat_objects>

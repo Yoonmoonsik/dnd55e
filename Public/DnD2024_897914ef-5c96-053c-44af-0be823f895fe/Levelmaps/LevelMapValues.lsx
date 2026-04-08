@@ -219,6 +219,13 @@
                     <attribute id="Name" type="FixedString" value="ProficiencyBonusD4"/>
                     <attribute id="UUID" type="guid" value="5ef395be-a8fe-4665-bd85-98edeef69760"/>
                 </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d8"/>
+                    <attribute id="Level10" type="LSString" value="1d10"/>
+                    <attribute id="Name" type="FixedString" value="Risk"/>
+                    <attribute id="PreferredClassUUID" type="guid" value="b6cd23fa-ec1a-44a6-86c5-693201654dba"/>
+                    <attribute id="UUID" type="guid" value="f2694731-e5cf-40a4-a9bd-b24b602fb54e"/>
+                </node>
             </children>
         </node>
     </region>

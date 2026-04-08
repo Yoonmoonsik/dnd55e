@@ -2729,31 +2729,55 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d2c9167c-240c-48ae-a25f-67901533a587" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="Name" type="NameTableFieldDefinition" value="BITE_THE_BULLET" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h251764bbg0827g7973g1fa1g06a686073a3e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1e6725ecg25f9g4965g6e7dg3fb50e04d1db" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Gunslinger_Risk_BiteTheBullet" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BITE_THE_BULLET" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(LevelMapValue(Risk)+ClassLevel(Gunslinger));" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fc5e9986-371e-4f35-8645-485499ba034c" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLINDFIRE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h86d52560g0e7fga4d6g37b2gbf26b4ebf7bc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3f23c59cg5062g7897g047dg8aa2c35442a2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Gunslinger_Risk_Blindfire" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BLINDFIRE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(24);ActiveCharacterLight(c46e7ba8-e746-7020-5146-287474d7b9f7);StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud);StatusImmunity(SG_Blinded);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="5b6c6c28-3ca9-4b43-9ee1-a0e8864909f5" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="aa54f297-345f-4ef7-bd78-8d79027cfe6a" />
+        <field name="Name" type="NameTableFieldDefinition" value="LIARS_DICE_GOOD" />
+        <field name="Icon" type="StringTableFieldDefinition" value="HighRoller_3_LiarsDice" />
+        <field name="StackId" type="StringTableFieldDefinition" value="LIARS_DICE" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="5e6576d3-29c9-4c00-859b-1abcea010922" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb4ca4223gcc87g7a48g70f8ge8b72f98226f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hedc8f50dg2cfege304g3e25gaf93f9dfc2e9" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="658caacd-ff64-4926-9d7f-1a3157555fba" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="efa973fe-ce39-491a-b1c3-a847688e880c" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="81c7d8f7-e999-4de1-9cfa-1d3185945a19" />
+        <field name="Name" type="NameTableFieldDefinition" value="LIARS_DICE_BAD" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="aa54f297-345f-4ef7-bd78-8d79027cfe6a" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Debuff" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="HalveWeaponDamage(Dexterity);" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h42c83e2fgb526ge712gd8fbg5dd17226f6f9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h396d95d1gb027gae12ge9f1gfd524d0a2828" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -3918,6 +3942,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_PALADIN_TEMP_HP" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="cde3ec7a-8057-4213-b996-294cf8ae37cf" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAG_PALADIN_TEMP_HP" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

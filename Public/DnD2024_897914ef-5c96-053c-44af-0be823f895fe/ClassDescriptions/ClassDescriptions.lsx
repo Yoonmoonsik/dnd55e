@@ -356,9 +356,14 @@
                     </children>
                 </node>
                 <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="10"/>
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassHotbarColumns" type="int32" value="5"/>
+                    <attribute id="CommonHotbarColumns" type="int32" value="9"/>
                     <attribute id="Description" type="TranslatedString" handle="hcf74d85ag3ed2g6eecga0d3g6e6a0fa87154" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hd858b0fag8269g3078g7c9aga7aa5e71ba17" version="1"/>
+                    <attribute id="HpPerLevel" type="int32" value="6"/>
+                    <attribute id="ItemsHotbarColumns" type="int32" value="2"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="Name" type="FixedString" value="Gunslinger"/>
                     <attribute id="PrimaryAbility" type="uint8" value="2"/>
@@ -366,6 +371,45 @@
                     <attribute id="SoundClassType" type="FixedString" value="Gunslinger"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="4"/>
                     <attribute id="UUID" type="guid" value="b6cd23fa-ec1a-44a6-86c5-693201654dba"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h1594d7ffge703g7b01g1f9bg2776670f8c1f" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="he1d26149g3d4dgbec3g0b58g70c8afd98072" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="HighRoller"/>
+                    <attribute id="ParentGuid" type="guid" value="b6cd23fa-ec1a-44a6-86c5-693201654dba"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="e8fd7f3c-a1e3-41b9-80ac-d0cc8a6238f4"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Gunslinger"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="3f014425-480c-49d8-9b9d-2303543c0d11"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="hc1e20b2eg75ccg05fcgecaag065752a6e0ac" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd5cd42c6g00b9gf97bg188bgb80ad6f17e94" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Spellslinger"/>
+                    <attribute id="ParentGuid" type="guid" value="b6cd23fa-ec1a-44a6-86c5-693201654dba"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="87c98e6f-682b-4296-b763-837ba2555205"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Gunslinger"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="f617ec08-b29d-4ac0-a742-3fd6c25c4520"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h5e8ae88cg3e3fg20acg354bg8c4bea47525e" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hcf49c14dg93ceg7906g770dg50e2ea6a3c87" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="WhiteHat"/>
+                    <attribute id="ParentGuid" type="guid" value="b6cd23fa-ec1a-44a6-86c5-693201654dba"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="e2f9bb71-e529-4de1-beb0-7eb1568aec36"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Gunslinger"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="d215aa58-a49c-4e43-ad94-ccabe49dcdaa"/>
                 </node>
             </children>
         </node>

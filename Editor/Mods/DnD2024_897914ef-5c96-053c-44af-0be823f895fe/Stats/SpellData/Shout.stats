@@ -1669,7 +1669,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2af80cee-16b4-439d-8ca2-15b51b0ff7d1" />
         <field name="Name" type="NameTableFieldDefinition" value="PatientDefense" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4a97e468-7a6b-4ab9-93f5-d613d32ace8d" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DISENGAGE,100,1);ApplyStatus(DODGE,100,1);IF(HasPassive('Monk_10_HeightenedFocus'),context.Source):ApplyStatus(PATIENT_DEFENSE_TEMPHP,100,-1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DISENGAGE,100,1);ApplyStatus(DODGE,100,1);IF(HasPassive('Monk_10_HeightenedFocus',context.Source)):ApplyStatus(PATIENT_DEFENSE_TEMPHP,100,-1);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd1fc430dg69bagc256g2318g1055bfa2fc27" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4c44c0abg262cg8e6egf06cg92cf676855e3" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DISENGAGE,100,1);ApplyStatus(DODGE,100,1);" />
@@ -1680,7 +1680,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0d7a361c-3d8e-49ce-b0e5-17f9c46c96d0" />
         <field name="Name" type="NameTableFieldDefinition" value="StepOfTheWind" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3f56de45-417a-4c9a-89c4-2a923fe91599" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DISENGAGE,100,1);ApplyStatus(DASH,100,1);IF(HasPassive('Monk_10_HeightenedFocus'),context.Source):ApplyStatus(PATIENT_DEFENSE_TEMPHP,100,-1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DISENGAGE,100,1);ApplyStatus(DASH,100,1);IF(HasPassive('Monk_10_HeightenedFocus',context.Source)):ApplyStatus(PATIENT_DEFENSE_TEMPHP,100,-1);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdd4e66dbg0ac9g5c5dg463eg6076392563ce" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h83374bedgf40agd759g1784gd9c5f24545a3" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DISENGAGE,100,1);ApplyStatus(DASH,100,1);ApplyStatus(STEP_OF_THE_WIND,100,1)" />
@@ -2297,11 +2297,86 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(BLADESONG,100,10);ApplyEquipmentStatus(MainHand, BLADESONG_BLADEWORK,100, 10);ApplyEquipmentStatus(OffHand, BLADESONG_BLADEWORK,100, 10);" />
       </fields>
     </stat_object>
+    <stat_object color="#FF800000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="87d19ce2-9f9a-4137-95ef-1fb98232efde" />
+        <field name="Name" type="NameTableFieldDefinition" value="__GUNSLINGER__" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="6878c41b-cc35-4405-ac7c-e4ae75fc9114" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="f297a9c5-cadb-4c19-96bc-f4d5eed62659" />
+        <field name="UUID" type="IdTableFieldDefinition" value="261da116-0be5-4491-a657-11714118d8b6" />
+        <field name="Name" type="NameTableFieldDefinition" value="BiteTheBullet" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(BITE_THE_BULLET,100,-1);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Gunslinger_Risk_BiteTheBullet" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb1ace68ega6a4gd1e5g3bb4g470b754bbd3b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5c32e99cgde90g115cgb925g8d1863515d98" version="2" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BITE_THE_BULLET,100,-1);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Start" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Dash" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Dash" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="Risk:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;925779e7-8bf6-4d56-8c4d-42c3bc01c60c,,;50398f4e-dd82-4d6a-ad43-aedd578543d9,,;1c343e00-7e6c-4f53-b588-074a3cdb9c7d,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence;Stealth;Invisible;NoCameraMove" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="ae569a16-41db-43ee-94cf-770e101841cd" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="806a170b-c567-4481-bb56-56871d8aaf5f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dbbcf711-1196-49b9-ac44-87c44079ebb0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Blindfire" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(BLINDFIRE,100,1);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Gunslinger_Risk_Blindfire" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h954e64afgfcbegba5ag9418g03aeba64afba" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h133443e3g83d1g23b9gaa79g6afa4fd2cc92" version="2" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BLINDFIRE,100,1);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Start" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Dash" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Dash" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="Risk:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;925779e7-8bf6-4d56-8c4d-42c3bc01c60c,,;50398f4e-dd82-4d6a-ad43-aedd578543d9,,;1c343e00-7e6c-4f53-b588-074a3cdb9c7d,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence;Stealth;Invisible;NoCameraMove" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="ae569a16-41db-43ee-94cf-770e101841cd" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="806a170b-c567-4481-bb56-56871d8aaf5f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b7b418bf-18a1-44ee-8371-362310b992cc" />
+        <field name="Name" type="NameTableFieldDefinition" value="LiarsDice" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="RollDieAgainstDC(DiceType.d20,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(LIARS_DICE_GOOD,100,1);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(LIARS_DICE_BAD,100,1);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="HighRoller_3_LiarsDice" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8416536fg8e84gf01eg11c4g49188075bb83" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h463652f9g2026g8164g2cf3g5dcaab1b644f" version="2" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Start" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Dash" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Dash" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="Risk:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;925779e7-8bf6-4d56-8c4d-42c3bc01c60c,,;50398f4e-dd82-4d6a-ad43-aedd578543d9,,;1c343e00-7e6c-4f53-b588-074a3cdb9c7d,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence;Stealth;Invisible;NoCameraMove" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="ae569a16-41db-43ee-94cf-770e101841cd" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="806a170b-c567-4481-bb56-56871d8aaf5f" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

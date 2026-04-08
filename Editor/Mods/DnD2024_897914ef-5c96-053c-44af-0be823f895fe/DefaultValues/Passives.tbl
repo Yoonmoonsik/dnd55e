@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="f01245cf-d242-4f5b-af85-f795d310ac2b">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="13d37412-576c-49da-a397-ed37d2900876" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="FightingStyle_Archery" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Gunslinger Fighting Style" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3c2a991c-0e63-4636-9874-0508bd5697aa" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="HasWeaponMastery_Slow;HasWeaponMastery_Vex" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

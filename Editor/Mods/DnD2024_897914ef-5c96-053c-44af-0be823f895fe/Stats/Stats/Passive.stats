@@ -4459,7 +4459,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Gunslinger_2_Risk" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13002" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_BiteTheBullet);UnlockSpell(Shout_Blindfire);UnlockSpell(Shout_DodgeRoll);UnlockInterrupt(Interrupt_GrazingShot);UnlockInterrupt(Interrupt_MaverickSpirit);UnlockInterrupt(Interrupt_SkinOfYourTeath);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_BiteTheBullet);UnlockSpell(Shout_Blindfire);UnlockSpell(Rush_DodgeRoll);UnlockInterrupt(Interrupt_GrazingShot);ActionResource(GrazingShot,1,0);UnlockInterrupt(Interrupt_MaverickSpirit);ActionResource(MaverickSpirit,1,0);UnlockInterrupt(Interrupt_SkinOfYourTeeth);ActionResource(SkinOfYourTeeth,1,0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4507,6 +4507,56 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13011" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsRangedWeaponAttack()):CharacterWeaponDamage(1d8);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="590f9510-17db-4122-8a3b-0b396482ca13" />
+        <field name="Name" type="NameTableFieldDefinition" value="HighRoller_3_PokerFace" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha818ea6cg6ab5g343dga9bag8a6101e2e6ac" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9fff4318g1d24gfe2bgf7a2g1e0bcaa80c6d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Deception" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7b46b870-5b04-4026-b334-d7b00fed4b74" />
+        <field name="Name" type="NameTableFieldDefinition" value="HighRoller_3_LiarsDice" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf4b9bf75gff89ga519g3c73g4e032d899801" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h86505f38g7a8bgd372ge5ebg631424f992ff" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="HighRoller_3_LiarsDice" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_LiarsDice);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsRangedAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('LIARS_DICE_GOOD',context.Source) and not IsMiss()):DealDamage(MainRangedWeapon, MainRangedWeaponDamageType,Magical,,0,,true,true,false,true);RemoveStatus(SELF,LIARS_DICE_GOOD)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7a873964-f495-4c8d-851f-51ddcd4d7cab" />
+        <field name="Name" type="NameTableFieldDefinition" value="HighRoller_6_RiskyBusiness" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0602a34cg6491g63b2g1d28g66f745219e94" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h50a60375g5ff1gecd3g534eg1d38083f84f2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="HighRoller_3_LiarsDice" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13106" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_RiskyBusiness);ActionResource(RiskyBusiness,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1fbff071-137a-4f98-beda-6a6d77bf2f98" />
+        <field name="Name" type="NameTableFieldDefinition" value="HighRoller_10_RiskTaker" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h92d115e1gde3cg3ce4g07ebg1a8454c06194" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb4e272e9gcca8g7303g07c8g417f217bf042" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="HighRoller_3_LiarsDice" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13110" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_MaverickSpirit_Free);UnlockInterrupt(Interrupt_SkinOfYourTeeth_Free);" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

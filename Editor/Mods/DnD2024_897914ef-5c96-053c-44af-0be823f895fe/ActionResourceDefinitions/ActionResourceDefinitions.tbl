@@ -451,6 +451,62 @@
         <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
+    <stat_object color="#FF800000" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_61" />
+        <field name="UUID" type="IdTableFieldDefinition" value="929d806a-8db8-40a3-b53c-4cd04337bb1e" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="__GUNSLINGER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_62" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2c724d96-ff62-49af-a2fa-13e65f80a593" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Risk" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0c28325bgfcc5ga21cgf52eg7ebe1e5e3de6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha02a83edg0b59g9fadg6c2ag3f1117de4840" version="1" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="ShortRest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_64" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3943d531-6878-4b8a-9cb6-e50cad1f6d58" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="GrazingShot" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Turn" />
+        <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_65" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5677977b-4d79-4a62-976d-790b4a91e0ff" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="MaverickSpirit" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Turn" />
+        <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_66" />
+        <field name="UUID" type="IdTableFieldDefinition" value="04bf42ea-e97c-4ec2-816c-92ec45b865c2" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="SkinOfYourTeeth" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Turn" />
+        <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_63" />
+        <field name="UUID" type="IdTableFieldDefinition" value="739bc404-8849-4cf1-bd95-4d8d7b1aa03a" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="RiskyBusiness" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h43421e50g805fg598bg75d5g05e5b202e34a" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Turn" />
+        <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_27" />

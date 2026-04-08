@@ -323,6 +323,19 @@
                     <attribute id="UUID" type="guid" value="b968883a-cfcd-480f-a72e-d25ec58312b0"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="Name" type="FixedString" value="__GUNSLINGER__"/>
+                    <attribute id="UUID" type="guid" value="929d806a-8db8-40a3-b53c-4cd04337bb1e"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="ha02a83edg0b59g9fadg6c2ag3f1117de4840" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0c28325bgfcc5ga21cgf52eg7ebe1e5e3de6" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="Risk"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="2c724d96-ff62-49af-a2fa-13e65f80a593"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__ORIGIN FEAT__"/>
                     <attribute id="UUID" type="guid" value="d6f88eae-2cc1-405f-b544-abd2d9ce747b"/>
                 </node>
@@ -433,6 +446,31 @@
                     <attribute id="ReplenishType" type="FixedString" value="Rest"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="e6681241-1b8c-4098-b58f-cc4e1b77f1e0"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h43421e50g805fg598bg75d5g05e5b202e34a" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="RiskyBusiness"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="739bc404-8849-4cf1-bd95-4d8d7b1aa03a"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="GrazingShot"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="3943d531-6878-4b8a-9cb6-e50cad1f6d58"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="MaverickSpirit"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="5677977b-4d79-4a62-976d-790b4a91e0ff"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="SkinOfYourTeeth"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="04bf42ea-e97c-4ec2-816c-92ec45b865c2"/>
                 </node>
             </children>
         </node>

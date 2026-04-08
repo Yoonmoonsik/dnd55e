@@ -44,6 +44,35 @@
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF800000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="13316c56-a20c-45f2-a849-2d97e874c88a" />
+        <field name="Name" type="NameTableFieldDefinition" value="__GUNSLINGER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ce4a5ad9-5500-46a1-833e-77c7cb18227e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DodgeRoll" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="HitRadius" type="FloatTableFieldDefinition" value="1" />
+        <field name="MovementSpeed" type="IntegerTableFieldDefinition" value="40000" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Gunslinger_Risk_DodgeRoll" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6aee83f0gafd8gb807g3a1bg78fbd25f3f9b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h811be34fge8e2ga406g6b57gb6eda91fa978" version="2" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_SprintForMomentum" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="!Immobile" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="Risk:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="eae21eb0-bde7-4c86-a197-12a2a0c3ecac,,;7bfeb9dd-1348-45c7-bff9-ed42f8cd43a1,,;b780092c-cc12-43d5-b60e-acbac3fdceed,,;abbeb7de-2128-4b16-95e5-7b9d7b1af2f9,,;e6a25c4b-816c-41e1-888a-50215d994b23,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="SpellCategory" type="EnumerationListTableFieldDefinition" value="SC_Dash" enumeration_type_name="SpellCategoryFlags" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="36c4b07b-13e2-4009-9f98-4232398deca1" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="68ef036a-1578-4e22-bfc4-d45b9c1b6f37" />
+        <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="9a19e7d0-92e8-4a40-909c-10b657135051" />
+        <field name="PreviewEffect" type="GuidObjectTableFieldDefinition" value="1615a7f7-21d9-4dd0-849b-d3c79a57c5ff" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ab68bea8-c977-4e3a-899d-4128b9396ae9" />
