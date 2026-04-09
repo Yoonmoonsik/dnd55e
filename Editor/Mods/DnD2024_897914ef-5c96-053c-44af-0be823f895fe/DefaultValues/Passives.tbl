@@ -71,5 +71,15 @@
         <field name="Comment" type="CommentTableFieldDefinition" value="Barbarian Weapon Mastery" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="60b6dc08-c135-4a0c-9f75-56ec240d6c07" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="9a44e828-92db-4d6c-acbc-a4f8ef340415" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="HasWeaponMastery_Nick;HasWeaponMastery_Vex" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Rogue Weapon Master" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
