@@ -16,6 +16,36 @@
                     <attribute id="TableUUID" type="guid" value="8faeda62-04df-403f-a4ca-26c090cb9b8d"/>
                     <attribute id="UUID" type="guid" value="3c2a991c-0e63-4636-9874-0508bd5697aa"/>
                 </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="HasWeaponMastery_Graze;HasWeaponMastery_Sap;HasWeaponMastery_Vex"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f2947f971"/>
+                    <attribute id="UUID" type="guid" value="d3a99a8c-fd76-40c5-96e8-b3c0922f59ba"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Cleric_DivineOrder_Protector"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="64474b62-b4f5-46b3-b94a-c676c6da3116"/>
+                    <attribute id="UUID" type="guid" value="33674996-2f7d-49df-9475-99a98f836862"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Alert"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e"/>
+                    <attribute id="UUID" type="guid" value="7d144999-9553-4fb6-b2fb-4f970c161e2e"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Perception"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e"/>
+                    <attribute id="UUID" type="guid" value="6654ab3a-b8bc-456f-b2e6-cf683f215421"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="HasWeaponMastery_Cleave;HasWeaponMastery_Slow"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="60bbcc97-5381-4898-bc15-908c072895de"/>
+                    <attribute id="UUID" type="guid" value="fa8f6905-f6be-4d7a-830a-62b59ab7f281"/>
+                </node>
             </children>
         </node>
     </region>

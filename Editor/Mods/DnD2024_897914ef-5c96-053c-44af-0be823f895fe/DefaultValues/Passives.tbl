@@ -18,6 +18,57 @@
         <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
         <field name="DefaultValues" type="StringTableFieldDefinition" value="HasWeaponMastery_Slow;HasWeaponMastery_Vex" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Gunslinger Weapon Mastery" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d3a99a8c-fd76-40c5-96e8-b3c0922f59ba" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="HasWeaponMastery_Graze;HasWeaponMastery_Sap;HasWeaponMastery_Vex" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Fighter Weapon Mastery" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="33674996-2f7d-49df-9475-99a98f836862" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="64474b62-b4f5-46b3-b94a-c676c6da3116" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Cleric_DivineOrder_Protector" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Cleric Divine Order" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7d144999-9553-4fb6-b2fb-4f970c161e2e" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Alert" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Human Origin Feat" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6654ab3a-b8bc-456f-b2e6-cf683f215421" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Perception" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Human Skill" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fa8f6905-f6be-4d7a-830a-62b59ab7f281" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="HasWeaponMastery_Cleave;HasWeaponMastery_Slow" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Barbarian Weapon Mastery" />
       </fields>
     </stat_object>
   </stat_objects>
