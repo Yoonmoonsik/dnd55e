@@ -1663,7 +1663,7 @@
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Buff_WildShape_L1to3" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_WildShapeBadger_L1to3" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;WildShape:1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;WildShape:1;" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="f324c7b4-4fb8-4088-ae4a-02fa323a8701,,;,,;825a94f3-b675-402a-a275-adcc465f4f62,,;721abca5-2d52-4317-82a3-2a2e970a7a16,,;c5b317da-4fc3-4d59-a45e-2681592cf0ed,,;,,;ad2cf583-ad84-4165-8d04-9fea86af396e,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;UnavailableInDialogs" enumeration_type_name="SpellFlagList" version="1" />
