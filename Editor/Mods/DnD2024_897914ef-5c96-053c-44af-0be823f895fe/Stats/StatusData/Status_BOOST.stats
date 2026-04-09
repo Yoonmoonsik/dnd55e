@@ -480,7 +480,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WARDING_BOND_CASTER" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e05fd921-ef65-4cb2-9a6d-c832a22c6c0c" />
         <field name="AuraRadius" type="IntegerTableFieldDefinition" value="18" />
-        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(Ally() and HasStatus('WARDING_BOND')):ApplyStatus(WARDING_BOND_CASTER_AURA)" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(not Enemy() and HasStatus('WARDING_BOND')):ApplyStatus(WARDING_BOND_CASTER_AURA)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
