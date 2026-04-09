@@ -72,6 +72,24 @@
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99f51f29-90c1-47af-81fc-7eac4d239472" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Positive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="26bbde17-fd3c-4202-94a6-a87430962a2b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f4ee48e2-230d-4a6d-b79c-6922b5e842fc" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Negative" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="33929bd4-2319-4127-8e25-a052784c709c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0f75e60f-64c4-406b-9aee-8768415dfec6" />

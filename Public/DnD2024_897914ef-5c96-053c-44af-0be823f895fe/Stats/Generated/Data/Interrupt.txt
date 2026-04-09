@@ -117,7 +117,7 @@ data "DisplayName" "h8bf4bd01g12ddg80fag3922gb5bd2d3c378f;1"
 data "Description" "h11246ce1g1053g5998g5c40ga6494d732ee0;1"
 data "Icon" "PsiWarrior_3_ProtectiveField"
 data "Conditions" "IsAbleToReact(context.Observer) and Ally(context.Target, context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not DistanceToEntityGreaterThan(9, context.ObserverPosition, context.Target) and not HasStatus('SG_Blinded') and not HasStatus('SG_Prone') and not HasStatus('SG_Incapacitated') and not HasStatus('SG_Restrained');"
-data "Properties" "AdjustRoll(OBSERVER_TARGET,-(LevelMapValue(PsiWarrior)+IntelligenceModifier));ApplyStatus(OBSERVER_TARGET,INTERRUPT_FIGHTINGSTYLE_PROTECTION,100,0);"
+data "Properties" "AdjustRoll(OBSERVER_TARGET,-(LevelMapValue(PsiWarrior)+IntelligenceModifier));ApplyStatus(OBSERVER_TARGET,INTERRUPT_FIGHTINGSTYLE_PROTECTION,100,0);UseSpell(OBSERVER_TARGET,Target_Interrupt_Positive,true,true,true);"
 data "Cost" "ReactionActionPoint:1;PsiWarrior:1;"
 
 new entry "Interrupt_PsionicStrike"
