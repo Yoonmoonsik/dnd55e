@@ -4720,6 +4720,12 @@ new entry "Target___DRUID__"
 type "SpellData"
 data "SpellType" "Target"
 
+new entry "Target_Burrow_GiantBadger"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Burrow_GiantBadger"
+data "TargetConditions" "CanStand('63a52705-056b-4736-91ee-66b839de2afe')"
+
 new entry "Target_MoonlightStep"
 type "SpellData"
 data "SpellType" "Target"

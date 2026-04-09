@@ -5625,6 +5625,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="18b415f5-35c1-4986-aad6-2fa26acdf943" />
+        <field name="Name" type="NameTableFieldDefinition" value="Burrow_GiantBadger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="887efcc2-c5ae-4bb5-824d-36bac08749af" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('63a52705-056b-4736-91ee-66b839de2afe')" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="08968b96-ddf4-4587-a8ca-ae32dc8ba498" />
         <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();" />
