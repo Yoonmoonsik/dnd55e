@@ -4147,6 +4147,7 @@ type "Weapon"
 using "WPN_HeavyCrossbow"
 data "RootTemplate" "be9a692a-d41b-4e11-9c15-6b0aabad2462"
 data "Damage" "2d6"
+data "PassivesOnEquip" "HeavyWeapon_Ranged;WeaponMasterySlow;"
 data "PassivesMainHand" "Firearm_MainHand;"
 
 new entry "WPN_Musket_1"

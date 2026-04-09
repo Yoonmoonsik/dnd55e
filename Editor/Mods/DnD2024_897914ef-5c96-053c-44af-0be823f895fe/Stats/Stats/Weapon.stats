@@ -5593,6 +5593,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="be9a692a-d41b-4e11-9c15-6b0aabad2462" />
         <field name="Damage" type="DiceTableFieldDefinition" value="2d6" />
         <field name="PassivesMainHand" type="StringTableFieldDefinition" value="Firearm_MainHand;" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyWeapon_Ranged;WeaponMasterySlow;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
