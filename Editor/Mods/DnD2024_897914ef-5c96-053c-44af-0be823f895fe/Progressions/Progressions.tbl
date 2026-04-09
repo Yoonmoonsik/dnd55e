@@ -4815,7 +4815,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="ArcaneTrickster" />
         <field name="Level" type="ByteTableFieldDefinition" value="10" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,2,1)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,0,ArcaneTricksterIlluEnch);SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0) " />
       </fields>
     </stat_object>
@@ -7600,7 +7600,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="3f014425-480c-49d8-9b9d-2303543c0d11" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="3f014425-480c-49d8-9b9d-2303543c0d11;f617ec08-b29d-4ac0-a742-3fd6c25c4520" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7743,7 +7743,7 @@
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="HighRoller_10_RiskTaker" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FF800000" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_733" />
         <field name="UUID" type="IdTableFieldDefinition" value="87c98e6f-682b-4296-b763-837ba2555205" />
@@ -7751,7 +7751,9 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Spellslinger" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(42c2f7ed-8d06-4347-a912-01172a0e318b,,,,AlwaysPrepared);SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,2,0,,,,AlwaysPrepared);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,3,0,EldritchKnightAbjEvo)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,2,0,,,,AlwaysPrepared);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,3,0,EldritchKnightAbjEvo);AddSpells(a2d17196-c865-4c32-b09a-a9d11ae1c493,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SpellSlinger_3_BangYoureDead" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,2,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7763,6 +7765,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="4" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,1,EldritchKnightAbjEvo)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7785,6 +7788,8 @@
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,1,EldritchKnightAbjEvo)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Level 6: Spellshot;ExtraAttack_Warmagic;WarMagic" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ExtraAttack" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7796,6 +7801,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="7" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,2,1,EldritchKnightAbjEvo)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7829,6 +7835,8 @@
         <field name="Level" type="ByteTableFieldDefinition" value="10" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0,,,,AlwaysPrepared);SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SpellSlinger_10_CounterMage" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7853,7 +7861,7 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,0,1,EldritchKnightAbjEvo)" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FF800000" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_743" />
         <field name="UUID" type="IdTableFieldDefinition" value="e2f9bb71-e529-4de1-beb0-7eb1568aec36" />

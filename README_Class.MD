@@ -482,5 +482,10 @@
 - Level 3: Liar’s Dice
 - Level 6: Risky Business
 - Level 10: Risk Taker
+### Spellslinger
+- Level 3: Spellcasting
+- Level 3: Bang, You’re Dead!
+- Level 6: Spellshot
+- Level 10: Counter-Mage
 ## Illrigger
 ## Psion

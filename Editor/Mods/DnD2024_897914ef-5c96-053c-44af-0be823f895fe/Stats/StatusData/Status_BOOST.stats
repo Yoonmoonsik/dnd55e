@@ -2894,6 +2894,7 @@
         <field name="StackId" type="StringTableFieldDefinition" value="GUT_SHOT" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceConsumeMultiplier(Movement,2,0);MovementSpeedLimit(Walk);Disadvantage(AttackRoll);" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="a9414b2d-91c7-4c44-8e92-91dff2a4b667" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnHeal" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2948,6 +2949,18 @@
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h42c83e2fgb526ge712gd8fbg5dd17226f6f9" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h396d95d1gb027gae12ge9f1gfd524d0a2828" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3b4bbd71-7a64-408a-8fe9-6563787d086b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ANTIMAGIC_SHOT" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfee38a66g5042g2c16g753dg9b88aa769f46" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he97ec05ag27f2gdd59g1ebag5d02ea37d3df" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FingerGuns" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ANTIMAGIC_SHOT" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="BlockSpellCast();" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnHeal" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

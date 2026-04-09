@@ -3767,7 +3767,7 @@
                     <attribute id="UUID" type="guid" value="530341bc-d996-49ee-a63d-e1007fccad90"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="ArcaneTrickster"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -5882,6 +5882,9 @@
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="3f014425-480c-49d8-9b9d-2303543c0d11"/>
                                 </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="f617ec08-b29d-4ac0-a742-3fd6c25c4520"/>
+                                </node>
                             </children>
                         </node>
                     </children>
@@ -5991,14 +5994,17 @@
                     <attribute id="UUID" type="guid" value="d1b68fcc-6cd1-4399-913b-e00497e0d176"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1)"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Spellslinger"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SpellSlinger_3_BangYoureDead"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(42c2f7ed-8d06-4347-a912-01172a0e318b,,,,AlwaysPrepared);SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,2,0,,,,AlwaysPrepared);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,3,0,EldritchKnightAbjEvo)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,2,0,,,,AlwaysPrepared);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,3,0,EldritchKnightAbjEvo);AddSpells(a2d17196-c865-4c32-b09a-a9d11ae1c493,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="87c98e6f-682b-4296-b763-837ba2555205"/>
                     <attribute id="UUID" type="guid" value="87c98e6f-682b-4296-b763-837ba2555205"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
                     <attribute id="Level" type="uint8" value="4"/>
                     <attribute id="Name" type="LSString" value="Spellslinger"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -6015,14 +6021,17 @@
                     <attribute id="UUID" type="guid" value="3c8f4b3b-5a2d-427e-9ec1-39bf2e7f6998"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ExtraAttack"/>
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="Spellslinger"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Level 6: Spellshot;ExtraAttack_Warmagic;WarMagic"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,1,EldritchKnightAbjEvo)"/>
                     <attribute id="TableUUID" type="guid" value="87c98e6f-682b-4296-b763-837ba2555205"/>
                     <attribute id="UUID" type="guid" value="9ac6575b-1ae5-40a8-9403-3f57e06d1a12"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)"/>
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="Spellslinger"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -6047,8 +6056,10 @@
                     <attribute id="UUID" type="guid" value="9eb2e089-7aa0-4626-8195-861025ed4f2f"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Spellslinger"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SpellSlinger_10_CounterMage"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0,,,,AlwaysPrepared);SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo);"/>
                     <attribute id="TableUUID" type="guid" value="87c98e6f-682b-4296-b763-837ba2555205"/>

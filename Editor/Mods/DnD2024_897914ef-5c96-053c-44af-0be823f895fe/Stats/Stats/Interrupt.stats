@@ -939,6 +939,38 @@
         <field name="Cost" type="StringTableFieldDefinition" value="SkinOfYourTeeth:1;" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90a82cc6-7427-45fc-a38e-7b56a56f78c1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ArcaneShot" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcdf4a03bg59c5gb1b2g3204g37cf5a2339c0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcb4e031eg6175g6174g6466gcc87b839601d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FingerGuns" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Source,context.Observer) and not Self() and not IsKillingBlow() and IsHit() and SpellId('Projectile_FingerGuns') and Character() and not AnyEntityIsItem();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(Risk),Force,Magical);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="Risk:1;" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="782af4e6-6396-449f-bc11-012067bfbc34" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_InuredToMagic" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5ef73b58ga233g8fccg4389gcd443dd5c7d7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd771ba94g1544ge8bage691g562f72e6c038" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Gunslinger_Risk_MaverickSpirit" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPostRoll" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not Dead(context.Observer) and HasInterruptedSavingThrow() and Self(context.Observer,context.Target) and not AnyEntityIsItem() and IsFlatValueInterruptInteresting(6) and IsSpell();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(OBSERVER_OBSERVER,1d6);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c92b2f4b-211b-41c6-bc5d-4a2826de83c5" />

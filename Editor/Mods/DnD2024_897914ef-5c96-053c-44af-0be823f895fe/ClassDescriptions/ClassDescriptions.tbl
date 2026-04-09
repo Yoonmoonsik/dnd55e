@@ -501,6 +501,7 @@
         <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
         <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
         <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="MulticlassSpellcasterModifier" type="FloatTableFieldDefinition" value="0.34" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

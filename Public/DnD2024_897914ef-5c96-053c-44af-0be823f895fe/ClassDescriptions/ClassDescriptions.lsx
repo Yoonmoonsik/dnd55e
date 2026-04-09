@@ -182,6 +182,19 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h0e929a83g6124gede3gd6d6g810f31fc91bf" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h62929300g0a1ag65dcg0311gee7ce76b7030" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="RuneKnight"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="b8a2b9b8-8c2e-47bd-aae9-35e191ec1162"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="3"/>
+                    <attribute id="UUID" type="guid" value="3d9e9113-46c7-4c81-bb20-93ad097588bc"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h815eabb9gc85dg52dcg5f7ag22caae5f76ac" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hf1367018g2ff0g0c06g94e6g7b5a5f21d863" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
@@ -430,6 +443,7 @@
                     <attribute id="Description" type="TranslatedString" handle="hc1e20b2eg75ccg05fcgecaag065752a6e0ac" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hd5cd42c6g00b9gf97bg188bgb80ad6f17e94" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MulticlassSpellcasterModifier" type="double" value="0.34000000000000002"/>
                     <attribute id="Name" type="FixedString" value="Spellslinger"/>
                     <attribute id="ParentGuid" type="guid" value="b6cd23fa-ec1a-44a6-86c5-693201654dba"/>
                     <attribute id="PrimaryAbility" type="uint8" value="2"/>
@@ -450,19 +464,6 @@
                     <attribute id="SoundClassType" type="FixedString" value="Gunslinger"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="4"/>
                     <attribute id="UUID" type="guid" value="d215aa58-a49c-4e43-ad94-ccabe49dcdaa"/>
-                </node>
-                <node id="ClassDescription">
-                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="h0e929a83g6124gede3gd6d6g810f31fc91bf" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h62929300g0a1ag65dcg0311gee7ce76b7030" version="1"/>
-                    <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="Name" type="FixedString" value="RuneKnight"/>
-                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
-                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="b8a2b9b8-8c2e-47bd-aae9-35e191ec1162"/>
-                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
-                    <attribute id="SpellCastingAbility" type="uint8" value="3"/>
-                    <attribute id="UUID" type="guid" value="3d9e9113-46c7-4c81-bb20-93ad097588bc"/>
                 </node>
             </children>
         </node>

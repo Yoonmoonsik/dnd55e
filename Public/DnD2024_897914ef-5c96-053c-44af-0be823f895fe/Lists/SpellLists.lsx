@@ -1491,6 +1491,15 @@
                     <attribute id="Spells" type="LSString" value="Target_Jump"/>
                     <attribute id="UUID" type="guid" value="a1d806b1-c3b9-4d89-9ad9-95e382a25b92"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="__GUNSLINGER__"/>
+                    <attribute id="UUID" type="guid" value="84011a1a-eff3-4e7f-8954-1f9c97bd44e4"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Spellslinger Finger Guns"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_FingerGuns"/>
+                    <attribute id="UUID" type="guid" value="a2d17196-c865-4c32-b09a-a9d11ae1c493"/>
+                </node>
             </children>
         </node>
     </region>
