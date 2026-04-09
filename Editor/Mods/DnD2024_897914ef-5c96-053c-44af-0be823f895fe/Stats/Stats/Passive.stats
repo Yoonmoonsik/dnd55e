@@ -1019,6 +1019,30 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e0edebc7-fa07-436d-9237-d7fb9699a792" />
+        <field name="Name" type="NameTableFieldDefinition" value="CombatInspiration_Ability" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dc601b2d-6188-4c43-af36-1bbce9a448b8" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;Temporary" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="47b80bd0-820a-4a26-89c8-1575a94db80b" />
+        <field name="Name" type="NameTableFieldDefinition" value="CombatInspiration_Ability_d8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bf1b8e2a-9dfd-4f7d-a3fe-8f5b976afe6d" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;Temporary" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="140bf014-2c4d-474f-bdeb-9220a24e06e7" />
+        <field name="Name" type="NameTableFieldDefinition" value="CombatInspiration_Ability_d10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="310bd957-e7c6-47e0-85d7-babd46bb091a" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;Temporary" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="363d0195-be69-4147-9c2e-a3d48e32f8e3" />
         <field name="Name" type="NameTableFieldDefinition" value="BardicInspirationCharge" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h63129871gfb37gc314g1fdfg9b10303bcc26" version="1" />

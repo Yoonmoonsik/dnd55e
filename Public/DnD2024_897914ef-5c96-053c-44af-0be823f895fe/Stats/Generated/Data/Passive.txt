@@ -738,6 +738,21 @@ type "PassiveData"
 using "BardicInspiration_Ability_d10"
 data "Properties" "IsToggled;Temporary"
 
+new entry "CombatInspiration_Ability"
+type "PassiveData"
+using "CombatInspiration_Ability"
+data "Properties" "IsToggled;Temporary"
+
+new entry "CombatInspiration_Ability_d8"
+type "PassiveData"
+using "CombatInspiration_Ability_d8"
+data "Properties" "IsToggled;Temporary"
+
+new entry "CombatInspiration_Ability_d10"
+type "PassiveData"
+using "CombatInspiration_Ability_d10"
+data "Properties" "IsToggled;Temporary"
+
 new entry "BardicInspirationCharge"
 type "PassiveData"
 data "DisplayName" "h63129871gfb37gc314g1fdfg9b10303bcc26;1"
