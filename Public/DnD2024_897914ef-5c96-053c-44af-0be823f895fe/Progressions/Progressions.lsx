@@ -6113,35 +6113,54 @@
                     <attribute id="UUID" type="guid" value="fcf571dd-168b-4170-9842-a5ffddc050fa"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);ActionResource(Seal,3,0);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Illrigger"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Illrigger_1_BalefulInterdict"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(89b4404c-f719-4951-a703-65e8c38f5aa5,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);"/>
                     <attribute id="TableUUID" type="guid" value="bd529197-9010-417b-90dc-e6cbf2568cce"/>
                     <attribute id="UUID" type="guid" value="bd529197-9010-417b-90dc-e6cbf2568cce"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0;ActionResource(Seal,3,0);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons)"/>
                     <attribute id="IsMulticlass" type="bool" value="true"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Illrigger"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Illrigger_1_BalefulInterdict"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="bd529197-9010-417b-90dc-e6cbf2568cce"/>
                     <attribute id="UUID" type="guid" value="ca01bf90-d9f8-4f70-b0b7-fe1bb77d7d11"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="Illrigger"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(d7f7f99c-1fb0-4233-902d-248b6ef125e8,1,IllriggerCombatMastery);SelectPassives(a34ad6e3-fc5f-4c36-8894-a15df5b0764b,1,IllriggerInterdiction);"/>
                     <attribute id="TableUUID" type="guid" value="bd529197-9010-417b-90dc-e6cbf2568cce"/>
                     <attribute id="UUID" type="guid" value="ed4fc6b4-d10f-48a4-b7ed-ae0645099dfb"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);ActionResource(Seal,1,0);"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Illrigger"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="bd529197-9010-417b-90dc-e6cbf2568cce"/>
                     <attribute id="UUID" type="guid" value="cf4d4440-5ceb-4b34-9d67-177bbf7219c5"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="11576009-15e0-4cb2-b0ce-77dab572f106"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
                 </node>
                 <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
                     <attribute id="Level" type="uint8" value="4"/>
                     <attribute id="Name" type="LSString" value="Illrigger"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
@@ -6149,27 +6168,35 @@
                     <attribute id="UUID" type="guid" value="4cdd50f1-c70e-4b1c-876c-8249e7266974"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="Illrigger"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ExtraAttack"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="bd529197-9010-417b-90dc-e6cbf2568cce"/>
                     <attribute id="UUID" type="guid" value="9678019a-7cb7-41f8-b411-faa24a360f9d"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="Illrigger"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Illrigger_6_InfernalConduit"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="bd529197-9010-417b-90dc-e6cbf2568cce"/>
                     <attribute id="UUID" type="guid" value="0b796e56-6454-43e6-bbeb-b519710dfd54"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);ActionResource(Seal,1,0);"/>
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="Illrigger"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(a34ad6e3-fc5f-4c36-8894-a15df5b0764b,1,IllriggerInterdiction);"/>
                     <attribute id="TableUUID" type="guid" value="bd529197-9010-417b-90dc-e6cbf2568cce"/>
                     <attribute id="UUID" type="guid" value="e52b8035-5bbd-4d1c-a14e-007bc60809d9"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="Illrigger"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
@@ -6177,6 +6204,7 @@
                     <attribute id="UUID" type="guid" value="bd3fae67-3e86-4b93-8420-bd7022255caa"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="Illrigger"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
@@ -6184,25 +6212,55 @@
                     <attribute id="UUID" type="guid" value="ff0755af-acbf-4aa3-8994-006e6cc31872"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Illrigger"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Illrigger_10_BloodPrice"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="bd529197-9010-417b-90dc-e6cbf2568cce"/>
                     <attribute id="UUID" type="guid" value="1e67b6d0-8fe7-4bf3-aa91-e84d8523a94a"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="Illrigger"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(1dbdafe6-448d-4226-98a1-9007650a995f,1);"/>
                     <attribute id="TableUUID" type="guid" value="bd529197-9010-417b-90dc-e6cbf2568cce"/>
                     <attribute id="UUID" type="guid" value="e0061aaf-ebc3-44cb-ab6b-1cab7148c3d2"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
                     <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="Illrigger"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="bd529197-9010-417b-90dc-e6cbf2568cce"/>
                     <attribute id="UUID" type="guid" value="82eb01bb-fdf3-4449-a63b-ebabfaa85bcc"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="SanguineKnight"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SanguineKnight;SanguineKnight_3_Exsanguinate;SanguineKnight_3_SutekhsBlessing;SanguineKnight_3_EmboldenAllies"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="283cff6c-8c2a-4f08-afe4-419dee51bc9b"/>
+                    <attribute id="UUID" type="guid" value="283cff6c-8c2a-4f08-afe4-419dee51bc9b"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="SanguineKnight"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SanguineKnight_7_BloodForBlood"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="283cff6c-8c2a-4f08-afe4-419dee51bc9b"/>
+                    <attribute id="UUID" type="guid" value="d985aa5b-dc36-4c89-b8bf-3cf1457db1ee"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="SanguineKnight"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SanguineKnight_11_Bloodstroke"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="283cff6c-8c2a-4f08-afe4-419dee51bc9b"/>
+                    <attribute id="UUID" type="guid" value="b4cc8361-5b26-484a-8d0c-c7bb142123fa"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Name" type="LSString" value="__RACE__"/>

@@ -15,5 +15,19 @@
         <field name="Comment" type="CommentTableFieldDefinition" value="Gunslinger" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="285d4e43-2c2d-4666-bea9-a6856744e788" />
+        <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="33bd368d-2ff4-4add-8692-66d87372053a" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Illrigger" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

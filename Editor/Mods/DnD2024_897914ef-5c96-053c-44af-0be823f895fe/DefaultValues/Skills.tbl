@@ -21,5 +21,15 @@
         <field name="Comment" type="CommentTableFieldDefinition" value="High Roller" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="96ddcdd4-03bc-4981-b640-9ef42491d9bd" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Deception; Intimidation; Arcana; Athletics;Insight;Investigation;Persuasion;Religion;Stealth" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Illrigger" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="bd529197-9010-417b-90dc-e6cbf2568cce" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

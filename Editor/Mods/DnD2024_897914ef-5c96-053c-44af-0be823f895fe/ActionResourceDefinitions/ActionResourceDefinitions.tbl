@@ -526,6 +526,30 @@
         <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFF0000" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_69" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a7ebba7c-c882-4b81-b40c-668e9766cf8e" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="__ILLRIGGER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_70" />
+        <field name="UUID" type="IdTableFieldDefinition" value="719fb971-275a-4b17-ae48-c0d8d224e875" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Seal" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0294b05egc63bg881age868g1c91eaec6dab" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc31eef37gcba0g3dd5g3558g3b4bd0528103" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="ShortRest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_71" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0767cb4e-eb96-4036-8d93-ce913f5fb2be" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_27" />

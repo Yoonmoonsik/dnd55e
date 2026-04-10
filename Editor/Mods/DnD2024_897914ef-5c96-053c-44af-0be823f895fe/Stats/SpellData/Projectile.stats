@@ -2149,6 +2149,45 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h417a65f0geb7ag67d8g7e8eg6c0ea35a7357" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFF0000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fdce2ff5-e6a0-4eb4-9bcd-096e6b3e1dd9" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ILLRIGGER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="72b8ee13-8f94-4d0e-9066-bd35f8fb8902" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnleashHell_Fire" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(Seal),Fire,Magical);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(Seal)/2,Fire,Magical);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Enemy()" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="f3096300-ab26-41ce-a157-c19015add148" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="164013b6-185d-42d2-a8ed-76df45962159" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnleashHell_Necrotic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="72b8ee13-8f94-4d0e-9066-bd35f8fb8902" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(Seal),Necrotic,Magical);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(Seal)/2,Necrotic,Magical);" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="f3096300-ab26-41ce-a157-c19015add148" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9642c74e-c216-473a-95c0-8a0841000547" />
+        <field name="Name" type="NameTableFieldDefinition" value="VengefulShot" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f7d2107e-e029-4216-a6d0-d63b2f47d5fd" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+ClassLevel(Illrigger)/2, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);CastOffhand[DealDamage(OffhandRangedWeapon, OffhandRangedWeaponDamageType);ExecuteWeaponFunctors(OffHand)];" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Mag_BlindingShot" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5b9a73a3g7b6fg13b5gc7c3gdf58090d1c36" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dbfa030b-ffcf-4767-9c87-44dc979dc28e" />

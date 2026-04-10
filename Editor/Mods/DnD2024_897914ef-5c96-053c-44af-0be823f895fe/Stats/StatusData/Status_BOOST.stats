@@ -3115,6 +3115,196 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(Cause.LevelMapValue(Risk));" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFF0000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5802381c-7cd8-4c8d-a705-555cacfe42f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ILLRIGGER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e01d6bb8-82d3-4cbe-852b-5afd57cc6980" />
+        <field name="Name" type="NameTableFieldDefinition" value="INTERDICTED" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1ad18073g65adg793ege0dbg830abdc2841d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h12ae9a64g3bfcg9c68gbc56g02b570979b53" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Illrigger_1_BalefulInterdict" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasStatus('BURNING_SEALS_FIRE') or HasStatus('BURNING_SEALS_NECROTIC') or HasStatus('UNLEASH_HELL_FIRE') or HasStatus('UNLEASH_HELL_NECROTIC')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnAttacked" enumeration_type_name="StatusEvent" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Death)):ApplyStatus(SELF,INTERDICTED_SEAL_RESTORE,100,0,,,,,true);IF(HasStatus('BURNING_SEALS_FIRE',context.Target)):DealDamage(Cause.LevelMapValue(Seal),Fire);IF(HasStatus('BURNING_SEALS_NECROTIC',context.Target)):DealDamage(Cause.LevelMapValue(Seal),Necrotic);IF(HasStatus('UNLEASH_HELL_FIRE',context.Target)):CreateExplosion(Projectile_UnleashHell_Fire);IF(HasStatus('UNLEASH_HELL_NECROTIC',context.Target)):CreateExplosion(Projectile_UnleashHell_Necrotic);RemoveStatus(BLOOD_FOR_BLOOD)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="18ded016-7748-41e0-bad9-c765ed9b8543" />
+        <field name="Name" type="NameTableFieldDefinition" value="INTERDICTED_SEAL_RESTORE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h95248f4cg57e8g073dgc8a1gfbf3d472edee" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(SELF,Seal,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b7b228a4-6415-4d5b-adb6-58c448da139f" />
+        <field name="Name" type="NameTableFieldDefinition" value="BURNING_SEALS_FIRE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha681b28ag70a2g67d8g9448g35565a4a34e5" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="257d0087-8311-4106-8012-748a1f868972" />
+        <field name="Name" type="NameTableFieldDefinition" value="BURNING_SEALS_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b7b228a4-6415-4d5b-adb6-58c448da139f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha828937bg7769gb132g7f34g228ed13a6541" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="45747f9a-137b-45ba-82c7-2cc905f8e752" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNLEASH_HELL_FIRE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b7b228a4-6415-4d5b-adb6-58c448da139f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h368ac3efg0988g4f4ag0fa9g6819e55d1577" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5de5b7b0-7bef-428d-8982-13cd7888a860" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNLEASH_HELL_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="45747f9a-137b-45ba-82c7-2cc905f8e752" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hebd66c01g7f34g9436g6f68gde5a37620a3f" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0918e38e-9c5b-42b1-afc9-659c3910c5fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="PACT_BLADE_ILLRIGGER_MAINHAND" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8b907065-d4e5-4b4b-a470-a7d16e328104" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4645bf49gb7f4g564bgeb3fgfb357d560904" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd7f9a6ddg5b45gf8acg0d89g98b6c796d969" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);WeaponAttackRollAbilityOverride(Charisma);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="43b470de-5d2a-46c0-8917-fa381c288978" />
+        <field name="Name" type="NameTableFieldDefinition" value="PACT_BLADE_ILLRIGGER_OFFHAND" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0918e38e-9c5b-42b1-afc9-659c3910c5fb" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a4e1d79-5633-4885-ab2d-e2c563f3c700" />
+        <field name="Name" type="NameTableFieldDefinition" value="BEDEVIL" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bf7f8e54-e294-4368-a4b6-ce625295d345" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he0219d6eg9988g1637g2557g9b2d2d0fa8aa" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc323cc9cg84e2g474bg5925g8922b79a3ba5" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BEDEVIL" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,0-Cause.ProficiencyBonus);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="59bc8412-be26-4c71-8a37-abc9147c5a02" />
+        <field name="Name" type="NameTableFieldDefinition" value="SOUL_EATER_TEMPHP" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d2c9167c-240c-48ae-a25f-67901533a587" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h84a9d67fge555g185dg5c83g4c97364a1cef" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8cd365c4g7106g7c48g3af0gaa9b0e85108b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_MAG_TemporaryHP" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SOUL_EATER_TEMPHP" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(ClassLevel(Illrigger));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="82c2102f-417d-4e5c-9078-7a9336b298e8" />
+        <field name="Name" type="NameTableFieldDefinition" value="STYXS_APATHY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e4b9ba47-45f5-48d6-a9a0-0f6cd0680fce" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h83e42a83g88c6gd1e9g8c16gbff3333ac045" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfe1fd654g95d3g0e72g524ag183786863374" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="STYXS_APATHY" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed30db51-59a2-4125-b7d5-6122f357fe00" />
+        <field name="Name" type="NameTableFieldDefinition" value="ACHERONS_CHAIN" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8ebec1f1-ed98-40f8-a0b3-f5757f7c7f7f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e6eebc1g195fg638eg046cg1602e8341a8b" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ACHERONS_CHAIN" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="Force(-3)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3dfb60b2-fc1b-4b6a-974b-b45a59c49d40" />
+        <field name="Name" type="NameTableFieldDefinition" value="SHADOW_SHROUND" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1f95a7f0g7d0fgabfagfa1cg5cbc0b67b2bb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h158d6a37ga6c0ga147gbd62g2f7886d1d51b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_ChannelDivinity_CloakOfShadows" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SHADOW_SHROUND" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AC(2);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="d37fab67-6932-44c4-995e-f051d7027fc5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c7508187-c956-49c7-a539-9c5c9d7dd03f" />
+        <field name="Name" type="NameTableFieldDefinition" value="EXSANGUINATE_UNLOCK" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hea106602g9f5dg8754g958dg4324799b9073" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8024deb6g1171ge522g2119g5c416be99cb1" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_MAG_TemporaryHP" />
+        <field name="StackId" type="StringTableFieldDefinition" value="EXSANGUINATE_UNLOCK" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Exsanguinate);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="143bac4f-9c20-4d7a-b4d5-b03a1b7ba90f" />
+        <field name="Name" type="NameTableFieldDefinition" value="EXSANGUINATE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c7508187-c956-49c7-a539-9c5c9d7dd03f" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc90683f4gd5c1g16a2g970bg5f9a7ef90301" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(Cause.LevelMapValue(Seal));" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(BLOODSTROKE)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="097d43f9-265e-41a3-aca3-05d52cca2900" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLOOD_FOR_BLOOD" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7aa1b008g6ca0g4a20g5979g21ad1d5571fd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd92480ccg3244g6d8ag80d0g572cbd5b4da3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BLOOD_FOR_BLOOD" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="BloodForBlood_Passive;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dad64c9f-63f4-4798-8633-5bda76ce0b5f" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLOOD_FOR_BLOOD_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="097d43f9-265e-41a3-aca3-05d52cca2900" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Passives" type="StringTableFieldDefinition" value="BloodForBlood_Passive_4;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5f40c5b6-5df5-46c9-b90b-44cf6751be93" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLOODSTROKE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6648aa69gf7b4gfd26gf073gf24f1802047b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha474cedcg9588gc4b6g1526gc012f1de7f42" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BLOODSTROKE" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Bloodstroke_Passive;" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cd5cb601-39fb-41ed-9029-5d6fe8911f26" />

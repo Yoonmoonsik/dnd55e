@@ -77,5 +77,23 @@
         <field name="ProgressionId" type="GuidTableFieldDefinition" value="15f581f8-b68a-46ab-b2c7-6212c7fcd83b" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1d769ad6-011e-4e7b-a523-288e53a41e34" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb8cf1d46g6834g9baagbf6dg50299be625eb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5f2491abg74f5g071bgce31ge29ac76995fd" version="1" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="IllriggerCombatMastery" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d0138cf5-dcfe-4aba-b5b9-6c8f50b7ebd1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2ab85095gd8e1gd4f8g159bg5479bf29202f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he346a671g0b23g7417g4182g5a8d53b45077" version="1" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="IllriggerInterdiction" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

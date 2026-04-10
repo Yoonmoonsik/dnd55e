@@ -7909,6 +7909,9 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);ActionResource(Seal,3,0);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(89b4404c-f719-4951-a703-65e8c38f5aa5,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Illrigger_1_BalefulInterdict" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7920,6 +7923,8 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0;ActionResource(Seal,3,0);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Illrigger_1_BalefulInterdict" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7930,6 +7935,8 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
         <field name="Level" type="ByteTableFieldDefinition" value="2" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(d7f7f99c-1fb0-4233-902d-248b6ef125e8,1,IllriggerCombatMastery);SelectPassives(a34ad6e3-fc5f-4c36-8894-a15df5b0764b,1,IllriggerInterdiction);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7940,6 +7947,8 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);ActionResource(Seal,1,0);" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="11576009-15e0-4cb2-b0ce-77dab572f106" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7950,6 +7959,8 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
         <field name="Level" type="ByteTableFieldDefinition" value="4" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7960,6 +7971,8 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7970,6 +7983,8 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Illrigger_6_InfernalConduit" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7980,6 +7995,8 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
         <field name="Level" type="ByteTableFieldDefinition" value="7" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);ActionResource(Seal,1,0);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(a34ad6e3-fc5f-4c36-8894-a15df5b0764b,1,IllriggerInterdiction);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7990,6 +8007,8 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
         <field name="Level" type="ByteTableFieldDefinition" value="8" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -8000,6 +8019,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -8010,6 +8030,8 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
         <field name="Level" type="ByteTableFieldDefinition" value="10" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Illrigger_10_BloodPrice" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -8020,6 +8042,8 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
         <field name="Level" type="ByteTableFieldDefinition" value="11" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(1dbdafe6-448d-4226-98a1-9007650a995f,1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -8030,6 +8054,41 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
         <field name="Level" type="ByteTableFieldDefinition" value="12" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_758" />
+        <field name="UUID" type="IdTableFieldDefinition" value="283cff6c-8c2a-4f08-afe4-419dee51bc9b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="283cff6c-8c2a-4f08-afe4-419dee51bc9b" />
+        <field name="FSName" type="StringTableFieldDefinition" value="SanguineKnight" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SanguineKnight;SanguineKnight_3_Exsanguinate;SanguineKnight_3_SutekhsBlessing;SanguineKnight_3_EmboldenAllies" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_759" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d985aa5b-dc36-4c89-b8bf-3cf1457db1ee" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="283cff6c-8c2a-4f08-afe4-419dee51bc9b" />
+        <field name="FSName" type="StringTableFieldDefinition" value="SanguineKnight" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SanguineKnight_7_BloodForBlood" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_760" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b4cc8361-5b26-484a-8d0c-c7bb142123fa" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="283cff6c-8c2a-4f08-afe4-419dee51bc9b" />
+        <field name="FSName" type="StringTableFieldDefinition" value="SanguineKnight" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SanguineKnight_11_Bloodstroke" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

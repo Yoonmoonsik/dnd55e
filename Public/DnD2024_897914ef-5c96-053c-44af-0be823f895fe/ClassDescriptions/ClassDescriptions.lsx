@@ -411,11 +411,12 @@
                 <node id="ClassDescription">
                     <attribute id="BaseHp" type="int32" value="10"/>
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Ranger"/>
                     <attribute id="ClassHotbarColumns" type="int32" value="5"/>
                     <attribute id="CommonHotbarColumns" type="int32" value="9"/>
                     <attribute id="Description" type="TranslatedString" handle="hcf74d85ag3ed2g6eecga0d3g6e6a0fa87154" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hd858b0fag8269g3078g7c9aga7aa5e71ba17" version="1"/>
-                    <attribute id="HpPerLevel" type="int32" value="6"/>
+                    <attribute id="HpPerLevel" type="int32" value="5"/>
                     <attribute id="ItemsHotbarColumns" type="int32" value="2"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="Name" type="FixedString" value="Gunslinger"/>
@@ -464,6 +465,37 @@
                     <attribute id="SoundClassType" type="FixedString" value="Gunslinger"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="4"/>
                     <attribute id="UUID" type="guid" value="d215aa58-a49c-4e43-ad94-ccabe49dcdaa"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="10"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Fighter"/>
+                    <attribute id="ClassHotbarColumns" type="int32" value="5"/>
+                    <attribute id="CommonHotbarColumns" type="int32" value="9"/>
+                    <attribute id="Description" type="TranslatedString" handle="hd9f88f32g2a3eg5ee1gdb45g1b062c876f03" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h99d927b5gafddg8654g1453g82bbe0c6e89f" version="3"/>
+                    <attribute id="HpPerLevel" type="int32" value="6"/>
+                    <attribute id="ItemsHotbarColumns" type="int32" value="2"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Illrigger"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="bd529197-9010-417b-90dc-e6cbf2568cce"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Illrigger"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="33bd368d-2ff4-4add-8692-66d87372053a"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h00467a34g3b88g453cg081eg6e394afa8e61" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7403d9e2gd4ffg8c95g6874gba9be784c5c0" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="SanguineKnight"/>
+                    <attribute id="ParentGuid" type="guid" value="33bd368d-2ff4-4add-8692-66d87372053a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="283cff6c-8c2a-4f08-afe4-419dee51bc9b"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Illrigger"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="11576009-15e0-4cb2-b0ce-77dab572f106"/>
                 </node>
             </children>
         </node>

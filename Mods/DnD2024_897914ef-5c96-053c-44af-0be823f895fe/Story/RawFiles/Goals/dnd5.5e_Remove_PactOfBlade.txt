@@ -17,6 +17,20 @@ ApplyStatus(_MagicItem, "ARCANE_EMPOWERMENT", -1.0, 1, _Char);
 IF
 Unequipped(_MagicItem, _Char)
 AND
+HasActiveStatus(_MagicItem, "PACT_BLADE_ILLRIGGER_MAINHAND", 1)
+THEN
+RemoveStatus(_MagicItem, "PACT_BLADE_ILLRIGGER_MAINHAND", NULL_00000000-0000-0000-0000-000000000000);
+
+IF
+Unequipped(_MagicItem, _Char)
+AND
+HasActiveStatus(_MagicItem, "PACT_BLADE_ILLRIGGER_OFFHAND", 1)
+THEN
+RemoveStatus(_MagicItem, "PACT_BLADE_ILLRIGGER_OFFHAND", NULL_00000000-0000-0000-0000-000000000000);
+
+IF
+Unequipped(_MagicItem, _Char)
+AND
 HasActiveStatus(_MagicItem, "FIREARM_ADD_BONUS", 1)
 THEN
 RemoveStatus(_MagicItem, "FIREARM_ADD_BONUS", NULL_00000000-0000-0000-0000-000000000000);

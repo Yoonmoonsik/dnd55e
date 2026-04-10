@@ -493,4 +493,21 @@
 - Level 6: Reach for the Skies
 - Level 10: Long Arm of the Law
 ## Illrigger
+- Core Traits
+  - Skill Proficiencies
+  - Weapon Proficiencies
+  - Armor Training
+- Level 1: Baleful Interdict
+- Level 2: Combat Mastery
+- Level 2: Interdiction
+- Level 5: Extra Attack
+- Level 6: Infernal Conduit
+- Level 10: Blood Price
+- Level 11: Terrorizing Force
+### Sanguine Knight
+- Level 3: Exsanguinate
+- Level 3: Sutekh’s Blessing
+- Level 3: Embolden Allies
+- Level 7: Blood for Blood
+- Level 11: Bloodstroke
 ## Psion

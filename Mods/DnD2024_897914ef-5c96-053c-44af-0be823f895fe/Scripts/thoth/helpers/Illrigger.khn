@@ -1,0 +1,12 @@
+function IllriggerSeal()
+	return SpellId('Target_Seal')
+	| SpellId('Target_BurningSeals_Fire')
+	| SpellId('Target_BurningSeals_Necrotic')
+	| SpellId('Target_UnleashHell_Fire')
+	| SpellId('Target_UnleashHell_Necrotic')
+end
+
+function InfernalConduit()
+	return SpellId('Target_InfernalConduit_Devour')
+	| SpellId('Target_InfernalConduit_Invigorate')
+end

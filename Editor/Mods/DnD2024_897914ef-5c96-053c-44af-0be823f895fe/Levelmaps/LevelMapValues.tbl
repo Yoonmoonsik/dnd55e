@@ -283,5 +283,15 @@
         <field name="Level10" type="StringTableFieldDefinition" value="4d6" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="Seal" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fcd31786-1b71-4255-9907-37491ba8806b" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="33bd368d-2ff4-4add-8692-66d87372053a" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level5" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level10" type="StringTableFieldDefinition" value="3d6" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
