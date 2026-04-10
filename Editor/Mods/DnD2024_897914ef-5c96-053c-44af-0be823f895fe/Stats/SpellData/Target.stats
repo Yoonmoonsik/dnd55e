@@ -7334,7 +7334,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Exsanguinate" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b5f37c13-89e3-4a2a-ba0f-c3b6f654a78f" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(EXSANGUINATE,100,-1);ApplyStatus(BLOODSTROKE,100,-1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(EXSANGUINATE,100,-1);IF(HasPassive('SanguineKnight_11_Bloodstroke',context.Source)):ApplyStatus(BLOODSTROKE,100,-1);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb5dc95fdga8fdga177gedf9g3d1def6b18b4" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8b8b45b5g6648g381bg1bccg8ba31a12abd5" version="1" />
