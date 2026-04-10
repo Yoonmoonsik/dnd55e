@@ -487,5 +487,10 @@
 - Level 3: Bang, You’re Dead!
 - Level 6: Spellshot
 - Level 10: Counter-Mage
+### White Hat
+- Level 3: Lay Down the Law
+- Level 3: Steely-Eyed
+- Level 6: Reach for the Skies
+- Level 10: Long Arm of the Law
 ## Illrigger
 ## Psion

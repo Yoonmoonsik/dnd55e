@@ -7600,7 +7600,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="3f014425-480c-49d8-9b9d-2303543c0d11;f617ec08-b29d-4ac0-a742-3fd6c25c4520" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="3f014425-480c-49d8-9b9d-2303543c0d11;f617ec08-b29d-4ac0-a742-3fd6c25c4520;d215aa58-a49c-4e43-ad94-ccabe49dcdaa" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7869,6 +7869,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="WhiteHat" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="WhiteHat_3_LayDownTheLaw;WhiteHat_3_SteelyEyed" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7879,6 +7880,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="WhiteHat" />
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="WhiteHat_6_ReachForTheSkies" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7889,6 +7891,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="WhiteHat" />
         <field name="Level" type="ByteTableFieldDefinition" value="10" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="WhiteHat_10_LongArmOfTheLaw" />
       </fields>
     </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">

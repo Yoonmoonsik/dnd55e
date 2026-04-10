@@ -4780,7 +4780,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasDamageEffectFlag(DamageFlags.Critical) and not HasDamageEffectFlag(DamageFlags.Miss) and Character();" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(GUT_SHOT,100,3);IF(HasPassive('SpellSlinger_10_CounterMage',context.Source)):ApplyStatus(ANTIMAGIC_SHOT,100,3)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(GUT_SHOT,100,3);IF(HasPassive('SpellSlinger_10_CounterMage',context.Source)):ApplyStatus(ANTIMAGIC_SHOT,100,3);IF(HasPassive('WhiteHat_6_ReachForTheSkies',context.Source)):ApplyStatus(FRIGHTENED,100,10)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4838,7 +4838,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_LiarsDice);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsRangedAttack();" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsRangedWeaponAttack();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('LIARS_DICE_GOOD',context.Source) and not IsMiss()):DealDamage(MainRangedWeapon, MainRangedWeaponDamageType,Magical,,0,,true,true,false,true);RemoveStatus(SELF,LIARS_DICE_GOOD)" />
       </fields>
     </stat_object>
@@ -4902,6 +4902,55 @@
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsRangedAttack() and IsConcentrating(context.Target);" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="BreakConcentration(context.Target)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF800000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a0acd74-4060-4cd1-8d55-1eea30bdec77" />
+        <field name="Name" type="NameTableFieldDefinition" value="WhiteHat_3_LayDownTheLaw" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf85f5ddg214egc39bga0e8g7ee910e3ffec" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8bee263cg9f25gd0b6gbdeag2013628793ec" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_MagicItem_ProtectionFromMissiles" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_LayDownTheLaw);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ba623a89-3d2c-4248-b877-37120c4de48a" />
+        <field name="Name" type="NameTableFieldDefinition" value="WhiteHat_3_SteelyEyed" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2139a63fg2249g7d98g6477g5d54183f38fa" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6630050ag4420g70e6g6f4fg79b677ca4518" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Heroism" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(FRIGHTENED);StatusImmunity(SG_Frightened);StatusImmunity(SG_Fleeing);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a8c711f0-b319-442f-96ec-9fac195c0f91" />
+        <field name="Name" type="NameTableFieldDefinition" value="WhiteHat_6_ReachForTheSkies" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h407e34cdg1410g60d5g4b25g40b46482b638" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd43fb4c9g35d7g9ab6g9cc2g37fbd18e9590" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_DangerSense" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13106" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d5925fdb-fcf4-4b05-b28c-13d1897697b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="WhiteHat_10_LongArmOfTheLaw" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7390394ag82b5g779agf749ga74a63ce3d77" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h72f4b7bfg9dc1g5310g811agafb995e4a1c4" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_EnsnaringStrikeRanged" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13110" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsRangedWeaponAttack() and not IsMiss();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Strength, ManeuverSaveDC())):ApplyStatus(RESTRAINED,100,2)" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

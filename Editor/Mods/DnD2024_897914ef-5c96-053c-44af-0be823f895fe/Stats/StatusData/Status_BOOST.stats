@@ -3103,6 +3103,18 @@
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnHeal" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="44dcee15-3591-4302-ac9e-402e198cb7fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="LAY_DOWN_THE_LAW" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d2c9167c-240c-48ae-a25f-67901533a587" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h371a2c88g5d5cg916fgf8e7gbccc5378504c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb2138320gcf6dg81c1g3662ge3c4c690607b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_MagicItem_ProtectionFromMissiles" />
+        <field name="StackId" type="StringTableFieldDefinition" value="LAY_DOWN_THE_LAW" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(Cause.LevelMapValue(Risk));" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cd5cb601-39fb-41ed-9029-5d6fe8911f26" />
