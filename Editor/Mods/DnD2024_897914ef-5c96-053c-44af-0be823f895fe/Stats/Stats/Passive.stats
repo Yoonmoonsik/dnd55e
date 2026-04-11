@@ -4969,7 +4969,7 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14001" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasActionResource('Seal', 1, 0, false, false, context.Source) and IsWeaponAttack() and not IsMiss();" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="UseActionResource(SELF,Seal,1,0);ApplyStatus(INTERDICTED,100,-1);IF(HasPassive('SanguineKnight_7_BloodForBlood',context.Source) and not CharacterLevelGreaterThan(8)):ApplyStatus(BLOOD_FOR_BLOOD,100,-1);IF(HasPassive('SanguineKnight_7_BloodForBlood',context.Source) and CharacterLevelGreaterThan(8)):ApplyStatus(BLOOD_FOR_BLOOD_4,100,-1);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="UseActionResource(SELF,Seal,1,0);ApplyStatus(INTERDICTED,100,-1);IF(HasPassive('SanguineKnight_7_BloodForBlood',context.Source) and not CharacterLevelGreaterThan(8)):ApplyStatus(BLOOD_FOR_BLOOD,100,-1);IF(HasPassive('SanguineKnight_7_BloodForBlood',context.Source) and CharacterLevelGreaterThan(8)):ApplyStatus(BLOOD_FOR_BLOOD_4,100,-1);IF(HasPassive('HellSpeaker_11_Incontrovertible',context.Source)):ApplyStatus(INCONTROVERTIBLE,100,2);" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_BurningSeals_Necrotic);UnlockSpell(Target_BurningSeals_Fire);UnlockSpell(Target_Seal);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
       </fields>
@@ -5326,6 +5326,75 @@
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellTypeIs(SpellType.Throw)" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,11,Necrotic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFF0000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="93684aa4-e9d8-4605-85c5-9699caa2b70a" />
+        <field name="Name" type="NameTableFieldDefinition" value="HellSpeaker" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0fb52a6cg7299ga6c5g1b3cgb4993c55834e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7a88aa99gaa7fgcfe2g038bg6fea4e9cadfd" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_CharmPerson" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="01fa9b45-4a06-4dc9-8df7-4e1f54438330" />
+        <field name="Name" type="NameTableFieldDefinition" value="HellSpeaker_3_MolochsBlessing" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h02827317g8f4fgf0ebgdc73g2e240e81362a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b29ebdegfa87g42bege4a2g3b10f7973640" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Deception" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ExpertiseBonus(Persuasion);ExpertiseBonus(Deception);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="37aabb1e-fe9d-4e70-9471-5e0bfc739f39" />
+        <field name="Name" type="NameTableFieldDefinition" value="HellSpeaker_3_CharmEnemy" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6dff901fgee2cg0571g1cd5g5cccc5298b3e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3eabef8fg88cagb8c2g7625g98663b906cac" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_CharmPerson" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8a6692ea-8b34-4647-a9ff-8de074d18fa9" />
+        <field name="Name" type="NameTableFieldDefinition" value="HellSpeaker_3_HoneySweetBlades" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he8f7350dgec9cga3c4g613agaeb7f4a54136" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6adc649fgbd08g1d76g0aecg4e5c0ef03271" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="HellSpeaker_3_HoneySweetBlades" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('INTERDICTED',context.Target) and IsWeaponAttack()):Advantage(AttackRoll);ActionResource(HoneySweetBlades,1,0);UnlockInterrupt(Interrupt_HoneySweetBlades);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fc944e5f-4bf9-4af4-9146-af2eedb11945" />
+        <field name="Name" type="NameTableFieldDefinition" value="HellSpeaker_7_Intransigent" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfe8a7f83g582fg2d6cgbfc2g68f60a961dab" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcb5a44dbgbabag343ag80edg099ba69f72d7" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ThoughtShield_PsychicResistance" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14107" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(RedCantCheck()):MinimumRollResult(RawAbility,10);IF(RedCantCheck()):MinimumRollResult(SkillCheck,10);IF(HasSavingThrowWithAbility(Ability.Charisma)):MinimumRollResult(SavingThrow,10);StatusImmunity(SG_Charmed);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="342204cf-3729-48e8-90b9-52202bf38393" />
+        <field name="Name" type="NameTableFieldDefinition" value="HellSpeaker_11_Incontrovertible" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5a374292g71a7g1e85g586dgd611bb96eb66" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcd348f9fg9dfdgcf82g6f70g46a4195d00cc" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Hex" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14111" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

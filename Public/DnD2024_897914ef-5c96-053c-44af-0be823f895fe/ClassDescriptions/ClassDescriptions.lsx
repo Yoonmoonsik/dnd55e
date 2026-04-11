@@ -497,6 +497,19 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="6"/>
                     <attribute id="UUID" type="guid" value="11576009-15e0-4cb2-b0ce-77dab572f106"/>
                 </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="hd5322297g3c9agc288gf0d2g3bf720ba3cbf" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h778d0370g733dgefbfg0390g325187e3b8f4" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Hellspeaker"/>
+                    <attribute id="ParentGuid" type="guid" value="33bd368d-2ff4-4add-8692-66d87372053a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="c577a73f-ffb9-4391-9165-758c6601f051"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Illrigger"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="f576dd16-d230-4233-bf3e-1d5ed0106b0c"/>
+                </node>
             </children>
         </node>
     </region>

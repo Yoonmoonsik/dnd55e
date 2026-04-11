@@ -3305,6 +3305,17 @@
         <field name="Passives" type="StringTableFieldDefinition" value="Bloodstroke_Passive;" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b8fed3da-e7e2-4f6e-9489-8a4396865118" />
+        <field name="Name" type="NameTableFieldDefinition" value="INCONTROVERTIBLE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h33cd96c8gfef6g7cc3gbc1bgefa0775f3774" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1cf49fe0g3fdeg6c4fg40c1g8ecbc6b95021" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Hex" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INCONTROVERTIBLE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(SavingThrow,Wisdom);Disadvantage(SavingThrow,Charisma);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cd5cb601-39fb-41ed-9029-5d6fe8911f26" />

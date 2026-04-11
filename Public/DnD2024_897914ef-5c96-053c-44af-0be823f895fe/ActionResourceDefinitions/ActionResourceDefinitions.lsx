@@ -374,6 +374,24 @@
                     <attribute id="UUID" type="guid" value="739bc404-8849-4cf1-bd95-4d8d7b1aa03a"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="Name" type="FixedString" value="__ILLRIGGER__"/>
+                    <attribute id="UUID" type="guid" value="a7ebba7c-c882-4b81-b40c-668e9766cf8e"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="hc31eef37gcba0g3dd5g3558g3b4bd0528103" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0294b05egc63bg881age868g1c91eaec6dab" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Seal"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="719fb971-275a-4b17-ae48-c0d8d224e875"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="haaa5a699g83efg4475gf3ccge6f351a2d6a3" version="1"/>
+                    <attribute id="Name" type="FixedString" value="HoneySweetBlades"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="UUID" type="guid" value="0767cb4e-eb96-4036-8d93-ce913f5fb2be"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__ORIGIN FEAT__"/>
                     <attribute id="UUID" type="guid" value="d6f88eae-2cc1-405f-b544-abd2d9ce747b"/>
                 </node>
@@ -484,21 +502,6 @@
                     <attribute id="ReplenishType" type="FixedString" value="Rest"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="e6681241-1b8c-4098-b58f-cc4e1b77f1e0"/>
-                </node>
-                <node id="ActionResourceDefinition">
-                    <attribute id="Name" type="FixedString" value="__ILLRIGGER__"/>
-                    <attribute id="UUID" type="guid" value="a7ebba7c-c882-4b81-b40c-668e9766cf8e"/>
-                </node>
-                <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="hc31eef37gcba0g3dd5g3558g3b4bd0528103" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h0294b05egc63bg881age868g1c91eaec6dab" version="1"/>
-                    <attribute id="Name" type="FixedString" value="Seal"/>
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="719fb971-275a-4b17-ae48-c0d8d224e875"/>
-                </node>
-                <node id="ActionResourceDefinition">
-                    <attribute id="UUID" type="guid" value="0767cb4e-eb96-4036-8d93-ce913f5fb2be"/>
                 </node>
             </children>
         </node>

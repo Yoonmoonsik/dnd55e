@@ -10,3 +10,13 @@ function InfernalConduit()
 	return SpellId('Target_InfernalConduit_Devour')
 	| SpellId('Target_InfernalConduit_Invigorate')
 end
+
+function RedCantCheck(entity)
+    local entity = entity or context.Source
+    local isAbility = context.CheckedAbility == Ability.Charisma
+    local isSkill1 = context.CheckedSkill == Skill.Deception
+    local isSkill2 = context.CheckedSkill == Skill.Intimidation
+    local isSkill3 = context.CheckedSkill == Skill.Performance
+    local isSkill4 = context.CheckedSkill == Skill.Persuasion
+    return ConditionResult(isAbility or isSkill1 or isSkill2 or isSkill3 or isSkill4)
+end

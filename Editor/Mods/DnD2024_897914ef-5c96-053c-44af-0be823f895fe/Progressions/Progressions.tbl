@@ -7948,7 +7948,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);ActionResource(Seal,1,0);" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="11576009-15e0-4cb2-b0ce-77dab572f106" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="f576dd16-d230-4233-bf3e-1d5ed0106b0c;11576009-15e0-4cb2-b0ce-77dab572f106" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -8089,6 +8089,39 @@
         <field name="Level" type="ByteTableFieldDefinition" value="11" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="SanguineKnight_11_Bloodstroke" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_761" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c577a73f-ffb9-4391-9165-758c6601f051" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="c577a73f-ffb9-4391-9165-758c6601f051" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Hellspeaker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="HellSpeaker;HellSpeaker_3_MolochsBlessing;HellSpeaker_3_CharmEnemy;HellSpeaker_3_HoneySweetBlades" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_762" />
+        <field name="UUID" type="IdTableFieldDefinition" value="db356844-11f8-49eb-8e50-47fd3a6493c4" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="c577a73f-ffb9-4391-9165-758c6601f051" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Hellspeaker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="HellSpeaker_7_Intransigent" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_763" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f548dfc1-7ae3-496b-91ec-5c3b19643b67" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="c577a73f-ffb9-4391-9165-758c6601f051" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Hellspeaker" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="HellSpeaker_11_Incontrovertible" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

@@ -797,6 +797,24 @@ data "Conditions" "not Dead(context.Observer) and HasInterruptedSavingThrow() an
 data "Properties" "AdjustRoll(1d12);"
 data "Cost" "HitPointDice12:1;"
 
+new entry "Interrupt_HoneySweetBlades"
+type "InterruptData"
+data "DisplayName" "h2cf5b57fgaa9bg9d02g3619g774b755bf5d6;1"
+data "Description" "hc39bb1c4g3c5bg1b8fga689g2acf69286fc7;1"
+data "Icon" "HellSpeaker_3_HoneySweetBlades"
+data "InterruptContext" "OnPostRoll"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Source,context.Observer) and HasInterruptedAttack() and not AnyEntityIsItem();"
+data "Properties" "SetRoll(20)"
+data "Cost" "HoneySweetBlades:1;"
+data "Cooldown" "OncePerShortRest"
+data "InterruptDefaultValue" "Ask;Enabled"
+
+new entry "New_Stat_0"
+type "InterruptData"
+using "Interrupt_TAD_LuckOfTheFarRealms"
+
 new entry "__FIGHTING STYLE FEAT__"
 type "InterruptData"
 

@@ -510,4 +510,10 @@
 - Level 3: Embolden Allies
 - Level 7: Blood for Blood
 - Level 11: Bloodstroke
+### Hellspeaker
+- Level 3: Moloch’s Blessing
+- Level 3: Charm Enemy
+- Level 3: Honey-Sweet Blades
+- Level 7: Intransigent
+- Level 11: Incontrovertible 
 ## Psion

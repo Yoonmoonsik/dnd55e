@@ -1072,6 +1072,30 @@
         <field name="Cost" type="StringTableFieldDefinition" value="HitPointDice12:1;" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c1aaa8d-18cb-479d-8041-1b6a71c32878" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_HoneySweetBlades" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2cf5b57fgaa9bg9d02g3619g774b755bf5d6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc39bb1c4g3c5bg1b8fga689g2acf69286fc7" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="HellSpeaker_3_HoneySweetBlades" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPostRoll" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Source,context.Observer) and HasInterruptedAttack() and not AnyEntityIsItem();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="SetRoll(20)" />
+        <field name="Cost" type="StringTableFieldDefinition" value="HoneySweetBlades:1;" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a89f36f8-6450-4298-8208-aae6a989a040" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fc366366-2ec1-4305-832e-4ac8056effae" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c92b2f4b-211b-41c6-bc5d-4a2826de83c5" />
