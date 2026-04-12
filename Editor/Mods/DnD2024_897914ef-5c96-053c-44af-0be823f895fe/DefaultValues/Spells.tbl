@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="b4f18c50-e2c0-4be6-9609-5367fef946db">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b5af7877-75d9-4384-89ae-436744cbd5cd" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="a7a958f1-d858-4021-9fa7-cf87e7d71377" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Add" type="StringTableFieldDefinition" value="Projectile_EldritchBlast;Target_ChillTouch" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="WarlockCantrip" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a67c5f08-ec51-4d3e-8879-29cb5273df82" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="a7a958f1-d858-4021-9fa7-cf87e7d71377" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Add" type="StringTableFieldDefinition" value="Target_Hex;Shout_ArmorOfAgathys" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="WarlockSpell" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

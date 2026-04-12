@@ -4355,7 +4355,7 @@
                     <attribute id="Name" type="LSString" value="Warlock"/>
                     <attribute id="PassivesAdded" type="LSString" value="UnlockedWarlockSpellSlotLevel1"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,,,,AlwaysPrepared);SelectSpells(24c2b246-bb86-47ed-b85e-24dc6695b6ca,2,0);SelectPassives(8d8ac513-c7c8-4f8b-b67f-5a9a14741aae,1,WarlockInvocations);SelectSkills(675236ba-c3cc-44ec-a58b-0e46351c85bd,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,WarlockCantrip,,,AlwaysPrepared);SelectSpells(24c2b246-bb86-47ed-b85e-24dc6695b6ca,2,0,WarlockSpell);SelectPassives(8d8ac513-c7c8-4f8b-b67f-5a9a14741aae,1,WarlockInvocations);SelectSkills(675236ba-c3cc-44ec-a58b-0e46351c85bd,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)"/>
                     <attribute id="TableUUID" type="guid" value="a7a958f1-d858-4021-9fa7-cf87e7d71377"/>
                     <attribute id="UUID" type="guid" value="a7767dc5-e6ab-4e05-96fd-f0424256121c"/>
                 </node>
@@ -6293,6 +6293,30 @@
                     <attribute id="UUID" type="guid" value="f548dfc1-7ae3-496b-91ec-5c3b19643b67"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Painkiller"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Painkiller;PainKiller_3_DispatersBlessing;PainKiller_3_Devastator;PainKiller_3_GrandStrategist"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="5f7ba6ef-490a-4f0b-bcfe-50cb86f9886e"/>
+                    <attribute id="UUID" type="guid" value="5f7ba6ef-490a-4f0b-bcfe-50cb86f9886e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="Painkiller"/>
+                    <attribute id="PassivesAdded" type="LSString" value="PainKiller_7_DispatersSupremacy"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="5f7ba6ef-490a-4f0b-bcfe-50cb86f9886e"/>
+                    <attribute id="UUID" type="guid" value="a6b22663-f64a-481d-b04a-13272f2a9dbb"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="Painkiller"/>
+                    <attribute id="PassivesAdded" type="LSString" value="PainKiller_11_YouDieOnMyCommand"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="5f7ba6ef-490a-4f0b-bcfe-50cb86f9886e"/>
+                    <attribute id="UUID" type="guid" value="bfa2ad65-8b15-4fac-b600-818e81b638a4"/>
+                </node>
+                <node id="Progression">
                     <attribute id="Name" type="LSString" value="__RACE__"/>
                     <attribute id="UUID" type="guid" value="ac08e486-933c-4141-8744-026362a294fa"/>
                 </node>
@@ -6678,30 +6702,6 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="3"/>
-                    <attribute id="Name" type="LSString" value="Painkiller"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Painkiller;PainKiller_3_DispatersBlessing;PainKiller_3_Devastator;PainKiller_3_GrandStrategist"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="5f7ba6ef-490a-4f0b-bcfe-50cb86f9886e"/>
-                    <attribute id="UUID" type="guid" value="5f7ba6ef-490a-4f0b-bcfe-50cb86f9886e"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="7"/>
-                    <attribute id="Name" type="LSString" value="Painkiller"/>
-                    <attribute id="PassivesAdded" type="LSString" value="PainKiller_7_DispatersSupremacy"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="5f7ba6ef-490a-4f0b-bcfe-50cb86f9886e"/>
-                    <attribute id="UUID" type="guid" value="a6b22663-f64a-481d-b04a-13272f2a9dbb"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="11"/>
-                    <attribute id="Name" type="LSString" value="Painkiller"/>
-                    <attribute id="PassivesAdded" type="LSString" value="PainKiller_11_YouDieOnMyCommand"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="5f7ba6ef-490a-4f0b-bcfe-50cb86f9886e"/>
-                    <attribute id="UUID" type="guid" value="bfa2ad65-8b15-4fac-b600-818e81b638a4"/>
                 </node>
             </children>
         </node>

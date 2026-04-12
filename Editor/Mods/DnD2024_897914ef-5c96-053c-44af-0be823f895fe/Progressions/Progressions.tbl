@@ -5572,7 +5572,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedWarlockSpellSlotLevel1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);ActionResource(WarlockSpellSlot,1,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(SimpleWeapons)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,,,,AlwaysPrepared);SelectSpells(24c2b246-bb86-47ed-b85e-24dc6695b6ca,2,0);SelectPassives(8d8ac513-c7c8-4f8b-b67f-5a9a14741aae,1,WarlockInvocations);SelectSkills(675236ba-c3cc-44ec-a58b-0e46351c85bd,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,WarlockCantrip,,,AlwaysPrepared);SelectSpells(24c2b246-bb86-47ed-b85e-24dc6695b6ca,2,0,WarlockSpell);SelectPassives(8d8ac513-c7c8-4f8b-b67f-5a9a14741aae,1,WarlockInvocations);SelectSkills(675236ba-c3cc-44ec-a58b-0e46351c85bd,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -81,5 +81,15 @@
         <field name="Comment" type="CommentTableFieldDefinition" value="Rogue Weapon Master" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fda6ea25-33e3-492c-8154-e9107dc9c8c3" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="a7a958f1-d858-4021-9fa7-cf87e7d71377" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="PactOfTheBlade_Hex" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Warlock Invocation" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
