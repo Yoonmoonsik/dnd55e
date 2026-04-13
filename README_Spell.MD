@@ -4,7 +4,9 @@
 - Blade Ward
 - Chill Touch
 - Eldritch Blast
+- Finger Guns
 - Green-Flame Blade
+- Hellfire
 - Mind Sliver
 - Poison Spray
 - Resistance

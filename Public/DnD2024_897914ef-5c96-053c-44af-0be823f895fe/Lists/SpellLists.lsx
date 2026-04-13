@@ -815,7 +815,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer Cantrip List"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Target_ChillTouch;Target_DancingLights;Projectile_FireBolt;Target_Friends;Target_GreenFlameBlade;Target_Light;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Projectile_RayOfFrost;Shout_SwordBurst;Target_ShockingGrasp;Projectile_SorcerousBurst;Shout_Thunderclap;Target_TrueStrike"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Target_ChillTouch;Target_DancingLights;Projectile_FireBolt;Target_Friends;Target_GreenFlameBlade;Target_Hellfire;Target_Light;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Projectile_RayOfFrost;Shout_SwordBurst;Target_ShockingGrasp;Projectile_SorcerousBurst;Shout_Thunderclap;Target_TrueStrike"/>
                     <attribute id="UUID" type="guid" value="485a68b4-c678-4888-be63-4a702efbe391"/>
                 </node>
                 <node id="SpellList">
@@ -1021,7 +1021,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Warlock Cantrip"/>
-                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_ChillTouch;Projectile_EldritchBlast;Target_Friends;Target_GreenFlameBlade;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike"/>
+                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_ChillTouch;Projectile_EldritchBlast;Target_Friends;Target_GreenFlameBlade;Target_Hellfire;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike"/>
                     <attribute id="UUID" type="guid" value="f5c4af9c-5d8d-4526-9057-94a4b243cd40"/>
                 </node>
                 <node id="SpellList">
@@ -1228,7 +1228,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Wizard Cantrip"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Target_ChillTouch;Target_DancingLights;Projectile_FireBolt;Target_Friends;Target_GreenFlameBlade;Target_Light;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Projectile_RayOfFrost;Target_ShockingGrasp;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Shout_BladeWard;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Target_ChillTouch;Target_DancingLights;Projectile_FireBolt;Target_Friends;Target_GreenFlameBlade;Target_Hellfire;Target_Light;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Projectile_RayOfFrost;Target_ShockingGrasp;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike"/>
                     <attribute id="UUID" type="guid" value="3cae2e56-9871-4cef-bba6-96845ea765fa"/>
                 </node>
                 <node id="SpellList">
@@ -1394,6 +1394,15 @@
                     <attribute id="UUID" type="guid" value="096e299c-d9ad-459c-8798-42c51456fc08"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="__GUNSLINGER__"/>
+                    <attribute id="UUID" type="guid" value="84011a1a-eff3-4e7f-8954-1f9c97bd44e4"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Spellslinger Finger Guns"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_FingerGuns"/>
+                    <attribute id="UUID" type="guid" value="a2d17196-c865-4c32-b09a-a9d11ae1c493"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="__GENERAL FEAT__"/>
                     <attribute id="UUID" type="guid" value="7cfc2be6-2cf7-403b-b5a8-864753d40604"/>
                 </node>
@@ -1490,15 +1499,6 @@
                     <attribute id="Name" type="FixedString" value="Gith Level 3"/>
                     <attribute id="Spells" type="LSString" value="Target_Jump"/>
                     <attribute id="UUID" type="guid" value="a1d806b1-c3b9-4d89-9ad9-95e382a25b92"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="__GUNSLINGER__"/>
-                    <attribute id="UUID" type="guid" value="84011a1a-eff3-4e7f-8954-1f9c97bd44e4"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Spellslinger Finger Guns"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_FingerGuns"/>
-                    <attribute id="UUID" type="guid" value="a2d17196-c865-4c32-b09a-a9d11ae1c493"/>
                 </node>
             </children>
         </node>

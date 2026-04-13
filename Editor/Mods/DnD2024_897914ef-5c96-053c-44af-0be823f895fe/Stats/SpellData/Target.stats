@@ -2500,6 +2500,40 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e15b7e9f-24a3-423d-af70-382069532016" />
+        <field name="Name" type="NameTableFieldDefinition" value="Hellfire" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Charisma, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D4Cantrip),Fire,Magical);DealDamage(LevelMapValue(D4Cantrip),Necrotic,Magical);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="IF(HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D4Cantrip),Fire,Magical);IF(HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D4Cantrip),Necrotic,Magical);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Hellfire" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h913a1845g6aeeg56e5g1083g84f2c46ab26a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6ee711f7gf822ge79eg39abg3424b665f17d" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D4Cantrip),Fire);DealDamage(LevelMapValue(D4Cantrip),Necrotic);" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Charisma" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_HellishRebukeTrigger_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Character() and Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;ab7b6aac-b3c9-4918-8f17-f777a94dcb5e,,;57211a11-ed0b-46d7-9369-81df25a85df6,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasHighGroundRangeExtension;HasSomaticComponent;HasVerbalComponent;RangeIgnoreVerticalThreshold;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="e235ca47-1bf5-4587-9475-cf191b6005f9" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="f97febdd-7f77-4ca0-9a05-13e8bd5772e0" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Fire" enumeration_type_name="Damage Type" version="1" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Fire_Gen_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Fire_Gen_L1to3_Loop" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_SearingSmite_L1to3" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="bb9dff34-b2ab-49ad-88ae-c84c74c8c2ae" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="614a5855-ab3d-4450-928a-6d4bfd72d083" />
         <field name="Name" type="NameTableFieldDefinition" value="BoomingBlade_ClassSpell" />
         <field name="Level" type="IntegerTableFieldDefinition" value="0" />
@@ -2512,7 +2546,7 @@
         <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnSourceStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeWeaponAttack)" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not CharacterLevelGreaterThan(4) and Character()):ApplyStatus(BOOMING_BLADE,100,1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(9) and Character()):ApplyStatus(BOOMING_BLADE_5,100,1);IF(CharacterLevelGreaterThan(9) and Character()):ApplyStatus(BOOMING_BLADE_11,100,1);IF(CharacterLevelGreaterThan(4)):DealDamage(LevelMapValue(BoomingBlade),Thunder);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="(Character() or Item()) and not Self() and not Dead()" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead()" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_BoomingBlade" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha82b5e6dgb4b1gb2a1g8b53g475515ffec20" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0e37672dgdb7bg5838g12bcg8e96a88d3d98" version="1" />
@@ -2557,7 +2591,7 @@
         <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnSourceStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeWeaponAttack)" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="SpawnExtraProjectiles(Projectile_GreenFlameBlade);IF(CharacterLevelGreaterThan(4)):DealDamage(LevelMapValue(BoomingBlade),Fire);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="(Character() or Item()) and not Self() and not Dead()" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead()" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_GreenFlameBlade" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3729f6f3g8054gfc05g7817g8f510f005496" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h61a4b68fgff5eg7169g07bfg95aab5c70a68" version="1" />
