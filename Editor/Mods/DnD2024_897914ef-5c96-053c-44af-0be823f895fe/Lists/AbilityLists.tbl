@@ -120,5 +120,12 @@
         <field name="Abilities" type="StringTableFieldDefinition" value="Strength, Wisdom, Charisma" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3223ea25-12d1-4258-8559-09af136c619b" />
+        <field name="Name" type="NameTableFieldDefinition" value="CHA" />
+        <field name="Abilities" type="StringTableFieldDefinition" value="Charisma" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -5761,6 +5761,36 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b8e0225a-39a8-4dc5-8cec-5587c6d583fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Cleric" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="12b06c58-eb9c-4ad8-b8c2-5299e4ef74c1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3754ad2a-b018-4023-8914-bae650a006bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="67a5b4f9-f772-40cd-a76b-e42c5e0126fc" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="34a975f2-e25d-42c7-b899-e98f60327f5d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d8e0856b-13e8-4a3f-a4c7-77804dda4902" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fa591415-e2a3-490d-9385-91672548c3be" />
         <field name="Name" type="NameTableFieldDefinition" value="OriginFeat_MagicInitiate_Cleric" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd660fd06g45aeg25f4g7e9dg6fd338c66f83" version="1" />

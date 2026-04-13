@@ -89,6 +89,11 @@
                     <attribute id="Name" type="FixedString" value="STR WIS CHA"/>
                     <attribute id="UUID" type="guid" value="625c82c2-9b61-4a92-870e-f399190f910e"/>
                 </node>
+                <node id="AbilityList">
+                    <attribute id="Abilities" type="LSString" value="Charisma"/>
+                    <attribute id="Name" type="FixedString" value="CHA"/>
+                    <attribute id="UUID" type="guid" value="3223ea25-12d1-4258-8559-09af136c619b"/>
+                </node>
             </children>
         </node>
     </region>
