@@ -6119,7 +6119,7 @@
                     <attribute id="Name" type="LSString" value="Illrigger"/>
                     <attribute id="PassivesAdded" type="LSString" value="Illrigger_1_BalefulInterdict"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(89b4404c-f719-4951-a703-65e8c38f5aa5,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(89b4404c-f719-4951-a703-65e8c38f5aa5,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList)"/>
                     <attribute id="TableUUID" type="guid" value="bd529197-9010-417b-90dc-e6cbf2568cce"/>
                     <attribute id="UUID" type="guid" value="bd529197-9010-417b-90dc-e6cbf2568cce"/>
                 </node>
@@ -6130,6 +6130,7 @@
                     <attribute id="Name" type="LSString" value="Illrigger"/>
                     <attribute id="PassivesAdded" type="LSString" value="Illrigger_1_BalefulInterdict"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList)"/>
                     <attribute id="TableUUID" type="guid" value="bd529197-9010-417b-90dc-e6cbf2568cce"/>
                     <attribute id="UUID" type="guid" value="ca01bf90-d9f8-4f70-b0b7-fe1bb77d7d11"/>
                 </node>
@@ -6250,6 +6251,94 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="bd529197-9010-417b-90dc-e6cbf2568cce"/>
                     <attribute id="UUID" type="guid" value="82eb01bb-fdf3-4449-a63b-ebabfaa85bcc"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1)"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ArchitectOfRuin;ArchitectOfRuin_3;ArchitectOfRuin_3_Spellblade;"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,2,0,,,,AlwaysPrepared);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,3,0,EldritchKnightAbjEvo);SelectSkills(9752c342-09d0-4804-b909-7c92f1c5a17f,1);"/>
+                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
+                    <attribute id="UUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,1,EldritchKnightAbjEvo)"/>
+                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
+                    <attribute id="UUID" type="guid" value="556a5504-bcc7-45f1-9ac1-1dcef5aeb438"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,1,EldritchKnightAbjEvo)"/>
+                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
+                    <attribute id="UUID" type="guid" value="ec41b17c-4799-4bf8-9d26-3ef87d4781e6"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,1,EldritchKnightAbjEvo)"/>
+                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
+                    <attribute id="UUID" type="guid" value="159932aa-3630-4e68-a845-a11dd03cd849"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)"/>
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ArchitectOfRuin_7_HellishVersatility;ArchitectOfRuin_7_AxiomaticSeals;ExtraAttack_Warmagic;WarMagic"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="ExtraAttack"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,2,1,EldritchKnightAbjEvo)"/>
+                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
+                    <attribute id="UUID" type="guid" value="19e3cf69-49b9-489e-b859-04283f975151"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo)"/>
+                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
+                    <attribute id="UUID" type="guid" value="89013828-8501-458b-a3eb-0a2509f87885"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,0,1,EldritchKnightAbjEvo)"/>
+                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
+                    <attribute id="UUID" type="guid" value="c1c30275-8ff5-434a-ab26-204cf354cfe5"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0,,,,AlwaysPrepared);SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo);"/>
+                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
+                    <attribute id="UUID" type="guid" value="c708cef0-a933-415f-a1de-bb5fc85fbff0"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ArchitectOfRuin_11_Submit"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo)"/>
+                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
+                    <attribute id="UUID" type="guid" value="61c03091-9df2-4c0d-9386-32b539cf5daf"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,0,1,EldritchKnightAbjEvo)"/>
+                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
+                    <attribute id="UUID" type="guid" value="c0b9bebd-d8a4-4c73-8646-37d7675c2cdc"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
@@ -6733,94 +6822,6 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1)"/>
-                    <attribute id="Level" type="uint8" value="3"/>
-                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ArchitectOfRuin;ArchitectOfRuin_3;ArchitectOfRuin_3_Spellblade;"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,2,0,,,,AlwaysPrepared);SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,3,0,EldritchKnightAbjEvo);SelectSkills(9752c342-09d0-4804-b909-7c92f1c5a17f,1);"/>
-                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
-                    <attribute id="UUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
-                    <attribute id="Level" type="uint8" value="4"/>
-                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,1,EldritchKnightAbjEvo)"/>
-                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
-                    <attribute id="UUID" type="guid" value="556a5504-bcc7-45f1-9ac1-1dcef5aeb438"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="5"/>
-                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,1,EldritchKnightAbjEvo)"/>
-                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
-                    <attribute id="UUID" type="guid" value="ec41b17c-4799-4bf8-9d26-3ef87d4781e6"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="6"/>
-                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(11f331b0-e8b7-473b-9d1f-19e8e4178d7d,1,1,EldritchKnightAbjEvo)"/>
-                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
-                    <attribute id="UUID" type="guid" value="159932aa-3630-4e68-a845-a11dd03cd849"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)"/>
-                    <attribute id="Level" type="uint8" value="7"/>
-                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ArchitectOfRuin_7_HellishVersatility;ArchitectOfRuin_7_AxiomaticSeals;ExtraAttack_Warmagic;WarMagic"/>
-                    <attribute id="PassivesRemoved" type="LSString" value="ExtraAttack"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,2,1,EldritchKnightAbjEvo)"/>
-                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
-                    <attribute id="UUID" type="guid" value="19e3cf69-49b9-489e-b859-04283f975151"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="8"/>
-                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo)"/>
-                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
-                    <attribute id="UUID" type="guid" value="89013828-8501-458b-a3eb-0a2509f87885"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="9"/>
-                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,0,1,EldritchKnightAbjEvo)"/>
-                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
-                    <attribute id="UUID" type="guid" value="c1c30275-8ff5-434a-ab26-204cf354cfe5"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
-                    <attribute id="Level" type="uint8" value="10"/>
-                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0,,,,AlwaysPrepared);SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo);"/>
-                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
-                    <attribute id="UUID" type="guid" value="c708cef0-a933-415f-a1de-bb5fc85fbff0"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="11"/>
-                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ArchitectOfRuin_11_Submit"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,1,1,EldritchKnightAbjEvo)"/>
-                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
-                    <attribute id="UUID" type="guid" value="61c03091-9df2-4c0d-9386-32b539cf5daf"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="12"/>
-                    <attribute id="Name" type="LSString" value="ArchitectOfRuin"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,0,1,EldritchKnightAbjEvo)"/>
-                    <attribute id="TableUUID" type="guid" value="80e66947-21f9-49d5-b295-e3c97511f1b0"/>
-                    <attribute id="UUID" type="guid" value="c0b9bebd-d8a4-4c73-8646-37d7675c2cdc"/>
                 </node>
             </children>
         </node>
