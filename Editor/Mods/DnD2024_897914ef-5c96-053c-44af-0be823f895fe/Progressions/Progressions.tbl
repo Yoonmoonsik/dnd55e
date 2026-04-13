@@ -7563,7 +7563,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Gunslinger_1_QuickDraw;FirearmExpert" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Charisma);Proficiency(SimpleWeapons);Proficiency(Longbows);Proficiency(HeavyCrossbows);Proficiency(HandCrossbows);Proficiency(LightArmor)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(2ae028ad-6390-4504-b22b-a87b9badf348,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(da3203d8-750a-4de1-b8eb-1eccfccddf46,1,FightingStyle);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList);SelectEquipment(1ff4a7ef-7e27-4307-8b41-5087dce60abe,2)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(2ae028ad-6390-4504-b22b-a87b9badf348,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(1ff4a7ef-7e27-4307-8b41-5087dce60abe,2)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7589,6 +7589,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Gunslinger_2_CriticalShot;Gunslinger_2_Risk" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);ActionResource(Risk,4,0);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(da3203d8-750a-4de1-b8eb-1eccfccddf46,1,FightingStyle);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7948,7 +7949,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);ActionResource(Seal,1,0);" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="f576dd16-d230-4233-bf3e-1d5ed0106b0c;499d1db7-129f-4416-b762-43675c43d0c9;11576009-15e0-4cb2-b0ce-77dab572f106" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="f576dd16-d230-4233-bf3e-1d5ed0106b0c;499d1db7-129f-4416-b762-43675c43d0c9;11576009-15e0-4cb2-b0ce-77dab572f106;9d4ed957-c140-4955-89a6-56b8cb5313ee" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -8155,6 +8156,39 @@
         <field name="Level" type="ByteTableFieldDefinition" value="11" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="PainKiller_11_YouDieOnMyCommand" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_767" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4e800d7d-f45c-4258-a475-85452c8c615d" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="4e800d7d-f45c-4258-a475-85452c8c615d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Shadowmaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Shadowmaster;Shadowmaster_3_MarkedForDeath;Shadowmaster_3_StrikeFromTheDark;Shadowmaster_3_NoEscape" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_768" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f438efb3-e8f5-48e8-b341-ee2c57774ea2" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="4e800d7d-f45c-4258-a475-85452c8c615d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Shadowmaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Shadowmaster_7_HellsAssassin" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_769" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a8029904-be20-4099-a092-20ce8e6b7a4f" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="4e800d7d-f45c-4258-a475-85452c8c615d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Shadowmaster" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Shadowmaster_11_UmbralKiller" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

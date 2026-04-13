@@ -5846,7 +5846,7 @@
                     <attribute id="Name" type="LSString" value="Gunslinger"/>
                     <attribute id="PassivesAdded" type="LSString" value="Gunslinger_1_QuickDraw;FirearmExpert"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(2ae028ad-6390-4504-b22b-a87b9badf348,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(da3203d8-750a-4de1-b8eb-1eccfccddf46,1,FightingStyle);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList);SelectEquipment(1ff4a7ef-7e27-4307-8b41-5087dce60abe,2)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(2ae028ad-6390-4504-b22b-a87b9badf348,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(1ff4a7ef-7e27-4307-8b41-5087dce60abe,2)"/>
                     <attribute id="TableUUID" type="guid" value="8faeda62-04df-403f-a4ca-26c090cb9b8d"/>
                     <attribute id="UUID" type="guid" value="8faeda62-04df-403f-a4ca-26c090cb9b8d"/>
                 </node>
@@ -5866,6 +5866,7 @@
                     <attribute id="Name" type="LSString" value="Gunslinger"/>
                     <attribute id="PassivesAdded" type="LSString" value="Gunslinger_2_CriticalShot;Gunslinger_2_Risk"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(da3203d8-750a-4de1-b8eb-1eccfccddf46,1,FightingStyle);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList);"/>
                     <attribute id="TableUUID" type="guid" value="8faeda62-04df-403f-a4ca-26c090cb9b8d"/>
                     <attribute id="UUID" type="guid" value="19b73cff-77d0-43c3-8aa5-36571b753c2d"/>
                 </node>
@@ -6159,6 +6160,9 @@
                                 </node>
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="11576009-15e0-4cb2-b0ce-77dab572f106"/>
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="9d4ed957-c140-4955-89a6-56b8cb5313ee"/>
                                 </node>
                             </children>
                         </node>
@@ -6702,6 +6706,30 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Shadowmaster"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Shadowmaster;Shadowmaster_3_MarkedForDeath;Shadowmaster_3_StrikeFromTheDark;Shadowmaster_3_NoEscape"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="4e800d7d-f45c-4258-a475-85452c8c615d"/>
+                    <attribute id="UUID" type="guid" value="4e800d7d-f45c-4258-a475-85452c8c615d"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="Shadowmaster"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Shadowmaster_7_HellsAssassin"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="4e800d7d-f45c-4258-a475-85452c8c615d"/>
+                    <attribute id="UUID" type="guid" value="f438efb3-e8f5-48e8-b341-ee2c57774ea2"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="Shadowmaster"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Shadowmaster_11_UmbralKiller"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="4e800d7d-f45c-4258-a475-85452c8c615d"/>
+                    <attribute id="UUID" type="guid" value="a8029904-be20-4099-a092-20ce8e6b7a4f"/>
                 </node>
             </children>
         </node>
