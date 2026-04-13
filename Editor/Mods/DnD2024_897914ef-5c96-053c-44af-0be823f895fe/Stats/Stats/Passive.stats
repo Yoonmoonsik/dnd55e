@@ -6887,6 +6887,14 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, MAG_PALADIN_TEMP_HP, 100, -1)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="11fe74dd-04ec-46ac-be6c-a776b9173005" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_StrengthBonusToWeaponDamage_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5e9d3abb-795d-44fd-842f-32e049e7c752" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsRangedWeaponAttack()):CharacterWeaponDamage(StrengthModifier);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6e19c092-a7fb-4108-a3e4-a2fb86227572" />

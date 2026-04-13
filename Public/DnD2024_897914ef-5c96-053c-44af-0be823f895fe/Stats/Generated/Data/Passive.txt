@@ -4982,6 +4982,11 @@ data "StatsFunctorContext" "OnAttack"
 data "Conditions" "IsSmiteSpells();"
 data "StatsFunctors" "ApplyStatus(SELF, MAG_PALADIN_TEMP_HP, 100, -1)"
 
+new entry "MAG_StrengthBonusToWeaponDamage_Passive"
+type "PassiveData"
+using "MAG_StrengthBonusToWeaponDamage_Passive"
+data "Boosts" "IF(IsRangedWeaponAttack()):CharacterWeaponDamage(StrengthModifier);"
+
 new entry "__RACE__"
 type "PassiveData"
 
