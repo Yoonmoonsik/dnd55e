@@ -693,6 +693,33 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="64a7ebf6-1ae9-4490-82a5-7b7571b382f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="VengefulBlade_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21caf953-c003-47d5-8fb6-b4e27c2ad4e8" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8d142314g1c16g6319gcdcag74ad54f9f60e" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack;OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="(IsAttack() or IsSpell()) and not HasStatus('VENGEFUL_BLADE_DAMAGE_IMMUNITY');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, VENGEFUL_BLADE_DAMAGE,100,0);ApplyStatus(SELF, VENGEFUL_BLADE_DAMAGE_IMMUNITY, 100, 0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb78b4e6-a73b-47e8-8904-9eaa294553cc" />
+        <field name="Name" type="NameTableFieldDefinition" value="VengefulBlade_5_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="64a7ebf6-1ae9-4490-82a5-7b7571b382f5" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, VENGEFUL_BLADE_5_DAMAGE,100,0);ApplyStatus(SELF, VENGEFUL_BLADE_DAMAGE_IMMUNITY, 100, 0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="49e00f05-a6d0-4233-9089-38a740a385e4" />
+        <field name="Name" type="NameTableFieldDefinition" value="VengefulBlade_10_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb78b4e6-a73b-47e8-8904-9eaa294553cc" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, VENGEFUL_BLADE_10_DAMAGE,100,0);ApplyStatus(SELF, VENGEFUL_BLADE_DAMAGE_IMMUNITY, 100, 0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="86cbc76e-fd6b-4704-8d83-de0e6752841a" />
         <field name="Name" type="NameTableFieldDefinition" value="FountOfMoonlight_Passive" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc9501eaeg3c65g8261gbbbegc5a79478ce47" version="1" />

@@ -2617,7 +2617,6 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b0a67105-b4ce-4f6b-81a0-3108c08ba1eb" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="86112d44-eee7-4207-8750-f19fff1f54fb" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Fire" enumeration_type_name="Damage Type" version="1" />
-        <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="SpellSoundMagnitude" version="1" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
@@ -2629,10 +2628,130 @@
         <field name="SpellFail" type="StringTableFieldDefinition" value="IF(HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D8Cantrip),Lightning,Magical);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="161680ee-09dd-4a43-8442-66ed9d8c3375" />
+        <field name="Name" type="NameTableFieldDefinition" value="VengefulBlade" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="614a5855-ab3d-4450-928a-6d4bfd72d083" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not CharacterLevelGreaterThan(4) and Character()):ApplyStatus(VENGEFUL_BLADE,100,1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(9) and Character()):ApplyStatus(VENGEFUL_BLADE_5,100,1);IF(CharacterLevelGreaterThan(9) and Character()):ApplyStatus(VENGEFUL_BLADE_10,100,1);IF(CharacterLevelGreaterThan(4)):DealDamage(LevelMapValue(BoomingBlade),Necrotic);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_VengefulBlade" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h65da4e4ag4859ga026g9095g2e8a3e5e278f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hee7efdd5g7678gd390g9d02gfa6d6bde145c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(BoomingBlade_Walk),Necrotic);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(BoomingBlade),Necrotic)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(VENGEFUL_BLADE,100,1)" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Necrotic_ArmsOfHadar_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Damage_Necrotic_ArmsOfHadar_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_Necrotic_VampiricTouch_L4to5" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="2e2b90bc-0bae-4f3a-b28e-788db844e711" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b0a67105-b4ce-4f6b-81a0-3108c08ba1eb" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="f455729a-1c6d-4a9b-8a60-6a05ea057bb4" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
+        <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSoundMagnitude" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a5d5dbd2-4a39-4c01-bb0d-5f868adc2db5" />
         <field name="Name" type="NameTableFieldDefinition" value="__EVOCATION__SLEVEL__1__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="efd58be3-e5f8-4476-9705-501626b7c0d5" />
+        <field name="Name" type="NameTableFieldDefinition" value="HellsLash" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC(),false,HasStatus('INTERDICTED'))" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d4, Fire);ApplyStatus(HELLS_LASH, 100, 10);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL,100,0)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and (Item() or Character() or Dead())" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_HellsLash" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h89a134d0g96d7ga7b7g8000gde7bf71cecdc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4ee31ebcgb443g419agf6c4gb829136d660a" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h4c5188d3gb6e3g5ec6g15ddgca76b9bd33bb" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d4, Fire);DealDamage(2d4,Fire,,,,1575c661-c7a1-44c7-b07d-d47b57164841)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HELLS_LASH, 100, 10);" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Fire)" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Fire_Gen_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Fire_Gen_L1to3_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_SearingSmite_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_SearingSmite_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;ad12e2fa-1b15-4fcd-884f-38ba82d7e50e,,;5ee4c893-0149-4d08-a1f7-c4fe633530ba,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="bb9dff34-b2ab-49ad-88ae-c84c74c8c2ae" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="e235ca47-1bf5-4587-9475-cf191b6005f9" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="f97febdd-7f77-4ca0-9a05-13e8bd5772e0" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Fire" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="562d3358-d693-44fe-8011-d6c53c0b1458" />
+        <field name="Name" type="NameTableFieldDefinition" value="HellsLash_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="efd58be3-e5f8-4476-9705-501626b7c0d5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d4, Fire);ApplyStatus(HELLS_LASH_2, 100, 10);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d4, Fire);DealDamage(3d4,Fire,,,,1575c661-c7a1-44c7-b07d-d47b57164841)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HELLS_LASH_2, 100, 10);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_HellsLash" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="147b52f5-dd7f-4bd1-b7e2-e6a0cba1e983" />
+        <field name="Name" type="NameTableFieldDefinition" value="HellsLash_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="562d3358-d693-44fe-8011-d6c53c0b1458" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d4, Fire);ApplyStatus(HELLS_LASH_3, 100, 10);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d4, Fire);DealDamage(4d4,Fire,,,,1575c661-c7a1-44c7-b07d-d47b57164841)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HELLS_LASH_3, 100, 10);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bd33bb18-f86b-4189-94e7-b9384ed7c4aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="HellsLash_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="562d3358-d693-44fe-8011-d6c53c0b1458" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(10d4, Fire);ApplyStatus(HELLS_LASH_4, 100, 10);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(10d4, Fire);DealDamage(5d4,Fire,,,,1575c661-c7a1-44c7-b07d-d47b57164841)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HELLS_LASH_4, 100, 10);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="afdbffef-5880-4f24-978e-e9a2e35d7376" />
+        <field name="Name" type="NameTableFieldDefinition" value="HellsLash_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="562d3358-d693-44fe-8011-d6c53c0b1458" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(12d4, Fire);ApplyStatus(HELLS_LASH_5, 100, 10);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(12d4, Fire);DealDamage(6d4,Fire,,,,1575c661-c7a1-44c7-b07d-d47b57164841)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HELLS_LASH_5, 100, 10);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="46a6dec1-d456-41c9-b025-c6d2bb018d9c" />
+        <field name="Name" type="NameTableFieldDefinition" value="HellsLash_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="562d3358-d693-44fe-8011-d6c53c0b1458" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(14d4, Fire);ApplyStatus(HELLS_LASH_6, 100, 10);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(14d4, Fire);DealDamage(7d4,Fire,,,,1575c661-c7a1-44c7-b07d-d47b57164841)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HELLS_LASH_6, 100, 10);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

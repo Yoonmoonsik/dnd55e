@@ -29,6 +29,7 @@
 - Feather Fall
 - Guiding Bolt
 - Healing Word
+- Hell's Lash
 - Hex
 - Hunter's Mark
 - Inflict Wounds

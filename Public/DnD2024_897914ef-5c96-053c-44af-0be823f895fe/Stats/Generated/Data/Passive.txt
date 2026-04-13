@@ -490,6 +490,24 @@ data "Boosts" "IF(HasStatus('HUNTERS_MARK',context.Target,context.Source) and Is
 new entry "__EVOCATION__"
 type "PassiveData"
 
+new entry "VengefulBlade_Passive"
+type "PassiveData"
+using "BoomingBlade_Movement_Passive"
+data "DisplayName" "h8d142314g1c16g6319gcdcag74ad54f9f60e;1"
+data "StatsFunctorContext" "OnAttack;OnCast"
+data "Conditions" "(IsAttack() or IsSpell()) and not HasStatus('VENGEFUL_BLADE_DAMAGE_IMMUNITY');"
+data "StatsFunctors" "ApplyStatus(SELF, VENGEFUL_BLADE_DAMAGE,100,0);ApplyStatus(SELF, VENGEFUL_BLADE_DAMAGE_IMMUNITY, 100, 0)"
+
+new entry "VengefulBlade_5_Passive"
+type "PassiveData"
+using "VengefulBlade_Passive"
+data "StatsFunctors" "ApplyStatus(SELF, VENGEFUL_BLADE_5_DAMAGE,100,0);ApplyStatus(SELF, VENGEFUL_BLADE_DAMAGE_IMMUNITY, 100, 0)"
+
+new entry "VengefulBlade_10_Passive"
+type "PassiveData"
+using "VengefulBlade_5_Passive"
+data "StatsFunctors" "ApplyStatus(SELF, VENGEFUL_BLADE_10_DAMAGE,100,0);ApplyStatus(SELF, VENGEFUL_BLADE_DAMAGE_IMMUNITY, 100, 0)"
+
 new entry "FountOfMoonlight_Passive"
 type "PassiveData"
 data "DisplayName" "hc9501eaeg3c65g8261gbbbegc5a79478ce47;1"

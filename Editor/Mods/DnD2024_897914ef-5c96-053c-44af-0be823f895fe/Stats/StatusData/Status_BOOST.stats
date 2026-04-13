@@ -746,6 +746,183 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ec4a88bd-fb78-4a31-b4da-03de8dabe378" />
+        <field name="Name" type="NameTableFieldDefinition" value="VENGEFUL_BLADE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="62202cd4-ddec-4e72-b9d9-2f81dade7bdc" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h849f035fg71b5g26c9g150agde667249cbbd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0e4fe523gebe1g273cg1125g0d10a917732c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(BoomingBlade_Walk),Necrotic)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_VengefulBlade" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="WEAK" enumeration_type_name="SoundVocalType" version="1" />
+        <field name="SoundStart" type="StringTableFieldDefinition" value="Spell_Status_Hex_Enter" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VENGEFUL_BLADE" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="VengefulBlade_Passive;" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="54d3e1a2-7513-4f46-bb46-53dec4e83b8d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="683a1292-b527-4ec1-a5e9-1c0bb33855e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="VENGEFUL_BLADE_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ecab4329-8be3-4bb6-b683-d0017b1817dc" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdbf6d84ag617agac46g1387g023f6c217ca0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf4e2d046gfe51gee1fgca6egd11cfae1cc2b" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8, Necrotic)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_VengefulBlade" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="WEAK" enumeration_type_name="SoundVocalType" version="1" />
+        <field name="SoundStart" type="StringTableFieldDefinition" value="Spell_Status_Hex_Enter" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VENGEFUL_BLADE" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Passives" type="StringTableFieldDefinition" value="VengefulBlade_5_Passive;" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="54d3e1a2-7513-4f46-bb46-53dec4e83b8d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b0fa79ad-52e8-4edd-b2c8-04b717e72b1d" />
+        <field name="Name" type="NameTableFieldDefinition" value="VENGEFUL_BLADE_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9d8c6408-1491-4024-900f-6ef3bbc62619" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc58d9767g1e05ga4fbg2a36g65ca51bde0df" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he2b377c7gee20g2ee0g3dbfgee7830f06a0c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d8, Necrotic)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_VengefulBlade" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="WEAK" enumeration_type_name="SoundVocalType" version="1" />
+        <field name="SoundStart" type="StringTableFieldDefinition" value="Spell_Status_Hex_Enter" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VENGEFUL_BLADE" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="3" />
+        <field name="Passives" type="StringTableFieldDefinition" value="VengefulBlade_10_Passive;" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="54d3e1a2-7513-4f46-bb46-53dec4e83b8d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bb2353fc-884c-41e1-a438-acbd30a75315" />
+        <field name="Name" type="NameTableFieldDefinition" value="VENGEFUL_BLADE_DAMAGE_IMMUNITY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5382d8c1-590d-44b9-b6d7-6b4c1d1c6cbe" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VENGEFUL_BLADE_DAMAGE_IMMUNITY" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="09a91cc9-e36e-4340-a422-371f09b84e09" />
+        <field name="Name" type="NameTableFieldDefinition" value="VENGEFUL_BLADE_DAMAGE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="55b041e4-02ac-4b86-b34a-30b937058c14" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5632b4f6g50degba74g0caaga04a7e569f75" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc56ef434ged5age205g9a97gb782719764b7" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8, Necrotic)" />
+        <field name="SoundStart" type="StringTableFieldDefinition" value="Spell_Status_Hex_Enter" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VENGEFUL_BLADE_DAMAGE" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8, Necrotic,Magical);RemoveStatus(SELF, VENGEFUL_BLADE)" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="54d3e1a2-7513-4f46-bb46-53dec4e83b8d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e441db13-0c7f-409e-a3f2-1864413b0b77" />
+        <field name="Name" type="NameTableFieldDefinition" value="VENGEFUL_BLADE_5_DAMAGE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e4f7de6b-7165-41b5-9178-7ae9650485a9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h144805ebgf1c3gf55bg8676gdc4af6ca5ea9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd34956d4gadb8gbb08g3933g92ca0f294aa0" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8, Necrotic)" />
+        <field name="SoundStart" type="StringTableFieldDefinition" value="Spell_Status_Hex_Enter" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VENGEFUL_BLADE_DAMAGE" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8, Necrotic,Magical);RemoveStatus(SELF, VENGEFUL_BLADE_5)" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="54d3e1a2-7513-4f46-bb46-53dec4e83b8d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2144321-d414-4c79-8578-2e8b74517639" />
+        <field name="Name" type="NameTableFieldDefinition" value="VENGEFUL_BLADE_10_DAMAGE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="eed8e877-a7c3-4cdd-a689-1fd3ce9e2db7" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3078333fg393bg6e2agaff6gd37adce9760c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2e0904bcg79degaba1gba2dg85730cb20f7e" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d8, Necrotic)" />
+        <field name="SoundStart" type="StringTableFieldDefinition" value="Spell_Status_Hex_Enter" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VENGEFUL_BLADE_DAMAGE" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="3" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3d8, Necrotic,Magical);RemoveStatus(SELF, VENGEFUL_BLADE_10)" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="54d3e1a2-7513-4f46-bb46-53dec4e83b8d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="54b88032-b3a1-47e1-90a1-29d578fa67fd" />
+        <field name="Name" type="NameTableFieldDefinition" value="HELLS_LASH" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="948d324f-167c-42ab-b7d2-70a8e54257c8" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h79277297gd000gacc5g0460g0f13305310f6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0799ae05gc440g5f2bg286ega9d23975a5e2" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4, Fire)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_HellsLash" />
+        <field name="StackId" type="StringTableFieldDefinition" value="HELLS_LASH" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Constitution, SourceSpellDC(),false,HasStatus('INTERDICTED'))" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d4, Fire,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7786aca5-fa22-460b-9e78-42d091567b63" />
+        <field name="Name" type="NameTableFieldDefinition" value="HELLS_LASH_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="54b88032-b3a1-47e1-90a1-29d578fa67fd" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d4, Fire)" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3d4, Fire,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b5382b27-c3a2-4f21-961f-e33eb711c5d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="HELLS_LASH_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="54b88032-b3a1-47e1-90a1-29d578fa67fd" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d4, Fire)" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="3" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(4d4, Fire,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="37508860-4ecf-4faf-909c-45b9b68bc028" />
+        <field name="Name" type="NameTableFieldDefinition" value="HELLS_LASH_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="54b88032-b3a1-47e1-90a1-29d578fa67fd" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d4, Fire)" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="4" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(5d4, Fire,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2e1a4550-dc11-4db4-a7ba-ebf4bc1aae3f" />
+        <field name="Name" type="NameTableFieldDefinition" value="HELLS_LASH_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="54b88032-b3a1-47e1-90a1-29d578fa67fd" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d4, Fire)" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="5" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(6d4, Fire,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d03b64e3-b9e9-47c1-bb67-6a634042b971" />
+        <field name="Name" type="NameTableFieldDefinition" value="HELLS_LASH_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="54b88032-b3a1-47e1-90a1-29d578fa67fd" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d4, Fire)" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="6" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(7d4, Fire,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="939b49ff-e4a2-47eb-bffe-565165a69db3" />
         <field name="Name" type="NameTableFieldDefinition" value="SEARING_SMITE" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a43f05fe-467d-48c2-a02a-eedb880ee79e" />
@@ -1995,6 +2172,7 @@
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="914844bf-3848-4193-9fcd-a27b82b394c0" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="bdfb09d0-0f10-4796-bb78-5a6570c0a5cb" />
         <field name="StatusEffectOnTurn" type="GuidObjectTableFieldDefinition" value="f9b06276-bb8f-4fb2-8789-989de2fe0287" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(Movement);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
