@@ -385,8 +385,8 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(All,Flat,1);" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9c8bbd0bg3615g8088gcb16g45f0854801b0" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="RESISTANCE_0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb17d4643gb09cgb61dgd738g55246f4a2fcf" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
