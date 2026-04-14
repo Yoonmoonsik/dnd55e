@@ -11,8 +11,8 @@
 - One Spell Slot Spell per Turn
 - Prone
 - Weapon Mastery
-## [Character Background](./README_Background.MD)
-## [Class](./README_Class.MD)
+## [Character Background](./README/README_Background.MD)
+## [Class](./README/README_Class.MD)
 ## Common Action
 - Distract
 - Dodge
@@ -20,7 +20,7 @@
 - Jump
 - Shove
 - Topple
-## [Feat](./README_Feat.MD)
-## [Item](./README_Item.MD)
-## [Race](./README_Race.MD)
-## [Spell](./README_Spell.MD)
+## [Feat](./README/README_Feat.MD)
+## [Item](./README/README_Item.MD)
+## [Race](./README/README_Race.MD)
+## [Spell](./README/README_Spell.MD)

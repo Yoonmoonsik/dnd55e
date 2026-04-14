@@ -1,0 +1,98 @@
+# Spell
+## Cantrip
+- Acid Splash
+- Blade Ward
+- Chill Touch
+- Eldritch Blast
+- Finger Guns
+- Green-Flame Blade
+- Hellfire
+- Mind Sliver
+- Poison Spray
+- Resistance
+- Sorcerous Burst
+- Spare the Dying
+- Starry Wisp
+- Sword Burst
+- Thunderclap
+- True Strike
+- Vicious Mockery
+- Word of Radiance
+## Level 1
+- Armor of Agathys
+- Chromatic Orb
+- Color Spray
+- Cure Wounds
+- Divine Favor
+- Divine Smite
+- Entangle
+- Feather Fall
+- Guiding Bolt
+- Healing Word
+- Hell's Lash
+- Hex
+- Hunter's Mark
+- Inflict Wounds
+- Jump
+- Longstrider
+- Magic Missile
+- Ray of Sickness
+- Searing Smite
+- Sleep
+- Tasha's Hideous Laughter
+- Wrathful Smite
+## Level 2
+- Aid
+- Arcane Vigor
+- Blindness
+- Cloud of Daggers
+- Crown of Madness
+- Darkness
+- Find Steed
+- Flame Blade
+- Gust of Wind
+- Lesser Restoration
+- Magic Weapon
+- Melf's Acid Arrow
+- Mind Spike
+- Misty Step
+- Prayer of Healing
+- Ray of Enfeeblement
+- Shadow Blade
+- Snilloc's Snowball Swarm
+- Spiritual Weapon
+- Tasha's Mind Whip
+- Warding Bond
+## Level 3
+- Aura of Vitality
+- Bestow Curse
+- Blink
+- Conjure Barrage
+- Crusader's Mantle
+- Fear
+- Lightning Arrow
+- Mass Healing Word
+- Phantom Steed
+## Level 4
+- Banishment
+- Confusion
+- Dominate Beast
+- Fount of Moonlight
+- Ice Storm
+- Otiluke's Resilient Sphere
+- Phantasmal Killer
+- Polymorph
+- Stoneskin
+- Vitriolic Sphere
+## Level 5
+- Cone of Cold
+- Contagion
+- Dominate Person
+- Hold Monster
+- Insect Plague
+- Mass Cure Wounds
+- Steel Wind Strike
+- Synaptic Static
+## Level 6
+- Circle of Death
+- Disintegrate
