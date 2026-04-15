@@ -104,5 +104,15 @@
         <field name="1" type="StatReferenceTableFieldDefinition" value="WPN_FeyBlade_3" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f7f1ea7e-b4d6-4efd-b1e9-60f287c9f42b" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_Enforcer" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="MAG_Enforcer_NonLethalFright_Club" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="MAG_Enforcer_NonLethalBlessing_Shield" />
+        <field name="3" type="StatReferenceTableFieldDefinition" value="MAG_Enforcer_RejunevatingKnock_Helmet" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

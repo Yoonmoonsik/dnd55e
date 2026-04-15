@@ -1,6 +1,9 @@
 # Item
 - Blazer of Benevolence
 - Cap of Curing
+- Enforcer Club(loot from Flaming Fist Jacek)
+- Enforcer Helmet(loot from Flaming Fist Jacek)
+- Enforcer Shield(loot from Flaming Fist Jacek)
 - Gloves of Heroism
 - Hellrider's Pride
 - Helmet of Smiting
