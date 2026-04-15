@@ -828,5 +828,58 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(b54e54c7-fc1d-4fbf-9fae-83c89a196da7,1,1,DEX)" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_93" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c635c0e4-6721-4fd9-8454-0d2d15687fcf" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="THE_CROOKED_MOON_FEAT" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="FeatRequirementAbilityGreaterEqual('Charisma',100)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_94" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fdbd8822-aad7-4723-a057-b586925ec18d" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Altered" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Altered" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(a0129b5e-ae05-4b07-905e-ec1c244728ae,1,1,CON)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7a6fde1f-bd94-48ef-b94c-2384584688b3" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="CharmTwister" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="CharmTwister" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_96" />
+        <field name="UUID" type="IdTableFieldDefinition" value="66528522-8d20-446e-b86f-a5aba999bf06" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="GraveKeeper" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="GraveKeeper" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(6f4c1ce7-7230-4020-97f3-70cb28898a9c,1,1,CON_WIS)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_97" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cdf6d5ea-aad1-49c6-b544-c5b291cc9a90" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="DeathDefier" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DeathDefier" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(a0129b5e-ae05-4b07-905e-ec1c244728ae,1,1,CON)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_98" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4f8aaee9-abeb-46c2-a900-ca3ef8dd85f3" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="SwiftWitchcraft" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SwiftWitchcraft" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

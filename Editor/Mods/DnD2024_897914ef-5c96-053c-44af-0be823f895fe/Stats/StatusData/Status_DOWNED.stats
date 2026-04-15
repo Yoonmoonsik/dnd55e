@@ -21,5 +21,14 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="AbilityFailedSavingThrow(Strength);AbilityFailedSavingThrow(Dexterity);CriticalHit(AttackTarget,Success,Always,2.5);IF(not DistanceToTargetGreaterThan(3)):Advantage(AttackTarget);IF(DistanceToTargetGreaterThan(3)):Disadvantage(AttackTarget);StatusImmunity(SG_Prone);StatusImmunity(PRONE);StatusImmunity(PRONE_FALLEN);StatusImmunity(PRONE_GREASE);StatusImmunity(PRONE_ICE);StatusImmunity(PRONE_SEWER);StatusImmunity(PRONE_THUNDEROUS_SMITE);StatusImmunity(SG_Condition);StatusImmunity(SHOCKWAVE);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="411e565c-1a9e-40b6-80c9-f5a9e9636f4f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEATH_DEFIER_DOWNED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c7fe5977-85eb-4b21-a92e-296b9628c54a" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc19ea2ecg9a08gebf9gd8dbg264ac39f1d4e" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(DEATH_DEFIER);RegainHitPoints(Level,Guaranteed)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

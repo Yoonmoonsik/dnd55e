@@ -243,7 +243,7 @@
         <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleave_New" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerTurn;IsHidden" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Cleave', context.Source) and AttackedWithPassiveSourceWeapon() and IsWeaponAttack();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:ApplyStatus(WEAPONMASTERY_CLEAVE_TARGET,100,0);TARGET:IF(Attack(AttackType.MeleeWeaponAttack)):SpawnExtraProjectiles(Projectile_WeaponMasteryCleave_10)" />
@@ -266,7 +266,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h240aa2f4g6571ge23eg8142g83ee7b985b8d" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h0fbee9aag6abeg6294g3fd8gbeb26ffd19f6" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Slash" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Graze', context.Source) and AttackedWithPassiveSourceWeapon() and IsWeaponAttack() and not IsHit();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(WeaponAttackRollAbility(Ability.Strength)):DealDamage(StrengthModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Dexterity)):DealDamage(DexterityModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Intelligence)):DealDamage(IntelligenceModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Wisdom)):DealDamage(WisdomModifier, MainMeleeWeaponDamageType);IF(WeaponAttackRollAbility(Ability.Charisma)):DealDamage(CharismaModifier, MainMeleeWeaponDamageType)" />
         <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Graze', context.Source);" />
@@ -6921,7 +6921,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="72ba4786-75e2-493a-8957-b87d37014609" />
         <field name="Name" type="NameTableFieldDefinition" value="DeadlyArchery" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hca895012gaf5dg78a6g7a2eg37692b43b104" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hca895012gaf5dg78a6g7a2eg37692b43b104" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc67a4df3gcd8bgf957g4d35gee2424c14472" version="2" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
@@ -6932,7 +6932,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d3bf9a4a-df2d-4c32-8dca-f55d91e7c4ee" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonSlayer" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1f3d47b6gbc1fgf224g07d7g6347072349e6" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1f3d47b6gbc1fgf224g07d7g6347072349e6" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2407b839gbdcdg7a29gb1ceg77ebf305424f" version="2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(SizeEqualOrGreater(Size.Large)):Advantage(AttackRoll);IF(SizeEqualOrGreater(Size.Large)):CharacterWeaponDamage(StrengthModifier);" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
@@ -6943,7 +6943,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7efc0bf4-a429-4569-a3f9-1e50ca780cc3" />
         <field name="Name" type="NameTableFieldDefinition" value="FierceShot" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4796f67cg2656g7e4fg0832gdc67d0ccef8e" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4796f67cg2656g7e4fg0832gdc67d0ccef8e" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h06a155bfgfa73g3924g9442gc7875f6aba6d" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
@@ -6955,7 +6955,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ec1fe596-81fe-41aa-9583-0f05ceb5f389" />
         <field name="Name" type="NameTableFieldDefinition" value="GleamOfWrath" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hedc33adbg89b5ge699g0a6bgf060748fb8bb" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hedc33adbg89b5ge699g0a6bgf060748fb8bb" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1fa402eeg7070g07b2gbfbaga67c4ad37e78" version="3" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
@@ -6966,13 +6966,76 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5d73ba95-c3b9-421b-8654-86f5c0950fa2" />
         <field name="Name" type="NameTableFieldDefinition" value="Nimbleness" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h12c8377bg73a7g1523gd2f7gce9b3dfd5731" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h12c8377bg73a7g1523gd2f7gce9b3dfd5731" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="had1170f7ga4c6gba7cg3bc3gbf03f398ce3a" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="not HasShieldEquipped(context.Source);" />
         <field name="Boosts" type="StringTableFieldDefinition" value="AC(1);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f3b225f9-910e-4eed-a7bb-2ad6bcea9668" />
+        <field name="Name" type="NameTableFieldDefinition" value="__THE CROOKED MOON__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d128da8e-0112-41f9-9fb6-32d73ec55e68" />
+        <field name="Name" type="NameTableFieldDefinition" value="Altered" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf232e287g63a4g3aa2g6f5fg25aabe4d8c7e" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1844772eg802eg78e4g4c43g59d82d32b9d4" version="2" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989);IF(not WearingArmor(context.Source)):ACOverrideFormula(10,true,Dexterity,Constitution);MonkWeaponDamageDiceOverride(LevelMapValue(UnarmedFighting));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c20d93d3-c013-483a-ad74-9eeebc0c6a96" />
+        <field name="Name" type="NameTableFieldDefinition" value="CharmTwister" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha288579eg93c9g19b4gd809gcbf44c5b3b6b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h02d99bfegfef1g8e2dg60b7g277ac219dbc2" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Bless,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);UnlockSpell(Target_Hex,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="02356e44-7476-42c4-a498-45a2c3ce3d2f" />
+        <field name="Name" type="NameTableFieldDefinition" value="GraveKeeper" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h62e3caedgde0fgd173g13ddg989c09ea72d8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he41177dagaf29g13c8gc756g66414bcb409d" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(ChannelDivinity,1,0);UnlockSpell(Shout_TurnUndead);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e188abb6-9e00-49ef-bd7b-935dd77cabe4" />
+        <field name="Name" type="NameTableFieldDefinition" value="DeathDefier" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h485ec73fg065ag11a4g6c56g26237d4aa777" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h04a42f0bg5327gaeb5gd711g78bbff1f0780" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerLongRest" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,DEATH_DEFIER,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ce497a05-1ee5-4e98-9648-a438746552cc" />
+        <field name="Name" type="NameTableFieldDefinition" value="SwiftWitchcraft" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h49b1f4ebg0b80g1cbbg3266g01728d057db5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf825d6a4g01fbg9069gd8b6gd7c305318fc8" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(ONE_SPELL_WITH_A_SPELL_SLOT_PER_TURN);" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

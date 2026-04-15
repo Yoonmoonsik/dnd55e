@@ -94,6 +94,11 @@
                     <attribute id="Name" type="FixedString" value="CHA"/>
                     <attribute id="UUID" type="guid" value="3223ea25-12d1-4258-8559-09af136c619b"/>
                 </node>
+                <node id="AbilityList">
+                    <attribute id="Abilities" type="LSString" value="Constitution, Wisdom"/>
+                    <attribute id="Name" type="FixedString" value="CON WIS"/>
+                    <attribute id="UUID" type="guid" value="6f4c1ce7-7230-4020-97f3-70cb28898a9c"/>
+                </node>
             </children>
         </node>
     </region>

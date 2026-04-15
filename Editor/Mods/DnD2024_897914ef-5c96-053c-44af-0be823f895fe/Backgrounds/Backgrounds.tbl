@@ -346,5 +346,32 @@
         <field name="Passives" type="StringTableFieldDefinition" value="InspirationFromBackground;Intimidation;Perception;ZhentarimRuffian" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_37" />
+        <field name="UUID" type="IdTableFieldDefinition" value="de726808-ce77-4071-af83-02eaa5ad35be" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5edcd5f5g2597g4cb6g5ebcg6f37e6b6f496" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ba4fa20gb5a4gcf6fg0c48g86e73cad2928" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="InspirationFromBackground;Intimidation;Medicine;Altered" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_38" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5d625775-e823-4bba-a232-58536fca9eea" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8de8eb2bg4b97gfd23gf17fg132f6e2c9157" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d405f4ag1770gee29gfd7egc0479b1be286" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="InspirationFromBackground;Religion;Survival;GraveKeeper" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_39" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c4c58cf1-7b2f-42f0-9fd1-1eece642d5c8" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6b9942c5g3516g176fg224dg36bf0a71d821" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdb90b6a2g422eg0fbeg786dgb67c50e37043" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="InspirationFromBackground;Religion;Survival;CharmTwister" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
