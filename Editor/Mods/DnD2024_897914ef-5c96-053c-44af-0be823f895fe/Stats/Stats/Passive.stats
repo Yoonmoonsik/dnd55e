@@ -2093,6 +2093,68 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="921da2a5-4669-47cb-a26f-1d034bb08429" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CIRCLE OF THE UNBROKEN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a81a9f1-0361-4c3a-92cf-3a8d0e26ccb9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Unbroken_3_ImprovedShillelagh" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6b046ff8ga327gdc59g8f4fgebc351482d81" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb033a976g4cccgdbedg5c40ge3ee8016bca2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_Transmutation_Shillelagh" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="22a8dda0-f587-45cd-80b3-49b6fddef273" />
+        <field name="Name" type="NameTableFieldDefinition" value="Unbroken_3_Spells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he9c252edgc46cg4450gfb88g57508151df65" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="head50b7eg3179gbc89g1334gbee0de9d925c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_Transmutation_Shillelagh" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eb1a16ef-7e26-4889-b330-42d22a4ec6e7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Unbroken_3_WildRecovery" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8ed0d8e9g85baga28cg5d7eg2778cf1bbf0a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heb2a7f7ag521bg6a02g5dffg52cdf49a9788" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_Transmutation_Shillelagh" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WildRecovery);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c2752ef0-994e-46aa-b076-589c5b03784f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Unbroken_6_ExtraAttack" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7fe6e3e8gb94ag15c5g406eg227fcfa3c807" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7e8ca440g858fg8122g6567g8dbda7a1b2f0" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_Transmutation_Shillelagh" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4506" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bb202dde-996b-424e-af0e-899b7f901f18" />
+        <field name="Name" type="NameTableFieldDefinition" value="Unbroken_10_WarMagic" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd5f1b8cag18ffgb6f6g47ffg3b8c0b38f590" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf86fda08gd41fg7378gec9bg99ec11e5214f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_Transmutation_Shillelagh" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4510" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b84ecbb2-39b9-48d5-8b36-840a87d33d6b" />

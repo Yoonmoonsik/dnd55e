@@ -1806,12 +1806,6 @@
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(LAND_TROPICAL,100,-1);" />
       </fields>
     </stat_object>
-    <stat_object color="#FF9ACD32" is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="534c8287-8d7d-4687-8284-92955518a20c" />
-        <field name="Name" type="NameTableFieldDefinition" value="__CIRCLE OF THE SEA 4400__" />
-      </fields>
-    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="053c31f2-e19c-41f8-9acc-9bf40aa2c0f6" />
@@ -1836,12 +1830,6 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="3f474e1e-2d23-40ad-9a07-f65309fa756e" />
       </fields>
     </stat_object>
-    <stat_object color="#FF9ACD32" is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="02e0c2a3-9c70-48a3-b648-fe3c225ad953" />
-        <field name="Name" type="NameTableFieldDefinition" value="__CIRCLE OF DRAGONS__" />
-      </fields>
-    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f3304796-8d5c-4f7d-be0f-faed0e73c751" />
@@ -1863,6 +1851,31 @@
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('WILDSHAPE_ACTIVE')" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="22330577-b4cb-49ea-ade9-7ff183aa9209" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="cc1dcf3b-9fc9-4d11-993d-296af54dc67a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6598977a-14da-4080-bde1-6554455fb0fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="ImprovedShillelagh" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2cafe943-6c17-4622-a943-021ac03a7d14" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand, SHILLELAGH, 100, 10);ApplyEquipmentStatus(OffHand, SHILLELAGH, 100, 10);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h33d907d8gd0a0gaee7g061fg578448183f33" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c660e42-76d7-4f5a-9c82-138c34a2d196" />
+        <field name="Name" type="NameTableFieldDefinition" value="WildRecovery" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="95d6bc05-c16e-4b87-bd87-d942dc2475df" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(LandsAid)+ClassLevel(Druid));" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h698d6323ge92fg1fd9g8d8bg36d7db994d94" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc24409fagede8g0aaag1ad3g32c2949bb667" version="2" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(LandsAid)+ClassLevel(Druid));" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;WildShape:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">

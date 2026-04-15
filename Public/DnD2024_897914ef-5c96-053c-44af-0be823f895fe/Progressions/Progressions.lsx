@@ -1551,6 +1551,47 @@
                     <attribute id="UUID" type="guid" value="9fcbd6c1-fe4b-405d-8afe-e79e20a92571"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="AstralDomain"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Astral_3_AstralDomainSpells;Astral_3_CreateVoid;Astral_3_PlanarReach;Astral_3_PlanarReach_Resource"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(75a6848e-e004-471b-a369-0862923b02bb,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="09684867-c032-4676-a80b-99a317d39fad"/>
+                    <attribute id="UUID" type="guid" value="09684867-c032-4676-a80b-99a317d39fad"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="AstralDomain"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(9158e743-fdac-49cb-af9a-d26b17509013,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="09684867-c032-4676-a80b-99a317d39fad"/>
+                    <attribute id="UUID" type="guid" value="68c137af-8476-47fb-bd07-e14d897167ca"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="AstralDomain"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Astral_6_SpatialExchange"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="09684867-c032-4676-a80b-99a317d39fad"/>
+                    <attribute id="UUID" type="guid" value="d3df1f2a-fb63-4863-ac93-ff4360420e5f"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="AstralDomain"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(9e40339d-a7af-4975-9225-ddfd8fca58bf,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="09684867-c032-4676-a80b-99a317d39fad"/>
+                    <attribute id="UUID" type="guid" value="ab8fa931-5fa4-41b4-862f-860abc05052b"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="AstralDomain"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(3318e90b-d58c-46ac-aa51-eddde1150973,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="09684867-c032-4676-a80b-99a317d39fad"/>
+                    <attribute id="UUID" type="guid" value="0c928e33-300b-4e0e-a991-20bc702a95d0"/>
+                </node>
+                <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0);Proficiency(LightArmor);Proficiency(Shields);Tag(PETPAL);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(SimpleWeapons);"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Druid"/>
@@ -1608,6 +1649,9 @@
                                 </node>
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="4b61af6c-4a44-436e-aa0a-0d11a2d6b8ee"/>
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="25ffd448-e661-4994-a354-1bb1d79bbb65"/>
                                 </node>
                             </children>
                         </node>
@@ -1992,7 +2036,7 @@
                     <attribute id="Name" type="LSString" value="CircleOfTheSea"/>
                     <attribute id="PassivesAdded" type="LSString" value="Sea_3_WrathOfTheSea"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(2799765b-6707-4835-9f4c-ce5a99c2bccc,,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(1877d2bd-46f3-428e-b5e1-837532796a40,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="f95cd60e-234f-4724-a5c2-bc2ac8e543f5"/>
                     <attribute id="UUID" type="guid" value="f95cd60e-234f-4724-a5c2-bc2ac8e543f5"/>
                 </node>
@@ -2000,7 +2044,7 @@
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="CircleOfTheSea"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(b1f00545-c6bd-4697-90cc-865220a44769,,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(eef6a5ca-4afb-49b8-9146-789bf65388fd,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="f95cd60e-234f-4724-a5c2-bc2ac8e543f5"/>
                     <attribute id="UUID" type="guid" value="2d2256fe-b4cd-401f-b5bd-b82035319755"/>
                 </node>
@@ -2015,7 +2059,7 @@
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="CircleOfTheSea"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(66953664-1519-40c1-bc65-3021f274409b,,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(335468c5-3c13-4c52-a3f3-810981608169,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="f95cd60e-234f-4724-a5c2-bc2ac8e543f5"/>
                     <attribute id="UUID" type="guid" value="dac08624-4fc4-4a29-9e75-af4cdaf09c97"/>
                 </node>
@@ -2023,7 +2067,7 @@
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="CircleOfTheSea"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(f5685e94-1abd-4b31-b95c-eddcad33461e,,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(7e1a6c02-1789-4b5f-ad52-42356b428156,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="f95cd60e-234f-4724-a5c2-bc2ac8e543f5"/>
                     <attribute id="UUID" type="guid" value="fcc8c9e3-ecd3-4a0f-948d-f3808f47ce33"/>
                 </node>
@@ -2057,6 +2101,56 @@
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="7a3b896a-3acd-45a3-8c79-24f5aaa4034f"/>
                     <attribute id="UUID" type="guid" value="e1b3144d-6132-4697-a345-17e4972530b3"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="CircleOfTheUnbroken"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Unbroken_3_ImprovedShillelagh;Unbroken_3_Spells;Unbroken_3_WildRecovery"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(1877d2bd-46f3-428e-b5e1-837532796a40,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="c52f35d8-1fb6-483a-957a-372db8ce01db"/>
+                    <attribute id="UUID" type="guid" value="c52f35d8-1fb6-483a-957a-372db8ce01db"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="CircleOfTheUnbroken"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(eef6a5ca-4afb-49b8-9146-789bf65388fd,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="c52f35d8-1fb6-483a-957a-372db8ce01db"/>
+                    <attribute id="UUID" type="guid" value="4042d686-e14b-451d-91d8-abbc5318d64a"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="CircleOfTheUnbroken"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Unbroken_6_ExtraAttack;ExtraAttack"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="c52f35d8-1fb6-483a-957a-372db8ce01db"/>
+                    <attribute id="UUID" type="guid" value="7f70e0e8-8016-4b19-b0d6-12f2ba84170b"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="CircleOfTheUnbroken"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(335468c5-3c13-4c52-a3f3-810981608169,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="c52f35d8-1fb6-483a-957a-372db8ce01db"/>
+                    <attribute id="UUID" type="guid" value="2618ecfe-9bcd-4d25-b0d5-2592a487a096"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="CircleOfTheUnbroken"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(7e1a6c02-1789-4b5f-ad52-42356b428156,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="c52f35d8-1fb6-483a-957a-372db8ce01db"/>
+                    <attribute id="UUID" type="guid" value="bff459e5-e800-4d5e-9344-d21e7cfed9ef"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="CircleOfTheUnbroken"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Unbroken_10_WarMagic;ExtraAttack_Warmagic;WarMagic"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="ExtraAttack"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="c52f35d8-1fb6-483a-957a-372db8ce01db"/>
+                    <attribute id="UUID" type="guid" value="aada1c7f-6787-4db4-901b-b266213b57f7"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Constitution);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(SecondWind,2,0)"/>
@@ -6844,47 +6938,6 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="3"/>
-                    <attribute id="Name" type="LSString" value="AstralDomain"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Astral_3_AstralDomainSpells;Astral_3_CreateVoid;Astral_3_PlanarReach;Astral_3_PlanarReach_Resource"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(75a6848e-e004-471b-a369-0862923b02bb,,,,AlwaysPrepared)"/>
-                    <attribute id="TableUUID" type="guid" value="09684867-c032-4676-a80b-99a317d39fad"/>
-                    <attribute id="UUID" type="guid" value="09684867-c032-4676-a80b-99a317d39fad"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="5"/>
-                    <attribute id="Name" type="LSString" value="AstralDomain"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(9158e743-fdac-49cb-af9a-d26b17509013,,,,AlwaysPrepared)"/>
-                    <attribute id="TableUUID" type="guid" value="09684867-c032-4676-a80b-99a317d39fad"/>
-                    <attribute id="UUID" type="guid" value="68c137af-8476-47fb-bd07-e14d897167ca"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="7"/>
-                    <attribute id="Name" type="LSString" value="AstralDomain"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(9e40339d-a7af-4975-9225-ddfd8fca58bf,,,,AlwaysPrepared)"/>
-                    <attribute id="TableUUID" type="guid" value="09684867-c032-4676-a80b-99a317d39fad"/>
-                    <attribute id="UUID" type="guid" value="ab8fa931-5fa4-41b4-862f-860abc05052b"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="9"/>
-                    <attribute id="Name" type="LSString" value="AstralDomain"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(3318e90b-d58c-46ac-aa51-eddde1150973,,,,AlwaysPrepared)"/>
-                    <attribute id="TableUUID" type="guid" value="09684867-c032-4676-a80b-99a317d39fad"/>
-                    <attribute id="UUID" type="guid" value="0c928e33-300b-4e0e-a991-20bc702a95d0"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="6"/>
-                    <attribute id="Name" type="LSString" value="AstralDomain"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Astral_6_SpatialExchange"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="09684867-c032-4676-a80b-99a317d39fad"/>
-                    <attribute id="UUID" type="guid" value="d3df1f2a-fb63-4863-ac93-ff4360420e5f"/>
                 </node>
             </children>
         </node>

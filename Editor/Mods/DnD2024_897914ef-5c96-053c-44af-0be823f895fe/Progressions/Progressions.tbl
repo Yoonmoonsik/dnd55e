@@ -2108,7 +2108,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(92126d17-7f1a-41d2-ae6c-a8d254d2b135)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel2;MeleeUnarmedAttackBonus" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="2db79008-fad4-4e31-bda3-8d5d34ccda3f;fe416267-36f0-4346-90fc-4aeb7f25ec07;7458da78-34b7-4150-a42f-37197ab04510;3eab0689-e51b-4634-a690-0375d3cb2716;4d73bb8e-5405-4586-9947-0cda0e2f424b;4b61af6c-4a44-436e-aa0a-0d11a2d6b8ee" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="2db79008-fad4-4e31-bda3-8d5d34ccda3f;fe416267-36f0-4346-90fc-4aeb7f25ec07;7458da78-34b7-4150-a42f-37197ab04510;3eab0689-e51b-4634-a690-0375d3cb2716;4d73bb8e-5405-4586-9947-0cda0e2f424b;4b61af6c-4a44-436e-aa0a-0d11a2d6b8ee;25ffd448-e661-4994-a354-1bb1d79bbb65" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2628,7 +2628,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="CircleOfTheSea" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(2799765b-6707-4835-9f4c-ce5a99c2bccc,,,,AlwaysPrepared)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(1877d2bd-46f3-428e-b5e1-837532796a40,,,,AlwaysPrepared)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Sea_3_WrathOfTheSea" />
       </fields>
     </stat_object>
@@ -2640,7 +2640,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="CircleOfTheSea" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(b1f00545-c6bd-4697-90cc-865220a44769,,,,AlwaysPrepared)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(eef6a5ca-4afb-49b8-9146-789bf65388fd,,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2661,7 +2661,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="CircleOfTheSea" />
         <field name="Level" type="ByteTableFieldDefinition" value="7" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(66953664-1519-40c1-bc65-3021f274409b,,,,AlwaysPrepared)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(335468c5-3c13-4c52-a3f3-810981608169,,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2672,7 +2672,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="CircleOfTheSea" />
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(f5685e94-1abd-4b31-b95c-eddcad33461e,,,,AlwaysPrepared)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(7e1a6c02-1789-4b5f-ad52-42356b428156,,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2716,6 +2716,74 @@
         <field name="Level" type="ByteTableFieldDefinition" value="10" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Dragons_10_DraconicMagic" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_786" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c52f35d8-1fb6-483a-957a-372db8ce01db" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="c52f35d8-1fb6-483a-957a-372db8ce01db" />
+        <field name="FSName" type="StringTableFieldDefinition" value="CircleOfTheUnbroken" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(1877d2bd-46f3-428e-b5e1-837532796a40,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Unbroken_3_ImprovedShillelagh;Unbroken_3_Spells;Unbroken_3_WildRecovery" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_788" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4042d686-e14b-451d-91d8-abbc5318d64a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="c52f35d8-1fb6-483a-957a-372db8ce01db" />
+        <field name="FSName" type="StringTableFieldDefinition" value="CircleOfTheUnbroken" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(eef6a5ca-4afb-49b8-9146-789bf65388fd,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_789" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7f70e0e8-8016-4b19-b0d6-12f2ba84170b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="c52f35d8-1fb6-483a-957a-372db8ce01db" />
+        <field name="FSName" type="StringTableFieldDefinition" value="CircleOfTheUnbroken" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Unbroken_6_ExtraAttack;ExtraAttack" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_790" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2618ecfe-9bcd-4d25-b0d5-2592a487a096" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="c52f35d8-1fb6-483a-957a-372db8ce01db" />
+        <field name="FSName" type="StringTableFieldDefinition" value="CircleOfTheUnbroken" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(335468c5-3c13-4c52-a3f3-810981608169,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_791" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bff459e5-e800-4d5e-9344-d21e7cfed9ef" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="c52f35d8-1fb6-483a-957a-372db8ce01db" />
+        <field name="FSName" type="StringTableFieldDefinition" value="CircleOfTheUnbroken" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(7e1a6c02-1789-4b5f-ad52-42356b428156,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_792" />
+        <field name="UUID" type="IdTableFieldDefinition" value="aada1c7f-6787-4db4-901b-b266213b57f7" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="c52f35d8-1fb6-483a-957a-372db8ce01db" />
+        <field name="FSName" type="StringTableFieldDefinition" value="CircleOfTheUnbroken" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Unbroken_10_WarMagic;ExtraAttack_Warmagic;WarMagic" />
+        <field name="PassivesRemoved" type="StringTableFieldDefinition" value="ExtraAttack" />
       </fields>
     </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">

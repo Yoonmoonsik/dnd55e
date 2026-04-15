@@ -788,29 +788,63 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2799765b-6707-4835-9f4c-ce5a99c2bccc" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Sea Druid SLevel 3" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Sea Druid Level 3" />
         <field name="Spells" type="StringTableFieldDefinition" value="Projectile_RayOfFrost;Target_FogCloud;Zone_Thunderwave;Zone_GustOfWind;Target_Shatter;Shout_WrathOfTheSea" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b1f00545-c6bd-4697-90cc-865220a44769" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Sea Druid SLevel 5" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Sea Druid Level 5" />
         <field name="Spells" type="StringTableFieldDefinition" value="Zone_LightningBolt" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="66953664-1519-40c1-bc65-3021f274409b" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Sea Druid SLevel 7" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Sea Druid Level 7" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_IceStorm" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f5685e94-1abd-4b31-b95c-eddcad33461e" />
-        <field name="Name" type="NameTableFieldDefinition" value="5.5 Sea Druid SLevel 9" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Sea Druid Level 9" />
         <field name="Spells" type="StringTableFieldDefinition" value="Target_HoldMonster" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ee079a05-7caa-47b1-86cf-874ad252e0d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CIRCLE OF THE UNBROKEN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1877d2bd-46f3-428e-b5e1-837532796a40" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Unbroken Druid Level 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_EnsnaringStrike_Container;Shout_ImprovedShillelagh;Target_Smite_Branding_Container;Target_TrueStrike" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eef6a5ca-4afb-49b8-9146-789bf65388fd" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Unbroken Druid Level 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Haste" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="335468c5-3c13-4c52-a3f3-810981608169" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Unbroken Druid Level 7" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_FireShield" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7e1a6c02-1789-4b5f-ad52-42356b428156" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Unbroken Druid Level 9" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_FlameStrike" />
       </fields>
     </stat_object>
     <stat_object color="#FF008B8B" is_substat="false">
