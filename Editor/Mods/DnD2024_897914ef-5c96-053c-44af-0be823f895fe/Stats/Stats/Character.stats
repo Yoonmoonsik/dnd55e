@@ -83,6 +83,66 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="53a5e357-18a5-4741-b3b7-f8ba59f01e29" />
+        <field name="Name" type="NameTableFieldDefinition" value="GiantEagle_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e725476a-2c86-4645-91d7-08bf53f3eca8" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="18" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="4" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="20" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="IgnoreLeaveAttackRange();ProficiencyBonus(Skill,Perception);BlockRegainHP(Undead;Construct);" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:9;ReactionActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="31040699-b91f-4134-a4ae-6eb049327c6e" />
+        <field name="Name" type="NameTableFieldDefinition" value="GiantEagle_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="53a5e357-18a5-4741-b3b7-f8ba59f01e29" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="25" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4997c6b6-f93b-4508-ad30-836e7576bae7" />
+        <field name="Name" type="NameTableFieldDefinition" value="GiantEagle_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="53a5e357-18a5-4741-b3b7-f8ba59f01e29" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="30" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ExtraAttack;Multiattack_GiantEagle;AttackOfOpportunity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8edadb97-c6d2-467e-ba37-f46b24b5467b" />
+        <field name="Name" type="NameTableFieldDefinition" value="GiantEagle_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="53a5e357-18a5-4741-b3b7-f8ba59f01e29" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="35" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ExtraAttack;Multiattack_GiantEagle;AttackOfOpportunity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b5374ce3-c157-407b-b776-a415bacdadeb" />
+        <field name="Name" type="NameTableFieldDefinition" value="GiantEagle_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="53a5e357-18a5-4741-b3b7-f8ba59f01e29" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="17" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="40" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ExtraAttack_2;Multiattack_GiantEagle;AttackOfOpportunity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="aaadbb53-4a5b-4af9-bcd7-f406e8bfd0dd" />
         <field name="Name" type="NameTableFieldDefinition" value="RedCap_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2e4be2d5-ee1d-4e6b-be41-8ad8b7844a9f" />

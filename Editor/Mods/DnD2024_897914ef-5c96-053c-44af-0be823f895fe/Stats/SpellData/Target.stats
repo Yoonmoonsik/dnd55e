@@ -1100,6 +1100,59 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="fc59ce34-fc8d-4ae9-b267-3a905bf48c02" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0d9eab81-a6e3-4da5-a4c8-f94f98836ecc" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonBeast" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e945e15d-b412-414a-a7ed-2feeaecc0edd" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(df3b594e-8e86-4a8b-94e2-9ca81683166e, -1,,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_SummonBeast" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbc64cea5g7abcg4ee4g6f8cg7e90db0c0465" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f5214b4b-c358-4310-8639-e18a483cc6a6" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonBeast_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0d9eab81-a6e3-4da5-a4c8-f94f98836ecc" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(e3d9da35-11e9-4ee6-9785-8884aacc9499, -1,,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_SummonBeast" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28729677-3bfe-4811-9d9c-497104e6d9b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonBeast_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f5214b4b-c358-4310-8639-e18a483cc6a6" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(0529d832-3b80-40c6-ab42-dd30f4c1d944, -1,,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f726aba6-45c4-43dd-b761-5093f53d9897" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonBeast_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f5214b4b-c358-4310-8639-e18a483cc6a6" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(31e39d79-6713-4e5b-89de-d8b918a84dc8, -1,,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="856fc5e7-016d-4001-a54f-54a156b44546" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonBeast_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f5214b4b-c358-4310-8639-e18a483cc6a6" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(fd128f5d-cc24-444f-8a50-e261391bf768, -1,,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ab32515d-e83a-42a4-a960-c417925b0244" />

@@ -62,6 +62,7 @@
 - Shadow Blade
 - Snilloc's Snowball Swarm
 - Spiritual Weapon
+- Summon Beast
 - Tasha's Mind Whip
 - Warding Bond
 ## Level 3
