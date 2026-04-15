@@ -4646,6 +4646,27 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="66967b3c-255c-42d3-af70-846f1144dab6" />
+        <field name="Name" type="NameTableFieldDefinition" value="ImprovedMinorIllusion" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb1839e9-3425-461f-9659-764037a5f549" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h05ec30e1g135dg784fg23d3gbe0b26cab88f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6ac5e4a1g208fg4753g01cegcda7a5d0e025" version="2" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12203" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ImprovedMinorIllusion);UnlockSpellVariant(ImprovedIllusions(),ModifyTargetRadius(Multiplicative,1.5),ModifySpellFlags(Verbal,0),ModifySpellFlags(Stealth,1));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="96756f3a-1f01-48c2-9019-3e445a0e737e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Illusionist_6_PhantasmalCreatures" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hacd218b6g8afbg65f2g4b21g9d52b7e777f8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9ec6f533ga820gcfd6g8b9fgb737db30a70b" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_SummonFey_Illusion" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12206" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="17544998-e7aa-49ff-a1bb-1de40a451534" />
         <field name="Name" type="NameTableFieldDefinition" value="IllusorySelf" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2b9dee4a-765b-4ae6-b7b2-bd7da5b8c044" />

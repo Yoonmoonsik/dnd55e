@@ -5626,6 +5626,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="IllusionSchool"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Illusionist_6_PhantasmalCreatures"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(2a428023-b6cd-4d77-a801-d1e1f772c83e,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="a78bdb33-84e2-4943-a593-3d68f178ba32"/>
@@ -6811,19 +6812,6 @@
                     <attribute id="UUID" type="guid" value="37ad7172-291b-4a05-b226-2734170fb4fa"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Name" type="LSString" value="__NPC__"/>
-                    <attribute id="UUID" type="guid" value="99597b6a-61a4-4763-85c5-ffe2e0573f7e"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="Tag(DRUID);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(Clubs);Proficiency(Daggers);Proficiency(Javelins);Proficiency(Maces);Proficiency(Quarterstaffs);Proficiency(Scimitars);Proficiency(Sickles);Proficiency(Spears)"/>
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="NPC_Druid"/>
-                    <attribute id="PassivesAdded" type="LSString" value="WildShape_TempHP_NPC"/>
-                    <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
-                    <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
-                </node>
-                <node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="RockGnome"/>
                     <attribute id="PassivesAdded" type="LSString" value="Darkvision;RockGnome_ArtificersLore"/>
@@ -6840,6 +6828,19 @@
                     <attribute id="Selectors" type="LSString" value="AddSpells(582ed05c-c6fa-4d6f-99f9-efcc9de769f9,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="f0a6b572-9612-403f-981c-978c21225845"/>
                     <attribute id="UUID" type="guid" value="a63bbb3c-c37c-4578-94e6-7d1c4c063d5c"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Name" type="LSString" value="__NPC__"/>
+                    <attribute id="UUID" type="guid" value="99597b6a-61a4-4763-85c5-ffe2e0573f7e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="Tag(DRUID);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(Clubs);Proficiency(Daggers);Proficiency(Javelins);Proficiency(Maces);Proficiency(Quarterstaffs);Proficiency(Scimitars);Proficiency(Sickles);Proficiency(Spears)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="NPC_Druid"/>
+                    <attribute id="PassivesAdded" type="LSString" value="WildShape_TempHP_NPC"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
+                    <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
                 </node>
             </children>
         </node>

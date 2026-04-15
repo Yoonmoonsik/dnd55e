@@ -549,6 +549,20 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="6"/>
                     <attribute id="UUID" type="guid" value="ba0844e2-726c-4e39-b6f7-c46733df19c4"/>
                 </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="hd2b280acgffccg1945g84d8g178fda0ac2df" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h5e364771gbbf3gcea4gc521g7ebe73137887" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="IllusionSchool"/>
+                    <attribute id="ParentGuid" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="a78bdb33-84e2-4943-a593-3d68f178ba32"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Wizard"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="436c9e1a-3a39-48dd-b753-7cee1bd19c00"/>
+                </node>
             </children>
         </node>
     </region>

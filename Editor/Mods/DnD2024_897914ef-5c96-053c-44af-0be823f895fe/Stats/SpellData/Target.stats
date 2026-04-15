@@ -7419,6 +7419,38 @@
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
+    <stat_object color="#FF0000FF" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9990f1ea-4e6d-4478-a26d-b0bfe6e71d44" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WIZARD__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="05c88076-360c-43b0-95df-20d78aa620d1" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonBeast_Illusion" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0d9eab81-a6e3-4da5-a4c8-f94f98836ecc" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Illusion" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(df3b594e-8e86-4a8b-94e2-9ca81683166e, -1,,,'SummonBeastStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,GHOST_FX);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_SummonBeast_Illusion" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6057aef1gc72eg192ag3affgca7098f7a4c4" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dd2401b1-88f7-4c03-92ef-cc197ac82e7a" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonFey_Illusion" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e945e15d-b412-414a-a7ed-2feeaecc0edd" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Illusion" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(5a35e773-59d4-4864-9249-acdf7aad1a6c, -1,,,'SummonFeyStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,GHOST_FX);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_SummonFey_Illusion" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h32ce3bc3gbd08g5553gcc7dga7ed37159c2b" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFF0000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d819f34c-5413-43ba-9365-e662beed8cb8" />

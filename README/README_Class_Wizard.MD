@@ -19,4 +19,6 @@
 - Level 6: Sculpt Spells
 - Level 10: Empowered Evocation
 ## Illusionist
+- Level 3: Improved Illusions
+- Level 6: Phantasmal Creatures
 - Level 10: Illusory Self

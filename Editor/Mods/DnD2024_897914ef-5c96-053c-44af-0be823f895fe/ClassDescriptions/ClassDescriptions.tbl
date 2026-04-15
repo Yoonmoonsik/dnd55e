@@ -434,6 +434,23 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_36" />
+        <field name="UUID" type="IdTableFieldDefinition" value="436c9e1a-3a39-48dd-b753-7cee1bd19c00" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="a865965f-501b-46e9-9eaa-7748e8c04d09" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="IllusionSchool" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5e364771gbbf3gcea4gc521g7ebe73137887" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="a78bdb33-84e2-4943-a593-3d68f178ba32" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Wizard" />
+        <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="True" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd2b280acgffccg1945g84d8g178fda0ac2df" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_13" />
         <field name="UUID" type="IdTableFieldDefinition" value="8047cf29-2c79-4f12-a4bf-d965a023be63" />
         <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="a865965f-501b-46e9-9eaa-7748e8c04d09" />

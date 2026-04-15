@@ -1524,6 +1524,11 @@
                     <attribute id="Spells" type="LSString" value="Shout_SpeakWithAnimals_ForestGnome;Target_MinorIllusion"/>
                     <attribute id="UUID" type="guid" value="582ed05c-c6fa-4d6f-99f9-efcc9de769f9"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Illusion Wizard 6"/>
+                    <attribute id="Spells" type="LSString" value="Target_SummonBeast;Target_SummonFey;Target_SummonBeast_Illusion;Target_SummonFey_Illusion"/>
+                    <attribute id="UUID" type="guid" value="2a428023-b6cd-4d77-a801-d1e1f772c83e"/>
+                </node>
             </children>
         </node>
     </region>
