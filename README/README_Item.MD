@@ -2,6 +2,7 @@
 - Argument Solver
 - Blazer of Benevolence
 - Cap of Curing
+- Chain of Liberation
 - Corrosive Flail
 - Dragon's Grasp
 - Enforcer Club (Loot from Flaming Fist Jacek)

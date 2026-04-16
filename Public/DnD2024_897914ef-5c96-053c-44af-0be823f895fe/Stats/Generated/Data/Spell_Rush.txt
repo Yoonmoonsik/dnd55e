@@ -78,3 +78,7 @@ data "SpellType" "Rush"
 using "Rush_Charger_Push"
 data "UseCosts" "ActionPoint:1;Movement:3;ChargerTurn:1;"
 
+new entry "Rush___MAGIC ITEM__"
+type "SpellData"
+data "SpellType" "Rush"
+

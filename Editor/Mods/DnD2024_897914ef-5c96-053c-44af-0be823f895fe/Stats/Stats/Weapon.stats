@@ -4900,7 +4900,7 @@
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryPush;UND_DuergarRaft_Hammer_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(1);WeaponProperty(Magical)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
       </fields>
     </stat_object>
@@ -4985,9 +4985,10 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_Ketheric_Warhammer" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3b309509-b361-4696-8f33-c73a12a632a9" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1f8252a3-3227-48a3-b500-996e571cac68" />
-        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
-        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical)" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

@@ -114,5 +114,14 @@
         <field name="3" type="StatReferenceTableFieldDefinition" value="MAG_Enforcer_RejunevatingKnock_Helmet" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cf7bf3d1-f8f5-4d82-a63a-efe9f92b6aa8" />
+        <field name="Name" type="NameTableFieldDefinition" value="PLA_Gnoll_CaravanGuard" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="MAG_Mobility_MomentumOnAttack_Scimitar" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="MAG_Mobility_SprintForMomentum_ChainShirt" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
