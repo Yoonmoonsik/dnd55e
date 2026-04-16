@@ -157,6 +157,20 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h7620f19ag43c9g05a4g36acg0cd45d849578" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h42221b4agb3bdgef46gaa3ag9261ebba0bea" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="CircleOfTheUnbroken"/>
+                    <attribute id="ParentGuid" type="guid" value="457d0a6e-9da8-4f95-a225-18382f0e94b5"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="c52f35d8-1fb6-483a-957a-372db8ce01db"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Druid"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="25ffd448-e661-4994-a354-1bb1d79bbb65"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h59454ac0g0de7g8defg7a22g0fd1397b1f85" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h7f73ecccg72adgef93gb362g40f93abb7b1c" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
@@ -441,7 +455,7 @@
                 <node id="ClassDescription">
                     <attribute id="BaseHp" type="int32" value="10"/>
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Ranger"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Gunslinger"/>
                     <attribute id="ClassHotbarColumns" type="int32" value="5"/>
                     <attribute id="CommonHotbarColumns" type="int32" value="9"/>
                     <attribute id="Description" type="TranslatedString" handle="hcf74d85ag3ed2g6eecga0d3g6e6a0fa87154" version="1"/>
@@ -499,7 +513,7 @@
                 <node id="ClassDescription">
                     <attribute id="BaseHp" type="int32" value="10"/>
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Fighter"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Illrigger"/>
                     <attribute id="ClassHotbarColumns" type="int32" value="5"/>
                     <attribute id="CommonHotbarColumns" type="int32" value="9"/>
                     <attribute id="Description" type="TranslatedString" handle="hd9f88f32g2a3eg5ee1gdb45g1b062c876f03" version="1"/>
@@ -578,20 +592,6 @@
                     <attribute id="SoundClassType" type="FixedString" value="Illrigger"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="6"/>
                     <attribute id="UUID" type="guid" value="ba0844e2-726c-4e39-b6f7-c46733df19c4"/>
-                </node>
-                <node id="ClassDescription">
-                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="h7620f19ag43c9g05a4g36acg0cd45d849578" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h42221b4agb3bdgef46gaa3ag9261ebba0bea" version="1"/>
-                    <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="CircleOfTheUnbroken"/>
-                    <attribute id="ParentGuid" type="guid" value="457d0a6e-9da8-4f95-a225-18382f0e94b5"/>
-                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="c52f35d8-1fb6-483a-957a-372db8ce01db"/>
-                    <attribute id="SoundClassType" type="FixedString" value="Druid"/>
-                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
-                    <attribute id="UUID" type="guid" value="25ffd448-e661-4994-a354-1bb1d79bbb65"/>
                 </node>
             </children>
         </node>

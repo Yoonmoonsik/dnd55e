@@ -47,27 +47,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="e804d6e1-f572-40c6-8725-4fb739612b71" />
-        <field name="Name" type="NameTableFieldDefinition" value="EQP_CC_Sorcerer" />
-        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
-        <field name="1" type="StatReferenceTableFieldDefinition" value="WPN_Quarterstaff" />
-        <field name="2" type="StatReferenceTableFieldDefinition" value="OBJ_Potion_Healing" />
-        <field name="3" type="StatReferenceTableFieldDefinition" value="OBJ_Potion_Healing" />
-        <field name="4" type="StatReferenceTableFieldDefinition" value="ARM_Shoes" />
-        <field name="5" type="StatReferenceTableFieldDefinition" value="ARM_Robe_Body_Sorcerer" />
-        <field name="6" type="StatReferenceTableFieldDefinition" value="OBJ_Scroll_Revivify" />
-        <field name="7" type="StatReferenceTableFieldDefinition" value="OBJ_Keychain" />
-        <field name="8" type="StatReferenceTableFieldDefinition" value="OBJ_Bag_AlchemyPouch" />
-        <field name="9" type="StatReferenceTableFieldDefinition" value="ARM_Camp_Body" />
-        <field name="10" type="StatReferenceTableFieldDefinition" value="ARM_Camp_Shoes" />
-        <field name="11" type="StatReferenceTableFieldDefinition" value="OBJ_Backpack_CampSupplies" />
-        <field name="12" type="StatReferenceTableFieldDefinition" value="ARM_Robe_Body_Sorcerer_DraconicAncestry" />
-        <field name="13" type="StatReferenceTableFieldDefinition" value="ARM_Robe_Body_Sorcerer_ShadowSorcery" />
-        <field name="14" type="StatReferenceTableFieldDefinition" value="ARM_Robe_Body_Sorcerer_StormSorcery" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="51cb6fd8-c78e-419d-81c1-059f19d65bc1" />
         <field name="Name" type="NameTableFieldDefinition" value="EQP_TrueName" />
         <field name="1" type="StatReferenceTableFieldDefinition" value="MAG_TrueName" />
@@ -121,6 +100,46 @@
         <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
         <field name="1" type="StatReferenceTableFieldDefinition" value="MAG_Mobility_MomentumOnAttack_Scimitar" />
         <field name="2" type="StatReferenceTableFieldDefinition" value="MAG_Mobility_SprintForMomentum_ChainShirt" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a236298a-a425-4c23-b544-102815e7f6cd" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_CC_Illrigger" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="WPN_Battleaxe" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="WPN_LightCrossbow" />
+        <field name="3" type="StatReferenceTableFieldDefinition" value="ARM_Boots_Leather" />
+        <field name="4" type="StatReferenceTableFieldDefinition" value="OBJ_Potion_Healing" />
+        <field name="5" type="StatReferenceTableFieldDefinition" value="OBJ_Potion_Healing" />
+        <field name="6" type="StatReferenceTableFieldDefinition" value="ARM_Breastplate_Body" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="7" type="StatReferenceTableFieldDefinition" value="OBJ_Scroll_Revivify" />
+        <field name="8" type="StatReferenceTableFieldDefinition" value="OBJ_Keychain" />
+        <field name="9" type="StatReferenceTableFieldDefinition" value="OBJ_Bag_AlchemyPouch" />
+        <field name="10" type="StatReferenceTableFieldDefinition" value="ARM_Camp_Body" />
+        <field name="11" type="StatReferenceTableFieldDefinition" value="ARM_Camp_Shoes" />
+        <field name="12" type="StatReferenceTableFieldDefinition" value="OBJ_Backpack_CampSupplies" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0217431-3413-45a1-826d-ed75cf21ead2" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_CC_Gunslinger" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="WPN_Musket" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="WPN_Dagger" />
+        <field name="3" type="StatReferenceTableFieldDefinition" value="ARM_Boots_Leather" />
+        <field name="4" type="StatReferenceTableFieldDefinition" value="OBJ_ArrowOfIce" />
+        <field name="5" type="StatReferenceTableFieldDefinition" value="OBJ_Potion_Healing" />
+        <field name="6" type="StatReferenceTableFieldDefinition" value="OBJ_Potion_Healing" />
+        <field name="7" type="StatReferenceTableFieldDefinition" value="ARM_Padded_BGWatch" />
+        <field name="8" type="StatReferenceTableFieldDefinition" value="OBJ_Scroll_Revivify" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="WeaponSet" version="1" />
+        <field name="9" type="StatReferenceTableFieldDefinition" value="OBJ_Keychain" />
+        <field name="10" type="StatReferenceTableFieldDefinition" value="OBJ_Bag_AlchemyPouch" />
+        <field name="11" type="StatReferenceTableFieldDefinition" value="ARM_Camp_Body" />
+        <field name="12" type="StatReferenceTableFieldDefinition" value="ARM_Camp_Shoes" />
+        <field name="13" type="StatReferenceTableFieldDefinition" value="OBJ_Backpack_CampSupplies" />
+        <field name="14" type="StatReferenceTableFieldDefinition" value="ARM_Hat" />
       </fields>
     </stat_object>
   </stat_objects>

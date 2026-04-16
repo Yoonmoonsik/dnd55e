@@ -522,7 +522,7 @@
         <field name="CommonHotbarColumns" type="IntegerTableFieldDefinition" value="9" />
         <field name="ClassHotbarColumns" type="IntegerTableFieldDefinition" value="5" />
         <field name="ItemsHotbarColumns" type="IntegerTableFieldDefinition" value="2" />
-        <field name="ClassEquipment" type="FixedStringTableFieldDefinition" value="EQP_CC_Ranger" />
+        <field name="ClassEquipment" type="FixedStringTableFieldDefinition" value="EQP_CC_Gunslinger" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -586,7 +586,7 @@
         <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
         <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
         <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
-        <field name="ClassEquipment" type="FixedStringTableFieldDefinition" value="EQP_CC_Fighter" />
+        <field name="ClassEquipment" type="FixedStringTableFieldDefinition" value="EQP_CC_Illrigger" />
         <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
         <field name="BaseHp" type="IntegerTableFieldDefinition" value="10" />
         <field name="HpPerLevel" type="IntegerTableFieldDefinition" value="6" />
