@@ -12,13 +12,11 @@ new entry "Shout_Hide"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_Hide"
-data "SpellProperties" "IF(not HasPassive('Skulker',context.Source)):ApplyStatus(SNEAKING,100,-1);IF(HasPassive('Skulker',context.Source)):ApplyStatus(SNEAKING_SKULKER,100,-1);"
 
 new entry "Shout_Hide_BonusAction"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_Hide_BonusAction"
-data "SpellProperties" "IF(not HasPassive('Skulker',context.Source)):ApplyStatus(SNEAKING,100,-1);IF(HasPassive('Skulker',context.Source)):ApplyStatus(SNEAKING_SKULKER,100,-1);"
 
 new entry "Shout_HitPointDice"
 type "SpellData"

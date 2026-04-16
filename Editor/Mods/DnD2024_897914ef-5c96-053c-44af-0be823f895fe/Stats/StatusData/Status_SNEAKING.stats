@@ -6,16 +6,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3465b31a-3939-405e-ae5c-0a212845f9c4" />
         <field name="Name" type="NameTableFieldDefinition" value="SNEAKING" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1f5ba2bd-25d9-44c1-ac25-e62f17f57dcd" />
-        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" value="SkillCheck(Skill.Stealth, 20)" />
-        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="ApplyStatus(INVISIBILITY,100,1)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="2ba056a2-31c7-4bef-a2ec-44a979797933" />
-        <field name="Name" type="NameTableFieldDefinition" value="SNEAKING_SKULKER" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="3465b31a-3939-405e-ae5c-0a212845f9c4" />
-        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" value="SkillCheck(Skill.Stealth, 15)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasPassive('Skulker',context.Source)):ApplyStatus(INVISIBILITY,100,1,,,,SkillCheck(Skill.Stealth, 20));IF(HasPassive('Skulker',context.Source)):ApplyStatus(INVISIBILITY,100,1,,,,SkillCheck(Skill.Stealth, 15))" />
       </fields>
     </stat_object>
   </stat_objects>

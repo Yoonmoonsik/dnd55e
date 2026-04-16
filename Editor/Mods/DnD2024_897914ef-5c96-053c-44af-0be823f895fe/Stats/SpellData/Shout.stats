@@ -18,7 +18,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="47a715f3-40a5-4bde-9b4a-2c3df1ebe842" />
         <field name="Name" type="NameTableFieldDefinition" value="Hide" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="45fab3f5-5c1b-41ba-bd40-0d506eac0f94" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not HasPassive('Skulker',context.Source)):ApplyStatus(SNEAKING,100,-1);IF(HasPassive('Skulker',context.Source)):ApplyStatus(SNEAKING_SKULKER,100,-1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -26,7 +25,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1ebe73fd-7f16-42ec-a963-c3ade5e2d88d" />
         <field name="Name" type="NameTableFieldDefinition" value="Hide_BonusAction" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ba7823a9-ebfa-4c14-bef4-b4d7dd310e5d" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not HasPassive('Skulker',context.Source)):ApplyStatus(SNEAKING,100,-1);IF(HasPassive('Skulker',context.Source)):ApplyStatus(SNEAKING_SKULKER,100,-1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
