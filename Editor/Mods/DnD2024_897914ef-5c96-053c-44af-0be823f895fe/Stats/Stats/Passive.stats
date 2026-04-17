@@ -4789,6 +4789,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9ec6f533ga820gcfd6g8b9fgb737db30a70b" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_SummonFey_Illusion" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12206" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
