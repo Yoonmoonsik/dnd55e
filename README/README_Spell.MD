@@ -11,6 +11,7 @@
 - Poison Spray
 - Prestidigitation
 - Resistance
+- Shillelagh
 - Sorcerous Burst
 - Spare the Dying
 - Starry Wisp
