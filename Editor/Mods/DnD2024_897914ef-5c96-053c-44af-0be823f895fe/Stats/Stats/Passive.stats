@@ -1014,6 +1014,42 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ZealousPresence);" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7e31c55a-4155-4227-823b-075ff00e924d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowGnawer_3_ShadowSmoke" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h69753443g4b64g24dfg671fg01f0a6c73022" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h214e9d1dg45fcg6388gdc9cg6130d7c87cf2" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FogCloud" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1303" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ShadowSmoke);StatusImmunity(SG_Blinded);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="233a7815-c88a-4524-8965-4fc408ab4938" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowGnawer_6_CreepingFog" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h69bf67ebgf486g254dg8139gcbbd39d66230" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h158135d1g6fa7g983eg619eg5cb15bc27602" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_ShadowStep" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1306" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CreepingFog);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="38883e59-ae7b-48dc-9430-d0b49ada4ea1" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowGnawer_10_ConsumeDarkness" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he97e3b0fg6f9cg22aag0fc7gb7945f9ceb17" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4d7a4652g2bf4gcf0dg7e2bg038ddc3b14d4" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_UnrelentingFerocity" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1310" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ConsumeDarkness);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFEE82EE" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="152e5b9f-4ddf-4005-8e45-65c53081eb4f" />

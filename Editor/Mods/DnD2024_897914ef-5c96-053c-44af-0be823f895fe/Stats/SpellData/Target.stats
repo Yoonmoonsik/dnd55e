@@ -5361,6 +5361,19 @@
         <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1254b37d-4192-44d0-bf03-2f723e34a698" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreepingFog" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c6205048-3d20-4423-a3d4-48c2c0658fa5" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('SG_Rage', context.Source);" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h99712a6fge628ga06eg47b4ga89071e28928" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hba39350fgd122gc25bgbeaegca4f83c67943" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;Invisible" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFEE82EE" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f080580c-75ed-4b5a-8590-cc396d7f0235" />

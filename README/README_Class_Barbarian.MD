@@ -19,6 +19,10 @@
 - Level 6: Mindless Rage
 - Level 10: Retaliation
 ## Giant
+## Shadow Gnawer
+- Level 3: Shadow Smoke
+- Level 6: Creeping Fog
+- Level 10: Consume Darkness
 ## Wild Magic
 ## Wildheart
 ## World Tree

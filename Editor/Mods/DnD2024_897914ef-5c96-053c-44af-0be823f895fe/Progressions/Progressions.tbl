@@ -56,7 +56,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice12,1,0);ActionResource(Rage,1,0)" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="32eee7d8-1b2f-4de5-b9ee-78fbd286c6ef;07234f31-c239-4a57-aeb4-868f3e1a318e;2e585948-d775-451d-b58b-15b75321d11e;d6bf00fc-3518-4d63-ba8b-03532c1abc4d;d6db66be-cc60-4ebd-bf63-2a856bbfedaf;0e37e9bc-3909-49f4-8035-6d9736ad6867" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="32eee7d8-1b2f-4de5-b9ee-78fbd286c6ef;07234f31-c239-4a57-aeb4-868f3e1a318e;8287c130-a3aa-4c88-bceb-be9d8fe1be84;2e585948-d775-451d-b58b-15b75321d11e;d6bf00fc-3518-4d63-ba8b-03532c1abc4d;d6db66be-cc60-4ebd-bf63-2a856bbfedaf;0e37e9bc-3909-49f4-8035-6d9736ad6867" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Barbarian_3_PrimalKnowledge" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(4f027368-7aa6-4a3a-a1ce-d5195ba2ba27,1)" />
       </fields>
@@ -385,6 +385,39 @@
         <field name="Level" type="ByteTableFieldDefinition" value="12" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(WarriorOfTheGods,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_810" />
+        <field name="UUID" type="IdTableFieldDefinition" value="636456e2-93bc-4567-aae5-0abb0aad450e" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="636456e2-93bc-4567-aae5-0abb0aad450e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ShadowGnawer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ShadowGnawer_3_ShadowSmoke" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_811" />
+        <field name="UUID" type="IdTableFieldDefinition" value="25cd21af-e977-4aa6-91b1-396b7bdd2aa3" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="636456e2-93bc-4567-aae5-0abb0aad450e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ShadowGnawer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ShadowGnawer_6_CreepingFog" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_812" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6243f0ca-576d-4595-b2ef-906ba0613c1b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="636456e2-93bc-4567-aae5-0abb0aad450e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ShadowGnawer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ShadowGnawer_10_ConsumeDarkness" />
       </fields>
     </stat_object>
     <stat_object color="#FFEE82EE" is_substat="false">

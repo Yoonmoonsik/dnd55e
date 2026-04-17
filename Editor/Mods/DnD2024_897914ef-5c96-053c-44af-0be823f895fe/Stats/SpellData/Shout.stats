@@ -1250,6 +1250,48 @@
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="DontChange" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d8b9c0d8-6cb9-4b27-a70c-ebdf376ad7d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowSmoke" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(3,1,FogCloud,true);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FogCloud" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h491afa5eg7b34g23f1g71d1gd3a73f1a0484" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc17eba4eg936fg2851g0508gb73011778121" version="1" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Control_Gen_L1to3_01" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Control_Gen_L1to3_01" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Control_FogCloud_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Control_FogCloud_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_SurfaceCreationCloud" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;09ae2f11-f5b4-42f5-ae16-687a5b57d500,,;10caea0e-c949-4d91-8ab7-3b50019dd054,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Control" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('SG_Rage')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="2fa6b127-6f8a-4150-8be6-6f62b7a85911" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b4221f40-bcc3-4703-acc5-1afaee284839" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="2de1821f-02b9-454d-8436-382c9879becd" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="62694ec3-db6b-446f-867b-2ace44f20ee3" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConsumeDarkness" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="781c0485-6128-4434-bff1-6ce163bc9d8a" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(1d12+ConstitutionModifier);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h941c15f0g2e60g0e9fg218dge166bea3e8ed" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1a71759egf1c8g9a25g2327g7210d3bcea88" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(1d12+ConstitutionModifier)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasObscuredState(ObscuredState.Clear) and HasStatus('SG_Rage')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnObscurityChanged;OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFEE82EE" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="932d1ae0-3293-467e-993a-8dacbc0222a3" />

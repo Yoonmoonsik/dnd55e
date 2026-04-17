@@ -57,6 +57,9 @@
                                     <attribute id="Object" type="guid" value="07234f31-c239-4a57-aeb4-868f3e1a318e"/>
                                 </node>
                                 <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="8287c130-a3aa-4c88-bceb-be9d8fe1be84"/>
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="2e585948-d775-451d-b58b-15b75321d11e"/>
                                 </node>
                                 <node id="SubClass">
@@ -7103,6 +7106,30 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="ShadowGnawer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ShadowGnawer_3_ShadowSmoke"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="636456e2-93bc-4567-aae5-0abb0aad450e"/>
+                    <attribute id="UUID" type="guid" value="636456e2-93bc-4567-aae5-0abb0aad450e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="ShadowGnawer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ShadowGnawer_6_CreepingFog"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="636456e2-93bc-4567-aae5-0abb0aad450e"/>
+                    <attribute id="UUID" type="guid" value="25cd21af-e977-4aa6-91b1-396b7bdd2aa3"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="ShadowGnawer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ShadowGnawer_10_ConsumeDarkness"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="636456e2-93bc-4567-aae5-0abb0aad450e"/>
+                    <attribute id="UUID" type="guid" value="6243f0ca-576d-4595-b2ef-906ba0613c1b"/>
                 </node>
             </children>
         </node>
