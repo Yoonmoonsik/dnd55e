@@ -132,6 +132,12 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('DEXTERITY_BASED_UNARMED_ATTACK',context.Source)):ApplyStatus(DEXTERITY_BASED_UNARMED_ATTACK,100,-1)" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d5ba88e-fb1c-4cc0-8e37-dffa7708a906" />
+        <field name="Name" type="NameTableFieldDefinition" value="Firearm" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="38e641ea-ed37-4d2e-a199-d03151326c65" />
@@ -143,12 +149,6 @@
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnEquip;OnLongRest;OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('FIREARM_NO_BONUS', GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand))):ApplyEquipmentStatus(RangedMainHand, FIREARM_ADD_BONUS, 100, -1);IF(not HasStatus('FIREARM_NO_BONUS', GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand))):ApplyEquipmentStatus(RangedOffHand, FIREARM_ADD_BONUS, 100, -1);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Projectile_MainHandAttack_Firearm" />
-      </fields>
-    </stat_object>
-    <stat_object color="#FF000000" is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="1d5ba88e-fb1c-4cc0-8e37-dffa7708a906" />
-        <field name="Name" type="NameTableFieldDefinition" value="Firearm" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

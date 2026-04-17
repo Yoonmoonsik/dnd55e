@@ -186,6 +186,44 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="79683d38-56b7-4116-b815-5403d4ff0526" />
+        <field name="Name" type="NameTableFieldDefinition" value="__TOXIN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a4e86bb8-ec0e-4074-acd7-146f51c238eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="ALCH_TOXIN_BASIC_CONDITION" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6c749ce2-73a0-4158-b1df-74cd7e96241f" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(HasPassive('Poisoner',context.Source) or HasPassive('Assassin_3_AssassinsTool',context.Source)):DealDamage(1d4,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cba1f169-9044-495f-a4ca-f8586d5ed58e" />
+        <field name="Name" type="NameTableFieldDefinition" value="ALCH_TOXIN_SERPENTVENOM_CONDITION" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b6c3a0a5-fb1d-4835-a9aa-e7ece8e764b7" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(HasPassive('Poisoner',context.Source) or HasPassive('Assassin_3_AssassinsTool',context.Source)):DealDamage(1d6,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e1d6183c-9151-4c5c-a01f-1496a900e5ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="ALCH_TOXIN_WYVERN_CONDITION" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="817e95cf-737e-4c35-b08c-ccc8737c0ad1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(HasPassive('Poisoner',context.Source) or HasPassive('Assassin_3_AssassinsTool',context.Source)):DealDamage(1d8,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="904929d1-2f27-4164-93f9-352d0b6fb6aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="ALCH_TOXIN_PURPLEWORM_CONDITION" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4ae0d1c9-cd0f-4bde-aac2-4dbb3e273dca" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(HasPassive('Poisoner',context.Source) or HasPassive('Assassin_3_AssassinsTool',context.Source)):DealDamage(1d10,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e0405962-0cf5-459b-903c-6276d0d2dd34" />
         <field name="Name" type="NameTableFieldDefinition" value="__WEAPON_MASTERY_" />
       </fields>

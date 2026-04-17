@@ -93,6 +93,9 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCreate;OnEquip;OnLongRest;OnShortRest"
 data "StatsFunctors" "IF(not HasStatus('DEXTERITY_BASED_UNARMED_ATTACK',context.Source)):ApplyStatus(DEXTERITY_BASED_UNARMED_ATTACK,100,-1)"
 
+new entry "Firearm"
+type "PassiveData"
+
 new entry "FirearmExpert"
 type "PassiveData"
 data "DisplayName" "he70e8fadg370cg0fbbgffa4gbdf8dc36cb12;1"
@@ -102,9 +105,6 @@ data "PriorityOrder" "11"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnCreate;OnEquip;OnLongRest;OnShortRest"
 data "StatsFunctors" "IF(not HasStatus('FIREARM_NO_BONUS', GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand))):ApplyEquipmentStatus(RangedMainHand, FIREARM_ADD_BONUS, 100, -1);IF(not HasStatus('FIREARM_NO_BONUS', GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand))):ApplyEquipmentStatus(RangedOffHand, FIREARM_ADD_BONUS, 100, -1);"
-
-new entry "Firearm"
-type "PassiveData"
 
 new entry "Firearm_MainHand"
 type "PassiveData"

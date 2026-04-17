@@ -2336,6 +2336,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Item_GRN_Poison_vial_D_Sheathe" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5a82f53dg51e2g741cg6a2dg0b0bcdccd4fd" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h39c54639gfc00g9983g819dg040b092116ce" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hb178fcfbg2a6bg595fg1a08g177cffbae328" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3392,10 +3393,11 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3108d080-5c64-4d9d-826a-5a4ecaee0850" />
         <field name="Name" type="NameTableFieldDefinition" value="PoisonersKit_Toxin_Feat" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a87d7b37-b51e-43ca-8217-9b5d64cbad85" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not CharacterLevelGreaterThan(4) and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,TOXIN_PURPLEWORM_DIPPED,100,10);IF(not CharacterLevelGreaterThan(4) and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,TOXIN_PURPLEWORM_DIPPED,100,10);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,TOXIN_WYVERN_DIPPED,100,10);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,TOXIN_WYVERN_DIPPED,100,10);IF(CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,TOXIN_PURPLEWORM_DIPPED,100,10);IF(CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,TOXIN_PURPLEWORM_DIPPED,100,10);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not CharacterLevelGreaterThan(4) and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,TOXIN_SERPENTVENOM_DIPPED,100,10);IF(not CharacterLevelGreaterThan(4) and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,TOXIN_SERPENTVENOM_DIPPED,100,10);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,TOXIN_WYVERN_DIPPED,100,10);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,TOXIN_WYVERN_DIPPED,100,10);IF(CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable') and not WieldingWeapon('Torch')):ApplyEquipmentStatus(MainHand,TOXIN_PURPLEWORM_DIPPED,100,10);IF(CharacterLevelGreaterThan(8) and WieldingWeapon('Dippable',true) and not WieldingWeapon('Torch',true)):ApplyEquipmentStatus(OffHand,TOXIN_PURPLEWORM_DIPPED,100,10);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Item_GRN_Poison_vial_D_Sheathe" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1c64e7ffg27dfg1336g4d10g922cd9e93f4f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbe9f2752g8f47geea4gedcfg417ece6cb1bd" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h87d82c29gd117g1a29ge05cg9e2b93fce725" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
