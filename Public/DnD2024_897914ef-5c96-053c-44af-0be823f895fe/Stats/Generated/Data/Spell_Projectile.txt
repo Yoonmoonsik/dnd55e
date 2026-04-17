@@ -1837,7 +1837,7 @@ data "SpellProperties" "GROUND:DealDamage(MainRangedWeapon, MainRangedWeaponDama
 data "DisplayName" "h60349a20g9e96g7eeeg2508g7315db437183;1"
 data "Description" ""
 data "UseCosts" "ReactionActionPoint:1;"
-data "SpellFlags" "IsAttack;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;Temporary"
+data "SpellFlags" "HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;Temporary"
 
 new entry "Projectile___GENERAL FEAT__"
 type "SpellData"

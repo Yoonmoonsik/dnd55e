@@ -6610,6 +6610,7 @@ data "Icon" "Target_MainHandAttack"
 data "DisplayName" "h452f19f2ga929gf880gace7g93748aa82758;1"
 data "Description" ""
 data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType)"
+data "SpellFlags" "IsMelee;IsHarmful;CanDualWield;Temporary"
 
 new entry "Target_StrikeFromTheDark"
 type "SpellData"
