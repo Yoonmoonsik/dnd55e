@@ -1138,12 +1138,12 @@
         <field name="UUID" type="IdTableFieldDefinition" value="bdaa2469-7f0c-4c67-95cd-ed0049ad0128" />
         <field name="Name" type="NameTableFieldDefinition" value="WarriorOfTheGods" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_WarriorOfTheGods_1;Shout_WarriorOfTheGods_2;Shout_WarriorOfTheGods_3;Shout_WarriorOfTheGods_4;Shout_WarriorOfTheGods_5;Shout_WarriorOfTheGods_6;" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(1d6);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(1d12+ConstitutionModifier);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
         <field name="Icon" type="StringTableFieldDefinition" value="Zealot_3_WarriorOfTheGods" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf168720fgd4dbgc575ge2c3g9a0841c3efc9" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h46ea941fg771dgceb6g2492gb66d8a8c13e0" version="1" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(1d6);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(1d12+ConstitutionModifier);" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_UnrelentingFerocity" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;WarriorOfTheGods:1;" />
@@ -1162,7 +1162,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="bdaa2469-7f0c-4c67-95cd-ed0049ad0128" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_WarriorOfTheGods" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(1d6);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(1d12+ConstitutionModifier);" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="1" />
       </fields>
@@ -1172,8 +1172,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ec39ea2c-9bbf-486c-9976-a725a3e5e788" />
         <field name="Name" type="NameTableFieldDefinition" value="WarriorOfTheGods_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8ebb7661-4998-4636-8abe-b8847b803ee9" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(2d6);" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(2d6);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(2d12+ConstitutionModifier);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(2d12+ConstitutionModifier);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;WarriorOfTheGods:2;" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
       </fields>
@@ -1183,8 +1183,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c7ca972d-489f-475e-981a-223aaf45c0a3" />
         <field name="Name" type="NameTableFieldDefinition" value="WarriorOfTheGods_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ec39ea2c-9bbf-486c-9976-a725a3e5e788" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(3d6);" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(3d6);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(3d12+ConstitutionModifier);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(3d12+ConstitutionModifier);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;WarriorOfTheGods:3;" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
       </fields>
@@ -1194,8 +1194,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d7218703-c0b4-4bee-9289-44ccb73009e4" />
         <field name="Name" type="NameTableFieldDefinition" value="WarriorOfTheGods_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ec39ea2c-9bbf-486c-9976-a725a3e5e788" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(4d6);" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(4d6);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(4d12+ConstitutionModifier);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(4d12+ConstitutionModifier);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;WarriorOfTheGods:4;" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
       </fields>
@@ -1205,8 +1205,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="286e69d2-d7d7-4701-85ff-04963ecf3e4e" />
         <field name="Name" type="NameTableFieldDefinition" value="WarriorOfTheGods_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ec39ea2c-9bbf-486c-9976-a725a3e5e788" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(5d6);" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(5d6);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(5d12+ConstitutionModifier);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(5d12+ConstitutionModifier);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;WarriorOfTheGods:5;" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
       </fields>
@@ -1216,8 +1216,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e6ebd349-0972-4ec6-805f-2521cda2ee01" />
         <field name="Name" type="NameTableFieldDefinition" value="WarriorOfTheGods_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ec39ea2c-9bbf-486c-9976-a725a3e5e788" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(6d6);" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(6d6);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(6d12+ConstitutionModifier);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(6d12+ConstitutionModifier);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;WarriorOfTheGods:6;" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
