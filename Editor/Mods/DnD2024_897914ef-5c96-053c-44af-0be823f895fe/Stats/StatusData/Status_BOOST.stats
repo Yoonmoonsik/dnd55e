@@ -3606,6 +3606,200 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3e91d02cg9178geb72g919bgd2f45a5bb6ea" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF00BFFF" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="888c7210-84f6-4cd5-a9a5-f71338377320" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ARTIFICER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d279125d-9a26-4f92-bdca-07a9afdbdc89" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_ALCHEMY" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h252b4c35g1a10g73bcgce79g851d9d5ce376" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3af4f15fgffa3gf824ga850g5f3edec1f758" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ExperimentalAlchemy" />
+        <field name="StackId" type="StringTableFieldDefinition" value="RMI_ALCHEMY" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(DOUBLE_ALCHEMY);" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2dbe652d-eb61-4c03-b912-23b64c853e3c" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_BAG" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d279125d-9a26-4f92-bdca-07a9afdbdc89" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haeee185bg2557g530dgf876g4f11ecd5ee48" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d752733g6be8g780age17cg3ef589ca12bc" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Utility" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="CarryCapacityMultiplier(12.5);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d5834023-9436-4dae-b551-786af6e2236e" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_DARKVISION" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d279125d-9a26-4f92-bdca-07a9afdbdc89" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="head80c96g32cbgb24dgb1fbg9151caa482af" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfb02885eg51e1gd167gf1a1ged6463b56463" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Darkvision" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(24);ActiveCharacterLight(c46e7ba8-e746-7020-5146-287474d7b9f7);StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bbd072fa-4422-4e3f-8b39-46c789e99014" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_MAGICSHIELD" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d279125d-9a26-4f92-bdca-07a9afdbdc89" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2fbddf04g1f59gb914gedbagb9bff2bbeb7e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb0f3d315gdfb1g335fg999cgc43d9086449d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_ShieldOfFaith" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasShieldEquipped(context.Source)):AC(1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eb4ceb12-948a-4b81-9710-b2b41c6e1729" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_MAGICSHIELD_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bbd072fa-4422-4e3f-8b39-46c789e99014" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasShieldEquipped(context.Source)):AC(2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b3809875-b122-433f-9192-559cc602e1c2" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_WAND" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d279125d-9a26-4f92-bdca-07a9afdbdc89" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4384deb8gd4a7ga350gf2e2g8caf15034794" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0d82190dg72f2gae71g7ce4g614bca53783f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateCleric" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="SpellSaveDC(1);RollBonus(MeleeSpellAttack, 1);RollBonus(RangedSpellAttack,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9af54a05-11cb-4ef2-9a6c-cef42bf226cf" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_WAND_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b3809875-b122-433f-9192-559cc602e1c2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="SpellSaveDC(2);RollBonus(MeleeSpellAttack, 2);RollBonus(RangedSpellAttack,2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6bbb4714-2e26-4c61-bee4-ee16d5bf62f0" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_MAGICWEAPON" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d279125d-9a26-4f92-bdca-07a9afdbdc89" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a35556fge570gab38gf0edg0b4326380cb9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4e5739d3g4311ge20bge8e5g7bfab27aefb7" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_MagicWeapon" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(MeleeWeaponAttack, 1);RollBonus(RangedWeaponAttack, 1);RollBonus(MeleeOffHandWeaponAttack, 1);RollBonus(RangedOffHandWeaponAttack, 1);CharacterWeaponDamage(1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8c08949a-ff9f-4abf-8adb-141a3b774612" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_MAGICWEAPON_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6bbb4714-2e26-4c61-bee4-ee16d5bf62f0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(MeleeWeaponAttack, 2);RollBonus(RangedWeaponAttack, 2);RollBonus(MeleeOffHandWeaponAttack, 2);RollBonus(RangedOffHandWeaponAttack, 2);CharacterWeaponDamage(2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6eb8c695-e4a1-4133-8904-7c8c5d0278aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_MAGICGLOVES" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d279125d-9a26-4f92-bdca-07a9afdbdc89" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb3ef7ea3g8eb9g0dd5gcb2dg55d37c23c558" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2e7b3769ge52cgfb5egdbebg36be70787259" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MartialArts_BonusUnarmedStrike" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(MeleeUnarmedAttack, 1);CharacterUnarmedDamage(1);UnarmedMagicalProperty();" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="65bcc01b-e181-4f1c-8f78-aac2016379c6" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_MAGICGLOVES_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6eb8c695-e4a1-4133-8904-7c8c5d0278aa" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(MeleeUnarmedAttack, 2);CharacterUnarmedDamage(2);UnarmedMagicalProperty();" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="31b83471-b558-4cc2-b5d1-4d01dabcf482" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_MAGICARMOR" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d279125d-9a26-4f92-bdca-07a9afdbdc89" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hadc2948cg9997gd815g5d5eg80b24c6d60ef" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h686cad6bgf8b8g62abgef37g7d8a7da096cd" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MediumArmorMaster" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(WearingArmor(context.Source)):AC(1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f3d158d-d259-4142-9a8b-38c29d75f225" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_ALERT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d279125d-9a26-4f92-bdca-07a9afdbdc89" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h866bec2eg3c08g1950g56d1gc59be810c970" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9e262863g0dcbgca43gd944g35603fe7420c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Threat" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Initiative(5);StatusImmunity(SURPRISED);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="09b9c13b-368f-49db-a9b2-a2e86d0228db" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_SEEINVISIBILITY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="86c298d0-ab93-497a-9ea5-5716434d632c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8e87a858gabb8gb553ga5e9gd588c594e0f8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_SeeInvisibility" />
+        <field name="StackId" type="StringTableFieldDefinition" value="RMI_ALCHEMY" />
+        <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="886f3d80-73dd-4bea-b3a5-a1e13623dd08" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_CONCENTRATION" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d279125d-9a26-4f92-bdca-07a9afdbdc89" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9748c223gcbccga7c5g7a8dgfd5991c7bf21" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h702473e0g560fg4915gdb8cgbf0d46580368" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ThoughtShield_PsychicResistance" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsConcentrating() and not (HasSavingThrowWithAbility(Ability.Constitution) or HasSavingThrowWithAbility(Ability.Strength) or HasSavingThrowWithAbility(Ability.Dexterity) or HasSavingThrowWithAbility(Ability.Intelligence) or HasSavingThrowWithAbility(Ability.Wisdom)or HasSavingThrowWithAbility(Ability.Charisma))):MinimumRollResult(SavingThrow,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="493c2fbd-1d45-4c98-b971-44e8eb68bfef" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_STONESKIN" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d279125d-9a26-4f92-bdca-07a9afdbdc89" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1d1129bbg26a2g8dffgb2fdgf8f7a76ceeb7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb35a01acgce21gf8a8gc7b6g225fbd67b408" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_Stoneskin" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Bludgeoning, Resistant);Resistance(Piercing, Resistant);Resistance(Slashing, Resistant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04f86fea-2934-4b99-9dd7-8bcdbf316dfa" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_FREEACTION" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="852e776d-fedb-492b-bf51-3ad5764f0c40" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hab73d382g1a8eg63dege86fg9874a3c11c9c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_FreedomOfMovement" />
+        <field name="StackId" type="StringTableFieldDefinition" value="RMI_ALCHEMY" />
+        <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8905cbf4-f5dd-4df5-afbb-bbf72b05afda" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_PROTECTION" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d279125d-9a26-4f92-bdca-07a9afdbdc89" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd3c53187gc5acg834fg9a70g53edd5e45e58" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h30805376g5c6cg34ddgb16bgd3135f7180cf" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_ProtectionFromEnergy" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AC(1);RollBonus(SavingThrow,1);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cd5cb601-39fb-41ed-9029-5d6fe8911f26" />

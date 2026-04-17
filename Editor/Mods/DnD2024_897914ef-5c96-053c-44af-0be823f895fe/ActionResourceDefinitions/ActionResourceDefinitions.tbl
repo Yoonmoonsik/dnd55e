@@ -583,6 +583,53 @@
         <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="ShortRest" />
       </fields>
     </stat_object>
+    <stat_object color="#FF00BFFF" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_75" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e35d5614-0fc2-4f0f-bb61-0195077c33a3" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="__ARTIFICER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_77" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ace76169-4d4f-4c3a-823e-55d960dfbca7" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="ReplicateMagicItem" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5c3ca15ege3b3ga7adg9a8fg26776947cb0a" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_76" />
+        <field name="UUID" type="IdTableFieldDefinition" value="67ebc1d0-0edf-4a26-9248-8dc58beffad8" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="FlashOfGenius" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h01a7e7b1gea71g6833g6445g5ed1f1a2308b" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_78" />
+        <field name="UUID" type="IdTableFieldDefinition" value="175faf01-7994-4a56-951e-1e9908656a09" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="ExperimentalElixir" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha14eccefg494ag0cf0g8dfbg968982d24b28" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_79" />
+        <field name="UUID" type="IdTableFieldDefinition" value="df6afe51-07c7-4ea6-b1dd-d3dff029b860" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="RestorativeReagents" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h041d4fd9g0eccga18eg6fc4g03df5d14df8a" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_27" />

@@ -827,6 +827,23 @@ data "Cost" "ReactionActionPoint:1;YouDieOnMyCommandCharge:1;"
 data "Cooldown" "OncePerShortRest"
 data "InterruptDefaultValue" "Ask;Enabled"
 
+new entry "__ARTIFICER__"
+type "InterruptData"
+
+new entry "Interrupt_FlashOfGenius"
+type "InterruptData"
+data "DisplayName" "h80f08a5dg837cg81beg15d7g69a6566d7630;1"
+data "Description" "h19fba472g52a7gb564g247bg818863c03630;1"
+data "Icon" "Artificer_7_FlashOfGenius"
+data "InterruptContext" "OnPostRoll"
+data "InterruptContextScope" "Nearby"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and not Dead(context.Observer) and HasInterruptedSavingThrow() and Ally(context.Observer,context.Target) and not AnyEntityIsItem() and ((IsFlatValueInterruptInteresting(1)) or (AbilityGreaterThan('Intelligence',13) and IsFlatValueInterruptInteresting(2)) or (AbilityGreaterThan('Intelligence',15) and IsFlatValueInterruptInteresting(3)) or (AbilityGreaterThan('Intelligence',17) and IsFlatValueInterruptInteresting(4)) or (AbilityGreaterThan('Intelligence',19) and IsFlatValueInterruptInteresting(5)) or (AbilityGreaterThan('Intelligence',21) and IsFlatValueInterruptInteresting(6)));"
+data "Properties" "AdjustRoll(OBSERVER_TARGET,IntelligenceModifier);"
+data "Cost" "ReactionActionPoint:1;FlashOfGenius:1;"
+data "Stack" "FlashOfGenius"
+data "InterruptDefaultValue" "Ask;Enabled"
+
 new entry "__FIGHTING STYLE FEAT__"
 type "InterruptData"
 

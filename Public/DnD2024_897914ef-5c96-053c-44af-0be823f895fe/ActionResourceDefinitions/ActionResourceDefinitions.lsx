@@ -105,6 +105,14 @@
                     <attribute id="UUID" type="guid" value="30cca4c5-a808-4c96-bd1c-f57bbb92dc1d"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h9ce455eag578bgd8baged3cg2295ac52dd7b" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="PlanarReach"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="9a8fa384-30b8-4c08-a731-6fa41ed7dac9"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__DRUID__"/>
                     <attribute id="UUID" type="guid" value="1a855711-a234-412c-b00d-9d2e8d239ba4"/>
                 </node>
@@ -405,6 +413,24 @@
                     <attribute id="UUID" type="guid" value="2a6e9ad6-b77d-497d-a068-493769f56916"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="Name" type="FixedString" value="__ARTIFICER__"/>
+                    <attribute id="UUID" type="guid" value="e35d5614-0fc2-4f0f-bb61-0195077c33a3"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h5c3ca15ege3b3ga7adg9a8fg26776947cb0a" version="1"/>
+                    <attribute id="Name" type="FixedString" value="ReplicateMagicItem"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="ace76169-4d4f-4c3a-823e-55d960dfbca7"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h01a7e7b1gea71g6833g6445g5ed1f1a2308b" version="1"/>
+                    <attribute id="Name" type="FixedString" value="FlashOfGenius"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="67ebc1d0-0edf-4a26-9248-8dc58beffad8"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__ORIGIN FEAT__"/>
                     <attribute id="UUID" type="guid" value="d6f88eae-2cc1-405f-b544-abd2d9ce747b"/>
                 </node>
@@ -517,12 +543,18 @@
                     <attribute id="UUID" type="guid" value="e6681241-1b8c-4098-b58f-cc4e1b77f1e0"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h9ce455eag578bgd8baged3cg2295ac52dd7b" version="1"/>
-                    <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="Name" type="FixedString" value="PlanarReach"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha14eccefg494ag0cf0g8dfbg968982d24b28" version="1"/>
+                    <attribute id="Name" type="FixedString" value="ExperimentalElixir"/>
                     <attribute id="ReplenishType" type="FixedString" value="Rest"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="9a8fa384-30b8-4c08-a731-6fa41ed7dac9"/>
+                    <attribute id="UUID" type="guid" value="175faf01-7994-4a56-951e-1e9908656a09"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h041d4fd9g0eccga18eg6fc4g03df5d14df8a" version="1"/>
+                    <attribute id="Name" type="FixedString" value="RestorativeReagents"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="df6afe51-07c7-4ea6-b1dd-d3dff029b860"/>
                 </node>
             </children>
         </node>

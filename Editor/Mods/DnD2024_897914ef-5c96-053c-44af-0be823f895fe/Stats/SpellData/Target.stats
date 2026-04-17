@@ -7857,6 +7857,209 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF00BFFF" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f0a108b4-df85-4736-a8e4-8ed2d916075d" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ARTIFICER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="58814b30-375d-4d30-a888-881cd5890de3" />
+        <field name="Name" type="NameTableFieldDefinition" value="ReplicateMagicItem" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hde22d914g9417gd953g3098g37bd1907e34c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b191d6dgbd05g6ddag5c61g939a2ce25012" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="99f51f29-90c1-47af-81fc-7eac4d239472" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_RMI_AlchemyJug;Target_RMI_BagOfHolding;Target_RMI_GooglesOfNight;Target_RMI_MagicShield;Target_RMI_WandOfTheWarMage;Target_RMI_MagicWeapon;Target_RMI_WrapsOfUnarmedPower;Target_RMI_MagicArmor;Target_RMI_HelmOfAwarreness;Target_RMI_LanternOfRevealing;Target_RMI_MindSharpener;Target_RMI_ArmorOfResistance;Target_RMI_RingOfFreeAction;Target_RMI_RingOfProtection;" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Mending" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;ReplicateMagicItem:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1442ebd7-9774-40af-a82a-2c2437101eab" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_AlchemyJug" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h48281e48g96a3g1f6dgdc66gbdf48065cede" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb0fdd4d9g503ege786g4e88g495448e216a3" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="58814b30-375d-4d30-a888-881cd5890de3" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_ReplicateMagicItem" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RMI_ALCHEMY,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ExperimentalAlchemy" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RMI_ALCHEMY,100,-1)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="00b7eb8f-2158-4db0-b4fb-03fa7aa986e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_BagOfHolding" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbcfe7e3dg0633g6665g1f15ge22c9cf7dbb7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd8a61fbeg966eg2925g4b33g06cdd667a7db" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1442ebd7-9774-40af-a82a-2c2437101eab" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RMI_BAG,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Utility" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RMI_BAG,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9948ca8a-780b-468b-95c4-618287f52e30" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_GooglesOfNight" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h90c82523g4a46gb71ag6f88gc835ddaae5d8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0389208ag20a5gb33cgd6d4g1a76d494f34c" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1442ebd7-9774-40af-a82a-2c2437101eab" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RMI_DARKVISION,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Darkvision" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RMI_DARKVISION,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a6981790-f5b5-4e88-b243-8023adb0bd83" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_MagicShield" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h10e5725bg4bd0g61f2g780ag5b6d6bf91837" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb0d3133ege1fag851cg713dg91c9c8490f25" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h3954fb1dg17ffgbfe6g0d00gcb12888367f4" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1442ebd7-9774-40af-a82a-2c2437101eab" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not ClassLevelHigherOrEqualThan(10,'Artificer')):ApplyStatus(RMI_MAGICSHIELD,100,-1);IF(ClassLevelHigherOrEqualThan(10,'Artificer')):ApplyStatus(RMI_MAGICSHIELD_2,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_ShieldOfFaith" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RMI_MAGICSHIELD,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b1a860c4-7237-42d7-9a26-003ba37d0d4d" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_WandOfTheWarMage" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hef24c59dg255fg00dag4607gcb6c909dc686" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h854823d6g3f6bg1eb4g1910g0b257fdf29dd" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h742a9d61gdb3fgfc8fg01f1g4eaa6842ed54" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1442ebd7-9774-40af-a82a-2c2437101eab" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not ClassLevelHigherOrEqualThan(10,'Artificer')):ApplyStatus(RMI_WAND,100,-1);IF(ClassLevelHigherOrEqualThan(10,'Artificer'))ApplyStatus(RMI_WAND_2,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateCleric" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RMI_WAND,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="30d455f4-0b11-4b0d-82cb-3be5ddc3ba2c" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_MagicWeapon" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2b9135b0g2582g6163g9b6dgc3583a49f204" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h691f58a3ge691g16f4gde31g4c0d91423c51" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="he84d9497g813dgb574g14d2gb058fd491739" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1442ebd7-9774-40af-a82a-2c2437101eab" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not ClassLevelHigherOrEqualThan(10,'Artificer')):ApplyStatus(RMI_MAGICWEAPON,100,-1);IF(ClassLevelHigherOrEqualThan(10,'Artificer'))ApplyStatus(RMI_MAGICWEAPON_2,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_MagicWeapon" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RMI_MAGICWEAPON,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c1a70c9a-c03b-47f3-843f-1b8ed0b0b35e" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_WrapsOfUnarmedPower" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha154c820gb9fcg9b4bgb15fg12ccad5e4c6d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h79b37e05gb883gd560g64b2g438c7bb607f1" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h1c0dd1f2g5d3cgb248g24b7gdebae85359ea" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1442ebd7-9774-40af-a82a-2c2437101eab" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not ClassLevelHigherOrEqualThan(10,'Artificer')):ApplyStatus(RMI_MAGICGLOVES,100,-1);IF(ClassLevelHigherOrEqualThan(10,'Artificer'))ApplyStatus(RMI_MAGICGLOVES_2,100,-1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MartialArts_BonusUnarmedStrike" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RMI_MAGICGLOVES,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="048053cd-e159-45cf-85ad-7e6612906361" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_MagicArmor" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4dd05c9eg77b9gce4fg1fc8gd73ab0ee9845" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2506c258gdab0g3285g53bfgf5fce0bc588f" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1442ebd7-9774-40af-a82a-2c2437101eab" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RMI_MAGICARMOR,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(6,'Artificer',context.Source);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MediumArmorMaster" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RMI_MAGICARMOR,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28893e40-e320-4fc5-bdfd-290d20a48514" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_HelmOfAwarreness" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc0a46c23g2511gfbe6g798dg1af91d95f246" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9bd0edfeg5b4bg76fcgd748gbcbb2d766208" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1442ebd7-9774-40af-a82a-2c2437101eab" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RMI_ALERT,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(6,'Artificer',context.Source);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Threat" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RMI_ALERT,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="515cf2cd-6442-4df4-a467-18ff642946eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_LanternOfRevealing" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0cdde128gb8edgf880g31f8gff48fb784ff2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0824e195g8da3g869egd6degc36598f5aef9" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1442ebd7-9774-40af-a82a-2c2437101eab" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RMI_SEEINVISIBILITY,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(6,'Artificer',context.Source);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_SeeInvisibility" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RMI_SEEINVISIBILITY,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f20522ae-31f7-40dd-a1b8-69a37e9fde82" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_MindSharpener" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc5dd5954g8435gfe43ga00fgee1b1e264b58" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he36cd52fg6e2bge975g091bg43b8e9e46b3b" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1442ebd7-9774-40af-a82a-2c2437101eab" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RMI_CONCENTRATION,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(6,'Artificer',context.Source);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ThoughtShield_PsychicResistance" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RMI_CONCENTRATION,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3b33f365-af02-48c4-911c-f617158f4626" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_ArmorOfResistance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8ca2e942gfe74g20f3g5b03gaaa73c5316d3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf478fc95g9735gc147g5553g233bdcac6a42" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1442ebd7-9774-40af-a82a-2c2437101eab" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RMI_STONESKIN,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(10,'Artificer',context.Source);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_Stoneskin" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RMI_STONESKIN,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3fc1e7e8-fa52-4a9f-ab83-1e8e8ecce7ef" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_RingOfFreeAction" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h33216644g8040g2af7g56f4g08c88f2466f6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5b29d851g37dcg46cfg001dgf73693142fb1" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1442ebd7-9774-40af-a82a-2c2437101eab" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RMI_FREEACTION,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(10,'Artificer',context.Source);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_FreedomOfMovement" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RMI_FREEACTION,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8a7036ae-3c34-4ad5-9f94-9dbe3ec76d0a" />
+        <field name="Name" type="NameTableFieldDefinition" value="RMI_RingOfProtection" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h68b7dd57g5b1fg1c11g6a7egfa0f952d5948" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h937ad414g9893g62b3g50bage2997ca1cdc5" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1442ebd7-9774-40af-a82a-2c2437101eab" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RMI_PROTECTION,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(10,'Artificer',context.Source);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_ProtectionFromEnergy" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RMI_PROTECTION,100,-1)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="38f8798f-1d23-4982-b4c7-dffc0ae00453" />

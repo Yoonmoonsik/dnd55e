@@ -142,5 +142,27 @@
         <field name="14" type="StatReferenceTableFieldDefinition" value="ARM_Hat" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a05cace4-1f71-43eb-b161-6d03a4894031" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_CC_Artificer" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="WPN_Pistol" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="WPN_LightHammer" />
+        <field name="3" type="StatReferenceTableFieldDefinition" value="OBJ_Kit_ThievesTools" />
+        <field name="4" type="StatReferenceTableFieldDefinition" value="OBJ_GreaseBottle" />
+        <field name="5" type="StatReferenceTableFieldDefinition" value="OBJ_GreaseBottle" />
+        <field name="6" type="StatReferenceTableFieldDefinition" value="OBJ_Potion_Healing" />
+        <field name="7" type="StatReferenceTableFieldDefinition" value="OBJ_Potion_Healing" />
+        <field name="8" type="StatReferenceTableFieldDefinition" value="ARM_Boots_Leather" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="WeaponSet" version="1" />
+        <field name="9" type="StatReferenceTableFieldDefinition" value="ARM_HalfPlate_Body" />
+        <field name="10" type="StatReferenceTableFieldDefinition" value="OBJ_Scroll_Revivify" />
+        <field name="11" type="StatReferenceTableFieldDefinition" value="OBJ_Keychain" />
+        <field name="12" type="StatReferenceTableFieldDefinition" value="OBJ_Bag_AlchemyPouch" />
+        <field name="13" type="StatReferenceTableFieldDefinition" value="ARM_Camp_Body" />
+        <field name="14" type="StatReferenceTableFieldDefinition" value="ARM_Camp_Shoes" />
+        <field name="15" type="StatReferenceTableFieldDefinition" value="OBJ_Backpack_CampSupplies" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

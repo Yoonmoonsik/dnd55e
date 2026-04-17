@@ -14,6 +14,17 @@
 ## [Warlock](./README_Class_Warlock.MD)
 ## [Wizard](./README_Class_Wizard.MD)
 ## Artificer
-- Comming soon
+- Level 2: Replicate Magic Item
+- Level 2: Spellcasting
+- Level 6: Magic Item Tinker
+- Level 7: Flash of Genius
+- Level 10: Magic Item Adept
+- Level 11: Spell-Storing Item
+### Alchemist
+- Level 3: Alchemist Spells
+- Level 3: Experimental Alchemy
+- Level 3: Experimental Elixir
+- Level 5: Alchemical Savant
+- Level 9: Restorative Reagents
 ## Psion
 - Comming soon

@@ -504,6 +504,46 @@
         <field name="Tags" type="GuidObjectListTableFieldDefinition" value="bc52a699-cf55-4dad-9710-927e655910fd" />
       </fields>
     </stat_object>
+    <stat_object color="#FF00BFFF" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_39" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8aa2cf37-7739-4978-ab86-b1190b881620" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Artificer" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h420e8530gf543gee3dg23ebg5105a14fcc37" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2fdc2689g1529ge2b4gd969g4df570df4ae6" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="1e84493e-aeff-4d0e-b3ae-6c2187245d23" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Artificer" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="True" />
+        <field name="ClassEquipment" type="FixedStringTableFieldDefinition" value="EQP_CC_Artificer" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="BaseHp" type="IntegerTableFieldDefinition" value="10" />
+        <field name="HpPerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="CommonHotbarColumns" type="IntegerTableFieldDefinition" value="9" />
+        <field name="ClassHotbarColumns" type="IntegerTableFieldDefinition" value="3" />
+        <field name="ItemsHotbarColumns" type="IntegerTableFieldDefinition" value="2" />
+        <field name="MulticlassSpellcasterModifier" type="FloatTableFieldDefinition" value="0.5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_40" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ab2f7820-cb6b-49e4-804a-820d25291a16" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="8aa2cf37-7739-4978-ab86-b1190b881620" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Alchemist" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7616ad89g71cag4308g0298ge537bbd04ae3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb0914d9fg1cd5gf675g447bg8f8c7b23a8bc" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="c36e28a1-2fd5-475b-9689-09b83c9fd63d" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Artificer" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="True" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF800000" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_18" />

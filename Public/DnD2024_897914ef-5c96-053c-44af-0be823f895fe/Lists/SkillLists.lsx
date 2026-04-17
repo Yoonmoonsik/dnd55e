@@ -51,8 +51,13 @@
                 </node>
                 <node id="SkillList">
                     <attribute id="Name" type="FixedString" value="5.5 Architect of Ruin Skill List"/>
-                    <attribute id="Skills" type="LSString" value=" Arcana, History, Nature, Religion"/>
+                    <attribute id="Skills" type="LSString" value="Arcana, History, Nature, Religion"/>
                     <attribute id="UUID" type="guid" value="9752c342-09d0-4804-b909-7c92f1c5a17f"/>
+                </node>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="5.5 Artificer Skill List"/>
+                    <attribute id="Skills" type="LSString" value="Arcana, History, Investigation, Medicine, Nature, Perception, SleightOfHand"/>
+                    <attribute id="UUID" type="guid" value="365fb93e-1e01-431e-b98b-30e8a326f42a"/>
                 </node>
             </children>
         </node>

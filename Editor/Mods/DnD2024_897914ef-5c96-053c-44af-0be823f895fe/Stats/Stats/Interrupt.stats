@@ -1108,6 +1108,29 @@
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF00BFFF" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea65ebd2-d9d2-4f44-a9ba-f3a8d635edbd" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ARTIFICER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ac30eb73-897b-4474-bd24-86ee0c5656c7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_FlashOfGenius" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h80f08a5dg837cg81beg15d7g69a6566d7630" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h19fba472g52a7gb564g247bg818863c03630" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Artificer_7_FlashOfGenius" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPostRoll" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Dead(context.Observer) and HasInterruptedSavingThrow() and Ally(context.Observer,context.Target) and not AnyEntityIsItem() and ((IsFlatValueInterruptInteresting(1)) or (AbilityGreaterThan('Intelligence',13) and IsFlatValueInterruptInteresting(2)) or (AbilityGreaterThan('Intelligence',15) and IsFlatValueInterruptInteresting(3)) or (AbilityGreaterThan('Intelligence',17) and IsFlatValueInterruptInteresting(4)) or (AbilityGreaterThan('Intelligence',19) and IsFlatValueInterruptInteresting(5)) or (AbilityGreaterThan('Intelligence',21) and IsFlatValueInterruptInteresting(6)));" />
+        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(OBSERVER_TARGET,IntelligenceModifier);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;FlashOfGenius:1;" />
+        <field name="Stack" type="StringTableFieldDefinition" value="FlashOfGenius" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c92b2f4b-211b-41c6-bc5d-4a2826de83c5" />

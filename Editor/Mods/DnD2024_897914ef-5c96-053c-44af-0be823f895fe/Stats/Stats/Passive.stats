@@ -5788,6 +5788,127 @@
         <field name="ToggleOffContext" type="EnumerationListTableFieldDefinition" value="OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF00BFFF" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="044ebdd7-c530-45c6-ad6b-8e3294a44189" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ARTIFICER 15000__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1332b4aa-0438-4112-8c64-c577fe33c1cb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Artificer_2_ReplicateMagicItem" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3ff79f84g7162g193bg5ea1g2e4078a61d7e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h45df701cg39aag071cg66aag602b1d91c8a1" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Mending" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="15002" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ReplicateMagicItem);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="27d820f3-5e50-4958-ba96-588a563b0266" />
+        <field name="Name" type="NameTableFieldDefinition" value="Artificer_6_ReplicateMagicItem" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1332b4aa-0438-4112-8c64-c577fe33c1cb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0b2e5d9fg730eg2907gb1c6g5a314ceeb47c" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he43a835cgb456g4d77g04c3gd9f05aedf7be" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="15006" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c07c901d-792e-463f-8c7d-9bf2d81aa261" />
+        <field name="Name" type="NameTableFieldDefinition" value="Artificer_7_FlashOfGenius" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h37074410gf258g6103g5302g429531067671" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h470004cfg4199g24dfg3a04ge1085900eaf7" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Artificer_7_FlashOfGenius" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="15007" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_FlashOfGenius);ActionResource(FlashOfGenius,1,0);IF(AbilityGreaterThan('Intelligence',13,context.Source)):ActionResource(FlashOfGenius,1,0);IF(AbilityGreaterThan('Intelligence',15,context.Source)):ActionResource(FlashOfGenius,1,0);IF(AbilityGreaterThan('Intelligence',17,context.Source)):ActionResource(FlashOfGenius,1,0);IF(AbilityGreaterThan('Intelligence',19,context.Source)):ActionResource(FlashOfGenius,1,0);IF(AbilityGreaterThan('Intelligence',21,context.Source)):ActionResource(FlashOfGenius,1,0);IF(AbilityGreaterThan('Intelligence',23,context.Source)):ActionResource(FlashOfGenius,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cfc4b1fa-10bc-424f-ae85-3ee8d514ce99" />
+        <field name="Name" type="NameTableFieldDefinition" value="Artificer_10_ReplicateMagicItem" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="27d820f3-5e50-4958-ba96-588a563b0266" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h176408ebgc47agbb00g8d78g8675fe6576cd" version="2" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="15010" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="77a6ee54-a758-4387-8fa3-1ce081b09f8a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Artificer_11_SpellStoringItem" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1dd30fd2g8d32g2cf1g4cbdg6df0134f3697" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h74ec9648ga223g71b5g6f79gcbbc5f6ca2bb" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Magical" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="15011" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,3);ActionResource(SpellSlot,1,2);ActionResource(SpellSlot,1,1);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF00BFFF" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8dc84381-fc38-4473-94a0-c5d9e155b122" />
+        <field name="Name" type="NameTableFieldDefinition" value="Alchemist_3_Spells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6c2794d4g3126g3b3dg2ae1g7f34dee9cdc6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h99061a90g09cagcb07g6afegd32298d72981" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="15103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ExperimentalAlchemy" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c09b67b2-7561-43e9-b973-53b88b21b76f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Alchemist_3_ExperimentalElixir" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he9d21042g0c4ag847eg705agae859cb223ec" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h64879c2eg307fgbb40gef3egfe67041bc0cf" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ExperimentalAlchemy" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="15103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a700be47-b650-4e90-8336-6c5edc24564e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Alchemist_5_AlchemicalSavant" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9cb34817gce50g22afg8b5bgdd5576b387bd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h18867071gc581g6029g538cg5893e7b59e95" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Acid" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="15105" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsSpell() and IsDamageTypeAcid()):DamageBonus(IntelligenceModifier,Acid);IF(IsSpell() and IsDamageTypeFire()):DamageBonus(IntelligenceModifier,Fire);IF(IsSpell() and IsDamageTypeNecrotic()):DamageBonus(IntelligenceModifier,Necrotic);IF(IsSpell() and IsDamageTypePoison()):DamageBonus(IntelligenceModifier,Poison);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnHeal" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HealDoneGreaterThan(0) and IsSpell() and not IsCantrip();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(IntelligenceModifier)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dabb8a9a-5f7a-4391-94f4-e32f35725c27" />
+        <field name="Name" type="NameTableFieldDefinition" value="Alchemist_9_RestorativeReagents" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h19ac5e59g8da4gab1egdd1ag819d6284a636" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9a4105a9gfdc3gae60g418egbcaf9bcae6b8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="15109" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnCombatStarted;OnCreate;OnTurn" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="HasActionResource('RestorativeReagents',1,0,false,false,context.Source);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Target_LesserRestoration'),ModifyUseCosts(Replace,SpellSlot,0,-1,SpellSlot),ModifyUseCosts(Replace,WarlockSpellSlot,0,-1,WarlockSpellSlot),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,RestorativeReagents,1,0));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ff2b9080-7ffd-4a69-9ec4-eb1b662adcb7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Alchemist_9_RestorativeReagents_Resource" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(RestorativeReagents,1,0);IF(AbilityGreaterThan('Intelligence',13,context.Source)):ActionResource(RestorativeReagents,1,0);IF(AbilityGreaterThan('Intelligence',15,context.Source)):ActionResource(RestorativeReagents,1,0);IF(AbilityGreaterThan('Intelligence',17,context.Source)):ActionResource(RestorativeReagents,1,0);IF(AbilityGreaterThan('Intelligence',19,context.Source)):ActionResource(RestorativeReagents,1,0);IF(AbilityGreaterThan('Intelligence',21,context.Source)):ActionResource(RestorativeReagents,1,0);IF(AbilityGreaterThan('Intelligence',23,context.Source)):ActionResource(RestorativeReagents,1,0);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="056a0c12-3e41-4e67-a705-01e9fea8219f" />

@@ -455,6 +455,26 @@
                 <node id="ClassDescription">
                     <attribute id="BaseHp" type="int32" value="10"/>
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Artificer"/>
+                    <attribute id="ClassHotbarColumns" type="int32" value="3"/>
+                    <attribute id="CommonHotbarColumns" type="int32" value="9"/>
+                    <attribute id="Description" type="TranslatedString" handle="h2fdc2689g1529ge2b4gd969g4df570df4ae6" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h420e8530gf543gee3dg23ebg5105a14fcc37" version="1"/>
+                    <attribute id="HpPerLevel" type="int32" value="5"/>
+                    <attribute id="ItemsHotbarColumns" type="int32" value="2"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MulticlassSpellcasterModifier" type="double" value="0.5"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Artificer"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="1e84493e-aeff-4d0e-b3ae-6c2187245d23"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Artificer"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="8aa2cf37-7739-4978-ab86-b1190b881620"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="10"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Gunslinger"/>
                     <attribute id="ClassHotbarColumns" type="int32" value="5"/>
                     <attribute id="CommonHotbarColumns" type="int32" value="9"/>
@@ -592,6 +612,20 @@
                     <attribute id="SoundClassType" type="FixedString" value="Illrigger"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="6"/>
                     <attribute id="UUID" type="guid" value="ba0844e2-726c-4e39-b6f7-c46733df19c4"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="hb0914d9fg1cd5gf675g447bg8f8c7b23a8bc" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7616ad89g71cag4308g0298ge537bbd04ae3" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Alchemist"/>
+                    <attribute id="ParentGuid" type="guid" value="8aa2cf37-7739-4978-ab86-b1190b881620"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="c36e28a1-2fd5-475b-9689-09b83c9fd63d"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Artificer"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="ab2f7820-cb6b-49e4-804a-820d25291a16"/>
                 </node>
             </children>
         </node>
