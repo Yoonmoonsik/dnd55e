@@ -1023,7 +1023,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FogCloud" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1303" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ShadowSmoke);StatusImmunity(SG_Blinded);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ShadowSmoke);StatusImmunity(SG_Blinded);DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
