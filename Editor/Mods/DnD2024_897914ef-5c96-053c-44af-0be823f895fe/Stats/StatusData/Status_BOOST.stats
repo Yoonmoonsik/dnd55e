@@ -1423,6 +1423,35 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="69700b52-5479-4c4c-bb7a-31ba32e5afad" />
+        <field name="Name" type="NameTableFieldDefinition" value="SHILLELAGH" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a4e49b8-c159-438f-b010-77e9ec6a7b47" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8+SpellCastingAbility, Force)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);WeaponDamageDieOverride(1d8);WeaponAttackRollAbilityOverride(SpellCastingAbility);WeaponDamageTypeOverride(Force);Attribute(InventoryBound);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="19442626-dbe5-4061-9062-a9859ea31021" />
+        <field name="Name" type="NameTableFieldDefinition" value="SHILLELAGH_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="69700b52-5479-4c4c-bb7a-31ba32e5afad" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d10+SpellCastingAbility, Force)" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);WeaponDamageDieOverride(1d10);WeaponAttackRollAbilityOverride(SpellCastingAbility);WeaponDamageTypeOverride(Force);Attribute(InventoryBound);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6c8cefc6-346d-4ed3-b638-0344c44abee5" />
+        <field name="Name" type="NameTableFieldDefinition" value="SHILLELAGH_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="19442626-dbe5-4061-9062-a9859ea31021" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d12+SpellCastingAbility, Force)" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);WeaponDamageDieOverride(1d12);WeaponAttackRollAbilityOverride(SpellCastingAbility);WeaponDamageTypeOverride(Force);Attribute(InventoryBound);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dd829f6f-9f7e-463f-9194-9b6c6d2451be" />
         <field name="Name" type="NameTableFieldDefinition" value="FEATHER_FALL" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="75424e09-ae1f-4ba3-87aa-b2678be6ea50" />

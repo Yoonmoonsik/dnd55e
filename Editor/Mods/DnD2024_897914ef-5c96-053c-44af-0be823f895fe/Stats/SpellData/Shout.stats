@@ -735,6 +735,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dbe822bc-2b4b-42de-8a19-32b5b0f48ea4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shillelagh" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2cafe943-6c17-4622-a943-021ac03a7d14" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,UNLOCK_SHILLELAGH_FORCE,100,-1);IF(IsWeaponOfProficiencyGroup('Clubs|Quarterstaffs',GetActiveWeapon())):ApplyEquipmentStatus(MainHand,SHILLELAGH,100,10);IF(not IsWeaponOfProficiencyGroup('Clubs|Quarterstaffs',GetActiveWeapon()) and GetActiveWeapon(context.Target,false)):ApplyEquipmentStatus(OffHand,SHILLELAGH,100,10);IF(CharacterLevelGreaterThan(4) and IsWeaponOfProficiencyGroup('Clubs|Quarterstaffs',GetActiveWeapon())):ApplyEquipmentStatus(MainHand,SHILLELAGH_5,100,10);IF(CharacterLevelGreaterThan(4) and (not IsWeaponOfProficiencyGroup('Clubs|Quarterstaffs',GetActiveWeapon()) and  GetActiveWeapon(context.Target,false))):ApplyEquipmentStatus(OffHand,SHILLELAGH_5,100,10);IF(CharacterLevelGreaterThan(9) and IsWeaponOfProficiencyGroup('Clubs|Quarterstaffs',GetActiveWeapon())):ApplyEquipmentStatus(MainHand,SHILLELAGH_10,100,10);IF(CharacterLevelGreaterThan(9) and (not IsWeaponOfProficiencyGroup('Clubs|Quarterstaffs',GetActiveWeapon()) and  GetActiveWeapon(context.Target,false))):ApplyEquipmentStatus(OffHand,SHILLELAGH_10,100,10);AI_ONLY:IF(not HasStatus('SHILLELAGH',GetActiveWeapon())):ApplyStatus(AI_HELPER_SHILLELAGH,100,-1);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf61e69c2g84a1g28cdg2869gee89659329d6" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="edae57f1-a44c-437f-a603-d1372ee785b7" />
         <field name="Name" type="NameTableFieldDefinition" value="Prestidigitation" />
         <field name="Level" type="IntegerTableFieldDefinition" value="0" />
@@ -1897,11 +1906,12 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6598977a-14da-4080-bde1-6554455fb0fa" />
         <field name="Name" type="NameTableFieldDefinition" value="ImprovedShillelagh" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="2cafe943-6c17-4622-a943-021ac03a7d14" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand, SHILLELAGH, 100, 10);ApplyEquipmentStatus(OffHand, SHILLELAGH, 100, 10);" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dbe822bc-2b4b-42de-8a19-32b5b0f48ea4" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand, SHILLELAGH, 100, 10);ApplyEquipmentStatus(OffHand, SHILLELAGH, 100, 10);IF(CharacterLevelGreaterThan(4)):ApplyEquipmentStatus(MainHand,SHILLELAGH_5,100,10);IF(CharacterLevelGreaterThan(4)):ApplyEquipmentStatus(OffHand,SHILLELAGH_5,100,10);IF(CharacterLevelGreaterThan(9)):ApplyEquipmentStatus(MainHand,SHILLELAGH_10,100,10);IF(CharacterLevelGreaterThan(9)):ApplyEquipmentStatus(OffHand,SHILLELAGH_10,100,10);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h33d907d8gd0a0gaee7g061fg578448183f33" version="1" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusEvent" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf54abe92g0c59g3206g795cg205f29ea03b8" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
