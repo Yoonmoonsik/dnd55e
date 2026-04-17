@@ -5882,6 +5882,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="83189a9a-710a-46b6-9140-00344e7281ae" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;Invisible" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Ally();" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

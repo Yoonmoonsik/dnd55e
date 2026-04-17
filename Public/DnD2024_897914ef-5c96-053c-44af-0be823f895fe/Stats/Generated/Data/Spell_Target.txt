@@ -4939,6 +4939,7 @@ type "SpellData"
 data "SpellType" "Target"
 using "Target_BlessingOfTheTrickster"
 data "TargetRadius" "9"
+data "TargetConditions" "Ally();"
 data "SpellFlags" "IsMelee;Invisible"
 
 new entry "Target_InvokeDuplicity"
