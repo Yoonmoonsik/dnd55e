@@ -315,6 +315,30 @@
                     <attribute id="UUID" type="guid" value="6356a4bd-461d-434b-a149-acac160f88a7"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="ShadowGnawer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ShadowGnawer_3_ShadowSmoke"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="636456e2-93bc-4567-aae5-0abb0aad450e"/>
+                    <attribute id="UUID" type="guid" value="636456e2-93bc-4567-aae5-0abb0aad450e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="ShadowGnawer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ShadowGnawer_6_CreepingFog"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="636456e2-93bc-4567-aae5-0abb0aad450e"/>
+                    <attribute id="UUID" type="guid" value="25cd21af-e977-4aa6-91b1-396b7bdd2aa3"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="ShadowGnawer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ShadowGnawer_10_ConsumeDarkness"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="636456e2-93bc-4567-aae5-0abb0aad450e"/>
+                    <attribute id="UUID" type="guid" value="6243f0ca-576d-4595-b2ef-906ba0613c1b"/>
+                </node>
+                <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(SimpleWeapons);Proficiency(MusicalInstrument);Attribute(UseMusicalInstrumentForCasting)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Bard"/>
@@ -2039,7 +2063,7 @@
                     <attribute id="Name" type="LSString" value="CircleOfTheSea"/>
                     <attribute id="PassivesAdded" type="LSString" value="Sea_3_WrathOfTheSea"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(1877d2bd-46f3-428e-b5e1-837532796a40,,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(2799765b-6707-4835-9f4c-ce5a99c2bccc,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="f95cd60e-234f-4724-a5c2-bc2ac8e543f5"/>
                     <attribute id="UUID" type="guid" value="f95cd60e-234f-4724-a5c2-bc2ac8e543f5"/>
                 </node>
@@ -2047,7 +2071,7 @@
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="CircleOfTheSea"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(eef6a5ca-4afb-49b8-9146-789bf65388fd,,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(b1f00545-c6bd-4697-90cc-865220a44769,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="f95cd60e-234f-4724-a5c2-bc2ac8e543f5"/>
                     <attribute id="UUID" type="guid" value="2d2256fe-b4cd-401f-b5bd-b82035319755"/>
                 </node>
@@ -2062,7 +2086,7 @@
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="CircleOfTheSea"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(335468c5-3c13-4c52-a3f3-810981608169,,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(66953664-1519-40c1-bc65-3021f274409b,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="f95cd60e-234f-4724-a5c2-bc2ac8e543f5"/>
                     <attribute id="UUID" type="guid" value="dac08624-4fc4-4a29-9e75-af4cdaf09c97"/>
                 </node>
@@ -2070,7 +2094,7 @@
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="CircleOfTheSea"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(7e1a6c02-1789-4b5f-ad52-42356b428156,,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(f5685e94-1abd-4b31-b95c-eddcad33461e,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="f95cd60e-234f-4724-a5c2-bc2ac8e543f5"/>
                     <attribute id="UUID" type="guid" value="fcc8c9e3-ecd3-4a0f-948d-f3808f47ce33"/>
                 </node>
@@ -7106,30 +7130,6 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="3"/>
-                    <attribute id="Name" type="LSString" value="ShadowGnawer"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ShadowGnawer_3_ShadowSmoke"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="636456e2-93bc-4567-aae5-0abb0aad450e"/>
-                    <attribute id="UUID" type="guid" value="636456e2-93bc-4567-aae5-0abb0aad450e"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="6"/>
-                    <attribute id="Name" type="LSString" value="ShadowGnawer"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ShadowGnawer_6_CreepingFog"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="636456e2-93bc-4567-aae5-0abb0aad450e"/>
-                    <attribute id="UUID" type="guid" value="25cd21af-e977-4aa6-91b1-396b7bdd2aa3"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="10"/>
-                    <attribute id="Name" type="LSString" value="ShadowGnawer"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ShadowGnawer_10_ConsumeDarkness"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="636456e2-93bc-4567-aae5-0abb0aad450e"/>
-                    <attribute id="UUID" type="guid" value="6243f0ca-576d-4595-b2ef-906ba0613c1b"/>
                 </node>
             </children>
         </node>

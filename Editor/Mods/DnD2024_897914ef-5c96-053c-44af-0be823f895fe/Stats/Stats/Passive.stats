@@ -2046,6 +2046,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Sea_WrathOfTheSea" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4403" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WrathOfTheSea);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
