@@ -5067,6 +5067,41 @@
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5e5c5f47-a44e-472d-b3ee-327295537dec" />
+        <field name="Name" type="NameTableFieldDefinition" value="HOLY_AVENGER_AURA" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h56b28652gd66cgff72gb7eaga9c8332947e0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha0ef5bd2gf3e7g689cgef0egd528c73742ba" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_AuraOfWarding" />
+        <field name="StackId" type="StringTableFieldDefinition" value="HOLY_AVENGER_AURA" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(Ally() and not Tagged('INANIMATE')):ApplyStatus(HOLY_AVENGER_AURA_BUFF)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="SpellResistance(Resistant)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasAnyStatus({'SG_Unconscious','SG_Incapacitated'},{},{'LONG_REST'})" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="892de04d-3728-431e-a7d8-2ba6752f8a1d" />
+        <field name="Name" type="NameTableFieldDefinition" value="HOLY_AVENGER_AURA_BUFF" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5e5c5f47-a44e-472d-b3ee-327295537dec" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hae58b170g1a86g562dg9c15gc5a91fb03fe1" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_AuraOfWarding" />
+        <field name="StackId" type="StringTableFieldDefinition" value="HOLY_AVENGER_AURA" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="d21494e5-5c30-4a69-85ef-75a785e71105" />
+        <field name="EndEffect" type="GuidObjectTableFieldDefinition" value="a5c11e94-efa3-4998-a76b-fc12502ea565" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7a06d37d-46d5-4533-83cb-ddc805c76c24" />

@@ -5089,6 +5089,20 @@
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasterySap;MAG_TrueName_Passive;MAG_TrueName_Passive_2;" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="34e00f82-f570-4c09-886b-fe2092710f23" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_HolyAvenger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="10a873f8-9736-49d7-975f-128ad5f7b3bf" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="52989526-83fc-44ec-9424-1c02a4c0bc6d" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;HolyAvenger:1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="IF(Tagged('FIEND') or Tagged('UNDEAD')):DealDamage(1d10,Radiant);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasterySap;MAG_HolyAvenger_Passive;" />
+        <field name="StatusOnEquip" type="StringTableFieldDefinition" value="HOLY_AVENGER_AURA;" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1ec881b9-9dc7-4daa-9fbe-0455ec8f19fb" />

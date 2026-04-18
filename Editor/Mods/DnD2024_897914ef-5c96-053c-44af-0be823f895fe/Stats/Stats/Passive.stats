@@ -7499,6 +7499,14 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0d7dc2bb-fc6e-42b6-9fe6-3e0cde0c886f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_HolyAvenger_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h345d4909g3905g0fc0g06eag48597d9a0ed4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha4f758dfga2beg1ec7gcda5g49ccf54aa751" version="4" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6e19c092-a7fb-4108-a3e4-a2fb86227572" />

@@ -431,6 +431,20 @@
                     <attribute id="UUID" type="guid" value="67ebc1d0-0edf-4a26-9248-8dc58beffad8"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha14eccefg494ag0cf0g8dfbg968982d24b28" version="1"/>
+                    <attribute id="Name" type="FixedString" value="ExperimentalElixir"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="175faf01-7994-4a56-951e-1e9908656a09"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h041d4fd9g0eccga18eg6fc4g03df5d14df8a" version="1"/>
+                    <attribute id="Name" type="FixedString" value="RestorativeReagents"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="df6afe51-07c7-4ea6-b1dd-d3dff029b860"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__ORIGIN FEAT__"/>
                     <attribute id="UUID" type="guid" value="d6f88eae-2cc1-405f-b544-abd2d9ce747b"/>
                 </node>
@@ -543,18 +557,14 @@
                     <attribute id="UUID" type="guid" value="e6681241-1b8c-4098-b58f-cc4e1b77f1e0"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="ha14eccefg494ag0cf0g8dfbg968982d24b28" version="1"/>
-                    <attribute id="Name" type="FixedString" value="ExperimentalElixir"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="175faf01-7994-4a56-951e-1e9908656a09"/>
+                    <attribute id="Name" type="FixedString" value="__ATTUNEMENT__"/>
+                    <attribute id="UUID" type="guid" value="9c5ec36a-8a7d-4f22-8fa9-4fd78ed71ea3"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h041d4fd9g0eccga18eg6fc4g03df5d14df8a" version="1"/>
-                    <attribute id="Name" type="FixedString" value="RestorativeReagents"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="df6afe51-07c7-4ea6-b1dd-d3dff029b860"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h925aafd9gec3fg0bb7g12d0g081af9525fe1" version="1"/>
+                    <attribute id="Name" type="FixedString" value="HolyAvenger"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="47e03000-b1fd-4fda-ac6e-36f5f670b02b"/>
                 </node>
             </children>
         </node>

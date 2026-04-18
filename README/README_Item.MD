@@ -11,6 +11,7 @@
 - Gloves of Heroism
 - Hellrider's Pride
 - Helmet of Smiting
+- Holy Avenger (Paladin Equipment, Loot at Rosymorn Monastery)
 - Hoppy
 - Hunting Shortbow
 - Musket

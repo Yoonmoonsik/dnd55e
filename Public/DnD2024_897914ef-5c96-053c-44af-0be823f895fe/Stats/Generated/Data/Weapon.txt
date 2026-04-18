@@ -3796,6 +3796,17 @@ data "ValueUUID" "81764c3c-c7a9-49a7-b145-d31ffd5aebe1"
 data "Rarity" "VeryRare"
 data "PassivesOnEquip" "WeaponMasterySap;MAG_TrueName_Passive;MAG_TrueName_Passive_2;"
 
+new entry "MAG_HolyAvenger"
+type "Weapon"
+using "WPN_Longsword_2"
+data "RootTemplate" "52989526-83fc-44ec-9424-1c02a4c0bc6d"
+data "UseCosts" "ActionPoint:1;HolyAvenger:1"
+data "ValueUUID" "d24c441f-7ebe-4229-8522-cf34c257ff20"
+data "Rarity" "Legendary"
+data "WeaponFunctors" "IF(Tagged('FIEND') or Tagged('UNDEAD')):DealDamage(1d10,Radiant);"
+data "PassivesOnEquip" "WeaponMasterySap;MAG_HolyAvenger_Passive;"
+data "StatusOnEquip" "HOLY_AVENGER_AURA;"
+
 new entry "__SUMMONS__"
 type "Weapon"
 

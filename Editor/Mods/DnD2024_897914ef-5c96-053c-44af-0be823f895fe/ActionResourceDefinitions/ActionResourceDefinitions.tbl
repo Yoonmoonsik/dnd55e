@@ -793,5 +793,21 @@
         <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_80" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9c5ec36a-8a7d-4f22-8fa9-4fd78ed71ea3" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="__ATTUNEMENT__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_81" />
+        <field name="UUID" type="IdTableFieldDefinition" value="47e03000-b1fd-4fda-ac6e-36f5f670b02b" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="HolyAvenger" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h925aafd9gec3fg0bb7g12d0g081af9525fe1" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Turn" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
