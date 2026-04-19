@@ -66,7 +66,7 @@ new entry "Interrupt_WarGodsBlessing"
 type "InterruptData"
 using "Interrupt_WarGodsBlessing"
 data "DisplayName" "h81ab1ec4g5097gf34cg7f12g4d040607771b;1"
-data "Conditions" "IsAbleToReact(context.Observer) and Ally(context.Source,context.Observer) and HasInterruptedAttack() and not AnyEntityIsItem() and IsFlatValueInterruptInteresting(10, context.Source);"
+data "Conditions" "IsAbleToReact(context.Observer) and (Self(context.Source,context.Observer) or Ally(context.Source,context.Observer)) and HasInterruptedAttack() and not AnyEntityIsItem() and IsFlatValueInterruptInteresting(10, context.Source);"
 data "Cost" "ReactionActionPoint:1;ChannelDivinity:1;"
 
 new entry "__FIGHTER__"

@@ -99,7 +99,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="29bb686d-ccc1-4cd0-b751-b14f79221425" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81ab1ec4g5097gf34cg7f12g4d040607771b" version="1" />
         <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;ChannelDivinity:1;" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Ally(context.Source,context.Observer) and HasInterruptedAttack() and not AnyEntityIsItem() and IsFlatValueInterruptInteresting(10, context.Source);" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and (Self(context.Source,context.Observer) or Ally(context.Source,context.Observer)) and HasInterruptedAttack() and not AnyEntityIsItem() and IsFlatValueInterruptInteresting(10, context.Source);" />
       </fields>
     </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">
