@@ -3874,7 +3874,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbd193bb1gdcb2g7a86ga1c6gafebb216ece6" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Armorer_Dreadnaught" />
         <field name="StackId" type="StringTableFieldDefinition" value="ARMORER" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ForceDemolisher_Push);UnlockSpell(Shout_GiantStature);AttackSpellOverride(Target_ForceDemolisher_Pull, Target_MainHandAttack);UnlockSpellVariant(SpellId('Target_ForceDemolisher_Push') or SpellId('Target_ForceDemolisher_Pull'),ModifyTargetRadius(Multiplicative,1.33));" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ForceDemolisher_Push);UnlockSpell(Shout_GiantStature);AttackSpellOverride(Target_ForceDemolisher_Pull, Target_MainHandAttack);IF(HasPassive('Armoror_9_ImprovedArmorer',context.Source)):UnlockSpellVariant(SpellId('Target_ForceDemolisher_Push') or SpellId('Target_ForceDemolisher_Pull'),ModifyTargetRadius(Multiplicative,1.33));" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasPassive('Armoror_9_ImprovedArmorer',context.Source)):ApplyEquipmentStatus(MeleeMainHand,FORCE_DEMOLISHER,100,-1);IF(HasPassive('Armoror_9_ImprovedArmorer',context.Source)):ApplyEquipmentStatus(MeleeMainHand,FORCE_DEMOLISHER_9,100,-1);" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
