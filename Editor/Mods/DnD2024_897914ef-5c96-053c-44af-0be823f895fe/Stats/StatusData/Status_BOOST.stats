@@ -3867,6 +3867,141 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="AC(1);RollBonus(SavingThrow,1);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="48be54ff-f4b9-4db3-bce3-58c0138e1c95" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARMOR_1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbd193bb1gdcb2g7a86ga1c6gafebb216ece6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Armorer_Dreadnaught" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ARMORER" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ForceDemolisher_Push);UnlockSpell(Shout_GiantStature);AttackSpellOverride(Target_ForceDemolisher_Pull, Target_MainHandAttack);UnlockSpellVariant(SpellId('Target_ForceDemolisher_Push') or SpellId('Target_ForceDemolisher_Pull'),ModifyTargetRadius(Multiplicative,1.33));" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasPassive('Armoror_9_ImprovedArmorer',context.Source)):ApplyEquipmentStatus(MeleeMainHand,FORCE_DEMOLISHER,100,-1);IF(HasPassive('Armoror_9_ImprovedArmorer',context.Source)):ApplyEquipmentStatus(MeleeMainHand,FORCE_DEMOLISHER_9,100,-1);" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(GIANT_STATURE)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2b3a1cf7-7c43-4759-aa68-9528ebf58c3a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARMOR_2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha42bd3d5g2ce4ga800g2fcbg8d6d528c77c2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Armorer_Guardian" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="48be54ff-f4b9-4db3-bce3-58c0138e1c95" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DefensiveField);IF(HasPassive('Armoror_9_ImprovedArmorer',context.Source)):UnlockInterrupt(Interrupt_Guardian);AttackSpellOverride(Target_ThunderPulse, Target_MainHandAttack);" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasPassive('Armoror_9_ImprovedArmorer',context.Source)):ApplyEquipmentStatus(MeleeMainHand,THUNDER_PULSE,100,-1);IF(HasPassive('Armoror_9_ImprovedArmorer',context.Source)):ApplyEquipmentStatus(MeleeMainHand,THUNDER_PULSE_9,100,-1);" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(DEFENSIVE_FIELD)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="366676de-12d9-4bf9-86d7-c596a5938575" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARMOR_3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heba7c958g5e2egaf60gaed7g5b1af3b11e89" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Armorer_Infiltrator" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="48be54ff-f4b9-4db3-bce3-58c0138e1c95" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,1.5,0);Advantage(Skill, Stealth);AttackSpellOverride(Projectile_LightningLauncher, Projectile_MainHandAttack);" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasPassive('Armoror_9_ImprovedArmorer',context.Source)):ApplyEquipmentStatus(RangedMainHand,LIGHTNING_LAUNCHER,100,-1);IF(HasPassive('Armoror_9_ImprovedArmorer',context.Source)):ApplyEquipmentStatus(RangedMainHand,LIGHTNING_LAUNCHER_9,100,-1);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="LightningLauncher_Passive;" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="48d18254-73b9-4f69-b680-e045f9149701" />
+        <field name="Name" type="NameTableFieldDefinition" value="GIANT_STATURE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="353ff9a7-6859-4523-b6cc-8bdec98e7caa" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf5b8251dg37fag23degfd61gb647962089e3" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="03882d44-fe33-4515-8bc5-99124f0bfcc4" />
+        <field name="Name" type="NameTableFieldDefinition" value="THUNDER_PULSE_SAP" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e57f2a84-8fcc-4b27-949b-06a97467523e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he1017279gb291g6b37gf200ge61712e6f68e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Armorer_Guardian" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3c59f615-70a6-4698-836b-2c53fd65198f" />
+        <field name="Name" type="NameTableFieldDefinition" value="FORCE_DEMOLISHER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h64fa93dage730gf474gfa7agc5a1466cbb77" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3221afd4gbd95g5f89gf4acg938204cab057" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Armorer_Dreadnaught" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FORCE_DEMOLISHER" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Intelligence);CannotBeDisarmed();WeaponDamageTypeOverride(Force);WeaponDamageDieOverride(1d10);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(MAG_WEAPON_BOND_CLEANER, 100, 0)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="63760e78-ec10-4c41-a097-173a6f1fe536" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="51709048-9c0e-43db-a6a9-ddb910e54828" />
+        <field name="Name" type="NameTableFieldDefinition" value="FORCE_DEMOLISHER_9" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3c59f615-70a6-4698-836b-2c53fd65198f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h95594e96g7134g5267g0351g720116b03ad5" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Intelligence);CannotBeDisarmed();WeaponDamageTypeOverride(Force);WeaponDamageDieOverride(2d6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c7e41f5a-01df-423a-94c4-5c99e7667d70" />
+        <field name="Name" type="NameTableFieldDefinition" value="THUNDER_PULSE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3c59f615-70a6-4698-836b-2c53fd65198f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5817d478g41f5g4062g0496gdf1b77f01ce1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8e8224d7ga1a1g482bgf5aag3bb63ab21237" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Armorer_Guardian" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Intelligence);CannotBeDisarmed();WeaponDamageTypeOverride(Thunder);WeaponDamageDieOverride(1d8);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe47a43d-bc20-44e5-bd9a-7eaa6e45d175" />
+        <field name="Name" type="NameTableFieldDefinition" value="THUNDER_PULSE_9" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c7e41f5a-01df-423a-94c4-5c99e7667d70" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf3fe4a85g4138g5242g327fgacf6ace676c1" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Intelligence);CannotBeDisarmed();WeaponDamageTypeOverride(Thunder);WeaponDamageDieOverride(1d10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="87a22971-7215-4875-8e5c-a4031edf6e3d" />
+        <field name="Name" type="NameTableFieldDefinition" value="LIGHTNING_LAUNCHER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3c59f615-70a6-4698-836b-2c53fd65198f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h578b08afg922ag9afbg1ea2ga018092ec265" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h112f8efbg04d4g1b62ge6d4ge233852a7ea5" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Armorer_Infiltrator" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Intelligence);CannotBeDisarmed();WeaponDamageTypeOverride(Lightning);WeaponDamageDieOverride(1d6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="103caf78-5600-4ab7-adf3-a411cbc3e400" />
+        <field name="Name" type="NameTableFieldDefinition" value="LIGHTNING_LAUNCHER_9" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="87a22971-7215-4875-8e5c-a4031edf6e3d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h753e23bdg728bg6193g230ag2ac8bdbb0d6b" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Intelligence);CannotBeDisarmed();WeaponDamageTypeOverride(Lightning);WeaponDamageDieOverride(2d6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a989f61f-c98c-4cfc-b7d7-9871fd7a5876" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEFENSIVE_FIELD" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3991b5d7-47c8-419c-8039-598fffe460b8" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1986e89ag8ebfg5144gcfc6g4888865326e5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7564a2a6g104bg423egf734g715e17a86450" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="GainTemporaryHitPoints(ClassLevel(Artificer))" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_BladeWard" />
+        <field name="StackId" type="StringTableFieldDefinition" value="DEFENSIVE_FIELD" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(ClassLevel(Artificer));" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cd5cb601-39fb-41ed-9029-5d6fe8911f26" />

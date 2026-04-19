@@ -844,6 +844,15 @@ data "Cost" "ReactionActionPoint:1;FlashOfGenius:1;"
 data "Stack" "FlashOfGenius"
 data "InterruptDefaultValue" "Ask;Enabled"
 
+new entry "Interrupt_Guardian"
+type "InterruptData"
+using "Interrupt_PolearmMaster"
+data "DisplayName" "h53e48d5bg3952g2a28g0b12gf55ed4664386;1"
+data "ExtraDescription" ""
+data "Icon" "Armorer_Guardian"
+data "Conditions" "Self(context.Source,context.Observer) and IsAbleToReact(context.Observer) and not HasStatus('SHOCKWAVE') and not (HasStatus('MOBILE_NO_AOO', context.Source) and HasStatus('MOBILE_NO_AOO_SOURCE', context.Target)) and not HasStatus('FLAMING_SPHERE_AURA') and not HasStatus('SNEAKING',context.Target) and not HasStatus('SG_Ignore_AOO',context.Target) and not AnyEntityIsItem();"
+data "Properties" "UseAttack();"
+
 new entry "__FIGHTING STYLE FEAT__"
 type "InterruptData"
 

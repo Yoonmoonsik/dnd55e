@@ -538,7 +538,7 @@
         <field name="BaseHp" type="IntegerTableFieldDefinition" value="10" />
         <field name="HpPerLevel" type="IntegerTableFieldDefinition" value="5" />
         <field name="CommonHotbarColumns" type="IntegerTableFieldDefinition" value="9" />
-        <field name="ClassHotbarColumns" type="IntegerTableFieldDefinition" value="3" />
+        <field name="ClassHotbarColumns" type="IntegerTableFieldDefinition" value="5" />
         <field name="ItemsHotbarColumns" type="IntegerTableFieldDefinition" value="2" />
         <field name="MulticlassSpellcasterModifier" type="FloatTableFieldDefinition" value="0.5" />
       </fields>
@@ -552,6 +552,23 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7616ad89g71cag4308g0298ge537bbd04ae3" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb0914d9fg1cd5gf675g447bg8f8c7b23a8bc" version="1" />
         <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="c36e28a1-2fd5-475b-9689-09b83c9fd63d" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Artificer" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="True" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_42" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d9c984db-15cb-4308-88be-fb88cf3e8c32" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="8aa2cf37-7739-4978-ab86-b1190b881620" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Armorer" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h47131d60gec85gc936gc2dcgea0e6754c6e8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h02b82287gfc4bg3b91g9ef9g28e9e7d50dc8" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="45578db1-e4a0-4f9e-8aff-2916385d3b05" />
         <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Artificer" />
         <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
         <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />

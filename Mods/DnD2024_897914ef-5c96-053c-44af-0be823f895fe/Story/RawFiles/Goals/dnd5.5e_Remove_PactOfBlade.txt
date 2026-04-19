@@ -17,6 +17,27 @@ ApplyStatus(_MagicItem, "ARCANE_EMPOWERMENT", -1.0, 1, _Char);
 IF
 Unequipped(_MagicItem, _Char)
 AND
+HasActiveStatus(_MagicItem, "FORCE_DEMOLISHER", 1)
+THEN
+RemoveStatus(_MagicItem, "FORCE_DEMOLISHER", NULL_00000000-0000-0000-0000-000000000000);
+
+IF
+Unequipped(_MagicItem, _Char)
+AND
+HasActiveStatus(_MagicItem, "THUNDER_PULSE", 1)
+THEN
+RemoveStatus(_MagicItem, "THUNDER_PULSE", NULL_00000000-0000-0000-0000-000000000000);
+
+IF
+Unequipped(_MagicItem, _Char)
+AND
+HasActiveStatus(_MagicItem, "LIGHTNING_LAUNCHER", 1)
+THEN
+RemoveStatus(_MagicItem, "LIGHTNING_LAUNCHER", NULL_00000000-0000-0000-0000-000000000000);
+
+IF
+Unequipped(_MagicItem, _Char)
+AND
 HasActiveStatus(_MagicItem, "PACT_BLADE_ILLRIGGER_MAINHAND", 1)
 THEN
 RemoveStatus(_MagicItem, "PACT_BLADE_ILLRIGGER_MAINHAND", NULL_00000000-0000-0000-0000-000000000000);

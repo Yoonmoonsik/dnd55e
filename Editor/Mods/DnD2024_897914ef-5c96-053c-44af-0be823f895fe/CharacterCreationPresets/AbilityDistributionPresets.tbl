@@ -29,5 +29,19 @@
         <field name="Comment" type="CommentTableFieldDefinition" value="Illrigger" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="90d06311-077c-4c52-9aad-5d2d8ddc443f" />
+        <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="8aa2cf37-7739-4978-ab86-b1190b881620" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Artificer" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

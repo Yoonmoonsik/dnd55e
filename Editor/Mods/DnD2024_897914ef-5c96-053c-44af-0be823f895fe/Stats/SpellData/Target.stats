@@ -8075,6 +8075,46 @@
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RMI_PROTECTION,100,-1)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="88139d3d-1cb8-47e1-8a55-a76debeb25bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="ForceDemolisher_Push" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6707901c-81b4-4e77-8b0c-4eb486b44976" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TargetCeiling" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="3" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);TARGET:IF(not Grounded() and TargetSizeEqualOrSmaller(Size.Large)):Force(3, OriginToEntity, Neutral, false, true);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Armorer_Dreadnaught" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h097afcaegbffcg54c6g7e95g39e866fdaad8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4fbaa426ge15cg76e8g135bg063e1212f51b" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsAttack;IsMelee;IsHarmful;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da91028c-3969-40ad-bc7b-0c7f1ed373de" />
+        <field name="Name" type="NameTableFieldDefinition" value="ForceDemolisher_Pull" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="88139d3d-1cb8-47e1-8a55-a76debeb25bb" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);TARGET:IF(not Grounded() and TargetSizeEqualOrSmaller(Size.Large)):Force(-3, OriginToEntity, Neutral, false, true);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc997bdabg8c5dg07ceg15dfgb0f9460ee068" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h885fc7c4ga223g5fe2g45e3gcecbe30e37ae" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8aa7dfc7-0c59-42f8-93f2-9028f233ffa4" />
+        <field name="Name" type="NameTableFieldDefinition" value="ThunderPulse" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="88139d3d-1cb8-47e1-8a55-a76debeb25bb" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);TARGET:ApplyStatus(THUNDER_PULSE_SAP,100,1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Armorer_Guardian" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd6af5f68g9087g1e07g293bga2e94a2ef0a2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1ec14486gf908gc063g0557g6983b686c4ae" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Thunder" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="38f8798f-1d23-4982-b4c7-dffc0ae00453" />

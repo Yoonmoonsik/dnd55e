@@ -2080,6 +2080,27 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_GaseousForm;Shout_HealingWord_Mass;Target_LesserRestoration" />
       </fields>
     </stat_object>
+    <stat_object color="#FF00BFFF" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d256e2f5-9201-466b-afc1-c57276fd2c0b" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Armorer Level 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_MagicMissile;Zone_Thunderwave" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c63053c0-8d6a-4a2c-ac68-e8eeda7490e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Armorer Level 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_MirrorImage;Target_Shatter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a552c0d4-10cf-4e5c-8a8f-2164724a5485" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Armorer Level 9" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_HypnoticPattern;Zone_LightningBolt" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="84011a1a-eff3-4e7f-8954-1f9c97bd44e4" />

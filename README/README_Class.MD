@@ -26,5 +26,11 @@
 - Level 3: Experimental Elixir
 - Level 5: Alchemical Savant
 - Level 9: Restorative Reagents
+## Armorer
+- Level 3: Armorer Spells
+- Level 3: Arcane Armor
+- Level 3: Armor Model
+- Level 5: Extra Attack
+- Level 9: Improved Armorer
 ## Psion
 - Comming soon

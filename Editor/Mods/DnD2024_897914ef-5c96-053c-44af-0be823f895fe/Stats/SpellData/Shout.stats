@@ -3054,6 +3054,92 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:6;" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7bd21b1b-a6e3-4276-94c3-7d2abe7f0ea7" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArmorModel" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_ArmorModel_1;Shout_ArmorModel_2;Shout_ArmorModel_3;" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_HeavyArmorMaster" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h916a21e8gd025g4c4eg788agd117ac8d425a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcc906553g972bg8298gd9cfga6a42e0fdb7c" version="2" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_BendLuck_L6to8" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Buff_BendLuck_L6to8" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03114753-8d91-4c52-8207-728a67cdd59b,,;,,;51c06d74-c048-452a-a248-41a751728e3e,,;e9731a5c-e4ba-4872-8950-36d625061ec3,,;8fcb1f19-a84b-486d-81fa-098aaf7cc9be,,;,,;c5bd6ce6-281c-4314-9f74-9f7bb2f4cf03,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="47e2876e-9c73-4083-b44b-72340db1b3a7" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="e1fcf982-434a-40b9-9bb7-e00695208cb3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5a85ee09-8679-4e38-bf48-1ad50f5101ab" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArmorModel_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7bd21b1b-a6e3-4276-94c3-7d2abe7f0ea7" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ArmorModel" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ARMOR_1,100,-1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h268b26f7gae12g5da6gc6cbgfc918bbeed59" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he2a10ea7ge923ge756g16a5gec995e896057" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Armorer_Dreadnaught" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b72e6ac7-2265-45f0-9364-a39605ce5765" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArmorModel_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5a85ee09-8679-4e38-bf48-1ad50f5101ab" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ARMOR_2,100,-1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9d4fd894g81e1g69a7gb31ag685f124bd58d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h59b9ca7dgb3a7g13d9gaca8g5cb0cc11512f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Armorer_Guardian" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="967d8d4d-fc33-41ec-9293-8ed3d6738a2f" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArmorModel_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5a85ee09-8679-4e38-bf48-1ad50f5101ab" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ARMOR_3,100,-1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9a58f47cgb03cg53ddg2bdfgba12dcd9a2e5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d97ea6eg0369g70aag3edegb0ac7465f9b3" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Armorer_Infiltrator" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="706dcf51-7d44-4d9c-9f7b-e2d9f64bb661" />
+        <field name="Name" type="NameTableFieldDefinition" value="GiantStature" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f6b57c12-fac3-4bc7-917c-b6a2da294900" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1fdca66eg9f13g57dbg8cc8g8f067bb4d447" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(GIANT_STATURE, 100, 10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a6c21a48-2f7a-4d43-96b2-9a72e09c44d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="DefensiveField" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f304f6f2-3f55-42a9-bcc3-0f9ae984a8bc" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DEFENSIVE_FIELD,100,-1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha072f922ge3c6g116bgc7feg773bb825e8e2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha243be2aged30g4c6dg9dedge3df9a10db81" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DEFENSIVE_FIELD,100,-1);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="Blooded(context.Source);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d9003a82-f63d-4c4e-99ed-6fa48c42a7e4" />

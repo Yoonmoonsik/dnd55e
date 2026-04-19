@@ -7760,7 +7760,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);ActionResource(SpellSlot,1,1);" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="ab2f7820-cb6b-49e4-804a-820d25291a16" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="ab2f7820-cb6b-49e4-804a-820d25291a16;d9c984db-15cb-4308-88be-fb88cf3e8c32" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7910,6 +7910,42 @@
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Alchemist_9_RestorativeReagents;Alchemist_9_RestorativeReagents_Resource" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(ExperimentalElixir,1,0);" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(6b8e1a51-ff89-437f-8238-0f360f0249dc,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF00BFFF" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_813" />
+        <field name="UUID" type="IdTableFieldDefinition" value="45578db1-e4a0-4f9e-8aff-2916385d3b05" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="45578db1-e4a0-4f9e-8aff-2916385d3b05" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Armorer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Armorer_3_Spells;Armorer_3_ArcaneArmor;Armorer_3_ArmorModel" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(d256e2f5-9201-466b-afc1-c57276fd2c0b,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_814" />
+        <field name="UUID" type="IdTableFieldDefinition" value="402c8edd-78d7-4baa-9751-e799fd3452fc" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="45578db1-e4a0-4f9e-8aff-2916385d3b05" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Armorer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(c63053c0-8d6a-4a2c-ac68-e8eeda7490e9,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_815" />
+        <field name="UUID" type="IdTableFieldDefinition" value="703e518c-51ce-4dd7-bb9d-7b3bbbbde489" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="45578db1-e4a0-4f9e-8aff-2916385d3b05" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Armorer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Armoror_9_ImprovedArmorer" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(a552c0d4-10cf-4e5c-8a8f-2164724a5485,,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
     <stat_object color="#FF800000" is_substat="false">

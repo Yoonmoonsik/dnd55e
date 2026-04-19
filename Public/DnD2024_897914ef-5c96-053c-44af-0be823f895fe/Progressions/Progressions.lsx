@@ -6009,6 +6009,9 @@
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="ab2f7820-cb6b-49e4-804a-820d25291a16"/>
                                 </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="d9c984db-15cb-4308-88be-fb88cf3e8c32"/>
+                                </node>
                             </children>
                         </node>
                     </children>
@@ -7130,6 +7133,33 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Armorer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Armorer_3_Spells;Armorer_3_ArcaneArmor;Armorer_3_ArmorModel"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(d256e2f5-9201-466b-afc1-c57276fd2c0b,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="45578db1-e4a0-4f9e-8aff-2916385d3b05"/>
+                    <attribute id="UUID" type="guid" value="45578db1-e4a0-4f9e-8aff-2916385d3b05"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="Armorer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ExtraAttack"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(c63053c0-8d6a-4a2c-ac68-e8eeda7490e9,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="45578db1-e4a0-4f9e-8aff-2916385d3b05"/>
+                    <attribute id="UUID" type="guid" value="402c8edd-78d7-4baa-9751-e799fd3452fc"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="Armorer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Armoror_9_ImprovedArmorer"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(a552c0d4-10cf-4e5c-8a8f-2164724a5485,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="45578db1-e4a0-4f9e-8aff-2916385d3b05"/>
+                    <attribute id="UUID" type="guid" value="703e518c-51ce-4dd7-bb9d-7b3bbbbde489"/>
                 </node>
             </children>
         </node>

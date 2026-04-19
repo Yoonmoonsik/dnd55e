@@ -1465,6 +1465,60 @@
                     <attribute id="UUID" type="guid" value="2a428023-b6cd-4d77-a801-d1e1f772c83e"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="__ARTIFICER__"/>
+                    <attribute id="UUID" type="guid" value="2c4d286d-098c-4ca0-8e77-75312b4a31db"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Artificier Cantrip"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Target_BoomingBlade_ClassSpell;Target_DancingLights;Projectile_FingerGuns;Projectile_FireBolt;Target_GreenFlameBlade;Target_Guidance;Target_Light;Target_MageHand;Projectile_PoisonSpray;Shout_Prestidigitation;Projectile_RayOfFrost;Target_Resistance;Target_ShockingGrasp;Target_SpareTheDying;Shout_SwordBurst;Target_ThornWhip;Shout_Thunderclap;Target_TrueStrike;"/>
+                    <attribute id="UUID" type="guid" value="d5f17616-b3cf-47ff-b898-3e37c3961034"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Artificier SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value="Target_CureWounds;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Target_FaerieFire;Shout_FalseLife;Shout_FeatherFall;Target_Grease;Target_Jump;Target_Longstrider;Target_Sanctuary"/>
+                    <attribute id="UUID" type="guid" value="1eab4b63-ddd0-48ec-81a4-38f42966937f"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Artificier SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_Aid;Target_ArcaneLock;Shout_ArcaneVigor;Shout_Blur;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Target_HeatMetal;Target_Invisibility;Target_LesserRestoration;Target_MagicWeapon;Target_ProtectionFromPoison;Shout_SeeInvisibility;"/>
+                    <attribute id="UUID" type="guid" value="6f179227-b6b1-4aeb-b9e6-ecc6bc5e8f0e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Artificier SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Blink;Target_ElementalWeapon;Target_Fly;Target_GlyphOfWarding;Target_Haste;Target_ProtectionFromEnergy;Teleportation_Revivify;"/>
+                    <attribute id="UUID" type="guid" value="ab75a59b-f600-45fa-9457-87799e53c006"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Alchemist Level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_HealingWord;Projectile_RayOfSickness;Shout_ExperimentalElixir;Shout_ExperimentalElixir_Resource;"/>
+                    <attribute id="UUID" type="guid" value="459fb871-5919-42ba-ab17-db656bf8dd68"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Alchemist Level 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_FlamingSphere;Projectile_AcidArrow;"/>
+                    <attribute id="UUID" type="guid" value="a002fede-0013-436b-9b60-2230b5adcc41"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Alchemist Level 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_GaseousForm;Shout_HealingWord_Mass;Target_LesserRestoration"/>
+                    <attribute id="UUID" type="guid" value="6b8e1a51-ff89-437f-8238-0f360f0249dc"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Armorer Level 3"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_MagicMissile;Zone_Thunderwave"/>
+                    <attribute id="UUID" type="guid" value="d256e2f5-9201-466b-afc1-c57276fd2c0b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Armorer Level 5"/>
+                    <attribute id="Spells" type="LSString" value="Shout_MirrorImage;Target_Shatter"/>
+                    <attribute id="UUID" type="guid" value="c63053c0-8d6a-4a2c-ac68-e8eeda7490e9"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Armorer Level 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_HypnoticPattern;Zone_LightningBolt"/>
+                    <attribute id="UUID" type="guid" value="a552c0d4-10cf-4e5c-8a8f-2164724a5485"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="__GUNSLINGER__"/>
                     <attribute id="UUID" type="guid" value="84011a1a-eff3-4e7f-8954-1f9c97bd44e4"/>
                 </node>
@@ -1594,45 +1648,6 @@
                     <attribute id="Name" type="FixedString" value="Forest Gnome 1"/>
                     <attribute id="Spells" type="LSString" value="Shout_SpeakWithAnimals_ForestGnome;Target_MinorIllusion"/>
                     <attribute id="UUID" type="guid" value="582ed05c-c6fa-4d6f-99f9-efcc9de769f9"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="__ARTIFICER__"/>
-                    <attribute id="UUID" type="guid" value="2c4d286d-098c-4ca0-8e77-75312b4a31db"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Artificier SLevel 1"/>
-                    <attribute id="Spells" type="LSString" value="Target_CureWounds;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Target_FaerieFire;Shout_FalseLife;Shout_FeatherFall;Target_Grease;Target_Jump;Target_Longstrider;Target_Sanctuary"/>
-                    <attribute id="UUID" type="guid" value="1eab4b63-ddd0-48ec-81a4-38f42966937f"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Artificier SLevel 2"/>
-                    <attribute id="Spells" type="LSString" value="Target_Aid;Target_ArcaneLock;Shout_ArcaneVigor;Shout_Blur;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Target_HeatMetal;Target_Invisibility;Target_LesserRestoration;Target_MagicWeapon;Target_ProtectionFromPoison;Shout_SeeInvisibility;"/>
-                    <attribute id="UUID" type="guid" value="6f179227-b6b1-4aeb-b9e6-ecc6bc5e8f0e"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Artificier SLevel 3"/>
-                    <attribute id="Spells" type="LSString" value="Shout_Blink;Target_ElementalWeapon;Target_Fly;Target_GlyphOfWarding;Target_Haste;Target_ProtectionFromEnergy;Teleportation_Revivify;"/>
-                    <attribute id="UUID" type="guid" value="ab75a59b-f600-45fa-9457-87799e53c006"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Artificier Cantrip"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Target_BoomingBlade_ClassSpell;Target_DancingLights;Projectile_FingerGuns;Projectile_FireBolt;Target_GreenFlameBlade;Target_Guidance;Target_Light;Target_MageHand;Projectile_PoisonSpray;Shout_Prestidigitation;Projectile_RayOfFrost;Target_Resistance;Target_ShockingGrasp;Target_SpareTheDying;Shout_SwordBurst;Target_ThornWhip;Shout_Thunderclap;Target_TrueStrike;"/>
-                    <attribute id="UUID" type="guid" value="d5f17616-b3cf-47ff-b898-3e37c3961034"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Alchemist Level 3"/>
-                    <attribute id="Spells" type="LSString" value="Target_HealingWord;Projectile_RayOfSickness;Shout_ExperimentalElixir;Shout_ExperimentalElixir_Resource;"/>
-                    <attribute id="UUID" type="guid" value="459fb871-5919-42ba-ab17-db656bf8dd68"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Alchemist Level 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_FlamingSphere;Projectile_AcidArrow;"/>
-                    <attribute id="UUID" type="guid" value="a002fede-0013-436b-9b60-2230b5adcc41"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Alchemist Level 9"/>
-                    <attribute id="Spells" type="LSString" value="Target_GaseousForm;Shout_HealingWord_Mass;Target_LesserRestoration"/>
-                    <attribute id="UUID" type="guid" value="6b8e1a51-ff89-437f-8238-0f360f0249dc"/>
                 </node>
             </children>
         </node>

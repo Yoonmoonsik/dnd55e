@@ -1131,6 +1131,18 @@
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0294a351-621d-47c1-a152-25d0e93dad54" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Guardian" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9ffe662-f440-4f3b-8bd6-35ea1c7dddaf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h53e48d5bg3952g2a28g0b12gf55ed4664386" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Armorer_Guardian" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Source,context.Observer) and IsAbleToReact(context.Observer) and not HasStatus('SHOCKWAVE') and not (HasStatus('MOBILE_NO_AOO', context.Source) and HasStatus('MOBILE_NO_AOO_SOURCE', context.Target)) and not HasStatus('FLAMING_SPHERE_AURA') and not HasStatus('SNEAKING',context.Target) and not HasStatus('SG_Ignore_AOO',context.Target) and not AnyEntityIsItem();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="UseAttack();" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c92b2f4b-211b-41c6-bc5d-4a2826de83c5" />
