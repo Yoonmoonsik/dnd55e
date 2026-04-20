@@ -58,6 +58,17 @@ AND
 HasPassive(_Player, "OneSpellWithASpellSlotPerTurn", 0)
 THEN
 AddPassive(_Player, "OneSpellWithASpellSlotPerTurn");
+
+
+// HeavyArmor
+IF
+DB_Players(_Player)
+AND
+DB_DND55e_Initialized(1)
+AND
+HasPassive(_Player, "HeavyArmor", 0)
+THEN
+AddPassive(_Player, "HeavyArmor");
 EXITSECTION
 
 ENDEXITSECTION

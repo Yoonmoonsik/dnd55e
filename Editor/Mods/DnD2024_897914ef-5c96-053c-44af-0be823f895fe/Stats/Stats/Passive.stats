@@ -11,7 +11,7 @@
         <field name="Conditions" type="StringTableFieldDefinition" value="not HasStatus('FIRST_ATTACK_TURN',context.Source);" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(SELF,ActionPoint,1,0)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="99999" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WeaponMaster" />
       </fields>
     </stat_object>
@@ -23,7 +23,7 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,FIRST_ATTACK_TURN,100,1)" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="68145b69-891b-4f5f-8858-7db1b53ec127" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAttack() or IsSpell();" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -180,32 +180,13 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="81604d00-d15e-45b7-97c6-ea49cfb00218" />
-        <field name="Name" type="NameTableFieldDefinition" value="HeavyArmor_ChainMail" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1261d64eg6ff9gfcfcg691agbb4378c7bc02" version="2" />
+        <field name="Name" type="NameTableFieldDefinition" value="HeavyArmor" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1261d64eg6ff9gfcfcg691agbb4378c7bc02" version="7" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h36e05e75gb0acgebbeg511ag25cc56fcde31" version="1" />
         <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="13;Distance(3)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="99998" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not AbilityGreaterThan('Strength',12,context.Source) and not HasPassive('Armorer_3_ArcaneArmor',context.Source)):ActionResource(Movement,-3,0);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="ef05970c-cdfc-4989-a4cb-e17b988c6391" />
-        <field name="Name" type="NameTableFieldDefinition" value="HeavyArmor_SplintArmor" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="81604d00-d15e-45b7-97c6-ea49cfb00218" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h412ee86dgfedcga2beg54adgbd1f6bc466f9" version="1" />
-        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="15;Distance(3)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not AbilityGreaterThan('Strength',14,context.Source) and not HasPassive('Armorer_3_ArcaneArmor',context.Source)):ActionResource(Movement,-3,0);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="d2615f43-01d3-4724-a899-6fa5c5d457c4" />
-        <field name="Name" type="NameTableFieldDefinition" value="HeavyArmor_PlateArmor" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="81604d00-d15e-45b7-97c6-ea49cfb00218" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1855925eg36d7g774cg4917gc8135001356f" version="1" />
-        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="15;Distance(3)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not AbilityGreaterThan('Strength',14,context.Source) and not HasPassive('Armorer_3_ArcaneArmor',context.Source)):ActionResource(Movement,-3,0);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasHeavyArmor() and not AbilityGreaterThan('Strength',14,context.Source) and not HasPassive('Armorer_3_ArcaneArmor',context.Source)):ActionResource(Movement,-3,0);" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate;OnCombatStarted" enumeration_type_name="StatsFunctorContext" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -216,6 +197,8 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0e9a944dgb216gb539gf48dg822147b343bd" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hd97fac61ge406g7715gc8b7g188472b4140a" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(not AbilityGreaterThan('Strength',12,context.Source) and IsMeleeWeaponAttack()):Disadvantage(AttackRoll);" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="13" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="99998" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1486,6 +1469,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_PotentSpellcasting" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3007" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsClericCantrip()):DamageBonus(max(0, WisdomModifier));IF(HasPassive('Astral_3_AstralDomainSpells',context.Source) and SpellId('Projectile_StarryWisp')):DamageBonus(max(0, WisdomModifier));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
