@@ -198,7 +198,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="4422dc64-95de-448f-8a58-fca66a269ad0" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7d3eb606ga301ge0f4g8d8ag0eb706dd27d1" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he7d011e0gaae4g9343gae55g467fb0606a35" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and (HasInterruptedAttack() and Enemy(context.Source,context.Observer) and IsFlatValueInterruptInteresting(8, context.Source) and not AnyEntityIsItem() and not DistanceToEntityGreaterThan(1.5, context.ObserverPosition, context.Target);" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self(context.Source,context.Observer) and (Self(context.Target,context.Observer) or Ally(context.Target, context.Observer)) and HasInterruptedAttack() and not DistanceToEntityGreaterThan(2, context.ObserverPosition, context.Target) and not AnyEntityIsItem() and IsFlatValueInterruptInteresting(8);" />
         <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(OBSERVER_OBSERVER,0-1d8);ApplyStatus(OBSERVER_TARGET,INTERRUPT_FIGHTINGSTYLE_PROTECTION,100,0);" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
         <field name="EnableCondition" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
