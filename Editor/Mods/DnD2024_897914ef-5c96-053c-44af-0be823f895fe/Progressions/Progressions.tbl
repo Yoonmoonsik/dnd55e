@@ -8327,7 +8327,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Illrigger" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0;ActionResource(Seal,3,0);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);ActionResource(Seal,3,0);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Illrigger_1_BalefulInterdict" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList);AddSpells(0c267ea2-81d8-44d8-ade7-69607af73222,,,,AlwaysPrepared)" />
       </fields>

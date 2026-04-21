@@ -6859,7 +6859,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_DisguiseSelf_Elf_Female" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="HasAdvantage() and not HasDisadvantage() and (AttackRollAbility(Ability.Dexterity) or AttackRollAbility(Ability.Intelligence) or AttackRollAbility(Ability.Wisdom) or AttackRollAbility(Ability.Charisma)):Reroll(Attack,19,true);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasAdvantage() and not HasDisadvantage() and (AttackRollAbility(Ability.Dexterity) or AttackRollAbility(Ability.Intelligence) or AttackRollAbility(Ability.Wisdom) or AttackRollAbility(Ability.Charisma))):Reroll(Attack,19,true);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

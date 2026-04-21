@@ -4970,7 +4970,7 @@ data "Description" "h7568c386gf212ga40dg691eg69b66c143ccb;1"
 data "Icon" "Spell_Illusion_DisguiseSelf_Elf_Female"
 data "PriorityOrder" "700"
 data "Properties" "Highlighted"
-data "Boosts" "HasAdvantage() and not HasDisadvantage() and (AttackRollAbility(Ability.Dexterity) or AttackRollAbility(Ability.Intelligence) or AttackRollAbility(Ability.Wisdom) or AttackRollAbility(Ability.Charisma)):Reroll(Attack,19,true);"
+data "Boosts" "IF(HasAdvantage() and not HasDisadvantage() and (AttackRollAbility(Ability.Dexterity) or AttackRollAbility(Ability.Intelligence) or AttackRollAbility(Ability.Wisdom) or AttackRollAbility(Ability.Charisma))):Reroll(Attack,19,true);"
 
 new entry "FadeAway"
 type "PassiveData"

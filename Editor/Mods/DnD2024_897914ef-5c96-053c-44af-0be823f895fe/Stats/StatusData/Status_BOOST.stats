@@ -1412,7 +1412,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="RAY_OF_ENFEEBLEMENT" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="68aa7ced-3a22-443a-94ce-d98f9a93370a" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6f9f97e3gf464g5501g588eg5db8ef9b538f" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="DamageBonus(-1d8,,false);Disadvantage(Ability, Strength);IF(IsMeleeAttack()):Disdvantage(AttackRoll);IF(IsUnarmedAttack()):Disdvantage(AttackRoll);IF(Disdvantage()):Advantage(AttackRoll);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageBonus(-1d8,,false);Disadvantage(Ability, Strength);Disadvantage(SavingThrow, Strength);IF(AttackRollAbility(Ability.Strength)):Disadvantage(AttackRoll);" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -3642,7 +3642,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h581f8d48gd1d3g12bag5dbegf06507357e90" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb18d7e9eg37d4g8642g14a4g092815e31296" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d10,Bludgeoning);Distance(5)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="BlockVerbalComponent();DialogueBlock();ActionResourceConsumeMultiplier(Movement,4);MovementSpeedLimit(Walk);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="BlockVerbalComponent();DialogueBlock();ActionResourceConsumeMultiplier(Movement, 4,0);MovementSpeedLimit(Walk);" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(1d10,Bludgeoning)" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d10,Bludgeoning,Magical)" />
       </fields>

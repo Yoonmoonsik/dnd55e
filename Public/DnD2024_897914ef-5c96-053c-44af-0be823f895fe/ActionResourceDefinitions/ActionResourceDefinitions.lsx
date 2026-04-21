@@ -566,6 +566,13 @@
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
                     <attribute id="UUID" type="guid" value="47e03000-b1fd-4fda-ac6e-36f5f670b02b"/>
                 </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h90cf192bga720g4832g6e4dg0c99af7066d2" version="1"/>
+                    <attribute id="Name" type="FixedString" value="AdrenalineRush"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="1e4fc9f1-8706-413b-b889-b36184e4ee69"/>
+                </node>
             </children>
         </node>
     </region>
