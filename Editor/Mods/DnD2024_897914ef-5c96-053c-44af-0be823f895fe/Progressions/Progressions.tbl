@@ -4234,7 +4234,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Ranger" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(9e31661e-4c14-499d-98ca-9e00b20faf07,1);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(9e31661e-4c14-499d-98ca-9e00b20faf07,1);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList);AddSpells(36f318d0-a713-4ee1-b3ef-a88bbf816f75,,,,AlwaysPrepared);" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(FavoredEnemy,2,0)" />
         <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Ranger_1_FavoredEnemy" />
