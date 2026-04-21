@@ -185,8 +185,8 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h36e05e75gb0acgebbeg511ag25cc56fcde31" version="1" />
         <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="13;Distance(3)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="99998" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasHeavyArmor() and not AbilityGreaterThan('Strength',14,context.Source) and not HasPassive('Armorer_3_ArcaneArmor',context.Source)):ActionResource(Movement,-3,0);" />
-        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate;OnCombatStarted" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasHeavyArmor() and not AbilityGreaterThan('Strength',12,context.Source) and not HasPassive('Armorer_3_ArcaneArmor',context.Source)):ActionResource(Movement,-3,0);" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate;OnCombatStarted;OnTurn" enumeration_type_name="StatsFunctorContext" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
