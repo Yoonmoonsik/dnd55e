@@ -853,6 +853,17 @@ data "Icon" "Armorer_Guardian"
 data "Conditions" "Self(context.Source,context.Observer) and IsAbleToReact(context.Observer) and not HasStatus('SHOCKWAVE') and not (HasStatus('MOBILE_NO_AOO', context.Source) and HasStatus('MOBILE_NO_AOO_SOURCE', context.Target)) and not HasStatus('FLAMING_SPHERE_AURA') and not HasStatus('SNEAKING',context.Target) and not HasStatus('SG_Ignore_AOO',context.Target) and not AnyEntityIsItem();"
 data "Properties" "UseAttack();"
 
+new entry "Interrupt_ExplosiveCannon"
+type "InterruptData"
+using "Interrupt_Riposte"
+data "DisplayName" "h01831d81g2d20g8c48g5e5eg10559d708494;1"
+data "Description" "hab1f563cgd118gb03bg41b5g1316f04ab315;1"
+data "Icon" "PassiveFeature_Generic_Explosion"
+data "Conditions" "IsAbleToReact(context.Observer) and Enemy(context.Source,context.Observer) and not HasStatus('INVISIBILITY') and not AnyEntityIsItem() and not DistanceToEntityGreaterThan(6, context.ObserverPosition, context.Source) and HasLastAttackTriggered();"
+data "Properties" "CreateExplosion(SWAP,Projectile_EC_Detonate);"
+data "Cost" "ReactionActionPoint:1;ExplosiveCannon:1;"
+data "InterruptDefaultValue" "Ask;Enabled"
+
 new entry "__FIGHTING STYLE FEAT__"
 type "InterruptData"
 

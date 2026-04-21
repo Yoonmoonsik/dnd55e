@@ -1143,6 +1143,20 @@
         <field name="Properties" type="StringTableFieldDefinition" value="UseAttack();" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4da39acf-c332-4a93-a57b-630bbf625b82" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ExplosiveCannon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c7444d60-f45a-4dbf-8bf6-203acf40af5b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h01831d81g2d20g8c48g5e5eg10559d708494" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hab1f563cgd118gb03bg41b5g1316f04ab315" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Explosion" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Enemy(context.Source,context.Observer) and not HasStatus('INVISIBILITY') and not AnyEntityIsItem() and not DistanceToEntityGreaterThan(6, context.ObserverPosition, context.Source) and HasLastAttackTriggered();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="CreateExplosion(SWAP,Projectile_EC_Detonate);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;ExplosiveCannon:1;" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c92b2f4b-211b-41c6-bc5d-4a2826de83c5" />

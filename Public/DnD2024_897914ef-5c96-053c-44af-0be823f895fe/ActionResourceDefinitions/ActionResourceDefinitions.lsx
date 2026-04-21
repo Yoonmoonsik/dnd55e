@@ -557,6 +557,13 @@
                     <attribute id="UUID" type="guid" value="e6681241-1b8c-4098-b58f-cc4e1b77f1e0"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h90cf192bga720g4832g6e4dg0c99af7066d2" version="1"/>
+                    <attribute id="Name" type="FixedString" value="AdrenalineRush"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="1e4fc9f1-8706-413b-b889-b36184e4ee69"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__ATTUNEMENT__"/>
                     <attribute id="UUID" type="guid" value="9c5ec36a-8a7d-4f22-8fa9-4fd78ed71ea3"/>
                 </node>
@@ -567,11 +574,10 @@
                     <attribute id="UUID" type="guid" value="47e03000-b1fd-4fda-ac6e-36f5f670b02b"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h90cf192bga720g4832g6e4dg0c99af7066d2" version="1"/>
-                    <attribute id="Name" type="FixedString" value="AdrenalineRush"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="1e4fc9f1-8706-413b-b889-b36184e4ee69"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd790e5deg5793ge1d8gfbc7gad8509c9beea" version="1"/>
+                    <attribute id="Name" type="FixedString" value="ExplosiveCannon"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="UUID" type="guid" value="a290abe8-0a78-4f85-895e-59ce202369b3"/>
                 </node>
             </children>
         </node>

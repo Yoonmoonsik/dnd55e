@@ -5992,6 +5992,52 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF00BFFF" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a9cfd54-c321-4ed4-815a-e215f031505e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Artillerist_3_Spells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb2e1a5b6gf536gee48g07d0g84251df2a247" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb830b235g9469g7dd2ga75agc175eb448a0b" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monster_GortashMachine_GrenadeLauncher" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="15103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="47b9c563-57fa-45a3-a8d6-b56d8cdd844d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Artillerist_3_EldritchCannon" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8972d6f1gb973gb24eg4f39ga448bf22f9f4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hee38cff0g9a4fg5a8dgfbf6g69eae04525e5" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monster_GortashMachine_GrenadeLauncher" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="15103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6371292b-e757-4142-af95-c7099b533e19" />
+        <field name="Name" type="NameTableFieldDefinition" value="Artillerist_5_ArcaneFirearm" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc7dd7a10g7e44gb9a6gc6bfgcc7a3d89e928" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd05b9c65g79acgf13egbf4ag94ac102d1cb3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monster_GortashMachine_GrenadeLauncher" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="15105" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsSpell()):DamageBonus(1d8);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bcceb0d4-396d-40a1-8983-bae732315b36" />
+        <field name="Name" type="NameTableFieldDefinition" value="Artillerist_9_ExplosiveCannon" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3b11a6dfg7408ga680gbdf9g27b20bb02003" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb63bc4e3g2375g28c1gc6f9g87176ffa864b" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monster_GortashMachine_GrenadeLauncher" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="15109" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_ExplosiveCannon);ActionResource(ExplosiveCannon,1,0);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="056a0c12-3e41-4e67-a705-01e9fea8219f" />

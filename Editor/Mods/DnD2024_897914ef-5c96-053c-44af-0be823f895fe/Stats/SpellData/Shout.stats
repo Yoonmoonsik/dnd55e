@@ -3140,6 +3140,23 @@
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="Blooded(context.Source);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="97977f24-0591-4480-87c7-421e437caac3" />
+        <field name="Name" type="NameTableFieldDefinition" value="EC_Protector" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a6c21a48-2f7a-4d43-96b2-9a72e09c44d8" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(EC_PROTECTOR,100,-1);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Ally();" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha08d7455g92d8ge864g1342g92dbae05a2cd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc3d7957egbf1cga0f8gde92g70f35f4c410f" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(EC_PROTECTOR,100,-1);" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="73afb4e5-8cfe-4479-95cf-16889597fee3,,;7e67bfd0-2fc2-4d10-bed5-cfda9e660de5,,;eb054308-7fce-4b85-bf4c-7a0031fda7ac,,;0b0dc35b-4953-45c0-a9eb-8d3fef5e798a,,;6ec808e1-e128-44ef-9361-a713bf86de8f,,;b2e9c771-3497-444c-b360-23b4441985a1,,;f920a0a6-f257-4ce4-8d17-2dcaa7bb7bbb,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d9003a82-f63d-4c4e-99ed-6fa48c42a7e4" />

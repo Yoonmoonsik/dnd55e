@@ -500,6 +500,20 @@
                     <attribute id="UUID" type="guid" value="ab2f7820-cb6b-49e4-804a-820d25291a16"/>
                 </node>
                 <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h02b82287gfc4bg3b91g9ef9g28e9e7d50dc8" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h47131d60gec85gc936gc2dcgea0e6754c6e8" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Armorer"/>
+                    <attribute id="ParentGuid" type="guid" value="8aa2cf37-7739-4978-ab86-b1190b881620"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="45578db1-e4a0-4f9e-8aff-2916385d3b05"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Artificer"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="d9c984db-15cb-4308-88be-fb88cf3e8c32"/>
+                </node>
+                <node id="ClassDescription">
                     <attribute id="BaseHp" type="int32" value="10"/>
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Gunslinger"/>
@@ -642,17 +656,17 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="h02b82287gfc4bg3b91g9ef9g28e9e7d50dc8" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h47131d60gec85gc936gc2dcgea0e6754c6e8" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="he4ee4e0eg19a4gb02cgb58agdfdbd170d103" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="heb8b42dfgf791g5695g2d5bg94d944d01b24" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="MustPrepareSpells" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="Armorer"/>
+                    <attribute id="Name" type="FixedString" value="Artillerist"/>
                     <attribute id="ParentGuid" type="guid" value="8aa2cf37-7739-4978-ab86-b1190b881620"/>
                     <attribute id="PrimaryAbility" type="uint8" value="4"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="45578db1-e4a0-4f9e-8aff-2916385d3b05"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="56a06eeb-4bc2-4910-88a9-cd4b25480a3c"/>
                     <attribute id="SoundClassType" type="FixedString" value="Artificer"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="4"/>
-                    <attribute id="UUID" type="guid" value="d9c984db-15cb-4308-88be-fb88cf3e8c32"/>
+                    <attribute id="UUID" type="guid" value="9b1afbf5-2133-4042-b39e-dfbade27a60b"/>
                 </node>
             </children>
         </node>

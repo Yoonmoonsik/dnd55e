@@ -26,11 +26,16 @@
 - Level 3: Experimental Elixir
 - Level 5: Alchemical Savant
 - Level 9: Restorative Reagents
-## Armorer
+### Armorer
 - Level 3: Armorer Spells
 - Level 3: Arcane Armor
 - Level 3: Armor Model
 - Level 5: Extra Attack
 - Level 9: Improved Armorer
+### Artillerist
+- Level 3: Artillerist Spells
+- Level 3: Eldritch Cannon
+- Level 5: Arcane Firearm
+- Level 9: Explosive Cannon
 ## Psion
 - Comming soon

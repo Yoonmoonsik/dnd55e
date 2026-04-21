@@ -4002,6 +4002,17 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(ClassLevel(Artificer));" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d28b2c75-f3dc-4cf5-a703-9588809bec2f" />
+        <field name="Name" type="NameTableFieldDefinition" value="EC_PROTECTOR" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a989f61f-c98c-4cfc-b7d7-9871fd7a5876" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h702ee012gf2cegac5agc807g4f790f5c4902" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="GainTemporaryHitPoints(Cause.LevelMapValue(EldritchCannonProtector);" />
+        <field name="StackId" type="StringTableFieldDefinition" value="EC_PROTECTOR" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(Cause.LevelMapValue(EldritchCannonProtector)+Cause.IntelligenceModifier);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cd5cb601-39fb-41ed-9029-5d6fe8911f26" />

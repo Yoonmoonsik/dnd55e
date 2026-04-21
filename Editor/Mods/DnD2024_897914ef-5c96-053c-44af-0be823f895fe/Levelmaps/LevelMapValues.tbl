@@ -304,5 +304,23 @@
         <field name="Level12" type="StringTableFieldDefinition" value="6d12" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="EldritchCannon" />
+        <field name="UUID" type="IdTableFieldDefinition" value="23c59ab7-b59f-4043-8015-81d1d99bf6de" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="8aa2cf37-7739-4978-ab86-b1190b881620" />
+        <field name="Level1" type="StringTableFieldDefinition" value="2d8" />
+        <field name="Level9" type="StringTableFieldDefinition" value="3d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="EldritchCannonProtector" />
+        <field name="UUID" type="IdTableFieldDefinition" value="926982be-5059-49f9-81f4-e53c387f0512" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="8aa2cf37-7739-4978-ab86-b1190b881620" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level9" type="StringTableFieldDefinition" value="2d8" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

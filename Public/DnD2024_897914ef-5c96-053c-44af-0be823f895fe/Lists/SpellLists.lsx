@@ -1649,6 +1649,21 @@
                     <attribute id="Spells" type="LSString" value="Shout_SpeakWithAnimals_ForestGnome;Target_MinorIllusion"/>
                     <attribute id="UUID" type="guid" value="582ed05c-c6fa-4d6f-99f9-efcc9de769f9"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Artillerist Level 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Shield_Wizard;Zone_Thunderwave;Projectile_EC_ForceBallista;Zone_EC_Flamethrower;Shout_EC_Protector"/>
+                    <attribute id="UUID" type="guid" value="f22bf3aa-e6c0-4195-ac17-c6101bc68f64"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Artillerist Level 5"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_ScorchingRay;Target_Shatter"/>
+                    <attribute id="UUID" type="guid" value="d52691a2-1da5-41eb-b2fb-850e9a9360cf"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Artillerist Level 9"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_Fireball;Zone_ConjureBarrage"/>
+                    <attribute id="UUID" type="guid" value="ae58e7e6-ec07-488f-b8d4-dfe40bb4346e"/>
+                </node>
             </children>
         </node>
     </region>

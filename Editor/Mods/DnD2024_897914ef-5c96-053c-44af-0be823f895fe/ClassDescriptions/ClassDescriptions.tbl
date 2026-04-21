@@ -577,6 +577,23 @@
         <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_43" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9b1afbf5-2133-4042-b39e-dfbade27a60b" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="8aa2cf37-7739-4978-ab86-b1190b881620" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Artillerist" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heb8b42dfgf791g5695g2d5bg94d944d01b24" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he4ee4e0eg19a4gb02cgb58agdfdbd170d103" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="56a06eeb-4bc2-4910-88a9-cd4b25480a3c" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Artificer" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="True" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF800000" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_18" />

@@ -7719,8 +7719,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Artificer" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="FirearmExpert" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(SimpleWeapons);Proficiency(HeavyCrossbows);Proficiency(HandCrossbows);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(SimpleWeapons);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(d5f17616-b3cf-47ff-b898-3e37c3961034,2,0,,,,AlwaysPrepared);SelectSkills(365fb93e-1e01-431e-b98b-30e8a326f42a,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);" />
       </fields>
     </stat_object>
@@ -7732,7 +7731,6 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Artificer" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="FirearmExpert" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(d5f17616-b3cf-47ff-b898-3e37c3961034,2,0,,,,AlwaysPrepared);SelectSkills(365fb93e-1e01-431e-b98b-30e8a326f42a,1);" />
         <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
@@ -7760,7 +7758,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);ActionResource(SpellSlot,1,1);" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="ab2f7820-cb6b-49e4-804a-820d25291a16;d9c984db-15cb-4308-88be-fb88cf3e8c32" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="ab2f7820-cb6b-49e4-804a-820d25291a16;d9c984db-15cb-4308-88be-fb88cf3e8c32;9b1afbf5-2133-4042-b39e-dfbade27a60b" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7947,6 +7945,43 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Armoror_9_ImprovedArmorer" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(a552c0d4-10cf-4e5c-8a8f-2164724a5485,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF00BFFF" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_816" />
+        <field name="UUID" type="IdTableFieldDefinition" value="56a06eeb-4bc2-4910-88a9-cd4b25480a3c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="56a06eeb-4bc2-4910-88a9-cd4b25480a3c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Artillerist" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="FirearmExpert;Artillerist_3_Spells;Artillerist_3_EldritchCannon" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(HeavyCrossbows);Proficiency(HandCrossbows);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(f22bf3aa-e6c0-4195-ac17-c6101bc68f64,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_817" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c173d309-f502-4eca-a45a-5b84aec6d165" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="56a06eeb-4bc2-4910-88a9-cd4b25480a3c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Artillerist" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Artillerist_5_ArcaneFirearm" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(d52691a2-1da5-41eb-b2fb-850e9a9360cf,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_818" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1c7024e5-3b8f-4334-99b2-e16f0dfbaec0" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="56a06eeb-4bc2-4910-88a9-cd4b25480a3c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Artillerist" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Artillerist_9_ExplosiveCannon" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(ae58e7e6-ec07-488f-b8d4-dfe40bb4346e,,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
     <stat_object color="#FF800000" is_substat="false">
