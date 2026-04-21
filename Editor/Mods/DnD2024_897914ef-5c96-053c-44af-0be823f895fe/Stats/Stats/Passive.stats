@@ -23,7 +23,7 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,FIRST_ATTACK_TURN,100,1)" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="68145b69-891b-4f5f-8858-7db1b53ec127" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsAttack() or IsSpell();" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAttack() or IsSpell() or IsUnarmedAttack();" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -185,8 +185,9 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h36e05e75gb0acgebbeg511ag25cc56fcde31" version="1" />
         <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="13;Distance(3)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="99998" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasHeavyArmor() and not AbilityGreaterThan('Strength',12,context.Source) and not HasPassive('Armorer_3_ArcaneArmor',context.Source)):ActionResource(Movement,-3,0);" />
-        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate;OnCombatStarted;OnTurn" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,-3,0);" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="HasHeavyArmor(context.Source) and not AbilityGreaterThan('Strength',12,context.Source) and not HasPassive('Armorer_3_ArcaneArmor',context.Source);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -199,6 +200,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(not AbilityGreaterThan('Strength',12,context.Source) and IsMeleeWeaponAttack()):Disadvantage(AttackRoll);" />
         <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="13" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="99998" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -209,6 +211,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h73497683g65cdged9eg85abge93a8ba9aede" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h07e8d8cdgee47gf8bdge26eg6ddb468803f3" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(not AbilityGreaterThan('Dexterity',12,context.Source) and IsRangedWeaponAttack()):Disadvantage(AttackRoll);" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
