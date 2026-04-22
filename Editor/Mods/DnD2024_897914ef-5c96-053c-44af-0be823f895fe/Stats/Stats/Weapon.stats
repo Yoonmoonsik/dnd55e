@@ -4382,7 +4382,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WPN_Sickle_Pact" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7b854117-660e-4f29-8677-2032221bb41e" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b4941ecd-87ba-497d-a9ec-a270f5301738" />
-        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="2d4" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Sickles);" />
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Light;Melee;Dippable;Magical" enumeration_type_name="WeaponFlags" version="1" />
@@ -4408,6 +4408,22 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="7b854117-660e-4f29-8677-2032221bb41e" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1d75dc84-b276-47b0-a0be-a5b25dfcb086" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="0.03" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9bc69ea3-f50f-4166-beb2-4fac0977852e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_MoonSickle" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e36afbbe-9a26-4a0d-b3e7-f63df0499b1d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5120e5d9-8829-480a-b474-d86d7064782a" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;MoonSickle:1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(1);WeaponProperty(Magical)" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_MoonSickle_Passive;MAG_ArcaneEnchantment_Lesser_Passive;" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

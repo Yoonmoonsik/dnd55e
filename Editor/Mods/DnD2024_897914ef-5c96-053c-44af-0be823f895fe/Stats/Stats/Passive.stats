@@ -7598,6 +7598,17 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha4f758dfga2beg1ec7gcda5g49ccf54aa751" version="4" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b475444f-ec4e-43e9-9833-b095e8740841" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_MoonSickle_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h65c236c4gca30g9d80g8ce9geda1067e572a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9c04874bg78bdgf61ag7978g3898f2f266ca" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnHeal" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HealDoneGreaterThan(0) and (IsSpell() or IsCantrip()) or SpellId('Target_AuraOfVitality_Activate');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(1d4);ApplyStatus(PASSIVE_DISCIPLE_OF_LIFE,100,0)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6e19c092-a7fb-4108-a3e4-a2fb86227572" />

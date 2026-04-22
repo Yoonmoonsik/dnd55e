@@ -5495,6 +5495,14 @@ type "PassiveData"
 data "DisplayName" "h345d4909g3905g0fc0g06eag48597d9a0ed4;1"
 data "Description" "ha4f758dfga2beg1ec7gcda5g49ccf54aa751;4"
 
+new entry "MAG_MoonSickle_Passive"
+type "PassiveData"
+data "DisplayName" "h65c236c4gca30g9d80g8ce9geda1067e572a;1"
+data "Description" "h9c04874bg78bdgf61ag7978g3898f2f266ca;1"
+data "StatsFunctorContext" "OnHeal"
+data "Conditions" "HealDoneGreaterThan(0) and (IsSpell() or IsCantrip()) or SpellId('Target_AuraOfVitality_Activate');"
+data "StatsFunctors" "RegainHitPoints(1d4);ApplyStatus(PASSIVE_DISCIPLE_OF_LIFE,100,0)"
+
 new entry "__RACE__"
 type "PassiveData"
 

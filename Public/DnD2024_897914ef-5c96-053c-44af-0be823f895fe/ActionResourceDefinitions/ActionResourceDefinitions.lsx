@@ -445,6 +445,12 @@
                     <attribute id="UUID" type="guid" value="df6afe51-07c7-4ea6-b1dd-d3dff029b860"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd790e5deg5793ge1d8gfbc7gad8509c9beea" version="1"/>
+                    <attribute id="Name" type="FixedString" value="ExplosiveCannon"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="UUID" type="guid" value="a290abe8-0a78-4f85-895e-59ce202369b3"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__ORIGIN FEAT__"/>
                     <attribute id="UUID" type="guid" value="d6f88eae-2cc1-405f-b544-abd2d9ce747b"/>
                 </node>
@@ -574,10 +580,10 @@
                     <attribute id="UUID" type="guid" value="47e03000-b1fd-4fda-ac6e-36f5f670b02b"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="hd790e5deg5793ge1d8gfbc7gad8509c9beea" version="1"/>
-                    <attribute id="Name" type="FixedString" value="ExplosiveCannon"/>
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
-                    <attribute id="UUID" type="guid" value="a290abe8-0a78-4f85-895e-59ce202369b3"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha29a53f0gdcdag13d4g65a6g4969c1a596e5" version="1"/>
+                    <attribute id="Name" type="FixedString" value="MoonSickle"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="014d6340-84cf-4d14-b5a4-4b3f5886f8ba"/>
                 </node>
             </children>
         </node>

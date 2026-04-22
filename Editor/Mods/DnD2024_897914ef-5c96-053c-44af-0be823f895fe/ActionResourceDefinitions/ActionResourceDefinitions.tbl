@@ -828,5 +828,14 @@
         <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Turn" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_84" />
+        <field name="UUID" type="IdTableFieldDefinition" value="014d6340-84cf-4d14-b5a4-4b3f5886f8ba" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="MoonSickle" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha29a53f0gdcdag13d4g65a6g4969c1a596e5" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Turn" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

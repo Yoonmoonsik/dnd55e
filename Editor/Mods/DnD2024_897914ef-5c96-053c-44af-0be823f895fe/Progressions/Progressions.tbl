@@ -2100,7 +2100,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Druid" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);Proficiency(LightArmor);Proficiency(Shields);Tag(PETPAL);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(SimpleWeapons);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);Proficiency(LightArmor);Proficiency(Shields);Tag(PETPAL);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(SimpleWeapons);ActionResource(MoonSickle,1,0)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(a3e28a89-3c36-4516-a1ed-c8061ba7f166,2);SelectSpells(b8faf12f-ca42-45c0-84f8-6951b526182a,2,0,,,,AlwaysPrepared);AddSpells(2cd54137-2fe5-4100-aad3-df64735a8145);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(eb5672b5-ee56-4aed-a7aa-208f3092c432,1,PrimalOrderList);AddSpells(89bfa36a-3ef8-4fa5-872d-1ba208883309,,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
@@ -2112,7 +2112,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Druid" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);Proficiency(LightArmor);Proficiency(Shields);Tag(PETPAL);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);Proficiency(LightArmor);Proficiency(Shields);Tag(PETPAL);ActionResource(MoonSickle,1,0)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(b8faf12f-ca42-45c0-84f8-6951b526182a,2,0,,,,AlwaysPrepared);AddSpells(2cd54137-2fe5-4100-aad3-df64735a8145);SelectPassives(eb5672b5-ee56-4aed-a7aa-208f3092c432,1,PrimalOrderList);AddSpells(89bfa36a-3ef8-4fa5-872d-1ba208883309,,,,AlwaysPrepared)" />
         <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
       </fields>
@@ -4222,7 +4222,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(9e31661e-4c14-499d-98ca-9e00b20faf07,3);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);AddSpells(36f318d0-a713-4ee1-b3ef-a88bbf816f75,,,,AlwaysPrepared);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(FavoredEnemy,2,0)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(FavoredEnemy,2,0);ActionResource(MoonSickle,1,0)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Ranger_1_FavoredEnemy" />
       </fields>
     </stat_object>
@@ -4235,7 +4235,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(9e31661e-4c14-499d-98ca-9e00b20faf07,1);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList);AddSpells(36f318d0-a713-4ee1-b3ef-a88bbf816f75,,,,AlwaysPrepared);" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(FavoredEnemy,2,0)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice10,1,0);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(FavoredEnemy,2,0);ActionResource(MoonSickle,1,0)" />
         <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Ranger_1_FavoredEnemy" />
       </fields>

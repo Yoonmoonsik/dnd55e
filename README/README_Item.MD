@@ -14,6 +14,7 @@
 - Holy Avenger (Paladin Equipment, Loot at Rosymorn Monastery)
 - Hoppy
 - Hunting Shortbow
+- Moon Sickle (Druid and Ranger Equipment, Looted from the front of the Idol of Silvanus)
 - Musket
 - Musket +1
 - Musket +2
