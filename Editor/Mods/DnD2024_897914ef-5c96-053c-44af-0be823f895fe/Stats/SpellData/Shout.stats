@@ -2298,12 +2298,12 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8106a913-eb53-4222-b1b0-65873284e068" />
         <field name="Name" type="NameTableFieldDefinition" value="SteadyAim" />
         <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(STEADY_AIM,100,1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(STEADY_AIM,100,1);ApplyStatus(STEADY_AIM_CANNOT_MOVE,100,1);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Sharpshooter_AllIn" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8cfd42a3ge9ddg2a7bg7928g2b06b4cc30ec" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haf3b75e3g8f42g8af5ge959ga8ee656088f7" version="1" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(STEADY_AIM,100,1);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(STEADY_AIM,100,1)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Steady" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Steady" />
         <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />

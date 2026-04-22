@@ -2699,10 +2699,23 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8b43db08gaf12gc02agb86cge29d6c39df7f" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Sharpshooter_AllIn" />
         <field name="StackId" type="StringTableFieldDefinition" value="STEADY_AIM" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(AttackRoll);ActionResourceBlock(Movement);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(AttackRoll);" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="d22b072c-466c-4e83-a692-6db08d9e1a54" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="IsAttack() or IsSpell() or IsUnarmedAttack();" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e9b50d32-fafb-4592-befd-50d93d67567d" />
+        <field name="Name" type="NameTableFieldDefinition" value="STEADY_AIM_CANNOT_MOVE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="94ddf858-04ab-4e61-9717-c605ec620d29" />
+        <field name="StackId" type="StringTableFieldDefinition" value="STEADY_AIM_CANNOT_MOVE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(Movement);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
