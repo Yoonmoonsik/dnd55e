@@ -1,0 +1,17 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Throw_Throw",_, _)
+THEN
+ApplyStatus(_Player, "FIRST_ATTACK_TURN", 6.0, 1, _Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Throw_Throw_BonusAction",_, _)
+THEN
+ApplyStatus(_Player, "FIRST_ATTACK_TURN", 6.0, 1, _Player);
+EXITSECTION
+
+ENDEXITSECTION
