@@ -76,6 +76,7 @@ new entry "Rush_Charger_Push"
 type "SpellData"
 data "SpellType" "Rush"
 using "Rush_Charger_Push"
+data "SpellSuccess" "DealDamage((max(1,MainMeleeWeapon)), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(not Ally()):Force(ShoveDistance,OriginToEntity,Aggressive);IF(Ally()):Force(ShoveDistance,OriginToEntity,Friendly);"
 data "UseCosts" "ActionPoint:1;Movement:3;ChargerTurn:1;"
 
 new entry "Rush___MAGIC ITEM__"

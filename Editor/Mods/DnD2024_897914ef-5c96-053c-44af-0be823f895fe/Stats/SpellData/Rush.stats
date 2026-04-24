@@ -97,6 +97,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Charger_Push" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5fc6ba07-b41b-4e83-8c2b-408ce704398e" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;Movement:3;ChargerTurn:1;" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((max(1,MainMeleeWeapon)), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(not Ally()):Force(ShoveDistance,OriginToEntity,Aggressive);IF(Ally()):Force(ShoveDistance,OriginToEntity,Friendly);" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
