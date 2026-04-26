@@ -30,7 +30,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Barbarian_1_RageRestore;RageUnlock;UnarmouredDefence_Barbarian;Rage_Armour_Message;Rage_NoHeavyArmour_VFX" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice12,1,0);Proficiency(MartialWeapons);Proficiency(Shields);ActionResource(Rage,2,0);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Constitution)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice12,1,0);Proficiency(MartialWeapons);Proficiency(Shields);ActionResource(Rage,2,0);" />
         <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList)" />
       </fields>
