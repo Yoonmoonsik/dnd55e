@@ -559,7 +559,7 @@ data "DisplayName" "h6ef5198eg577fg6ca6gc4d9gb725efc2c584;1"
 data "Description" "h868292b4g07bag5039g7a39g8b646671c67e;2"
 data "Icon" "Spell_Enchantment_MindSliver"
 data "StackId" "MIND_SLIVER"
-data "Boosts" "RollBonus(SavingThrow,-1d4);"
+data "Boosts" "UnlockInterrupt(Interrupt_MindSliver_RemoveStatus);"
 data "StatusGroups" "SG_Condition"
 
 new entry "CROWN_OF_MADNESS"

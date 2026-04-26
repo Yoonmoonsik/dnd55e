@@ -711,7 +711,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h868292b4g07bag5039g7a39g8b646671c67e" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_MindSliver" />
         <field name="StackId" type="StringTableFieldDefinition" value="MIND_SLIVER" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,-1d4);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_MindSliver_RemoveStatus);" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>

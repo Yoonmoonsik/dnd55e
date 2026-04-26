@@ -864,6 +864,20 @@ data "Properties" "CreateExplosion(SWAP,Projectile_EC_Detonate);"
 data "Cost" "ReactionActionPoint:1;ExplosiveCannon:1;"
 data "InterruptDefaultValue" "Ask;Enabled"
 
+new entry "__SPELL__"
+type "InterruptData"
+
+new entry "Interrupt_MindSliver_RemoveStatus"
+type "InterruptData"
+data "DisplayName" "h463f00d2g43d4g6387ga3e8g5af46bc31369;2"
+data "Icon" "Spell_Enchantment_MindSliver"
+data "InterruptContext" "OnPostRoll;OnCastHit;OnStatusApplied"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "not Dead(context.Observer) or HasInterruptedSavingThrow() or Self(context.Observer,context.Target) or not AnyEntityIsItem() or (IsFlatValueInterruptInteresting(99) or IsFlatValueInterruptInteresting(-99));"
+data "Properties" "AdjustRoll(-1d4);RemoveStatus(OBSERVER_OBSERVER,MIND_SLIVER);"
+data "InterruptDefaultValue" "Enabled"
+
 new entry "__FIGHTING STYLE FEAT__"
 type "InterruptData"
 
