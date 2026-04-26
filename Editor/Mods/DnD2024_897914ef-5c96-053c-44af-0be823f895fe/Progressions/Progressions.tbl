@@ -2141,7 +2141,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(92126d17-7f1a-41d2-ae6c-a8d254d2b135)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel2;MeleeUnarmedAttackBonus" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="2db79008-fad4-4e31-bda3-8d5d34ccda3f;fe416267-36f0-4346-90fc-4aeb7f25ec07;7458da78-34b7-4150-a42f-37197ab04510;3eab0689-e51b-4634-a690-0375d3cb2716;4d73bb8e-5405-4586-9947-0cda0e2f424b;4b61af6c-4a44-436e-aa0a-0d11a2d6b8ee;25ffd448-e661-4994-a354-1bb1d79bbb65" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="2db79008-fad4-4e31-bda3-8d5d34ccda3f;3619c8a4-333d-4d22-a836-a9a8adea92f3;fe416267-36f0-4346-90fc-4aeb7f25ec07;7458da78-34b7-4150-a42f-37197ab04510;3eab0689-e51b-4634-a690-0375d3cb2716;4d73bb8e-5405-4586-9947-0cda0e2f424b;4b61af6c-4a44-436e-aa0a-0d11a2d6b8ee;25ffd448-e661-4994-a354-1bb1d79bbb65" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2817,6 +2817,120 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Unbroken_10_WarMagic;ExtraAttack_Warmagic;WarMagic" />
         <field name="PassivesRemoved" type="StringTableFieldDefinition" value="ExtraAttack" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_819" />
+        <field name="UUID" type="IdTableFieldDefinition" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f" />
+        <field name="FSName" type="StringTableFieldDefinition" value="CircleOfDreams" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Dreams_3_Balm" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Balm,3,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_820" />
+        <field name="UUID" type="IdTableFieldDefinition" value="85ea2e33-7eb7-4644-8a72-1e9eee0578ab" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f" />
+        <field name="FSName" type="StringTableFieldDefinition" value="CircleOfDreams" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Balm,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_823" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0208f8dc-2999-491a-bd2f-4df9c19489b7" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f" />
+        <field name="FSName" type="StringTableFieldDefinition" value="CircleOfDreams" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Balm,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_821" />
+        <field name="UUID" type="IdTableFieldDefinition" value="97783bbe-c465-495f-aec4-1e40ddd57723" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f" />
+        <field name="FSName" type="StringTableFieldDefinition" value="CircleOfDreams" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Dreams_6_Hearth" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Balm,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_824" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c3e87956-a7f2-4b64-8af2-c6d2712c8463" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f" />
+        <field name="FSName" type="StringTableFieldDefinition" value="CircleOfDreams" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Balm,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_825" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4295a449-2406-47a8-811c-d1312d3e2638" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f" />
+        <field name="FSName" type="StringTableFieldDefinition" value="CircleOfDreams" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Balm,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_826" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b772541c-c962-4b44-badf-abcab241b47c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f" />
+        <field name="FSName" type="StringTableFieldDefinition" value="CircleOfDreams" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Balm,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_822" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fc0ee932-7f98-417f-9087-b9a2c8438d44" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f" />
+        <field name="FSName" type="StringTableFieldDefinition" value="CircleOfDreams" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Dreams_10_HiddenPaths" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Balm,1,0);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(0a52fc3e-d165-4fe6-8c7f-d48030e646f1,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_827" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0e2a9285-d05d-4caf-ae26-0b3d4b1282d7" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f" />
+        <field name="FSName" type="StringTableFieldDefinition" value="CircleOfDreams" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Balm,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_828" />
+        <field name="UUID" type="IdTableFieldDefinition" value="70e312ed-d88b-4579-95f4-12a7bf587781" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f" />
+        <field name="FSName" type="StringTableFieldDefinition" value="CircleOfDreams" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Balm,1,0);" />
       </fields>
     </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">

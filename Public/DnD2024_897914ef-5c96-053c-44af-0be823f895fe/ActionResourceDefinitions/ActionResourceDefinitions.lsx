@@ -585,6 +585,20 @@
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
                     <attribute id="UUID" type="guid" value="014d6340-84cf-4d14-b5a4-4b3f5886f8ba"/>
                 </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2871d8a1gc38dg55beg842agaf4d3298bdd3" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Balm"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="378af9c4-9b0d-44e4-a789-29f1673d22f3"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h90bafc33g2849g9ffbg6757g0471be69d9b7" version="1"/>
+                    <attribute id="Name" type="FixedString" value="HiddenPaths"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="8045b053-783c-41e8-8d7c-e4afa80b839a"/>
+                </node>
             </children>
         </node>
     </region>

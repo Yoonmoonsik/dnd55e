@@ -2179,6 +2179,48 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="67789401-df10-4f06-a89a-6e2770e626f0" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CIRCLE OF DREAMS__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="93a5a2a9-f3e3-4fa9-a47f-7cb1491769a0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dreams_3_Balm" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h853388a0g259bga78age028g6a93fbf44c57" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfdecb2bbgb554g7caage8a5ga7a203a6533c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Druid_Balm" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Balm);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3da0b510-359b-4d77-8d4c-afdf5543883f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dreams_6_Hearth" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6002b32ag74ffg3470g0a2cg9afe92b897e5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he2f58070g7662g8b76gc3d9gce5303f3d8c8" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Bard_SongOfRest" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4506" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SongOfRest_Hearth);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="76257613-84f2-4928-a182-35425c255f2d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dreams_10_HiddenPaths" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h86d67657g9bf6g0b50g5e7cg56cc562e49a6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8a84376bg7fbdg24c6g9d95gf3e5c6364f83" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_DimensionDoor" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4510" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HiddenPaths,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(HiddenPaths,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(HiddenPaths,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(HiddenPaths,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(HiddenPaths,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(HiddenPaths,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(HiddenPaths,1,0);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b84ecbb2-39b9-48d5-8b36-840a87d33d6b" />

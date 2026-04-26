@@ -1663,6 +1663,9 @@
                                     <attribute id="Object" type="guid" value="2db79008-fad4-4e31-bda3-8d5d34ccda3f"/>
                                 </node>
                                 <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="3619c8a4-333d-4d22-a836-a9a8adea92f3"/>
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="fe416267-36f0-4346-90fc-4aeb7f25ec07"/>
                                 </node>
                                 <node id="SubClass">
@@ -7190,6 +7193,90 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Balm,3,0);"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="CircleOfDreams"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dreams_3_Balm"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f"/>
+                    <attribute id="UUID" type="guid" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Balm,1,0);"/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="CircleOfDreams"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f"/>
+                    <attribute id="UUID" type="guid" value="85ea2e33-7eb7-4644-8a72-1e9eee0578ab"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Balm,1,0);"/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="CircleOfDreams"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dreams_6_Hearth"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f"/>
+                    <attribute id="UUID" type="guid" value="97783bbe-c465-495f-aec4-1e40ddd57723"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Balm,1,0);"/>
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="CircleOfDreams"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dreams_10_HiddenPaths"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(0a52fc3e-d165-4fe6-8c7f-d48030e646f1,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f"/>
+                    <attribute id="UUID" type="guid" value="fc0ee932-7f98-417f-9087-b9a2c8438d44"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Balm,1,0);"/>
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="CircleOfDreams"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f"/>
+                    <attribute id="UUID" type="guid" value="0208f8dc-2999-491a-bd2f-4df9c19489b7"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Balm,1,0);"/>
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="CircleOfDreams"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f"/>
+                    <attribute id="UUID" type="guid" value="c3e87956-a7f2-4b64-8af2-c6d2712c8463"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Balm,1,0);"/>
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="CircleOfDreams"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f"/>
+                    <attribute id="UUID" type="guid" value="4295a449-2406-47a8-811c-d1312d3e2638"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Balm,1,0);"/>
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="CircleOfDreams"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f"/>
+                    <attribute id="UUID" type="guid" value="b772541c-c962-4b44-badf-abcab241b47c"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Balm,1,0);"/>
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="CircleOfDreams"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f"/>
+                    <attribute id="UUID" type="guid" value="0e2a9285-d05d-4caf-ae26-0b3d4b1282d7"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Balm,1,0);"/>
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="CircleOfDreams"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="aba806c9-d349-4c70-9a1a-0cb0ae699e3f"/>
+                    <attribute id="UUID" type="guid" value="70e312ed-d88b-4579-95f4-12a7bf587781"/>
                 </node>
             </children>
         </node>

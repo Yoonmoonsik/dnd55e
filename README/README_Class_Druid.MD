@@ -15,6 +15,10 @@
 - Level 3: Dragon Shape
 - Level 6: Improved Dragon Shape
 - Level 10: Draconic Magic
+## Circle of Dreams
+- Level 3: Balm of the Summer Court
+- Level 6: Hearth of Moonlight and Shadow
+- Level 10: Hidden Paths
 ## Circle of the Stars
 ## Circle of the Land
 - Level 3: Circle of the Land Spells

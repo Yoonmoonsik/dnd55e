@@ -1928,6 +1928,32 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="20a4704c-3808-43ae-9262-dfbfb805fcab" />
+        <field name="Name" type="NameTableFieldDefinition" value="SongOfRest_Hearth" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4ba1aeca-27a0-4f11-9df6-9fff7984ecb0" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ShortRest();ApplyStatus(SONG_OF_REST_HEARTH,100,-1);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="18" />
+        <field name="AoEConditions" type="StringTableFieldDefinition" value="Ally();" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0bf5656fg0b15g4da8gc1fcg0b504c8b4a4b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7b17de26g4a12g2a89g2353gedd40e2fbe9a" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SONG_OF_REST_HEARTH,100,-1);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_NaturalRecovery" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_NaturalRecovery" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="InstrumentComponentPrepareSound" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="InstrumentComponentLoopingSound" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="InstrumentComponentCastSound" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="InstrumentComponentImpactSound" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="6e19d885-4656-4eae-8b5d-e8cf73fef5d3,,;,,;27b389b2-17b4-4141-a6d2-288f5207bfab,,;9f59e57e-3c7b-453e-a8fc-f413c171089a,,;cbd4bd42-8a34-45e0-a1ae-64bb384950c9,,;,,;cfcc0394-662c-45e1-ae54-3cd25b46d8aa,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="b92a344d-6ade-46ca-aef4-fdfa4db694f9" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="a948977d-8057-4e81-a3cb-1a3ea3cc3812" />
+        <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSoundMagnitude" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="009c46a4-53fe-41c6-9942-641b6b9438eb" />
@@ -3801,6 +3827,12 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h955ac611g781fg6ebfge3d7gd118e6f415a5" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb1577082gdd8ag5ff6g60bcgd99dc936bbc9" version="1" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="CharacterLevelGreaterThan(4)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e4cae72c-701d-4012-af47-bd109e889684" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
       </fields>
     </stat_object>
   </stat_objects>

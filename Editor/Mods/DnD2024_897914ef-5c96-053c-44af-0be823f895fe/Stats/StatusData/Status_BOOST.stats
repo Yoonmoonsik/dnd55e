@@ -2202,6 +2202,77 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8c1996c0-f886-414a-b703-8820e7e36669" />
+        <field name="Name" type="NameTableFieldDefinition" value="BALM_TEMPHP_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="edef3318-0d00-453e-97d7-ee2b96c8ce59" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8ae6911fg454ag4837gb124g3854cf3dde9a" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BALM_TEMPHP_1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b667601-70a0-4d21-9960-fb6356b88c0f" />
+        <field name="Name" type="NameTableFieldDefinition" value="BALM_TEMPHP_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c1996c0-f886-414a-b703-8820e7e36669" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1a044e2f-ccf1-43df-a634-736f63d7c017" />
+        <field name="Name" type="NameTableFieldDefinition" value="BALM_TEMPHP_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c1996c0-f886-414a-b703-8820e7e36669" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="3" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(3);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="36f96d77-c25d-4390-b3dc-2c059e4e7801" />
+        <field name="Name" type="NameTableFieldDefinition" value="BALM_TEMPHP_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c1996c0-f886-414a-b703-8820e7e36669" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="4" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(4);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5a6bec47-d3e7-4f38-88ca-0b4fd225ef40" />
+        <field name="Name" type="NameTableFieldDefinition" value="BALM_TEMPHP_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c1996c0-f886-414a-b703-8820e7e36669" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="5" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(5);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eeb6669d-14df-4128-92e8-674f91752a11" />
+        <field name="Name" type="NameTableFieldDefinition" value="BALM_TEMPHP_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c1996c0-f886-414a-b703-8820e7e36669" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="6" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="6" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6f9e3c7c-abba-475d-b5b8-f0e2f038443e" />
+        <field name="Name" type="NameTableFieldDefinition" value="SONG_OF_REST_HEARTH" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h25cebc5cgd794gb02fg2941g193df53c964f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd876484bg06deg6a8egb4b1gc6a59e051290" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Bard_SongOfRest" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SONG_OF_REST_HEARTH" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Stealth,5);Skill(Perception,5);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a99d9d07-ee9c-4dc1-8977-a49e44d100d8" />

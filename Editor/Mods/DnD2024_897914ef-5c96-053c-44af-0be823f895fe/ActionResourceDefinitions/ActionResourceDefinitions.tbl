@@ -185,6 +185,26 @@
         <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_85" />
+        <field name="UUID" type="IdTableFieldDefinition" value="378af9c4-9b0d-44e4-a789-29f1673d22f3" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Balm" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2871d8a1gc38dg55beg842agaf4d3298bdd3" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_86" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8045b053-783c-41e8-8d7c-e4afa80b839a" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="HiddenPaths" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h90bafc33g2849g9ffbg6757g0471be69d9b7" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />

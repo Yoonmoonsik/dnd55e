@@ -6048,7 +6048,7 @@
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2b54832cgd102gec1dg521dgc5239b16c5b9" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d366d57g2abcg334egec99gd574e5abbc31" version="1" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(LandsAid),Necrotic);&#xD;&#xA;RegainHitPoints(LevelMapValue(LandsAid));" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(LandsAid),Necrotic);RegainHitPoints(LevelMapValue(LandsAid));" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Control_Entangle_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Control_Entangle_L1to3" />
         <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_SurfaceCreationVines" />
@@ -6124,6 +6124,121 @@
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Slashing" enumeration_type_name="Damage Type" version="1" />
         <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="SpellSoundMagnitude" version="1" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="DontChange" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF9ACD32" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c03a4f1d-eb01-4db0-b15c-40aabaf06786" />
+        <field name="Name" type="NameTableFieldDefinition" value="Balm" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_Balm_1;Target_Balm_2;Target_Balm_3;Target_Balm_4;Target_Balm_5;Target_Balm_6;" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(1d6);ApplyStatus(BALM_TEMPHP_1,100,-1);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Tagged('UNDEAD') and not Tagged('CONSTRUCT')" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Druid_Balm" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h37aa6b9dgff7fg4b1bgab52g38d4828960cd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he20dfbbag75a3gc426g332eg26d5f5687c72" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(1d6);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BALM_TEMPHP_1,100,-1);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Summon_Goodberry_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Healing_HealingWord_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Ally() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;Balm:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;29cc8ef2-e45e-4513-8f98-085d0dad7bc1,,;bb428832-db99-4236-8a81-a2737b81d0cc,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;8dd1cfd4-c954-46f0-bbcc-8d9431284f63,,;fcf4f367-691a-4adc-a2a8-f9ab7709c42b,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="RangeIgnoreVerticalThreshold;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="f2e02f51-70c2-482b-bcac-2dac285fda14" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="e7d9a675-3a62-4eb5-9d90-f41884b1f524" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="45f03e64-4e97-42a3-8597-af369687c896" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fcefac6b-6fb8-48bc-a3a3-4abc4d048506" />
+        <field name="Name" type="NameTableFieldDefinition" value="Balm_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c03a4f1d-eb01-4db0-b15c-40aabaf06786" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Balm" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ef977c19-f216-43d5-b46a-32cf98dad0f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Balm_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fcefac6b-6fb8-48bc-a3a3-4abc4d048506" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(2d6);ApplyStatus(BALM_TEMPHP_2,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(4,'Druid',context.Source);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(2d6);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BALM_TEMPHP_2,100,-1);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;Balm:2" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed6dbcc3-1683-414b-85dd-a653524460c0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Balm_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ef977c19-f216-43d5-b46a-32cf98dad0f5" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(3d6);ApplyStatus(BALM_TEMPHP_3,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(6,'Druid',context.Source);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(3d6);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BALM_TEMPHP_3,100,-1);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;Balm:3" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="73fb778e-4a04-448f-bf70-21af9b43fb9f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Balm_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ef977c19-f216-43d5-b46a-32cf98dad0f5" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(4d6);ApplyStatus(BALM_TEMPHP_4,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(8,'Druid',context.Source);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(4d6);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BALM_TEMPHP_4,100,-1);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;Balm:4" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8faa4663-f625-4b7d-8492-85866c1a098e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Balm_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ef977c19-f216-43d5-b46a-32cf98dad0f5" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(5d6);ApplyStatus(BALM_TEMPHP_5,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(10,'Druid',context.Source);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(5d6);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BALM_TEMPHP_5,100,-1);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;Balm:5" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5a30f28b-a7b7-493e-a4ee-ee7e06df0d6d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Balm_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ef977c19-f216-43d5-b46a-32cf98dad0f5" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(6d6);ApplyStatus(BALM_TEMPHP_6,100,-1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(12,'Druid',context.Source);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(6d6);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BALM_TEMPHP_6,100,-1);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;Balm:6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e6d9a53c-f7c2-42af-a806-b1a630dbc158" />
+        <field name="Name" type="NameTableFieldDefinition" value="HiddenPaths" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fdf25d3d-b45f-47b6-9760-d2f2f0651239" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h447397a3g875fgc842g106dg4b2c03ef1b5b" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;HiddenPaths:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">
