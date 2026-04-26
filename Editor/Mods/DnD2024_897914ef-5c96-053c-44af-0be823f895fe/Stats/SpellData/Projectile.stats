@@ -1970,7 +1970,7 @@
         <field name="SpellRoll" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellFail" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Enemy();" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
