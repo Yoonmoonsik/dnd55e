@@ -78,7 +78,7 @@
         <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="9a44e828-92db-4d6c-acbc-a4f8ef340415" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
         <field name="DefaultValues" type="StringTableFieldDefinition" value="HasWeaponMastery_Nick;HasWeaponMastery_Vex" />
-        <field name="Comment" type="CommentTableFieldDefinition" value="Rogue Weapon Master" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Rogue Weapon Mastery" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -89,6 +89,56 @@
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
         <field name="DefaultValues" type="StringTableFieldDefinition" value="PactOfTheBlade_Hex" />
         <field name="Comment" type="CommentTableFieldDefinition" value="Warlock Invocation" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bd1104cd-a012-4529-b9fb-83efa486d991" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="6e7b7bad-e122-4679-8b3c-8f8987a9d466" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Cleric_PrimalOrder_Warden" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Druid Primal Order" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_10" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f91b2949-20bf-422e-b121-1663d690eebb" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="HasWeaponMastery_Push;HasWeaponMastery_Sap" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Paladin Weapon Mastery" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_11" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ae961495-fd44-467e-b142-860b71325dd6" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="8f068974-ed32-43fc-a9d9-028be1c01a9c" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="HasWeaponMastery_Nick;HasWeaponMastery_Vex" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Ranger Weapon Mastery" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_12" />
+        <field name="UUID" type="IdTableFieldDefinition" value="72d62d58-2e1e-4bef-a0ce-ef5cd13e5868" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="eb9db11d-1091-49fa-9006-2f52bbb76f6a" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Perception" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Elf Skill" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_13" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1500fae7-78af-42d1-9458-ca4ffe487923" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="a43498f5-d72f-4a05-b721-1feea9acb3ad" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Perception" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Drow Skill" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -58,6 +58,36 @@
                     <attribute id="TableUUID" type="guid" value="a7a958f1-d858-4021-9fa7-cf87e7d71377"/>
                     <attribute id="UUID" type="guid" value="fda6ea25-33e3-492c-8154-e9107dc9c8c3"/>
                 </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Cleric_PrimalOrder_Warden"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="6e7b7bad-e122-4679-8b3c-8f8987a9d466"/>
+                    <attribute id="UUID" type="guid" value="bd1104cd-a012-4529-b9fb-83efa486d991"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="HasWeaponMastery_Push;HasWeaponMastery_Sap"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="ba2afe85-acba-4ea1-a238-2b4543f47821"/>
+                    <attribute id="UUID" type="guid" value="f91b2949-20bf-422e-b121-1663d690eebb"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="HasWeaponMastery_Nick;HasWeaponMastery_Vex"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="8f068974-ed32-43fc-a9d9-028be1c01a9c"/>
+                    <attribute id="UUID" type="guid" value="ae961495-fd44-467e-b142-860b71325dd6"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Perception"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="eb9db11d-1091-49fa-9006-2f52bbb76f6a"/>
+                    <attribute id="UUID" type="guid" value="72d62d58-2e1e-4bef-a0ce-ef5cd13e5868"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Perception"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="a43498f5-d72f-4a05-b721-1feea9acb3ad"/>
+                    <attribute id="UUID" type="guid" value="1500fae7-78af-42d1-9458-ca4ffe487923"/>
+                </node>
             </children>
         </node>
     </region>
