@@ -8,6 +8,13 @@
 - Healing Hands
 - Light Bearer
 - Celestial Revelation
+## Dhampir (Select as a Human Level 1 Passive)
+- Creature Type: Humanoid
+- Size: Medium (about 4–7 feet tall)
+- Speed: 35 feet
+- Darkvision
+- Trace of Undeath
+- Vampiric Bite
 ## Dragonborn
 - Creature Type: Humanoid
 - Size: Medium (about 5–7 feet tall)
@@ -98,6 +105,13 @@
 - Resourceful
 - Skillful
 - Versatile
+## Kalashtar (Select as a Human Level 1 Passive)
+- Creature Type: Humanoid
+- Size: Medium (about 6–7 feet tall)
+- Speed: 30 feet
+- Dual Mind
+- Mental Discipline
+- Severed from Dreams
 ## Orc
 - Creature Type: Humanoid
 - Size: Medium (about 6–7 feet tall)

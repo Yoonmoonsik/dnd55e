@@ -7707,6 +7707,18 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="664ff233-a998-4aef-87eb-2a419e87c889" />
+        <field name="Name" type="NameTableFieldDefinition" value="Race_Dhampir" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h318e3ac4g7a18ga5edgf912g65c014f1354e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h64543ab1gec40g4962g092eg85f690ed7102" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_VampireBite" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Necrotic,Resistant);ActionResource(Movement,1.5,0);DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989);UnlockSpell(Target_VampireBite_Astarion);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="83349e45-765e-40b0-8d29-a78b29a99744" />
         <field name="Name" type="NameTableFieldDefinition" value="Race_Goliath" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heaf54f1fg5a38gb0bcgce29ga8bbc11c1a24" version="1" />
@@ -7715,6 +7727,18 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CloudsJaunt);UnlockSpell(Shout_LargeForm);UnlockInterrupt(Interrupt_FiresBurn);UnlockInterrupt(Interrupt_FrostsChill);UnlockInterrupt(Interrupt_HillsTumble);UnlockInterrupt(Interrupt_StonesEndurance);UnlockInterrupt(Interrupt_StormsThunder);ActionResource(Goliath,2,0);ActionResource(Movement,1.5,0);IF(CharacterLevelGreaterThan(4)):ActionResource(Goliath,1,0);IF(CharacterLevelGreaterThan(8)):ActionResource(Goliath,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b45ae33a-e85c-4dad-9a88-69a61b31d12b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Race_Kalashtar" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha48ff32fg388ag1220g80cbgc8e2ec3cd1c7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9105e090ga08cg9a3fgb40ag60da6cec8ae0" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_FeyPresence" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Psychic,Resistant);Advantage(SavingThrow, Wisdom);Advantage(SavingThrow, Charisma);UnlockSpell(Shout_DreamKnowledge);" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

@@ -5427,6 +5427,69 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsAttack() or IsSpell()):DamageBonus(ProficiencyBonus, Necrotic);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6a2fa197-509b-43f0-aef6-e9b97273ff8b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ASTARION_HAPPY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bcb4d489-6484-474f-a301-a74d6dfadc5d" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9936bfdfgad15g113bged99g9778bc8cba86" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1aeed96f-20f5-48ad-aa19-29d9505be298" />
+        <field name="Name" type="NameTableFieldDefinition" value="ASTARION_WEAK" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f87c2217-0af0-4af3-a928-7358619c6c96" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe12f9cd-6c72-4a98-b19a-59490143c487" />
+        <field name="Name" type="NameTableFieldDefinition" value="DREAM_KNOWLEDGE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="58c878ac-e25a-4abc-86b5-747fa0f1142a" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h349db2d2g6007g8ab3g7a65gc8a49bb91090" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="09032345-24b0-4b3e-a680-42ee95118b27" />
+        <field name="Name" type="NameTableFieldDefinition" value="ASTRAL_KNOWLEDGE_STRENGTH" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="aed88c9a-a3c3-4460-9ed3-075cfd053cd8" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf8e05d10g02faga33fg2d55ge9f15c67f8f2" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="66d2791d-e5dd-4535-b66d-9a878133ac0f" />
+        <field name="Name" type="NameTableFieldDefinition" value="ASTRAL_KNOWLEDGE_DEXTERITY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3fcdb0fb-7e5b-4045-a6df-4d3689a7a3f6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h22d73c13gc15eg0eacg8774ge49e882c482d" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="50c4b968-ed10-4041-8381-6d2c157abac9" />
+        <field name="Name" type="NameTableFieldDefinition" value="ASTRAL_KNOWLEDGE_INTELLIGENCE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dd681ea3-156f-4c37-85e7-b8b67ca43ae1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h80c38745g80eag0668gc029g08825f3ec1ef" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d351dd1-c38a-4739-a972-44f1770fa192" />
+        <field name="Name" type="NameTableFieldDefinition" value="ASTRAL_KNOWLEDGE_WISDOM" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f5031a69-8e24-436a-a747-fb9fb4731e15" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0152f209g939bg4575g22f7g26ad677352b5" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8e09e362-9098-4b7d-abd0-36a2cd1ebd9a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ASTRAL_KNOWLEDGE_CHARISMA" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3207d9fd-d41b-4da4-bd2a-503f8a935ecb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb641ddd6g0950g5b50gf483g681c68224f61" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="452a54eb-17df-4763-ab1f-4cf7a0656376" />
