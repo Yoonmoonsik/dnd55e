@@ -3490,6 +3490,13 @@ using "MAGICINITIATE_ACIDSPLASH"
 data "StackId" "MAGICINITIATE_GUIDANCE"
 data "Boosts" "UnlockSpell(Target_Guidance);"
 
+new entry "MAGICINITIATE_GREENFLAMEBLADE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAGICINITIATE_ACIDSPLASH"
+data "StackId" "MAGICINITIATE_GREENFLAMEBLADE"
+data "Boosts" "UnlockSpell(Target_GreenFlameBlade);"
+
 new entry "MAGICINITIATE_LIGHT"
 type "StatusData"
 data "StatusType" "BOOST"

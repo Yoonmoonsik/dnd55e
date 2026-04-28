@@ -4351,6 +4351,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6ea33317-cdfb-4209-a8aa-b44f2c1e357e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_GREENFLAMEBLADE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_GREENFLAMEBLADE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_GreenFlameBlade);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="aa52b732-f576-47ca-a9ae-ad538966a10d" />
         <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_LIGHT" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
