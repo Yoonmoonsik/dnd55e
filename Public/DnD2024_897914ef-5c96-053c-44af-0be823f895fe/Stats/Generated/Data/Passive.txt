@@ -24,7 +24,7 @@ data "DisplayName" "h4d9f934eg7721gfb63gcff8gb411e659dc78;1"
 data "Description" "hd3ffb028g9755g52adgf223g4bb289eebf93;1"
 data "Icon" "PassiveFeature_Generic_Magical"
 data "StatsFunctorContext" "OnCast;OnAttack;OnCastResolved"
-data "Conditions" "IsSpell() and (HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot') or HasUseCosts('ShadowSpellSlot'));"
+data "Conditions" "IsSpell() and (HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot') or HasUseCosts('ShadowSpellSlot')) and not CreateSorceryPoints();"
 data "StatsFunctors" "ApplyStatus(SELF,ONE_SPELL_WITH_A_SPELL_SLOT_PER_TURN,100,1)"
 
 new entry "ShortResting"

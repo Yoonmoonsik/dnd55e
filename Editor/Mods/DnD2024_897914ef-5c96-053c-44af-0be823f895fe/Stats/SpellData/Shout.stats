@@ -2627,6 +2627,54 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ff56a8f-d0e3-4f40-a55d-23b9b2ee366c" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateSorceryPoints" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3ebc192f-035e-4acd-8a59-f9119a423b43" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="67ed7380-ea65-41af-9ea4-e5e9724322e7" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateSorceryPoints_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b2d2a30b-e94f-4bd8-b75c-869558191663" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5b807a80-3dfc-4591-9a65-70d1c2ef8cd5" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateSorceryPoints_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="af3a0ea0-dede-4b2a-858d-21d3d12a595a" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:2;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fb99e830-4235-481c-ab08-3347e9424f19" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateSorceryPoints_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f4e15d94-b411-448a-9235-3d05c56eb39e" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:3;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e8c0c276-c1d8-4fa8-b1c8-e465a2a12baa" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateSorceryPoints_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5c05066f-8be1-4fe3-b702-047aeee15009" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:4;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e37022c7-370e-4515-a100-51fe598de46e" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateSorceryPoints_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fe2d38e8-9144-4808-8979-0d247598fe32" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:5;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f278fbc2-1ff4-4b5e-be03-68515d765852" />
         <field name="Name" type="NameTableFieldDefinition" value="SorcerousRestoration" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />

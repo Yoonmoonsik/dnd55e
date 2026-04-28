@@ -1,0 +1,8 @@
+function CreateSorceryPoints()
+	return SpellId('Shout_CreateSorceryPoints')
+	 | SpellId('Shout_CreateSorceryPoints_1')
+	 | SpellId('Shout_CreateSorceryPoints_2')
+	 | SpellId('Shout_CreateSorceryPoints_3')
+	 | SpellId('Shout_CreateSorceryPoints_4')
+	 | SpellId('Shout_CreateSorceryPoints_5')
+end
