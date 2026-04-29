@@ -5318,7 +5318,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="2" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice06,1,0);ActionResource(SpellSlot,1,1);ActionResource(SorceryPoint,2,0);Tag(SORCERER_METAMAGIC)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(92c4751f-6255-4f67-822c-a75d53830b27,1,2,SorcererSpell);AddSpells(979e37ad-05fa-466c-af99-9eb104a6e876);SelectPassives(c3506532-36eb-4d18-823e-497a537a9619,2,Metamagic)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(92c4751f-6255-4f67-822c-a75d53830b27,2,1,SorcererSpell);AddSpells(979e37ad-05fa-466c-af99-9eb104a6e876);SelectPassives(c3506532-36eb-4d18-823e-497a537a9619,2,Metamagic)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5330,7 +5330,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice06,1,0);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(SorceryPoint,1,0)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(f80396e2-cb76-4694-b0db-5c34da61a478,1,2,SorcererSpell)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(f80396e2-cb76-4694-b0db-5c34da61a478,2,1,SorcererSpell)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel2" />
         <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="ee5a89b5-21c6-419e-8b30-aecf929bd7d7;886e988c-1d77-43ad-a0a9-f1e48c56d29b;36286b0a-26f9-4b4e-9311-fd1404301d20;b443a7fa-b36a-4cbc-9e4b-f3167de34d1b;42622d71-74af-409a-b821-85f270245fe2;d379fdae-b401-4731-8d50-277c73919ae3;14374d37-a70e-41a8-9dc5-85a23f8b5dd2" />
       </fields>
@@ -5357,7 +5357,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice06,1,0);ActionResource(SpellSlot,2,3);ActionResource(SorceryPoint,1,0)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(dcbaf2ae-1f45-453e-ab83-cd154f8277a4,1,2,SorcererSpell);AddSpells(f339317f-2b82-4240-b51f-ee3dc61148e3);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(dcbaf2ae-1f45-453e-ab83-cd154f8277a4,2,1,SorcererSpell);AddSpells(f339317f-2b82-4240-b51f-ee3dc61148e3);" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel3" />
       </fields>
     </stat_object>
