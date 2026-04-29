@@ -6234,7 +6234,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="OriginFeat_MagicInitiate_Cleric" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd660fd06g45aeg25f4g7e9dg6fd338c66f83" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('MAGICINITIATE_CLERIC_CANTRIP_END',context.Source)):ApplyStatus(SELF,MAGICINITIATE_CLERIC_CANTRIP_START,100,-1);IF(not HasStatus('MAGICINITIATE_CLERIC_SPELL_END',context.Source)):ApplyStatus(MAGICINITIATE_CLERIC_SPELL_START,100,-1)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('MAGICINITIATE_CLERIC_CANTRIP_END',context.Source)):ApplyStatus(MAGICINITIATE_CLERIC_CANTRIP_START,100,-1);IF(not HasStatus('MAGICINITIATE_CLERIC_SPELL_END',context.Source)):ApplyStatus(MAGICINITIATE_CLERIC_SPELL_START,100,-1)" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7fd3e98dg8cddgd47cg0aeag9f03355feaaa" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateCleric" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
@@ -6250,7 +6250,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="fa591415-e2a3-490d-9385-91672548c3be" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3522b895gaf8eg23c8ge2a5g19305a3832ce" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateDruid" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('MAGICINITIATE_DRUID_CANTRIP_END',context.Source)):ApplyStatus(SELF,MAGICINITIATE_DRUID_CANTRIP_START,100,-1);IF(not HasStatus('MAGICINITIATE_DRUID_SPELL_END',context.Source)):ApplyStatus(MAGICINITIATE_DRUID_SPELL_START,100,-1)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('MAGICINITIATE_DRUID_CANTRIP_END',context.Source)):ApplyStatus(MAGICINITIATE_DRUID_CANTRIP_START,100,-1);IF(not HasStatus('MAGICINITIATE_DRUID_SPELL_END',context.Source)):ApplyStatus(MAGICINITIATE_DRUID_SPELL_START,100,-1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6259,7 +6259,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="OriginFeat_MagicInitiate_Wizard" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fa591415-e2a3-490d-9385-91672548c3be" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateWizard" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('MAGICINITIATE_WIZARD_CANTRIP_END',context.Source)):ApplyStatus(SELF,MAGICINITIATE_WIZARD_CANTRIP_START,100,-1);IF(not HasStatus('MAGICINITIATE_WIZARD_SPELL_END',context.Source)):ApplyStatus(MAGICINITIATE_WIZARD_SPELL_START,100,-1)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('MAGICINITIATE_WIZARD_CANTRIP_END',context.Source)):ApplyStatus(MAGICINITIATE_WIZARD_CANTRIP_START,100,-1);IF(not HasStatus('MAGICINITIATE_WIZARD_SPELL_END',context.Source)):ApplyStatus(MAGICINITIATE_WIZARD_SPELL_START,100,-1)" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5e27ad01ga610ga42cgc65dg1ce99d93cdf8" version="1" />
       </fields>
     </stat_object>
