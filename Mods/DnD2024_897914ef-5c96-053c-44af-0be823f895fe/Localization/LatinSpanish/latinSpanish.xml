@@ -318,7 +318,7 @@
   <content contentuid="h0558e9e5gd74bg0f9fg2820gc589e678173e" version="1">Puedes aplicar adicionalmente la propiedad de maestría Debilitar a ese ataque.</content>
   <content contentuid="h1bcf613agff33gdd61g8288g83128f467505" version="1">Maestro Táctico: Frenar</content>
   <content contentuid="hfd56201dg7690g59deg5771g7c00df6810c1" version="1">Puedes aplicar adicionalmente la propiedad de maestría Frenar a ese ataque.</content>
-  <content contentuid="h1261d64eg6ff9gfcfcg691agbb4378c7bc02" version="2">Regla: Requisito de Fuerza (Cota de Malla)</content>
+  <content contentuid="h1261d64eg6ff9gfcfcg691agbb4378c7bc02" version="7">Regla: Requisito de Fuerza (Cota de Malla)</content>
   <content contentuid="he349bc27ga203ge868g3f0ag5fdf65b7e83b" version="1">Si una criatura que lleva esta Armadura Pesada tiene una puntuación de Fuerza menor que [1], su Velocidad se reduce en [2].</content>
   <content contentuid="h412ee86dgfedcga2beg54adgbd1f6bc466f9" version="1">Regla: Requisito de Fuerza (Armadura de Tablillas)</content>
   <content contentuid="h1855925eg36d7g774cg4917gc8135001356f" version="1">Regla: Requisito de Fuerza (Armadura de Placas)</content>
@@ -1042,7 +1042,7 @@ Daño bárdico. Puedes usar Destreza en lugar de Fuerza para las tiradas de ataq
   <content contentuid="h6bbeea0cgfb9cg7197g9d87gc41ed5911b46" version="1">Escudo de Cuchillas</content>
   <content contentuid="h6ad2bdeag8e58g6b4fg3462g9aff44485001" version="1">La Segadora Hecha Manifiesta</content>
   <content contentuid="h8ccd7ec2g9ed6g29bdgcacfg269b2a087595" version="1">%%% EMPTY</content>
-  <content contentuid="h2bed4266gaf46g07f6g40a0gfb3ed759c291" version="1">Inconmovible</content>
+  <content contentuid="h2bed4266gaf46g07f6g40a0gfb3ed759c291" version="1">Inamovible</content>
   <content contentuid="h4cb8944dg8c41g9ac6g6980gc440a0c3f06a" version="1">No puedes ser movido a la fuerza por los conjuros o acciones de un enemigo, e ignoras los efectos del &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Terreno Difícil&lt;/LSTag&gt;.</content>
   <content contentuid="h83b85c59gb22dg5169g66f4ge07c7b7871db" version="1">Transportado al Plano Etéreo</content>
   <content contentuid="h1508cdd1g54acg7e72gc647gec06dce25778" version="1">La entidad afectada está en el Plano Etéreo, donde no puede ser dañada, vista ni afectada.&lt;br&gt;&lt;br&gt;Mientras está en el Plano Etéreo, la entidad no puede moverse ni interactuar con nada en el mundo. Solo puede elegir teletransportarse hasta [1].&lt;br&gt;&lt;br&gt;Al final de cada turno, hay una probabilidad de que reaparezca en el Plano Material.</content>
@@ -2557,7 +2557,7 @@ Druidas de este Círculo saben que los dragones, y la magia dracónica, están t
 
 Puedes usar tus runas varias veces según tu nivel de luchador: 3 usos en el nivel 3, 4 usos en el nivel 7 y 5 usos en el nivel 10. Recuperas todos los usos gastados cuando terminas un Descanso Corto.
 
-If a rune requires a saving throw, its save DC equals 8 + your proficiency bonus + your Constitution modifier.</content>
+Si una runa requiere una tirada de salvación, su CD de salvación es igual a 8 + tu bonificación de competencia + tu modificador de Constitución..</content>
   <content contentuid="h234cd41egb166g8eb3g6939g36498884c3ea" version="1">Nivel 3: Fuerza del Gigante</content>
   <content contentuid="hffd4abcage782g546dgaeacgc8fe055bd42e" version="2">Como Acción Adicional, obtienes poder de gigante durante 1 minuto. Te vuelves Grande, tienes Ventaja en las pruebas de Fuerza y tiradas de salvación de Fuerza, y tus ataques con armas o desarmados infligen 1d6 de daño adicional al impactar.</content>
   <content contentuid="h2c76a4f7g48d1g3368ga27agbd1576843d8d" version="1">Nivel 7: Escudo Rúnico</content>
@@ -3339,4 +3339,82 @@ Infiltrador. El dado de daño de tu Lanzador de rayos aumenta a 2d6 de daño de 
   <content contentuid="ha243be2aged30g4c6dg9dedge3df9a10db81" version="1">Mientras estás ensangrentado, puedes realizar una acción adicional para ganar puntos de vida temporales iguales a tu nivel de Artífice. Pierdes estos puntos de vida temporales si te quitas la armadura.</content>
   <content contentuid="h1986e89ag8ebfg5144gcfc6g4888865326e5" version="1">Campo defensivo</content>
   <content contentuid="h7564a2a6g104bg423egf734g715e17a86450" version="1">Otorgar [1].</content>
-</contentList>
+  <content contentuid="h90cf192bga720g4832g6e4dg0c99af7066d2" version="1">Impulso de adrenalina</content>
+  <content contentuid="heb8b42dfgf791g5695g2d5bg94d944d01b24" version="1">Artillero</content>
+  <content contentuid="he4ee4e0eg19a4gb02cgb58agdfdbd170d103" version="1">Un artillero se especializa en usar magia para lanzar energía, proyectiles y explosiones en el campo de batalla.</content>
+  <content contentuid="hb2e1a5b6gf536gee48g07d0g84251df2a247" version="1">Nivel 3: Hechizos de artillero</content>
+  <content contentuid="hb830b235g9469g7dd2ga75agc175eb448a0b" version="3">Cuando alcanzas ciertos niveles de Artificiero, siempre tienes preparados conjuros específicos. Al nivel 3, obtienes Escudo y Ola de Trueno. Al nivel 5, obtienes Rayo Abrasador y Añicos. Al nivel 9, obtienes Bola de Fuego y Convocar Descarga.</content>
+  <content contentuid="h8972d6f1gb973gb24eg4f39ga448bf22f9f4" version="1">Nivel 3: Cañón Eldritch</content>
+  <content contentuid="hee38cff0g9a4fg5a8dgfbf6g69eae04525e5" version="1">Puedes crear un Cañón Eldritch Diminuto en tu mano. Tú determinas su apariencia y si lo portas, incluyendo su forma, como si tuviera patas o ruedas.</content>
+  <content contentuid="hc7dd7a10g7e44gb9a6gc6bfgcc7a3d89e928" version="1">Nivel 5: Arma de Fuego Arcana</content>
+  <content contentuid="hd05b9c65g79acgf13egbf4ag94ac102d1cb3" version="1">Puedes usar tu Arma de Fuego Arcana como Foco de Lanzamiento de Conjuros para tus conjuros de Artificiero. Cuando lanzas un conjuro de Artificiero a través del arma de fuego, lanza 1d8 y obtienes un bonificador a una de las tiradas de daño del conjuro igual al número obtenido.</content>
+  <content contentuid="h3b11a6dfg7408ga680gbdf9g27b20bb02003" version="1">Nivel 9: Cañón Explosivo</content>
+  <content contentuid="hb63bc4e3g2375g28c1gc6f9g87176ffa864b" version="2">El Cañón Eldritch que creas ahora es más destructivo, otorgando los siguientes beneficios.
+
+Detonar. Cuando recibes daño, puedes usar tu Reacción para ordenar al cañón que detone. Cada criatura enemiga a 20 pies de ti debe realizar una tirada de salvación de Destreza contra tu CD de conjuros, recibiendo 3d10 de daño de Fuerza si falla, o la mitad si tiene éxito. Puedes usar esta habilidad una vez por descanso corto.
+
+Potencia de Fuego. Las tiradas de daño del cañón, así como el número de Puntos de Golpe Temporales otorgados por Protector, aumentan en 1d8.</content>
+  <content contentuid="h3f377196g65a7g4515g06e5gba317fd59da5" version="1">Balista de Fuerza</content>
+  <content contentuid="h8f981f57g7f1bga2f4ge878g2c2d2bc07d69" version="1">Realiza un ataque de conjuro a distancia que se origina desde el cañón contra una criatura u objeto. Si impacta, el objetivo recibe daño de Fuerza y, si el objetivo es una criatura, es empujado hasta 5 pies desde el cañón.</content>
+  <content contentuid="h03d65a32ga8ccg59e0g4ea5g3121ef238425" version="1">Lanzallamas</content>
+  <content contentuid="h567842fbg3adcgb2d8ga509g4f0c4fef8cc5" version="1">El cañón dispara fuego en un Cono de 15 pies. Cada criatura en esa área realiza una tirada de salvación de Destreza contra tu CD de conjuros, recibiendo daño de Fuego si falla o la mitad si tiene éxito. Los objetos inflamables en el Cono que no se estén usando ni cargando comienzan a arder.</content>
+  <content contentuid="h702ee012gf2cegac5agc807g4f790f5c4902" version="1">Protector</content>
+  <content contentuid="ha08d7455g92d8ge864g1342g92dbae05a2cd" version="1">Protector</content>
+  <content contentuid="hc3d7957egbf1cga0f8gde92g70f35f4c410f" version="1">El cañón emite una ráfaga de energía positiva que le otorga a él mismo y a cada criatura de tu elección a 10 pies del cañón un número de Puntos de Golpe Temporales igual a 1d8 más tu modificador de Inteligencia (mínimo +1).</content>
+  <content contentuid="h65882d15gbcc1g0a95g4036g27f23ffa539c" version="1">Detonar</content>
+  <content contentuid="hd790e5deg5793ge1d8gfbc7gad8509c9beea" version="1">Cañón Explosivo</content>
+  <content contentuid="h01831d81g2d20g8c48g5e5eg10559d708494" version="1">Detonar</content>
+  <content contentuid="hab1f563cgd118gb03bg41b5g1316f04ab315" version="1">Cuando recibes daño, puedes usar tu Reacción para ordenar al cañón que detone. Cada criatura enemiga a 20 pies de ti debe realizar una tirada de salvación de Destreza contra tu CD de conjuros, recibiendo 3d10 de daño de Fuerza si falla, o la mitad si tiene éxito. Puedes usar esta habilidad una vez por descanso corto.</content>
+  <content contentuid="h57be1335ga707gde5ag1346g356ac10f28b0" version="2">Hoz Lunar</content>
+  <content contentuid="h2d267dedgfd4eg89d7g9e6eg23e63c2ef056" version="2">Esta hoz de hoja plateada brilla suavemente con luz de luna.</content>
+  <content contentuid="ha29a53f0gdcdag13d4g65a6g4969c1a596e5" version="1">Requiere sintonización de un Druida o Explorador</content>
+  <content contentuid="h65c236c4gca30g9d80g8ce9geda1067e572a" version="1">Hoz Lunar</content>
+  <content contentuid="h9c04874bg78bdgf61ag7978g3898f2f266ca" version="1">Requiere sintonización de un Druida o Explorador.&lt;br&gt;&lt;br&gt;Cuando lanzas un conjuro que restaura puntos de golpe, puedes lanzar un d4 y añadir el número obtenido a la cantidad de puntos de golpe restaurados.</content>
+  <content contentuid="h463f00d2g43d4g6387ga3e8g5af46bc31369" version="2">Fragmento Mental (Persistente)</content>
+  <content contentuid="h0e4f0ac6g2f7egd603gf1dfgbe7d59c073b3" version="1">Círculo de los Sueños</content>
+  <content contentuid="h59958a6fg7ff5g9780g1b47g688c0909621b" version="1">Los druidas que pertenecen al Círculo de los Sueños provienen de regiones con fuertes vínculos con el Reino Feérico y sus reinos oníricos. La tutela de los druidas sobre el mundo natural crea una alianza natural entre ellos y los seres feéricos de alineamiento bondadoso. Estos druidas buscan llenar el mundo de maravilla onírica. Su magia sana heridas y trae alegría a los corazones abatidos, y los reinos que protegen son lugares resplandecientes y fructíferos, donde el sueño y la realidad se fusionan y donde los fatigados pueden encontrar descanso.</content>
+  <content contentuid="h853388a0g259bga78age028g6a93fbf44c57" version="1">Nivel 3: Bálsamo de la Corte de Verano</content>
+  <content contentuid="hfdecb2bbgb554g7caage8a5ga7a203a6533c" version="1">Quedas imbuido con las bendiciones de la Corte de Verano. Eres una fuente de energía que ofrece alivio de las heridas. Tienes una reserva de energía feérica representada por un número de d6 igual a tu nivel de druida.
+
+Como acción adicional, puedes elegir a una criatura que puedas ver a 60 pies de ti y gastar un número de esos dados igual a la mitad de tu nivel de druida o menos. Lanza los dados gastados y súmalos. El objetivo recupera un número de puntos de golpe igual al total. El objetivo también gana 1 punto de golpe temporal por dado gastado.
+
+Recuperas todos los dados gastados cuando completas un descanso largo.</content>
+  <content contentuid="h6002b32ag74ffg3470g0a2cg9afe92b897e5" version="1">Nivel 6: Hogar de Luz de Luna y Sombra</content>
+  <content contentuid="he2f58070g7662g8b76gc3d9gce5303f3d8c8" version="2">El hogar puede estar donde tú estés. Te apoyas en el silencioso dominio de la Corte del Crepúsculo sobre la sombra y el secreto, envolviendo a ti y a tus aliados en su sutil protección. Como acción, invocas este poder para conjurar un refugio protector e inmediatamente obtienes los beneficios de un descanso corto.
+
+Hasta que completes tu próximo descanso largo, tú y tus aliados obtenéis un bonificador de +5 a las pruebas de Destreza (Sigilo) y Sabiduría (Percepción).</content>
+  <content contentuid="h86d67657g9bf6g0b50g5e7cg56cc562e49a6" version="1">Nivel 10: Senderos Ocultos</content>
+  <content contentuid="h8a84376bg7fbdg24c6g9d95gf3e5c6364f83" version="1">Puedes usar los senderos mágicos ocultos que algunos seres feéricos utilizan para atravesar el espacio en un abrir y cerrar de ojos. Como acción adicional en tu turno, puedes teletransportarte hasta 30 pies a un espacio desocupado que puedas ver. Como alternativa, puedes usar tu acción para teletransportar a una criatura dispuesta que toques hasta 30 pies a un espacio desocupado que puedas ver.
+
+Puedes usar este rasgo un número de veces igual a tu modificador de Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando completas un descanso largo.</content>
+  <content contentuid="h2871d8a1gc38dg55beg842agaf4d3298bdd3" version="1">Bálsamo de la Corte de Verano</content>
+  <content contentuid="h90bafc33g2849g9ffbg6757g0471be69d9b7" version="1">Senderos Ocultos</content>
+  <content contentuid="h37aa6b9dgff7fg4b1bgab52g38d4828960cd" version="1">Bálsamo de la Corte de Verano</content>
+  <content contentuid="he20dfbbag75a3gc426g332eg26d5f5687c72" version="1">Como acción adicional, puedes elegir a una criatura que puedas ver a 60 pies de ti y gastar un número de esos dados igual a la mitad de tu nivel de druida o menos. Lanza los dados gastados y súmalos. El objetivo recupera un número de puntos de golpe igual al total. El objetivo también gana 1 punto de golpe temporal por dado gastado.</content>
+  <content contentuid="h8ae6911fg454ag4837gb124g3854cf3dde9a" version="1">Bálsamo de la Corte de Verano</content>
+  <content contentuid="h25cebc5cgd794gb02fg2941g193df53c964f" version="1">Hogar de Luz de Luna y Sombra</content>
+  <content contentuid="hd876484bg06deg6a8egb4b1gc6a59e051290" version="1">Hasta que completes tu próximo descanso corto o largo, tú y tus aliados obtenéis un bonificador de +5 a las pruebas de Destreza (Sigilo) y Sabiduría (Percepción).</content>
+  <content contentuid="h0bf5656fg0b15g4da8gc1fcg0b504c8b4a4b" version="1">Hogar de Luz de Luna y Sombra</content>
+  <content contentuid="h7b17de26g4a12g2a89g2353gedd40e2fbe9a" version="1">El hogar puede estar donde tú estés. Te apoyas en el silencioso dominio de la Corte del Crepúsculo sobre la sombra y el secreto, envolviendo a ti y a tus aliados en su sutil protección. Como acción, invocas este poder para conjurar un refugio protector e inmediatamente obtienes los beneficios de un descanso corto.
+
+Hasta que completes tu próximo descanso largo, tú y tus aliados obtenéis un bonificador de +5 a las pruebas de Destreza (Sigilo) y Sabiduría (Percepción).</content>
+  <content contentuid="h447397a3g875fgc842g106dg4b2c03ef1b5b" version="1">Senderos Ocultos</content>
+  <content contentuid="hb6ad15b6g6a5cgc8edg95d4gd631318ac05a" version="1">Senderos Ocultos</content>
+  <content contentuid="h318e3ac4g7a18ga5edgf912g65c014f1354e" version="1">Raza: Dhampir</content>
+  <content contentuid="h64543ab1gec40g4962g092eg85f690ed7102" version="1">Los dhampirs son humanoides con herencia vampírica. Tienes Resistencia al daño Necrótico, Visión en la Oscuridad, mayor velocidad y una mordida que drena vida para sustentarte.</content>
+  <content contentuid="h9936bfdfgad15g113bged99g9778bc8cba86" version="1">El hambre vampírica ha sido temporalmente saciada. +1 a todas las &lt;LSTag Tooltip="AttackRoll"&gt;Tiradas de Ataque&lt;/LSTag&gt;, &lt;LSTag Tooltip="SavingThrow"&gt;Tiradas de Salvación&lt;/LSTag&gt; y la mayoría de las &lt;LSTag Tooltip="AbilityCheck"&gt;Pruebas de Característica&lt;/LSTag&gt;.</content>
+  <content contentuid="ha48ff32fg388ag1220g80cbgc8e2ec3cd1c7" version="1">Raza: Kalashtar</content>
+  <content contentuid="h9105e090ga08cg9a3fgb40ag60da6cec8ae0" version="1">Los kalashtar son aberraciones con un vínculo espiritual quori. Tienes Ventaja en las tiradas de salvación de Sabiduría y Carisma, Resistencia al daño Psíquico y una competencia de habilidad cambiante en cada Descanso Largo.</content>
+  <content contentuid="hb3e89e41gbe95gff0dgb116gf17d00181a3d" version="1">Separado de los Sueños</content>
+  <content contentuid="h76b975b4g225dg6d93g8391g805c6fe94d75" version="1">Separado de los Sueños: Carisma</content>
+  <content contentuid="he10fa554g1d22g52e8ga07ag4d67ea3adba9" version="1">Separado de los Sueños: Destreza</content>
+  <content contentuid="h5aaa6305g5e92gf0bbge44cg808c6bfe53e3" version="1">Separado de los Sueños: Inteligencia</content>
+  <content contentuid="hfa38bd13g00b7g251ag5dcfg7b778b90f0fa" version="1">Separado de los Sueños: Fuerza</content>
+  <content contentuid="h1bcd11adgf59dg2940g9970gc535b6f03671" version="1">Separado de los Sueños: Sabiduría</content>
+  <content contentuid="h349db2d2g6007g8ab3g7a65gc8a49bb91090" version="1">Separado de los Sueños</content>
+  <content contentuid="hf8e05d10g02faga33fg2d55ge9f15c67f8f2" version="1">Separado de los Sueños: Fuerza</content>
+  <content contentuid="h22d73c13gc15eg0eacg8774ge49e882c482d" version="1">Separado de los Sueños: Destreza</content>
+  <content contentuid="h80c38745g80eag0668gc029g08825f3ec1ef" version="1">Separado de los Sueños: Inteligencia</content>
+  <content contentuid="h0152f209g939bg4575g22f7g26ad677352b5" version="1">Separado de los Sueños: Sabiduría</content>
+  <content contentuid="hb641ddd6g0950g5b50gf483g681c68224f61" version="1">Separado de los Sueños: Carisma</content>
+ </contentList>
