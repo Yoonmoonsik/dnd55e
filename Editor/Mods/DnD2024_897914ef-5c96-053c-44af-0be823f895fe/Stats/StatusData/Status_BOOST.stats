@@ -5339,6 +5339,8 @@
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="d21494e5-5c30-4a69-85ef-75a785e71105" />
         <field name="EndEffect" type="GuidObjectTableFieldDefinition" value="a5c11e94-efa3-4998-a76b-fc12502ea565" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
