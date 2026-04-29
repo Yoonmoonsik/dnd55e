@@ -68,6 +68,24 @@
                     <attribute id="SelectorId" type="FixedString" value="IllriggerInterdiction"/>
                     <attribute id="UUID" type="guid" value="d0138cf5-dcfe-4aba-b5b9-6c8f50b7ebd1"/>
                 </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h0f6ded08gcd3bgf273gc080g6c03b3f1633b" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h387fbbd8g1993g3f29gb171ge2f1a3b1e7cd" version="1"/>
+                    <attribute id="SelectorId" type="FixedString" value="HumanVersatile"/>
+                    <attribute id="UUID" type="guid" value="11425d5c-8b71-4ccb-a667-be965abba0d3"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h621fd279gebdag777dg35cdge79dc6dc09a3" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h325e735fg2b3bg04e3g4111g0c40750b7fbe" version="1"/>
+                    <attribute id="SelectorId" type="FixedString" value="HumanSkillful"/>
+                    <attribute id="UUID" type="guid" value="47f651cd-d1df-4085-88f4-ca515ebd4d3d"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hff4e6b44g07dbg7d46g1dfbg11ee89aaef5b" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hffb15f0dg8d46g8ce2g4665g6ab0e628d277" version="1"/>
+                    <attribute id="SelectorId" type="FixedString" value="ElfKeenSenses"/>
+                    <attribute id="UUID" type="guid" value="a27df203-fe31-402d-b04b-bff6ca783047"/>
+                </node>
             </children>
         </node>
     </region>

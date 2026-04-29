@@ -8927,7 +8927,7 @@
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Darkvision;FeyAncestry" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(8738b757-88a6-424b-bec4-7807c7af8f70,1);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(8738b757-88a6-424b-bec4-7807c7af8f70,1,ElfKeenSenses);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9010,7 +9010,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="SuperiorDarkvision;FeyAncestry" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0);" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(d707ec70-da8a-457b-9b69-7cf5205eef0e,,Charisma,,AlwaysPrepared);SelectPassives(8738b757-88a6-424b-bec4-7807c7af8f70,1);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(d707ec70-da8a-457b-9b69-7cf5205eef0e,,Charisma,,AlwaysPrepared);SelectPassives(8738b757-88a6-424b-bec4-7807c7af8f70,1,ElfKeenSenses);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9072,7 +9072,7 @@
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Resourceful" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(e9c5cb8f-1dc5-4118-be31-ff2ce2569917,1);SelectPassives(51988e80-d7cc-4351-aa7d-83b8ba3f989a,1,HumanOriginFeat);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(e9c5cb8f-1dc5-4118-be31-ff2ce2569917,1,HumanSkillful);SelectPassives(51988e80-d7cc-4351-aa7d-83b8ba3f989a,1,HumanVersatile);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

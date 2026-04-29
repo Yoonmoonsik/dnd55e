@@ -95,5 +95,32 @@
         <field name="SelectorId" type="FixedStringTableFieldDefinition" value="IllriggerInterdiction" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="11425d5c-8b71-4ccb-a667-be965abba0d3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h387fbbd8g1993g3f29gb171ge2f1a3b1e7cd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0f6ded08gcd3bgf273gc080g6c03b3f1633b" version="1" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="HumanVersatile" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
+        <field name="UUID" type="IdTableFieldDefinition" value="47f651cd-d1df-4085-88f4-ca515ebd4d3d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h325e735fg2b3bg04e3g4111g0c40750b7fbe" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h621fd279gebdag777dg35cdge79dc6dc09a3" version="1" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="HumanSkillful" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a27df203-fe31-402d-b04b-bff6ca783047" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hffb15f0dg8d46g8ce2g4665g6ab0e628d277" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hff4e6b44g07dbg7d46g1dfbg11ee89aaef5b" version="1" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="ElfKeenSenses" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -6919,7 +6919,7 @@
                     <attribute id="Name" type="LSString" value="Elf"/>
                     <attribute id="PassivesAdded" type="LSString" value="Darkvision;FeyAncestry"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(8738b757-88a6-424b-bec4-7807c7af8f70,1);"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(8738b757-88a6-424b-bec4-7807c7af8f70,1,ElfKeenSenses);"/>
                     <attribute id="TableUUID" type="guid" value="eb9db11d-1091-49fa-9006-2f52bbb76f6a"/>
                     <attribute id="UUID" type="guid" value="496486a4-b5f2-4f91-90ea-6cad9023952e"/>
                 </node>
@@ -6981,7 +6981,7 @@
                     <attribute id="Name" type="LSString" value="Drow"/>
                     <attribute id="PassivesAdded" type="LSString" value="SuperiorDarkvision;FeyAncestry"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(d707ec70-da8a-457b-9b69-7cf5205eef0e,,Charisma,,AlwaysPrepared);SelectPassives(8738b757-88a6-424b-bec4-7807c7af8f70,1);"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(d707ec70-da8a-457b-9b69-7cf5205eef0e,,Charisma,,AlwaysPrepared);SelectPassives(8738b757-88a6-424b-bec4-7807c7af8f70,1,ElfKeenSenses);"/>
                     <attribute id="TableUUID" type="guid" value="a43498f5-d72f-4a05-b721-1feea9acb3ad"/>
                     <attribute id="UUID" type="guid" value="4a634f24-bdcb-4559-b8be-7847133ad1c3"/>
                 </node>
@@ -7028,7 +7028,7 @@
                     <attribute id="Name" type="LSString" value="Human"/>
                     <attribute id="PassivesAdded" type="LSString" value="Resourceful"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(e9c5cb8f-1dc5-4118-be31-ff2ce2569917,1);SelectPassives(51988e80-d7cc-4351-aa7d-83b8ba3f989a,1,HumanOriginFeat);"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(e9c5cb8f-1dc5-4118-be31-ff2ce2569917,1,HumanSkillful);SelectPassives(51988e80-d7cc-4351-aa7d-83b8ba3f989a,1,HumanVersatile);"/>
                     <attribute id="TableUUID" type="guid" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e"/>
                     <attribute id="UUID" type="guid" value="dbde4d66-d3e4-4c3f-ae87-fd6e2d1cd276"/>
                 </node>
