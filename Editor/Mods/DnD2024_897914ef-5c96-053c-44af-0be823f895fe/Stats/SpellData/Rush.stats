@@ -89,6 +89,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((max(1,MainMeleeWeapon+1d8)), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon+1d8, MainMeleeWeaponDamageType)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;Movement:3;ChargerTurn:1;" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="(Character() and not Dead()) or Item();" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -97,7 +98,11 @@
         <field name="Name" type="NameTableFieldDefinition" value="Charger_Push" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5fc6ba07-b41b-4e83-8c2b-408ce704398e" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;Movement:3;ChargerTurn:1;" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((max(1,MainMeleeWeapon)), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(not Ally()):Force(ShoveDistance,OriginToEntity,Aggressive);IF(Ally()):Force(ShoveDistance,OriginToEntity,Friendly);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((max(1,MainMeleeWeapon)), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(Dead() or SkillCheck(Skill.Athletics,math.max(context.Target.GetPassiveSkill(Skill.Athletics),context.Target.GetPassiveSkill(Skill.Acrobatics)), IsSneakingOrInvisible())):Force(ShoveDistance,OriginToEntity,Aggressive);" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeWeaponAttack)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="(Character() and not Dead()) or Item() and CanShoveWeight() and IsMovable() and not Grounded();" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeWeaponAttack" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
