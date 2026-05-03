@@ -66,7 +66,7 @@ data "Conditions" "(context.HasContextFlag(StatsFunctorContext.OnCast) and (IsCa
 new entry "WarMagic"
 type "PassiveData"
 using "WarMagic"
-data "Description" "h66fbaf70g36bcg4313g969fgfabc9b4f1f69;3"
+data "Description" "h66fbaf70g36bcg4313g969fgfabc9b4f1f69;4"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnCast"
 data "Conditions" "IsCantrip()"

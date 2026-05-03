@@ -95,7 +95,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="19fe2fc4-f123-44c4-8bc3-86d595100619" />
         <field name="Name" type="NameTableFieldDefinition" value="WarMagic" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="765eaa1a-39b9-42bf-833b-b3ed41241cb8" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h66fbaf70g36bcg4313g969fgfabc9b4f1f69" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h66fbaf70g36bcg4313g969fgfabc9b4f1f69" version="4" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsCantrip()" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(WAR_MAGIC_BLOCK,100,1)" />
