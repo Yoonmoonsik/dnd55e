@@ -496,7 +496,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);ActionResource(SpellSlot,2,3)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(c213ca01-3767-457b-a5c8-fd4c1dd656e2,1,1,BardSpells);AddSpells(d84fc8ab-293e-437f-9825-e3e313f78060);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(c213ca01-3767-457b-a5c8-fd4c1dd656e2,2,1,BardSpells);AddSpells(d84fc8ab-293e-437f-9825-e3e313f78060);" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="FontOfInspiration;BardicInspiration_d8;UnlockedSpellSlotLevel3" />
       </fields>
     </stat_object>
@@ -635,7 +635,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="GlamourCollege" />
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,1,1,BardSpells)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,2,1,BardSpells)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -724,7 +724,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="LoreCollege" />
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,2,1,BardMagicalSecrets)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -815,7 +815,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="ValorCollege" />
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,1,1,BardSpells)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,2,1,BardSpells)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -905,7 +905,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="SwordsCollege" />
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,1,1,BardSpells)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,2,1,BardSpells)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -994,7 +994,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DanceCollege" />
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,1,1,BardSpells)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,2,1,BardSpells)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1084,7 +1084,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="MoonCollege" />
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,1,1,BardSpells)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,2,1,BardSpells)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
