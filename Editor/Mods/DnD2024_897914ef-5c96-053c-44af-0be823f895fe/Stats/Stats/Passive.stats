@@ -128,8 +128,8 @@
         <field name="Name" type="NameTableFieldDefinition" value="DexterityBasedUnarmedAttack_Passive" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9003" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnEquip;OnLongRest;OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('DEXTERITY_BASED_UNARMED_ATTACK',context.Source)):ApplyStatus(DEXTERITY_BASED_UNARMED_ATTACK,100,-1)" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCombatStarted" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DEXTERITY_BASED_UNARMED_ATTACK,100,-1)" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

@@ -10,6 +10,7 @@
         <field name="TemplateID" type="StringTableFieldDefinition" value="f08c020a-1c09-4ef6-9307-b3cb961c4c6c" />
         <field name="Rules" type="GuidObjectTableFieldDefinition" value="e82210e0-9c35-4f64-b93e-937ca3b97ca9" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
