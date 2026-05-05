@@ -7722,11 +7722,11 @@
         <field name="UUID" type="IdTableFieldDefinition" value="83349e45-765e-40b0-8d29-a78b29a99744" />
         <field name="Name" type="NameTableFieldDefinition" value="Race_Goliath" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heaf54f1fg5a38gb0bcgce29ga8bbc11c1a24" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35af86fcg2186gfbc2g672fgcbee62e25113" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_FeralInstinct" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35af86fcg2186gfbc2g672fgcbee62e25113" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_GiantsCarryCapacity" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CloudsJaunt);UnlockSpell(Shout_LargeForm);UnlockInterrupt(Interrupt_FiresBurn);UnlockInterrupt(Interrupt_FrostsChill);UnlockInterrupt(Interrupt_HillsTumble);UnlockInterrupt(Interrupt_StonesEndurance);UnlockInterrupt(Interrupt_StormsThunder);ActionResource(Goliath,2,0);ActionResource(Movement,1.5,0);IF(CharacterLevelGreaterThan(4)):ActionResource(Goliath,1,0);IF(CharacterLevelGreaterThan(8)):ActionResource(Goliath,1,0);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CloudsJaunt);UnlockSpell(Shout_LargeForm);UnlockInterrupt(Interrupt_FiresBurn);UnlockInterrupt(Interrupt_FrostsChill);UnlockInterrupt(Interrupt_HillsTumble);UnlockInterrupt(Interrupt_StonesEndurance);UnlockInterrupt(Interrupt_StormsThunder);ActionResource(Goliath,2,0);ActionResource(Movement,1.5,0);IF(CharacterLevelGreaterThan(4)):ActionResource(Goliath,1,0);IF(CharacterLevelGreaterThan(8)):ActionResource(Goliath,1,0);CarryCapacityMultiplier(1.25);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
