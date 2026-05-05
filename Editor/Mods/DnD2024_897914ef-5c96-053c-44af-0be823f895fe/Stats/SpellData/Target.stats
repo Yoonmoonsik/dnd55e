@@ -6090,6 +6090,15 @@
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="7f8485a2-920d-49e7-903e-bdf8e684db46" />
         <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="bb97ac24-8aae-463b-a080-072c2957db0e" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Cold" enumeration_type_name="Damage Type" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab0dfc2e-df25-4bf5-b62c-50b2a1da8b0e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WrathOfTheSea_FirstTurn" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3508d02b-c74a-4da8-bbb9-21b62d654f1b" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">

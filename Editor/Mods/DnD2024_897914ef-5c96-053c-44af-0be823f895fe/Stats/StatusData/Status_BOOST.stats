@@ -2144,6 +2144,16 @@
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL);RemoveStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL_3X)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2f0ad59a-dee5-444e-a68e-424acf456131" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_SEA_FIRSTTURN" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WILDSHAPE_SEA_FIRSTTURN" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_WrathOfTheSea_FirstTurn);" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3e0f22ee-f994-4566-a1df-4d98be460859" />

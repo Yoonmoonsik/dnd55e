@@ -484,7 +484,7 @@
         <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_ElementalWildShapeWaterMyrmidon_End" />
         <field name="StackId" type="StringTableFieldDefinition" value="WILDSHAPE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WildShape_Dismiss);UnlockSpell(Target_WrathOfTheSea);IF(HasPassive('Sea_10_Stormborn',context.Source)):UnlockSpell(Projectile_Fly_Equal);IF(HasPassive('Sea_10_Stormborn',context.Source)):Resistance(Cold,Resistant);IF(HasPassive('Sea_10_Stormborn',context.Source)):Resistance(Lightning,Resistant);IF(HasPassive('Sea_10_Stormborn',context.Source)):Resistance(Thunder,Resistant);" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_ACTIVE,100,-1)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_ACTIVE,100,-1);ApplyStatus(SELF,WILDSHAPE_SEA_FIRSTTURN,100,1)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WILDSHAPE_MYRMIDON_WATER_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RemoveStatus(WILDSHAPE_ACTIVE)" />
         <field name="Rules" type="GuidObjectTableFieldDefinition" value="acc89ec3-a77f-45bc-be5d-8e0f0d7cc68a" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Polymorph;SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
