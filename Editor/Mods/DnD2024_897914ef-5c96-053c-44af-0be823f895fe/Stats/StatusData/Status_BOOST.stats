@@ -1190,7 +1190,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Radiant)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FountOfMoonlight" />
         <field name="StackId" type="StringTableFieldDefinition" value="FOUNT_OF_MOONLIGHT" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="GameplayLight(6,false,0.1);StatusImmunity(SG_Invisible);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="GameplayLight(6,false,0.1);StatusImmunity(SG_Invisible);Resistance(Radiant, Resistant);" />
         <field name="Passives" type="StringTableFieldDefinition" value="FountOfMoonlight_Passive;" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="c15c513d-b7df-43c9-b35d-b3e73b5c51b7" />
       </fields>
