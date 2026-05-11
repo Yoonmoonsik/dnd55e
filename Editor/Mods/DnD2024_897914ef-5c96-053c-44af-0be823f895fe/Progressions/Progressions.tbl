@@ -5479,7 +5479,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="DraconicResilience" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IncreaseMaxHP(ClassLevel(Sorcerer))" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(c69c33a2-671c-46e1-a92c-656fe64ed447,1,DraconicAncestry)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(c69c33a2-671c-46e1-a92c-656fe64ed447,1,DraconicAncestry);AddSpells(f2edc485-d2db-46dd-a0fa-df40578e1fdd,,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5494,6 +5494,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_853" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d4fea818-abda-4568-9dac-6e3e326f3a44" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="35aa255d-3eb7-4e93-8092-7545ced25b09" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DraconicBloodline" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(cbd1a730-9e1c-492e-8b33-a1893fab6bf8,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_331" />
         <field name="UUID" type="IdTableFieldDefinition" value="18fed4a7-0207-431d-91c1-0662f800bea3" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="35aa255d-3eb7-4e93-8092-7545ced25b09" />
@@ -5501,6 +5512,26 @@
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="ElementalAffinity_Damage;ElementalAffinity_Resistance_Check" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_854" />
+        <field name="UUID" type="IdTableFieldDefinition" value="13ec757d-6c9f-4d2a-8f74-4d9da3d6a27c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="35aa255d-3eb7-4e93-8092-7545ced25b09" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DraconicBloodline" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_855" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dfaf9579-573b-4327-8b9b-47c9b85b0691" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="35aa255d-3eb7-4e93-8092-7545ced25b09" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DraconicBloodline" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
