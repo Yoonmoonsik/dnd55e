@@ -152,7 +152,6 @@ The complete **2024 Weapon Mastery** system — all properties implemented:
 |------|-------------|
 | Original Mod | [Yoonmoonsik](https://github.com/Yoonmoonsik) |
 | Spanish Localization | [HermesVar](https://github.com/incolhermex-droid) |
-| English Localization | [Shiina18](https://github.com/Shiina18) |
 
 ---
 
