@@ -27,7 +27,7 @@
 | 🔴 [**Bug Fixes**](https://github.com/Yoonmoonsik/dnd55e/wiki/Bug-Fixes) | All corrections and patches (163 entries) |
 | 🔵 [**Updates**](https://github.com/Yoonmoonsik/dnd55e/wiki/Updates) | Class revisions, spell rewrites, balance changes (159 entries) |
 | 🟢 [**New Features**](https://github.com/Yoonmoonsik/dnd55e/wiki/New-Features) | New classes, subclasses, spells, races, feats (94 entries) |
-| 📜 [**Full Changelog**](https://github.com/Yoonmoonsik/dnd55e/wiki/Changelog) | Complete history of every change since v1 |
+| 📜 [**Full Changelog**](https://github.com/Yoonmoonsik/dnd55e/wiki/Version-History) | Complete history of every change since v1 |
 
 </div>
 
@@ -151,8 +151,8 @@ The complete **2024 Weapon Mastery** system — all properties implemented:
 | Role | Contributor |
 |------|-------------|
 | Original Mod | [Yoonmoonsik](https://github.com/Yoonmoonsik) |
-| Spanish Localization | [HermesVar](https://mod.io/g/baldursgate3/m/dnd55e) |
-| Latin American Spanish | [incolhermex-droid](https://github.com/incolhermex-droid) |
+| Spanish Localization | [HermesVar](https://github.com/incolhermex-droid) |
+| English Localization | [Shiina18](https://github.com/Shiina18) |
 
 ---
 
