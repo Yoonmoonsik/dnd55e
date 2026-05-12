@@ -122,11 +122,11 @@ The complete **2024 Weapon Mastery** system — all properties implemented:
 | Language | Status |
 |----------|--------|
 | 🇬🇧 English | ✅ Built-in |
-| 🇪🇸 Spanish (Castilian) | ✅ Built-in — *HermesVar* |
-| 🇲🇽 Spanish (Latin American) | ✅ Built-in — *incolhermex-droid* |
-| 🇰🇷 Korean | 🔗 [External patch — Nexus Mods](https://www.nexusmods.com/baldursgate3) |
-| 🇷🇺 Russian | 🔗 External patch — mod.io |
-| 🇨🇳 Chinese (Simplified) | 🔗 External patch — mod.io |
+| 🇪🇸 Spanish (Castilian) | ✅ Built-in |
+| 🇲🇽 Spanish (Latin American) | ✅ Built-in |
+| 🇰🇷 Korean | ✅ Built-in |
+| 🇷🇺 Russian | 📦 [External Patch](https://mod.io/g/baldursgate3/m/dnd-55e-all-in-one-beyond-russian-localization) |
+| 🇨🇳 Chinese (Simplified) | 📦 [External Patch](https://mod.io/g/baldursgate3/m/dnd-phb-2024-all-in-one-chs) |
 
 ---
 
