@@ -1,6 +1,6 @@
 <div align="center">
 
-![Banner](https://raw.githubusercontent.com/incolhermex-droid/Assets/refs/heads/main/banner.svg)
+![Banner](https://raw.githubusercontent.com/incolhermex-droid/Assets/refs/heads/main/banner1.svg)
 
 ![Badges](https://raw.githubusercontent.com/incolhermex-droid/Assets/refs/heads/main/badges.svg)
 
@@ -24,9 +24,9 @@
 | Resource | Description |
 |----------|-------------|
 | 📚 [**Wiki**](https://github.com/Yoonmoonsik/dnd55e/wiki) | Full documentation — rules, classes, spells, races, feats, items |
-| 🔴 [**Bug Fixes**](https://github.com/Yoonmoonsik/dnd55e/wiki/Bug-Fixes) | All corrections and patches (163 entries) |
-| 🔵 [**Updates**](https://github.com/Yoonmoonsik/dnd55e/wiki/Updates) | Class revisions, spell rewrites, balance changes (159 entries) |
-| 🟢 [**New Features**](https://github.com/Yoonmoonsik/dnd55e/wiki/New-Features) | New classes, subclasses, spells, races, feats (94 entries) |
+| 🔴 [**Bug Fixes**](https://github.com/Yoonmoonsik/dnd55e/wiki/Bug-Fixes) | All corrections and patches (163+ entries) |
+| 🔵 [**Updates**](https://github.com/Yoonmoonsik/dnd55e/wiki/Updates) | Class revisions, spell rewrites, balance changes (159+ entries) |
+| 🟢 [**New Features**](https://github.com/Yoonmoonsik/dnd55e/wiki/New-Features) | New classes, subclasses, spells, races, feats (94+ entries) |
 | 📜 [**Full Changelog**](https://github.com/Yoonmoonsik/dnd55e/wiki/Version-History) | Complete history of every change since v1 |
 
 </div>
