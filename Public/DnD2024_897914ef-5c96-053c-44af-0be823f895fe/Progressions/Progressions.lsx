@@ -3006,6 +3006,30 @@
                     <attribute id="UUID" type="guid" value="7bdd4c61-019e-49c8-bd3d-fbf5ce9be9e7"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Kensei"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Kensei_3_KenseiWeapons;Kensei_3_AgileParry;Kensei_3_KenseisShot"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="92b14b25-7da0-440e-95d9-08df115936fc"/>
+                    <attribute id="UUID" type="guid" value="92b14b25-7da0-440e-95d9-08df115936fc"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="Kensei"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Kensei_6_MagicKenseiWeapons;Kensei_6_DeftStrike"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="92b14b25-7da0-440e-95d9-08df115936fc"/>
+                    <attribute id="UUID" type="guid" value="a9f44405-dcb2-44b2-a3c5-ed0f71185ab8"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="Kensei"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Kensei_11_SharpenTheBlade"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="92b14b25-7da0-440e-95d9-08df115936fc"/>
+                    <attribute id="UUID" type="guid" value="105c0418-c8b6-43fe-8d66-eb5ce645c4be"/>
+                </node>
+                <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(LayOnHandsCharge,3,0);ActionResource(HolyAvenger,1,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Paladin"/>
@@ -4119,7 +4143,6 @@
                     <attribute id="Name" type="LSString" value="HighwayRider"/>
                     <attribute id="PassivesAdded" type="LSString" value="HighwayRider_3_HairTrigger;HighwayRider_3_TrustyMount;HighwayRider_3_RideThemDown;FirearmExpert"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectEquipment(94ae74c1-f079-4b27-b488-9ef96432a897,2)"/>
                     <attribute id="TableUUID" type="guid" value="8e20bc2e-8a65-472d-8e14-66d91edfcdd3"/>
                     <attribute id="UUID" type="guid" value="8e20bc2e-8a65-472d-8e14-66d91edfcdd3"/>
                 </node>
@@ -6373,7 +6396,7 @@
                     <attribute id="Name" type="LSString" value="Gunslinger"/>
                     <attribute id="PassivesAdded" type="LSString" value="Gunslinger_1_QuickDraw;FirearmExpert"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(2ae028ad-6390-4504-b22b-a87b9badf348,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(1ff4a7ef-7e27-4307-8b41-5087dce60abe,2)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(2ae028ad-6390-4504-b22b-a87b9badf348,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)"/>
                     <attribute id="TableUUID" type="guid" value="8faeda62-04df-403f-a4ca-26c090cb9b8d"/>
                     <attribute id="UUID" type="guid" value="8faeda62-04df-403f-a4ca-26c090cb9b8d"/>
                 </node>
@@ -7495,30 +7518,6 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="3"/>
-                    <attribute id="Name" type="LSString" value="Kensei"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Kensei_3_KenseiWeapons;Kensei_3_AgileParry;Kensei_3_KenseisShot"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="92b14b25-7da0-440e-95d9-08df115936fc"/>
-                    <attribute id="UUID" type="guid" value="92b14b25-7da0-440e-95d9-08df115936fc"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="6"/>
-                    <attribute id="Name" type="LSString" value="Kensei"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Kensei_6_MagicKenseiWeapons;Kensei_6_DeftStrike"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="92b14b25-7da0-440e-95d9-08df115936fc"/>
-                    <attribute id="UUID" type="guid" value="a9f44405-dcb2-44b2-a3c5-ed0f71185ab8"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="11"/>
-                    <attribute id="Name" type="LSString" value="Kensei"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Kensei_11_SharpenTheBlade"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="92b14b25-7da0-440e-95d9-08df115936fc"/>
-                    <attribute id="UUID" type="guid" value="105c0418-c8b6-43fe-8d66-eb5ce645c4be"/>
                 </node>
             </children>
         </node>
