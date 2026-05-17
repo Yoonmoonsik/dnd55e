@@ -1494,7 +1494,7 @@ data "Description" "h8e98b937g68e2gbad3g7b1ag31a19750c163;1"
 data "Icon" "Sea_WrathOfTheSea"
 data "PriorityOrder" "4406"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "UnlockSpellVariant(SpellId('Target_WrathOfTheSea'),ModifyTargetRadius(Override,3),ModifySpellFlags(Melee,0));"
+data "Boosts" "UnlockSpellVariant(SpellId('Target_WrathOfTheSea') or SpellId('Target_WrathOfTheSea_FirstTurn'),ModifyTargetRadius(Override,3),ModifySpellFlags(Melee,0));"
 
 new entry "Sea_10_Stormborn"
 type "PassiveData"

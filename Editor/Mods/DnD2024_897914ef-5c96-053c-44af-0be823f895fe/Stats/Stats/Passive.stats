@@ -2045,7 +2045,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Sea_WrathOfTheSea" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4406" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Target_WrathOfTheSea'),ModifyTargetRadius(Override,3),ModifySpellFlags(Melee,0));" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Target_WrathOfTheSea') or SpellId('Target_WrathOfTheSea_FirstTurn'),ModifyTargetRadius(Override,3),ModifySpellFlags(Melee,0));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
