@@ -7938,7 +7938,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);ActionResource(SpellSlot,1,1);" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="ab2f7820-cb6b-49e4-804a-820d25291a16;d9c984db-15cb-4308-88be-fb88cf3e8c32;9b1afbf5-2133-4042-b39e-dfbade27a60b" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="ab2f7820-cb6b-49e4-804a-820d25291a16;d9c984db-15cb-4308-88be-fb88cf3e8c32;9b1afbf5-2133-4042-b39e-dfbade27a60b;f574d2d6-cfc2-4cda-8771-1917f1eabaf1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -8250,6 +8250,43 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Artillerist_9_ExplosiveCannon" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(ae58e7e6-ec07-488f-b8d4-dfe40bb4346e,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF00BFFF" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_859" />
+        <field name="UUID" type="IdTableFieldDefinition" value="88bb5c8e-b795-486a-82f0-b2531f396604" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="88bb5c8e-b795-486a-82f0-b2531f396604" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BattleSmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="BattleSmith_3_Spells;BattleSmith_3_BattleReady;BattleSmith_3_SteelDefender" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(MartialWeapons)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(39e366a2-9be2-4867-af1c-76f30039f59e,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_860" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cb4c1528-389f-4c66-8728-bd87f5253989" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="88bb5c8e-b795-486a-82f0-b2531f396604" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BattleSmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(078df756-59cf-4ca8-8058-2e9ef820baf5,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_861" />
+        <field name="UUID" type="IdTableFieldDefinition" value="90954edd-bca0-4dfd-b788-1a0c53aae783" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="88bb5c8e-b795-486a-82f0-b2531f396604" />
+        <field name="FSName" type="StringTableFieldDefinition" value="BattleSmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="BattleSmith_9_ArcaneJolt" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(4dff084a-e169-4bf0-acf3-a1eaf7da4f32,,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
     <stat_object color="#FF800000" is_substat="false">

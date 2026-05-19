@@ -8249,6 +8249,63 @@
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Thunder" enumeration_type_name="Damage Type" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dd6709e6-f223-4bc6-88ea-35430814eb35" />
+        <field name="Name" type="NameTableFieldDefinition" value="SteelDefender" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9ef475fb-e5bd-4068-bd3a-ce3a49900b28" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not ClassLevelHigherOrEqualThan(5,'Artificer')):Summon(f1662ccf-44cb-4e27-8810-ca2d3eea2adf,Permanent,,,'SteelDefenderStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(5,'Artificer') and not ClassLevelHigherOrEqualThan(7,'Artificer')):Summon(e88058f6-5409-4eb0-bf2f-36099bd8a47f,Permanent,,,'SteelDefenderStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(7,'Artificer') and not ClassLevelHigherOrEqualThan(9,'Artificer')):Summon(d818653f-2906-4ccb-a5c4-c8f08c7d36b6,Permanent,,,'SteelDefenderStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(9,'Artificer') and not ClassLevelHigherOrEqualThan(11,'Artificer')):Summon(0d5ec624-4a25-4f00-8de5-396889c77782,Permanent,,,'SteelDefenderStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(11,'Artificer')):Summon(d1597cc2-4202-4780-877c-fbf230abb259,Permanent,,,'SteelDefenderStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_EndGameAlly_SteelWatcherSummon" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0830e0b7g5f29g2f2egddefgdf29c01c0374" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he182f30fgc762gfc22g6adegda911d4ae8ea" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c9152b53-fccb-4068-917e-2036fd325f0c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ForceEmpoweredRend" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79cbdbe7-ec99-45d9-a901-96a9ca633abc" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage+Owner.IntelligenceModifier, Force);ApplyStatus(ARCANEJOLT_STEEL_DEFENDER,100,0);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf909a1bage22fg8286gcfedg0f187d283bee" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage+Owner.IntelligenceModifier , Force)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsAttack;IsMelee;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b6f7d022-6fe8-415d-b87e-75b30f2820c6" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArcaneJolt" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(2d6);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Tagged('UNDEAD') and not Tagged('CONSTRUCT')" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Healing" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h214b31e4g1222g89d1g1c98g859dc68c80f1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hde43de07gcaa5gae30g5a72gf42e5fc93579" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(2d6)" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Lightning_Gen_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Lightning_Gen_L1to3_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Lightning_WitchBolt_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Ally() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ArcaneJolt:1;ArcaneJoltTurn:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;cd5e5d4a-38e1-4d4d-b346-3fbc1e4c3c90,,;141f48d9-9615-496a-8737-9240f0dba60d,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="77241e8c-ae8d-4402-92d8-a871ce64d86f" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="6f4ad0bd-c5ce-4350-9865-c0ef858fd444" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="38f8798f-1d23-4982-b4c7-dffc0ae00453" />

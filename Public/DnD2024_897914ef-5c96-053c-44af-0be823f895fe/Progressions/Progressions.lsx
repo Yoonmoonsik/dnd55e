@@ -6151,6 +6151,9 @@
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="9b1afbf5-2133-4042-b39e-dfbade27a60b"/>
                                 </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="f574d2d6-cfc2-4cda-8771-1917f1eabaf1"/>
+                                </node>
                             </children>
                         </node>
                     </children>
@@ -7520,6 +7523,34 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="Proficiency(MartialWeapons)"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="BattleSmith"/>
+                    <attribute id="PassivesAdded" type="LSString" value="BattleSmith_3_Spells;BattleSmith_3_BattleReady;BattleSmith_3_SteelDefender"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(39e366a2-9be2-4867-af1c-76f30039f59e,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="88bb5c8e-b795-486a-82f0-b2531f396604"/>
+                    <attribute id="UUID" type="guid" value="88bb5c8e-b795-486a-82f0-b2531f396604"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="BattleSmith"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ExtraAttack"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(078df756-59cf-4ca8-8058-2e9ef820baf5,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="88bb5c8e-b795-486a-82f0-b2531f396604"/>
+                    <attribute id="UUID" type="guid" value="cb4c1528-389f-4c66-8728-bd87f5253989"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="BattleSmith"/>
+                    <attribute id="PassivesAdded" type="LSString" value="BattleSmith_9_ArcaneJolt"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(4dff084a-e169-4bf0-acf3-a1eaf7da4f32,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="88bb5c8e-b795-486a-82f0-b2531f396604"/>
+                    <attribute id="UUID" type="guid" value="90954edd-bca0-4dfd-b788-1a0c53aae783"/>
                 </node>
             </children>
         </node>

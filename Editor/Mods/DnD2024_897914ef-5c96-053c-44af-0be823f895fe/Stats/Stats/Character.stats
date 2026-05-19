@@ -30,13 +30,10 @@
         <field name="Passives" type="StringTableFieldDefinition" value="Dwarf_DwarvenResilience;AttackOfOpportunity;Darkvision;DarknessRules;Metamagic_Distant_GLO_Baelen" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FF000000" is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="6b7dddb0-6892-46b9-8faa-ab3896088d20" />
-        <field name="Name" type="NameTableFieldDefinition" value="DexterityBasedUnarmedAttack" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="b0556939-ba3e-409d-8ccb-ce9df9917af9" />
-        <field name="UnarmedAttackAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
-        <field name="UnarmedRangedAttackAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c2725bbf-d6d3-4a86-ad0b-d8e953446ef2" />
+        <field name="Name" type="NameTableFieldDefinition" value="__DRUID__" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -77,8 +74,17 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="4b01c1bb-5868-4488-9107-e441f15cca93" />
-        <field name="Name" type="NameTableFieldDefinition" value="__SUMMON SPELL__" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e785b9ee-a7b4-4a62-b865-f289f49e36ae" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ROGUE__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6b7dddb0-6892-46b9-8faa-ab3896088d20" />
+        <field name="Name" type="NameTableFieldDefinition" value="DexterityBasedUnarmedAttack" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b0556939-ba3e-409d-8ccb-ce9df9917af9" />
+        <field name="UnarmedAttackAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="UnarmedRangedAttackAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -96,6 +102,85 @@
         <field name="Vitality" type="IntegerTableFieldDefinition" value="20" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="IgnoreLeaveAttackRange();ProficiencyBonus(Skill,Perception);BlockRegainHP(Undead;Construct);" />
         <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:9;ReactionActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="24d1e1e6-68f8-48d9-a128-4688a9cf22b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ARTIFICER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="178cf903-4a12-4bcc-a91b-406914a7f89d" />
+        <field name="Name" type="NameTableFieldDefinition" value="SteelDefender" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7adf0713-f8c5-47c4-acbf-e491345560c6" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="4" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="6" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="20" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="40806669-8c6b-4068-8bc4-07e4981bb020" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="SG_Charmed;SG_Charmed_Subtle;SG_Poisoned" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;Darkvision;DarknessRules;SteelDefender_DeflectAttack" />
+        <field name="PoisonResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PsychicResistance" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="df5805a4-f20a-4a6f-b66c-8ce8b33a4ecd" />
+        <field name="Name" type="NameTableFieldDefinition" value="SteelDefender_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="178cf903-4a12-4bcc-a91b-406914a7f89d" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="30" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;Darkvision;DarknessRules;SteelDefender_DeflectAttack;ExtraAttack" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="410f3d15-6dcc-4fe5-a2ef-ab14ec256acc" />
+        <field name="Name" type="NameTableFieldDefinition" value="SteelDefender_7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="178cf903-4a12-4bcc-a91b-406914a7f89d" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="40" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;Darkvision;DarknessRules;SteelDefender_DeflectAttack;ExtraAttack" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a80f9b0e-de8a-471a-904c-0705583a1229" />
+        <field name="Name" type="NameTableFieldDefinition" value="SteelDefender_9" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="178cf903-4a12-4bcc-a91b-406914a7f89d" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="50" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;Darkvision;DarknessRules;SteelDefender_DeflectAttack;ExtraAttack" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="32dfb2c0-7970-419c-81f6-4227effe62ce" />
+        <field name="Name" type="NameTableFieldDefinition" value="SteelDefender_11" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="178cf903-4a12-4bcc-a91b-406914a7f89d" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="17" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="60" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;Darkvision;DarknessRules;SteelDefender_DeflectAttack;ExtraAttack" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4b01c1bb-5868-4488-9107-e441f15cca93" />
+        <field name="Name" type="NameTableFieldDefinition" value="__SUMMON SPELL__" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

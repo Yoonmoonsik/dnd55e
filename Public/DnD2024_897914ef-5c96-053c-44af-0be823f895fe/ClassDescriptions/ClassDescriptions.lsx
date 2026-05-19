@@ -265,6 +265,19 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="hc099c3bdga141ga29ag0b89g93d39a6878cd" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h96b414b5gdd91g3ee2g39ccg5cc08f37e532" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Kensei"/>
+                    <attribute id="ParentGuid" type="guid" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="92b14b25-7da0-440e-95d9-08df115936fc"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Monk"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="71637280-b294-4c33-9328-b0b77c74d662"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="haa96615cga522gdeb1ga810g8bef49c9c9e6" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h25af72e1gf482g34a9g529cg6374b4fb3326" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
@@ -684,16 +697,17 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="hc099c3bdga141ga29ag0b89g93d39a6878cd" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h96b414b5gdd91g3ee2g39ccg5cc08f37e532" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="h4bf8da96g64a3g0f5eg135bg7645978583b0" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h074e1d16gaccag0b0bg55e9g233c194cbe67" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="Name" type="FixedString" value="Kensei"/>
-                    <attribute id="ParentGuid" type="guid" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f"/>
-                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="92b14b25-7da0-440e-95d9-08df115936fc"/>
-                    <attribute id="SoundClassType" type="FixedString" value="Monk"/>
-                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
-                    <attribute id="UUID" type="guid" value="71637280-b294-4c33-9328-b0b77c74d662"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="BattleSmith"/>
+                    <attribute id="ParentGuid" type="guid" value="8aa2cf37-7739-4978-ab86-b1190b881620"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="88bb5c8e-b795-486a-82f0-b2531f396604"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Artificer"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="f574d2d6-cfc2-4cda-8771-1917f1eabaf1"/>
                 </node>
             </children>
         </node>

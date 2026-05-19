@@ -615,6 +615,11 @@
                     <attribute id="UUID" type="guid" value="7e1a6c02-1789-4b5f-ad52-42356b428156"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.0 Dream Druid"/>
+                    <attribute id="Spells" type="LSString" value="Target_HiddenPaths;Teleportation_HiddenPaths"/>
+                    <attribute id="UUID" type="guid" value="0a52fc3e-d165-4fe6-8c7f-d48030e646f1"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="__MONK__"/>
                     <attribute id="UUID" type="guid" value="16bc2dbf-2cf1-4141-86ff-bbb2e01e3579"/>
                 </node>
@@ -1530,7 +1535,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Artillerist Level 9"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_Fireball;Zone_ConjureBarrage"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_Fireball;Projectile_LightningArrow"/>
                     <attribute id="UUID" type="guid" value="ae58e7e6-ec07-488f-b8d4-dfe40bb4346e"/>
                 </node>
                 <node id="SpellList">
@@ -1665,9 +1670,19 @@
                     <attribute id="UUID" type="guid" value="582ed05c-c6fa-4d6f-99f9-efcc9de769f9"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.0 Dream Druid"/>
-                    <attribute id="Spells" type="LSString" value="Target_HiddenPaths;Teleportation_HiddenPaths"/>
-                    <attribute id="UUID" type="guid" value="0a52fc3e-d165-4fe6-8c7f-d48030e646f1"/>
+                    <attribute id="Name" type="FixedString" value="5.5 BattleSmith Level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Heroism;Shout_Shield_Wizard;Target_SteelDefender"/>
+                    <attribute id="UUID" type="guid" value="39e366a2-9be2-4867-af1c-76f30039f59e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 BattleSmith Level 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_Smite_Branding_Container;Target_WardingBond"/>
+                    <attribute id="UUID" type="guid" value="078df756-59cf-4ca8-8058-2e9ef820baf5"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 BattleSmith Level 9"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Zone_ConjureBarrage;Target_ArcaneJolt"/>
+                    <attribute id="UUID" type="guid" value="4dff084a-e169-4bf0-acf3-a1eaf7da4f32"/>
                 </node>
             </children>
         </node>

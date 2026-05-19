@@ -226,6 +226,14 @@
                     <attribute id="UUID" type="guid" value="c6051582-6119-45ad-a60e-bd2aeb3a52dc"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h9f0d8d5cgc3dag8cb5g882bg29b913bcd705" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="DeftStrike"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="de9419a9-8064-48fc-bd0c-2cae48564cde"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__RANGER__"/>
                     <attribute id="UUID" type="guid" value="4c3ed561-7036-4a6b-aa01-1e1c2174f186"/>
                 </node>
@@ -600,12 +608,17 @@
                     <attribute id="UUID" type="guid" value="014d6340-84cf-4d14-b5a4-4b3f5886f8ba"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h9f0d8d5cgc3dag8cb5g882bg29b913bcd705" version="1"/>
                     <attribute id="IsHidden" type="bool" value="true"/>
-                    <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="Name" type="FixedString" value="DeftStrike"/>
+                    <attribute id="Name" type="FixedString" value="ArcaneJoltTurn"/>
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
-                    <attribute id="UUID" type="guid" value="de9419a9-8064-48fc-bd0c-2cae48564cde"/>
+                    <attribute id="UUID" type="guid" value="e66c5409-7a2f-4dbb-a599-1c9646c8faf2"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h10e88f31ga340g7220g57cagf79b60b98df3" version="1"/>
+                    <attribute id="Name" type="FixedString" value="ArcaneJolt"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="82693afa-9760-4271-8c1e-9c2f49403e30"/>
                 </node>
             </children>
         </node>

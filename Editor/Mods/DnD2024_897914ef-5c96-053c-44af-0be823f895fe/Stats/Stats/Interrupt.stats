@@ -1173,6 +1173,54 @@
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f1288cc1-fc18-4063-8f95-1391c6a0c85f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_SteelDefender_DeflectAttack" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7b9311b6gf2bag9d7eg4407g3cb8f90b5541" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hda3785acgb4c8g1e09g6f52ga7964ee4a86e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_FightingStyle_Protection" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPostRoll" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self(context.Source,context.Observer) and not Self(context.Target,context.Observer) and Ally(context.Target, context.Observer) and HasInterruptedAttack() and not DistanceToEntityGreaterThan(2, context.ObserverPosition, context.Target) and not AnyEntityIsItem() and IsRerollInterruptInteresting(context.Source) and not InterruptHasDisadvantage();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="SetDisadvantage();ApplyStatus(OBSERVER_TARGET,INTERRUPT_FIGHTINGSTYLE_PROTECTION,100,0);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a2b08371-d4de-429b-be26-5831fbdcca26" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ArcaneJolt" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfcff03d7g3b43gc2c2g568eg228ec39a2a92" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7a33c7b9g8cc0g6c2bg348fg50d1aa50e0f5" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Force" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Source,context.Observer) and not Self() and IsWeaponAttack() and not IsKillingBlow() and IsHit() and Character() and not AnyEntityIsItem();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(2d6,Force,Magical);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ArcaneJolt:1;ArcaneJoltTurn:1;" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4034ca2d-07ea-43e9-91fe-575774464a54" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ArcaneJolt_SteelDefender" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha41d11dbgba7eg921eg929fg846ff3d63c75" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2a2d4c40ge64cg5bd8gb073g4424cebf9004" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Force" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('ARCANEJOLT_STEEL_DEFENDER',context.Target);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(2d6,Force,Magical);RemoveStatus('ARCANEJOLT_STEEL_DEFENDER');" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ArcaneJolt:1;ArcaneJoltTurn:1;" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7d6da526-60a3-4e62-b42b-7212aca66f2b" />

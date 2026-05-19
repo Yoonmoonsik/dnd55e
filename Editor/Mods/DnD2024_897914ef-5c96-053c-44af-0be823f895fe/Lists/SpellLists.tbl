@@ -2126,7 +2126,28 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ae58e7e6-ec07-488f-b8d4-dfe40bb4346e" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Artillerist Level 9" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_Fireball;Zone_ConjureBarrage" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_Fireball;Projectile_LightningArrow" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF00BFFF" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="39e366a2-9be2-4867-af1c-76f30039f59e" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 BattleSmith Level 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Heroism;Shout_Shield_Wizard;Target_SteelDefender" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="078df756-59cf-4ca8-8058-2e9ef820baf5" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 BattleSmith Level 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Smite_Branding_Container;Target_WardingBond" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4dff084a-e169-4bf0-acf3-a1eaf7da4f32" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 BattleSmith Level 9" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_AuraOfVitality;Zone_ConjureBarrage;Target_ArcaneJolt" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
