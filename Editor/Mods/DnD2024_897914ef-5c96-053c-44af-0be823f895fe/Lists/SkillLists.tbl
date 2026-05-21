@@ -78,5 +78,12 @@
         <field name="Skills" type="StringTableFieldDefinition" value="Arcana, History, Investigation, Medicine, Nature, Perception, SleightOfHand" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90cbc467-672f-473e-a248-e9d6f2417a93" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Monster Hunter Skill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Athletics, History, Investigation, Medicine, Nature, Perception, Religion, Survival" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

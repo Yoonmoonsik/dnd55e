@@ -6216,6 +6216,110 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_ArcaneJolt);UnlockInterrupt(Interrupt_ArcaneJolt_SteelDefender);ActionResource(ArcaneJolt,1,0);ActionResource(ArcaneJoltTurn,1,0);IF(AbilityGreaterThan('Intelligence',13,context.Source)):ActionResource(ArcaneJolt,1,0);IF(AbilityGreaterThan('Intelligence',15,context.Source)):ActionResource(ArcaneJolt,1,0);IF(AbilityGreaterThan('Intelligence',17,context.Source)):ActionResource(ArcaneJolt,1,0);IF(AbilityGreaterThan('Intelligence',19,context.Source)):ActionResource(ArcaneJolt,1,0);IF(AbilityGreaterThan('Intelligence',21,context.Source)):ActionResource(ArcaneJolt,1,0);IF(AbilityGreaterThan('Intelligence',23,context.Source)):ActionResource(ArcaneJolt,1,0);" />
       </fields>
     </stat_object>
+    <stat_object color="#FFCD5C5C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2eef623b-33cf-4634-989a-7208bc08c41b" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MONSTER HUNTER 16000__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8fa7df16-026e-4c18-b8a1-8e89740e5643" />
+        <field name="Name" type="NameTableFieldDefinition" value="MonsterHunter_2_StudiedResponse" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h601d5cbag2cd7g2d2ag51c7gedc8460d73bd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1acefdf8gda2eg7c3cg5653ge46c213d3330" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_GiantKiller" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="16002" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_StudiedResponse_Melee);UnlockInterrupt(Interrupt_StudiedResponse_Ranged);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eb209d1a-8351-4685-b0dd-ae473bab7199" />
+        <field name="Name" type="NameTableFieldDefinition" value="MonsterHunter_5_ExpertStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7ed746cbg5755g06c8gb2c6g038076d2cf1f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0d363bf9gf18dg388dg3b8ag596235a95087" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_FrenziedStrike" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="16005" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeUnarmedAttack()):RollBonus(Attack, IntelligenceModifier);IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(IntelligenceModifier);IF(IsWeaponAttack()):RollBonus(Attack, IntelligenceModifier);IF(IsWeaponAttack()):CharacterWeaponDamage(IntelligenceModifier);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea1f2722-f360-488c-b05b-d620c261b004" />
+        <field name="Name" type="NameTableFieldDefinition" value="MonsterHunter_6_ImprovedMonsterHunting" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he9610900g31c5gc311g6350gf54444ec26ce" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcf7da3ddg6f1bg143bg1d62g96bcb0b5bf29" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ImprovedCritical" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="16006" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ReduceCriticalAttackThreshold(1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="69f54b04-d532-4bfd-b53c-5548bb684ea1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MonsterHunter_9_KnowledgeableDefense" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hed99b819g6962gbbc5g7eb3gf4fabbc92aaf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2e4b0164g3dc3g17cbg5c2cg9f3e191997f3" version="4" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_StillnessOfMind" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="16009" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,IntelligenceModifier);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFCD5C5C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ef0a5aea-bb71-4dda-9dba-d928bc8f9719" />
+        <field name="Name" type="NameTableFieldDefinition" value="CarverGuild_3_EquippedForBattle" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he299d208g313bg4b8dg9d4eg974da70d0811" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha48d86e7g98c2gdd60g34f9g0598a3601b8b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_HeavilyArmored" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="16103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(HeavyArmor);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9e8948c1-d798-4f61-8d99-05962a52b57d" />
+        <field name="Name" type="NameTableFieldDefinition" value="CarverGuild_3_CloseQuarters" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h07e023ddg7200g1081g75b6gb872827fece1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9ca6d01dge19ag99cbg8e93gf6de98c14607" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_GoadingAttack_Melee" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="16103" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_CarverGuild_CloseQuarters);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c006764a-d6dc-490d-a403-6745526a5ff8" />
+        <field name="Name" type="NameTableFieldDefinition" value="CarverGuild_7_TrueGrit" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2a01a6f1ga5a8g118agb925gaeebd140f61f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h63673c65g21eagce37g8f0egcb6d3f41ce4e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_IronMind" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="16107" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Frightened;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5f17e4a5-6249-4d1f-8c36-90ce27ef11b1" />
+        <field name="Name" type="NameTableFieldDefinition" value="CarverGuild_10_TerrorizeTheTerrors" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd650c47ag4b95g9d0dg5585g12ccb7b6c4fa" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9396a6b8g3db1g53cdg44f1g9a5eb3c07ec2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_Fear" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="16110" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsReactionAttack(context.Source);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(FRIGHTENED,100,2,,,,not SavingThrow(Ability.Wisdom,SourceSpellDC()))" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="056a0c12-3e41-4e67-a705-01e9fea8219f" />

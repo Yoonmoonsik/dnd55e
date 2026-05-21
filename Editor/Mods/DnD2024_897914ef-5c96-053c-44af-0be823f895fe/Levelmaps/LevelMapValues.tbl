@@ -330,5 +330,14 @@
         <field name="Level1" type="StringTableFieldDefinition" value="1d8" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="CarverGuild" />
+        <field name="UUID" type="IdTableFieldDefinition" value="01769740-9275-492e-9fbb-e06dc346a700" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="e137179a-0c6f-4608-837a-322c13403943" />
+        <field name="Level1" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level11" type="StringTableFieldDefinition" value="4d6" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

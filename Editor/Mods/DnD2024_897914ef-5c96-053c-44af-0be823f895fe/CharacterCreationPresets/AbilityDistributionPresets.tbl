@@ -43,5 +43,19 @@
         <field name="Comment" type="CommentTableFieldDefinition" value="Artificer" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5a507c9c-028e-4caa-8442-4fcd4e81c1dd" />
+        <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="e137179a-0c6f-4608-837a-322c13403943" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="MonsterHunter" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

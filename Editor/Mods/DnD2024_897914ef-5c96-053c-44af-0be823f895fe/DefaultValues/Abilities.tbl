@@ -34,5 +34,16 @@
         <field name="Comment" type="CommentTableFieldDefinition" value="Artificer Ability Bonus" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e89d41bf-d185-4fd6-8f5a-fbb6e3114ca9" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Dexterity;Intelligence" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="AbilityBonus" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Monster Hunter Ability Bonus" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

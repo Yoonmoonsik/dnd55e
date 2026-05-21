@@ -6392,6 +6392,34 @@
                     <attribute id="UUID" type="guid" value="1c7024e5-3b8f-4334-99b2-e16f0dfbaec0"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="Proficiency(MartialWeapons)"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="BattleSmith"/>
+                    <attribute id="PassivesAdded" type="LSString" value="BattleSmith_3_Spells;BattleSmith_3_BattleReady;BattleSmith_3_SteelDefender"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(39e366a2-9be2-4867-af1c-76f30039f59e,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="88bb5c8e-b795-486a-82f0-b2531f396604"/>
+                    <attribute id="UUID" type="guid" value="88bb5c8e-b795-486a-82f0-b2531f396604"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="BattleSmith"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ExtraAttack"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(078df756-59cf-4ca8-8058-2e9ef820baf5,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="88bb5c8e-b795-486a-82f0-b2531f396604"/>
+                    <attribute id="UUID" type="guid" value="cb4c1528-389f-4c66-8728-bd87f5253989"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="BattleSmith"/>
+                    <attribute id="PassivesAdded" type="LSString" value="BattleSmith_9_ArcaneJolt"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(4dff084a-e169-4bf0-acf3-a1eaf7da4f32,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="88bb5c8e-b795-486a-82f0-b2531f396604"/>
+                    <attribute id="UUID" type="guid" value="90954edd-bca0-4dfd-b788-1a0c53aae783"/>
+                </node>
+                <node id="Progression">
                     <attribute id="Name" type="LSString" value="__GUNSLINGER__"/>
                     <attribute id="UUID" type="guid" value="34c98cb2-54e6-49e3-8563-a79ebdf5f182"/>
                 </node>
@@ -6552,6 +6580,7 @@
                     <attribute id="UUID" type="guid" value="8ea0a781-4fa9-4d47-adbe-fde113f138da"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0);"/>
                     <attribute id="Level" type="uint8" value="16"/>
                     <attribute id="Name" type="LSString" value="Gunslinger"/>
@@ -6576,6 +6605,7 @@
                     <attribute id="UUID" type="guid" value="564a462d-d1b8-4148-b59a-780a2f69f396"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0);"/>
                     <attribute id="Level" type="uint8" value="19"/>
                     <attribute id="Name" type="LSString" value="Gunslinger"/>
@@ -6896,6 +6926,7 @@
                     <attribute id="UUID" type="guid" value="13739b04-8007-48d1-8b39-134e57407bd8"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
                     <attribute id="Level" type="uint8" value="16"/>
                     <attribute id="Name" type="LSString" value="Illrigger"/>
@@ -6920,6 +6951,7 @@
                     <attribute id="UUID" type="guid" value="2fccea84-6ae5-434c-a50f-7314efc1d15b"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
                     <attribute id="Level" type="uint8" value="19"/>
                     <attribute id="Name" type="LSString" value="Illrigger"/>
@@ -7525,32 +7557,244 @@
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="Proficiency(MartialWeapons)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Intelligence);"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(90cbc467-672f-473e-a248-e9d6f2417a93,3);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList)"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="PassivesAdded" type="LSString" value="MonsterHunter_2_StudiedResponse"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(a0bdb113-1cce-45ac-94fb-72d4c3f207e9,1,FightingStyle);"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="04c709d7-46e1-451d-b037-42f75bf2a4fd"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
                     <attribute id="Level" type="uint8" value="3"/>
-                    <attribute id="Name" type="LSString" value="BattleSmith"/>
-                    <attribute id="PassivesAdded" type="LSString" value="BattleSmith_3_Spells;BattleSmith_3_BattleReady;BattleSmith_3_SteelDefender"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(39e366a2-9be2-4867-af1c-76f30039f59e,,,,AlwaysPrepared)"/>
-                    <attribute id="TableUUID" type="guid" value="88bb5c8e-b795-486a-82f0-b2531f396604"/>
-                    <attribute id="UUID" type="guid" value="88bb5c8e-b795-486a-82f0-b2531f396604"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="046c58a5-1251-46b3-b417-9c1ff559680d"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="d84e3f76-0e56-4344-9454-ba167a286bdb"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
                 </node>
                 <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="30029c42-a389-4326-b007-efa42b4868f6"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
                     <attribute id="Level" type="uint8" value="5"/>
-                    <attribute id="Name" type="LSString" value="BattleSmith"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ExtraAttack"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(078df756-59cf-4ca8-8058-2e9ef820baf5,,,,AlwaysPrepared)"/>
-                    <attribute id="TableUUID" type="guid" value="88bb5c8e-b795-486a-82f0-b2531f396604"/>
-                    <attribute id="UUID" type="guid" value="cb4c1528-389f-4c66-8728-bd87f5253989"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="PassivesAdded" type="LSString" value="MonsterHunter_5_ExpertStrike"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,1,WeaponMasteryList)"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="89e08e37-d57a-4536-8aa0-f63657e0d756"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="PassivesAdded" type="LSString" value="MonsterHunter_6_ImprovedMonsterHunting"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="56986cc3-1022-4e13-bef4-0386020999db"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="09583e3f-5754-4ec4-a263-b8f8cdcad43e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="d62db177-544f-4ceb-b2d9-7adf2a38d97a"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
                     <attribute id="Level" type="uint8" value="9"/>
-                    <attribute id="Name" type="LSString" value="BattleSmith"/>
-                    <attribute id="PassivesAdded" type="LSString" value="BattleSmith_9_ArcaneJolt"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="PassivesAdded" type="LSString" value="MonsterHunter_9_KnowledgeableDefense"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="b5b243a1-cb42-494a-b68f-f32d96b399d6"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="088a9205-1076-468d-97b5-290cd055cea9"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ExtraAttack"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,1,WeaponMasteryList)"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="38050883-fe3b-450c-b0d4-0b99aa61017d"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="38001ca7-d313-4a7b-9897-73e203f6eb1e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
+                    <attribute id="Level" type="uint8" value="13"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="a42c8cff-3a33-457c-8b7f-1779ae009f33"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons)"/>
+                    <attribute id="IsMulticlass" type="bool" value="true"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(b9543135-eceb-4ca9-b9fc-43befc11de3b,2,WeaponMasteryList)"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="87baea87-b310-4ae9-91a6-7a0883100f17"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
+                    <attribute id="Level" type="uint8" value="14"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="55b2895f-8c9e-4895-9fd7-5ca4a5d84327"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
+                    <attribute id="Level" type="uint8" value="15"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="827d8140-158c-44bf-b747-4d2a304a09f6"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
+                    <attribute id="Level" type="uint8" value="16"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="5d7b26ac-ffe1-4283-8c54-d255be7a7ec5"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
+                    <attribute id="Level" type="uint8" value="17"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="29e446a9-8864-4447-bff3-7497679302d0"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
+                    <attribute id="Level" type="uint8" value="18"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="19ddb51d-2c96-4205-a007-7e983a838d87"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
+                    <attribute id="Level" type="uint8" value="19"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="3cfad678-8735-43ae-be06-16f070317a42"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice10,1,0);"/>
+                    <attribute id="Level" type="uint8" value="20"/>
+                    <attribute id="Name" type="LSString" value="MonsterHunter"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8"/>
+                    <attribute id="UUID" type="guid" value="e53c6fbd-1859-4904-931d-485ca6a9467c"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="CarverGuild"/>
+                    <attribute id="PassivesAdded" type="LSString" value="CarverGuild_10_TerrorizeTheTerrors"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(4dff084a-e169-4bf0-acf3-a1eaf7da4f32,,,,AlwaysPrepared)"/>
-                    <attribute id="TableUUID" type="guid" value="88bb5c8e-b795-486a-82f0-b2531f396604"/>
-                    <attribute id="UUID" type="guid" value="90954edd-bca0-4dfd-b788-1a0c53aae783"/>
+                    <attribute id="TableUUID" type="guid" value="0f496902-a151-45db-80f7-a8b361aaa66c"/>
+                    <attribute id="UUID" type="guid" value="5aa3c460-a858-422d-9f6b-9b7b31e1ff7c"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="CarverGuild"/>
+                    <attribute id="PassivesAdded" type="LSString" value="CarverGuild_7_TrueGrit"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="0f496902-a151-45db-80f7-a8b361aaa66c"/>
+                    <attribute id="UUID" type="guid" value="750e126c-c876-4508-9237-ad54dd750fd2"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="CarverGuild"/>
+                    <attribute id="PassivesAdded" type="LSString" value="CarverGuild_3_EquippedForBattle;CarverGuild_3_CloseQuarters"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="0f496902-a151-45db-80f7-a8b361aaa66c"/>
+                    <attribute id="UUID" type="guid" value="0f496902-a151-45db-80f7-a8b361aaa66c"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="TableUUID" type="guid" value="784b2099-da2e-463b-9542-2457f3c836a5"/>
+                    <attribute id="UUID" type="guid" value="784b2099-da2e-463b-9542-2457f3c836a5"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="TableUUID" type="guid" value="784b2099-da2e-463b-9542-2457f3c836a5"/>
+                    <attribute id="UUID" type="guid" value="024ce4d9-5c5f-4af1-b5d9-9135784bca64"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="TableUUID" type="guid" value="784b2099-da2e-463b-9542-2457f3c836a5"/>
+                    <attribute id="UUID" type="guid" value="c31d90e9-f0c4-4e76-b0c2-945b08861628"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="TableUUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
+                    <attribute id="UUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="TableUUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
+                    <attribute id="UUID" type="guid" value="ce32861c-efb6-40c1-abfc-997b8017ba80"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="TableUUID" type="guid" value="a46829d3-05ba-406a-ba82-e8685cf4640d"/>
+                    <attribute id="UUID" type="guid" value="6f77999d-ff39-444f-a536-1960c823509a"/>
                 </node>
             </children>
         </node>

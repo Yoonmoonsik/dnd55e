@@ -1221,6 +1221,58 @@
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FFCD5C5C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="49062cff-e954-4dcd-b5d8-8e7c89887da5" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MONSTER HUNTER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2126d3a-8fea-418e-b601-3d1f77577b61" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_StudiedResponse_Melee" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h313bab3cg67c1gfa03ge6f3g354db3046e48" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2f932b68g4347ga354g521cgc438d3f99c6d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_SlashingFlourish_Melee" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPostRoll" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Ally(context.Target, context.Observer) and HasInterruptedAttack() and not DistanceToEntityGreaterThan(2, context.ObserverPosition, context.Target) and not AnyEntityIsItem();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="UseSpell(OBSERVER_SOURCE,Target_MainHandAttack,true,true,true);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="46c1c2a5-4d36-49ef-aef5-8ba1fc0d562f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_StudiedResponse_Ranged" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e2126d3a-8fea-418e-b601-3d1f77577b61" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he03aadf1g28cbg5549g778fgff77ace6f7ba" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_SlashingFlourish_Ranged" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Ally(context.Target, context.Observer) and HasInterruptedAttack() and not DistanceToEntityGreaterThan(18, context.ObserverPosition, context.Target) and not AnyEntityIsItem();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="UseSpell(OBSERVER_SOURCE,Projectile_MainHandAttack_Firearm,true,true,true);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="531e73e6-6203-44b9-84ec-895209b9af86" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_CarverGuild_CloseQuarters" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h99831797g4294g8465g0eb9g7df78a5c76a0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h23954313g9d62ge28ag34a3ga9b81bf374a2" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CarverGuild),MainMeleeWeaponDamageType)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_GoadingAttack_Melee" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and IsWeaponAttack() and not IsKillingBlow() and not AnyEntityIsItem();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CarverGuild),MainMeleeWeaponDamageType);IF(HasPassive('CarverGuild_10_TerrorizeTheTerrors',context.Source)):ApplyStatus(OBSERVER_TARGET,FRIGHTENED,100,2,,,,not SavingThrow(Ability.Wisdom,SourceSpellDC()));" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7d6da526-60a3-4e62-b42b-7212aca66f2b" />
