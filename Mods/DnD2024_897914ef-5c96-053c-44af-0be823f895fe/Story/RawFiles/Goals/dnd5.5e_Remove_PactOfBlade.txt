@@ -4,15 +4,11 @@ INITSECTION
 
 KBSECTION
 IF
-Equipped(_MagicItem, _Char)
+Unequipped(_MagicItem, _Char)
 AND
-DB_Players(_Char)
-AND
-HasPassive(_Char,"BattleSmith_3_ArcaneEmpowerment",1)
-AND
-IsWeapon(_MagicItem, 1)
+HasActiveStatus(_MagicItem, "BATTLE_READY", 1)
 THEN
-ApplyStatus(_MagicItem, "ARCANE_EMPOWERMENT", -1.0, 1, _Char);
+RemoveStatus(_MagicItem, "BATTLE_READY", NULL_00000000-0000-0000-0000-000000000000);
 
 IF
 Unequipped(_MagicItem, _Char)
