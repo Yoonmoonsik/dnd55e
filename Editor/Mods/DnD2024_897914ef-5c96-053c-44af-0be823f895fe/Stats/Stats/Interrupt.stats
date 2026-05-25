@@ -1364,6 +1364,61 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="430c832a-13bc-44b0-8ddc-4064df249636" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WARCASTER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ac04cc01-f5e9-4ca9-b7cf-0fbec5660dee" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_WarCaster" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e4da948d-80d8-4011-bfa2-4a8cf4f1ae73" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h67a39d88g2da4ga80bg2675g4c2a3e61a8ce" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h58d3ea5cg20f9gc47cg638cg148f2229c69f" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f21dd01f-9e96-4822-960a-cdfb764574f8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_BoomingBlade" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac04cc01-f5e9-4ca9-b7cf-0fbec5660dee" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h87d3e26ag5e53gdf92g801cg4e8c26aac78e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_BoomingBlade" />
+        <field name="Properties" type="StringTableFieldDefinition" value="UseSpell(Target_BoomingBlade_ClassSpell,true,true,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="360254b1-e2b9-4e66-9317-c7a37a29afca" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_GreenFlameBlade" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac04cc01-f5e9-4ca9-b7cf-0fbec5660dee" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha738254bg5dbag724ag511ag8d59cf1fed09" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_GreenFlameBlade" />
+        <field name="Properties" type="StringTableFieldDefinition" value="UseSpell(Target_GreenFlameBlade,true,true,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="df85214c-8061-46f7-a55f-69bc462ed084" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_TrueStrike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac04cc01-f5e9-4ca9-b7cf-0fbec5660dee" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e0866bbgdec1g07c2g7725gef3c6eb68247" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Melee" />
+        <field name="Properties" type="StringTableFieldDefinition" value="UseSpell(Target_TrueStrike_Radiant,true,true,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b0a40c9-2ba1-4e9c-a9d2-425ecf9cbadd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_VengefulBlade" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac04cc01-f5e9-4ca9-b7cf-0fbec5660dee" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h664f7fdag1793g4256gd73cga50bae7c538a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_VengefulBlade" />
+        <field name="Properties" type="StringTableFieldDefinition" value="UseSpell(Target_VengefulBlade,true,true,true);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3db71161-28eb-45e5-a66e-130562ac8ad0" />
         <field name="Name" type="NameTableFieldDefinition" value="__XANATHARS GUIDE TO EVERYTHING__" />
       </fields>

@@ -5220,6 +5220,58 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed80a549-4f45-4de7-9a77-421833937dfa" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WARCASTER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="225837e6-973a-4b5b-9e60-700a2fdf1fe0" />
+        <field name="Name" type="NameTableFieldDefinition" value="WARCASTER_UNLOCK" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WARCASTER_UNLOCK" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c870613d-e6a4-4d25-9012-08a12a504378" />
+        <field name="Name" type="NameTableFieldDefinition" value="WARCASTER_BOOMINGBLADE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="225837e6-973a-4b5b-9e60-700a2fdf1fe0" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WARCASTER_BOOMINGBLADE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_BoomingBlade);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f13c829f-e412-40d5-ada8-73b237155541" />
+        <field name="Name" type="NameTableFieldDefinition" value="WARCASTER_GREENFLAMEBLADE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="225837e6-973a-4b5b-9e60-700a2fdf1fe0" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WARCASTER_GREENFLAMEBLADE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_GreenFlameBlade);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cfdfda49-6670-4af2-9e06-73de58d85fe8" />
+        <field name="Name" type="NameTableFieldDefinition" value="WARCASTER_TRUESTRIKE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="225837e6-973a-4b5b-9e60-700a2fdf1fe0" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WARCASTER_TRUESTRIKE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_TrueStrike);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e60a1f54-cccf-452d-899e-c4ef5aa906f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="WARCASTER_VENGEFULBLADE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="225837e6-973a-4b5b-9e60-700a2fdf1fe0" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WARCASTER_VENGEFULBLADE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_VengefulBlade);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3926f1f3-cdbd-4d6f-9616-8358d41c9bc1" />
         <field name="Name" type="NameTableFieldDefinition" value="__XANATHARS GUIDE TO EVERYTHING__" />
       </fields>

@@ -1,0 +1,35 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+StatusApplied(_Character, "WARCASTER_UNLOCK", _, _)
+AND
+IsSpellActive(_Character, "Target_BoomingBlade_ClassSpell", 1)
+THEN
+ApplyStatus(_Character, "WARCASTER_BOOMINGBLADE", -1.0);
+
+IF
+StatusApplied(_Character, "WARCASTER_UNLOCK", _, _)
+AND
+IsSpellActive(_Character, "Target_GreenFlameBlade", 1)
+THEN
+ApplyStatus(_Character, "WARCASTER_GREENFLAMEBLADE", -1.0);
+
+IF
+StatusApplied(_Character, "WARCASTER_UNLOCK", _, _)
+AND
+IsSpellActive(_Character, "Target_TrueStrike", 1)
+THEN
+ApplyStatus(_Character, "WARCASTER_TRUESTRIKE", -1.0);
+
+IF
+StatusApplied(_Character, "WARCASTER_UNLOCK", _, _)
+AND
+IsSpellActive(_Character, "Target_VengefulBlade", 1)
+THEN
+ApplyStatus(_Character, "WARCASTER_VENGEFULBLADE", -1.0);
+EXITSECTION
+
+ENDEXITSECTION

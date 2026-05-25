@@ -5064,6 +5064,8 @@ data "DisplayName" "he811ea2cg5f7ega90cgc208g301ddc5eb96c;1"
 data "Description" "h2d86c838g5e8cg8763gdf9bgaeb1290ded87;1"
 data "PriorityOrder" "700"
 data "Boosts" "Advantage(Concentration);UnlockInterrupt(Interrupt_WarCaster);"
+data "StatsFunctorContext" "OnCreate;OnCombatStarted"
+data "StatsFunctors" "ApplyStatus(SELF,WARCASTER_UNLOCK,100,1)"
 
 new entry "WeaponMaster"
 type "PassiveData"

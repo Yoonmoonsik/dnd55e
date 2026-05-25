@@ -6989,6 +6989,8 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2d86c838g5e8cg8763gdf9bgaeb1290ded87" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Concentration);UnlockInterrupt(Interrupt_WarCaster);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnCombatStarted" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WARCASTER_UNLOCK,100,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
