@@ -3079,6 +3079,106 @@
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Thunder)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9183e261-2169-47f1-b0fc-20c7500e6ced" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2692dea5-6368-42a6-a6c1-4f77140d6e00" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d10,Radiant)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(2d10/2,Radiant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5ac3a97e-0359-4686-8bef-5f1cf07fa20d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b42e6c5e-f360-46fb-9e5c-845782ada49c" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d10,Radiant)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(3d10/2,Radiant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="17fcc0a1-8068-4b48-b0e2-58f5e537305e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bdeb2569-4881-4c4c-a063-950985c812b8" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d10,Radiant)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(4d10/2,Radiant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3d92e1bc-43ec-46a3-a0b0-dc47ec19d5a1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="eed2f7c6-a446-4285-87b6-7155b57a9a4b" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d10,Radiant)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d10/2,Radiant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="164c3727-f8ac-45bf-85a8-8ccb8bec86b1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7da4d733-1a42-45fb-ac60-804fdbc22c15" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d10,Radiant)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d10/2,Radiant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0013eb8f-6854-4cea-9176-23ab0e803904" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_Move" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="255ad93d-754c-49cc-b45f-5d760b11cde9" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d10,Radiant)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(2d10/2,Radiant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b7f627a1-8422-40ea-8c85-7610ae4d667b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_Move_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="595233f5-2811-48cf-b8ef-becc4f4dd6a2" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d10,Radiant)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(3d10/2,Radiant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cd73512f-6f31-42de-890b-a68efc4d4fe9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_Move_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bc4970a6-29c1-4193-bbf8-ae58cdbbdec5" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d10,Radiant)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(4d10/2,Radiant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3fdaedfe-fbd7-49c3-b75b-85ef3747371b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_Move_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d269b88e-4954-436b-9f6f-943e4045a744" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d10,Radiant)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d10/2,Radiant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b44704b3-c8ec-477e-a6da-e83dfd394a6a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_Move_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e1646bf4-2519-422b-bf8c-de5b33cee0e9" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d10,Radiant)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d10/2,Radiant);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="81743548-e831-4151-885c-19bc80906ac0" />

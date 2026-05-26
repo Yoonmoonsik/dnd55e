@@ -1219,19 +1219,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="e1eee5a4-bc57-469d-bc74-0debedf34029" />
-        <field name="Name" type="NameTableFieldDefinition" value="LIGHT_FLAME_BLADE" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="5098eedd-459d-4ba1-a5ef-83c5199d1b8e" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="d21bc194-1a75-4822-99fe-72fdc75ec8bb" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3e1d155f-d37f-4cd4-a23e-7b3573c88aba" />
         <field name="Name" type="NameTableFieldDefinition" value="GUST_OF_WIND_RECAST" />
         <field name="StackId" type="StringTableFieldDefinition" value="GUST_OF_WIND_RECAST" />
@@ -1241,6 +1228,68 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h95994da7g0cf6g8834gdb14g989056e28ce2" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_GustOfWind" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e1eee5a4-bc57-469d-bc74-0debedf34029" />
+        <field name="Name" type="NameTableFieldDefinition" value="LIGHT_FLAME_BLADE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5098eedd-459d-4ba1-a5ef-83c5199d1b8e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="38b9d467-f610-4325-b146-334f53fcff28" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOONBEAM" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a2eeeb3a-d9f5-415e-8e23-1006bb3d6443" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnApplyFail" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c13f839b-42ef-4011-a7ef-d43df558a37b" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOONBEAM_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="08f4faa2-0c60-46af-afd4-c446b2f8f696" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnApplyFail" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7d2f969d-f262-4cee-9fce-29a7d0e318a1" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOONBEAM_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="24d827f0-ab1e-4816-bf40-c626e874dea2" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnApplyFail" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c253c653-ec5b-4460-ae46-4ea1c2c0515c" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOONBEAM_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9f1d35cd-b02c-42bc-a123-ebeff3e547f1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnApplyFail" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4d37d348-4082-4ee7-8644-9a0d51ae6044" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOONBEAM_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6f455c3c-84b6-496d-ae36-47c5e31b3598" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnApplyFail" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
