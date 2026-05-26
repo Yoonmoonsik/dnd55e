@@ -1,0 +1,15 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+StatusApplied(_Character, "SURPRISED", _Causee, _)
+AND
+HasActiveStatus(_Character, "SURPRISED_PENALTY", 0)
+THEN
+ApplyStatus(_Character, "SURPRISED_PENALTY", 60.0, 1, _Character);
+LeaveCombat(_Character);
+EXITSECTION
+
+ENDEXITSECTION
