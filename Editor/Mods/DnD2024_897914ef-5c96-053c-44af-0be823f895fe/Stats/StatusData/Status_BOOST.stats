@@ -184,6 +184,34 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="12c51419-35ff-4c0c-9353-051cd7607e85" />
+        <field name="Name" type="NameTableFieldDefinition" value="SURPRISED" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haa63297agabf6g8665gd863gccf514e607f5" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Status_Surprised" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SURPRISED" />
+        <field name="SoundStart" type="StringTableFieldDefinition" value="Misc_Status_Surprised_MO" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndRound" enumeration_type_name="TickType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="06042524-4374-4216-bbd5-ba9168b6006b" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Initiative(-5);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b9f7b76b-9fc6-4050-b519-98a8e6030d8c" />
+        <field name="Name" type="NameTableFieldDefinition" value="SURPRISED_PENALTY" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SURPRISED_PENALTY" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndRound" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Initiative(-5);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisablePortraitIndicator;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="06042524-4374-4216-bbd5-ba9168b6006b" />
+        <field name="SoundStart" type="StringTableFieldDefinition" value="Misc_Status_Surprised_MO" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5a9a1666gd0c6gb6d5g9f5dga7c149830daa" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Status_Surprised" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="79683d38-56b7-4116-b815-5403d4ff0526" />
@@ -658,6 +686,86 @@
         <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_OWNER_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7d29bf57-4d63-48c2-988b-c3ba9b8d6add" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CloudOfDaggers_Move_6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="646c3b4e-4ff8-4b2f-8102-0f0c0518e158" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e3a5cc31-1ea3-4b15-a397-19c8772b8e8b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4fd136f9-fae1-4d0e-bce2-14d0abc78c72" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="320b7a3e-5809-4652-a50f-4d958f0ffc71" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a605d01c-32b8-4f46-94fe-d095e5003d68" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ebdaf0ef-c688-46a1-8483-bb880b3feb50" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="349e3713-6e60-4032-9396-0e5e814e9796" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4112fcc2-e254-4d63-8156-2bee8f019c2f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c31a5dbb-c7ed-4c9c-a252-179ed32af921" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dd5c583a-2d13-4dd0-add3-0c9991b2fe52" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ca782226-b4d6-4b35-85ba-dca18de28ce4" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ecd64fb7-6aaf-49f4-bc6e-9e1f50f4c732" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4d963c9d-af21-4fd2-b3c7-44cb35e3dc01" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="41ca9936-39a4-4821-ac4a-b23bf0949cdf" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ba1434cf-eaee-405d-93db-3448527e2867" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="49440b12-14f2-46ae-b0da-519a69707ab0" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8bc9c348-76f2-4e87-ac4e-568e5f0555b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="72e53e2a-4b55-4174-98ea-02821e2fa1ad" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b30a3a23-814a-4bab-8644-2abe91a5809e" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="64808e48-8413-4da4-b93b-7cb125031a44" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
