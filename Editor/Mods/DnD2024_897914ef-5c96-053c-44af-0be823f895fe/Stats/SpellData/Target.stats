@@ -8729,6 +8729,7 @@
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="f1ba15e1-93c4-4c94-a6d4-2b1b3934ce44" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="bcd66fb0-b0bc-41d0-abba-ad443d63dd72" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="8cd6c669-ded1-476a-aa5e-d7dd055381d7" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
