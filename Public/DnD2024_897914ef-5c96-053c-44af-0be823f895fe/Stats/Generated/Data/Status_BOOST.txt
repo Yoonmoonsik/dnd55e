@@ -1815,12 +1815,6 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndi
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusEffect" ""
 
-new entry "TRICKSTERS_TRANSPOSITION"
-type "StatusData"
-data "StatusType" "BOOST"
-data "Boosts" "UnlockSpell(Target_TrickstersTransposition);"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;TickingWithSource"
-
 new entry "EXTRA_ATTACK_WARPRIEST"
 type "StatusData"
 data "StatusType" "BOOST"

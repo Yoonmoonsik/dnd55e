@@ -1545,9 +1545,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_InvokeDuplicity" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3306" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnAttack;OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="SpellId('Target_InvokeDuplicity');" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,TRICKSTERS_TRANSPOSITION,100,1)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_TrickstersTransposition);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

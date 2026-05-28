@@ -2247,14 +2247,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="235d7881-d17c-400a-b2d5-972d93078538" />
-        <field name="Name" type="NameTableFieldDefinition" value="TRICKSTERS_TRANSPOSITION" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_TrickstersTransposition);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f016bef6-2078-4c2a-8f87-3b292a3168be" />
         <field name="Name" type="NameTableFieldDefinition" value="EXTRA_ATTACK_WARPRIEST" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2e2ad149-8527-440a-9172-45d89725b9f4" />
