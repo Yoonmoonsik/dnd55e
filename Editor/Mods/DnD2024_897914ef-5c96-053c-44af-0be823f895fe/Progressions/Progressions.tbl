@@ -9758,7 +9758,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="IceElf" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,1.5,0)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(b768acdf-937d-4d12-a84d-1dbf064dd092,,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
