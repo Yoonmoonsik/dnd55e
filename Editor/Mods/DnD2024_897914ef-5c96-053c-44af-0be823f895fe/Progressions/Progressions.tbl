@@ -9747,7 +9747,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="IceElf" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(c92b0cf3-1496-43a7-a4ad-4eb7e2fdc78f,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_RayOfFrost" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9758,8 +9758,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="IceElf" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(f881aa4b-eeb6-4604-8cea-d5884ab70a76,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_IceKnife" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9770,8 +9769,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="IceElf" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(b768acdf-937d-4d12-a84d-1dbf064dd092,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_GustOfWind" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

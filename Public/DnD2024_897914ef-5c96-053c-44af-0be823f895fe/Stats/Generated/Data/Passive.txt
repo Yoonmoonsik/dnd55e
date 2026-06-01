@@ -5869,6 +5869,21 @@ data "PriorityOrder" "500"
 data "Properties" "Highlighted"
 data "Boosts" "Resistance(Psychic,Resistant);Advantage(SavingThrow, Wisdom);Advantage(SavingThrow, Charisma);UnlockSpell(Shout_DreamKnowledge);"
 
+new entry "__RACE ICE ELF__"
+type "PassiveData"
+
+new entry "RaceSpell_RayOfFrost"
+type "PassiveData"
+data "Boosts" "UnlockSpell(Projectile_RayOfFrost,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);"
+
+new entry "RaceSpell_IceKnife"
+type "PassiveData"
+data "Boosts" "UnlockSpell(Projectile_IceKnife,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,1);"
+
+new entry "RaceSpell_GustOfWind"
+type "PassiveData"
+data "Boosts" "UnlockSpell(Zone_GustOfWind,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,2);"
+
 new entry "__NPC__"
 type "PassiveData"
 

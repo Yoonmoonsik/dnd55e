@@ -7539,26 +7539,24 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="IceElf"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RaceSpell_RayOfFrost"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(c92b0cf3-1496-43a7-a4ad-4eb7e2fdc78f,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="50faf06c-c294-450a-abe8-26bba3482118"/>
                     <attribute id="UUID" type="guid" value="1af31dd3-12db-41f9-8e6e-85980e69603c"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="IceElf"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RaceSpell_IceKnife"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(f881aa4b-eeb6-4604-8cea-d5884ab70a76,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="50faf06c-c294-450a-abe8-26bba3482118"/>
                     <attribute id="UUID" type="guid" value="202ab1b9-036f-4d3f-b98e-ac53a1c1f4a2"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="IceElf"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RaceSpell_GustOfWind"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(b768acdf-937d-4d12-a84d-1dbf064dd092,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="50faf06c-c294-450a-abe8-26bba3482118"/>
                     <attribute id="UUID" type="guid" value="38e2703a-71b5-441c-980b-2d8ef107479f"/>
                 </node>

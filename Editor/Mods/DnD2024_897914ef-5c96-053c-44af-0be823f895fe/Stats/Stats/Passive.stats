@@ -8106,6 +8106,33 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="401ad9e5-8e16-4407-823e-d0d4fc47ee44" />
+        <field name="Name" type="NameTableFieldDefinition" value="__RACE ICE ELF__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a07796dc-abb1-4952-b7dd-ac61542a49c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_RayOfFrost" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_RayOfFrost,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2e6df4a2-ed00-45ef-a609-708f35aad671" />
+        <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_IceKnife" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_IceKnife,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="844c4048-fa25-469d-8cb3-f5d2819ff1f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_GustOfWind" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_GustOfWind,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,2);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="487be05c-3e51-40ff-bf28-4a19d4be839f" />
         <field name="Name" type="NameTableFieldDefinition" value="__NPC__" />
       </fields>
