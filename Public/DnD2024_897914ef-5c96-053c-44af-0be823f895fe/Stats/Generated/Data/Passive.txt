@@ -5880,6 +5880,17 @@ new entry "RaceSpell_MistyStep"
 type "PassiveData"
 data "Boosts" "UnlockSpell(Target_MistyStep,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,2);"
 
+new entry "__RACE WOOD ELF__"
+type "PassiveData"
+
+new entry "RaceSpell_Longstrider"
+type "PassiveData"
+data "Boosts" "UnlockSpell(Target_Longstrider,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,2);"
+
+new entry "RaceSpell_PassWithoutTrace"
+type "PassiveData"
+data "Boosts" "UnlockSpell(Shout_PassWithoutTrace,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,2);"
+
 new entry "__RACE ICE ELF__"
 type "PassiveData"
 

@@ -9721,8 +9721,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="WoodElf" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(5aa61fcb-8b06-402f-9288-48d5a86a0636,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_Longstrider" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9733,8 +9732,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="WoodElf" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(68acd617-9764-4a8b-9c91-6ddefc84f309,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_PassWithoutTrace" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -10040,8 +10038,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="WoodHalfElf" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(5aa61fcb-8b06-402f-9288-48d5a86a0636,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_Longstrider" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -10052,8 +10049,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="WoodHalfElf" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(68acd617-9764-4a8b-9c91-6ddefc84f309,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_PassWithoutTrace" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
