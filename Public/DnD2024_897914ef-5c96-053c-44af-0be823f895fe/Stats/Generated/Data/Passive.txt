@@ -5869,6 +5869,17 @@ data "PriorityOrder" "500"
 data "Properties" "Highlighted"
 data "Boosts" "Resistance(Psychic,Resistant);Advantage(SavingThrow, Wisdom);Advantage(SavingThrow, Charisma);UnlockSpell(Shout_DreamKnowledge);"
 
+new entry "__RACE HIGH ELF__"
+type "PassiveData"
+
+new entry "RaceSpell_FaerieFire"
+type "PassiveData"
+data "Boosts" "UnlockSpell(Target_FaerieFire,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,1);"
+
+new entry "RaceSpell_MistyStep"
+type "PassiveData"
+data "Boosts" "UnlockSpell(Target_MistyStep,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,2);"
+
 new entry "__RACE ICE ELF__"
 type "PassiveData"
 

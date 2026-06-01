@@ -8106,6 +8106,26 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9f2df3f7-e50a-47ec-b8de-e34b280edafd" />
+        <field name="Name" type="NameTableFieldDefinition" value="__RACE HIGH ELF__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c2cfa3c3-7781-436b-8c1f-55be94e8a247" />
+        <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_FaerieFire" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_FaerieFire,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3e003a41-ee72-4382-9878-76b23de26ea7" />
+        <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_MistyStep" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MistyStep,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(SpellSlot,1,2);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="401ad9e5-8e16-4407-823e-d0d4fc47ee44" />
         <field name="Name" type="NameTableFieldDefinition" value="__RACE ICE ELF__" />
       </fields>

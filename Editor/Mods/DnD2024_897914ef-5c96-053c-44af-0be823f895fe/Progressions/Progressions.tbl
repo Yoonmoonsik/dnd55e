@@ -9688,8 +9688,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="HighElf" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(2fce11f8-338b-43c2-a2cf-d13834c689bd,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_FaerieFire" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9700,8 +9699,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="HighElf" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(02686970-eb05-450f-8d17-fa1ddbea9295,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_MistyStep" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9793,8 +9791,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Drow" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(2fce11f8-338b-43c2-a2cf-d13834c689bd,,,,AlwaysPrepared)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_FaerieFire" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9806,7 +9803,6 @@
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(01f43aaa-1641-419d-bfd2-1dff1f033a52,,,,AlwaysPrepared)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -10011,8 +10007,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="HighHalfElf" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(2fce11f8-338b-43c2-a2cf-d13834c689bd,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_FaerieFire" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -10023,8 +10018,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="HighHalfElf" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(02686970-eb05-450f-8d17-fa1ddbea9295,,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_MistyStep" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -10081,8 +10075,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="HalfDrow" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(2fce11f8-338b-43c2-a2cf-d13834c689bd,,,,AlwaysPrepared)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_FaerieFire" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -10130,8 +10123,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Githyanki" />
         <field name="Level" type="ByteTableFieldDefinition" value="5" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(02686970-eb05-450f-8d17-fa1ddbea9295,,,,AlwaysPrepared)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,2)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RaceSpell_MistyStep" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

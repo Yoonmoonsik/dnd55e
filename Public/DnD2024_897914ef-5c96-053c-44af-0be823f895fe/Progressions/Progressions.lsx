@@ -7493,20 +7493,18 @@
                     <attribute id="UUID" type="guid" value="db13a1fb-7d64-4309-a1c8-e2a5c752ded5"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="HighElf"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RaceSpell_FaerieFire"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(2fce11f8-338b-43c2-a2cf-d13834c689bd,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="5fd1dfd5-b5bd-4152-a04a-87fb3faba1e9"/>
                     <attribute id="UUID" type="guid" value="32c7bfcd-d38e-4c23-935a-5652a335d203"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="HighElf"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RaceSpell_MistyStep"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(02686970-eb05-450f-8d17-fa1ddbea9295,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="5fd1dfd5-b5bd-4152-a04a-87fb3faba1e9"/>
                     <attribute id="UUID" type="guid" value="37f6a46d-aa7c-4ae0-ae3c-59787b56adc9"/>
                 </node>
@@ -7571,16 +7569,14 @@
                     <attribute id="UUID" type="guid" value="4a634f24-bdcb-4559-b8be-7847133ad1c3"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Drow"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RaceSpell_FaerieFire"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(2fce11f8-338b-43c2-a2cf-d13834c689bd,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="a43498f5-d72f-4a05-b721-1feea9acb3ad"/>
                     <attribute id="UUID" type="guid" value="334e0ddd-33cb-468f-a232-40cfe9ad23da"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="Drow"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
@@ -7735,20 +7731,18 @@
                     <attribute id="UUID" type="guid" value="43bfa29a-fd63-4f47-850e-6714f0333022"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="HighHalfElf"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RaceSpell_FaerieFire"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(2fce11f8-338b-43c2-a2cf-d13834c689bd,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="9efb7794-dc6f-45f3-8cf9-74ad5286c792"/>
                     <attribute id="UUID" type="guid" value="533158e2-3767-497a-b4fc-e3fe71214092"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="HighHalfElf"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RaceSpell_MistyStep"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(02686970-eb05-450f-8d17-fa1ddbea9295,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="9efb7794-dc6f-45f3-8cf9-74ad5286c792"/>
                     <attribute id="UUID" type="guid" value="beb65c50-e9d2-4571-8261-c6e6aead4903"/>
                 </node>
@@ -7787,11 +7781,10 @@
                     <attribute id="UUID" type="guid" value="58dae581-c25a-4dfb-8a57-589bf4b34f62"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="HalfDrow"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RaceSpell_FaerieFire"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(2fce11f8-338b-43c2-a2cf-d13834c689bd,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="4ef615e7-e401-4304-bedc-5c229caa1dc2"/>
                     <attribute id="UUID" type="guid" value="87d2588b-bd2e-43df-ace0-2c2d3efea0ca"/>
                 </node>
@@ -7824,11 +7817,10 @@
                     <attribute id="UUID" type="guid" value="851880cb-3b5d-4129-9b25-3bb17d849f87"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="Githyanki"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RaceSpell_MistyStep"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(02686970-eb05-450f-8d17-fa1ddbea9295,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="81e2cb57-6a12-4429-b3a5-f72549355b3b"/>
                     <attribute id="UUID" type="guid" value="37ad7172-291b-4a05-b226-2734170fb4fa"/>
                 </node>
