@@ -1224,6 +1224,83 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dc50653c-5d14-45f2-983a-bd124a6cbc51" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CONJURATION__SLEVEL_5__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b366064b-6f3f-4300-97c9-426f9afee785" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cloudkill" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3fd2f608-3ef7-444b-bd94-1c46d93799e3" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Poison,Magical);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d8/2,Poison,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8727b64b-787d-4eb5-a251-a454051c3e45" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cloudkill_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="12cbd21a-813b-4ebf-af8c-492a267750ee" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Poison,Magical)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d8/2,Poison,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5af3beb7-fe92-454b-a261-a8d466c79e57" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cloudkill_Recast" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fdd0de96-3ed9-42c2-acb4-70a3a4856260" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Poison,Magical);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d8/2,Poison,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db9f5888-3107-41b0-8a10-1e7d17ecec83" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cloudkill_Recast_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d9b75ad6-94d6-4d3d-84b2-346551e51e72" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Poison,Magical)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d8/2,Poison,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dc82d3c2-d660-49ae-8321-8cc4edf190ae" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Legendary_Chromatic_CloudKill" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ef159b7e-ecca-42d6-a5c8-ba167915b51f" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Poison,Magical);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d8/2,Poison,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b561b104-1f1c-47dd-8e63-edd604749d64" />
+        <field name="Name" type="NameTableFieldDefinition" value="SHA_Necromancer_Cloudkill" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="621ca3f1-5f59-408f-92bc-a88241dea324" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Poison,Magical);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d8/2,Poison,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="15a6dafc-d5e7-4fd1-b1e2-c6f990cb6c75" />
+        <field name="Name" type="NameTableFieldDefinition" value="SHA_Necromancer_Cloudkill_Recast" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d4479498-fc0e-4b9f-87cc-53db924d69de" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Poison,Magical);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d8/2,Poison,Magical)" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ea4e8e48-47c2-4811-9676-14523ec3fa68" />

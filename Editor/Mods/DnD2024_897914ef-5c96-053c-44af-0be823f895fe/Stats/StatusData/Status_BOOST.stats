@@ -789,6 +789,28 @@
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e3194911-53b4-4b28-ae68-213ca23a9912" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUDKILL" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f1a83df1-2ba0-4e85-be73-00f551f1ec9c" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnApplyFail" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a7b4f694-4352-4219-908a-b5ea2d1a42e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUDKILL_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="114af5ba-42bf-472c-8453-b81925a04471" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnApplyFail" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f0946a64-518c-4ad5-94a3-58bbb8f08e56" />
