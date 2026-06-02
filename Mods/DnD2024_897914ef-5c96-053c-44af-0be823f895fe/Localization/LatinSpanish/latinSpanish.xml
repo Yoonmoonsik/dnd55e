@@ -5,7 +5,13 @@
   <content contentuid="haf418bd4gaf68g349dge3fbg4db2a9970409" version="1">Esquivar</content>
   <content contentuid="h40481577g00cege926g9b8cg4479348271b0" version="1">Hasta el comienzo de tu siguiente turno, cualquier tirada de ataque realizada contra ti tiene Desventaja y tú realizas las Tiradas de Salvación de Destreza con Ventaja.</content>
   <content contentuid="h77f164a8g908ag78fdg969cg13b085d02634" version="2">Si llegas a 0 Puntos de Golpe, quedarás inconsciente y deberás realizar Tiradas de Salvación mortales. Con 3 éxitos, dejas de sangrar y te vuelves Estable. Con 3 fracasos, mueres. Si sacas un 20 en el d20, recuperas 1 punto de vida.&lt;br&gt;&lt;br&gt;Si recuperas Puntos de Golpe, la condición se elimina. si un aliado &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;te Ayuda&lt;/LSTag&gt; tú, recuperas 1 punto de vida.</content>
-  <content contentuid="hd91b86adge685g5c21gf879g457242b186f2" version="2">Mientras tiene la condición Prone, experimenta los siguientes efectos:&lt;br&gt;&lt;br&gt;Movimiento restringido: debes gastar una cantidad de movimiento igual a la mitad de tu velocidad para levantarte y finalizar la condición. Si tu velocidad es 0, no puedes levantarte.&lt;br&gt;&lt;br&gt;Ataques afectados: Una tirada de ataque contra ti tiene ventaja si el atacante está a [1] de ti. De lo contrario, esa tirada de ataque tiene Desventaja.</content>
+
+Si recuperas algún punto de golpe, la condición se elimina. Si un aliado te &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Ayuda&lt;/LSTag&gt;, recuperas 1 punto de golpe.</content>
+  <content contentuid="hd91b86adge685g5c21gf879g457242b186f2" version="2">Mientras tienes la condición Derribado, experimentas los siguientes efectos:
+Movimiento Restringido: debes gastar una cantidad de movimiento igual a la mitad de tu Velocidad para levantarte y finalizar la condición. Si tu Velocidad es 0, no puedes levantarte.
+
+
+Ataques afectados: una tirada de ataque contra ti tiene Ventaja si el atacante está dentro de [1] de ti. De lo contrario, tiene Desventaja.</content>
   <content contentuid="h4d9f934eg7721gfb63gcff8gb411e659dc78" version="1">Regla: un Conjuro con un espacio de Conjuro por turno</content>
   <content contentuid="hd3ffb028g9755g52adgf223g4bb289eebf93" version="1">En un turno, sólo puedes gastar un espacio de Conjuro para lanzar un Conjuro. Esta regla significa que no puedes, por ejemplo, lanzar un Conjuro con un espacio de Conjuro usando la acción Mágica y otro usando una Acción Bonus en el mismo turno.</content>
   <content contentuid="hb60d9b3bg491bg7056g1bd9gc752b67bfd56" version="1">Propiedades de maestría: Talar</content>
@@ -34,18 +40,27 @@
   <content contentuid="hd724f72fgcda8gb6acgb5c4gd95d169dd0b4" version="1">Hacha de Mano, Arco Corto, Estoque, Espada Corta, Ballesta de Mano, Pistola</content>
   <content contentuid="h6e0a316bg6ce3gc18fgb7c0ge96c73d6dfa0" version="1">Maestría con Armas</content>
   <content contentuid="h8c28362ag369agee34gc8d4g6ccec5460b53" version="1">Tu entrenamiento con armas te permite usar las propiedades de maestría de las armas.&lt;br&gt;&lt;br&gt;Al alcanzar ciertos niveles en tu clase, obtienes la capacidad de usar las propiedades de maestría de tipos de armas adicionales.</content>
+
+A medida que alcanzas ciertos niveles en tu clase, obtienes la capacidad de usar las propiedades de maestría de tipos de armas adicionales.</content>
   <content contentuid="he54ffab7g9288g792age85bg3fc0a39a63db" version="1">Nivel 1: Furia</content>
-  <content contentuid="ha33a602cg9bb2gec42g889dg5983a5346c84" version="1">Puedes imbuirte con un poder primigenio llamado Furia, una fuerza que te otorga una fuerza y resistencia extraordinarias. Puedes entrar en ella como Acción Adicional si no llevas armadura Pesada.&lt;br&gt;&lt;br&gt;Puedes entrar en Furia el número de veces indicado para tu nivel de Bárbaro en la columna de Furias de la tabla de Rasgos del Bárbaro. Recuperas un uso gastado cuando completas un Descanso Corto, y recuperas todos los usos gastados cuando completas un Descanso Largo.</content>
+  <content contentuid="ha33a602cg9bb2gec42g889dg5983a5346c84" version="1">Puedes imbuirte con un poder primigenio llamado Furia, una fuerza que te otorga una fuerza y resistencia extraordinarias. Puedes entrar en ella como Acción Adicional si no llevas armadura Pesada.&lt;br&gt;&lt;br&gt;Puedes entrar en Furia el número de veces indicado para tu nivel de Bárbaro en la columna de Furias de la tabla de Rasgos del Bárbaro. Recuperas un uso gastado cuando completas un Descanso Corto, y recuperas todos los usos gastados cuando completas un Descanso Largo.
+
+Puedes entrar en Furia el número de veces indicado para tu nivel de Bárbaro en la columna de Furias de la tabla de Rasgos del Bárbaro. Recuperas un uso gastado cuando completas un Descanso Corto, y recuperas todos los usos gastados cuando completas un Descanso Largo.</content>
   <content contentuid="h8abec533g47afgabaag5370ga724a70ed863" version="1">Nivel 1: Defensa sin Armadura</content>
   <content contentuid="hfc1b8fd5g336eg3648g3224g9cae0aaac491" version="1">Nivel 2: Sentido del Peligro</content>
   <content contentuid="hb6dea583g9359gddf3g2360g74669f67b1a6" version="1">Nivel 3: Conocimiento Primigenio</content>
-  <content contentuid="h860b399bg558cg749fgb64bg707d53758400" version="2">Ganas competencia en otra habilidad de tu elección de la lista de habilidades disponibles para Bárbaros en el nivel 1.&lt;br&gt;&lt;br&gt;Además, mientras tu Furia está activa, puedes canalizar el poder primigenio al intentar ciertas tareas; siempre que hagas una prueba de característica usando una de las siguientes habilidades, puedes hacerla como una prueba de Fuerza aunque normalmente use una característica diferente: Acrobacias, Intimidación, Percepción, Sigilo o Supervivencia. Cuando usas esta capacidad, tu Fuerza representa el poder primigenio que fluye a través de ti, agudizando tu agilidad, porte y sentidos.</content>
+  <content contentuid="h860b399bg558cg749fgb64bg707d53758400" version="2">Ganas competencia en otra habilidad de tu elección de la lista de habilidades disponibles para Bárbaros en el nivel 1.&lt;br&gt;&lt;br&gt;Además, mientras tu Furia está activa, puedes canalizar el poder primigenio al intentar ciertas tareas; siempre que hagas una prueba de característica usando una de las siguientes habilidades, puedes hacerla como una prueba de Fuerza aunque normalmente use una característica diferente: Acrobacias, Intimidación, Percepción, Sigilo o Supervivencia. Cuando usas esta capacidad, tu Fuerza representa el poder primigenio que fluye a través de ti, agudizando tu agilidad, porte y sentidos.
+
+Además, mientras tu Furia está activa, puedes canalizar el poder primigenio al intentar ciertas tareas; siempre que hagas una prueba de característica usando una de las siguientes habilidades, puedes hacerla como una prueba de Fuerza aunque normalmente use una característica diferente: Acrobacias, Intimidación, Percepción, Sigilo o Supervivencia. Cuando usas esta capacidad, tu Fuerza representa el poder primigenio que fluye a través de ti, agudizando tu agilidad, porte y sentidos.</content>
   <content contentuid="h3fa58ccfg135bg7a66g14degc3c8b5bb8261" version="1">Nivel 5: Movimiento Rápido</content>
   <content contentuid="h7c047839g4177g2aaega022g36a5cb07886a" version="1">Nivel 7: Instinto Salvaje</content>
   <content contentuid="h28d4b453gc36cg810egf9e2g1dbff5d018d8" version="1">Nivel 7: Salto Instintivo</content>
   <content contentuid="hdb025275gf26dg03dfg7370g4dddf3f0ffb9" version="1">Como parte de la Acción Adicional que usas para entrar en Furia, puedes moverte hasta la mitad de tu Velocidad.</content>
   <content contentuid="hb6144726g336aga60cg63d6gf6c4bc669e6a" version="1">Nivel 9: Golpe Brutal</content>
-  <content contentuid="h3a320da8g90b9g9714ge237g45c9782afbd0" version="1">Si usas Ataque Temerario, el objetivo recibe 1d10 de daño adicional del mismo tipo que el causado por el arma o Golpe Desarmado, y puedes causar un efecto de Golpe Brutal de tu elección.&lt;br&gt;&lt;br&gt;Golpe Contundente. El objetivo es empujado [1] en línea recta alejándose de ti. Luego puedes moverte hasta la mitad de tu Velocidad en línea recta hacia el objetivo sin provocar Ataques de Oportunidad.&lt;br&gt;Golpe Paralizante. La Velocidad del objetivo se reduce en [1] hasta el inicio de tu siguiente turno. Un objetivo solo puede verse afectado por un Golpe Paralizante a la vez: el más reciente.</content>
+  <content contentuid="h3a320da8g90b9g9714ge237g45c9782afbd0" version="1">Si usas Ataque Temerario, el objetivo recibe 1d10 de daño adicional del mismo tipo que el causado por el arma o Golpe Desarmado, y puedes causar un efecto de Golpe Brutal de tu elección.&lt;br&gt;&lt;br&gt;Golpe Contundente. El objetivo es empujado [1] en línea recta alejándose de ti. Luego puedes moverte hasta la mitad de tu Velocidad en línea recta hacia el objetivo sin provocar Ataques de Oportunidad.&lt;br&gt;Golpe Paralizante. La Velocidad del objetivo se reduce en [1] hasta el inicio de tu siguiente turno. Un objetivo solo puede verse afectado por un Golpe Paralizante a la vez: el más reciente.
+
+Golpe Contundente. El objetivo es empujado [1] en línea recta alejándose de ti. Luego puedes moverte hasta la mitad de tu Velocidad en línea recta hacia el objetivo sin provocar Ataques de Oportunidad.
+Golpe Paralizante. La Velocidad del objetivo se reduce en [1] hasta el inicio de tu siguiente turno. Un objetivo solo puede verse afectado por un Golpe Paralizante a la vez: el más reciente.</content>
   <content contentuid="hf41a9d96ge143g36f0g9f1eg51d9ca5a4cee" version="1">Ataque Temerario: Golpe Contundente</content>
   <content contentuid="hab5f59ebgf7a8g70bag4453g8c9195f80563" version="1">El objetivo es empujado [1] en línea recta alejándose de ti. Luego puedes moverte hasta la mitad de tu Velocidad en línea recta hacia el objetivo sin provocar Ataques de Oportunidad.</content>
   <content contentuid="hebd8f833g052cg4774g5e19geb34be606a5f" version="1">Ataque Temerario: Golpe Paralizante</content>
@@ -76,10 +91,14 @@
   <content contentuid="h0f358bf7g4a10gc77fg43cfg0c187137ef7a" version="1">Puedes usar notas musicales o palabras de poder para interrumpir efectos que influyen en la mente. Si tú o una criatura a 30 pies de ti falla una tirada de salvación contra un efecto que aplica la condición Hechizado o Asustado, puedes usar tu Reacción para hacer que la tirada se repita, y la nueva tirada tiene Ventaja.</content>
   <content contentuid="h3169b2acg5134gbc8dge8fagb01eabf3a278" version="1">Nivel 3: Magia Seductora</content>
   <content contentuid="h035b29c1g51d0ge9f8gb63fgc75cd5045b0c" version="2">Siempre tienes preparados los conjuros Encantar Persona e Imagen Especular.&lt;br&gt;&lt;br&gt;Además, inmediatamente después de lanzar un conjuro de Encantamiento o Ilusión usando un Espacio de Conjuro, puedes hacer que una criatura que puedas ver a [1] de ti realice una tirada de salvación de Sabiduría contra la CD de tus conjuros. Si falla, el objetivo tiene la condición Hechizado o Asustado (a tu elección) durante 1 minuto.</content>
+
+Además, inmediatamente después de lanzar un conjuro de Encantamiento o Ilusión usando un espacio de conjuro, puedes hacer que una criatura que puedas ver a [1] de ti realice una tirada de salvación de Sabiduría contra tu CD de conjuros. Si falla, el objetivo tiene la condición Hechizado o Asustado (a tu elección) durante 1 minuto.</content>
   <content contentuid="he30a14f7gb323g888eg2ff5g04b0a7374497" version="1">Magia Seductora: Hechizado</content>
   <content contentuid="haac5a803g73dfg5282g175eg12c90e9a77cd" version="1">Magia Seductora: Asustado</content>
   <content contentuid="h1e9e444agc6b5g3056g6b60g447875f0ec07" version="1">Nivel 3: Manto de Inspiración</content>
   <content contentuid="hd68a192ag408cg0b94ge1bcgb6efd87c7b6a" version="2">Puedes tejer magia feérica en una canción o danza para llenar a otros de vigor. Como Acción Adicional, puedes gastar un uso de Inspiración Bárdica y lanzar tu dado de Inspiración Bárdica. Al hacerlo, elige un número de otras criaturas a [1] de ti, hasta tu modificador de Carisma (mínimo una criatura).&lt;br&gt;&lt;br&gt;Cada una de esas criaturas gana Puntos de Golpe Temporales iguales al doble del número obtenido en el dado de Inspiración Bárdica, y cada una puede moverse sin provocar Ataques de Oportunidad hasta el final de su siguiente turno.</content>
+
+Cada una de esas criaturas gana Puntos de Golpe Temporales iguales al doble del número obtenido en el dado de Inspiración Bárdica, y cada una puede moverse sin provocar Ataques de Oportunidad hasta el final de su siguiente turno.</content>
   <content contentuid="h719facf1g5f1cg71c4gbf18g0bc0200d571d" version="2">Cada una de esas criaturas gana Puntos de Golpe Temporales iguales al doble del número obtenido en el dado de Inspiración Bárdica, y cada una puede moverse sin provocar Ataques de Oportunidad hasta el final de su siguiente turno.</content>
   <content contentuid="hd927a3dfg462bg2162g0ddegc1f29c11bb86" version="1">Cada una de esas criaturas gana Puntos de Golpe Temporales iguales al doble del número obtenido en el dado de Inspiración Bárdica, y cada una puede moverse sin provocar Ataques de Oportunidad hasta el final de su siguiente turno.</content>
   <content contentuid="hf3f5c8f9g2b3bg1058g7715gee2645709a64" version="1">Cada una de esas criaturas gana Puntos de Golpe Temporales iguales al doble del número obtenido en el dado de Inspiración Bárdica, y cada una puede moverse sin provocar Ataques de Oportunidad hasta el final de su siguiente turno.</content>
@@ -88,6 +107,8 @@
   <content contentuid="hcc01542ag2ea8ge230g53b5g6bae54a352d2" version="1">Nivel 3: Palabras Cortantes</content>
   <content contentuid="hfac955c9g640eg8dc8gfdefgfa559fa195f8" version="3">Ataque Extra (Truco)</content>
   <content contentuid="he6112d47g8846ge668gbd97g45ddd36eeb46" version="1">Puedes atacar dos veces en lugar de una vez cada vez que uses la acción de Atacar en tu turno.&lt;br&gt;&lt;br&gt;Además, puedes lanzar uno de tus trucos con un tiempo de lanzamiento de una acción en lugar de uno de esos ataques.</content>
+
+Además, puedes lanzar uno de tus trucos que tenga un tiempo de lanzamiento de una acción en lugar de uno de tus Ataques.</content>
   <content contentuid="h1a1b446eg2636gca22g7bafg910726511c02" version="1">Auxilio</content>
   <content contentuid="h5380e85fg27eagff54gaa61g803d6710929e" version="1">Elige hasta tres criaturas dentro del alcance. El máximo de Puntos de Golpe y los Puntos de Golpe actuales de cada objetivo aumentan en [1] durante la duración.</content>
   <content contentuid="he6319c8dga9bagd985gfc80gc057d99c3f06" version="1">Auxilio</content>
@@ -149,8 +170,12 @@
   <content contentuid="h62870381g3b8dgbb2cgfc78gf6ba26bd778f" version="1">El número de veces que puedes canalizar tus poderes divinos.</content>
   <content contentuid="h39b48f39g9a41g2ba3g3567g7ab1cb265f82" version="1">Nivel 3: Destello Protector</content>
   <content contentuid="ha7d55e66g6f97ga4b7g45b4g5829f0c36910" version="2">Cuando una criatura que puedes ver a [1] de ti realiza una tirada de ataque, puedes usar tu Reacción para imponerle Desventaja en la tirada, haciendo que la luz destelle antes de que impacte o falle.&lt;br&gt;&lt;br&gt;Puedes usar este rasgo un número de veces igual a tu modificador de Sabiduría (mínimo una vez). Recuperas todos los usos gastados cuando completas un Descanso Largo.</content>
+
+Puedes usar este Rasgo un número de veces igual a tu modificador de Sabiduría (mínimo una vez). Recuperas todos los usos gastados cuando terminas un Descanso Largo.</content>
   <content contentuid="h67f1e6b2g8adcge989g555ag3cbae9d62375" version="1">Nivel 6: Destello Protector Mejorado</content>
   <content contentuid="hcac62cb2g678dgbdc4g4a80g875b53ed7a48" version="1">Recuperas todos los usos gastados de tu Destello Protector cuando completas un Descanso Corto o Largo.&lt;br&gt;&lt;br&gt;Además, cada vez que uses Destello Protector, puedes otorgar al objetivo del ataque desencadenante un número de Puntos de Golpe Temporales igual a 2d6 más tu modificador de Sabiduría.</content>
+
+Además, siempre que uses Destello Protector, puedes darle al objetivo del ataque una cantidad de Puntos de Golpe temporales igual a 2d6 más tu modificador de Sabiduría.</content>
   <content contentuid="h772e3772g49fdg8cf4g0f02g893153584b30" version="1">Destello Protector</content>
   <content contentuid="h6c1ab5a0g8a40g1755g2eacg01f53db2903f" version="1">Cuando una criatura que puedes ver a 30 pies de ti realiza una tirada de ataque, puedes usar tu Reacción para imponerle Desventaja en la tirada, haciendo que la luz destelle antes de que impacte o falle.</content>
   <content contentuid="h03dc1992g1d8agc3e0ga6bbg22607e81d966" version="1">Destello Protector (Aliado)</content>
@@ -161,9 +186,25 @@
   <content contentuid="h9d5766b9g0e51g3888g5633gd570f3096a0f" version="1">Siempre que uses la Acción Adicional para crear o mover la ilusión de tu Invocar Duplicidad, puedes teletransportarte, intercambiando lugares con la ilusión.</content>
   <content contentuid="ha73b8276g56b2g1bdegc73bgf16610d268ab" version="1">Transposición del Embaucador</content>
   <content contentuid="h82f58797g491fg0f3ag42b4g05c22ee9679d" version="1">Siempre que uses la Acción Adicional para crear o mover la ilusión de tu Invocar Duplicidad, puedes teletransportarte, intercambiando lugares con la ilusión.</content>
-  <content contentuid="hb5220d58g095fg5ae1g7115g72d15a96ef0c" version="1">Puedes inspirar sobrenaturalmente a otros mediante palabras, música o danza. Esta inspiración está representada por tu dado de Inspiración Bárdica, que es un d6.&lt;br&gt;&lt;br&gt;Usar Inspiración Bárdica. Como Acción Adicional, puedes inspirar a otra criatura a 60 pies de ti que pueda verte o escucharte. Esa criatura obtiene uno de tus dados de Inspiración Bárdica. Una criatura solo puede tener un dado de Inspiración Bárdica a la vez.&lt;br&gt;&lt;br&gt;Una vez dentro de la siguiente hora, cuando la criatura falle una Prueba de d20, puede lanzar el dado de Inspiración Bárdica y añadir el número obtenido al d20, convirtiendo potencialmente el fallo en un éxito. Un dado de Inspiración Bárdica se gasta cuando se lanza.&lt;br&gt;&lt;br&gt;Número de Usos. Puedes otorgar un dado de Inspiración Bárdica un número de veces igual a tu modificador de Carisma (mínimo una vez), y recuperas todos los usos gastados cuando completas un Descanso Largo.&lt;br&gt;&lt;br&gt;A Niveles Superiores. Tu dado de Inspiración Bárdica cambia cuando alcanzas ciertos niveles de Bardo, como se muestra en la columna Dado Bárdico de la tabla de Rasgos del Bardo. El dado se convierte en un d8 al nivel 5, un d10 al nivel 10 y un d12 al nivel 15.</content>
+<content contentuid="hb5220d58g095fg5ae1g7115g72d15a96ef0c" version="1">Puedes inspirar sobrenaturalmente a otros a través de palabras, música o danza. Esta inspiración está representada por tu dado de Inspiración Bárdica, que es un d6.
+
+Usar Inspiración Bárdica. Como Acción Adicional, puedes inspirar a otra criatura a 60 pies de ti que pueda verte o escucharte. Esa criatura obtiene uno de tus dados de Inspiración Bárdica. Una criatura solo puede tener un dado de Inspiración Bárdica a la vez.
+
+Una vez en la siguiente hora, cuando la criatura falle una Prueba de d20, puede lanzar el dado de Inspiración Bárdica y añadir el número obtenido al d20, convirtiendo potencialmente el fallo en un éxito. Un dado de Inspiración Bárdica se gasta cuando se lanza.
+
+Número de Usos. Puedes otorgar un dado de Inspiración Bárdica un número de veces igual a tu modificador de Carisma (mínimo una vez), y recuperas todos los usos gastados cuando completas un Descanso Largo.
+
+A Niveles Superiores. Tu dado de Inspiración Bárdica cambia cuando alcanzas ciertos niveles de Bardo, como se muestra en la columna Dado Bárdico de la tabla de Rasgos del Bardo. El dado se convierte en un d8 al nivel 5, un d10 al nivel 10 y un d12 al nivel 15.</content>
   <content contentuid="h63129871gfb37gc314g1fdfg9b10303bcc26" version="1">Nivel 1: Inspiración Bárdica</content>
-  <content contentuid="h2810e8cag53f2gddb2gb1bbg7d5f6848ec0b" version="1">Puedes inspirar sobrenaturalmente a otros mediante palabras, música o danza. Esta inspiración está representada por tu dado de Inspiración Bárdica, que es un d6.&lt;br&gt;&lt;br&gt;Usar Inspiración Bárdica. Como Acción Adicional, puedes inspirar a otra criatura a 60 pies de ti que pueda verte o escucharte. Esa criatura obtiene uno de tus dados de Inspiración Bárdica. Una criatura solo puede tener un dado de Inspiración Bárdica a la vez.&lt;br&gt;&lt;br&gt;Una vez dentro de la siguiente hora, cuando la criatura falle una Prueba de d20, puede lanzar el dado de Inspiración Bárdica y añadir el número obtenido al d20, convirtiendo potencialmente el fallo en un éxito. Un dado de Inspiración Bárdica se gasta cuando se lanza.&lt;br&gt;&lt;br&gt;Número de Usos. Puedes otorgar un dado de Inspiración Bárdica un número de veces igual a tu modificador de Carisma (mínimo una vez), y recuperas todos los usos gastados cuando completas un Descanso Largo.&lt;br&gt;&lt;br&gt;A Niveles Superiores. Tu dado de Inspiración Bárdica cambia cuando alcanzas ciertos niveles de Bardo, como se muestra en la columna Dado Bárdico de la tabla de Rasgos del Bardo. El dado se convierte en un d8 al nivel 5, un d10 al nivel 10 y un d12 al nivel 15.</content>
+  <content contentuid="h2810e8cag53f2gddb2gb1bbg7d5f6848ec0b" version="1">Puedes inspirar sobrenaturalmente a otros a través de palabras, música o danza. Esta inspiración está representada por tu dado de Inspiración Bárdica, que es un d6.
+
+Usar Inspiración Bárdica. Como Acción Adicional, puedes inspirar a otra criatura a 60 pies de ti que pueda verte o escucharte. Esa criatura obtiene uno de tus dados de Inspiración Bárdica. Una criatura solo puede tener un dado de Inspiración Bárdica a la vez.
+
+Una vez en la siguiente hora, cuando la criatura falle una Prueba de d20, puede lanzar el dado de Inspiración Bárdica y añadir el número obtenido al d20, convirtiendo potencialmente el fallo en un éxito. Un dado de Inspiración Bárdica se gasta cuando se lanza.
+
+Número de Usos. Puedes otorgar un dado de Inspiración Bárdica un número de veces igual a tu modificador de Carisma (mínimo una vez), y recuperas todos los usos gastados cuando completas un Descanso Largo.
+
+A Niveles Superiores. Tu dado de Inspiración Bárdica cambia cuando alcanzas ciertos niveles de Bardo, como se muestra en la columna Dado Bárdico de la tabla de Rasgos del Bardo. El dado se convierte en un d8 al nivel 5, un d10 al nivel 10 y un d12 al nivel 15.</content>
   <content contentuid="h9e25c63eg08ebg12a0gfefega65d73c0d540" version="1">Nivel 3: Sacerdote de Guerra</content>
   <content contentuid="h04fd168age75cg9dadgeb9bgce0ceddefc4c" version="1">Como Acción Adicional, puedes realizar un ataque con un arma o un Golpe Desarmado. Puedes usar esta Acción Adicional un número de veces igual a tu modificador de Sabiduría (mínimo una vez). Recuperas todos los usos gastados cuando completas un Descanso Corto o Largo.</content>
   <content contentuid="h3c0eb0ffga3ccgcf65g862bg01f7c36b74b8" version="1">Sacerdote de Guerra</content>
@@ -183,6 +224,8 @@
   <content contentuid="h05f1c3ebg02fcg677cga473g464cac2d584f" version="1">Clavas un pico de energía psiónica en la mente de una criatura que puedas ver dentro del alcance. El objetivo realiza una tirada de salvación de Sabiduría, recibiendo daño Psíquico si falla o la mitad del daño si tiene éxito. Si falla, también conoces siempre la ubicación del objetivo hasta que el conjuro termine. Mientras tengas este conocimiento, el objetivo no puede ocultarse de ti, y si tiene la condición Invisible, no obtiene ningún beneficio de esa condición contra ti.</content>
   <content contentuid="hd666f94dg1a88g5b93g7dcbgfbc951360305" version="1">Estática Sináptica</content>
   <content contentuid="haddaa3c4ga780gc6c0g5533g2da826d6931f" version="1">Provocas que la energía psíquica erupcione en un punto dentro del alcance. Cada criatura en una Esfera de radio [1] centrada en ese punto realiza una tirada de salvación de Inteligencia, recibiendo daño Psíquico si falla o la mitad del daño si tiene éxito.&lt;br&gt;&lt;br&gt;Si falla, el objetivo también tiene pensamientos confusos durante 1 minuto. Durante ese tiempo, resta 1d6 de todas sus tiradas de ataque y pruebas de característica, así como de cualquier tirada de salvación de Constitución para mantener la Concentración. El objetivo realiza una tirada de salvación de Inteligencia al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito.</content>
+
+Si falla la tirada de salvación, el objetivo también tiene los pensamientos confusos durante 1 minuto. Durante ese tiempo, resta 1d6 a todas sus tiradas de ataque y pruebas de característica, así como a las tiradas de salvación de Constitución para mantener la Concentración. El objetivo realiza una tirada de salvación de Inteligencia al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito.</content>
   <content contentuid="hc29da1ffgb5d5g29c2g97c3g2050946f5a23" version="1">Pico Mental</content>
   <content contentuid="h3aac9e83g2f2ag85ddgcf84ge7224ea85b8b" version="1">La ubicación de la criatura es siempre conocida por el lanzador de conjuros hasta que el conjuro termine. La criatura no puede ocultarse del lanzador, y si tiene la condición Invisible, no obtiene ningún beneficio de esa condición contra el lanzador.</content>
   <content contentuid="h0eb6a1ccg061cg7757g2ce7gb1ae17ae8a0f" version="1">Estática Sináptica</content>
@@ -191,6 +234,8 @@
   <content contentuid="h2035dcdeg7b97g47a9gcfb1gb7bc1f9c6cb9" version="2">Como acción Mágica, puedes gastar un uso de tu Canalizar Divinidad para manifestar tu conocimiento mágico. Elige un conjuro del Dominio del Conocimiento o de la escuela de Adivinación. Como parte de la misma Acción, lanzas el conjuro elegido sin gastar un Espacio de Conjuro.</content>
   <content contentuid="h75bd2293g6a4eg35b3g4781gf184d224ea59" version="1">Nivel 6: Mente Liberada</content>
   <content contentuid="hdd98d6aage020gf00bgcd6fg4be2ad2fd956" version="1">Obtienes competencia en Tiradas de Salvación de Inteligencia.&lt;br&gt;&lt;br&gt;Añade la mitad de tu Modificador de Sabiduría a las &lt;LSTag Tooltip="AbilityCheck"&gt;Pruebas de Característica&lt;/LSTag&gt; en las que no seas &lt;LSTag Tooltip="Proficiency"&gt;Competente&lt;/LSTag&gt;.</content>
+
+Añade la mitad de tu modificador de Sabiduría a las &lt;LSTag Tooltip="AbilityCheck"&gt;Pruebas de Característica&lt;/LSTag&gt; en las que no tengas &lt;LSTag Tooltip="Proficiency"&gt;Competencia&lt;/LSTag&gt;.</content>
   <content contentuid="hf5d6de51g8683g514bgcfd2gd52016de99fe" version="1">Chispa Estelar</content>
   <content contentuid="h9cbc738dgd21bg77f4g2687gd1ac412ca2b4" version="1">Lanzas una mota de luz a una criatura u objeto dentro del alcance. Realiza un ataque de conjuro a distancia contra el objetivo. Si impactas, el objetivo recibe daño Radiante, y hasta el final de tu siguiente turno, emite Luz Tenue en un radio de [1] y no puede beneficiarse de la condición Invisible.</content>
   <content contentuid="h6d4e8665g6567g3bc4gd9f1g206db8efad20" version="1">Chispa Estelar</content>
@@ -272,6 +317,10 @@
   <content contentuid="h556b4fb3g5a97gb81cg3f21gd57ac1f02a0d" version="1">%%% EMPTY</content>
   <content contentuid="h978ef6fag7931g203cg08ccge7b0c344b3e8" version="1">Nivel 3: Formas del Círculo</content>
   <content contentuid="h69bf3828g083cg1e10g408egf0f2ee4c7fe8" version="1">Puedes canalizar magia lunar cuando adoptas una forma de Forma Salvaje, otorgándote los siguientes beneficios.&lt;br&gt;&lt;br&gt;Clase de Armadura: Hasta que abandones la forma, tu CA es igual a 13 más tu modificador de Sabiduría si ese total es mayor que la CA de la Bestia.&lt;br&gt;&lt;br&gt;Puntos de Golpe Temporales: Ganas un número de Puntos de Golpe Temporales igual a tres veces tu nivel de Druida.</content>
+
+Clase de Armadura: Hasta que abandones la forma, tu CA es igual a 13 más tu modificador de Sabiduría si ese total es mayor que la CA de la Bestia.
+
+Puntos de Golpe Temporales: Ganas un número de Puntos de Golpe Temporales igual a tres veces tu nivel de Druida.</content>
   <content contentuid="h50a84c2agc47eg3409gfbf3g8b9efe860b49" version="1">Nivel 7: Furia Elemental: Lanzamiento de Conjuros Potente</content>
   <content contentuid="hdbacd095g40f6g7468g5750g2f164c7506d4" version="1">Lanzamiento de Conjuros Potente. Añade tu modificador de Sabiduría al daño que infliges con cualquier truco de Druida.</content>
   <content contentuid="h623803a7gceadgfb71gf1d2g9f3e3921f3f2" version="1">Nivel 7: Furia Elemental: Golpe Primigenio (Frío)</content>
@@ -325,6 +374,8 @@
   <content contentuid="h36e05e75gb0acgebbeg511ag25cc56fcde31" version="1">Si una criatura que lleva esta Armadura Pesada tiene una puntuación de Fuerza menor que [1], su Velocidad se reduce en [2].</content>
   <content contentuid="h1378b9e1g8e8cgbb1eg3cb7g5aad15a2e9d3" version="1">Nivel 3: Atleta Extraordinario</content>
   <content contentuid="h8a4c8a20gcc89g49e5g2025g934de8342619" version="1">Gracias a tu atletismo, tienes Ventaja en las tiradas de Iniciativa y en las pruebas de Fuerza (Atletismo).&lt;br&gt;&lt;br&gt;Además, inmediatamente después de asestar un Golpe Crítico, puedes moverte hasta la mitad de tu Velocidad sin provocar Ataques de Oportunidad.</content>
+
+Además, inmediatamente después de anotar un Golpe Crítico, puedes moverte hasta la mitad de tu Velocidad sin provocar Ataques de Oportunidad.</content>
   <content contentuid="h070ecbffg0669ge021gd9f2gf9d31bf77f88" version="1">Atleta Extraordinario</content>
   <content contentuid="h20fe10e3g6a5cg1394g9602g64f7640b6f6d" version="1">Inmediatamente después de asestar un Golpe Crítico, puedes moverte hasta la mitad de tu Velocidad sin provocar Ataques de Oportunidad.</content>
   <content contentuid="hdc98f803g35c5gf1e3g8979g2a5e77165301" version="1">Nivel 10: Guerrero Heroico</content>
@@ -337,8 +388,12 @@
   <content contentuid="h82e9547dg2a57g3068g6744g22536b77a26f" version="1">Nivel 10: Golpe Místico</content>
   <content contentuid="h4f0291dage2acga1e7g22a4ga4748a927a0d" version="1">Ataque Extra 2 (Truco)</content>
   <content contentuid="h9a6cdeb9g51d2g4ed0gb4e4gb453d3f8c2e7" version="1">Puedes atacar tres veces en lugar de una vez cada vez que uses la Acción de Atacar en tu turno.&lt;br&gt;&lt;br&gt;Además, puedes lanzar uno de tus trucos con un tiempo de lanzamiento de una acción en lugar de uno de esos ataques.</content>
+
+Además, puedes lanzar uno de tus trucos que tenga un tiempo de lanzamiento de una acción en lugar de uno de esos ataques.</content>
   <content contentuid="hea3538f1g6d4fgd692gdf5cg16c0c6d70258" version="1">Ataque Extra 2 (Truco)</content>
   <content contentuid="hd383ab64gcd01g6437g4439gcce1bcafb30c" version="1">Puedes atacar tres veces en lugar de una vez cada vez que uses la Acción de Atacar en tu turno.&lt;br&gt;&lt;br&gt;Además, puedes lanzar uno de tus trucos con un tiempo de lanzamiento de una acción en lugar de uno de esos ataques.</content>
+
+Además, puedes lanzar uno de tus trucos que tenga un tiempo de lanzamiento de una acción en lugar de uno de esos ataques.</content>
   <content contentuid="h66ceeddfg85e7gf6e6g45fdgf681167aa694" version="1">Nivel 10: Superioridad de Combate Mejorada</content>
   <content contentuid="h1a9ea1d9gcca2gd533gd087g0e05473a8b97" version="1">Nivel 1: Defensa sin Armadura</content>
   <content contentuid="hb6df1fdbgd732gf839g1534g7c3a49d1d89d" version="1">Mientras no llevas armadura ni empuñas un Escudo, tu Clase de Armadura base es igual a 10 más tus modificadores de Destreza y Sabiduría.</content>
@@ -364,31 +419,50 @@
   <content contentuid="hbb2da776g993fg5373g95abg3f33446175c5" version="1">Nivel 10: Movimiento sin Armadura</content>
   <content contentuid="hfe07c960gd6d9ga0e1g4facgbbfc0b0a2079" version="1">Nivel 2: Metabolismo Extraño</content>
   <content contentuid="hfaa042d3gf744gb60fg226bgaec318afadb8" version="1">Puedes recuperar todos los Puntos de Enfoque gastados. Al hacerlo, lanza tu dado de Artes Marciales y recupera un número de Puntos de Golpe igual a tu nivel de Monje más el número obtenido.&lt;br&gt;&lt;br&gt;Una vez que uses este rasgo, no puedes volver a usarlo hasta que completes un Descanso Largo.</content>
-  <content contentuid="h6d5fdddcg3d1bg2ed8g0bebgcfcf2293742c" version="1">Metabolismo Extraño</content>
-  <content contentuid="h48a9451fg4097gddefg1177g77b625d48f82" version="1">Puedes recuperar todos los Puntos de Enfoque gastados. Al hacerlo, lanza tu dado de Artes Marciales y recupera un número de Puntos de Golpe igual a tu nivel de Monje más el número obtenido.</content>
+
+Una vez que uses este rasgo, no puedes volver a usarlo hasta que completes un Descanso Largo.</content>
+  <content contentuid="h6d5fdddcg3d1bg2ed8g0bebgcfcf2293742c" version="1">Metabolismo Prodigioso</content>
+  <content contentuid="h48a9451fg4097gddefg1177g77b625d48f82" version="1">Puedes recuperar todos los Puntos de Enfoque gastados. Al hacerlo, lanza tu dado de Artes Marciales y recuperas un número de Puntos de Golpe igual a tu nivel de Monje más el número obtenido.</content>
   <content contentuid="h399b9569g4416g07fbg0cd6ga4f008d8e40c" version="1">Nivel 3: Desviar Ataques</content>
-  <content contentuid="h363f8861g503bg174cgc576g28e60841fa32" version="3">Cuando un ataque te impacta e inflige daño contundente, perforante o cortante, puedes usar tu Reacción para reducir el daño total que recibes. La reducción es igual a 1d10 más tu modificador de Destreza más tu nivel de monje.&lt;br&gt;&lt;br&gt;Si esto reduce el daño a 0, puedes gastar 1 Punto de Ki para usar Redirigir Ataques.</content>
+  <content contentuid="h363f8861g503bg174cgc576g28e60841fa32" version="3">Cuando un ataque te impacta e inflige daño contundente, perforante o cortante, puedes usar tu Reacción para reducir el daño total que recibes. La reducción es igual a 1d10 + tu modificador de Destreza + tu nivel de monje.
+
+Si esto reduce el daño a 0, puedes gastar 1 Punto de Ki para usar Redirigir Ataques.</content>
   <content contentuid="h45c562c6gf2cag3a18gb7a8g96ddfe88db60" version="1">Desviar Ataques</content>
   <content contentuid="h2abe271ag6c58g52b7g96c5ge33fc7fc4c92" version="1">Desviar Ataques: Redirigir</content>
-  <content contentuid="h96997b05g813bg4cedge308g8b97a39ea6cc" version="1">Reduce el daño contundente, perforante o cortante que recibes en 1d10 más tu &lt;LSTag Tooltip="AbilityModifier"&gt;modificador&lt;/LSTag&gt; de Destreza más tu nivel de monje.&lt;br&gt;&lt;br&gt;Si esto reduce el daño a 0, puedes gastar 1 Punto de Ki para usar Redirigir Ataques.</content>
-  <content contentuid="h0f7f1f15gc38bgcaeeg96aegf18e8377c301" version="1">Reduce el daño y redirigelo de vuelta a tu atacante.</content>
+  <content contentuid="h96997b05g813bg4cedge308g8b97a39ea6cc" version="1">Reduce el daño contundente, perforante o cortante que recibes en 1d10 + tu &lt;LSTag Tooltip="AbilityModifier"&gt;modificador&lt;/LSTag&gt; de Destreza + tu nivel de monje.
+
+Si esto reduce el daño a 0, puedes gastar 1 Punto de Ki para usar Redirigir Ataques.</content>
+  <content contentuid="h0f7f1f15gc38bgcaeeg96aegf18e8377c301" version="1">Reduce el daño y redirígelo hacia tu atacante.</content>
   <content contentuid="hd8199896gbae1g11ceg6ba1g523b41f8b9ef" version="1">Desviar Ataque: Redirigir</content>
-  <content contentuid="h4487767egdb77g3708g93a8gd0279452056a" version="1">Reduce el daño y redirigelo de vuelta a tu atacante.</content>
+  <content contentuid="h4487767egdb77g3708g93a8gd0279452056a" version="1">Reduce el daño y redirígelo hacia tu atacante.</content>
   <content contentuid="ha8c51db9g127cg0f8dgf557g402626436b8c" version="1">Nivel 4: Caída Lenta</content>
   <content contentuid="h726e4c54g614fg70ccg5ebag4c572b51fbe4" version="1">Nivel 6: Golpes Potenciados</content>
   <content contentuid="h3eabcb35gf264g4f8ag9c30g123cbc8fd2b8" version="2">Tus golpes desarmados superan la &lt;LSTag Tooltip="Resistant"&gt;Resistencia&lt;/LSTag&gt; tanto al daño no mágico como al mágico.</content>
   <content contentuid="hc6a55712gd62cgd5e7g68d8g0007496a3e1e" version="2">Nivel 9: Movimiento Acrobático</content>
   <content contentuid="hcb9a361cg3dadgecb2gdae1g23fc5f5c3919" version="1">Nivel 7: Evasión</content>
   <content contentuid="h33c22a3cg9bbaga9c8g65e2g0701352832a0" version="1">Nivel 10: Enfoque Elevado</content>
-  <content contentuid="h3bb523e2gc26eg22c2g87e9g4e1e0da5e1af" version="2">Tu Lluvia de Golpes, Defensa Paciente y Paso del Viento obtienen los siguientes beneficios:&lt;br&gt;&lt;br&gt;Lluvia de Golpes: Puedes gastar 1 Punto de Enfoque para usar Lluvia de Golpes, realizando tres Golpes Desarmados en lugar de dos.&lt;br&gt;&lt;br&gt;Defensa Paciente y Paso del Viento: Cuando gastas un Punto de Enfoque para usar cualquiera de estos rasgos, ganas Puntos de Golpe Temporales iguales a dos tiradas de tu dado de Artes Marciales.</content>
+  <content contentuid="h3bb523e2gc26eg22c2g87e9g4e1e0da5e1af" version="2">Tu Torbellino de Golpes, Defensa Paciente y Paso del Viento obtienen los siguientes beneficios:
+
+Torbellino de Golpes: Puedes gastar 1 Punto de Enfoque para usar Torbellino de Golpes, realizando tres Golpes Desarmados en lugar de dos.
+
+Defensa Paciente y Paso del Viento: Cuando gastas un Punto de Enfoque para usar cualquiera de estos rasgos, ganas Puntos de Golpe Temporales iguales a dos lanzamientos de tu dado de Artes Marciales.</content>
   <content contentuid="hddf40c2dge503g0c52g70e0g81df540da740" version="1">Enfoque Elevado</content>
-  <content contentuid="h96955479gc03cg5656g398ega8e7e632c8a3" version="1">Ganas un número de Puntos de Golpe Temporales iguales a dos tiradas de tu dado de Artes Marciales.</content>
+  <content contentuid="h96955479gc03cg5656g398ega8e7e632c8a3" version="1">Ganas un número de Puntos de Golpe Temporales iguales a dos lanzamientos de tu dado de Artes Marciales.</content>
   <content contentuid="hb0d0ae76g515agec5dg8b3fgfef5c6b386f3" version="1">Nivel 10: Autorrestauración</content>
   <content contentuid="hb6524b85g7c46g835fg5ec8g505bf3a2d396" version="1">Nivel 10: Pureza de Cuerpo</content>
   <content contentuid="hc41f1b91gbedcg876fg1542g2c46f2f4be27" version="1">Nivel 3: Artes de las Sombras</content>
-  <content contentuid="h62e16743gcb72g9068gb2d0gb1a62ea9d321" version="1">Has aprendido a aprovechar el poder del Shadowfell, obteniendo los siguientes beneficios.&lt;br&gt;&lt;br&gt;Oscuridad. Puedes gastar 1 Punto de Enfoque para lanzar el conjuro Oscuridad sin componentes. Puedes ver dentro del área del conjuro cuando lo lanzas con este rasgo. Mientras el conjuro persiste, puedes mover su área de Oscuridad a un espacio a [1] de ti al inicio de cada uno de tus turnos.&lt;br&gt;Visión en la Oscuridad. Obtienes Visión en la Oscuridad con un alcance de [1]. Si ya tienes Visión en la Oscuridad, su alcance aumenta en 60 pies.&lt;br&gt;&lt;br&gt;Figuras Sombrías. Conoces el conjuro Ilusión Menor. Sabiduría es tu característica de lanzamiento de conjuros para él.</content>
+  <content contentuid="h62e16743gcb72g9068gb2d0gb1a62ea9d321" version="1">Has aprendido a aprovechar el poder del Shadowfell, obteniendo los siguientes beneficios.
+
+Oscuridad. Puedes gastar 1 Punto de Enfoque para lanzar el conjuro Oscuridad sin componentes de conjuro. Puedes ver dentro del área del conjuro cuando lo lanzas con este rasgo. Mientras el conjuro persiste, puedes mover su área de Oscuridad a un espacio a [1] de ti al inicio de cada uno de tus turnos.
+Visión en la Oscuridad. Obtienes Visión en la Oscuridad con un alcance de [1]. Si ya tienes Visión en la Oscuridad, su alcance aumenta en 60 pies.
+
+Figuras Sombrías. Conoces el conjuro Ilusión Menor. La Sabiduría es tu característica de lanzamiento de conjuros para él.</content>
   <content contentuid="hf18cec4dgc5a5gd248gadb2gacd0002e8ee0" version="1">Sintonía Elemental</content>
-  <content contentuid="hdd54bf99g06bfg8a6cg5904g1e14b2426411" version="2">Al inicio de tu turno, puedes gastar 1 Punto de Enfoque para imbuirte de energía elemental. La energía dura 10 minutos. Obtienes los siguientes beneficios mientras este rasgo está activo.&lt;br&gt;&lt;br&gt;Alcance: Cuando realizas un Golpe Desarmado, tu alcance es [1] mayor de lo normal, ya que la energía elemental se extiende desde ti.&lt;br&gt;&lt;br&gt;Golpes Elementales: Siempre que impactes con tu Golpe Desarmado, puedes hacer que infliga daño de Ácido, Frío, Fuego, Relámpago o Trueno en lugar de su tipo de daño normal. Cuando infliges uno de estos tipos con él, también puedes forzar al objetivo a realizar una tirada de salvación de Fuerza. Si falla, puedes mover al objetivo hasta [1] hacia ti o alejándote de ti, mientras la energía elemental gira a su alrededor.</content>
+  <content contentuid="hdd54bf99g06bfg8a6cg5904g1e14b2426411" version="2">Al inicio de tu turno, puedes gastar 1 Punto de Enfoque para imbuirte con energía elemental. La energía dura 10 minutos. Obtienes los siguientes beneficios mientras este rasgo está activo.
+
+Alcance: Cuando realizas un Golpe Desarmado, tu alcance es [1] mayor de lo normal, ya que la energía elemental se extiende desde ti.
+
+Golpes Elementales: Siempre que impactas con tu Golpe Desarmado, puedes hacer que inflija daño de Ácido, Frío, Fuego, Relámpago o Trueno a tu elección en lugar de su tipo de daño normal. Cuando infliges uno de estos tipos con él, también puedes forzar al objetivo a realizar una tirada de salvación de Fuerza. Si falla, puedes mover al objetivo hasta [1] hacia ti o alejándolo de ti, mientras la energía elemental arremolinada lo rodea.</content>
   <content contentuid="h103f93c5g91eeg4b52g3977gd60b8e4ef8da" version="1">Sintonía Elemental: Ácido</content>
   <content contentuid="h1778d7a2g0b0cga6a0gcfcdg8f6f656d1e50" version="1">Sintonía Elemental: Frío</content>
   <content contentuid="h5644171bg3f2cg52f1gc8dcgc1e6b38d6a9b" version="1">Sintonía Elemental: Fuego</content>
@@ -404,6 +478,8 @@
   <content contentuid="h05885430gd722g322ag7f6agbaf1e13b70fd" version="1">Cuando infliges uno de estos tipos con él, también puedes forzar al objetivo a realizar una tirada de salvación de Fuerza. Si falla, puedes mover al objetivo hasta 10 pies hacia ti o alejándote de ti, mientras la energía elemental gira a su alrededor.</content>
   <content contentuid="habf53306g66b3gb76ag5a1bgf0e155fe7d9b" version="1">Explosión Elemental</content>
   <content contentuid="h637a148fgbbb7g2269gfdd1g3f81fddd5949" version="1">Como acción Mágica, puedes gastar 2 Puntos de Enfoque para provocar que la energía elemental estalle en una Esfera de radio [1] centrada en un punto a [2] de ti. Elige un tipo de daño: Ácido, Frío, Fuego, Relámpago o Trueno.&lt;br&gt;&lt;br&gt;Cada criatura en la Esfera debe realizar una tirada de salvación de Destreza. Si falla, recibe daño del tipo elegido igual a tres tiradas de tu dado de Artes Marciales. Si tiene éxito, recibe la mitad del daño.</content>
+
+Cada criatura en la Esfera debe realizar una tirada de salvación de Destreza. Si falla, la criatura recibe daño del tipo elegido igual a tres lanzamientos de tu dado de Artes Marciales. Si tiene éxito, la criatura recibe la mitad del daño.</content>
   <content contentuid="h13e2605fg4015g36b3g1800g126360f78534" version="1">Explosión Elemental: Ácido</content>
   <content contentuid="heb32a441g2a41g2be1g94a8gfb7868573b40" version="1">Explosión Elemental: Frío</content>
   <content contentuid="h20cb80c4gd3bag353egbaeagfc09e502126d" version="1">Explosión Elemental: Fuego</content>
@@ -411,93 +487,128 @@
   <content contentuid="ha9461978g325bg8b56g0b7fga747967bcf5b" version="1">Explosión Elemental: Trueno</content>
   <content contentuid="hd0321dfag2f41g5984g2a27g4ba878286102" version="1">Nivel 11: Zancada de los Elementos</content>
   <content contentuid="h90c565bfgdc8eg1fc2gde60ga457cc60135b" version="1">Mientras tu Sintonía Elemental está activa, también tienes una Velocidad de Vuelo y una Velocidad de Natación iguales a tu Velocidad.</content>
-  <content contentuid="hbe92a07bg1800gd2e8g079fg1e0f39ce73ce" version="1">Integridad Corporal</content>
-  <content contentuid="h4feabb8egaa22g3d36gc857g512930772995" version="1">Nivel 6: Integridad Corporal</content>
-  <content contentuid="hd5f70284g45c5g71b8g7505g337ea5751295" version="1">Obtienes la capacidad de curarte a ti mismo. Como Acción Adicional, puedes lanzar tu dado de Artes Marciales. Recuperas un número de Puntos de Golpe igual al número obtenido más tu modificador de Sabiduría (mínimo 1 Punto de Golpe recuperado).&lt;br&gt;&lt;br&gt;Puedes usar este rasgo un número de veces igual a tu modificador de Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando completas un Descanso Largo.</content>
-  <content contentuid="h25c230c0g01dbg6406g2c50gfc3e4aa92e7f" version="1">Integridad Corporal</content>
+  <content contentuid="hbe92a07bg1800gd2e8g079fg1e0f39ce73ce" version="1">Plenitud del Cuerpo</content>
+  <content contentuid="h4feabb8egaa22g3d36gc857g512930772995" version="1">Nivel 6: Plenitud del Cuerpo</content>
+  <content contentuid="hd5f70284g45c5g71b8g7505g337ea5751295" version="1">Obtienes la capacidad de curarte a ti mismo. Como Acción Adicional, puedes lanzar tu dado de Artes Marciales. Recuperas un número de Puntos de Golpe igual al número obtenido más tu modificador de Sabiduría (mínimo 1 Punto de Golpe recuperado).
+
+Puedes usar este rasgo un número de veces igual a tu modificador de Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando completas un Descanso Largo.</content>
+  <content contentuid="h25c230c0g01dbg6406g2c50gfc3e4aa92e7f" version="1">Plenitud del Cuerpo</content>
   <content contentuid="h202adf83g5a60g677dg2f14g1cbdfc06aeab" version="1">Como Acción Adicional, puedes lanzar tu dado de Artes Marciales. Recuperas un número de Puntos de Golpe igual al número obtenido más tu modificador de Sabiduría (mínimo 1 Punto de Golpe recuperado).</content>
   <content contentuid="hbbdecd13gacf6ga6bcge4dfga9e9fdd39678" version="1">Nivel 11: Paso Veloz</content>
   <content contentuid="h9f4fd43dgb96cg804dg3440g15b0a150a3ec" version="1">Puedes usar Paso del Viento sin gastar una Acción Adicional.</content>
-  <content contentuid="h0e9a944dgb216gb539gf48dg822147b343bd" version="1">Regla: Requisito de Fuerza (Arma Cuerpo a Cuerpo Pesada)</content>
-  <content contentuid="hd97fac61ge406g7715gc8b7g188472b4140a" version="1">Si una criatura que empuña esta arma Pesada tiene una puntuación de Fuerza menor que [1], tiene Desventaja en las tiradas de ataque realizadas con esta arma.</content>
-  <content contentuid="h73497683g65cdged9eg85abge93a8ba9aede" version="1">Regla: Requisito de Destreza (Arma a Distancia Pesada)</content>
-  <content contentuid="h07e8d8cdgee47gf8bdge26eg6ddb468803f3" version="1">Si una criatura que empuña esta arma Pesada tiene una puntuación de Destreza menor que [1], tiene Desventaja en las tiradas de ataque realizadas con esta arma.</content>
+  <content contentuid="h0e9a944dgb216gb539gf48dg822147b343bd" version="1">Regla: Requisito de Fuerza (Arma Pesada Cuerpo a Cuerpo)</content>
+  <content contentuid="hd97fac61ge406g7715gc8b7g188472b4140a" version="1">Si una criatura que empuña esta arma Pesada tiene una puntuación de Fuerza inferior a [1], tiene Desventaja en las tiradas de ataque realizadas con esta arma.</content>
+  <content contentuid="h73497683g65cdged9eg85abge93a8ba9aede" version="1">Regla: Requisito de Destreza (Arma Pesada a Distancia)</content>
+  <content contentuid="h07e8d8cdgee47gf8bdge26eg6ddb468803f3" version="1">Si una criatura que empuña esta arma Pesada tiene una puntuación de Destreza inferior a [1], tiene Desventaja en las tiradas de ataque realizadas con esta arma.</content>
   <content contentuid="hc453b2f8ga64fg8d50g0cb0g4a53f20b32d9" version="2">Nivel 3: Canalizar Juramento</content>
-  <content contentuid="ha840fbb3g435eg87ebgd676g3fc781ce7b67" version="1">Puedes canalizar energía del juramento directamente desde los Planos Exteriores, usándola para potenciar efectos mágicos. Comienzas con un efecto: Sentido Divino, que se describe a continuación. Otros rasgos del Paladín otorgan opciones de efectos adicionales de Canalizar Juramento. Cada vez que uses Canalizar Juramento de esta clase, eliges qué efecto crear.&lt;br&gt;&lt;br&gt;Puedes usar Canalizar Juramento de esta clase dos veces. Recuperas uno de sus usos gastados cuando completas un Descanso Corto, y recuperas todos los usos gastados cuando completas un Descanso Largo. Obtienes un uso adicional cuando alcanzas el nivel 11 de Paladín.&lt;br&gt;&lt;br&gt;Si un efecto de Canalizar Juramento requiere una tirada de salvación, la CD es igual a la CD de conjuros del rasgo Lanzamiento de Conjuros de esta clase.</content>
-  <content contentuid="h77c3bd23ge0bdg1ed9gc503g1a06cc920d08" version="1">Nivel 2: Castigo del Paladín</content>
-  <content contentuid="hab240831g4170g3e19gaf78ge733be05a5f1" version="1">Siempre tienes preparado el conjuro Castigo Divino. Además, puedes lanzarlo sin gastar un Espacio de Conjuro, pero debes completar un Descanso Largo antes de poder lanzarlo de esta forma nuevamente.</content>
-  <content contentuid="h39de8d3fgd862g0342g0a3ag9205f4e7bf55" version="1">Castigo del Paladín</content>
-  <content contentuid="haaa7e52ege832ge271gecfdge010d65df535" version="1">Puedes lanzar Castigo Divino sin gastar un Espacio de Conjuro, pero debes completar un Descanso Largo antes de poder lanzarlo de esta forma nuevamente.</content>
+  <content contentuid="ha840fbb3g435eg87ebgd676g3fc781ce7b67" version="1">Puedes canalizar la energía del juramento directamente desde los Planos Exteriores, usándola para impulsar efectos mágicos. Comienzas con un efecto: Sentido Divino, descrito a continuación. Otros rasgos del Paladín ofrecen opciones adicionales de efectos de Canalizar Juramento. Cada vez que uses Canalizar Juramento de esta clase, eliges qué efecto crear.
+
+Puedes usar Canalizar Juramento de esta clase dos veces. Recuperas uno de sus usos gastados cuando completas un Descanso Corto, y recuperas todos los usos gastados cuando completas un Descanso Largo. Obtienes un uso adicional cuando alcanzas el nivel 11 de Paladín.
+
+Si un efecto de Canalizar Juramento requiere una tirada de salvación, la CD es igual a la CD de conjuros del rasgo Lanzamiento de Conjuros de esta clase.</content>
+  <content contentuid="h77c3bd23ge0bdg1ed9gc503g1a06cc920d08" version="1">Nivel 2: Golpe Sagrado del Paladín</content>
+  <content contentuid="hab240831g4170g3e19gaf78ge733be05a5f1" version="1">Siempre tienes preparado el conjuro Golpe Divino. Además, puedes lanzarlo sin gastar un espacio de conjuro, pero debes completar un Descanso Largo antes de poder lanzarlo de esta manera nuevamente.</content>
+  <content contentuid="h39de8d3fgd862g0342g0a3ag9205f4e7bf55" version="1">Golpe Sagrado del Paladín</content>
+  <content contentuid="haaa7e52ege832ge271gecfdge010d65df535" version="1">Puedes lanzar Golpe Divino sin gastar un espacio de conjuro, pero debes completar un Descanso Largo antes de poder lanzarlo de esta manera nuevamente.</content>
   <content contentuid="hd777f361gcaa7g7dbegeb0agb9179de1ba4b" version="1">Nivel 5: Corcel Fiel</content>
-  <content contentuid="h8d9bb995gd364g7b4fgd6f8gb78ed0bdda9b" version="1">Puedes pedir la ayuda de un corcel de otro mundo. Siempre tienes preparado el conjuro Encontrar Corcel.&lt;br&gt;&lt;br&gt;También puedes lanzar el conjuro una vez sin gastar un Espacio de Conjuro, y recuperas la capacidad de hacerlo cuando completas un Descanso Largo.</content>
+  <content contentuid="h8d9bb995gd364g7b4fgd6f8gb78ed0bdda9b" version="1">Puedes pedir la ayuda de un corcel de otro mundo. Siempre tienes preparado el conjuro Encontrar Corcel.
+
+También puedes lanzar el conjuro una vez sin gastar un espacio de conjuro, y recuperas la capacidad de hacerlo cuando completas un Descanso Largo.</content>
   <content contentuid="h1e887af9gf132g931bgf5ffgfd331943059d" version="1">Corcel Fiel</content>
-  <content contentuid="h0aaffea6g03a3g6185g2b3eg67a082d34700" version="1">También puedes lanzar Encontrar Corcel una vez sin gastar un Espacio de Conjuro, y recuperas la capacidad de hacerlo cuando completas un Descanso Largo.</content>
+  <content contentuid="h0aaffea6g03a3g6185g2b3eg67a082d34700" version="1">También puedes lanzar Encontrar Corcel una vez sin gastar un espacio de conjuro, y recuperas la capacidad de hacerlo cuando completas un Descanso Largo.</content>
   <content contentuid="h75d1a2deg8c23gb291g4a07g0b23ca7da55c" version="1">Encontrar Corcel</content>
-  <content contentuid="hca271062g4f0eg4316gc46ag52e3d54b2851" version="3">Invocas un corcel de otro mundo y te montas en él inmediatamente.&lt;br&gt;&lt;br&gt;El corcel puede realizar una de las siguientes acciones de tu elección en cada uno de sus turnos: Correr, Desengancharse, Esquivar o Atacar.&lt;br&gt;&lt;br&gt;Mientras estás montado en el corcel, cuando recibes 4 o más puntos de daño, debes realizar una tirada de salvación de Destreza CD 8. Si fallas, caes del corcel y tienes la condición Derribado durante 1 turno.&lt;br&gt;&lt;br&gt;&lt;br&gt;Solo un jugador de corazón puro puede ver al corcel.</content>
+  <content contentuid="hca271062g4f0eg4316gc46ag52e3d54b2851" version="3">Invocas un corcel de otro mundo y lo montas inmediatamente.
+
+El corcel puede realizar una de las siguientes acciones a tu elección en cada uno de sus turnos: Carrera, Desengancharse, Esquivar o Atacar.
+
+Mientras estás montado en el corcel, cuando recibes 4 o más puntos de daño, debes realizar una tirada de salvación de Destreza CD 8. Si fallas, caes del corcel y tienes la condición Derribado durante 1 turno.
+
+
+Solo un jugador de corazón puro puede ver al corcel.</content>
   <content contentuid="h969b831eg23d1g5115g756bg2f5d95f425ab" version="1">Encontrar Corcel</content>
-  <content contentuid="h2e3d13a5gdd90g80a4g970dg3282a7a7bfa9" version="1">Invocas un corcel de otro mundo y te montas en él inmediatamente.&lt;br&gt;&lt;br&gt;El corcel puede realizar una de las siguientes acciones de tu elección en cada uno de sus turnos: Correr, Desengancharse, Esquivar o Atacar.&lt;br&gt;&lt;br&gt;Mientras estás montado en el corcel, cuando recibes 4 o más puntos de daño, debes realizar una tirada de salvación de Destreza CD 8. Si fallas, caes del corcel y tienes la condición Derribado durante 1 turno.</content>
+  <content contentuid="h2e3d13a5gdd90g80a4g970dg3282a7a7bfa9" version="1">Invocas un corcel de otro mundo y lo montas inmediatamente.
+
+El corcel puede realizar una de las siguientes acciones a tu elección en cada uno de sus turnos: Carrera, Desengancharse, Esquivar o Atacar.
+
+Mientras estás montado en el corcel, cuando recibes 4 o más puntos de daño, debes realizar una tirada de salvación de Destreza CD 8. Si fallas, caes del corcel y tienes la condición Derribado durante 1 turno.</content>
   <content contentuid="h1a6f7528gc5efg5c9bge4f9gf7eb55315d54" version="1">Punto de Acción del Corcel</content>
-  <content contentuid="hdbb54662gd707gd172gbdfdgd57e57e3b819" version="1">El corcel puede realizar una de las siguientes acciones de tu elección en cada uno de sus turnos: Correr, Desengancharse, Esquivar o Atacar.</content>
-  <content contentuid="he8975525g4266g8430g813bg4d65176a35f5" version="1">Golpe</content>
-  <content contentuid="he8006ed5gf2f6gd6ceg798dg91c566666c82" version="1">Esquivar</content>
-  <content contentuid="h5c0401b6g3fc4gaadagf4bbg097715066c52" version="1">Concentrado en evitar ataques.&lt;br&gt;&lt;Br&gt;Las &lt;LSTag Tooltip="AttackRoll"&gt;Tiradas de Ataque&lt;/LSTag&gt; contra la entidad afectada tienen &lt;LSTag Tooltip="Disadvantage"&gt;Desventaja&lt;/LSTag&gt;, y la entidad tiene &lt;LSTag Tooltip="Advantage"&gt;Ventaja&lt;/LSTag&gt; en las &lt;LSTag Tooltip="SavingThrow"&gt;Tiradas de Salvación&lt;/LSTag&gt; de Destreza.</content>
-  <content contentuid="h3d4848abgc60eg631cgc713g605af144c9ee" version="1">Nivel 9: Abjurar Enemigos</content>
-  <content contentuid="h060adb3eg6617g9283g226fg6d070eb47c88" version="1">Como acción Mágica, puedes gastar un uso de Canalizar Juramento de esta clase para abrumar a los enemigos con asombro. Al presentar tu Símbolo Sagrado o arma, puedes elegir un número de criaturas igual a tu modificador de Carisma (mínimo una criatura) que puedas ver a [1] de ti. Cada objetivo debe superar una tirada de salvación de Sabiduría o tener la condición Asustado durante 1 minuto.</content>
-  <content contentuid="ha4ade769g56f1g989dg4a5dgc980f0453d08" version="1">Abjurar Enemigos</content>
-  <content contentuid="hf0938809g82f6ge8a7gea01gff762cf6f570" version="1">Como acción Mágica, puedes gastar un uso de Canalizar Juramento de esta clase para abrumar a los enemigos con asombro. Al presentar tu Símbolo Sagrado o arma, puedes elegir un número de criaturas igual a tu modificador de Carisma (mínimo una criatura) que puedas ver a [1] de ti. Cada objetivo debe superar una tirada de salvación de Sabiduría o tener la condición Asustado durante 1 minuto.</content>
+  <content contentuid="hdbb54662gd707gd172gbdfdgd57e57e3b819" version="1">El corcel puede realizar una de las siguientes acciones a tu elección en cada uno de sus turnos: Carrera, Desengancharse, Esquivar o Atacar.</content>
+  <content contentuid="he8975525g4266g8430g813bg4d65176a35f5" version="1">Embestida</content>
+  <content contentuid="he8006ed5gf2f6gd6ceg798dg91c566666c82" version="1">Esquivando</content>
+  <content contentuid="h5c0401b6g3fc4gaadagf4bbg097715066c52" version="1">Concentrado en evitar los ataques.
+
+Las &lt;LSTag Tooltip="AttackRoll"&gt;Tiradas de Ataque&lt;/LSTag&gt; contra la entidad afectada tienen &lt;LSTag Tooltip="Disadvantage"&gt;Desventaja&lt;/LSTag&gt;, y la entidad tiene &lt;LSTag Tooltip="Advantage"&gt;Ventaja&lt;/LSTag&gt; en las &lt;LSTag Tooltip="SavingThrow"&gt;Tiradas de Salvación&lt;/LSTag&gt; de Destreza.</content>
+  <content contentuid="h3d4848abgc60eg631cgc713g605af144c9ee" version="1">Nivel 9: Conjurar Enemigos</content>
+  <content contentuid="h060adb3eg6617g9283g226fg6d070eb47c88" version="1">Como acción Mágica, puedes gastar un uso de Canalizar Juramento de esta clase para abrumar a los enemigos con reverencia. Al presentar tu Símbolo Sagrado o arma, puedes elegir como objetivo un número de criaturas igual a tu modificador de Carisma (mínimo una criatura) que puedas ver a [1] de ti. Cada objetivo debe superar una tirada de salvación de Sabiduría o tener la condición Asustado durante 1 minuto.</content>
+  <content contentuid="ha4ade769g56f1g989dg4a5dgc980f0453d08" version="1">Conjurar Enemigos</content>
+  <content contentuid="hf0938809g82f6ge8a7gea01gff762cf6f570" version="1">Como acción Mágica, puedes gastar un uso de Canalizar Juramento de esta clase para abrumar a los enemigos con reverencia. Al presentar tu Símbolo Sagrado o arma, puedes elegir como objetivo un número de criaturas igual a tu modificador de Carisma (mínimo una criatura) que puedas ver a [1] de ti. Cada objetivo debe superar una tirada de salvación de Sabiduría o tener la condición Asustado durante 1 minuto.</content>
   <content contentuid="hdd546b3bg87ddg0b0eg91d9g7dd5bb69d0d5" version="1">Nivel 11: Golpes Radiantes</content>
-  <content contentuid="he923c53cgfecbgb456g1ee5gbc97fd5f5a9a" version="1">Tus golpes ahora llevan poder sobrenatural. Cuando impactas a un objetivo con una tirada de ataque usando un arma Cuerpo a Cuerpo o un Golpe Desarmado, el objetivo recibe 1d8 de daño Radiante adicional.</content>
+  <content contentuid="he923c53cgfecbgb456g1ee5gbc97fd5f5a9a" version="1">Tus golpes ahora portan poder sobrenatural. Cuando golpeas a un objetivo con una tirada de ataque usando un arma Cuerpo a Cuerpo o un Golpe Desarmado, el objetivo recibe 1d8 de daño Radiante adicional.</content>
   <content contentuid="h1b6d335fg71e3g921bg96efgd3563a3e9d4b" version="1">El paladín y los aliados cercanos tienen Resistencia al daño Necrótico, Psíquico y Radiante.</content>
   <content contentuid="he4565ab2g2625gaeb8g694eg929ab02e448c" version="1">El paladín y los aliados cercanos tienen Resistencia al daño Necrótico, Psíquico y Radiante.</content>
-  <content contentuid="hae6c4966g7a68ga1edg4bc6gae39ac7aeb6b" version="1">Tú y los aliados cercanos tenéis Resistencia al daño Necrótico, Psíquico y Radiante. El aura desaparece si caes Inconsciente.</content>
+  <content contentuid="hae6c4966g7a68ga1edg4bc6gae39ac7aeb6b" version="1">Tú y los aliados cercanos tenéis Resistencia al daño Necrótico, Psíquico y Radiante. El aura desaparece si quedas Inconsciente.</content>
   <content contentuid="h36197b70g60e1g9d30g020ag5ebf5202eade" version="1">Nivel 7: Vengador Implacable</content>
-  <content contentuid="h2c05bd1dg9548g9d0ag66dbgd31ce3af6dab" version="1">Si impactas a un enemigo con un &lt;LSTag Tooltip="OpportunityAttack"&gt;Ataque de Oportunidad&lt;/LSTag&gt;, puedes reducir la Velocidad de la criatura a 0 hasta el final del turno actual. Y tu &lt;LSTag Tooltip="MovementSpeed"&gt;velocidad de movimiento&lt;/LSTag&gt; aumenta en [1] en tu siguiente turno.</content>
+  <content contentuid="h2c05bd1dg9548g9d0ag66dbgd31ce3af6dab" version="1">Si golpeas a un enemigo con un &lt;LSTag Tooltip="OpportunityAttack"&gt;Ataque de Oportunidad&lt;/LSTag&gt;, puedes reducir la Velocidad de la criatura a 0 hasta el final del turno actual. Y tu &lt;LSTag Tooltip="MovementSpeed"&gt;velocidad de movimiento&lt;/LSTag&gt; aumenta en [1] en tu siguiente turno.</content>
   <content contentuid="hd54cf49fg52f9gc82fg23ddg240455666d75" version="1">Enemigo del Vengador Implacable</content>
-  <content contentuid="h4580d441g9dc0gbc53g7a59g25cce7bd8ba2" version="1">No puede moverse. Retenido por un &lt;LSTag Tooltip="OpportunityAttack"&gt;Ataque de Oportunidad&lt;/LSTag&gt; de un Vengador Implacable.</content>
+  <content contentuid="h4580d441g9dc0gbc53g7a59g25cce7bd8ba2" version="1">No puede moverse. Inmovilizado por un &lt;LSTag Tooltip="OpportunityAttack"&gt;Ataque de Oportunidad&lt;/LSTag&gt; de un Vengador Implacable.</content>
   <content contentuid="h8a2bbcc7gff7eg7312gb3f5g2e15ba81d07c" version="2">Marca del Cazador</content>
-  <content contentuid="hcd8000b2gdb8aga27dg0c5agb3cd6b125346" version="1">Siempre tienes preparado el conjuro Marca del Cazador. Puedes lanzarlo dos veces sin gastar un Espacio de Conjuro, y recuperas todos los usos gastados de esta capacidad cuando completas un Descanso Largo.&lt;br&gt;&lt;br&gt;El número de veces que puedes lanzar el conjuro sin un Espacio de Conjuro aumenta cuando alcanzas ciertos niveles de Explorador, como se muestra en la columna Enemigo Favorito de la tabla de Rasgos del Explorador.</content>
+  <content contentuid="hcd8000b2gdb8aga27dg0c5agb3cd6b125346" version="1">Siempre tienes preparado el conjuro Marca del Cazador. Puedes lanzarlo dos veces sin gastar un espacio de conjuro, y recuperas todos los usos gastados de esta habilidad cuando completas un Descanso Largo.
+
+El número de veces que puedes lanzar el conjuro sin un espacio de conjuro aumenta cuando alcanzas ciertos niveles de Explorador, como se muestra en la columna Enemigo Favorito de la tabla de Rasgos del Explorador.</content>
   <content contentuid="hdfdce3a3g8fd1g0e71gf799gc4b6e93e4494" version="1">Nivel 1: Enemigo Favorito</content>
-  <content contentuid="h306c6ef1gb334gc9d9g3199g2f6fed258ca6" version="1">Siempre tienes preparado el conjuro Marca del Cazador. Puedes lanzarlo dos veces sin gastar un Espacio de Conjuro, y recuperas todos los usos gastados de esta capacidad cuando completas un Descanso Largo.&lt;br&gt;&lt;br&gt;El número de veces que puedes lanzar el conjuro sin un Espacio de Conjuro aumenta cuando alcanzas ciertos niveles de Explorador, como se muestra en la columna Enemigo Favorito de la tabla de Rasgos del Explorador.</content>
-  <content contentuid="h24da6064ga265g8748g66eeg77bdfbf8fe00" version="1">Nivel 6: Itinerante</content>
+  <content contentuid="h306c6ef1gb334gc9d9g3199g2f6fed258ca6" version="1">Siempre tienes preparado el conjuro Marca del Cazador. Puedes lanzarlo dos veces sin gastar un espacio de conjuro, y recuperas todos los usos gastados de esta habilidad cuando completas un Descanso Largo.
+
+El número de veces que puedes lanzar el conjuro sin un espacio de conjuro aumenta cuando alcanzas ciertos niveles de Explorador, como se muestra en la columna Enemigo Favorito de la tabla de Rasgos del Explorador.</content>
+  <content contentuid="h24da6064ga265g8748g66eeg77bdfbf8fe00" version="1">Nivel 6: Errante</content>
   <content contentuid="h7dcb940dged6eg6a11g5274gec876e4452ec" version="1">Tu Velocidad aumenta en [1] mientras no llevas armadura Pesada.</content>
   <content contentuid="hbe5c5e5fgade6g8f34g4b09g1cee59ffe473" version="1">Nivel 10: Incansable</content>
-  <content contentuid="h60d6e7c1gc8cag3d1dgdaedg0d81cb025d8b" version="1">Las fuerzas primigenias ahora ayudan a sustentarte en tus viajes. Como acción Mágica, puedes darte un número de Puntos de Golpe Temporales igual a 1d8 más tu modificador de Sabiduría (mínimo 1). Puedes usar esta acción un número de veces igual a tu modificador de Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando completas un Descanso Largo.</content>
+  <content contentuid="h60d6e7c1gc8cag3d1dgdaedg0d81cb025d8b" version="1">Las fuerzas primigenias ahora te ayudan a avanzar en tus viajes. Como acción Mágica, puedes otorgarte un número de Puntos de Golpe Temporales igual a 1d8 más tu modificador de Sabiduría (mínimo 1). Puedes usar esta acción un número de veces igual a tu modificador de Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando completas un Descanso Largo.</content>
   <content contentuid="h3229a845gf19dg1318g1141gf2138b76791c" version="1">Incansable</content>
-  <content contentuid="h304ba6eegcc14g44c6g7640g0b3b0cf81a62" version="1">Como acción Mágica, puedes darte un número de Puntos de Golpe Temporales igual a 1d8 más tu modificador de Sabiduría (mínimo 1). Puedes usar esta acción un número de veces igual a tu modificador de Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando completas un Descanso Largo.</content>
+  <content contentuid="h304ba6eegcc14g44c6g7640g0b3b0cf81a62" version="1">Como acción Mágica, puedes otorgarte un número de Puntos de Golpe Temporales igual a 1d8 más tu modificador de Sabiduría (mínimo 1). Puedes usar esta acción un número de veces igual a tu modificador de Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando completas un Descanso Largo.</content>
   <content contentuid="h18c4df3eg4eabg12a1gbab7g044c7be445a5" version="1">Incansable</content>
-  <content contentuid="hc95f4dcfg8caeg69e9gc8b5ge035fe1dc1a3" version="1">Como acción Mágica, puedes darte un número de Puntos de Golpe Temporales igual a 1d8 más tu modificador de Sabiduría (mínimo 1).</content>
+  <content contentuid="hc95f4dcfg8caeg69e9gc8b5ge035fe1dc1a3" version="1">Como acción Mágica, puedes otorgarte un número de Puntos de Golpe Temporales igual a 1d8 más tu modificador de Sabiduría (mínimo 1).</content>
   <content contentuid="h2f7f0018g2af3g31ccg0cdbgcc4bb940f132" version="1">Incansable</content>
-  <content contentuid="h3c5b5f7eg291agf227g9011gc0565f5cdd4d" version="1">Como acción Mágica, puedes darte un número de Puntos de Golpe Temporales igual a 1d8 más tu modificador de Sabiduría (mínimo 1).</content>
+  <content contentuid="h3c5b5f7eg291agf227g9011gc0565f5cdd4d" version="1">Como acción Mágica, puedes otorgarte un número de Puntos de Golpe Temporales igual a 1d8 más tu modificador de Sabiduría (mínimo 1).</content>
   <content contentuid="hcff76038gf183g3e0cg380cgd7a4d9b485d4" version="1">Explorador</content>
-  <content contentuid="hbd354410g485cg7eb3gce6cg2beae2ab9c6b" version="1">Los exploradores son rastreadores y exploradores sin igual, forjando una profunda conexión con la naturaleza para cazar a sus presas favoritas.</content>
+  <content contentuid="hbd354410g485cg7eb3gce6cg2beae2ab9c6b" version="1">Los Exploradores son rastreadores y exploradores sin igual, que cultivan una profunda conexión con la naturaleza para cazar a su presa favorita.</content>
   <content contentuid="h051d1aa3gfcbeg10d5g5326g1eec2d4e3962" version="1">Nivel 7: Entrenamiento Excepcional</content>
   <content contentuid="he1cd6837ge579g13b4g4394g33ea8c725e00" version="1">Nivel 11: Furia Bestial</content>
   <content contentuid="h1fe98af2g42d0g348cga592g953cb60ce5e7" version="1">Nivel 5: Vínculo del Compañero</content>
   <content contentuid="hb6c39153g0c9dg0ddeg1910g4688906cf811" version="1">Nivel 3: Emboscador Temible</content>
-  <content contentuid="h761a2d1bgfaa4g6c2fgbda3g198675b6a886" version="1">Has dominado el arte de crear emboscadas aterradoras, otorgándote los siguientes beneficios.&lt;br&gt;&lt;br&gt;Salto del Emboscador. Al inicio de tu primer turno de cada combate, tu Velocidad aumenta en [1] hasta el final de ese turno.&lt;br&gt;&lt;br&gt;Golpe Aterrador. Cuando atacas a una criatura y la impactas con un arma, puedes infligir [2] adicional. Puedes usar este beneficio solo una vez por turno, puedes usarlo un número de veces igual a tu modificador de Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando completas un Descanso Largo.&lt;br&gt;&lt;br&gt;Bonificador de Iniciativa. Cuando lanzas Iniciativa, puedes añadir tu modificador de Sabiduría a la tirada.</content>
+  <content contentuid="h761a2d1bgfaa4g6c2fgbda3g198675b6a886" version="1">Has dominado el arte de crear emboscadas aterradoras, obteniendo los siguientes beneficios.
+
+Salto del Emboscador. Al inicio de tu primer turno de cada combate, tu Velocidad aumenta en [1] hasta el final de ese turno.
+
+Golpe Temible. Cuando atacas a una criatura y la golpeas con un arma, puedes infligir [2] adicional. Puedes usar este beneficio solo una vez por turno, puedes usarlo un número de veces igual a tu modificador de Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando completas un Descanso Largo.
+
+Bonificador de Iniciativa. Cuando lanzas la Iniciativa, puedes añadir tu modificador de Sabiduría a la tirada.</content>
   <content contentuid="h3b984b2eg48d2ga0a4g5cf8g78f1337ffab6" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Velocidad de movimiento&lt;/LSTag&gt; aumentada en [1].</content>
-  <content contentuid="hbfb12c80g2d3cg0fc7ga570g61985f1e0903" version="1">Golpe Aterrador</content>
-  <content contentuid="hf0903b4fgdab0g610fgf651g1cf01ed26e14" version="1">Cuando atacas a una criatura y la impactas con un arma, puedes infligir 2d6 de daño Psíquico adicional. Puedes usar este beneficio solo una vez por turno, puedes usarlo un número de veces igual a tu modificador de Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando completas un Descanso Largo.</content>
-  <content contentuid="h5f7c0abdg7063gcfe9g177egb32caeb5c2c3" version="1">Golpe Aterrador (Cuerpo a Cuerpo)</content>
-  <content contentuid="hf3f8bd9cg3004g6dbbg08e2g587dc0432a14" version="1">Golpe Aterrador (A Distancia)</content>
+  <content contentuid="hbfb12c80g2d3cg0fc7ga570g61985f1e0903" version="1">Golpe Temible</content>
+  <content contentuid="hf0903b4fgdab0g610fgf651g1cf01ed26e14" version="1">Cuando atacas a una criatura y la golpeas con un arma, puedes infligir 2d6 de daño Psíquico adicional. Puedes usar este beneficio solo una vez por turno, puedes usarlo un número de veces igual a tu modificador de Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando completas un Descanso Largo.</content>
+  <content contentuid="h5f7c0abdg7063gcfe9g177egb32caeb5c2c3" version="1">Golpe Temible (Cuerpo a Cuerpo)</content>
+  <content contentuid="hf3f8bd9cg3004g6dbbg08e2g587dc0432a14" version="1">Golpe Temible (A Distancia)</content>
   <content contentuid="h44cf5afdg1bddgc6d5g9577gcc6cc00bfd12" version="1">Nivel 7: Mente de Hierro</content>
-  <content contentuid="h834d7e4cg19fdgd3acg2b88g50ab0030af80" version="1">Has perfeccionado tu capacidad para resistir poderes que alteran la mente. Obtienes competencia en Tiradas de Salvación de Sabiduría.</content>
-  <content contentuid="hd3f07304gfb55ge28ega3f7g0cf1292516a3" version="1">Nivel 11: Ráfaga del Acechador</content>
-  <content contentuid="h374216bbgf985gc96cg64b3g959b101fd376" version="1">El daño Psíquico de tu Golpe Aterrador se convierte en 2d8. El objetivo debe realizar una tirada de salvación de Sabiduría contra tu CD de conjuros. Si falla, la criatura tiene la condición Asustada hasta el inicio de tu siguiente turno.&lt;br&gt;&lt;br&gt;Eres suficientemente rápido para convertir un fallo en un nuevo golpe. Cuando fallas con un ataque de arma, puedes realizar otro ataque de arma gratis.</content>
+  <content contentuid="h834d7e4cg19fdgd3acg2b88g50ab0030af80" version="1">Has agudizado tu capacidad para resistir poderes que alteran la mente. Obtienes competencia en las tiradas de salvación de Sabiduría.</content>
+  <content contentuid="hd3f07304gfb55ge28ega3f7g0cf1292516a3" version="1">Nivel 11: Torbellino del Acechador</content>
+  <content contentuid="h374216bbgf985gc96cg64b3g959b101fd376" version="1">El daño Psíquico de tu Golpe Temible se convierte en 2d8. El objetivo debe realizar una tirada de salvación de Sabiduría contra tu CD de conjuros. Si falla, la criatura tiene la condición Asustado hasta el inicio de tu siguiente turno.
+
+Eres lo suficientemente veloz como para convertir un fallo en un nuevo golpe. Cuando fallas con un ataque con arma, puedes realizar otro ataque con arma de forma gratuita.</content>
   <content contentuid="hfd10997cg1b63g1960g4918ga9e47736c018" version="1">Nivel 11: Presa del Cazador Superior</content>
-  <content contentuid="h156a3a97g9e6bg053egabdeg9a8bfdfcdee2" version="1">Una vez por turno cuando infliges daño a una criatura marcada por tu Marca del Cazador, también puedes infligir el daño adicional de ese conjuro a otra criatura diferente que puedas ver a [1] de la primera criatura.</content>
+  <content contentuid="h156a3a97g9e6bg053egabdeg9a8bfdfcdee2" version="1">Una vez por turno cuando infliges daño a una criatura marcada por tu Marca del Cazador, también puedes infligir el daño adicional de ese conjuro a una criatura diferente que puedas ver a [1] de la primera criatura.</content>
   <content contentuid="h2484eb83g2df9g26e8gd9a4g528b38f355d5" version="1">Presa del Cazador Superior</content>
-  <content contentuid="h6d51897ag955egeb37g57b9g59eddbb044d1" version="1">Puntería Estable</content>
-  <content contentuid="h8b43db08gaf12gc02agb86cge29d6c39df7f" version="1">Como Acción Adicional, te otorgas Ventaja en tu siguiente tirada de ataque del turno actual. Solo puedes usar este rasgo si no te has movido durante este turno, y después de usarlo, tu Velocidad es 0 hasta el final del turno actual.</content>
-  <content contentuid="h8cfd42a3ge9ddg2a7bg7928g2b06b4cc30ec" version="1">Puntería Estable</content>
-  <content contentuid="haf3b75e3g8f42g8af5ge959ga8ee656088f7" version="1">Como Acción Adicional, te otorgas Ventaja en tu siguiente tirada de ataque del turno actual. Solo puedes usar este rasgo si no te has movido durante este turno, y después de usarlo, tu Velocidad es 0 hasta el final del turno actual.</content>
-  <content contentuid="h4c5295e0g7006g010bg62b8gfa3c901f3027" version="1">Nivel 3: Puntería Estable</content>
-  <content contentuid="h49585eb0g7c75g3df5g4aacg38e6e664edb2" version="1">Como Acción Adicional, te otorgas Ventaja en tu siguiente tirada de ataque del turno actual. Solo puedes usar este rasgo si no te has movido durante este turno, y después de usarlo, tu Velocidad es 0 hasta el final del turno actual.</content>
+  <content contentuid="h6d51897ag955egeb37g57b9g59eddbb044d1" version="1">Puntería Firme</content>
+  <content contentuid="h8b43db08gaf12gc02agb86cge29d6c39df7f" version="1">Como Acción Adicional, te otorgas Ventaja en tu siguiente tirada de ataque en el turno actual. Solo puedes usar este rasgo si no te has movido durante este turno, y después de usarlo, tu Velocidad es 0 hasta el final del turno actual.</content>
+  <content contentuid="h8cfd42a3ge9ddg2a7bg7928g2b06b4cc30ec" version="1">Puntería Firme</content>
+  <content contentuid="haf3b75e3g8f42g8af5ge959ga8ee656088f7" version="1">Como Acción Adicional, te otorgas Ventaja en tu siguiente tirada de ataque en el turno actual. Solo puedes usar este rasgo si no te has movido durante este turno, y después de usarlo, tu Velocidad es 0 hasta el final del turno actual.</content>
+  <content contentuid="h4c5295e0g7006g010bg62b8gfa3c901f3027" version="1">Nivel 3: Puntería Firme</content>
+  <content contentuid="h49585eb0g7c75g3df5g4aacg38e6e664edb2" version="1">Como Acción Adicional, te otorgas Ventaja en tu siguiente tirada de ataque en el turno actual. Solo puedes usar este rasgo si no te has movido durante este turno, y después de usarlo, tu Velocidad es 0 hasta el final del turno actual.</content>
   <content contentuid="hdd434d50g0d94g6819ge916g55203c553e86" version="1">Nivel 7: Talento Confiable</content>
-  <content contentuid="h21f511b2g92a9g1aafg61d4g9e8e4ad1e872" version="1">Nivel 5: Esquiva Ágil</content>
+  <content contentuid="h21f511b2g92a9g1aafg61d4g9e8e4ad1e872" version="1">Nivel 5: Esquiva Prodigiosa</content>
   <content contentuid="he94ba142g4f1bg9badge483g5c206c0854b1" version="1">Nivel 7: Evasión</content>
-  <content contentuid="h97dd1bbcg1ca7g6953g67d7g155182b6526b" version="1">Puedes esquivar ágilmente ciertos peligros. Cuando estás sujeto a un efecto que te permite realizar una tirada de salvación de Destreza para recibir solo la mitad del daño, en cambio no recibes daño si tienes éxito en la tirada y solo la mitad del daño si fallas. No puedes usar este rasgo si tienes la condición Incapacitado.</content>
-  <content contentuid="h95ef44fegf44dg26b7g490bg4d2254baeba6" version="1">Cuando estás sujeto a un efecto que te permite realizar una tirada de salvación de Destreza para recibir solo la mitad del daño, en cambio no recibes daño si tienes éxito en la tirada y solo la mitad del daño si fallas.&lt;br&gt;&lt;br&gt;No te beneficias de este rasgo si tienes la condición Incapacitado.</content>
+  <content contentuid="h97dd1bbcg1ca7g6953g67d7g155182b6526b" version="1">Puedes esquivar ágilmente ciertos peligros. Cuando estás sujeto a un efecto que te permite realizar una tirada de salvación de Destreza para recibir solo la mitad del daño, en cambio no recibes daño si tienes éxito en la tirada de salvación y solo la mitad del daño si fallas. No puedes usar este rasgo si tienes la condición Incapacitado.</content>
+  <content contentuid="h95ef44fegf44dg26b7g490bg4d2254baeba6" version="1">Cuando estás sujeto a un efecto que te permite realizar una tirada de salvación de Destreza para recibir solo la mitad del daño, en cambio no recibes daño si tienes éxito en la tirada de salvación y solo la mitad del daño si fallas.
+
+No te beneficias de este rasgo si tienes la condición Incapacitado.</content>
   <content contentuid="h0523c40bg9f42g36bcg9e1cg6081c59ba79a" version="1">Nivel 11: Ataque Furtivo Mejorado</content>
   <content contentuid="hd984038eg2324g666bg83degd9c1722e9df2" version="1">Los dados de daño de tu Ataque Furtivo aumentan en 2d6 adicionales.</content>
   <content contentuid="h29957e67gbc02g6407ga341g2f35096e19da" version="1">Nivel 9: Emboscada Mágica</content>
@@ -3653,5 +3764,20 @@ El origen exacto de su poder divino confunde a los ancianos de las religiones es
   <content contentuid="h2b90d2d7ga0dfg08adgfe44g4279f29e5413" version="2">Las tiradas de ataque contra esta criatura tienen Ventaja.</content>
   <content contentuid="h32e38e85g25adgefa8g1b85gc609d74dfdb7" version="1">Las tiradas de ataque contra esta criatura anotan un Golpe Crítico con un resultado de 19 o 20 en el d20.</content>
   <content contentuid="h3535fb04gd274gb73agad1bgb1eb0264ee01" version="1">Esta criatura tiene Desventaja en su siguiente tirada de salvación contra conjuros.</content>
-  <content contentuid="h4f02a443g002fgceafgd54dg4a6985d6d2b9" version="1">Las tiradas de ataque contra una criatura objetivo del Canto del Destino anotan un Golpe Crítico con un resultado de 19 o 20 en el d20.</content>
+  <content contentuid="h4f02a443g002fgceafgd54dg4a6985d6d2b9" version="1">Las tiradas de ataque contra una criatura objetivo del Canto del Destino Impactan un Golpe Crítico con un resultado de 19 o 20.</content>
+  <content contentuid="h2515f6efg74e9g6061g08a1g0ec0f22a342d" version="1">Create Ice</content>
+  <content contentuid="h6085ac63gc82egb7b9g858cg0fd5ce6726aa" version="1">You can take a Bonus Action to magically create icy terrain on up to five spaces. The ice-covered spaces become Difficult Terrain and remain until the end of your next turn. When you take this Bonus Action, you may spend one or more Sorcery Points to freeze an additional five spaces for each Sorcery Point spent.</content>
+  <content contentuid="h22c0c858g3d5ag38b5g51dbg5e6023f8d885" version="1">Level 3: Create Ice</content>
+  <content contentuid="ha3545489g1d38g6fa3g0526g220227ae59ac" version="1">You can take a Bonus Action to magically create icy terrain on up to five spaces. The ice-covered spaces become Difficult Terrain and remain until the end of your next turn. When you take this Bonus Action, you may spend one or more Sorcery Points to freeze an additional five spaces for each Sorcery Point spent.</content>
+  <content contentuid="h1e52530fgb6a1g58bcg28c8gf49958042c31" version="1">Level 3: Frost Spells</content>
+  <content contentuid="h78ec0f4cgdceeg4a48gd10ag8d7fa8a15f49" version="1">When you reach a Sorcerer level specified in the Frost Spells table, you thereafter always have the listed spells prepared.</content>
+  <content contentuid="h633e7853gfe5cgc83fg46c5g12d2c8161229" version="1">At 3rd level, you learn Blindness/Deafness, Ice Knife, Misty Step, and Sleep. At 5th level, you add Sleet Storm and Slow. At 7th level, you gain Fire Shield and Ice Storm. Finally, at 9th level, you can cast Cone of Cold and Conjure Elemental.</content>
+  <content contentuid="he29b881cg8be9ge597gaa47ge013dbcb923e" version="1">Level 3: Frozen Body</content>
+  <content contentuid="h4d2eb6abgde1bg02e5g7229g271d5c3cc35b" version="1">Your skin takes on a faintly ice-like, crystalline glow. Your Hit Point maximum increases by 3, and it increases by 1 whenever you gain another Sorcerer level. In addition, Difficult Terrain composed of ice or snow doesn’t cost you extra movement, and when you walk on ice, you only spend 1 foot of movement for every 2 feet you move.</content>
+  <content contentuid="h41c12c6fg7222ge59egf356g102fa92de375" version="1">Level 6: Cold-Hearted</content>
+  <content contentuid="h46113845g2cf8g2693g39begd296035270d7" version="2">When you deal Cold damage to a Large or smaller creature with a spell, you can attempt to freeze it in place. If you do, that creature’s speed is reduced by 15 feet. When you deal Cold damage with a spell, you add your Charisma modifier to the damage. You have Resistance to Cold damage.</content>
+  <content contentuid="hafa97bceg97c0gc97dgfa9fg414b6341027f" version="1">Cold-Hearted</content>
+  <content contentuid="he015bc92g41b1g4d83gfa46ge61a66471197" version="1">Speed is reduced by 15 feet.</content>
+  <content contentuid="h2be99baag9938gfc17g13cfg590c60db09e5" version="1">Frost Sorcery</content>
+  <content contentuid="hb8891366g1f90g73e0ge8d1ge4a2ec9f47e0" version="1">Your magic is created by pieces of the Everheart, the center and driving force behind the expanding Everglacier wastelands. This power within you might be passed down through ancestors who protected the glacier’s magical core, or it might have been forced upon you through a chance encounter with the enchanted ice itself. Regardless of the source of your power, you are a creature of cold incarnate.</content>
 </contentList>
