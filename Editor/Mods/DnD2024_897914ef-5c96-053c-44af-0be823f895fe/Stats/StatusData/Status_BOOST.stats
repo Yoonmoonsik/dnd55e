@@ -2353,13 +2353,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="e5f04e26-57f8-4210-b4d3-720a0804c2a8" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="5cf3e786-2f99-4e6a-a4dd-8b731a0593ee" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f016bef6-2078-4c2a-8f87-3b292a3168be" />
         <field name="Name" type="NameTableFieldDefinition" value="EXTRA_ATTACK_WARPRIEST" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2e2ad149-8527-440a-9172-45d89725b9f4" />
@@ -5943,6 +5936,14 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9ca97177-4911-41bd-a576-3c77ff843413" />
         <field name="Name" type="NameTableFieldDefinition" value="__MAGIC ITEM__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="77a28904-98f7-42e8-91c5-9bd87fd20d89" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_WEAPON_ATTACK_ROLL_BONUS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f5c83a54-a399-4273-87a5-f026ca910a5f" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5fe7400ag82f7g6073g3bcbgd343cec9bd16" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

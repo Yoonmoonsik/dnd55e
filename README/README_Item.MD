@@ -3,6 +3,7 @@
 - Blazer of Benevolence
 - Cap of Curing
 - Chain of Liberation
+- Charge-Bound Warhammer
 - Corrosive Flail
 - Dragon's Grasp
 - Enforcer Club (Loot from Flaming Fist Jacek)
@@ -23,6 +24,7 @@
 - Pistol +2
 - Rupturing Blade
 - Spellthief
+- The Baneful
 - The Oak Father's Embrace
 - The Sacred Star (Loot from a Heavy Chest in the Dank Crypt)
 - True Name (Illrigger Equipment, Loot from He Who Was)

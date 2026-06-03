@@ -5938,6 +5938,12 @@ type "PassiveData"
 using "MAG_ElementalGish_ArcaneAcuity_Helmet_Passive"
 data "Conditions" "Combat() and IsWeaponAttack() and not Item();"
 
+new entry "MAG_BoundToBeBonded_Passive"
+type "PassiveData"
+using "MAG_BoundToBeBonded_Passive"
+data "Description" "h99e76e2eg9ad8ge1c9g7478g77f49aa7113e;1"
+data "Boosts" "IF(HasStatus( 'MAG_WEAPON_ATTACK_ROLL_BONUS', GetActiveWeapon(context.Source, true))):SpellSaveDC(1);IF(HasStatus( 'MAG_WEAPON_ATTACK_ROLL_BONUS', GetActiveWeapon(context.Source, true))):RollBonus(MeleeSpellAttack, 1);IF(HasStatus( 'MAG_WEAPON_ATTACK_ROLL_BONUS', GetActiveWeapon(context.Source, true))):RollBonus(RangedSpellAttack,1);"
+
 new entry "__RACE__"
 type "PassiveData"
 

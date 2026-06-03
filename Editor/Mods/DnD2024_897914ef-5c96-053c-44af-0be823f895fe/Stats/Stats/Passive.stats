@@ -8200,6 +8200,15 @@
         <field name="Conditions" type="StringTableFieldDefinition" value="Combat() and IsWeaponAttack() and not Item();" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cf007d50-6ca8-4038-acde-19a62fccdeff" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BoundToBeBonded_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ba43b51c-8847-49fe-bad7-9a53cb51592e" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h99e76e2eg9ad8ge1c9g7478g77f49aa7113e" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus( 'MAG_WEAPON_ATTACK_ROLL_BONUS', GetActiveWeapon(context.Source, true))):SpellSaveDC(1);IF(HasStatus( 'MAG_WEAPON_ATTACK_ROLL_BONUS', GetActiveWeapon(context.Source, true))):RollBonus(MeleeSpellAttack, 1);IF(HasStatus( 'MAG_WEAPON_ATTACK_ROLL_BONUS', GetActiveWeapon(context.Source, true))):RollBonus(RangedSpellAttack,1);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6e19c092-a7fb-4108-a3e4-a2fb86227572" />

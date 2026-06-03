@@ -1897,11 +1897,6 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndi
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusEffect" ""
 
-new entry "New_Stat_1"
-type "StatusData"
-data "StatusType" "BOOST"
-using "AURA_OF_DEVOTION"
-
 new entry "EXTRA_ATTACK_WARPRIEST"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -4757,6 +4752,12 @@ data "Boosts" "DownedStatus(DEATH_DEFIER_DOWNED,5);"
 new entry "__MAGIC ITEM__"
 type "StatusData"
 data "StatusType" "BOOST"
+
+new entry "MAG_WEAPON_ATTACK_ROLL_BONUS"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_WEAPON_ATTACK_ROLL_BONUS"
+data "Description" "h5fe7400ag82f7g6073g3bcbgd343cec9bd16;1"
 
 new entry "MAG_TEMPORARY_HP_BARDIC_INSPIRATION"
 type "StatusData"
