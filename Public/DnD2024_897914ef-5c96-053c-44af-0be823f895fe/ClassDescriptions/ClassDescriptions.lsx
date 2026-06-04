@@ -459,6 +459,19 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="hb8891366g1f90g73e0ge8d1ge4a2ec9f47e0" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2be99baag9938gfc17g13cfg590c60db09e5" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="FrostSorcery"/>
+                    <attribute id="ParentGuid" type="guid" value="784001e2-c96d-4153-beb6-2adbef5abc92"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="1ee59b30-e015-45f2-8a93-9ca4c4ff2bc4"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Sorcerer"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="d45d0e7a-e5f9-4b43-865d-fb51aec2d32b"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h3662fdcag8fe4g979eg5288g490b31f1f882" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hc3053d70g9f50g8beeg6377g17705d962791" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
@@ -797,16 +810,18 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="hb8891366g1f90g73e0ge8d1ge4a2ec9f47e0" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h2be99baag9938gfc17g13cfg590c60db09e5" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hb6b0d9beg878egbb1fg173cgc579422a5d85" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0d9ac304ge050g65c4gadd7gb2db9a3a6388" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="Name" type="FixedString" value="FrostSorcery"/>
-                    <attribute id="ParentGuid" type="guid" value="784001e2-c96d-4153-beb6-2adbef5abc92"/>
-                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="1ee59b30-e015-45f2-8a93-9ca4c4ff2bc4"/>
-                    <attribute id="SoundClassType" type="FixedString" value="Sorcerer"/>
-                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
-                    <attribute id="UUID" type="guid" value="d45d0e7a-e5f9-4b43-865d-fb51aec2d32b"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="GraveDomain"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="cb54a940-71a1-49bc-a317-c046517fc298"/>
+                    <attribute id="ShortName" type="TranslatedString" handle="h526ff611g11bfg567cg8e51gf38acce5196d" version="1"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Cleric"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="aa644f08-d368-40d3-802a-b3bce31cd4e8"/>
                 </node>
             </children>
         </node>

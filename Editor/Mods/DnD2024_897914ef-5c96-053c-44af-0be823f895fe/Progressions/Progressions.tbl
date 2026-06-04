@@ -1183,7 +1183,7 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(2968a3e6-6c8a-4c2e-882a-ad295a2ad8ac)" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel2" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="4d7bc9f4-526f-4902-b9a2-b31577203d02;0a7ae8c2-4fd5-48d8-9e5e-6a29189f3fb1;b927a22a-d64b-48d6-bc7c-38c5f7f6a061;ebe18794-b5e1-41c4-befa-4b9d6922b0ec;4b5da2f5-b999-4623-8bff-a63df5560fb3;c54d7591-b305-4f22-b2a7-1bf5c4a3470a;6dec76d0-df22-411c-8a78-3d6fb843ae50;89bacf1b-8f15-4972-ada7-bf59c7c78441;f013d01b-3310-43f7-81bf-a51130442b5e;b9ccf90e-b35b-4b73-b896-8ed2d32ae8c6" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="4d7bc9f4-526f-4902-b9a2-b31577203d02;0a7ae8c2-4fd5-48d8-9e5e-6a29189f3fb1;b927a22a-d64b-48d6-bc7c-38c5f7f6a061;aa644f08-d368-40d3-802a-b3bce31cd4e8;ebe18794-b5e1-41c4-befa-4b9d6922b0ec;4b5da2f5-b999-4623-8bff-a63df5560fb3;c54d7591-b305-4f22-b2a7-1bf5c4a3470a;6dec76d0-df22-411c-8a78-3d6fb843ae50;89bacf1b-8f15-4972-ada7-bf59c7c78441;f013d01b-3310-43f7-81bf-a51130442b5e;b9ccf90e-b35b-4b73-b896-8ed2d32ae8c6" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2147,6 +2147,62 @@
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(47336f08-9daa-434b-be1d-88cb45e8ebb7,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_915" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cb54a940-71a1-49bc-a317-c046517fc298" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="cb54a940-71a1-49bc-a317-c046517fc298" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GraveDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="GraveDomain_3_GraveDomainSpells;GraveDomain_3_CircleOfMortality;GraveDomain_3_PathToTheGrave;GraveDomain_3_PullOfDeath" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(7162699a-4886-40bb-97fc-d77d57953b6f,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_916" />
+        <field name="UUID" type="IdTableFieldDefinition" value="269cabf5-8988-43fb-9ad7-e64b84e94b86" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="cb54a940-71a1-49bc-a317-c046517fc298" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GraveDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(1434a581-1ba3-4fb6-9d2a-5aeceb3f8b9a,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_917" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e6cc6d03-5e97-4903-8ff0-0372ab2bc103" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="cb54a940-71a1-49bc-a317-c046517fc298" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GraveDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="GraveDomain_6_SentinelAtDeathsDoor;GraveDomain_6_SentinelAtDeathsDoor_Resource" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_918" />
+        <field name="UUID" type="IdTableFieldDefinition" value="38ea3b83-62d1-44ad-89fa-db2d61046670" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="cb54a940-71a1-49bc-a317-c046517fc298" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GraveDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(8a4b16d3-e7d1-43cb-bd5b-9afbd74bbef2,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_919" />
+        <field name="UUID" type="IdTableFieldDefinition" value="14be099d-06c6-4eca-b7bd-c0018b243097" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="cb54a940-71a1-49bc-a317-c046517fc298" />
+        <field name="FSName" type="StringTableFieldDefinition" value="GraveDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(2a274a23-162e-4f87-85cd-e3d788419364,,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">

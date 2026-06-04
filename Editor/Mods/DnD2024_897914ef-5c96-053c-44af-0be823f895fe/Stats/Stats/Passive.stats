@@ -1751,6 +1751,79 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_AllWillBeDust);" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8f6bc714-3a70-4c2e-9a41-8cdd63bd59d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="__GRAVE DOMAIN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a160087-4674-4e9a-94cf-0c14f46b2d00" />
+        <field name="Name" type="NameTableFieldDefinition" value="GraveDomain_3_GraveDomainSpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2cb62f22g7258gc3fcg2b1cgccb378b2f59e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he090be9bg8385g1850g97abg87aecc9a4555" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h32554089g3cb1g5105g77b7g4afa486c46cf" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GraveDomain_3_PathToTheGrave" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0ccfd8ec-ae17-4fd7-bc2b-92adbf4db26b" />
+        <field name="Name" type="NameTableFieldDefinition" value="GraveDomain_3_CircleOfMortality" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9091248cg6df4gf72fg6f2ag70c577bab5c1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3c269efagf9cbgfc7dga3bag5ea715ef1024" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GraveDomain_3_CircleOfMortality" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SpareTheDying_BonusAction);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnHeal" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(ClassLevel(Cleric));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2fb3096b-8628-4121-8751-a0821f43b36a" />
+        <field name="Name" type="NameTableFieldDefinition" value="GraveDomain_3_PullOfDeath" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasHPPercentageWithoutTemporaryHPLessThan(50,context.Target);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(LevelMapValue(PullOfDeath),Necrotic,Magical)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc89a1458g2a97g6f71g4ec2g2f90e1ca5dcf" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d34b6560-8bf0-4f12-8a2f-4942a5f3420f" />
+        <field name="Name" type="NameTableFieldDefinition" value="GraveDomain_3_PathToTheGrave" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h794dc21ag8b55ga792g3b31g88988c279134" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf7e85ad5gadc6g23b3ge9bdgb92b56e72159" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GraveDomain_3_PathToTheGrave" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_PathToTheGrave);UnlockInterrupt(Interrupt_PathToTheGrave_Radiant);UnlockInterrupt(Interrupt_PathToTheGrave_Necrotic);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a8a3545-054c-46e2-b74d-17fd9ec2f3d9" />
+        <field name="Name" type="NameTableFieldDefinition" value="GraveDomain_6_SentinelAtDeathsDoor" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h345ec71fg8b14gc4a2ge4f4g2ae275d3a891" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb5512cccg4740g2f7dg76e9gd4d73b16a044" version="2" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h40fa14d1gcd8ag4b04g332cg14f014f79df1" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GraveDomain_6_SentinelAtDeathsDoor" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_SentinelAtDeathsDoor);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="552ccc39-66b3-4a7e-a019-afb16ab26328" />
+        <field name="Name" type="NameTableFieldDefinition" value="GraveDomain_6_SentinelAtDeathsDoor_Resource" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnProficiencyChange;OnShortRest;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SentinelAtDeathsDoor,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(SentinelAtDeathsDoor,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(SentinelAtDeathsDoor,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(SentinelAtDeathsDoor,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(SentinelAtDeathsDoor,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(SentinelAtDeathsDoor,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(SentinelAtDeathsDoor,1,0);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7802f41d-bd65-4255-a3bf-5d50027cc099" />

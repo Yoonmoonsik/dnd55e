@@ -167,6 +167,24 @@
         <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_54" />
+        <field name="UUID" type="IdTableFieldDefinition" value="aa644f08-d368-40d3-802a-b3bce31cd4e8" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="114e7aee-d1d4-4371-8d90-8a2080592faf" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="GraveDomain" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0d9ac304ge050g65c4gadd7gb2db9a3a6388" version="1" />
+        <field name="ShortName" type="TranslatedStringTableFieldDefinition" handle="h526ff611g11bfg567cg8e51gf38acce5196d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb6b0d9beg878egbb1fg173cgc579422a5d85" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="cb54a940-71a1-49bc-a317-c046517fc298" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Cleric" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Wisdom" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Wisdom" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="True" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />

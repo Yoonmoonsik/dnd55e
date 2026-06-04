@@ -1102,6 +1102,30 @@
                     <attribute id="UUID" type="guid" value="1a63cd10-5142-4af2-91ae-fe102e03adf1"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="__FROST SORCERY__"/>
+                    <attribute id="UUID" type="guid" value="6f0bf746-2970-47c0-9bd1-cff28a976fd4"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Frost Level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blindness;Projectile_IceKnife;Target_MistyStep;Target_Sleep;Target_CreateIce"/>
+                    <attribute id="UUID" type="guid" value="fa6f2a9d-930f-4fca-b52b-4fa9108a3967"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Frost Level 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_SleetStorm;Target_Slow"/>
+                    <attribute id="UUID" type="guid" value="35af3b70-0941-4f7c-8a41-5c2b4fa88788"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Frost Level 7"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FireShield;Target_IceStorm"/>
+                    <attribute id="UUID" type="guid" value="b0311668-e3e5-4c4c-9e32-2603abe51c86"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Frost Level 9"/>
+                    <attribute id="Spells" type="LSString" value="Zone_ConeOfCold,Target_ConjureElemental_Container"/>
+                    <attribute id="UUID" type="guid" value="a27d843d-88fd-4f23-a519-74d6207625d6"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="__WARLOCK__"/>
                     <attribute id="UUID" type="guid" value="28297251-2b44-4554-8723-4ab94229a3c0"/>
                 </node>
@@ -1645,28 +1669,24 @@
                     <attribute id="UUID" type="guid" value="582ed05c-c6fa-4d6f-99f9-efcc9de769f9"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="__FROST SORCERY__"/>
-                    <attribute id="UUID" type="guid" value="6f0bf746-2970-47c0-9bd1-cff28a976fd4"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Grave Domain SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_ProtectionFromEvilAndGood;Shout_FalseLife;Target_LesserRestoration;Projectile_RayOfEnfeeblement;Target_SpareTheDying"/>
+                    <attribute id="UUID" type="guid" value="7162699a-4886-40bb-97fc-d77d57953b6f"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Frost Level 3"/>
-                    <attribute id="Spells" type="LSString" value="Target_Blindness;Projectile_IceKnife;Target_MistyStep;Target_Sleep;Target_CreateIce"/>
-                    <attribute id="UUID" type="guid" value="fa6f2a9d-930f-4fca-b52b-4fa9108a3967"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Grave Domain SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_Revivify;Target_VampiricTouch"/>
+                    <attribute id="UUID" type="guid" value="1434a581-1ba3-4fb6-9d2a-5aeceb3f8b9a"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Frost Level 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_SleetStorm;Target_Slow"/>
-                    <attribute id="UUID" type="guid" value="35af3b70-0941-4f7c-8a41-5c2b4fa88788"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Grave Domain SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blight;Target_DeathWard"/>
+                    <attribute id="UUID" type="guid" value="8a4b16d3-e7d1-43cb-bd5b-9afbd74bbef2"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Frost Level 7"/>
-                    <attribute id="Spells" type="LSString" value="Shout_FireShield;Target_IceStorm"/>
-                    <attribute id="UUID" type="guid" value="b0311668-e3e5-4c4c-9e32-2603abe51c86"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Frost Level 9"/>
-                    <attribute id="Spells" type="LSString" value="Zone_ConeOfCold,Target_ConjureElemental_Container"/>
-                    <attribute id="UUID" type="guid" value="a27d843d-88fd-4f23-a519-74d6207625d6"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Grave Domain SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DispelEvilAndGood;Target_CureWounds_Mass"/>
+                    <attribute id="UUID" type="guid" value="2a274a23-162e-4f87-85cd-e3d788419364"/>
                 </node>
             </children>
         </node>

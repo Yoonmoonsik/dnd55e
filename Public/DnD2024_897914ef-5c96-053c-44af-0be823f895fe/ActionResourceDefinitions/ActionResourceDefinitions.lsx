@@ -113,6 +113,14 @@
                     <attribute id="UUID" type="guid" value="9a8fa384-30b8-4c08-a731-6fa41ed7dac9"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h35cd62dfga45eg5034g1f95gaecba58e13b1" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="VisionsOfAnnihilation"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="3681bdb6-affb-4c73-88e8-5aa904fb1b48"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__DRUID__"/>
                     <attribute id="UUID" type="guid" value="1a855711-a234-412c-b00d-9d2e8d239ba4"/>
                 </node>
@@ -632,12 +640,12 @@
                     <attribute id="UUID" type="guid" value="014d6340-84cf-4d14-b5a4-4b3f5886f8ba"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h35cd62dfga45eg5034g1f95gaecba58e13b1" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h75e81993g498fgad1ag49c0g16b6f5c596f1" version="1"/>
                     <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="Name" type="FixedString" value="VisionsOfAnnihilation"/>
+                    <attribute id="Name" type="FixedString" value="SentinelAtDeathsDoor"/>
                     <attribute id="ReplenishType" type="FixedString" value="Rest"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="3681bdb6-affb-4c73-88e8-5aa904fb1b48"/>
+                    <attribute id="UUID" type="guid" value="c0fda9c8-a148-4863-b1ad-04f20f83441f"/>
                 </node>
             </children>
         </node>

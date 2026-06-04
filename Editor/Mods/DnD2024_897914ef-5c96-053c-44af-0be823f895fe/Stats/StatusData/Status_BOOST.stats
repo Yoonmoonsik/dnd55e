@@ -2421,6 +2421,51 @@
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b00c0880-32ef-44e0-9a13-6bd283c4b96d" />
+        <field name="Name" type="NameTableFieldDefinition" value="PATH_TO_THE_GRAVE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h95548fa8ge81cgbc76g7f69g8ac91ac34610" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb103cff4g6592ga38bge61dgc57ab7419d1f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GraveDomain_3_PathToTheGrave" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PATH_TO_THE_GRAVE" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AllSavingThrows);Disadvantage(AttackRoll);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a1da5c44-10a5-4657-a550-7cfaed1afdfa" />
+        <field name="Name" type="NameTableFieldDefinition" value="PATH_TO_THE_GRAVE_RADIANT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b00c0880-32ef-44e0-9a13-6bd283c4b96d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h766f65e6g3d16g5e40g74e7ga8f8668f8d89" version="1" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.ClassLevel(Cleric),Radiant)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9e131d45-519e-403a-9207-349347a49595" />
+        <field name="Name" type="NameTableFieldDefinition" value="PATH_TO_THE_GRAVE_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a1da5c44-10a5-4657-a550-7cfaed1afdfa" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbdf05572gfd6fgc2b8g94f7ga66183c724c7" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.ClassLevel(Cleric),Necrotic)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8541199c-1244-425d-847a-6b48e935bcd0" />
+        <field name="Name" type="NameTableFieldDefinition" value="SENTINEL_AT_DEATHS_DOOR" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(All,Half);" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8186b8ecg7248g13b4ge3fbga7dd7bb29966" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GraveDomain_6_SentinelAtDeathsDoor" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SENTINEL_AT_DEATHS_DOOR" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9bf598df-0e5c-45e6-b178-41684541d2f2" />

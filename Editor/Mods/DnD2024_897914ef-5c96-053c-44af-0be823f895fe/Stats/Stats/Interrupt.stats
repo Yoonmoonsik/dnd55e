@@ -102,6 +102,49 @@
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and (Self(context.Source,context.Observer) or Ally(context.Source,context.Observer)) and HasInterruptedAttack() and not AnyEntityIsItem() and IsFlatValueInterruptInteresting(10, context.Source);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="75c2519a-ea26-4f56-b32b-5d74462064d2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_PathToTheGrave_Radiant" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h89b07ad8g5b08g1ce3geeefg28e025c51ec9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5085414dg5773gb367g17ffg56d92264887f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and HasStatus('PATH_TO_THE_GRAVE',context.Target) and IsAttack() and IsHit();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_TARGET,PATH_TO_THE_GRAVE_RADIANT,100,0);RemoveStatus(PATH_TO_THE_GRAVE);" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+        <field name="Stack" type="StringTableFieldDefinition" value="PathToTheGrave" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cac93e93-ee11-4efe-a83b-823bfd5e33d5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_PathToTheGrave_Necrotic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="75c2519a-ea26-4f56-b32b-5d74462064d2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7fbdaf7cgb9dfg7914g321dg56535e4ef83f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_TARGET,PATH_TO_THE_GRAVE_NECROTIC,100,0);RemoveStatus(PATH_TO_THE_GRAVE);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fc2732ba-88e4-46a5-af2d-9e2f7ae6256c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_SentinelAtDeathsDoor" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPreDamage" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and ( Self(context.Target,context.Observer) or Ally(context.Target, context.Observer) ) and IsAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not DistanceToEntityGreaterThan(18, context.ObserverPosition, context.Target) and HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Target);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(SENTINEL_AT_DEATHS_DOOR,100,1);ApplyStatus(OBSERVER_TARGET,INTERRUPT_FIGHTINGSTYLE_PROTECTION,100,0);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;SentinelAtDeathsDoor:1;" />
+        <field name="Stack" type="StringTableFieldDefinition" value="SentinelAtDeathsDoor" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf4f2bdedgddf2g2241g30f8g9a81f5a1e39e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d224144gf1bcgdd1cg66e2g767541b3331e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GraveDomain_6_SentinelAtDeathsDoor" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="468d8269-7090-46eb-aaed-ab7aec258538" />
@@ -1216,7 +1259,7 @@
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('ARCANEJOLT_STEEL_DEFENDER',context.Target);" />
-        <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(2d6,Force,Magical);RemoveStatus('ARCANEJOLT_STEEL_DEFENDER');" />
+        <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(2d6,Force,Magical);RemoveStatus(ARCANEJOLT_STEEL_DEFENDER);" />
         <field name="Cost" type="StringTableFieldDefinition" value="ArcaneJolt:1;ArcaneJoltTurn:1;" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
       </fields>
