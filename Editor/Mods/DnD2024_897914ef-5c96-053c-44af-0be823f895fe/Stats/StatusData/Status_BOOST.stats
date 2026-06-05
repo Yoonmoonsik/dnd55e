@@ -2126,10 +2126,11 @@
         <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="EXHAUSTED" enumeration_type_name="SoundVocalType" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="BRANCHES_OF_THE_TREE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(Movement);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Restrained;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="92f376fb-aa71-4858-99b2-785cb9694734" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="b5561d10-6cc4-4403-a567-b569c96a5d76" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">

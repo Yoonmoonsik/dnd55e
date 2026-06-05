@@ -882,7 +882,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="946c947f-bbd5-48ae-b3ec-edb426a5b8c0" />
         <field name="Name" type="NameTableFieldDefinition" value="WorldTree_6_BranchesOfTheTree" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h39e02d12g9361g9427gcabbg9c625c015d9e" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc973bce4g12d2g5a53g43a8g98cefe571124" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc973bce4g12d2g5a53g43a8g98cefe571124" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="WorldTree_6_BranchesOfTheTree" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1206" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -2492,12 +2492,6 @@
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsCritical()" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,REMARKABLE_ATHLETE,100,1)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="e713af0c-5563-4fec-a056-84f6d0f8084a" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
