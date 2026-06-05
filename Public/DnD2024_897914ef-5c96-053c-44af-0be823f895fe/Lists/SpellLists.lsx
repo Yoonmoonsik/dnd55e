@@ -880,6 +880,21 @@
                     <attribute id="UUID" type="guid" value="9421b857-96ec-4d77-9ecc-10bc7af4ea20"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Hollow Warden Level 3 List"/>
+                    <attribute id="Spells" type="LSString" value="Target_Smite_Wrathful"/>
+                    <attribute id="UUID" type="guid" value="cce162e0-fc8e-4529-9535-0de1b3a2c1f6"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Hollow Warden Level 5 List"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FindSteed"/>
+                    <attribute id="UUID" type="guid" value="c0ba9c4b-f61b-4816-ac3c-80995c610879"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Hollow Warden Level 9 List"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SpiritGuardians"/>
+                    <attribute id="UUID" type="guid" value="dffb87ec-b1b5-44f0-a458-329242044f0a"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="__ROGUE__"/>
                     <attribute id="UUID" type="guid" value="0e828d11-d946-450c-9152-b893b5f05511"/>
                 </node>
@@ -1166,7 +1181,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Warlock SLevel 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_HoldMonster;Target_PlanarBinding;Target_SynapticStatic"/>
+                    <attribute id="Spells" type="LSString" value="Target_DanseMacabre;Target_HoldMonster;Target_PlanarBinding;Target_SynapticStatic"/>
                     <attribute id="UUID" type="guid" value="648310a4-d9b7-4cf5-b6a0-51bd957a798f"/>
                 </node>
                 <node id="SpellList">
@@ -1390,19 +1405,19 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DominatePerson;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone"/>
+                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DanseMacabre;Target_DominatePerson;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone"/>
                     <attribute id="UUID" type="guid" value="f781a25e-d288-43b4-bf5d-3d8d98846687"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 5 to Bard"/>
-                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DominatePerson;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone"/>
+                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DanseMacabre;Target_DominatePerson;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone"/>
                     <attribute id="UUID" type="guid" value="45afb374-c3e4-4d85-97a1-4dd6be40496e"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="bc917f22-7f71-4a25-9a77-7d2f91a96a65"/>
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 5 to 6"/>
-                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DominatePerson;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone"/>
+                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DanseMacabre;Target_DominatePerson;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone"/>
                     <attribute id="UUID" type="guid" value="dfd47382-14d1-40d6-b933-09aec5b100e1"/>
                 </node>
                 <node id="SpellList">
@@ -1694,19 +1709,24 @@
                     <attribute id="UUID" type="guid" value="582ed05c-c6fa-4d6f-99f9-efcc9de769f9"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Hollow Warden Level 3 List"/>
-                    <attribute id="Spells" type="LSString" value="Target_Smite_Wrathful"/>
-                    <attribute id="UUID" type="guid" value="cce162e0-fc8e-4529-9535-0de1b3a2c1f6"/>
+                    <attribute id="Name" type="FixedString" value="Warlock UndeadPatron SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_Bane;Target_Blindness;Target_PhantasmalForce;Projectile_RayOfSickness"/>
+                    <attribute id="UUID" type="guid" value="97234287-c65c-437a-8d5d-4c1c41de1774"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Hollow Warden Level 5 List"/>
-                    <attribute id="Spells" type="LSString" value="Shout_FindSteed"/>
-                    <attribute id="UUID" type="guid" value="c0ba9c4b-f61b-4816-ac3c-80995c610879"/>
+                    <attribute id="Name" type="FixedString" value="Warlock UndeadPatron SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_SpeakWithDead;Target_AnimateDead"/>
+                    <attribute id="UUID" type="guid" value="ed5aa3b7-02c6-444a-9c98-4ba889b887d9"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Hollow Warden Level 9 List"/>
-                    <attribute id="Spells" type="LSString" value="Shout_SpiritGuardians"/>
-                    <attribute id="UUID" type="guid" value="dffb87ec-b1b5-44f0-a458-329242044f0a"/>
+                    <attribute id="Name" type="FixedString" value="Warlock UndeadPatron SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Invisibility_Greater;Target_PhantasmalKiller"/>
+                    <attribute id="UUID" type="guid" value="d1cb2b13-e038-4264-a3c4-d869730768a4"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock UndeadPatron SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_DanseMacabre;Target_Cloudkill"/>
+                    <attribute id="UUID" type="guid" value="d01bbe5f-a03f-4be4-a201-3dccb175dd22"/>
                 </node>
             </children>
         </node>

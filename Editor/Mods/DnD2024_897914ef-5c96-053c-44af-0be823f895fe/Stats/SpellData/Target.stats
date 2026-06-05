@@ -5011,6 +5011,28 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7469e101-d9d5-42de-a7b3-b011001d65e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="DanseMacabre" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="52201d6c-6d5a-487c-af5b-7fbc7d3070f8" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IgnorePreviouslyPickedEntities;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a8e2407-e94d-4d71-b29c-e78ad44f3f78" />
+        <field name="Name" type="NameTableFieldDefinition" value="DanseMacabre_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7469e101-d9d5-42de-a7b3-b011001d65e9" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="6" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_DanseMacabre" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1f65b3b0-039b-4089-b6fe-eca63c83e773" />
         <field name="Name" type="NameTableFieldDefinition" value="CircleOfDeath" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5940c685-cd68-4d61-a516-d666389ac4bb" />

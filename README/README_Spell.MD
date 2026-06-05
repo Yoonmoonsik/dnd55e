@@ -91,6 +91,7 @@
 ## Level 5
 - Cone of Cold
 - Contagion
+- Danse Macabre
 - Dominate Person
 - Hold Monster
 - Insect Plague
