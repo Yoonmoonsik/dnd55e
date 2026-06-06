@@ -67,6 +67,7 @@
 - Tasha's Mind Whip
 - Warding Bond
 ## Level 3
+- Astral Flood
 - Aura of Vitality
 - Bestow Curse
 - Blink

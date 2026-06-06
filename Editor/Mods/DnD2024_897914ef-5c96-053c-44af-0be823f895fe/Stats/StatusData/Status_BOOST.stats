@@ -130,6 +130,24 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a625a726-b57f-468d-aa39-cfdee3df56e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLINDED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8cc0e13c-ea75-4f4c-b1ba-9b245e22f2bb" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;Blind;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2386c564-2600-4546-a062-d02305b0163b" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLINDNESS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a0d18e92-7e8f-4155-b25c-a3302d356b32" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;Blind;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ebd1dcc5-41dd-4500-9c14-d68158a98205" />
         <field name="Name" type="NameTableFieldDefinition" value="DAZED" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="98d3bc76-ade0-498a-8584-34f9bf6c3fb7" />
