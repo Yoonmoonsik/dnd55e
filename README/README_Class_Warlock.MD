@@ -58,8 +58,11 @@
 - Level 6: EntropicWard
 - Level 10: Eldritch Hex
 - Level 10: Thought Shield
-## Hexblade
+## Hexblade Patron
 - Level 3: Hexblade Spells
+- Level 3: Hexblade Manifest
+- Level 6: Life Stealer
+- Level 10: Armor of Hexes
 ## Undead Patron
 - Level 3: Form of Dread
 - Level 3: Undead Spells

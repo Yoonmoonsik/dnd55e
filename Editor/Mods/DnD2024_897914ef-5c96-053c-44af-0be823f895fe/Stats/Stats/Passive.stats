@@ -5251,6 +5251,127 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Necrotic, Immune);" />
       </fields>
     </stat_object>
+    <stat_object color="#FF8A2BE2" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="feecb2cb-ce23-4ba2-b3e3-39c68f527ed5" />
+        <field name="Name" type="NameTableFieldDefinition" value="__HEXBLADE__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4c39eb09-fc31-44f7-a883-dd1ecc60a8be" />
+        <field name="Name" type="NameTableFieldDefinition" value="Hexblade_3_HexbladeSpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h68dcfb27g52ddg20aag7977g147e317f34ce" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4336900ag6e5egc73bgadb8g0a8300eeb536" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h6b8ec4b1g6350g0a0ag1d7dgc74d66ad8dd7" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_HexbladesCurse" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnCombatStarted;OnCreate;OnTurn" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasActionResource('HexbladeManifest',1,0,false,false,context.Source)):UnlockSpellVariant(Hex(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,HexbladeManifest,1,0));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b7cbe595-b8bc-439a-a7a0-5e2e60bec449" />
+        <field name="Name" type="NameTableFieldDefinition" value="Hexblade_3_HexbladeManifest" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfa17cac1gac88g9d72gf29eg0946ab8c0bb4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha92a78f3ge96agd47egb8ddg6ad716d3cc56" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_HexbladesCurse" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11403" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HexbladeManifest,1,0);IF(AbilityGreaterThan('Charisma',13,context.Source)):ActionResource(HexbladeManifest,1,0);IF(AbilityGreaterThan('Charisma',15,context.Source)):ActionResource(HexbladeManifest,1,0);IF(AbilityGreaterThan('Charisma',17,context.Source)):ActionResource(HexbladeManifest,1,0);IF(AbilityGreaterThan('Charisma',19,context.Source)):ActionResource(HexbladeManifest,1,0);IF(AbilityGreaterThan('Charisma',21,context.Source)):ActionResource(HexbladeManifest,1,0);IF(AbilityGreaterThan('Charisma',23,context.Source)):ActionResource(HexbladeManifest,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f4e7cbce-438d-4812-a291-5e3366439015" />
+        <field name="Name" type="NameTableFieldDefinition" value="Hexblade_3_DrainingSlash" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h26188b0bg7517gb0f4g956fg7f3316d5dd96" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc89adc48gff23ge491g6563g134f3a4d1c41" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Mag_SteadfastStrike" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar;Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasHexStatus() and IsAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DRAINING_SLASH,100,1,,,,not SavingThrow(Ability.Constitution,SourceSpellDC()));" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="Hexblade_3_DrainingSlash" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="680396f0-cb35-45ff-9d52-62e5944567c5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Hexblade_3_HarrowingBlade" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc7b0f28egb110gffacg5c7egb0143bdd1014" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h95ae390fg24d7g8dcfg466dgacb161d58057" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasHexStatus() and IsAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(HARROWING_BLADE,100,1,,,,not SavingThrow(Ability.Wisdom,SourceSpellDC()));" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="Hexblade_3_DrainingSlash" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc558280-b825-457a-b0c3-c7f75903fc9b" />
+        <field name="Name" type="NameTableFieldDefinition" value="HarrowingBlade_Target" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not HasPassive('Hex',context.Target);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SELF,1d6,Necrotic)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f89edafd-b623-497a-9335-2bca36a9466e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Hexblade_3_StymyingMark" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd36755d1g9403g81dbgf4efg2fb565b73a1f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1e510414g6658gde2bgccc5g70c12902a1fb" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_BestowCurse" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasHexStatus() and IsAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(STYMYING_MARK,100,1);" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="Hexblade_3_DrainingSlash" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="48da40fa-9e97-46cc-afc0-3615ee90fa9d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Hexblade_6_LifeStealer" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1aa8b9e4g53d3g8ae5gbb29g4fe1ab6952bb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h83838ad6gee6dg6e8fg5d57g389e936516fb" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_HexbladesCurse" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11406" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasHexStatus() and IsMiss();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(0,Necrotic)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ef9e2b71-219a-4a5b-9fb0-b767f8022148" />
+        <field name="Name" type="NameTableFieldDefinition" value="Hexblade_6_HungeringHex" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hca29dcb5g220cg55c3g2c6dgb8a635486d83" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasHPLessThan(1) and Enemy() and Character() and HasHexStatus();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(SELF,1d8+CharismaModifier)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b40479c-2c97-4428-88c7-1c64eb3b2056" />
+        <field name="Name" type="NameTableFieldDefinition" value="Hexblade_10_ArmorOfHexes" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6dea9c47g93a0g6397g3d9eg04b5e5b83704" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h49e72c1cg2d7bgc3fbg7e56gdbf9203830ad" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_HexbladesCurse" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11410" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(ArmorOfHexes,1,0);UnlockInterrupt(Interrupt_ArmorOfHexes);IF(AbilityGreaterThan('Charisma',13,context.Source)):ActionResource(ArmorOfHexes,1,0);IF(AbilityGreaterThan('Charisma',15,context.Source)):ActionResource(ArmorOfHexes,1,0);IF(AbilityGreaterThan('Charisma',17,context.Source)):ActionResource(ArmorOfHexes,1,0);IF(AbilityGreaterThan('Charisma',19,context.Source)):ActionResource(ArmorOfHexes,1,0);IF(AbilityGreaterThan('Charisma',21,context.Source)):ActionResource(ArmorOfHexes,1,0);IF(AbilityGreaterThan('Charisma',23,context.Source)):ActionResource(ArmorOfHexes,1,0);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="eb1cbe42-0730-470a-8946-510854f7a4e2" />

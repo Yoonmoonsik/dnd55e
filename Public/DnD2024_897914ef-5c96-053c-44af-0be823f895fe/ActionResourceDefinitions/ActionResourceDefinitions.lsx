@@ -648,6 +648,24 @@
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
                     <attribute id="UUID" type="guid" value="014d6340-84cf-4d14-b5a4-4b3f5886f8ba"/>
                 </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="hbc1ef353geeb2g5ddeg7ab9gd396c0474ea5" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8a44a18ag2f79g5f22ga66dgf9d14502995b" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="HexbladeManifest"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="0586b529-3634-48e9-9d43-bac8e8d0cddf"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h16aa8ef8g9057g8804g10e3g6c754af3589d" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h338cdd4dg57cdg382agd382g6e2930e3713f" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="ArmorOfHexes"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="20bd66e3-ef8e-4fc0-af79-7fc5aa766a46"/>
+                </node>
             </children>
         </node>
     </region>

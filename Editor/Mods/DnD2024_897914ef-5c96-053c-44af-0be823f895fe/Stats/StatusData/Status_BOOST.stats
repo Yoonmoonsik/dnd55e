@@ -3810,6 +3810,42 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability, Charisma);Disadvantage(SavingThrow, Charisma);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4b42e71b-e362-4dc6-8615-e5d1abf5a9eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAINING_SLASH" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h352f1d01g9b89ge024gdb8cg7b67da12f0e0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9a19d8f9g6000gec74g2e00g5462feeee031" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Mag_SteadfastStrike" />
+        <field name="StackId" type="StringTableFieldDefinition" value="DRAINING_SLASH" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(ReactionActionPoint);ActionResourceConsumeMultiplier(Movement,2,0);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dd8f74f4-9053-49a0-9e1f-ca5d5b4e9d46" />
+        <field name="Name" type="NameTableFieldDefinition" value="HARROWING_BLADE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha104f4d6gd9eeg1862g7452g73819c4c7c2f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h61d275d7g23e9gcb80g1af5g7d1bceb17545" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
+        <field name="StackId" type="StringTableFieldDefinition" value="HARROWING_BLADE" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HarrowingBlade_Target;" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7e776ff6-3399-4ac9-9fa4-c4384272fa87" />
+        <field name="Name" type="NameTableFieldDefinition" value="STYMYING_MARK" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8af79815gc7d3gf37ag99eage18bc75980e0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hca3e32abg4341g51e2ga8f4gba89522cb18f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_BestowCurse" />
+        <field name="StackId" type="StringTableFieldDefinition" value="STYMYING_MARK" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AllSavingThrows);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d2e8836c-afbd-493f-94f0-c700250d0b90" />
