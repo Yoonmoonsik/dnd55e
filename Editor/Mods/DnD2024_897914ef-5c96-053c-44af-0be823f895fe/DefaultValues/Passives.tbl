@@ -141,5 +141,25 @@
         <field name="Comment" type="CommentTableFieldDefinition" value="Drow Skill" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_15" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4b7b1755-91be-4c42-9e8f-82f977690e07" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="50919334-a609-478b-8998-655984ce7b2f" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Perception" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Human Skill" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_14" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f878143f-0432-4c57-9301-d37be11d46dc" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="50919334-a609-478b-8998-655984ce7b2f" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Alert" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Human Origin Feat" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -132,5 +132,35 @@
         <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="50faf06c-c294-450a-abe8-26bba3482118" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_10" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f57920c1-e686-41a5-8027-831894c5045f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdfda798egce43g07bbgc366gf55a071720ff" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc3405af3g4811g97c2gc534g546e8726cc0d" version="1" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="HumanHuman" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="50919334-a609-478b-8998-655984ce7b2f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cd13d32a-6885-4998-9cbc-04234bee5794" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd9e0aa16gc37bg4b4cg2ebbg38b9bb10a41c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h10a80e89g464fgbd0cgd70dg610b32e6acc3" version="1" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="Goliath" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="fba1e7f8-9ccf-46cb-9a00-566943a25242" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_11" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9d7b96e9-2b59-46c3-a2a3-45ff9afce7d3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h30624b26g7d8bgc040g2e6dgfef7836f5019" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbfc7d66dgd649g2d81g9f50ga79cce5da957" version="1" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="GiantAncestry" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="fba1e7f8-9ccf-46cb-9a00-566943a25242" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

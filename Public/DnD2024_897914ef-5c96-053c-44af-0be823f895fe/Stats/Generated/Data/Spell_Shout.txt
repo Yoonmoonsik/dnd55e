@@ -3572,7 +3572,7 @@ using "Shout_Enlarge_Duergar"
 data "SpellProperties" "ApplyStatus(ENLARGE_DUERGAR, 100, 100);"
 data "DisplayName" "h955ac611g781fg6ebfge3d7gd118e6f415a5;1"
 data "Description" "hb1577082gdd8ag5ff6g60bcgd99dc936bbc9;1"
-data "RequirementConditions" "CharacterLevelGreaterThan(4)"
+data "SpellFlags" ""
 
 new entry "Shout_DreamKnowledge"
 type "SpellData"

@@ -10225,20 +10225,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_647" />
-        <field name="UUID" type="IdTableFieldDefinition" value="dbde4d66-d3e4-4c3f-ae87-fd6e2d1cd276" />
-        <field name="TableUUID" type="GuidTableFieldDefinition" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e" />
-        <field name="FSName" type="StringTableFieldDefinition" value="Human" />
-        <field name="Level" type="ByteTableFieldDefinition" value="1" />
-        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Resourceful" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(e9c5cb8f-1dc5-4118-be31-ff2ce2569917,1,HumanSkillful);SelectPassives(51988e80-d7cc-4351-aa7d-83b8ba3f989a,1,HumanVersatile);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_648" />
         <field name="UUID" type="IdTableFieldDefinition" value="816fa8c7-7648-48f7-8309-cb4e7383e45f" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="74e2e44d-e8c0-4b99-a6dc-c02f43cea8a6" />
@@ -10546,6 +10532,66 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Darkvision" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(582ed05c-c6fa-4d6f-99f9-efcc9de769f9,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_647" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dbde4d66-d3e4-4c3f-ae87-fd6e2d1cd276" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Human" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_933" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f585b0c0-c6fa-4f1b-8b09-6fbe2f86ee48" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="50919334-a609-478b-8998-655984ce7b2f" />
+        <field name="FSName" type="StringTableFieldDefinition" value="HumanHuman" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Resourceful" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(e9c5cb8f-1dc5-4118-be31-ff2ce2569917,1,HumanSkillful);SelectPassives(51988e80-d7cc-4351-aa7d-83b8ba3f989a,1,HumanVersatile);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_931" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2c580910-b01d-4f5c-b571-57de1e4b1aa8" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="fba1e7f8-9ccf-46cb-9a00-566943a25242" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Goliath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Goliath_1_PowerfulBuild" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Goliath,2,0);ActionResource(Movement,1.5,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(4ef24101-ccab-47cd-8196-55da7c92ccd4,1,GiantAncestry);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_932" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8ba02606-a5af-429c-a1a3-268f8640d4cd" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="fba1e7f8-9ccf-46cb-9a00-566943a25242" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Goliath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Goliath,1,0);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Goliath_5_LargeForm" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_934" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7c55d9a5-90d1-4e79-922f-d1ee128543a6" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="fba1e7f8-9ccf-46cb-9a00-566943a25242" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Goliath" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Goliath,1,0);" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

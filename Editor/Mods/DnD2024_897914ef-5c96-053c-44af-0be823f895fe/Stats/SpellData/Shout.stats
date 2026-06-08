@@ -4234,7 +4234,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ENLARGE_DUERGAR, 100, 100);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h955ac611g781fg6ebfge3d7gd118e6f415a5" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb1577082gdd8ag5ff6g60bcgd99dc936bbc9" version="1" />
-        <field name="RequirementConditions" type="StringTableFieldDefinition" value="CharacterLevelGreaterThan(4)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

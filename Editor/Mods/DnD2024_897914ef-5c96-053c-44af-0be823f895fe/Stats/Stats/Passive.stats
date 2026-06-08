@@ -8768,18 +8768,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="83349e45-765e-40b0-8d29-a78b29a99744" />
-        <field name="Name" type="NameTableFieldDefinition" value="Race_Goliath" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heaf54f1fg5a38gb0bcgce29ga8bbc11c1a24" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35af86fcg2186gfbc2g672fgcbee62e25113" version="3" />
-        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_GiantsCarryCapacity" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CloudsJaunt);UnlockSpell(Shout_LargeForm);UnlockInterrupt(Interrupt_FiresBurn);UnlockInterrupt(Interrupt_FrostsChill);UnlockInterrupt(Interrupt_HillsTumble);UnlockInterrupt(Interrupt_StonesEndurance);UnlockInterrupt(Interrupt_StormsThunder);ActionResource(Goliath,2,0);ActionResource(Movement,1.5,0);IF(CharacterLevelGreaterThan(4)):ActionResource(Goliath,1,0);IF(CharacterLevelGreaterThan(8)):ActionResource(Goliath,1,0);CarryCapacityMultiplier(1.25);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b45ae33a-e85c-4dad-9a88-69a61b31d12b" />
         <field name="Name" type="NameTableFieldDefinition" value="Race_Kalashtar" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha48ff32fg388ag1220g80cbgc8e2ec3cd1c7" version="1" />
@@ -8788,6 +8776,102 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Psychic,Resistant);Advantage(SavingThrow, Wisdom);Advantage(SavingThrow, Charisma);UnlockSpell(Shout_DreamKnowledge);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="39849eab-6fbb-44e8-96c1-a4fe6aac6195" />
+        <field name="Name" type="NameTableFieldDefinition" value="__GOLIATH__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5d00678a-8ae4-4da9-8ca4-6536adadd098" />
+        <field name="Name" type="NameTableFieldDefinition" value="Goliath_1_PowerfulBuild" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7c22fcc1g0e9ag6fd2g21d9g5c933a3fdc0d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0173efabg1383ge3d4g48f1g947ac6978c5b" version="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="CarryCapacityMultiplier(1.25);Tag(RESTRAINED_ADV);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_GiantsCarryCapacity" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="501" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a2959fe-f719-4cc4-b732-de877c49d91f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Goliath_1_GiantAncestry_Cloud" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hce152759gc1e1g418cgcf1agfab6759d882e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="had6cf5adg8eb1gc683g7f11gab246e2b6b44" version="2" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CloudsJaunt);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_MistyStep" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5163b042-b631-4241-9396-fcca798b4b44" />
+        <field name="Name" type="NameTableFieldDefinition" value="Goliath_1_GiantAncestry_Fire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2a2959fe-f719-4cc4-b732-de877c49d91f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h297e6dcbgbedbg0037ga402g524f90049893" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he807aa9age4ccga253g9743gd1a253159665" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_FiresBurn);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Fire_Melee" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8ec4d42f-e988-47b5-90a1-c5fcb263e4b9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Goliath_1_GiantAncestry_Frost" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2a2959fe-f719-4cc4-b732-de877c49d91f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h51b85e6cg91c9g2e69ga921ga3e9856e5b2c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6f446eaeg8ec6g19c7g34a6gf2ed7fde9501" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_FrostsChill);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Cold_Melee" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1c7bd46a-747c-4b84-a59e-0671a3c60298" />
+        <field name="Name" type="NameTableFieldDefinition" value="Goliath_1_GiantAncestry_Hill" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2a2959fe-f719-4cc4-b732-de877c49d91f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1ac94e1cge830g5902g72eag69029753a94b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb2925e5dgb422g689cgfe37g45413ec054f1" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_HillsTumble);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Trip" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2e3dcecf-44c7-43e9-a44e-5db29ec41c4e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Goliath_1_GiantAncestry_Stone" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2a2959fe-f719-4cc4-b732-de877c49d91f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h93939658gac4fgd417g1ad0gb5ba75bb2ea6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h09a0bd7fg8439g3ebbg63abg78025f642aab" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_StonesEndurance);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_WallOfStone" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b67f2bd0-f270-49af-822a-c5f78edb1ff4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Goliath_1_GiantAncestry_Storm" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2a2959fe-f719-4cc4-b732-de877c49d91f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9cd64908gcb06gfdd5g1d19g351cc167fcfc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h58289e87g34a5g2ffdg308dge576a637a4d7" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_StormsThunder);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Thunder" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="83349e45-765e-40b0-8d29-a78b29a99744" />
+        <field name="Name" type="NameTableFieldDefinition" value="Goliath_5_LargeForm" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heaf54f1fg5a38gb0bcgce29ga8bbc11c1a24" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35af86fcg2186gfbc2g672fgcbee62e25113" version="4" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_GiantsCarryCapacity" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="505" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_LargeForm);" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

@@ -279,7 +279,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="51988e80-d7cc-4351-aa7d-83b8ba3f989a" />
         <field name="Name" type="NameTableFieldDefinition" value="Human Origin Feat" />
-        <field name="Passives" type="StringTableFieldDefinition" value="Race_Aasimar,Race_Dhampir,Race_Goliath,Race_Kalashtar,Alert,Healer,Lucky_Unlock,OriginFeat_MagicInitiate_Cleric,OriginFeat_MagicInitiate_Druid,OriginFeat_MagicInitiate_Wizard,Musician,SavageAttacker,OriginFeat_Skilled,TavernBrawler,Tough" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Alert,Healer,Lucky_Unlock,OriginFeat_MagicInitiate_Cleric,OriginFeat_MagicInitiate_Druid,OriginFeat_MagicInitiate_Wizard,Musician,SavageAttacker,OriginFeat_Skilled,TavernBrawler,Tough" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -336,6 +336,13 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b0daa5cc-db0c-4f31-a082-c91dbb8e368f" />
         <field name="Name" type="NameTableFieldDefinition" value="Feat Rune Shaper" />
         <field name="Passives" type="StringTableFieldDefinition" value="RuneShaper_Cloud,RuneShaper_Death,RuneShaper_Dragon,RuneShaper_Enemy,RuneShaper_Fire,RuneShaper_Friend,RuneShaper_Frost,RuneShaper_Hill,RuneShaper_Journey,RuneShaper_King,RuneShaper_Mountain,RuneShaper_Stone,RuneShaper_Storm" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4ef24101-ccab-47cd-8196-55da7c92ccd4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Goliath Giant Ancestry" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Goliath_1_GiantAncestry_Cloud,Goliath_1_GiantAncestry_Fire,Goliath_1_GiantAncestry_Frost,Goliath_1_GiantAncestry_Hill,Goliath_1_GiantAncestry_Stone,Goliath_1_GiantAncestry_Storm" />
       </fields>
     </stat_object>
   </stat_objects>

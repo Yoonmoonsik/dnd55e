@@ -93,6 +93,27 @@
                     <attribute id="Type" type="FixedString" value="IceElf"/>
                     <attribute id="UUID" type="guid" value="9479c89f-0d1b-44ef-a8c1-25f481588d34"/>
                 </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hc3405af3g4811g97c2gc534g546e8726cc0d" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hdfda798egce43g07bbgc366gf55a071720ff" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="50919334-a609-478b-8998-655984ce7b2f"/>
+                    <attribute id="Type" type="FixedString" value="HumanHuman"/>
+                    <attribute id="UUID" type="guid" value="f57920c1-e686-41a5-8027-831894c5045f"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h10a80e89g464fgbd0cgd70dg610b32e6acc3" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd9e0aa16gc37bg4b4cg2ebbg38b9bb10a41c" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="fba1e7f8-9ccf-46cb-9a00-566943a25242"/>
+                    <attribute id="Type" type="FixedString" value="Goliath"/>
+                    <attribute id="UUID" type="guid" value="cd13d32a-6885-4998-9cbc-04234bee5794"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hbfc7d66dgd649g2d81g9f50ga79cce5da957" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h30624b26g7d8bgc040g2e6dgfef7836f5019" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="fba1e7f8-9ccf-46cb-9a00-566943a25242"/>
+                    <attribute id="SelectorId" type="FixedString" value="GiantAncestry"/>
+                    <attribute id="UUID" type="guid" value="9d7b96e9-2b59-46c3-a2a3-45ff9afce7d3"/>
+                </node>
             </children>
         </node>
     </region>

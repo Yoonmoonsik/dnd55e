@@ -88,6 +88,18 @@
                     <attribute id="TableUUID" type="guid" value="a43498f5-d72f-4a05-b721-1feea9acb3ad"/>
                     <attribute id="UUID" type="guid" value="1500fae7-78af-42d1-9458-ca4ffe487923"/>
                 </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Alert"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="50919334-a609-478b-8998-655984ce7b2f"/>
+                    <attribute id="UUID" type="guid" value="f878143f-0432-4c57-9301-d37be11d46dc"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Perception"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="50919334-a609-478b-8998-655984ce7b2f"/>
+                    <attribute id="UUID" type="guid" value="4b7b1755-91be-4c42-9e8f-82f977690e07"/>
+                </node>
             </children>
         </node>
     </region>
