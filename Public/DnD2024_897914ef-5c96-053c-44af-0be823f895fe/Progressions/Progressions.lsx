@@ -8206,6 +8206,22 @@
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
                 </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="HumanAasimar"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Aasimar_1_CelestialResistance;Darkvision;Aasimar_1_HealingHands;Aasimar_1_LightBearer"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="f3a96ed3-5eb1-4737-92e5-f758d9dd307e"/>
+                    <attribute id="UUID" type="guid" value="bd8e07c1-14af-4cdb-a0d4-5c5562ec35cb"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="HumanAasimar"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Aasimar_3_CelestialRevelation"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="f3a96ed3-5eb1-4737-92e5-f758d9dd307e"/>
+                    <attribute id="UUID" type="guid" value="65347047-0395-4742-9786-53c6cee73e90"/>
+                </node>
             </children>
         </node>
     </region>

@@ -9073,7 +9073,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(ProficiencyBonusD4));" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Tagged('UNDEAD') and not Tagged('CONSTRUCT')" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Healing" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_SmallHeal" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hee581120gaebcg3ad5ge885ge712f8b5c11f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfd0a6b5aga1ceg3d50gd059gcb8b4baca023" version="1" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(ProficiencyBonusD4));" />

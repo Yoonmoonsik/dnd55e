@@ -8744,30 +8744,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="5804bb42-736a-4a4b-9199-61f94c4e209e" />
-        <field name="Name" type="NameTableFieldDefinition" value="Race_Aasimar" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc2022d67g4441g1ca0g979ag85847dde7f08" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha694feb3g0781gc772g6147gd804e68c64f8" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_EndGameAlly_NightsongSummon" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Necrotic,Resistant);Resistance(Radiant,Resistant);UnlockSpell(Target_Light);UnlockSpell(Target_HealingHands);UnlockSpell(Shout_CelestialRevelation);DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="664ff233-a998-4aef-87eb-2a419e87c889" />
-        <field name="Name" type="NameTableFieldDefinition" value="Race_Dhampir" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h318e3ac4g7a18ga5edgf912g65c014f1354e" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h64543ab1gec40g4962g092eg85f690ed7102" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_VampireBite" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Necrotic,Resistant);ActionResource(Movement,1.5,0);DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989);UnlockSpell(Target_VampireBite_Astarion);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b45ae33a-e85c-4dad-9a88-69a61b31d12b" />
         <field name="Name" type="NameTableFieldDefinition" value="Race_Kalashtar" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha48ff32fg388ag1220g80cbgc8e2ec3cd1c7" version="1" />
@@ -8781,7 +8757,7 @@
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="39849eab-6fbb-44e8-96c1-a4fe6aac6195" />
-        <field name="Name" type="NameTableFieldDefinition" value="__GOLIATH__" />
+        <field name="Name" type="NameTableFieldDefinition" value="__RACE GOLIATH__" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -8872,6 +8848,87 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="505" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_LargeForm);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bd736f4f-ab3d-4c7e-8f4e-1fbead23d84b" />
+        <field name="Name" type="NameTableFieldDefinition" value="__RACE AASIMAR__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="73f9be16-2d72-4f52-b3d8-e684e1c2265b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Aasimar_1_CelestialResistance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h87059730gb37aga16ag3703gbaaea8527528" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5f178becg3db2geb81g5414g5c6e0287715f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Necrotic,Resistant);Resistance(Radiant,Resistant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bdc2ec1f-d878-43ff-90b7-aa27a1233add" />
+        <field name="Name" type="NameTableFieldDefinition" value="Aasimar_1_HealingHands" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h28d61c0bg65ddgf141gf093g53b6a58f6196" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h41691e6fg7ecbgcaa8ga939gf512c0bc7016" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_LayOnHands_SmallHeal" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_HealingHands);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a5f688f6-1648-4acb-b2ae-c6c50ac2fa7c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Aasimar_1_LightBearer" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4545e270g8facg12e9geda5gd28be0c71012" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1e2aaf16gdbc2g54c6g171cgeae9eb0ce5c5" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Light" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Light);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5804bb42-736a-4a4b-9199-61f94c4e209e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Aasimar_3_CelestialRevelation" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc2022d67g4441g1ca0g979ag85847dde7f08" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha694feb3g0781gc772g6147gd804e68c64f8" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_EndGameAlly_NightsongSummon" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_CelestialRevelation);" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hc5a84737g0024g47c9g1052gdf0e4350d3ec" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1a9d114a-5733-4457-b939-5f4b1fe56144" />
+        <field name="Name" type="NameTableFieldDefinition" value="__RACE DHAMPIR__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="298b0e96-efa9-4d79-81d5-298bb11ac3c7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dhampir_1_TraceOfUndeath" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h52cf869egf5cag4c87g68e9g5b3aec207282" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h33a29ccdg7caegb5f1gbffagf05c192d4365" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="664ff233-a998-4aef-87eb-2a419e87c889" />
+        <field name="Name" type="NameTableFieldDefinition" value="Race_Dhampir" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h318e3ac4g7a18ga5edgf912g65c014f1354e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h64543ab1gec40g4962g092eg85f690ed7102" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_VampireBite" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Necrotic,Resistant);ActionResource(Movement,1.5,0);DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989);UnlockSpell(Target_VampireBite_Astarion);" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

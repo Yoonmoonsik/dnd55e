@@ -162,5 +162,15 @@
         <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="fba1e7f8-9ccf-46cb-9a00-566943a25242" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_12" />
+        <field name="UUID" type="IdTableFieldDefinition" value="30f576af-a417-49fa-83b1-01d351982c50" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1441708fgd061g4a56g61b7gb8e8733cc36d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h17794a45gbffdg8b0dg0332g414e8cee0aa7" version="1" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="HumanAasimar" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="f3a96ed3-5eb1-4737-92e5-f758d9dd307e" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

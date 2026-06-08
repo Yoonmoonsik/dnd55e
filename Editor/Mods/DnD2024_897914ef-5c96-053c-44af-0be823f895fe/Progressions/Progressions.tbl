@@ -10594,6 +10594,28 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Goliath,1,0);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_935" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bd8e07c1-14af-4cdb-a0d4-5c5562ec35cb" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="f3a96ed3-5eb1-4737-92e5-f758d9dd307e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="HumanAasimar" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Aasimar_1_CelestialResistance;Darkvision;Aasimar_1_HealingHands;Aasimar_1_LightBearer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_937" />
+        <field name="UUID" type="IdTableFieldDefinition" value="65347047-0395-4742-9786-53c6cee73e90" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="f3a96ed3-5eb1-4737-92e5-f758d9dd307e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="HumanAasimar" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Aasimar_3_CelestialRevelation" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_670" />

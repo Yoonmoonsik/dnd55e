@@ -2309,6 +2309,24 @@
                         </node>
                     </children>
                 </node>
+                <node id="Race">
+                    <attribute id="Description" type="TranslatedString" handle="hce976d1agab7cg7729g705eged5dfe8fa201" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h4a85606fg83fegb919g2561gba3dd6f0fdf8" version="1"/>
+                    <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="Name" type="FixedString" value="HumanAasimar"/>
+                    <attribute id="ParentGuid" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="f3a96ed3-5eb1-4737-92e5-f758d9dd307e"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Human"/>
+                    <attribute id="UUID" type="guid" value="82e23632-0151-4a00-af48-97db2a634a3c"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="2fddf7dd-f79b-4998-882c-d7257badbfe6"/>
+                        </node>
+                    </children>
+                </node>
             </children>
         </node>
     </region>
