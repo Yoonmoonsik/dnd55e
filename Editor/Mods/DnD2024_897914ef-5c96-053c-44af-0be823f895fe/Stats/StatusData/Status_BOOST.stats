@@ -312,7 +312,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e57f2a84-8fcc-4b27-949b-06a97467523e" />
         <field name="Name" type="NameTableFieldDefinition" value="WEAPONMASTERY_SAP" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haf74199bg92cbg93dega0fbgebb535603f83" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haf74199bg92cbg93dega0fbgebb535603f83" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_ConcussiveSmash" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AttackRoll);" />
@@ -325,6 +325,7 @@
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="bc4f779b-7424-4770-90bb-bdea0f4e9ead" />
         <field name="StackId" type="StringTableFieldDefinition" value="WEAPONMASTERY_SAP" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcb060b97gfe11gfd82gc6b9g3e44da81f15a" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -332,7 +333,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a044a63a-3f63-430c-a7e2-f37bcf95d386" />
         <field name="Name" type="NameTableFieldDefinition" value="WEAPONMASTERY_SLOW" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e57f2a84-8fcc-4b27-949b-06a97467523e" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb839de91gb995ge42eg62b9g1dd41fe4da4b" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb839de91gb995ge42eg62b9g1dd41fe4da4b" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_HamstringShot" />
         <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
         <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
@@ -343,6 +344,7 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Restrained;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Negative" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="d787f666-8ee6-4185-9365-6aac9ebe76ae" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3339cd6bg6f73ge757g76cdg991057f97dde" version="2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -350,7 +352,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="887222d9-26cb-4859-81f3-a9415f8b23df" />
         <field name="Name" type="NameTableFieldDefinition" value="WEAPONMASTERY_VEX" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e57f2a84-8fcc-4b27-949b-06a97467523e" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdfca5f76g305cgff0cg0532gbc6b23ff9367" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdfca5f76g305cgff0cg0532gbc6b23ff9367" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_OpeningAttack" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="SourceAdvantageOnAttack();" />
@@ -358,6 +360,7 @@
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
         <field name="StackId" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="StackType" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusStackType" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h10007b53gb4bcgbac3g9089g6d911c3cc5d4" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
