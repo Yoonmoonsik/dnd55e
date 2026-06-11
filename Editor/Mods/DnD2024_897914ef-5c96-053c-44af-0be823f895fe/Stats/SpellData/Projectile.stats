@@ -117,7 +117,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="RangedMainWeaponRange" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedWeaponAttack)" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);DealDamage(LevelMapValue(TrueStrike), Radiant);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('AgonizingBlast',context.Source)):DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);IF(HasPassive('AgonizingBlast',context.Source)):DealDamage(MainRangedWeapon+CharismaModifier, MainRangedWeaponDamageType);DealDamage(LevelMapValue(TrueStrike), Radiant);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="IF(HasStatus('YSRSLIDFWWADNIWHWIHLY')):SpawnExtraProjectiles(Projectile_MainHandAttack);ApplyStatus(YSRSLIDFWWADNIWHWIHLY_YWNK,100,1)" />
         <field name="Trajectories" type="StringTableFieldDefinition" value="8646984b-91d6-47b8-afd5-0a3eebe3d447" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Physical_Ranged" />
@@ -243,8 +243,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c53d5de8-93f5-4033-8536-e3270eec61bd" />
         <field name="Name" type="NameTableFieldDefinition" value="GreenFlameBlade" />
-        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
-        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(BoomingBlade)+SpellCastingAbilityModifier,Fire);" />
         <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="3" />

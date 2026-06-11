@@ -1391,7 +1391,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="DeathType" type="EnumerationTableFieldDefinition" value="Radiant" enumeration_type_name="Death Type" version="1" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanUseWeaponActions() and IsProficientWithEquippedWeapon();" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(TrueStrike), Radiant);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('AgonizingBlast',context.Source)):DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);IF(HasPassive('AgonizingBlast',context.Source)):DealDamage(MainMeleeWeapon+CharismaModifier, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(TrueStrike), Radiant);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Physical_Melee" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hde7eade7g981dg355bg6e30g0089c6fe0377" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfc5b991fgffcdgbc3bgbe4eg4bbb47637ce8" version="2" />
@@ -2802,7 +2802,7 @@
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanUseWeaponActions() and IsProficientWithEquippedWeapon() and not  HasStatus('BOOMINGBLADE_BLOCK');" />
         <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnSourceStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeWeaponAttack)" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="SpawnExtraProjectiles(Projectile_GreenFlameBlade);IF(CharacterLevelGreaterThan(4)):DealDamage(LevelMapValue(BoomingBlade),Fire);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="SpawnExtraProjectiles(Projectile_GreenFlameBlade);IF(CharacterLevelGreaterThan(4)):DealDamage(LevelMapValue(BoomingBlade),Fire);IF(not HasPassive('AgonizingBlast',context.Source)):DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);IF(HasPassive('AgonizingBlast',context.Source)):DealDamage(MainMeleeWeapon+CharismaModifier, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlast',context.Source)):Force(3);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead()" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_GreenFlameBlade" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3729f6f3g8054gfc05g7817g8f510f005496" version="1" />
