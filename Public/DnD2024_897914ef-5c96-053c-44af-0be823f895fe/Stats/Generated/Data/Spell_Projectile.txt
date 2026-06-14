@@ -1678,7 +1678,8 @@ data "SpellSuccess" "DealDamage(max(1,MainRangedWeapon), MainRangedWeaponDamageT
 data "DisplayName" "hf3f8bd9cg3004g6dbbg08e2g587dc0432a14;1"
 data "Description" ""
 data "TooltipDamageList" "DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);DealDamage(LevelMapValue(DreadfulStrike),Psychic);"
-data "UseCosts" "ActionPoint:1;DreadfulStrike:1;DreadfulStrikeTurn:1;"
+data "UseCosts" "ActionPoint:1;"
+data "HitCosts" "DreadfulStrike:1;DreadfulStrikeTurn:1;"
 data "SpellFlags" "HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful"
 data "DamageType" "Psychic"
 

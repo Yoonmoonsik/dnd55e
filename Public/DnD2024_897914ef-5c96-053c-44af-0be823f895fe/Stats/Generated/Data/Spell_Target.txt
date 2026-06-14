@@ -6254,7 +6254,8 @@ data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageTyp
 data "DisplayName" "h5f7c0abdg7063gcfe9g177egb32caeb5c2c3;1"
 data "Description" ""
 data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(DreadfulStrike),Psychic);"
-data "UseCosts" "ActionPoint:1;DreadfulStrike:1;DreadfulStrikeTurn:1"
+data "UseCosts" "ActionPoint:1"
+data "HitCosts" "DreadfulStrike:1;DreadfulStrikeTurn:1;"
 data "SpellFlags" "IsMelee;IsHarmful;CanDualWield"
 data "DamageType" "Psychic"
 

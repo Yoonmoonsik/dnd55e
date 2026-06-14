@@ -7430,9 +7430,10 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5f7c0abdg7063gcfe9g177egb32caeb5c2c3" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(DreadfulStrike),Psychic);" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;DreadfulStrike:1;DreadfulStrikeTurn:1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful;CanDualWield" enumeration_type_name="SpellFlagList" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="DreadfulStrike:1;DreadfulStrikeTurn:1;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
