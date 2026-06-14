@@ -7856,8 +7856,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d425e714-2b8b-455f-9405-520ac4f469df" />
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Eldritch" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b513bc63-c6ed-4fde-962e-42a301fe3552" />
-        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
-        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Level" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);GROUND:DealDamage(4d8,Force);" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(4d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,1);" />
