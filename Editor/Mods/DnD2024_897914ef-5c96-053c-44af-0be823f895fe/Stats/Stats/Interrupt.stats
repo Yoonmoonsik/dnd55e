@@ -993,6 +993,54 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9a2465c7-42b1-4169-9e9c-4c7327d9d1bd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Shield_Wizard" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8d53d12a-97bf-46a0-b8cc-fb1f0c1a3f4e" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(HasInterruptedAttack()):AdjustRoll(-5);IF(MagicMissileSpellCheck()):SetRoll(0);IF(MagicMissileSpellCheck()):AdjustRoll(-99,All);ApplyStatus(INTERRUPT_SHIELD_WIZARD,100,1);ApplyStatus(OBSERVER_OBSERVER,SHIELD,100,1);UseSpell(OBSERVER_OBSERVER,Shout_Shield_ArcaneWard,true,true,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c1a6e6d1-8cbf-48af-80e8-cf45d870177c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Shield_Wizard_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5cf32fcf-7a76-4b2c-819e-85b460b6e1bb" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(HasInterruptedAttack()):AdjustRoll(-5);IF(MagicMissileSpellCheck()):SetRoll(0);IF(MagicMissileSpellCheck()):AdjustRoll(-99,All);ApplyStatus(INTERRUPT_SHIELD_WIZARD,100,1);ApplyStatus(OBSERVER_OBSERVER,SHIELD,100,1);UseSpell(OBSERVER_OBSERVER,Shout_Shield_ArcaneWard,true,true,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e24d6265-df64-4983-b7ed-16e6999a2f5a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Shield_Wizard_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="771ae229-1640-4c3d-8a30-6df78c384977" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(HasInterruptedAttack()):AdjustRoll(-5);IF(MagicMissileSpellCheck()):SetRoll(0);IF(MagicMissileSpellCheck()):AdjustRoll(-99,All);ApplyStatus(INTERRUPT_SHIELD_WIZARD,100,1);ApplyStatus(OBSERVER_OBSERVER,SHIELD,100,1);UseSpell(OBSERVER_OBSERVER,Shout_Shield_ArcaneWard,true,true,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db69f707-ad85-4c26-ab64-b46692f634c6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Shield_Wizard_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d7eb407-2e15-46a6-8247-cabffe6afecd" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(HasInterruptedAttack()):AdjustRoll(-5);IF(MagicMissileSpellCheck()):SetRoll(0);IF(MagicMissileSpellCheck()):AdjustRoll(-99,All);ApplyStatus(INTERRUPT_SHIELD_WIZARD,100,1);ApplyStatus(OBSERVER_OBSERVER,SHIELD,100,1);UseSpell(OBSERVER_OBSERVER,Shout_Shield_ArcaneWard,true,true,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="25e25257-bf21-4d3a-9d86-24d290d3d187" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Shield_Wizard_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4d19c60a-604e-494b-a569-3e2cf591a8f0" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(HasInterruptedAttack()):AdjustRoll(-5);IF(MagicMissileSpellCheck()):SetRoll(0);IF(MagicMissileSpellCheck()):AdjustRoll(-99,All);ApplyStatus(INTERRUPT_SHIELD_WIZARD,100,1);ApplyStatus(OBSERVER_OBSERVER,SHIELD,100,1);UseSpell(OBSERVER_OBSERVER,Shout_Shield_ArcaneWard,true,true,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a983dff4-b505-4a21-9744-2ace5c9e1a4e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Shield_Wizard_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c6d87ef6-f4bf-4666-b010-1fca20739f11" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(HasInterruptedAttack()):AdjustRoll(-5);IF(MagicMissileSpellCheck()):SetRoll(0);IF(MagicMissileSpellCheck()):AdjustRoll(-99,All);ApplyStatus(INTERRUPT_SHIELD_WIZARD,100,1);ApplyStatus(OBSERVER_OBSERVER,SHIELD,100,1);UseSpell(OBSERVER_OBSERVER,Shout_Shield_ArcaneWard,true,true,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7c1a01a7-7106-449f-8a80-f10922f0ff32" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_IllusorySelf_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ca2ae276-1b65-4f56-bb5e-4b4089056739" />

@@ -743,6 +743,36 @@ data "InterruptDefaultValue" "Ask;Enabled"
 new entry "__WIZARD__"
 type "InterruptData"
 
+new entry "Interrupt_Shield_Wizard"
+type "InterruptData"
+using "Interrupt_Shield_Wizard"
+data "Properties" "IF(HasInterruptedAttack()):AdjustRoll(-5);IF(MagicMissileSpellCheck()):SetRoll(0);IF(MagicMissileSpellCheck()):AdjustRoll(-99,All);ApplyStatus(INTERRUPT_SHIELD_WIZARD,100,1);ApplyStatus(OBSERVER_OBSERVER,SHIELD,100,1);UseSpell(OBSERVER_OBSERVER,Shout_Shield_ArcaneWard,true,true,true);"
+
+new entry "Interrupt_Shield_Wizard_2"
+type "InterruptData"
+using "Interrupt_Shield_Wizard_2"
+data "Properties" "IF(HasInterruptedAttack()):AdjustRoll(-5);IF(MagicMissileSpellCheck()):SetRoll(0);IF(MagicMissileSpellCheck()):AdjustRoll(-99,All);ApplyStatus(INTERRUPT_SHIELD_WIZARD,100,1);ApplyStatus(OBSERVER_OBSERVER,SHIELD,100,1);UseSpell(OBSERVER_OBSERVER,Shout_Shield_ArcaneWard,true,true,true);"
+
+new entry "Interrupt_Shield_Wizard_3"
+type "InterruptData"
+using "Interrupt_Shield_Wizard_3"
+data "Properties" "IF(HasInterruptedAttack()):AdjustRoll(-5);IF(MagicMissileSpellCheck()):SetRoll(0);IF(MagicMissileSpellCheck()):AdjustRoll(-99,All);ApplyStatus(INTERRUPT_SHIELD_WIZARD,100,1);ApplyStatus(OBSERVER_OBSERVER,SHIELD,100,1);UseSpell(OBSERVER_OBSERVER,Shout_Shield_ArcaneWard,true,true,true);"
+
+new entry "Interrupt_Shield_Wizard_4"
+type "InterruptData"
+using "Interrupt_Shield_Wizard_4"
+data "Properties" "IF(HasInterruptedAttack()):AdjustRoll(-5);IF(MagicMissileSpellCheck()):SetRoll(0);IF(MagicMissileSpellCheck()):AdjustRoll(-99,All);ApplyStatus(INTERRUPT_SHIELD_WIZARD,100,1);ApplyStatus(OBSERVER_OBSERVER,SHIELD,100,1);UseSpell(OBSERVER_OBSERVER,Shout_Shield_ArcaneWard,true,true,true);"
+
+new entry "Interrupt_Shield_Wizard_5"
+type "InterruptData"
+using "Interrupt_Shield_Wizard_5"
+data "Properties" "IF(HasInterruptedAttack()):AdjustRoll(-5);IF(MagicMissileSpellCheck()):SetRoll(0);IF(MagicMissileSpellCheck()):AdjustRoll(-99,All);ApplyStatus(INTERRUPT_SHIELD_WIZARD,100,1);ApplyStatus(OBSERVER_OBSERVER,SHIELD,100,1);UseSpell(OBSERVER_OBSERVER,Shout_Shield_ArcaneWard,true,true,true);"
+
+new entry "Interrupt_Shield_Wizard_6"
+type "InterruptData"
+using "Interrupt_Shield_Wizard_6"
+data "Properties" "IF(HasInterruptedAttack()):AdjustRoll(-5);IF(MagicMissileSpellCheck()):SetRoll(0);IF(MagicMissileSpellCheck()):AdjustRoll(-99,All);ApplyStatus(INTERRUPT_SHIELD_WIZARD,100,1);ApplyStatus(OBSERVER_OBSERVER,SHIELD,100,1);UseSpell(OBSERVER_OBSERVER,Shout_Shield_ArcaneWard,true,true,true);"
+
 new entry "Interrupt_IllusorySelf_2"
 type "InterruptData"
 using "Interrupt_IllusorySelf"

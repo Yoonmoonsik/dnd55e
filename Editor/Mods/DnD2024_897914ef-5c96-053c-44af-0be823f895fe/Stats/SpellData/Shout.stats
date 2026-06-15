@@ -2906,6 +2906,19 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="192f0760-3734-4f2e-8858-de8eb40ef105" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shield_ArcaneWard" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Shield" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="9122eb08-93f1-4010-a275-f5ae3ec7c76e,,;,,;2860e825-ec12-4008-8471-d797fc00abc4,,;b6540e92-9e06-4695-9d8e-552d5eac45c2,,;5301d674-b7da-47b6-b4cf-2802ba33a9e9,,;,,;86b3cf93-21fb-4a3d-bed9-97d0a567d084,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="ImmediateCast" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f1e0ce59-3055-447e-89cf-0d4cd7799d53" />
         <field name="Name" type="NameTableFieldDefinition" value="Bladesong" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c66dd2b3-eab8-40e8-93de-7e6b25a78437" />
