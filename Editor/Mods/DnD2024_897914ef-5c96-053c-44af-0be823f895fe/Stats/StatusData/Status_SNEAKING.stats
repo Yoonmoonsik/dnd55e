@@ -6,7 +6,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3465b31a-3939-405e-ae5c-0a212845f9c4" />
         <field name="Name" type="NameTableFieldDefinition" value="SNEAKING" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1f5ba2bd-25d9-44c1-ac25-e62f17f57dcd" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasPassive('Skulker',context.Source)):ApplyStatus(INVISIBILITY,100,1,,,,SkillCheck(Skill.Stealth, 20));IF(HasPassive('Skulker',context.Source)):ApplyStatus(INVISIBILITY,100,1,,,,SkillCheck(Skill.Stealth, 15))" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasObscuredState(ObscuredState.Clear) and not HasStatus('SNEAK_COOLDOWN',context.Source) and not HasPassive('Skulker',context.Source)):ApplyStatus(INVISIBILITY,100,1,,,,SkillCheck(Skill.Stealth, 20));IF(not HasObscuredState(ObscuredState.Clear) and not HasStatus('SNEAK_COOLDOWN',context.Source) and HasPassive('Skulker',context.Source)):ApplyStatus(INVISIBILITY,100,1,,,,SkillCheck(Skill.Stealth, 15));ApplyStatus(SNEAK_COOLDOWN,100,1);" />
       </fields>
     </stat_object>
   </stat_objects>

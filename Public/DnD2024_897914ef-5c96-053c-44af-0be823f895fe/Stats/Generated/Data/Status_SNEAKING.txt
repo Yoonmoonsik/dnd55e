@@ -2,5 +2,5 @@ new entry "SNEAKING"
 type "StatusData"
 data "StatusType" "SNEAKING"
 using "SNEAKING"
-data "OnApplyFunctors" "IF(not HasPassive('Skulker',context.Source)):ApplyStatus(INVISIBILITY,100,1,,,,SkillCheck(Skill.Stealth, 20));IF(HasPassive('Skulker',context.Source)):ApplyStatus(INVISIBILITY,100,1,,,,SkillCheck(Skill.Stealth, 15))"
+data "OnApplyFunctors" "IF(not HasObscuredState(ObscuredState.Clear) and not HasStatus('SNEAK_COOLDOWN',context.Source) and not HasPassive('Skulker',context.Source)):ApplyStatus(INVISIBILITY,100,1,,,,SkillCheck(Skill.Stealth, 20));IF(not HasObscuredState(ObscuredState.Clear) and not HasStatus('SNEAK_COOLDOWN',context.Source) and HasPassive('Skulker',context.Source)):ApplyStatus(INVISIBILITY,100,1,,,,SkillCheck(Skill.Stealth, 15));ApplyStatus(SNEAK_COOLDOWN,100,1);"
 

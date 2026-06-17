@@ -186,6 +186,12 @@ data "TickType" "EndRound"
 data "Boosts" "Initiative(-5);"
 data "StatusPropertyFlags" "DisableCombatlog"
 
+new entry "SNEAK_COOLDOWN"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "SNEAK_COOLDOWN"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
 new entry "__TOXIN__"
 type "StatusData"
 data "StatusType" "BOOST"
