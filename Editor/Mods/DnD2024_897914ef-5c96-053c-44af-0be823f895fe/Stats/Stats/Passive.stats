@@ -1784,9 +1784,10 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasHPPercentageWithoutTemporaryHPLessThan(50,context.Target);" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(LevelMapValue(PullOfDeath),Necrotic,Magical)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,PULL_OF_DEATH_COOLDOWN,100,1)" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc89a1458g2a97g6f71g4ec2g2f90e1ca5dcf" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('PULL_OF_DEATH_COOLDOWN',context.Source) and HasHPPercentageWithoutTemporaryHPLessThan(50,context.Target)):DamageBonus(LevelMapValue(PullOfDeath),Necrotic);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

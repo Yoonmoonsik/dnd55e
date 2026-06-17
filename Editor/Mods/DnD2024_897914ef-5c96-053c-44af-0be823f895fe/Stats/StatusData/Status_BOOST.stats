@@ -2513,6 +2513,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3c34271e-4571-47a2-aaa1-8f15e82799e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="PULL_OF_DEATH_COOLDOWN" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PULL_OF_DEATH_COOLDOWN" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8541199c-1244-425d-847a-6b48e935bcd0" />
         <field name="Name" type="NameTableFieldDefinition" value="SENTINEL_AT_DEATHS_DOOR" />
         <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(All,Half);" />

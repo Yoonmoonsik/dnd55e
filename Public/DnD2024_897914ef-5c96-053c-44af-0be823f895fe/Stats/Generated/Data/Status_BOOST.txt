@@ -2027,6 +2027,12 @@ using "PATH_TO_THE_GRAVE_RADIANT"
 data "DisplayName" "hbdf05572gfd6fgc2b8g94f7ga66183c724c7;1"
 data "OnApplyFunctors" "DealDamage(Cause.ClassLevel(Cleric),Necrotic)"
 
+new entry "PULL_OF_DEATH_COOLDOWN"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "PULL_OF_DEATH_COOLDOWN"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
 new entry "SENTINEL_AT_DEATHS_DOOR"
 type "StatusData"
 data "StatusType" "BOOST"
