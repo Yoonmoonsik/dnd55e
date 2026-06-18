@@ -2549,6 +2549,11 @@ data "Icon" "PassiveFeature_RangerSpellcasting"
 data "PriorityOrder" "8002"
 data "Properties" "Highlighted;ForceShowInCC"
 
+new entry "Ranger_MulticlassSpellSlots"
+type "PassiveData"
+data "BoostContext" "OnCreate;OnLongRest"
+data "Boosts" "IF(ClassLevelHigherOrEqualThan(1,'Ranger',context.Source)):ActionResource(SpellSlot,2,1);IF(ClassLevelHigherOrEqualThan(3,'Ranger',context.Source)):ActionResource(SpellSlot,1,1);IF(ClassLevelHigherOrEqualThan(5,'Ranger',context.Source)):ActionResource(SpellSlot,1,1);IF(ClassLevelHigherOrEqualThan(5,'Ranger',context.Source)):ActionResource(SpellSlot,2,2);IF(ClassLevelHigherOrEqualThan(7,'Ranger',context.Source)):ActionResource(SpellSlot,1,2);IF(ClassLevelHigherOrEqualThan(9,'Ranger',context.Source)):ActionResource(SpellSlot,2,3);IF(ClassLevelHigherOrEqualThan(11,'Ranger',context.Source)):ActionResource(SpellSlot,1,3);"
+
 new entry "Ranger_1_FavoredEnemy"
 type "PassiveData"
 data "DisplayName" "hdfdce3a3g8fd1g0e71gf799gc4b6e93e4494;1"

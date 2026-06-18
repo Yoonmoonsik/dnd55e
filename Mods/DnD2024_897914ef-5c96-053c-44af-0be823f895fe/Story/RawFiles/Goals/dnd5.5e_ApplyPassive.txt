@@ -91,6 +91,24 @@ RemovePassive(_Character, "Ranger_9_FavoredEnemy_Resource");
 RemovePassive(_Character, "Ranger_1_FavoredEnemy");
 AddPassive(_Character, "Ranger_1_FavoredEnemy");
 
+// Ranger multiclass spell slots - re-apply so class-level scaling takes effect
+IF
+LeveledUp(_Character)
+AND
+DB_Players(_Character)
+AND
+HasPassive(_Character, "Ranger_MulticlassSpellSlots", 1)
+THEN
+ObjectTimerLaunch(_Character, "DND55e_RangerSpellSlotsRefresh", 500, 0);
+
+IF
+ObjectTimerFinished(_Character, "DND55e_RangerSpellSlotsRefresh")
+AND
+HasPassive(_Character, "Ranger_MulticlassSpellSlots", 1)
+THEN
+RemovePassive(_Character, "Ranger_MulticlassSpellSlots");
+AddPassive(_Character, "Ranger_MulticlassSpellSlots");
+
 IF
 DB_Players(_Player)
 AND

@@ -3516,6 +3516,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f7a8b9c0-1d2e-4f3a-8b7c-6d5e4f3a2b1c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Ranger_MulticlassSpellSlots" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(ClassLevelHigherOrEqualThan(1,'Ranger',context.Source)):ActionResource(SpellSlot,2,1);IF(ClassLevelHigherOrEqualThan(3,'Ranger',context.Source)):ActionResource(SpellSlot,1,1);IF(ClassLevelHigherOrEqualThan(5,'Ranger',context.Source)):ActionResource(SpellSlot,1,1);IF(ClassLevelHigherOrEqualThan(5,'Ranger',context.Source)):ActionResource(SpellSlot,2,2);IF(ClassLevelHigherOrEqualThan(7,'Ranger',context.Source)):ActionResource(SpellSlot,1,2);IF(ClassLevelHigherOrEqualThan(9,'Ranger',context.Source)):ActionResource(SpellSlot,2,3);IF(ClassLevelHigherOrEqualThan(11,'Ranger',context.Source)):ActionResource(SpellSlot,1,3);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="81179fa0-41af-492b-95b3-836e1a4e2f64" />
         <field name="Name" type="NameTableFieldDefinition" value="Ranger_1_FavoredEnemy" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdfdce3a3g8fd1g0e71gf799gc4b6e93e4494" version="1" />
