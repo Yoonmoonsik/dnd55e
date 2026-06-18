@@ -10,13 +10,11 @@ IsPlayer((CHARACTER)_Character, 0)
 AND
 GetFaction(_Character, _FactionNPC)
 AND
-GetHostCharacter(_Player)
-AND
-GetFaction(_Player, _FactionPlayer)
+GetFaction(_Causee, _FactionPlayer)
 THEN
 ApplyStatus(_Character, "SURPRISED_PENALTY", 6.0, 1, _Character);
 LeaveCombat(_Character);
-SetHostileAndEnterCombat((FACTION)_FactionPlayer, (FACTION)_FactionNPC, (GUIDSTRING)_Player, (GUIDSTRING)_Character);
+SetHostileAndEnterCombat((FACTION)_FactionPlayer, (FACTION)_FactionNPC, (GUIDSTRING)_Causee, (GUIDSTRING)_Character);
 EXITSECTION
 
 ENDEXITSECTION
