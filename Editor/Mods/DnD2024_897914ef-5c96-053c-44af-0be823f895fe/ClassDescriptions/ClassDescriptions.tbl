@@ -22,8 +22,9 @@
         <field name="ClassHotbarColumns" type="IntegerTableFieldDefinition" value="5" />
         <field name="ItemsHotbarColumns" type="IntegerTableFieldDefinition" value="2" />
         <field name="MulticlassSpellcasterModifier" type="FloatTableFieldDefinition" value="0.5" />
+        <field name="CanLearnSpells" type="BoolTableFieldDefinition" value="True" />
         <field name="SpellList" type="GuidObjectTableFieldDefinition" value="ffd3b636-d424-4120-87ae-4499a34828dc" />
-        <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="True" />
+        <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="False" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

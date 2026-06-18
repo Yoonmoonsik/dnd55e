@@ -16,7 +16,8 @@
                     <attribute id="ItemsHotbarColumns" type="int32" value="2"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="MulticlassSpellcasterModifier" type="double" value="0.5"/>
-                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
                     <attribute id="Name" type="FixedString" value="Ranger"/>
                     <attribute id="PrimaryAbility" type="uint8" value="2"/>
                     <attribute id="ProgressionTableUUID" type="guid" value="8f068974-ed32-43fc-a9d9-028be1c01a9c"/>
