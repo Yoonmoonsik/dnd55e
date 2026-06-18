@@ -69,6 +69,41 @@ AND
 HasPassive(_Player, "HeavyArmor", 0)
 THEN
 AddPassive(_Player, "HeavyArmor");
+
+
+// Ranger Favored Enemy - re-apply passive so class-level scaling takes effect
+IF
+LeveledUp(_Character)
+AND
+DB_Players(_Character)
+AND
+HasPassive(_Character, "Ranger_1_FavoredEnemy", 1)
+THEN
+ObjectTimerLaunch(_Character, "DND55e_FavoredEnemyRefresh", 500, 0);
+
+IF
+ObjectTimerFinished(_Character, "DND55e_FavoredEnemyRefresh")
+AND
+HasPassive(_Character, "Ranger_1_FavoredEnemy", 1)
+THEN
+RemovePassive(_Character, "Ranger_5_FavoredEnemy_Resource");
+RemovePassive(_Character, "Ranger_9_FavoredEnemy_Resource");
+RemovePassive(_Character, "Ranger_1_FavoredEnemy");
+AddPassive(_Character, "Ranger_1_FavoredEnemy");
+
+IF
+DB_Players(_Player)
+AND
+DB_DND55e_Initialized(1)
+AND
+HasPassive(_Player, "Ranger_1_FavoredEnemy", 1)
+AND
+HasPassive(_Player, "ExtraAttack", 1)
+THEN
+RemovePassive(_Player, "Ranger_5_FavoredEnemy_Resource");
+RemovePassive(_Player, "Ranger_9_FavoredEnemy_Resource");
+RemovePassive(_Player, "Ranger_1_FavoredEnemy");
+AddPassive(_Player, "Ranger_1_FavoredEnemy");
 EXITSECTION
 
 ENDEXITSECTION

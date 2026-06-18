@@ -2557,7 +2557,7 @@ data "ExtraDescription" "h0707320dgdc67g5261gca84g8c7ba39b2add;1"
 data "Icon" "PassiveFeature_HuntersMark"
 data "PriorityOrder" "8001"
 data "Properties" "Highlighted;ForceShowInCC"
-data "BoostContext" "OnCast;OnCombatStarted;OnCreate;OnTurn;OnEquip;OnProficiencyChange;OnShortRest;OnLongRest"
+data "BoostContext" "OnCast;OnCombatStarted;OnCreate;OnTurn"
 data "Boosts" "ActionResource(FavoredEnemy,2,0);IF(ClassLevelHigherOrEqualThan(5,'Ranger',context.Source)):ActionResource(FavoredEnemy,1,0);IF(ClassLevelHigherOrEqualThan(9,'Ranger',context.Source)):ActionResource(FavoredEnemy,1,0);IF(HasActionResource('FavoredEnemy',1,0,false,false,context.Source)):UnlockSpellVariant(HuntersMark(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,FavoredEnemy,1,0));"
 
 new entry "Ranger_6_Roving"
