@@ -1441,7 +1441,7 @@ new entry "FEATHER_FALL"
 type "StatusData"
 data "StatusType" "BOOST"
 using "FEATHER_FALL"
-data "Boosts" "IgnoreFallDamage();UnlockSpell(Projectile_LongJump_Jump);"
+data "Boosts" "IgnoreFallDamage();UnlockSpell(Projectile_Jump_Down);"
 
 new entry "LONG_JUMP"
 type "StatusData"

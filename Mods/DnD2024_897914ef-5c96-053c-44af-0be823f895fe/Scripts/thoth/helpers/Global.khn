@@ -46,3 +46,9 @@ end
 function PoisonerSaveDC()
     return 8 + context.Source.ProficiencyBonus + math.max(GetModifier(context.Source.Dexterity), GetModifier(context.Source.Intelligence))
 end
+
+function YDistanceToTargetSmallerOrEqual(value)
+    local errorTrue = {ConditionError("YDistanceGreaterOrEqualThan_True", {ConditionErrorData.MakeFromNumber(value, EErrorDataType.Distance)})}
+    local errorFalse = {ConditionError("YDistanceGreaterOrEqualThan_False", {ConditionErrorData.MakeFromNumber(value, EErrorDataType.Distance)})}
+    return ConditionResult(YDistanceToTarget() <= value, errorTrue, errorFalse)
+end
