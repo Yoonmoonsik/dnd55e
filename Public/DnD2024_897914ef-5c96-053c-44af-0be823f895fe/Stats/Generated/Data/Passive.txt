@@ -6401,6 +6401,16 @@ using "MAG_BoundToBeBonded_Passive"
 data "Description" "h99e76e2eg9ad8ge1c9g7478g77f49aa7113e;1"
 data "Boosts" "IF(HasStatus( 'MAG_WEAPON_ATTACK_ROLL_BONUS', GetActiveWeapon(context.Source, true))):SpellSaveDC(1);IF(HasStatus( 'MAG_WEAPON_ATTACK_ROLL_BONUS', GetActiveWeapon(context.Source, true))):RollBonus(MeleeSpellAttack, 1);IF(HasStatus( 'MAG_WEAPON_ATTACK_ROLL_BONUS', GetActiveWeapon(context.Source, true))):RollBonus(RangedSpellAttack,1);"
 
+new entry "MAG_Druid_Ironvine_Shield_Passive"
+type "PassiveData"
+using "MAG_Druid_Ironvine_Shield_Passive"
+data "Conditions" "(HasStatus('SHILLELAGH',GetActiveWeapon(context.Target, true)) or HasStatus('SHILLELAGH_5',GetActiveWeapon(context.Target, true)) or HasStatus('SHILLELAGH_10',GetActiveWeapon(context.Target, true))) and not IsRedirectedDamage();"
+
+new entry "MAG_Druid_Ironvine_Shield_Technical_Passive"
+type "PassiveData"
+using "MAG_Druid_Ironvine_Shield_Technical_Passive"
+data "Conditions" "StatusId('SHILLELAGH') or StatusId('SHILLELAGH_5') or StatusId('SHILLELAGH_10');"
+
 new entry "__RACE__"
 type "PassiveData"
 
