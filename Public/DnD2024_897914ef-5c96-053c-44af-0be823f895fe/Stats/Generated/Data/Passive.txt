@@ -25,7 +25,7 @@ data "Description" "hd3ffb028g9755g52adgf223g4bb289eebf93;1"
 data "Icon" "PassiveFeature_Generic_Magical"
 data "Properties" "OncePerTurn;Highlighted"
 data "StatsFunctorContext" "OnCast;OnAttack;OnCastResolved"
-data "Conditions" "IsSpell() and (HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot') or HasUseCosts('ShadowSpellSlot')) and not CreateSorceryPoints();"
+data "Conditions" "IsSpell() and (HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot') or HasUseCosts('ShadowSpellSlot')) and not CreateSorceryPoints() and not Tagged('IN_CAMP');"
 data "StatsFunctors" "ApplyStatus(SELF,ONE_SPELL_WITH_A_SPELL_SLOT_PER_TURN,100,1)"
 
 new entry "SpellScrollUsage"
