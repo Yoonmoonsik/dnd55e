@@ -2,7 +2,7 @@
 
 ## Translations
 
-### Korean
+### Korean / Japanese
 - **Author**: [Eolaloe](https://www.nexusmods.com/profile/Eolaloe)
 - **Mod**: [Nexusmods Link](https://www.nexusmods.com/baldursgate3/mods/22245)
 

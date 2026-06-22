@@ -139,7 +139,7 @@ Spell scrolls of 3rd level or higher are restricted to specific classes.
 [size=5][b]Credits[/b][/size]
 
 [list]
-[*][b]Korean Translation:[/b] [url=https://www.nexusmods.com/profile/Eolaloe]Eolaloe[/url]
+[*][b]Korean / Japanese Translation:[/b] [url=https://www.nexusmods.com/profile/Eolaloe]Eolaloe[/url]
 [*][b]Spanish / Latin Spanish Translation:[/b] [url=https://github.com/incolhermex-droid]incolhermex-droid[/url]
 [*][b]Item Models:[/b] [url=https://mod.io/g/baldursgate3/u/skirbie]skirbie[/url]
 [/list]

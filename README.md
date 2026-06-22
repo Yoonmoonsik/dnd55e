@@ -154,6 +154,6 @@ See [Creatures](./README/README_Creatures.MD).
 
 See [Credits](./README/README_Credits.MD) for full attribution.
 
-- **Korean Translation**: [Eolaloe](https://www.nexusmods.com/profile/Eolaloe)
+- **Korean / Japanese Translation**: [Eolaloe](https://www.nexusmods.com/profile/Eolaloe)
 - **Spanish / Latin Spanish Translation**: [incolhermex-droid](https://github.com/incolhermex-droid)
 - **Item Models**: [skirbie](https://mod.io/g/baldursgate3/u/skirbie)
