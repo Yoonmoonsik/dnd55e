@@ -12,7 +12,9 @@ Upload flow:
 import argparse
 import json
 import sys
+import tempfile
 import time
+import zipfile
 from pathlib import Path
 from urllib.parse import urlparse, parse_qs
 from xml.etree import ElementTree as ET
@@ -34,17 +36,24 @@ def make_headers(api_key: str) -> dict:
     return {"apikey": api_key, "Content-Type": "application/json"}
 
 
-def find_latest_zip(folder: str) -> Path:
-    """Return the most recently created zip in folder whose name starts with 'dnd2024'."""
-    search_path = Path(folder)
-    if not search_path.is_dir():
-        sys.exit(f"[ERROR] search_folder not found: {folder}")
-    zips = [p for p in search_path.glob("*.zip") if p.name.lower().startswith("dnd2024")]
-    if not zips:
-        sys.exit(f"[ERROR] No .zip files starting with 'dnd2024' found in: {folder}")
-    latest = max(zips, key=lambda p: p.stat().st_ctime)
-    print(f"[INFO] Found zip    : {latest.name}")
-    return latest
+DEFAULT_PAK_PATH = (
+    r"C:\Users\yoonm\AppData\Local\Larian Studios"
+    r"\Baldur's Gate 3\Mods\DnD2024_897914ef-5c96-053c-44af-0be823f895fe.pak"
+)
+
+
+def create_zip_from_pak(pak_path: str) -> Path:
+    """Zip the given .pak file into a temp directory and return the zip path."""
+    pak = Path(pak_path)
+    if not pak.exists():
+        sys.exit(f"[ERROR] pak file not found: {pak_path}")
+    tmp_dir = Path(tempfile.mkdtemp())
+    zip_path = tmp_dir / f"{pak.stem}.zip"
+    print(f"[INFO] Zipping pak  : {pak.name}")
+    with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED) as zf:
+        zf.write(pak, pak.name)
+    print(f"[INFO] Created zip  : {zip_path}")
+    return zip_path
 
 
 def _decode_version64(v64: int) -> str:
@@ -350,7 +359,7 @@ def main() -> None:
 
     cfg = load_config(str(args.config))
 
-    required = ["api_key", "search_folder", "name", "file_category"]
+    required = ["api_key", "name", "file_category"]
     missing = [k for k in required if not cfg.get(k)]
     if missing:
         sys.exit(f"[ERROR] Missing required config fields: {', '.join(missing)}")
@@ -358,7 +367,8 @@ def main() -> None:
     if cfg["file_category"] not in ("main", "optional", "miscellaneous"):
         sys.exit("[ERROR] file_category must be one of: main, optional, miscellaneous")
 
-    file_path = find_latest_zip(cfg["search_folder"])
+    pak_path = cfg.get("pak_path", DEFAULT_PAK_PATH)
+    file_path = create_zip_from_pak(pak_path)
 
     meta_lsx = Path(__file__).parent.parent / "Mods" / "DnD2024_897914ef-5c96-053c-44af-0be823f895fe" / "meta.lsx"
     cfg["version"] = read_version_from_meta(meta_lsx)
@@ -388,6 +398,9 @@ def main() -> None:
         result = create_mod_file_version(api_key, upload_id, mod_file_id, cfg)
     else:
         result = create_mod_file(api_key, upload_id, cfg)
+
+    file_path.unlink(missing_ok=True)
+    file_path.parent.rmdir()
 
     print("\n[SUCCESS] Upload completed.")
     print(json.dumps(result, indent=2, ensure_ascii=False))
