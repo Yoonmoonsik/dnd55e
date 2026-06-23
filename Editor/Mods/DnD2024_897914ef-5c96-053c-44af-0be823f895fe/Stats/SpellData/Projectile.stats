@@ -38,6 +38,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="d6d9e619-ddd0-4a06-a3ac-f789a88126ea" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="Movement:Distance;" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Custom_Jump" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7978f94bg37bbgd94fg0344g897bfa2c2b06" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1853,6 +1854,7 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="AddRangeFromAbility" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf9be0a35gce33ga419g1a57gcc67560214a9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfa470112gc789g976ag5dcdgab4fa45eb69b" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1961,6 +1963,8 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2cdb12e9-7b79-4340-b884-f074d7247ecd" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="Movement:Distance*0.5;" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd667caedgdc28gdefdg4285gcd7ef4a63a22" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he4305daaga010gf583gff81gcaf63ebe3f32" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

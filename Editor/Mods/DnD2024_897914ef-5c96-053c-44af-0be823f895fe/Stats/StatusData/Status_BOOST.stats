@@ -1796,7 +1796,17 @@
         <field name="UUID" type="IdTableFieldDefinition" value="91fc66b5-7fec-4aba-87c2-f2da7b2dabd3" />
         <field name="Name" type="NameTableFieldDefinition" value="LONG_JUMP" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="12f75328-51d6-4be9-9525-c53f6c89f995" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="JumpMaxDistanceMultiplier(3);UnlockSpell(Projectile_LongJump_Jump);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_LongJump_Jump);UnlockSpellVariant(SpellId('Projectile_Jump'),ModifyTargetRadius(Multiplicative,3));" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha04791c7ge8d9ge47cg41f1ga366abc70f0a" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a64f778d-d397-48af-a65e-55240fe92764" />
+        <field name="Name" type="NameTableFieldDefinition" value="ALCH_POTION_JUMP" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b800bab3-f68a-4fb5-a876-9c27330bb153" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haa0cb759gbb2fg6e12g0a4bgd7393063d2c3" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_LongJump_Jump);UnlockSpellVariant(SpellId('Projectile_Jump'),ModifyTargetRadius(Multiplicative,3));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
