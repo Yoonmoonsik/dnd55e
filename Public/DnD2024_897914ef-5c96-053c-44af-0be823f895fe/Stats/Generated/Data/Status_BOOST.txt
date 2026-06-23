@@ -502,6 +502,7 @@ data "AuraStatuses" "IF(not Enemy() and HasStatus('WARDING_BOND')):ApplyStatus(W
 new entry "WARDING_BOND_CASTER_AURA"
 type "StatusData"
 data "StatusType" "BOOST"
+data "DisplayName" "h7f5a2c22g1d31g7893g11c5gbb065055abeb;1"
 data "StackId" "WARDING_BOND_CASTER_AURA"
 data "Boosts" "AC(1);RollBonus(SavingThrow,1);Resistance(All, Resistant);RedirectDamage(1);"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"

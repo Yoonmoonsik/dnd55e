@@ -642,6 +642,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="AC(1);RollBonus(SavingThrow,1);Resistance(All, Resistant);RedirectDamage(1);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="eab76c6a-a5a7-445b-8430-bfce0e7bb5ea" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7f5a2c22g1d31g7893g11c5gbb065055abeb" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
