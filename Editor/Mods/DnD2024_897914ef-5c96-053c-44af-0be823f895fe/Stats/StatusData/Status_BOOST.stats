@@ -4440,7 +4440,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h56bd8cdag4e64g6c53ga757gdf3238045217" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h33401633g747fg999fg84bcgb4b2b4d7449f" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_CommandersStrike" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Devastator_Melee);UnlockSpell(Projectile_Devastator_Ranged);UnlockSpellVariant(IsCantrip(),ModifyUseCosts(Replace,ReactionActionPoint,1,0,ActionPoint),ModifyIconGlow());" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Devastator_Melee);UnlockSpell(Target_Devastator_Unarmed);UnlockSpell(Projectile_Devastator_Ranged);UnlockSpellVariant(IsCantrip(),ModifyUseCosts(Replace,ReactionActionPoint,1,0,ActionPoint),ModifyIconGlow());" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="IsCantrip()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSpellCast;OnAttack" enumeration_type_name="StatusEvent" version="1" />
       </fields>

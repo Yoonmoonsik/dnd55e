@@ -3574,7 +3574,7 @@ data "StatusType" "BOOST"
 data "DisplayName" "h56bd8cdag4e64g6c53ga757gdf3238045217;1"
 data "Description" "h33401633g747fg999fg84bcgb4b2b4d7449f;1"
 data "Icon" "Action_CommandersStrike"
-data "Boosts" "UnlockSpell(Target_Devastator_Melee);UnlockSpell(Projectile_Devastator_Ranged);UnlockSpellVariant(IsCantrip(),ModifyUseCosts(Replace,ReactionActionPoint,1,0,ActionPoint),ModifyIconGlow());"
+data "Boosts" "UnlockSpell(Target_Devastator_Melee);UnlockSpell(Target_Devastator_Unarmed);UnlockSpell(Projectile_Devastator_Ranged);UnlockSpellVariant(IsCantrip(),ModifyUseCosts(Replace,ReactionActionPoint,1,0,ActionPoint),ModifyIconGlow());"
 data "RemoveConditions" "IsCantrip()"
 data "RemoveEvents" "OnSpellCast;OnAttack"
 

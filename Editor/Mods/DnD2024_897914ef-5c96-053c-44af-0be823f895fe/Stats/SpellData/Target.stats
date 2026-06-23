@@ -8477,6 +8477,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="23133cf9-73c7-4947-83cc-849dc0567de2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Devastator_Unarmed" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79cbdbe7-ec99-45d9-a901-96a9ca633abc" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);RemoveStatus(SELF,DEVASTATOR);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4b6ab214gd4f9gba28g0fb5gc087fbca986d" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ReactionActionPoint:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsAttack;IsMelee;IsHarmful;DisableBlood;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f8c6b7cd-50ba-4b2e-8a18-0a3070a32a26" />
         <field name="Name" type="NameTableFieldDefinition" value="StrikeFromTheDark" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="22db3f9e-e05b-4655-89b0-5f17c0f7a3fd" />
