@@ -5545,7 +5545,7 @@
         <field name="Conditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ArcaneWard,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,ARCANE_WARD_55E,100,-1)" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;OncePerLongRest" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5574,7 +5574,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h288cd5f8gfde5gf844g35b4g78176c8d8034" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d3fbbaegc6b1gf48egd8c4gef06e95785f3" version="1" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,ARCANE_WARD_55E,100,-1)" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;OncePerShortRest" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
