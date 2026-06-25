@@ -653,6 +653,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b942350e-f0da-4e59-b8b9-c83040d26c03" />
+        <field name="Name" type="NameTableFieldDefinition" value="ELMINSTERS_ELUSION" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb659d87bg7ae8g6489g2b3ege4e114b8699e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9f0fa794gdfc2ge2f8gcf06g046d97ef0b1d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ElminstersElusion" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ELMINSTERS_ELUSION" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="SpellResistance(Resistant);IF(HasSpellFlag(SpellFlags.Spell)):Advantage(AllSavingThrows);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="175e35ad-0c0c-4970-a669-2f690beed48b" />
         <field name="Name" type="NameTableFieldDefinition" value="AURA_OF_VITALITY_AURA" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="539331b7-b7f8-434b-8b8f-afdbe2d3d06e" />
@@ -2800,7 +2811,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="796b62f6-b23a-4ba4-8c90-12e6f369d111" />
         <field name="Name" type="NameTableFieldDefinition" value="COMMANDERS_STRIKE" />
         <field name="StackId" type="StringTableFieldDefinition" value="COMMANDERS_STRIKE" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_CommandersStrike_Melee);UnlockInterrupt(Interrupt_CommandersStrike_Ranged);ActionResource(SneakAttack_Charge,1,0);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_CommandersStrike_Melee);UnlockInterrupt(Interrupt_CommandersStrike_Ranged);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
@@ -3435,6 +3446,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea666ccd-ef35-45d1-ad89-1444e4f73b4b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ADDITIONAL_SNEAKATTACK_CHARGE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SneakAttack_Charge,1,0);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="94ddf858-04ab-4e61-9717-c605ec620d29" />
         <field name="Name" type="NameTableFieldDefinition" value="STEADY_AIM" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6d51897ag955egeb37g57b9g59eddbb044d1" version="1" />
@@ -4005,7 +4024,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ARCANE_WARD" />
         <field name="StackId" type="StringTableFieldDefinition" value="ARCANE_WARD" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

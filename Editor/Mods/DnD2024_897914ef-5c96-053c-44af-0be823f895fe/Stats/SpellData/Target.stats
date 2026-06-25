@@ -3405,20 +3405,6 @@
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="109fd2cc-0716-493c-85fe-1cd36be5525e" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="3fd2f608-3ef7-444b-bd94-1c46d93799e3" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="9919a1ef-2152-4b1c-af4a-4dbbbee011a4" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="fdd0de96-3ed9-42c2-acb4-70a3a4856260" />
-      </fields>
-    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5410440b-b36d-4116-95a2-cf701274fc23" />
@@ -6655,7 +6641,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b8174cef-0349-4cc1-9e73-0aa190395e77" />
         <field name="Name" type="NameTableFieldDefinition" value="CommandersStrike" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a8e6fc7e-f4e1-4762-bb84-015dfdca4026" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="TARGET:IF(HasPassive('ImprovedCombatSuperiority',context.Source)):ApplyStatus(COMMANDERS_STRIKE,100,1);TARGET:IF(not HasPassive('ImprovedCombatSuperiority',context.Source)):ApplyStatus(COMMANDERS_STRIKE,100,1);TARGET:IF(HasPassive('ImprovedCombatSuperiority',context.Source)):ApplyStatus(COMMANDERS_STRIKE_2,100,0);TARGET:IF(not HasPassive('ImprovedCombatSuperiority',context.Source)):ApplyStatus(COMMANDERS_STRIKE_2,100,0);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="TARGET:IF(HasPassive('ImprovedCombatSuperiority',context.Source)):ApplyStatus(COMMANDERS_STRIKE,100,1);TARGET:IF(not HasPassive('ImprovedCombatSuperiority',context.Source)):ApplyStatus(COMMANDERS_STRIKE,100,1);TARGET:ApplyStatus(COMMANDERS_STRIKE_2,100,0);TARGET:ApplyStatus(ADDITIONAL_SNEAKATTACK_CHARGE,100,1);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Ally() and not Self() and HasActionResource('ReactionActionPoint',1,0,false);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1; SuperiorityDie:1" />
@@ -6663,14 +6649,6 @@
         <field name="AoEConditions" type="StringTableFieldDefinition" value="Enemy();" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9b0cd366gbd09g6961gafeag741567bd7be7" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="2ac2f10c-fdf0-410b-bb71-9d628d35e765" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="8e4a2dce-458a-4c98-a48e-ec90a5cae533" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);CastOffhand[GROUND:DealDamage(OffhandMeleeWeapon, OffhandMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(OffHand)];IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);RemoveStatus(SELF,COMMANDERS_STRIKE);RemoveStatus(COMMANDERS_STRIKE_TARGET);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
