@@ -50,6 +50,7 @@
 - Cloud of Daggers
 - Crown of Madness
 - Darkness
+- Elminster's Elusion
 - Find Steed
 - Flame Blade
 - Gust of Wind

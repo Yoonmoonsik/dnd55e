@@ -573,6 +573,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="15d2f192-eff4-4bcf-bc26-aca94bc7d295" />
         <field name="StackId" type="StringTableFieldDefinition" value="ARMOR_OF_AGATHYS" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(5);IF(HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(ClassLevel(Wizard)*2+IntelligenceModifier+5);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -581,6 +582,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="69c9b3b5-01e3-44f9-9f39-53935a450ada" />
         <field name="StackId" type="StringTableFieldDefinition" value="ARMOR_OF_AGATHYS" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(10);IF(HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(ClassLevel(Wizard)*2+IntelligenceModifier+10);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -589,6 +591,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="42a3990f-13cd-4a23-9cdd-f6716d9001e9" />
         <field name="StackId" type="StringTableFieldDefinition" value="ARMOR_OF_AGATHYS" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(15);IF(HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(ClassLevel(Wizard)*2+IntelligenceModifier+15);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -597,6 +600,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9a77fb10-e5b8-4271-8b21-781fbd0315c0" />
         <field name="StackId" type="StringTableFieldDefinition" value="ARMOR_OF_AGATHYS" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(20);IF(HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(ClassLevel(Wizard)*2+IntelligenceModifier+20);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -605,6 +609,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9c39e870-3191-44b9-859e-ac83b7d1bc74" />
         <field name="StackId" type="StringTableFieldDefinition" value="ARMOR_OF_AGATHYS" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(25);IF(HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(ClassLevel(Wizard)*2+IntelligenceModifier+25);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -613,6 +618,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e1335649-f0a9-4c99-b783-d23b28b9d6b2" />
         <field name="StackId" type="StringTableFieldDefinition" value="ARMOR_OF_AGATHYS" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(30);IF(HasPassive('ArcaneWard_55e',context.Source)):TemporaryHP(ClassLevel(Wizard)*2+IntelligenceModifier+30);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -643,6 +649,17 @@
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="eab76c6a-a5a7-445b-8430-bfce0e7bb5ea" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7f5a2c22g1d31g7893g11c5gbb065055abeb" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b942350e-f0da-4e59-b8b9-c83040d26c03" />
+        <field name="Name" type="NameTableFieldDefinition" value="ELMINSTERS_ELUSION" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb659d87bg7ae8g6489g2b3ege4e114b8699e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9f0fa794gdfc2ge2f8gcf06g046d97ef0b1d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ElminstersElusion" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ELMINSTERS_ELUSION" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="SpellResistance(Resistant);IF(HasSpellFlag(SpellFlags.Spell)):Advantage(AllSavingThrows);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2794,7 +2811,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="796b62f6-b23a-4ba4-8c90-12e6f369d111" />
         <field name="Name" type="NameTableFieldDefinition" value="COMMANDERS_STRIKE" />
         <field name="StackId" type="StringTableFieldDefinition" value="COMMANDERS_STRIKE" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_CommandersStrike_Melee);UnlockInterrupt(Interrupt_CommandersStrike_Ranged);ActionResource(SneakAttack_Charge,1,0);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_CommandersStrike_Melee);UnlockInterrupt(Interrupt_CommandersStrike_Ranged);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
@@ -3429,6 +3446,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea666ccd-ef35-45d1-ad89-1444e4f73b4b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ADDITIONAL_SNEAKATTACK_CHARGE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SneakAttack_Charge,1,0);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="94ddf858-04ab-4e61-9717-c605ec620d29" />
         <field name="Name" type="NameTableFieldDefinition" value="STEADY_AIM" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6d51897ag955egeb37g57b9g59eddbb044d1" version="1" />
@@ -3999,7 +4024,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ARCANE_WARD" />
         <field name="StackId" type="StringTableFieldDefinition" value="ARCANE_WARD" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

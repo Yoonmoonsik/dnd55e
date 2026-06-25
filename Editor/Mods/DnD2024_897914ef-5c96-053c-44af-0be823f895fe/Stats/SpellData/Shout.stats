@@ -324,6 +324,69 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="87b2a6aa-7d9e-4f93-93ec-3371d7b91b47" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElminstersElusion" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ELMINSTERS_ELUSION,100,100);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="ElminstersElusion" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9adc4c48gd787g4656g13acg233be42b05a3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hba127cc1ga142gbe30g42a0gefcf3b5c831e" version="2" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="ApplyStatus(ELMINSTERS_ELUSION,100,100);" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_ArcaneRecovery" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_ArcaneRecovery" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:2;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03114753-8d91-4c52-8207-728a67cdd59b,,;,,;51c06d74-c048-452a-a248-41a751728e3e,,;e9731a5c-e4ba-4872-8950-36d625061ec3,,;8fcb1f19-a84b-486d-81fa-098aaf7cc9be,,;,,;c5bd6ce6-281c-4314-9f74-9f7bb2f4cf03,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="af787096-8656-4495-a6ce-cbd376578069" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b7fb4cd6-971f-44c0-9447-378092d36b63" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9275bf5c-19eb-4db1-bf04-934be700d83d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElminstersElusion_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="87b2a6aa-7d9e-4f93-93ec-3371d7b91b47" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_ElminstersElusion" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="536b5ff2-f5cd-4958-bec3-fe34576e2daa" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElminstersElusion_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9275bf5c-19eb-4db1-bf04-934be700d83d" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="92c71561-4d1f-4a0e-8bc5-9cc312208a9a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElminstersElusion_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9275bf5c-19eb-4db1-bf04-934be700d83d" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0af62758-e6fe-4682-a05d-2e3d3fb8fa35" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElminstersElusion_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9275bf5c-19eb-4db1-bf04-934be700d83d" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9f8ffd01-76c7-4041-b5ef-742411069199" />
         <field name="Name" type="NameTableFieldDefinition" value="AuraOfVitality" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1ef0a1c6-929a-49e2-b91c-5f6fed48a49e" />
