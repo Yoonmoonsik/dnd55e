@@ -1095,6 +1095,13 @@ data "DisplayName" "h45db170cgfec9gad8eg1591gd99ec7aa2b2c;1"
 data "Description" "h6f58f448gfe00g1b2agab56g46c8bf14ca5f;1"
 data "PriorityOrder" "3106"
 
+new entry "Reaper"
+type "PassiveData"
+using "Reaper"
+data "DisplayName" "h39139aafg7efag9037g4297g47b92c38caf8;1"
+data "PriorityOrder" "3103"
+data "Boosts" "UnlockSpellVariant(SpellId('Target_ChillTouch'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Target_TollTheDead'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Projectile_PoisonSpray'),ModifyNumberOfTargets(AdditiveBase,1,false));"
+
 new entry "WardingFlare"
 type "PassiveData"
 data "DisplayName" "h39b48f39g9a41g2ba3g3567g7ab1cb265f82;1"

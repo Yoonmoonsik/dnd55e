@@ -1505,6 +1505,16 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="57e5f417-c4c6-4f75-8ab9-1148501856db" />
+        <field name="Name" type="NameTableFieldDefinition" value="Reaper" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d3ea4752-eb2a-4c8a-9e54-4238898e8b87" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h39139aafg7efag9037g4297g47b92c38caf8" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3103" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Target_ChillTouch'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Target_TollTheDead'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Projectile_PoisonSpray'),ModifyNumberOfTargets(AdditiveBase,1,false));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="91edef7e-60ad-45e2-b79c-a6987dd8abe6" />
         <field name="Name" type="NameTableFieldDefinition" value="WardingFlare" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h39b48f39g9a41g2ba3g3567g7ab1cb265f82" version="1" />

@@ -6,6 +6,18 @@ function IsClericCantrip()
 	 | SpellId('Shout_WordOfRadiance')
 end
 
+function TwinnedProjectileSpellCheckReaper()
+    return TwinnedProjectileSpellCheck() & ~SpellId('Target_TollTheDead') & ~SpellId('Target_ChillTouch') & ~SpellId('Projectile_PoisonSpray')
+end
+
+function TwinnedTargetSpellCheckReaper()
+    return TwinnedTargetSpellCheck() & ~SpellId('Target_TollTheDead') & ~SpellId('Target_ChillTouch') & ~SpellId('Projectile_PoisonSpray')
+end
+
+function TwinnedTargetTouchSpellCheckReaper()
+    return TwinnedTargetTouchSpellCheck() & ~SpellId('Target_TollTheDead') & ~SpellId('Target_ChillTouch') & ~SpellId('Projectile_PoisonSpray')
+end
+
 function MindMagic()
 	return IsSpellOfSchool(SpellSchool.Divination)
 	 | SpellId('Shout_Blink_4')
