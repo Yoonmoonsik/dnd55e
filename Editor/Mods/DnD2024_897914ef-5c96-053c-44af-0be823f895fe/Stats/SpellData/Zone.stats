@@ -15,6 +15,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceClearLayer(Cloud);RemoveStatus(BURNING);ApplyStatus(SELF,GUST_OF_WIND_RECAST,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GUST_OF_WIND_RECAST,100,10);ApplyStatus(OFF_BALANCED,100,1)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;AddFallDamageOnLand;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="Force(5,OriginToTarget);IF(not Item()):ApplyStatus(OFF_BALANCED,100,1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -25,6 +26,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceClearLayer(Cloud);RemoveStatus(BURNING);ApplyStatus(SELF,GUST_OF_WIND_RECAST,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GUST_OF_WIND_RECAST,100,10);ApplyStatus(OFF_BALANCED,100,1)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;AddFallDamageOnLand;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="Force(5,OriginToTarget);IF(not Item()):ApplyStatus(OFF_BALANCED,100,1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -35,6 +37,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceClearLayer(Cloud);RemoveStatus(BURNING);ApplyStatus(SELF,GUST_OF_WIND_RECAST,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GUST_OF_WIND_RECAST,100,10);ApplyStatus(OFF_BALANCED,100,1)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;AddFallDamageOnLand;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="Force(5,OriginToTarget);IF(not Item()):ApplyStatus(OFF_BALANCED,100,1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -45,6 +48,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceClearLayer(Cloud);RemoveStatus(BURNING);ApplyStatus(SELF,GUST_OF_WIND_RECAST,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GUST_OF_WIND_RECAST,100,10);ApplyStatus(OFF_BALANCED,100,1)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;AddFallDamageOnLand;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="Force(5,OriginToTarget);IF(not Item()):ApplyStatus(OFF_BALANCED,100,1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -55,6 +59,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceClearLayer(Cloud);RemoveStatus(BURNING);ApplyStatus(SELF,GUST_OF_WIND_RECAST,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GUST_OF_WIND_RECAST,100,10);ApplyStatus(OFF_BALANCED,100,1)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;AddFallDamageOnLand;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="Force(5,OriginToTarget);IF(not Item()):ApplyStatus(OFF_BALANCED,100,1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
