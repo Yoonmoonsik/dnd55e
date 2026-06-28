@@ -6097,7 +6097,7 @@
         <field name="BoostConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyEquipmentStatus(MeleeMainHand,PACT_BLADE_ILLRIGGER_MAINHAND,100,-1);ApplyEquipmentStatus(MeleeOffHandand,PACT_BLADE_ILLRIGGER_OFFHAND,100,-1);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyEquipmentStatus(MeleeMainHand,PACT_BLADE_ILLRIGGER_MAINHAND,100,-1);ApplyEquipmentStatus(MeleeOffHand,PACT_BLADE_ILLRIGGER_OFFHAND,100,-1);" />
         <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>

@@ -1532,6 +1532,79 @@
         <field name="StatusEffectOnTurn" type="GuidObjectTableFieldDefinition" value="0b2692dc-98f2-443e-93c9-be9c940a37c7" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1412e356-0a1f-4824-8ec9-7b4c21e87449" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPELLFIRE_STORM_AURA" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h563db1bag0ff4gf88bgaa5dg36f6eab08bb4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd62f5a63g6062g55cfg4eb3g09082565784c" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SPELLFIRE_STORM_AURA" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_SpellfireStorm" />
+        <field name="SoundStart" type="StringTableFieldDefinition" value="Spell_Status_MoonBeam_Enter" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_MoonBeam_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_MoonBeam_MO_Stop" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Character() and not Dead() and Enemy()):ApplyStatus(SPELLFIRE_STORM_DEBUFF,100,-1)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;BringIntoCombat" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="7538a139-7da4-44d2-9614-a95be50d9785" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="74106e06-ce33-418e-bf8e-ba379e808d84" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPELLFIRE_STORM_AURA_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1412e356-0a1f-4824-8ec9-7b4c21e87449" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Character() and not Dead() and Enemy()):ApplyStatus(SPELLFIRE_STORM_DEBUFF_5,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="25d86d1a-9604-4a04-9776-b8e59af5e4d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPELLFIRE_STORM_AURA_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1412e356-0a1f-4824-8ec9-7b4c21e87449" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Character() and not Dead() and Enemy()):ApplyStatus(SPELLFIRE_STORM_DEBUFF_6,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2c2161b9-1226-4a28-8fad-d6e957308d99" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPELLFIRE_STORM_DEBUFF" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1412e356-0a1f-4824-8ec9-7b4c21e87449" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SPELLFIRE_STORM_DEBUFF" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2d7fc4afgebcbg804ag8764g1902de76e587" version="1" />
+        <field name="SoundStart" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SoundStop" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_SpellfireStorm);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;InitiateCombat;BringIntoCombat" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="DealDamage(4d10,Radiant,Magical)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="DealDamage(4d10/2,Radiant,Magical)" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="62710804-ff29-4936-9d45-0e6a44372526" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="73f8b212-1a39-4214-8a32-b5e1427ec860" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="32c04cc2-3b56-4b6e-ba1d-cb247d68e125" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPELLFIRE_STORM_DEBUFF_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2c2161b9-1226-4a28-8fad-d6e957308d99" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="DealDamage(5d10,Radiant,Magical)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="DealDamage(5d10/2,Radiant,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d6c38cf-1128-4ad5-9311-bb2d73e1f2a2" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPELLFIRE_STORM_DEBUFF_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2c2161b9-1226-4a28-8fad-d6e957308d99" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="DealDamage(6d10,Radiant,Magical)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="DealDamage(6d10/2,Radiant,Magical)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dfb1cf75-94aa-4601-b1fa-059e5edaff47" />

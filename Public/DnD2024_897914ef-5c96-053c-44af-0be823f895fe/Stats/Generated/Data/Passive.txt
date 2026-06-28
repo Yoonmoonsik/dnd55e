@@ -4416,7 +4416,7 @@ data "BoostContext" ""
 data "BoostConditions" ""
 data "Boosts" ""
 data "StatsFunctorContext" "OnEquip;OnCreate"
-data "StatsFunctors" "ApplyEquipmentStatus(MeleeMainHand,PACT_BLADE_ILLRIGGER_MAINHAND,100,-1);ApplyEquipmentStatus(MeleeOffHandand,PACT_BLADE_ILLRIGGER_OFFHAND,100,-1);"
+data "StatsFunctors" "ApplyEquipmentStatus(MeleeMainHand,PACT_BLADE_ILLRIGGER_MAINHAND,100,-1);ApplyEquipmentStatus(MeleeOffHand,PACT_BLADE_ILLRIGGER_OFFHAND,100,-1);"
 
 new entry "Illrigger_2_Lissome"
 type "PassiveData"
