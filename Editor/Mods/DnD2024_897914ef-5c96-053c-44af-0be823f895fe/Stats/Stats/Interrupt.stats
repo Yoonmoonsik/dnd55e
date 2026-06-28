@@ -9,6 +9,28 @@
         <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_OBSERVER,ADDITIONAL_SNEAKATTACK_CHARGE,100,1);IF(not HasPassive('Sentinel_ZeroSpeed',context.Source)):UseAttack();IF(HasPassive('Sentinel_ZeroSpeed',context.Source)):UseSpell(Target_Sentinel_AttackOfOpportunity,true,true,true);TutorialEvent(SWAP,f658a860-7e3e-44fd-807b-88d3c0c31217);" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d51d2d5-2630-4cf5-846f-353dc78df2d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="__EVOCATION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f9a33375-61bc-4049-86e8-4f911b42a5aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_SpellfireStorm" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf91e618bg7cfcg3668g95bbg4b7e8eb659d9" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h150cb7degdc6bg252agb2cag7b6c5033e87d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_SpellfireStorm" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnSpellCast" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not HasSpellCastBlocked(context.Observer) and IsAbleToReact(context.Observer) and Self(context.Source, context.Observer) and IsSpell() and not Uninterruptible() and not HasStringInSpellRoll('WeaponAttack') and not AnyEntityIsItem() and not SpellId('Shout_END_Gale_ActivateNethereseOrb') and CounterspellCheck(context.Observer, context.Source);" />
+        <field name="Roll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution,15)" />
+        <field name="Success" type="StringTableFieldDefinition" value="Counterspell();" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5fa81f45-86d6-4d85-a7ba-7e96c43ca697" />

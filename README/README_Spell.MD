@@ -41,6 +41,7 @@
 - Ray of Sickness
 - Searing Smite
 - Sleep
+- Spellfire Flare
 - Tasha's Hideous Laughter
 - Wrathful Smite
 ## Level 2
@@ -88,6 +89,7 @@
 - Otiluke's Resilient Sphere
 - Phantasmal Killer
 - Polymorph
+- Spellfire Storm
 - Stoneskin
 - Vitriolic Sphere
 ## Level 5
