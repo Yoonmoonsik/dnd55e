@@ -158,7 +158,7 @@ See [Credits](./README/README_Credits.MD) for full attribution.
 - **Spanish / Latin Spanish Translation**: [incolhermex-droid](https://github.com/incolhermex-droid)
 - **French Translation**: CyberBoloss
 - **Brazilian Portuguese Translation**: [ShadowAhJin](https://mod.io/u/shadowahjin)
-- **Item Models**: [skirbie](https://mod.io/g/baldursgate3/u/skirbie)
+- **Item Models**: [skirbie](https://mod.io/g/baldursgate3/u/skirbie) ([Viper Carbine Steampunk Rifle Gun](https://mod.io/g/baldursgate3/m/viper-carbine-steampunk-rifle-gun), [Hand Cannon Gunslinger Weapon](https://mod.io/g/baldursgate3/m/hand-cannon-gunslinger-weapon))
 
 ## Legal
 
