@@ -49,6 +49,7 @@
 - Sleep
 - Spellfire Flare
 - Tasha's Hideous Laughter
+- Wardaway
 - Witch Bolt
 - Wrathful Smite
 ## Level 2
@@ -57,7 +58,9 @@
 - Blindness
 - Cloud of Daggers
 - Crown of Madness
+- Darkbolt
 - Darkness
+- Death Armor
 - Elminster's Elusion
 - Find Steed
 - Flame Blade
