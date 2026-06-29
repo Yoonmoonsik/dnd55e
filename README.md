@@ -156,6 +156,8 @@ See [Credits](./README/README_Credits.MD) for full attribution.
 
 - **Korean / Japanese Translation**: [Eolaloe](https://www.nexusmods.com/profile/Eolaloe)
 - **Spanish / Latin Spanish Translation**: [incolhermex-droid](https://github.com/incolhermex-droid)
+- **French Translation**: CyberBoloss
+- **Brazilian Portuguese Translation**: CaioShin
 - **Item Models**: [skirbie](https://mod.io/g/baldursgate3/u/skirbie)
 
 ## Legal
