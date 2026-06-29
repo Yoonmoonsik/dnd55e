@@ -458,6 +458,25 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f7f771d6-81ce-45f6-9815-c69976502384" />
+        <field name="Name" type="NameTableFieldDefinition" value="WARDAWAY" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h739e0b6ag9070g3f0cg30cdg185c98e6150c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he30340c8gee67gea26g42dfg7428ad2ffc24" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Wardaway" />
+        <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="WEAK" enumeration_type_name="SoundVocalType" version="1" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_Slow_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_Slow_MO_Stop" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WARDAWAY" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceMultiplier(Movement,50,0);MovementSpeedLimit(Walk);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Slow_ActionPoint;" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Negative" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="d787f666-8ee6-4185-9365-6aac9ebe76ae" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="aa46af5a-8d4e-475f-9731-06c661c0de17" />
         <field name="Name" type="NameTableFieldDefinition" value="BLADE_WARD" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9f896acd-ca6f-4554-a39a-1a5a360a2bc3" />

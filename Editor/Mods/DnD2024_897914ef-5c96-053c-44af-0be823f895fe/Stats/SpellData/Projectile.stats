@@ -92,6 +92,108 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="11f106b1-1069-42d8-a7ca-391be98b9deb" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ABJURATION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1e3da5ef-e07c-4abf-a549-6b26093a103d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wardaway" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d4,Force,Magical);ApplyStatus(WARDAWAY,100,1);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(2d4/2,Force,Magical);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead()" />
+        <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="acb1cc5c-7605-49f9-98be-212083c8e77a" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Wardaway" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8f9cfbbcgaa6dgc17bg2d8fg66589650eeb4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h42d34c6cg2c2dg6152g7c9dg22ed3a5cedc7" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d4,Force,Magical);" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WARDAWAY,100,1);" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Force);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Thunder_ChromaticOrbThunder_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;38cdb41c-2eec-4e03-bb31-83cff0346c35,,;85414f5f-b448-4dda-9370-1b6c4b38b561,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasHighGroundRangeExtension;HasVerbalComponent;HasSomaticComponent;RangeIgnoreVerticalThreshold;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="db5705a1-824d-42a3-8d09-2352b9cd4af9" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2b284468-04a1-4730-a5c0-8ce54afbd937" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="16783d6c-d127-4d75-aac9-4fb9d7eadd06" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wardaway_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1e3da5ef-e07c-4abf-a549-6b26093a103d" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d4,Force,Magical);ApplyStatus(WARDAWAY,100,1);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(4d4/2,Force,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d4,Force,Magical);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_Wardaway" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a8c90a10-1af3-40dd-bc0e-497424d208ef" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wardaway_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="16783d6c-d127-4d75-aac9-4fb9d7eadd06" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d4,Force,Magical);ApplyStatus(WARDAWAY,100,1);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d4/2,Force,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d4,Force,Magical);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e1c0b0dc-4bb1-487c-951b-d82eb57bbfd3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wardaway_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="16783d6c-d127-4d75-aac9-4fb9d7eadd06" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d4,Force,Magical);ApplyStatus(WARDAWAY,100,1);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(8d4/2,Force,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d4,Force,Magical);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="121e7e56-ce98-4fe6-8f11-d67d1a71437c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wardaway_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="16783d6c-d127-4d75-aac9-4fb9d7eadd06" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(10d4,Force,Magical);ApplyStatus(WARDAWAY,100,1);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(10d4/2,Force,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(10d4,Force,Magical);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3bea1c6c-c75b-45eb-b86c-815bcf7a5ff5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wardaway_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="16783d6c-d127-4d75-aac9-4fb9d7eadd06" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(12d4,Force,Magical);ApplyStatus(WARDAWAY,100,1);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(12d4/2,Force,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(12d4,Force,Magical);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0afebbc4-ffa2-4694-bf80-2e4d0e498376" />
         <field name="Name" type="NameTableFieldDefinition" value="__DIVINATION__" />
       </fields>
