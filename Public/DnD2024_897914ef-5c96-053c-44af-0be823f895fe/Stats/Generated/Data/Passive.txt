@@ -515,6 +515,19 @@ data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsMeleeAttack() and not IsMiss();"
 data "StatsFunctors" "DealDamage(2d6, Radiant);"
 
+new entry "__NECROMANCY__"
+type "PassiveData"
+
+new entry "DeathArmor_Passive"
+type "PassiveData"
+data "DisplayName" "h0e05ff53ge761gd35cg2778g68647c918731;1"
+data "Description" "hd20da03ag764eg50f6g5b4dga5c0e396f838;1"
+data "Icon" "Spell_DeathArmor"
+data "Properties" "OncePerTurn"
+data "StatsFunctorContext" "OnAttacked"
+data "Conditions" "IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellTypeIs(SpellType.Throw)"
+data "StatsFunctors" "DealDamage(SWAP,2d4,Necrotic,Magical)"
+
 new entry "__BARBARIAN__"
 type "PassiveData"
 

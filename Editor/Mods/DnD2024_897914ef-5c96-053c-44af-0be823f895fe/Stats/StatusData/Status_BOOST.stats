@@ -1874,6 +1874,22 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="DamageBonus(-1d8,,false);Disadvantage(Ability, Strength);Disadvantage(SavingThrow, Strength);IF(AttackRollAbility(Ability.Strength)):Disadvantage(AttackRoll);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ca21574b-2b09-4ad3-a034-f9638cfabd1b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEATH_ARMOR" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb2037ed3g9376ge28egdf30gb396e5836806" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9c70dde9ga77cgb33fgf511g497c918b7702" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_DeathArmor" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_ArmorOfAgathys_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_ArmorOfAgathys_MO_Stop" />
+        <field name="StackId" type="StringTableFieldDefinition" value="DEATH_ARMOR" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(DeathSavingThrow);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="DeathArmor_Passive;" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="cee5da66-470d-4266-9c2f-33beb6ff3b3f" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="004d83f8-8a7a-42ed-be19-8e0531a62aa6" />

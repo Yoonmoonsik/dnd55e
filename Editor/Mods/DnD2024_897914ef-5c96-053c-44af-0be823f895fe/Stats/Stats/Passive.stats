@@ -722,6 +722,25 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d6, Radiant);" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ba1fcd47-e8a7-4342-9f02-f543847de381" />
+        <field name="Name" type="NameTableFieldDefinition" value="__NECROMANCY__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5bde2ded-ed86-49bf-b87d-2a9cf859b96f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DeathArmor_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0e05ff53ge761gd35cg2778g68647c918731" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd20da03ag764eg50f6g5b4dga5c0e396f838" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_DeathArmor" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellTypeIs(SpellType.Throw)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,2d4,Necrotic,Magical)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0be7940c-ca66-4b1e-9547-52b4f0ecef61" />
