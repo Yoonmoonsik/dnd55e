@@ -118,7 +118,7 @@ See [Spell](./README/README_Spell.MD).
 
 ### Cantrips
 
-Acid Splash, Blade Ward, Chill Touch, Eldritch Blast, Finger Guns, Green-Flame Blade, Hellfire, Mind Sliver, Poison Spray, Prestidigitation, Resistance, Shillelagh, Sorcerous Burst, Spare the Dying, Starry Wisp, Sword Burst, Thunderclap, True Strike, Vicious Mockery, Word of Radiance.
+Acid Splash, Blade Ward, Chill Touch, Eldritch Blast, Finger Guns, Frightful Start, Green-Flame Blade, Hellfire, Mind Sliver, Poison Spray, Prestidigitation, Resistance, Shillelagh, Sorcerous Burst, Spare the Dying, Starry Wisp, Sword Burst, Thunderclap, True Strike, Vicious Mockery, Word of Radiance.
 
 ### Leveled Spells
 

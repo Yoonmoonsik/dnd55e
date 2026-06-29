@@ -7,6 +7,7 @@
 - Chill Touch
 - Eldritch Blast
 - Finger Guns
+- Frightful Start
 - Green-Flame Blade
 - Hellfire
 - Mind Sliver
