@@ -849,6 +849,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28d29c2e-51a7-40be-81df-a65794526c4f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_TidesOfChaos" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c62b9356-08c4-4783-b4db-a92087a408b1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not Dead(context.Observer) and ((Self(context.Source,context.Observer) and HasInterruptedAttack() and IsRerollInterruptInteresting(context.Source)) or (Self(context.Target,context.Observer) and HasInterruptedSavingThrow() and IsRerollInterruptInteresting())) and not AnyEntityIsItem() and not InterruptHasAdvantage();" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="41a7fc1f-e928-44bf-b8d5-07eda37975ae" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_RestoreBalance_NegateAdvantage" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ed6c9e8gda3agd358gefd4gde8c0591a01e" version="1" />

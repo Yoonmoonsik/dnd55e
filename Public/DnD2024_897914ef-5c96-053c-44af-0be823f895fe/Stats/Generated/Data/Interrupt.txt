@@ -632,6 +632,11 @@ data "EnableContext" ""
 new entry "__SORCERER__"
 type "InterruptData"
 
+new entry "Interrupt_TidesOfChaos"
+type "InterruptData"
+using "Interrupt_TidesOfChaos"
+data "Conditions" "not Dead(context.Observer) and ((Self(context.Source,context.Observer) and HasInterruptedAttack() and IsRerollInterruptInteresting(context.Source)) or (Self(context.Target,context.Observer) and HasInterruptedSavingThrow() and IsRerollInterruptInteresting())) and not AnyEntityIsItem() and not InterruptHasAdvantage();"
+
 new entry "Interrupt_RestoreBalance_NegateAdvantage"
 type "InterruptData"
 data "DisplayName" "h0ed6c9e8gda3agd358gefd4gde8c0591a01e;1"
