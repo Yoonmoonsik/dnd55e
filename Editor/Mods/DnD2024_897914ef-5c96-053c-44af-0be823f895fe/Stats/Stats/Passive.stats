@@ -7461,7 +7461,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6406ffe0g3bf9g37c9g6ad7g2ba1f01b1075" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1f7fcfe8g6d82ga644g381cg16c2d77b873e" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Reroll(MeleeUnarmedDamage,20,false);Reroll(RangedUnarmedDamage,20,false);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsUnarmedAttack()):Reroll(Damage,20,false);Reroll(RangedUnarmedDamage,20,false);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
