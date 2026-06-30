@@ -9,6 +9,99 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bac59583-c68f-47b7-8f54-af4cb25ab128" />
+        <field name="Name" type="NameTableFieldDefinition" value="AganazzarsScorcher" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceChange(Ignite);GROUND:SurfaceChange(Melt);TARGET:IF(Item()):ApplyStatus(BURNING,100,2);" />
+        <field name="SurfaceType" type="EnumerationTableFieldDefinition" value="Sentinel" enumeration_type_name="Surface Type" version="1" />
+        <field name="SurfaceLifetime" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SurfaceGrowStep" type="IntegerTableFieldDefinition" value="5" />
+        <field name="SurfaceGrowInterval" type="IntegerTableFieldDefinition" value="10" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d8, Fire,Magical);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(3d8/2, Fire,Magical);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Dead() and not (HasPassive('SculptSpells', context.Source) and Ally()) and not Tagged('INVISIBLE_HELPER')" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_AganazzarsScorcher" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haac8d098g36f5gfad0g0c19g710686be3050" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h05279eecg66b6g48b2gd7bbg31b8b9364190" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8, Fire);" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
+        <field name="TooltipOnSave" type="StringTableFieldDefinition" value="f762efbb-f8f1-493e-b248-2de1567b4bd2" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Fire)" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="TMP_Silence" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Fire_BurningHands_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_Fire_BurningHands_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="Shape" type="StringTableFieldDefinition" value="Square" />
+        <field name="FrontOffset" type="IntegerTableFieldDefinition" value="-2" />
+        <field name="Range" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Base" type="IntegerTableFieldDefinition" value="2" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;d30d2b40-c45a-45bd-94d7-9b2baaf0f77b,,;a601b33c-5320-455d-b4d4-74d6dc35b757,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;HasVerbalComponent;IsSpell;IsHarmful;CanAreaDamageEvade" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="fab371de-227d-4fde-aad6-868ae34c36da" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="bfe351bd-a007-4302-bb7a-9d2e98ecb3b6" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="a4786ee9-eb7c-4d0d-aaa9-9a637d9eaeaf" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Fire" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6a9664f6-083d-4a77-b0dd-b88bf1d81998" />
+        <field name="Name" type="NameTableFieldDefinition" value="AganazzarsScorcher_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bac59583-c68f-47b7-8f54-af4cb25ab128" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8, Fire,Magical);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(4d8/2, Fire,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8, Fire);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Zone_AganazzarsScorcher" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b0fa89d0-5ff1-4460-8c5c-30212e86eb84" />
+        <field name="Name" type="NameTableFieldDefinition" value="AganazzarsScorcher_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a9664f6-083d-4a77-b0dd-b88bf1d81998" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8, Fire,Magical);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d8/2, Fire,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8, Fire);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5317e650-c6d0-41e0-98b1-32875a5680e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="AganazzarsScorcher_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a9664f6-083d-4a77-b0dd-b88bf1d81998" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8, Fire,Magical);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d8/2, Fire,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8, Fire);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="076ecaf3-1eba-4639-85ae-7af9149af328" />
+        <field name="Name" type="NameTableFieldDefinition" value="AganazzarsScorcher_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a9664f6-083d-4a77-b0dd-b88bf1d81998" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d8, Fire,Magical);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(7d8/2, Fire,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8, Fire);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d9b49a77-618b-4123-b7d7-37217c8f98bd" />
         <field name="Name" type="NameTableFieldDefinition" value="GustOfWind" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="84604ee1-67a5-4f68-9f04-e6fe3b9fb996" />
