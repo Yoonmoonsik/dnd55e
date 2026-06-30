@@ -8000,5 +8000,5 @@ new entry "Target_Devour_Ghoul_AnimateDead"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_Devour_Ghoul_AnimateDead"
-data "TargetConditions" "not Self() and not Tagged('UNDEAD') and not Dead() and (HasStatus('PRONE') or HasStatus('PRONE_FALLEN') or HasStatus('PRONE_GREASE') or HasStatus('PRONE_ICE') or HasStatus('PRONE_SEWER') or HasStatus('PRONE_THUNDEROUS_SMITE') or HasStatus('KNOCKED_OUT') or HasStatus('SG_Prone') or HasStatus('SG_Sleeping'));"
+data "TargetConditions" "not Self() and not Tagged('UNDEAD') and not Dead() and (HasStatus('HIDEOUS_LAUGHTER') or HasStatus('COMMAND_GROVEL') or HasStatus('PRONE') or HasStatus('PRONE_FALLEN') or HasStatus('PRONE_GREASE') or HasStatus('PRONE_ICE') or HasStatus('PRONE_SEWER') or HasStatus('PRONE_THUNDEROUS_SMITE') or HasStatus('KNOCKED_OUT') or HasStatus('SG_Prone') or HasStatus('SG_Sleeping'));"
 

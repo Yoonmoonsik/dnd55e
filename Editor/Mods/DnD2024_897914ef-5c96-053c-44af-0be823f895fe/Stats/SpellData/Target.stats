@@ -9452,7 +9452,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="294d8c7a-addc-4c71-ae6c-d3f59cbc68a2" />
         <field name="Name" type="NameTableFieldDefinition" value="Devour_Ghoul_AnimateDead" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9411012a-8d9d-4977-9bf9-4549dcd2e8ef" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Tagged('UNDEAD') and not Dead() and (HasStatus('PRONE') or HasStatus('PRONE_FALLEN') or HasStatus('PRONE_GREASE') or HasStatus('PRONE_ICE') or HasStatus('PRONE_SEWER') or HasStatus('PRONE_THUNDEROUS_SMITE') or HasStatus('KNOCKED_OUT') or HasStatus('SG_Prone') or HasStatus('SG_Sleeping'));" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Tagged('UNDEAD') and not Dead() and (HasStatus('HIDEOUS_LAUGHTER') or HasStatus('COMMAND_GROVEL') or HasStatus('PRONE') or HasStatus('PRONE_FALLEN') or HasStatus('PRONE_GREASE') or HasStatus('PRONE_ICE') or HasStatus('PRONE_SEWER') or HasStatus('PRONE_THUNDEROUS_SMITE') or HasStatus('KNOCKED_OUT') or HasStatus('SG_Prone') or HasStatus('SG_Sleeping'));" />
       </fields>
     </stat_object>
   </stat_objects>
