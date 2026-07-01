@@ -78,7 +78,7 @@ See [Class](./README/README_Class.MD) and each class document for detailed level
 | [Monster Hunter](./README/README_Class_MonsterHunter.MD) | Carver Guild, Devourer Guild, Occultist Guild |
 | [Paladin](./README/README_Class_Paladin.MD) | Ancients, Crown, Devotion, Glory, Noble Genies, Vengeance, Oathbreaker |
 | [Ranger](./README/README_Class_Ranger.MD) | Beast Master, Fey Wanderer, Gloom Stalker, Hollow Warden, Hunter, Swarm Keeper, Winter Walker |
-| [Rogue](./README/README_Class_Rogue.MD) | Arcane Trickster, Assassin, Scion of the Three, Highway Rider, Soulknife, Swashbuckler, Thief |
+| [Rogue](./README/README_Class_Rogue.MD) | Arcane Trickster, Assassin, Blade of Radiance, Scion of the Three, Highway Rider, Soulknife, Swashbuckler, Thief |
 | [Sorcerer](./README/README_Class_Sorcerer.MD) | Aberrant Sorcery, Clockwork Sorcery, Draconic Sorcery, Frost Sorcery, Shadow Magic, Spellfire Sorcery, Storm Sorcery, Wild Magic Sorcery |
 | [Warlock](./README/README_Class_Warlock.MD) | Archfey, Celestial, Fiend, Great Old One, Hexblade, Undead, expanded Invocations |
 | [Wizard](./README/README_Class_Wizard.MD) | Abjurer, Bladesinger, Diviner, Evoker, Illusionist |

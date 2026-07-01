@@ -21,6 +21,15 @@
 - Level 3: Assassinate
 - Level 3: Assassin's Tools
 - Level 9: Infiltration Expertise
+## Blade of Radiance
+- Level 3: Sanctified Champion
+- Level 3: Divine Blessings
+- Level 3: Armor of the Faithful
+- Level 3: Divine Inspiration
+- Level 3: Rend the Blasphemous
+- Level 9: Chains of Judgement
+- Level 9: Divine Retaliation
+- Level 9: Erupting Blades
 ## Scion of the Three
 - Level 3: Bloodthirst
 - Level 3: Dread Allegiance
