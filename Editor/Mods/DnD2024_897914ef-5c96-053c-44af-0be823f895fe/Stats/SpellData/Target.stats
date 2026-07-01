@@ -9161,7 +9161,7 @@
         <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeWeaponAttack);CastOffhand[Attack(AttackType.MeleeOffHandWeaponAttack)]" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon+LevelMapValue(ProficiencyBonusD4), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self() and not Dead() and ((HasAdvantage(AttackType.MeleeWeaponAttack) and not HasDisadvantage(AttackType.MeleeWeaponAttack)) and HasStatus('INTERDICTED',context.Target);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self() and not Dead() and ((HasAdvantage(AttackType.MeleeWeaponAttack) and not HasDisadvantage(AttackType.MeleeWeaponAttack)) and HasStatus('INTERDICTED',context.Target));" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Mag_ShadowsoakedBlow" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf7851a9dg2c90ga420g9853gd855b8d447bc" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2a979e60g8047g338bg7d21g17a10ae143c0" version="2" />

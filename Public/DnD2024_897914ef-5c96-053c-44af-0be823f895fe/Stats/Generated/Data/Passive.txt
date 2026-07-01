@@ -1453,7 +1453,7 @@ data "Description" "h637fd45bg14ebg37d7g4fd0g0b738fa63f79;3"
 data "Icon" "MindDomain_3_PsychicFeedback"
 data "PriorityOrder" "3503"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "IF(IsSpell() and (IsDamageTypeRadiant() or IsDamageTypePsychic()):DamageBonus(CharismaModifier,Psychic);"
+data "Boosts" "IF(IsSpell() and (IsDamageTypeRadiant() or IsDamageTypePsychic())):DamageBonus(CharismaModifier,Psychic);"
 
 new entry "MindDomain_6_GestaltAnchor"
 type "PassiveData"

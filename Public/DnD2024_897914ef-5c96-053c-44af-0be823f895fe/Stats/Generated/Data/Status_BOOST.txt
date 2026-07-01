@@ -4270,7 +4270,7 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "DEFENSIVE_FIELD"
 data "DisplayName" "h702ee012gf2cegac5agc807g4f790f5c4902;1"
-data "DescriptionParams" "GainTemporaryHitPoints(Cause.LevelMapValue(EldritchCannonProtector);"
+data "DescriptionParams" "GainTemporaryHitPoints(Cause.LevelMapValue(EldritchCannonProtector)+Cause.IntelligenceModifier)"
 data "StackId" "EC_PROTECTOR"
 data "Boosts" "TemporaryHP(Cause.LevelMapValue(EldritchCannonProtector)+Cause.IntelligenceModifier);"
 

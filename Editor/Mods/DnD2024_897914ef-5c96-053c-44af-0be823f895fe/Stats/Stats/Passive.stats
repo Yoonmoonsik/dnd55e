@@ -1983,7 +1983,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="MindDomain_3_PsychicFeedback" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsSpell() and (IsDamageTypeRadiant() or IsDamageTypePsychic()):DamageBonus(CharismaModifier,Psychic);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsSpell() and (IsDamageTypeRadiant() or IsDamageTypePsychic())):DamageBonus(CharismaModifier,Psychic);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
