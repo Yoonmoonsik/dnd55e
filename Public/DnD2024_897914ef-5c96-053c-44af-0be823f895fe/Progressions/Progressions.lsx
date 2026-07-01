@@ -884,6 +884,71 @@
                     <attribute id="UUID" type="guid" value="90329a28-e7fe-4e10-b13a-de19bfc62717"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="SpiritsCollege"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Spirits_3_Channeler;Spirits_3_SpiritsFromBeyond"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
+                    <attribute id="UUID" type="guid" value="f3d25e0d-7f0d-4701-8804-67c028f52ced"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="SpiritsCollege"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Spirits_6_EmpoweredChanneling"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(c213ca01-3767-457b-a5c8-fd4c1dd656e2,1,0,BardSpells)"/>
+                    <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
+                    <attribute id="UUID" type="guid" value="0e94dfb7-94ab-47ca-93fd-12d4d669c5c3"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="SpiritsCollege"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
+                    <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
+                    <attribute id="UUID" type="guid" value="981d3ab4-e100-4203-9b5d-522680bfd9d2"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="SpiritsCollege"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
+                    <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
+                    <attribute id="UUID" type="guid" value="17cfd3cc-bc87-4c9a-9043-b48ef486e079"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="SpiritsCollege"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,2,1,BardSpells)"/>
+                    <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
+                    <attribute id="UUID" type="guid" value="3e457311-fa8e-4454-b447-7808fc05e7d1"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="SpiritsCollege"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
+                    <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
+                    <attribute id="UUID" type="guid" value="d3e2060b-5904-4bb8-8f1b-d1fe0d0ce028"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="SpiritsCollege"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
+                    <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
+                    <attribute id="UUID" type="guid" value="f6684dfb-7d3a-4f2b-8c1b-a06062d9ccdb"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="SpiritsCollege"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
+                    <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
+                    <attribute id="UUID" type="guid" value="0970439c-93e1-490c-b334-baa75ccb2008"/>
+                </node>
+                <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Cleric"/>
@@ -8218,7 +8283,7 @@
                     <attribute id="UUID" type="guid" value="60758c3f-d9c5-4f1a-a253-cf2a5e60b627"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0);Resistance(Psychic,Poison)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0);Resistance(Psychic,Resistant)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Githyanki"/>
                     <attribute id="PassivesAdded" type="LSString" value="Gith_MartialProdigy"/>
@@ -8353,71 +8418,6 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="3"/>
-                    <attribute id="Name" type="LSString" value="SpiritsCollege"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Spirits_3_Channeler;Spirits_3_SpiritsFromBeyond"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
-                    <attribute id="UUID" type="guid" value="f3d25e0d-7f0d-4701-8804-67c028f52ced"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="6"/>
-                    <attribute id="Name" type="LSString" value="SpiritsCollege"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Spirits_6_EmpoweredChanneling"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(c213ca01-3767-457b-a5c8-fd4c1dd656e2,1,0,BardSpells)"/>
-                    <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
-                    <attribute id="UUID" type="guid" value="0e94dfb7-94ab-47ca-93fd-12d4d669c5c3"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="7"/>
-                    <attribute id="Name" type="LSString" value="SpiritsCollege"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
-                    <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
-                    <attribute id="UUID" type="guid" value="981d3ab4-e100-4203-9b5d-522680bfd9d2"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="8"/>
-                    <attribute id="Name" type="LSString" value="SpiritsCollege"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
-                    <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
-                    <attribute id="UUID" type="guid" value="17cfd3cc-bc87-4c9a-9043-b48ef486e079"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="9"/>
-                    <attribute id="Name" type="LSString" value="SpiritsCollege"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,2,1,BardSpells)"/>
-                    <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
-                    <attribute id="UUID" type="guid" value="3e457311-fa8e-4454-b447-7808fc05e7d1"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="10"/>
-                    <attribute id="Name" type="LSString" value="SpiritsCollege"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
-                    <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
-                    <attribute id="UUID" type="guid" value="d3e2060b-5904-4bb8-8f1b-d1fe0d0ce028"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="11"/>
-                    <attribute id="Name" type="LSString" value="SpiritsCollege"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
-                    <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
-                    <attribute id="UUID" type="guid" value="f6684dfb-7d3a-4f2b-8c1b-a06062d9ccdb"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="12"/>
-                    <attribute id="Name" type="LSString" value="SpiritsCollege"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
-                    <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
-                    <attribute id="UUID" type="guid" value="0970439c-93e1-490c-b334-baa75ccb2008"/>
                 </node>
             </children>
         </node>
