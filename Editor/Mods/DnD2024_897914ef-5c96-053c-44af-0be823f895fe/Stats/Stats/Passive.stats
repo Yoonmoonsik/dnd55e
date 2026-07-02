@@ -1070,6 +1070,82 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ConsumeDarkness);" />
       </fields>
     </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="457f065d-940c-424e-b880-08e9eb925d07" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fractured_3_FaceOfRage" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8130ff94gaab7gaff6gf12bgac599c7bd03e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h19bace45g8db7g181dgc420ge0fc17190c49" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Fractured_3_FaceOfRage" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1303" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('SG_Rage', context.Source)):CharacterUnarmedDamage(ProficiencyBonus+1d8);IF(HasStatus('SG_Rage', context.Source)):UnlockSpellVariant(HasStringInSpellRoll('AttackType.MeleeUnarmedAttack'),ModifyTargetRadius(Multiplicative, 1.5));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b39b22c6-e8cd-426b-85d0-3558a1a48f01" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fractured_3_FaceOfRage_Toggle_Push" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h954836cfg0b63g6106g5d15g224a3463e27e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2c508ab1g6e88g9fc6g8d98gf93c24fc5e1a" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeUnarmedAttack() and not IsMiss() and HasStatus('SG_Rage', context.Source);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PUSH_3M,100,0)" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="Fractured_3_FaceOfRage_Push" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Charger_Push" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f2158585-2014-4e67-817c-9ac0d430dac3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fractured_3_FaceOfRage_Toggle_Prone" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b39b22c6-e8cd-426b-85d0-3558a1a48f01" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h534ed7cdg1c82g686bg5c11g853eb4fc79da" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9ab20eb3gc598g3449gb504g354483f2972b" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, ManeuverSaveDC()))" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Trip" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="462018b6-dd03-4b7f-92dc-60fda3cf57cd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fractured_3_MaskOfCivility" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1f2a95a9gb577g787bgb156g888616ccad6a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb18ef098g90c9g4ad7gaf03g5aee30c02615" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Investigation" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1303" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c182aeba-9390-4b00-81e6-a477d705bb08" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fractured_6_BrainsAndBrawn" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9bf00f77g7323g0f09g943dg0f62ae2d5816" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb0b38705ga312g7e31g9767g722d245f3d33" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="MindDomain_3_MindDomainSpells" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1306" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('SG_Rage', context.Source)):Resistance(Psychic,Resistant);IF(HasStatus('SG_Rage', context.Source)):Resistance(Acid, Resistant);IF(HasStatus('SG_Rage', context.Source)):Resistance(Cold, Resistant);IF(HasStatus('SG_Rage', context.Source)):Resistance(Fire, Resistant);IF(HasStatus('SG_Rage', context.Source)):Resistance(Lightning, Resistant);IF(HasStatus('SG_Rage', context.Source)):Resistance(Necrotic, Resistant);IF(HasStatus('SG_Rage', context.Source)):Resistance(Poison, Resistant);IF(HasStatus('SG_Rage', context.Source)):Resistance(Radiant, Resistant);IF(HasStatus('SG_Rage', context.Source)):Resistance(Thunder, Resistant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8812194f-d6cb-44f9-9957-bc343743fcf2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fractured_10_CunningAndBrutal" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcb5a649cg1519gbd23g0221g4d0efabd2166" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcdd6b1c9gc361g1c98gc596g4eefab4fdf0f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Disengage_Bonus" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1310" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('SG_Rage', context.Source)):UnlockSpell(Shout_Disengage_BonusAction);IF(not HasStatus('SG_Rage', context.Source)):UnlockSpell(Target_Help_BonusAction);IF(HasStatus('SG_Rage', context.Source) and IsMeleeUnarmedAttack()):ReduceCriticalAttackThreshold(1);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFEE82EE" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="152e5b9f-4ddf-4005-8e45-65c53081eb4f" />

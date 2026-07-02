@@ -345,5 +345,12 @@
         <field name="Passives" type="StringTableFieldDefinition" value="Goliath_1_GiantAncestry_Cloud,Goliath_1_GiantAncestry_Fire,Goliath_1_GiantAncestry_Frost,Goliath_1_GiantAncestry_Hill,Goliath_1_GiantAncestry_Stone,Goliath_1_GiantAncestry_Storm" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28657ca3-eab0-44d5-b1ac-1fae260dd486" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fractured Mask of Civility List" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Arcana,History,Investigation,Medicine,Nature,Persuasion,Religion" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

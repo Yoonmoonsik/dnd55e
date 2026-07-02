@@ -67,7 +67,7 @@ See [Class](./README/README_Class.MD) and each class document for detailed level
 | Class | Subclasses and Notes |
 | --- | --- |
 | [Artificer](./README/README_Class_Artificer.MD) | Alchemist, Armorer, Artillerist, Battle Smith |
-| [Barbarian](./README/README_Class_Barbarian.MD) | Berserker, Giant, Shadow Gnawer, Wild Magic, Wildheart, World Tree, Zealot |
+| [Barbarian](./README/README_Class_Barbarian.MD) | Berserker, Fractured, Giant, Shadow Gnawer, Wild Magic, Wildheart, World Tree, Zealot |
 | [Bard](./README/README_Class_Bard.MD) | Dance, Swords, Glamour, Lore, Moon, Valor |
 | [Cleric](./README/README_Class_Cleric.MD) | Apocalypse, Astral, Death, Grave, Nature, Shadow, Tempest, Knowledge, Life, Light, Mind, Trickery, War |
 | [Druid](./README/README_Class_Druid.MD) | Circle of Dragons, Dreams, Stars, Land, Moon, Sea, Spores, Unbroken |

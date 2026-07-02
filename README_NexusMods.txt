@@ -53,7 +53,7 @@ Chondathan Freebooter, Dead Magic Dweller, Dragon Cultist, Emerald Enclave Caret
 
 [list]
 [*][b]Artificer[/b] — Alchemist, Armorer, Artillerist, Battle Smith
-[*][b]Barbarian[/b] — Berserker, Giant, Shadow Gnawer, Wild Magic, Wildheart, World Tree, Zealot
+[*][b]Barbarian[/b] — Berserker, Fractured, Giant, Shadow Gnawer, Wild Magic, Wildheart, World Tree, Zealot
 [*][b]Bard[/b] — Dance, Swords, Glamour, Lore, Moon, Valor
 [*][b]Cleric[/b] — Apocalypse, Astral, Death, Grave, Nature, Tempest, Knowledge, Life, Light, Mind, Trickery, War
 [*][b]Druid[/b] — Circle of Dragons, Dreams, Stars, Land, Moon, Sea, Spores, Unbroken

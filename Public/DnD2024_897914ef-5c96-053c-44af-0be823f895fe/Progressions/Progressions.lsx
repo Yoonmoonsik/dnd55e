@@ -54,6 +54,9 @@
                                     <attribute id="Object" type="guid" value="32eee7d8-1b2f-4de5-b9ee-78fbd286c6ef"/>
                                 </node>
                                 <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="1434b384-f51c-4f78-ad7f-db0f13f5a3ee"/>
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="07234f31-c239-4a57-aeb4-868f3e1a318e"/>
                                 </node>
                                 <node id="SubClass">
@@ -337,6 +340,31 @@
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="636456e2-93bc-4567-aae5-0abb0aad450e"/>
                     <attribute id="UUID" type="guid" value="6243f0ca-576d-4595-b2ef-906ba0613c1b"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Fractured"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Fractured_3_FaceOfRage;Fractured_3_FaceOfRage_Toggle_Push;Fractured_3_FaceOfRage_Toggle_Prone;Fractured_3_MaskOfCivility;MeleeUnarmedAttackBonus"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(28657ca3-eab0-44d5-b1ac-1fae260dd486,1,MaskOfCivility)"/>
+                    <attribute id="TableUUID" type="guid" value="c6417c1d-3d25-48f4-86ab-0a1d4d69be6f"/>
+                    <attribute id="UUID" type="guid" value="014bcb4a-7e45-4ce9-93e8-b00b35a4a9dc"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="Fractured"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Fractured_6_BrainsAndBrawn"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="c6417c1d-3d25-48f4-86ab-0a1d4d69be6f"/>
+                    <attribute id="UUID" type="guid" value="4169d026-5ddd-416e-a5a6-64ed73dc63a1"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="Fractured"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Fractured_10_CunningAndBrutal"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="c6417c1d-3d25-48f4-86ab-0a1d4d69be6f"/>
+                    <attribute id="UUID" type="guid" value="4a90cd2e-bf5d-4453-bee7-b3157b6764fa"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(SimpleWeapons);Proficiency(MusicalInstrument);Attribute(UseMusicalInstrumentForCasting)"/>

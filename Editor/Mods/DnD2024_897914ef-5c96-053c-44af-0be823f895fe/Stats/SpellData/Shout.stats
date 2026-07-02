@@ -15,6 +15,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7650d474-9c29-4266-81e9-c4037701bbb7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Disengage_BonusAction" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="701b4f79-15bf-4da8-a70b-bfe613bee61f" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="NoCameraMove;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="47a715f3-40a5-4bde-9b4a-2c3df1ebe842" />
         <field name="Name" type="NameTableFieldDefinition" value="Hide" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="45fab3f5-5c1b-41ba-bd40-0d506eac0f94" />

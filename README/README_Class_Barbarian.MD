@@ -18,6 +18,11 @@
 - Level 3: Frenzy
 - Level 6: Mindless Rage
 - Level 10: Retaliation
+## Fractured
+- Level 3: Face of Rage
+- Level 3: Mask of Civility
+- Level 6: Brains and Brawn
+- Level 10: Cunning and Brutal
 ## Giant
 ## Shadow Gnawer
 - Level 3: Shadow Smoke

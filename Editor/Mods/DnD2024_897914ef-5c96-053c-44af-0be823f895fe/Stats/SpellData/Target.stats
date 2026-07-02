@@ -36,6 +36,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="727f187e-c4eb-4826-915b-eac896f662bc" />
+        <field name="Name" type="NameTableFieldDefinition" value="Help_BonusAction" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2dc581b0-965b-4cd5-afdf-5ec4f778afe8" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cdb27210-ee60-40e2-9145-497ed7000dc9" />
         <field name="Name" type="NameTableFieldDefinition" value="Distract" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="dfc3f62f-61cf-49d2-833c-9504d3134615" />

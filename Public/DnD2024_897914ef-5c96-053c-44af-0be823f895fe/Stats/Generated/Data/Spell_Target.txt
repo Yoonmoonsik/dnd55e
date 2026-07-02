@@ -23,6 +23,13 @@ data "SpellType" "Target"
 using "Target_Help"
 data "SpellProperties" "RemoveStatus(SG_Sleeping);RemoveStatus(SG_Helpable_Condition);RemoveStatus(BURNING);RemoveStatus(SG_Prone);RemoveStatus(SG_Restrained);RemoveStatus(PRONE);RemoveStatus(SLEEPING);RemoveStatus(SLEEP);RemoveStatus(ENSNARING_STRIKE);RemoveStatus(WEB);IF(IsDowned() and SkillCheck(Skill.Medicine,10)):RegainHitPoints(1);RemoveStatus(HYPNOTIC_PATTERN);IF(HasPassive('EmeraldEnclaveFledgling',context.Source)):SwapPlaces();"
 
+new entry "Target_Help_BonusAction"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Help"
+data "UseCosts" "BonusActionPoint:1"
+data "SpellFlags" "IsMelee;Temporary"
+
 new entry "Target_Distract"
 type "SpellData"
 data "SpellType" "Target"

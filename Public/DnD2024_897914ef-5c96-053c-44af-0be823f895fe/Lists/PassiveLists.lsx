@@ -254,6 +254,11 @@
                     <attribute id="Passives" type="LSString" value="Goliath_1_GiantAncestry_Cloud,Goliath_1_GiantAncestry_Fire,Goliath_1_GiantAncestry_Frost,Goliath_1_GiantAncestry_Hill,Goliath_1_GiantAncestry_Stone,Goliath_1_GiantAncestry_Storm"/>
                     <attribute id="UUID" type="guid" value="4ef24101-ccab-47cd-8196-55da7c92ccd4"/>
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Fractured Mask of Civility List"/>
+                    <attribute id="Passives" type="LSString" value="Arcana,History,Investigation,Medicine,Nature,Persuasion,Religion"/>
+                    <attribute id="UUID" type="guid" value="28657ca3-eab0-44d5-b1ac-1fae260dd486"/>
+                </node>
             </children>
         </node>
     </region>

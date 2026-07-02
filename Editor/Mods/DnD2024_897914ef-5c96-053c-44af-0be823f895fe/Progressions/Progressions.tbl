@@ -56,7 +56,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice12,1,0);ActionResource(Rage,1,0)" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="32eee7d8-1b2f-4de5-b9ee-78fbd286c6ef;07234f31-c239-4a57-aeb4-868f3e1a318e;8287c130-a3aa-4c88-bceb-be9d8fe1be84;2e585948-d775-451d-b58b-15b75321d11e;d6bf00fc-3518-4d63-ba8b-03532c1abc4d;d6db66be-cc60-4ebd-bf63-2a856bbfedaf;0e37e9bc-3909-49f4-8035-6d9736ad6867" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="32eee7d8-1b2f-4de5-b9ee-78fbd286c6ef;1434b384-f51c-4f78-ad7f-db0f13f5a3ee;07234f31-c239-4a57-aeb4-868f3e1a318e;8287c130-a3aa-4c88-bceb-be9d8fe1be84;2e585948-d775-451d-b58b-15b75321d11e;d6bf00fc-3518-4d63-ba8b-03532c1abc4d;d6db66be-cc60-4ebd-bf63-2a856bbfedaf;0e37e9bc-3909-49f4-8035-6d9736ad6867" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Barbarian_3_PrimalKnowledge" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(4f027368-7aa6-4a3a-a1ce-d5195ba2ba27,1)" />
       </fields>
@@ -418,6 +418,40 @@
         <field name="Level" type="ByteTableFieldDefinition" value="10" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="ShadowGnawer_10_ConsumeDarkness" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_962" />
+        <field name="UUID" type="IdTableFieldDefinition" value="014bcb4a-7e45-4ce9-93e8-b00b35a4a9dc" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="c6417c1d-3d25-48f4-86ab-0a1d4d69be6f" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fractured" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Fractured_3_FaceOfRage;Fractured_3_FaceOfRage_Toggle_Push;Fractured_3_FaceOfRage_Toggle_Prone;Fractured_3_MaskOfCivility;MeleeUnarmedAttackBonus" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(28657ca3-eab0-44d5-b1ac-1fae260dd486,1,MaskOfCivility)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_963" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4169d026-5ddd-416e-a5a6-64ed73dc63a1" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="c6417c1d-3d25-48f4-86ab-0a1d4d69be6f" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fractured" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Fractured_6_BrainsAndBrawn" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_964" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4a90cd2e-bf5d-4453-bee7-b3157b6764fa" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="c6417c1d-3d25-48f4-86ab-0a1d4d69be6f" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fractured" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Fractured_10_CunningAndBrutal" />
       </fields>
     </stat_object>
     <stat_object color="#FFEE82EE" is_substat="false">

@@ -8,6 +8,12 @@ data "DisplayName" "h6dcb6809g7168g4354g88a0g1ef30ed6de8a;1"
 data "Description" "h725e9f8cg6262g4384g8f9fg596f94e2ceee;4"
 data "TooltipStatusApply" "ApplyStatus(DODGE,100,1)"
 
+new entry "Shout_Disengage_BonusAction"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Disengage_BonusAction"
+data "SpellFlags" "NoCameraMove;Temporary"
+
 new entry "Shout_Hide"
 type "SpellData"
 data "SpellType" "Shout"
