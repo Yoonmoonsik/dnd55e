@@ -50,7 +50,7 @@ For gameplay examples, build ideas, and practical references, check the playthro
 
 ## Character Backgrounds
 
-See [Character Background](./README/README_Background.MD).
+See [Character Background](https://github.com/Yoonmoonsik/dnd55e/wiki/Backgrounds).
 
 ### Player's Handbook
 
@@ -62,31 +62,31 @@ Chondathan Freebooter, Dead Magic Dweller, Dragon Cultist, Emerald Enclave Caret
 
 ## Classes
 
-See [Class](./README/README_Class.MD) and each class document for detailed level progression and subclass features.
+See the [Wiki](https://github.com/Yoonmoonsik/dnd55e/wiki) and each class page for detailed level progression and subclass features.
 
 | Class | Subclasses and Notes |
 | --- | --- |
-| [Artificer](./README/README_Class_Artificer.MD) | Alchemist, Armorer, Artillerist, Battle Smith |
-| [Barbarian](./README/README_Class_Barbarian.MD) | Berserker, Fractured, Giant, Shadow Gnawer, Wild Magic, Wildheart, World Tree, Zealot |
-| [Bard](./README/README_Class_Bard.MD) | Dance, Swords, Glamour, Lore, Moon, Valor |
-| [Cleric](./README/README_Class_Cleric.MD) | Apocalypse, Astral, Death, Grave, Nature, Shadow, Tempest, Knowledge, Life, Light, Mind, Trickery, War |
-| [Druid](./README/README_Class_Druid.MD) | Circle of Dragons, Dreams, Stars, Land, Moon, Sea, Spores, Unbroken |
-| [Fighter](./README/README_Class_Fighter.MD) | Arcane Archer, Banneret, Battle Master, Cavalier, Champion, Eldritch Knight, Psi Warrior, Rune Knight, Viking |
-| [Gunslinger](./README/README_Class_Gunslinger.MD) | High Roller, Spellslinger, White Hat |
-| [Illrigger](./README/README_Class_Illrigger.MD) | Hellspeaker, Painkiller, Sanguine Knight, Shadowmaster |
-| [Monk](./README/README_Class_Monk.MD) | Elements, Kensei, Mercy, Open Hand, Shadow |
-| [Monster Hunter](./README/README_Class_MonsterHunter.MD) | Carver Guild, Devourer Guild, Occultist Guild |
-| [Paladin](./README/README_Class_Paladin.MD) | Ancients, Crown, Devotion, Glory, Noble Genies, Vengeance, Oathbreaker |
-| [Ranger](./README/README_Class_Ranger.MD) | Beast Master, Fey Wanderer, Gloom Stalker, Hollow Warden, Hunter, Swarm Keeper, Winter Walker |
-| [Rogue](./README/README_Class_Rogue.MD) | Arcane Trickster, Assassin, Blade of Radiance, Scion of the Three, Highway Rider, Soulknife, Swashbuckler, Thief |
-| [Sorcerer](./README/README_Class_Sorcerer.MD) | Aberrant Sorcery, Clockwork Sorcery, Draconic Sorcery, Frost Sorcery, Shadow Magic, Spellfire Sorcery, Storm Sorcery, Wild Magic Sorcery |
-| [Warlock](./README/README_Class_Warlock.MD) | Archfey, Celestial, Fiend, Great Old One, Hexblade, Undead, expanded Invocations |
-| [Wizard](./README/README_Class_Wizard.MD) | Abjurer, Bladesinger, Diviner, Evoker, Illusionist |
+| [Artificer](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Artificer) | Alchemist, Armorer, Artillerist, Battle Smith |
+| [Barbarian](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Barbarian) | Berserker, Fractured, Giant, Shadow Gnawer, Wild Magic, Wildheart, World Tree, Zealot |
+| [Bard](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Bard) | Dance, Swords, Glamour, Lore, Moon, Valor |
+| [Cleric](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Cleric) | Apocalypse, Astral, Death, Grave, Nature, Shadow, Tempest, Knowledge, Life, Light, Mind, Trickery, War |
+| [Druid](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Druid) | Circle of Dragons, Dreams, Stars, Land, Moon, Sea, Spores, Unbroken |
+| [Fighter](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Fighter) | Arcane Archer, Banneret, Battle Master, Cavalier, Champion, Eldritch Knight, Psi Warrior, Rune Knight, Viking |
+| [Gunslinger](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Gunslinger) | High Roller, Spellslinger, White Hat |
+| [Illrigger](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Illrigger) | Hellspeaker, Painkiller, Sanguine Knight, Shadowmaster |
+| [Monk](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Monk) | Elements, Kensei, Mercy, Open Hand, Shadow |
+| [Monster Hunter](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Monster-Hunter) | Carver Guild, Devourer Guild, Occultist Guild |
+| [Paladin](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Paladin) | Ancients, Crown, Devotion, Glory, Noble Genies, Vengeance, Oathbreaker |
+| [Ranger](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Ranger) | Beast Master, Fey Wanderer, Gloom Stalker, Hollow Warden, Hunter, Swarm Keeper, Winter Walker |
+| [Rogue](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Rogue) | Arcane Trickster, Assassin, Blade of Radiance, Scion of the Three, Highway Rider, Soulknife, Swashbuckler, Thief |
+| [Sorcerer](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Sorcerer) | Aberrant Sorcery, Clockwork Sorcery, Draconic Sorcery, Frost Sorcery, Shadow Magic, Spellfire Sorcery, Storm Sorcery, Wild Magic Sorcery |
+| [Warlock](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Warlock) | Archfey, Celestial, Fiend, Great Old One, Hexblade, Undead, expanded Invocations |
+| [Wizard](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Wizard) | Abjurer, Bladesinger, Diviner, Evoker, Illusionist |
 | Psion | Coming soon |
 
 ## Feats
 
-See [Feat](./README/README_Feat.MD).
+See [Feat](https://github.com/Yoonmoonsik/dnd55e/wiki/Feats).
 
 ### Fighting Styles
 
@@ -106,7 +106,7 @@ Archery, Blind Fighting, Defense, Dueling, Great Weapon Fighting, Interception, 
 
 ## Races and Species
 
-See [Race](./README/README_Race.MD).
+See [Race](https://github.com/Yoonmoonsik/dnd55e/wiki/Races).
 
 - Aasimar, Dhampir, Goliath, and Kalashtar are available as Human subclass options.
 - Dragonborn, Dwarf, Elf, Githyanki, Gnome, Half Elf, Halfling, Human, Orc, and Tiefling are supported.
@@ -114,7 +114,7 @@ See [Race](./README/README_Race.MD).
 
 ## Spells
 
-See [Spell](./README/README_Spell.MD).
+See [Spell](https://github.com/Yoonmoonsik/dnd55e/wiki/Spells).
 
 ### Cantrips
 
@@ -131,8 +131,6 @@ Acid Splash, Blade Ward, Chill Touch, Eldritch Blast, Finger Guns, Frightful Sta
 
 ## Items
 
-See [Item](./README/README_Item.MD).
-
 ### Equipment
 
 Argument Solver, Blazer of Benevolence, Cap of Curing, Chain of Liberation, Charge-Bound Warhammer, Corrosive Flail, Dragon's Grasp, Enforcer Club, Enforcer Helmet, Enforcer Shield, Gloves of Heroism, Hellrider's Pride, Helmet of Smiting, Holy Avenger, Hoppy, Hunting Shortbow, Moon Sickle, Musket, Musket +1, Musket +2, Pistol, Pistol +1, Pistol +2, Rupturing Blade, Spellthief, The Baneful, The Oak Father's Embrace, The Sacred Star, True Name, Voltedge, Xyanyde.
@@ -143,8 +141,6 @@ Spell scrolls of 3rd level or higher are restricted to specific classes.
 
 ## Creatures
 
-See [Creatures](./README/README_Creatures.MD).
-
 - Bugbear
 - Dire Wolf
 - Wolf
@@ -152,7 +148,7 @@ See [Creatures](./README/README_Creatures.MD).
 
 ## Credits
 
-See [Credits](./README/README_Credits.MD) for full attribution.
+See the [Wiki](https://github.com/Yoonmoonsik/dnd55e/wiki) for full attribution.
 
 - **Korean / Japanese Translation**: [Eolaloe](https://www.nexusmods.com/profile/Eolaloe)
 - **Spanish / Latin Spanish Translation**: [incolhermex-droid](https://github.com/incolhermex-droid)
