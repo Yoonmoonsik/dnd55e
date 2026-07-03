@@ -524,30 +524,59 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Dead() and not Ally();" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Force);" />
         <field name="Range" type="IntegerTableFieldDefinition" value="18" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Force);ExecuteWeaponFunctors(MainHand);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d8/2,Force);" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Force);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Ranger_ConjureBarrage_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Ranger_ConjureBarrage_L1to3" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful;CanAreaDamageEvade" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e7a1c3ac-a17a-4f34-99f5-d67b84f9b2e9" />
-        <field name="Name" type="NameTableFieldDefinition" value="ConjureBarrage_Melee" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="7af9306f-9bc4-49f2-b54e-bc4a4c53c9ec" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Force);ExecuteWeaponFunctors(MainHand);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d8/2,Force);" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureBarrage_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="24386609-17dd-4c11-8373-d5b343fd9793" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Force);ExecuteWeaponFunctors(MainHand);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d8/2,Force);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Dead() and not Ally();" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Force);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Force);" />
         <field name="Range" type="IntegerTableFieldDefinition" value="18" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Zone_ConjureBarrage" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="78b59c27-c702-4b37-a0fa-c70204d0f8ee" />
-        <field name="Name" type="NameTableFieldDefinition" value="ConjureBarrage_Ranged" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="787c3472-5a37-4ca0-b13a-cf6755bf2f39" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Force);ExecuteWeaponFunctors(MainHand);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d8/2,Force);" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureBarrage_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e7a1c3ac-a17a-4f34-99f5-d67b84f9b2e9" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d8,Force);ExecuteWeaponFunctors(MainHand);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(7d8/2,Force);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Dead() and not Ally();" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Force);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Force);" />
         <field name="Range" type="IntegerTableFieldDefinition" value="18" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed6d245c-3cbc-470f-a751-14a494879cc0" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureBarrage_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e7a1c3ac-a17a-4f34-99f5-d67b84f9b2e9" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d8,Force);ExecuteWeaponFunctors(MainHand);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(8d8/2,Force);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Force);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
