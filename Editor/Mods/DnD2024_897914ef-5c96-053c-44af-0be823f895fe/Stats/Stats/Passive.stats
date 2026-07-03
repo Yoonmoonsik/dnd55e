@@ -5076,9 +5076,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="ecde94b6-438c-4bae-b871-e1d47af3c98d" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha12d8231ga51ag15b0gaa53g6e00282dc4a2" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11001" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h3952e016gc549gd27fgc618ga417ad5120c1" version="1" />
-        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(1,'Warlock',context.Source);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5088,9 +5085,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="c4d6c4c6-78f2-4188-b1ce-03c01a528cfd" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he1bd3e3eg338fg58d5g3de3g9be05e9302e7" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11001" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="he0d8fa8bgadb5g8c7fga076gbec7aa4441cb" version="1" />
-        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(1,'Warlock',context.Source);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5100,9 +5094,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="a86efcde-4bd1-4000-86f5-282dad36734e" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9e2924dag8101gd3b2g68a2g6add03aed4dd" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11001" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h30fd69d5ge1a6gda26g435dgb055ede6ab30" version="1" />
-        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(1,'Warlock',context.Source);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5113,9 +5104,6 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h25396b5dgdf7bg8d51g09d5g87f669d3be25" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11001" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h9216324dgcc3bg6778ga40aga3796b155c0c" version="1" />
-        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(1,'Warlock',context.Source);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5126,9 +5114,6 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h007cf464gd375gf74bg38ccgdc14ddbc38cf" version="1" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11001" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h29e638a5g9fe4gca09gb884g608413f8e11f" version="1" />
-        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(1,'Warlock',context.Source);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5138,9 +5123,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="f2bcce1b-0be1-43b9-9cf5-3d26e4bc0962" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f9d1ae5g4592g2f49gb8c7g87c552837f15" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11001" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h74e5b82bg3e1eg42d0g108ag8296ce9e9f59" version="1" />
-        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(1,'Warlock',context.Source);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5153,9 +5135,6 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11001" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Concentration)" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h89cc571cg9734g0e75g9d8fg69ec4116823f" version="1" />
-        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="BoostConditions" type="StringTableFieldDefinition" value="ClassLevelHigherOrEqualThan(1,'Warlock',context.Source);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
