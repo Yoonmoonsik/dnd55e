@@ -1,0 +1,35 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_VoidStrike",_, _)
+AND
+HasActiveStatus(_Player, "VOID_STRIKE_OWNER", 0)
+THEN
+ApplyStatus(_Player, "VOID_STRIKE_OWNER", -1.0, 1, _Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_VoidStrike_4",_, _)
+AND
+HasActiveStatus(_Player, "VOID_STRIKE_OWNER", 0)
+THEN
+ApplyStatus(_Player, "VOID_STRIKE_OWNER", -1.0, 1, _Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_VoidStrike_5",_, _)
+AND
+HasActiveStatus(_Player, "VOID_STRIKE_OWNER", 0)
+THEN
+ApplyStatus(_Player, "VOID_STRIKE_OWNER", -1.0, 1, _Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_VoidStrike_6",_, _)
+AND
+HasActiveStatus(_Player, "VOID_STRIKE_OWNER", 0)
+THEN
+ApplyStatus(_Player, "VOID_STRIKE_OWNER", -1.0, 1, _Player);
+EXITSECTION
+
+ENDEXITSECTION
