@@ -11,12 +11,15 @@ local SPELL_CLASS_MAP = {
     Projectile_ChainLightning = '6 Sorcerer Wizard',
     Projectile_Disintegrate = '6 Sorcerer Wizard',
     Projectile_Fireball = '3 Sorcerer Wizard',
+    Projectile_VitriolicSphere = '4 Sorcerer Wizard',
+    Projectile_VoidStrike = '3 Wizard',
 
     Shout_Blink = '3 Sorcerer Wizard Artificer',
     Shout_FireShield = '4 Druid Sorcerer Wizard',
     Shout_FireShield_Warm = '4 Druid Sorcerer Wizard',
     Shout_FireShield_Chill = '4 Druid Sorcerer Wizard',
     Shout_FlameBlade = '2 Druid Sorcerer',
+    Shout_FountOfMoonlight = '4 Bard Druid',
 
     Target_Blight = '4 Druid Sorcerer Warlock Wizard',
     Target_CircleOfDeath = '6 Sorcerer Warlock Wizard',
@@ -39,6 +42,7 @@ local SPELL_CLASS_MAP = {
     Target_IceStorm = '4 Druid Sorcerer Wizard',
     Target_Invisibility_Greater = '4 Bard Sorcerer Wizard',
     Target_IrresistibleDance = '6 Bard Wizard',
+    Target_MurmursOfDoom = '3 Bard Warlock',
     Target_PhantasmalKiller = '4 Bard Wizard',
     Target_PlanarBinding = '5 Bard Cleric Druid Warlock Wizard',
     Target_Polymorph = '4 Bard Druid Sorcerer Wizard',
@@ -47,8 +51,13 @@ local SPELL_CLASS_MAP = {
     Target_Seeming = '5 Bard Sorcerer Wizard',
     Target_SleetStorm = '3 Druid Sorcerer Wizard',
     Target_Slow = '3 Bard Sorcerer Wizard',
+    Target_SpellfireStorm = '4 Sorcerer Wizard',
+    Target_SteelWindStrike = '5 Wizard',
     Target_StinkingCloud = '3 Bard Sorcerer Wizard',
     Target_Stoneskin = '4 Druid Ranger Sorcerer Wizard Artificer',
+    Target_SummonFey = '3 Druid Ranger Warlock Wizard',
+    Target_SynapticStatic = '5 Bard Sorcerer Warlock Wizard',
+    Target_TrollbloodInfusion = '3 Bard Cleric Druid Warlock',
     Target_VampiricTouch = '3 Sorcerer Warlock Wizard',
 
     Teleportation_DimensionDoor = '4 Bard Sorcerer Warlock Wizard',
@@ -57,10 +66,13 @@ local SPELL_CLASS_MAP = {
     Wall_WallOfIce = '6 Wizard',
     Wall_WallOfStone = '5 Druid Sorcerer Wizard Artificer',
 
+    Zone_AstralFlood = '3 Bard Sorcerer Wizard',
     Zone_ConeOfCold = '5 Druid Sorcerer Wizard',
     Zone_Fear = '3 Bard Sorcerer Warlock Wizard',
     Zone_LightningBolt = '3 Sorcerer Wizard',
+    Zone_MurderOfCrows = '4 Druid Sorcerer Warlock Wizard',
     Zone_Sunbeam = '6 Cleric Druid Sorcerer Wizard',
+    Zone_TidalWave = '3 Druid Sorcerer Wizard',
 }
 
 local MULTICLASS_SLOT_LEVEL = {
