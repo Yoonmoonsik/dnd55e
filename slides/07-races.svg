@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="24%" r="80%">
+      <stop offset="0%" stop-color="#241c3f"/>
+      <stop offset="55%" stop-color="#14101f"/>
+      <stop offset="100%" stop-color="#09070f"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7dd97"/>
+      <stop offset="50%" stop-color="#e8b84b"/>
+      <stop offset="100%" stop-color="#c98f2c"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8b84b" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#e8b84b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#e8b84b" stop-opacity="0.55"/>
+    </linearGradient>
+</defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="url(#bgGlow)"/>
+  
+  <g fill="#f7dd97" opacity="0.28">
+    <circle cx="110" cy="70" r="1.5"/>
+    <circle cx="1180" cy="80" r="1.5"/>
+    <circle cx="60" cy="360" r="1.2"/>
+    <circle cx="1225" cy="360" r="1.2"/>
+    <circle cx="110" cy="655" r="1.4"/>
+    <circle cx="1180" cy="650" r="1.4"/>
+  </g>
+
+  <rect x="18" y="18" width="1244" height="684" rx="20" fill="none" stroke="url(#borderGrad)" stroke-width="2"/>
+  <rect x="30" y="30" width="1220" height="660" rx="12" fill="none" stroke="#e8b84b" stroke-opacity="0.16" stroke-width="1"/>
+
+  <text x="70" y="62" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="5" fill="#c9a45c">D&amp;D 5.5e ALL-IN-ONE BEYOND</text>
+  <text x="1210" y="62" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#8f88a3">07 / 08</text>
+  <text x="70" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="url(#goldGrad)">Races</text>
+  <text x="1210" y="128" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="800" fill="url(#goldGrad)">5</text>
+  <text x="1210" y="160" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">new races</text>
+  <line x1="70" y1="185" x2="1210" y2="185" stroke="#e8b84b" stroke-opacity="0.35" stroke-width="1.5"/>
+<text x="70" y="218" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="1" fill="#e8b84b">10 CORE RACES · ALL REWORKED</text>
+<rect x="76.0" y="240" width="102.0" height="54" rx="10" fill="#1c1730" fill-opacity="0.5" stroke="#4a4370" stroke-width="1"/>
+<text x="127.0" y="274" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#e8d9b8">Dragonborn</text>
+<rect x="190.0" y="240" width="102.0" height="54" rx="10" fill="#1c1730" fill-opacity="0.5" stroke="#4a4370" stroke-width="1"/>
+<text x="241.0" y="274" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#e8d9b8">Dwarf</text>
+<rect x="304.0" y="240" width="102.0" height="54" rx="10" fill="#1c1730" fill-opacity="0.5" stroke="#4a4370" stroke-width="1"/>
+<text x="355.0" y="274" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#e8d9b8">Elf</text>
+<rect x="418.0" y="240" width="102.0" height="54" rx="10" fill="#1c1730" fill-opacity="0.5" stroke="#4a4370" stroke-width="1"/>
+<text x="469.0" y="274" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#e8d9b8">Githyanki</text>
+<rect x="532.0" y="240" width="102.0" height="54" rx="10" fill="#1c1730" fill-opacity="0.5" stroke="#4a4370" stroke-width="1"/>
+<text x="583.0" y="274" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#e8d9b8">Gnome</text>
+<rect x="646.0" y="240" width="102.0" height="54" rx="10" fill="#1c1730" fill-opacity="0.5" stroke="#4a4370" stroke-width="1"/>
+<text x="697.0" y="274" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#e8d9b8">Half-Elf</text>
+<rect x="760.0" y="240" width="102.0" height="54" rx="10" fill="#1c1730" fill-opacity="0.5" stroke="#4a4370" stroke-width="1"/>
+<text x="811.0" y="274" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#e8d9b8">Halfling</text>
+<rect x="874.0" y="240" width="102.0" height="54" rx="10" fill="#1c1730" fill-opacity="0.5" stroke="#4a4370" stroke-width="1"/>
+<text x="925.0" y="274" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#e8d9b8">Human</text>
+<rect x="988.0" y="240" width="102.0" height="54" rx="10" fill="#1c1730" fill-opacity="0.5" stroke="#4a4370" stroke-width="1"/>
+<text x="1039.0" y="274" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#e8d9b8">Orc</text>
+<rect x="1102.0" y="240" width="102.0" height="54" rx="10" fill="#1c1730" fill-opacity="0.5" stroke="#4a4370" stroke-width="1"/>
+<text x="1153.0" y="274" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#e8d9b8">Tiefling</text>
+<text x="70" y="322" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="1" fill="#e8b84b">5 NEW RACES</text>
+<rect x="70.0" y="340" width="208.8" height="300" rx="14" fill="#1c1730" fill-opacity="0.55" stroke="#e8b84b" stroke-opacity="0.3" stroke-width="1.5"/>
+<text x="174.4" y="382" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="url(#goldGrad)">Aasimar</text>
+<text x="174.4" y="420.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Celestial resistance and</text>
+<text x="174.4" y="440.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">a Bonus Action</text>
+<text x="174.4" y="460.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">transformation.</text>
+<rect x="302.8" y="340" width="208.8" height="300" rx="14" fill="#1c1730" fill-opacity="0.55" stroke="#e8b84b" stroke-opacity="0.3" stroke-width="1.5"/>
+<text x="407.2" y="382" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="url(#goldGrad)">Dhampir</text>
+<text x="407.2" y="420.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Vampiric Bite lifesteal</text>
+<text x="407.2" y="440.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">and Resistance to</text>
+<text x="407.2" y="460.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Necrotic.</text>
+<rect x="535.6" y="340" width="208.8" height="300" rx="14" fill="#1c1730" fill-opacity="0.55" stroke="#e8b84b" stroke-opacity="0.3" stroke-width="1.5"/>
+<text x="640.0" y="382" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="url(#goldGrad)">Goliath</text>
+<text x="640.0" y="420.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Giant Ancestry powers and</text>
+<text x="640.0" y="440.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">a Large-size</text>
+<text x="640.0" y="460.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">transformation.</text>
+<rect x="768.4" y="340" width="208.8" height="300" rx="14" fill="#1c1730" fill-opacity="0.55" stroke="#e8b84b" stroke-opacity="0.3" stroke-width="1.5"/>
+<text x="872.8" y="382" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="url(#goldGrad)">Kalashtar</text>
+<text x="872.8" y="420.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Psychic Resistance and a</text>
+<text x="872.8" y="440.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">shifting pool of skills.</text>
+<rect x="1001.2" y="340" width="208.8" height="300" rx="14" fill="#1c1730" fill-opacity="0.55" stroke="#e8b84b" stroke-opacity="0.3" stroke-width="1.5"/>
+<text x="1105.6" y="382" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="url(#goldGrad)">Ice Elf</text>
+<text x="1105.6" y="420.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">A frost-touched Elf</text>
+<text x="1105.6" y="440.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">lineage: Ray of Frost,</text>
+<text x="1105.6" y="460.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Ice Knife, Gust of Wind.</text>
+
+</svg>

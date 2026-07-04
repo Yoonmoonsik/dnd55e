@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="24%" r="80%">
+      <stop offset="0%" stop-color="#241c3f"/>
+      <stop offset="55%" stop-color="#14101f"/>
+      <stop offset="100%" stop-color="#09070f"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7dd97"/>
+      <stop offset="50%" stop-color="#e8b84b"/>
+      <stop offset="100%" stop-color="#c98f2c"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8b84b" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#e8b84b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#e8b84b" stop-opacity="0.55"/>
+    </linearGradient>
+</defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="url(#bgGlow)"/>
+  
+  <g fill="#f7dd97" opacity="0.28">
+    <circle cx="110" cy="70" r="1.5"/>
+    <circle cx="1180" cy="80" r="1.5"/>
+    <circle cx="60" cy="360" r="1.2"/>
+    <circle cx="1225" cy="360" r="1.2"/>
+    <circle cx="110" cy="655" r="1.4"/>
+    <circle cx="1180" cy="650" r="1.4"/>
+  </g>
+
+  <rect x="18" y="18" width="1244" height="684" rx="20" fill="none" stroke="url(#borderGrad)" stroke-width="2"/>
+  <rect x="30" y="30" width="1220" height="660" rx="12" fill="none" stroke="#e8b84b" stroke-opacity="0.16" stroke-width="1"/>
+
+  <text x="70" y="62" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="5" fill="#c9a45c">D&amp;D 5.5e ALL-IN-ONE BEYOND</text>
+  <text x="1210" y="62" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#8f88a3">05 / 08</text>
+  <text x="70" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="url(#goldGrad)">Classes</text>
+  <text x="1210" y="128" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="800" fill="url(#goldGrad)">16</text>
+  <text x="1210" y="160" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">classes</text>
+<text x="70" y="172" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">Rogue → Wizard</text>
+  <line x1="70" y1="195" x2="1210" y2="195" stroke="#e8b84b" stroke-opacity="0.35" stroke-width="1.5"/>
+<line x1="355.0" y1="205" x2="355.0" y2="655" stroke="#4a4370" stroke-width="1"/>
+<line x1="640.0" y1="205" x2="640.0" y2="655" stroke="#4a4370" stroke-width="1"/>
+<line x1="925.0" y1="205" x2="925.0" y2="655" stroke="#4a4370" stroke-width="1"/>
+<text x="92.0" y="232" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="url(#goldGrad)">Rogue</text>
+<text x="92.0" y="256" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#9089a8">8 subclasses</text>
+<line x1="86.0" y1="268" x2="339.0" y2="268" stroke="#4a4370" stroke-width="1"/>
+<text x="92.0" y="298" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Arcane Trickster</text>
+<text x="92.0" y="325" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Assassin</text>
+<text x="92.0" y="352" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Blade of Radiance</text>
+<text x="92.0" y="379" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Highway Rider</text>
+<text x="92.0" y="406" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Scion of the Three</text>
+<text x="92.0" y="433" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Soulknife</text>
+<text x="92.0" y="460" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Swashbuckler</text>
+<text x="92.0" y="487" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Thief</text>
+<text x="377.0" y="232" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="url(#goldGrad)">Sorcerer</text>
+<text x="377.0" y="256" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#9089a8">8 subclasses</text>
+<line x1="371.0" y1="268" x2="624.0" y2="268" stroke="#4a4370" stroke-width="1"/>
+<text x="377.0" y="298" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Aberrant Sorcery</text>
+<text x="377.0" y="325" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Clockwork Sorcery</text>
+<text x="377.0" y="352" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Draconic Sorcery</text>
+<text x="377.0" y="379" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Frost Sorcery</text>
+<text x="377.0" y="406" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Shadow Magic</text>
+<text x="377.0" y="433" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Spellfire Sorcery</text>
+<text x="377.0" y="460" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Storm Sorcery</text>
+<text x="377.0" y="487" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Wild Magic Sorcery</text>
+<text x="662.0" y="232" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="url(#goldGrad)">Warlock</text>
+<text x="662.0" y="256" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#9089a8">6 subclasses</text>
+<line x1="656.0" y1="268" x2="909.0" y2="268" stroke="#4a4370" stroke-width="1"/>
+<text x="662.0" y="298" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Archfey Patron</text>
+<text x="662.0" y="325" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Celestial Patron</text>
+<text x="662.0" y="352" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Fiend Patron</text>
+<text x="662.0" y="379" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Great Old One Patron</text>
+<text x="662.0" y="406" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Hexblade Patron</text>
+<text x="662.0" y="433" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Undead Patron</text>
+<text x="947.0" y="232" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="url(#goldGrad)">Wizard</text>
+<text x="947.0" y="256" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#9089a8">9 subclasses</text>
+<line x1="941.0" y1="268" x2="1194.0" y2="268" stroke="#4a4370" stroke-width="1"/>
+<text x="947.0" y="298" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Abjurer</text>
+<text x="947.0" y="325" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Bladesinger</text>
+<text x="947.0" y="352" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Conjurer</text>
+<text x="947.0" y="379" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Diviner</text>
+<text x="947.0" y="406" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Enchanter</text>
+<text x="947.0" y="433" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Evoker</text>
+<text x="947.0" y="460" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Illusionist</text>
+<text x="947.0" y="487" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Necromancer</text>
+<text x="947.0" y="514" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Transmuter</text>
+
+</svg>
