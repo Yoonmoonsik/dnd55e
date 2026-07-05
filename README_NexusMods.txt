@@ -55,7 +55,7 @@ Chondathan Freebooter, Dead Magic Dweller, Dragon Cultist, Emerald Enclave Caret
 [*][b]Artificer[/b] — Alchemist, Armorer, Artillerist, Battle Smith
 [*][b]Barbarian[/b] — Berserker, Fractured, Giant, Shadow Gnawer, Wild Magic, Wildheart, World Tree, Zealot
 [*][b]Bard[/b] — Dance, Swords, Glamour, Lore, Moon, Valor
-[*][b]Cleric[/b] — Apocalypse, Astral, Death, Grave, Nature, Tempest, Knowledge, Life, Light, Mind, Trickery, War
+[*][b]Cleric[/b] — Apocalypse, Astral, Death, Grave, Nature, Shadow, Tempest, Knowledge, Life, Light, Mind, Trickery, War
 [*][b]Druid[/b] — Circle of Dragons, Dreams, Stars, Land, Moon, Sea, Spores, Unbroken
 [*][b]Fighter[/b] — Arcane Archer, Banneret, Battle Master, Cavalier, Champion, Eldritch Knight, Psi Warrior, Rune Knight, Viking
 [*][b]Gunslinger[/b] — High Roller, Spellslinger, White Hat
@@ -64,7 +64,7 @@ Chondathan Freebooter, Dead Magic Dweller, Dragon Cultist, Emerald Enclave Caret
 [*][b]Monster Hunter[/b] — Carver Guild, Devourer Guild, Occultist Guild
 [*][b]Paladin[/b] — Ancients, Crown, Devotion, Glory, Noble Genies, Vengeance, Oathbreaker
 [*][b]Ranger[/b] — Beast Master, Fey Wanderer, Gloom Stalker, Hollow Warden, Hunter, Swarm Keeper, Winter Walker
-[*][b]Rogue[/b] — Arcane Trickster, Assassin, Scion of the Three, Highway Rider, Soulknife, Swashbuckler, Thief
+[*][b]Rogue[/b] — Arcane Trickster, Assassin, Blade of Radiance, Scion of the Three, Highway Rider, Soulknife, Swashbuckler, Thief
 [*][b]Sorcerer[/b] — Aberrant Sorcery, Clockwork Sorcery, Draconic Sorcery, Frost Sorcery, Shadow Magic, Spellfire Sorcery, Storm Sorcery, Wild Magic Sorcery
 [*][b]Warlock[/b] — Archfey, Celestial, Fiend, Great Old One, Hexblade, Undead, expanded Invocations
 [*][b]Wizard[/b] — Abjurer, Bladesinger, Diviner, Evoker, Illusionist
@@ -104,15 +104,15 @@ Archery, Blind Fighting, Defense, Dueling, Great Weapon Fighting, Interception, 
 
 [size=4][b]Cantrips[/b][/size]
 
-Acid Splash, Blade Ward, Chill Touch, Eldritch Blast, Finger Guns, Green-Flame Blade, Hellfire, Mind Sliver, Poison Spray, Prestidigitation, Resistance, Shillelagh, Sorcerous Burst, Spare the Dying, Starry Wisp, Sword Burst, Thunderclap, True Strike, Vicious Mockery, Word of Radiance.
+Acid Splash, Blade Ward, Chill Touch, Eldritch Blast, Finger Guns, Frightful Start, Green-Flame Blade, Hellfire, Mind Sliver, Poison Spray, Prestidigitation, Resistance, Shillelagh, Sorcerous Burst, Spare the Dying, Starry Wisp, Sword Burst, Thunderclap, True Strike, Vicious Mockery, Word of Radiance.
 
 [size=4][b]Leveled Spells[/b][/size]
 
 [list]
-[*][b]Level 1:[/b] Armor of Agathys, Chromatic Orb, Color Spray, Cure Wounds, Divine Favor, Divine Smite, Entangle, Feather Fall, Guiding Bolt, Healing Word, Hell's Lash, Hex, Hunter's Mark, Inflict Wounds, Jump, Longstrider, Magic Missile, Ray of Sickness, Searing Smite, Sleep, Tasha's Hideous Laughter, Wrathful Smite.
-[*][b]Level 2:[/b] Aid, Arcane Vigor, Blindness, Cloud of Daggers, Crown of Madness, Darkness, Find Steed, Flame Blade, Gust of Wind, Lesser Restoration, Magic Weapon, Melf's Acid Arrow, Mind Spike, Misty Step, Prayer of Healing, Ray of Enfeeblement, Shadow Blade, Snilloc's Snowball Swarm, Spiritual Weapon, Summon Beast, Tasha's Mind Whip, Warding Bond.
-[*][b]Level 3:[/b] Astral Flood, Aura of Vitality, Bestow Curse, Blink, Conjure Barrage, Crusader's Mantle, Fear, Lightning Arrow, Mass Healing Word, Phantom Steed, Summon Fey.
-[*][b]Level 4:[/b] Banishment, Confusion, Dominate Beast, Fount of Moonlight, Ice Storm, Otiluke's Resilient Sphere, Phantasmal Killer, Polymorph, Stoneskin, Vitriolic Sphere.
+[*][b]Level 1:[/b] Armor of Agathys, Chromatic Orb, Cloak of Shadow, Color Spray, Cure Wounds, Divine Favor, Divine Smite, Entangle, Feather Fall, Guiding Bolt, Healing Word, Hell's Lash, Hex, Hunter's Mark, Inflict Wounds, Jump, Longstrider, Magic Missile, Ray of Sickness, Searing Smite, Sleep, Tasha's Hideous Laughter, Wardaway, Wrathful Smite.
+[*][b]Level 2:[/b] Aganazzar's Scorcher, Aid, Arcane Vigor, Blindness, Cloud of Daggers, Crown of Madness, Darkbolt, Darkness, Dazing Blast, Death Armor, Find Steed, Fire Rune, Flame Blade, Gust of Wind, Lesser Restoration, Magic Weapon, Melf's Acid Arrow, Mind Spike, Misty Step, Prayer of Healing, Ray of Enfeeblement, Searing Orb, Shadow Blade, Snilloc's Snowball Swarm, Spiritual Weapon, Summon Beast, Tasha's Mind Whip, Warding Bond.
+[*][b]Level 3:[/b] Astral Flood, Aura of Vitality, Bestow Curse, Blink, Conjure Barrage, Crusader's Mantle, Fear, Lightning Arrow, Mass Healing Word, Murmurs of Doom, Phantom Steed, Summon Fey, Tidal Wave, Trollblood Infusion, Void Strike.
+[*][b]Level 4:[/b] Banishment, Confusion, Dominate Beast, Fount of Moonlight, Ice Storm, Murder of Crows, Otiluke's Resilient Sphere, Phantasmal Killer, Polymorph, Stoneskin, Vitriolic Sphere.
 [*][b]Level 5:[/b] Cone of Cold, Contagion, Danse Macabre, Dominate Person, Hold Monster, Insect Plague, Mass Cure Wounds, Steel Wind Strike, Synaptic Static.
 [*][b]Level 6:[/b] Circle of Death, Disintegrate.
 [/list]

@@ -1460,6 +1460,18 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="57e89e3a-1e00-4af9-9dbb-10495cfca13f" />
+        <field name="Name" type="NameTableFieldDefinition" value="SEARING_ORB" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8cc0e13c-ea75-4f4c-b1ba-9b245e22f2bb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h144827a5g121ag0953g6918gbec2aad13de2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_SearingOrb" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SEARING_ORB" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="c15c513d-b7df-43c9-b35d-b3e73b5c51b7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="38b9d467-f610-4325-b146-334f53fcff28" />
         <field name="Name" type="NameTableFieldDefinition" value="MOONBEAM" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a2eeeb3a-d9f5-415e-8e23-1006bb3d6443" />
@@ -2029,6 +2041,17 @@
         <field name="Passives" type="StringTableFieldDefinition" value="DeathArmor_Passive;" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="cee5da66-470d-4266-9c2f-33beb6ff3b3f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1a07a3a9-ff57-4f3b-8ab2-286a6b5f632e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MURMURS_OF_DOOM" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h49cf69a9g3850ga86fg9854g543c73e1e561" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hea3f9087gcfa4gad7eg1453gcafb3a204579" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_MurmursOfDoom" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MURMURS_OF_DOOM" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MurmursOfDoom_Recast);" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

@@ -102,14 +102,14 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c213ca01-3767-457b-a5c8-fd4c1dd656e2" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 3 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_TrollbloodInfusion" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_MurmursOfDoom;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_TrollbloodInfusion" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="bc490c83-b9f4-4084-9870-4d2f3d6d7081" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 3 List to Bard" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_TrollbloodInfusion" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_MurmursOfDoom;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_TrollbloodInfusion" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
@@ -117,7 +117,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ab46c501-4caa-447f-9e12-60ef03dace9e" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 3 to 6" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_TrollbloodInfusion" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_MurmursOfDoom;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_TrollbloodInfusion" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="586a8796-34f4-41f5-a3ef-95738561d55d" />
       </fields>
     </stat_object>
@@ -125,7 +125,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4d6a979d-dfd2-41e7-b8fa-e46b0b7a7579" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 3 to 5" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_TrollbloodInfusion" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_MurmursOfDoom;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_TrollbloodInfusion" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="bd71fffb-e4d2-4233-9a31-13d43fba36e3" />
       </fields>
     </stat_object>
@@ -133,7 +133,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0c09ebff-1e07-4d8b-9f6d-9b3aad925a75" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Bard SLevel 3 to 4" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_TrollbloodInfusion" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Zone_AstralFlood;Target_BestowCurse;Zone_Fear;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_HypnoticPattern;Target_MurmursOfDoom;Target_PlantGrowth;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_TrollbloodInfusion" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="75e04c40-be8f-40a5-9acc-0b5d59d5f3a6" />
       </fields>
     </stat_object>
@@ -358,14 +358,14 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2968a3e6-6c8a-4c2e-882a-ad295a2ad8ac" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 2 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_Blindness;Target_CalmEmotions;Target_EnhanceAbility;Target_HoldPerson;Target_LesserRestoration;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_Silence;Target_SpiritualWeapon;Target_WardingBond" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_Blindness;Target_CalmEmotions;Target_EnhanceAbility;Target_HoldPerson;Target_LesserRestoration;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Projectile_SearingOrb;Target_Silence;Target_SpiritualWeapon;Target_WardingBond" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="eed8f010-b97e-4c37-a709-b749499e3305" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 2 List to Bard" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_Blindness;Target_CalmEmotions;Target_EnhanceAbility;Target_HoldPerson;Target_LesserRestoration;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_Silence;Target_SpiritualWeapon;Target_WardingBond" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_Blindness;Target_CalmEmotions;Target_EnhanceAbility;Target_HoldPerson;Target_LesserRestoration;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Projectile_SearingOrb;Target_Silence;Target_SpiritualWeapon;Target_WardingBond" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
@@ -1064,7 +1064,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c14c9564-1503-47a1-be19-98e77f22ff59" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Paladin SLevel 2 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_LesserRestoration;Target_MagicWeapon;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Target_Smite_Branding_Container;Target_WardingBond" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Aid;Target_LesserRestoration;Target_MagicWeapon;Shout_PrayerOfHealing;Target_ProtectionFromPoison;Projectile_SearingOrb;Target_Smite_Branding_Container;Target_WardingBond" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1761,14 +1761,14 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f2067e9a-2780-44d0-b696-1870cc537dd4" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock SLevel 3" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimateDead;Target_Counterspell;Zone_Fear;Target_Fly;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_SummonFey;Target_TrollbloodInfusion;Target_VampiricTouch" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimateDead;Target_Counterspell;Zone_Fear;Target_Fly;Target_HungerOfHadar;Target_HypnoticPattern;Target_MurmursOfDoom;Target_RemoveCurse;Target_SummonFey;Target_TrollbloodInfusion;Target_VampiricTouch" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c3ceb024-0abd-4f9e-8c69-659772b20fe8" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock SLevel 3 to 5" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimateDead;Target_Counterspell;Zone_Fear;Target_Fly;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_SummonFey;Target_TrollbloodInfusion;Target_VampiricTouch" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimateDead;Target_Counterspell;Zone_Fear;Target_Fly;Target_HungerOfHadar;Target_HypnoticPattern;Target_MurmursOfDoom;Target_RemoveCurse;Target_SummonFey;Target_TrollbloodInfusion;Target_VampiricTouch" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="648310a4-d9b7-4cf5-b6a0-51bd957a798f" />
       </fields>
     </stat_object>
@@ -1776,7 +1776,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="488700c2-5d87-45a4-812f-9fc1dd5bfa23" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Warlock SLevel 3 to 4" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimateDead;Target_Counterspell;Zone_Fear;Target_Fly;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_SummonFey;Target_TrollbloodInfusion;Target_VampiricTouch" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimateDead;Target_Counterspell;Zone_Fear;Target_Fly;Target_HungerOfHadar;Target_HypnoticPattern;Target_MurmursOfDoom;Target_RemoveCurse;Target_SummonFey;Target_TrollbloodInfusion;Target_VampiricTouch" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="94fb74d6-c832-40f1-9e08-159ce46091a1" />
       </fields>
     </stat_object>

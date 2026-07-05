@@ -789,6 +789,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4901cf9e-ff54-4947-9ce9-49383625123e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Barbarian_2_RecklessAttack_Unarmed" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h72f074a8gc35ag1dacg638cgaa77b73e11be" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_RecklessAttack_Unarmed);IF(SpellId('Target_RecklessAttack') or SpellId('Target_RecklessAttackAction') or SpellId('Target_RecklessAttackForcefulBlow') or SpellId('Target_RecklessAttackHamstringBlow') or SpellId('Target_RecklessAttack_Unarmed') or SpellId('Target_RecklessAttackAction_Unarmed') or SpellId('Target_RecklessAttackForcefulBlow_Unarmed') or SpellId('Target_RecklessAttackHamstringBlow_Unarmed')):Advantage(AttackRoll);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="04308ff7-2718-4ec6-b71f-187419a57ceb" />
         <field name="Name" type="NameTableFieldDefinition" value="Barbarian_3_PrimalKnowledge" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb6dea583g9359gddf3g2360g74669f67b1a6" version="1" />
@@ -7810,7 +7819,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbc6e4744g6835g4d25g3453g224b9eed2a70" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4e972de5g72bbgc7d9gfda3g1c89f2af41d0" version="2" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(ChargerTurn,1,0);UnlockSpell(Rush_Charger_Attack);UnlockSpell(Rush_Charger_Push);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(ChargerTurn,1,0);UnlockSpell(Rush_Charger_Attack);UnlockSpell(Rush_Charger_Push);UnlockSpell(Rush_Charger_Attack_Unarmed);UnlockSpell(Rush_Charger_Push_Unarmed);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="SpellCategoryIs(SpellCategory.Dash) and Combat()" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(MAG_MOMENTUM,100,2);ApplyStatus(MAG_MOMENTUM_DURATION_TECHNICAL, 100, 1)" />

@@ -683,7 +683,7 @@
         <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
         <field name="CastTargetHitDelay" type="IntegerTableFieldDefinition" value="100" />
         <field name="Angle" type="IntegerTableFieldDefinition" value="120" />
-        <field name="Trajectories" type="StringTableFieldDefinition" value="985b6579-3655-49b6-a3f8-00c84aae48c6,0d8abb8b-4283-433c-985d-cc6befc3f645" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="f8f09ba3-b314-494e-ba46-93e7989454ae" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_SpellfireFlare" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hef1552acg9a55g7c16ge056g056772bcc3ec" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcfd88999g4267g263ag85aag89c1108ee65c" version="2" />
@@ -1488,6 +1488,92 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9c81506c-3bfa-4e49-9437-8d767b45b48c" />
         <field name="Name" type="NameTableFieldDefinition" value="__EVOCATION__SLEVEL_2_" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7f118cdc-142a-44af-a0c4-b25154d8e0d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="SearingOrb" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedSpellAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:DealDamage(3d4,Radiant);TARGET:AOE:IF(not SavingThrow(Ability.Constitution , SourceSpellDC())):ApplyStatus(SEARING_ORB, 100, 1);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead()" />
+        <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="985b6579-3655-49b6-a3f8-00c84aae48c6" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_SearingOrb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h95738422ged47g3260g1b9dg2cefcd3f0146" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdf6371dcga18fg87bcgbe0dgf6e2f7928012" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d4,Radiant)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedSpellAttack;Constitution " />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SEARING_ORB, 100, 1);" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Radiant)" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Radiant_Gen_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Radiant_Gen_L1to3_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Radiant_GuidingBolt_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;38cdb41c-2eec-4e03-bb31-83cff0346c35,,;85414f5f-b448-4dda-9370-1b6c4b38b561,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;HasVerbalComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="51422dfb-bc78-42aa-8c63-67e17535d77e" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="79a465b8-6054-47f8-92e4-9c340f96dd77" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Radiant" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="456eedb1-6aee-4831-90de-5d71cb4d2e05" />
+        <field name="Name" type="NameTableFieldDefinition" value="SearingOrb_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7f118cdc-142a-44af-a0c4-b25154d8e0d8" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:DealDamage(4d4,Radiant);TARGET:AOE:IF(not SavingThrow(Ability.Constitution , SourceSpellDC())):ApplyStatus(SEARING_ORB, 100, 1);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d4,Radiant)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_SearingOrb" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="716ec81a-237e-4eca-8dbc-0d0588773416" />
+        <field name="Name" type="NameTableFieldDefinition" value="SearingOrb_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="456eedb1-6aee-4831-90de-5d71cb4d2e05" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:DealDamage(5d4,Radiant);TARGET:AOE:IF(not SavingThrow(Ability.Constitution , SourceSpellDC())):ApplyStatus(SEARING_ORB, 100, 1);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d4,Radiant)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a2b82784-b4ba-474a-86d4-39c8bb6495bd" />
+        <field name="Name" type="NameTableFieldDefinition" value="SearingOrb_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="456eedb1-6aee-4831-90de-5d71cb4d2e05" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:DealDamage(6d4,Radiant);TARGET:AOE:IF(not SavingThrow(Ability.Constitution , SourceSpellDC())):ApplyStatus(SEARING_ORB, 100, 1);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d4,Radiant)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a3d5679c-67c0-488d-ae8b-823a4ab717aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="SearingOrb_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="456eedb1-6aee-4831-90de-5d71cb4d2e05" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:DealDamage(7d4,Radiant);TARGET:AOE:IF(not SavingThrow(Ability.Constitution , SourceSpellDC())):ApplyStatus(SEARING_ORB, 100, 1);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d4,Radiant)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

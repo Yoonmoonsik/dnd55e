@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="28%" r="75%">
+      <stop offset="0%" stop-color="#241c3f"/>
+      <stop offset="55%" stop-color="#14101f"/>
+      <stop offset="100%" stop-color="#09070f"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7dd97"/>
+      <stop offset="50%" stop-color="#e8b84b"/>
+      <stop offset="100%" stop-color="#c98f2c"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8b84b" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#e8b84b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#e8b84b" stop-opacity="0.55"/>
+    </linearGradient>
+    <symbol id="diamond" viewBox="-6 -6 12 12">
+      <polygon points="0,-6 6,0 0,6 -6,0"/>
+    </symbol>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="1280" height="720" fill="url(#bgGlow)"/>
+
+  <!-- scattered arcane specks -->
+  <g fill="#f7dd97" opacity="0.35">
+    <circle cx="120" cy="90" r="1.6"/>
+    <circle cx="210" cy="180" r="1.1"/>
+    <circle cx="95" cy="260" r="1.4"/>
+    <circle cx="1160" cy="100" r="1.6"/>
+    <circle cx="1080" cy="190" r="1.1"/>
+    <circle cx="1190" cy="270" r="1.4"/>
+    <circle cx="160" cy="600" r="1.3"/>
+    <circle cx="1120" cy="610" r="1.3"/>
+    <circle cx="60" cy="420" r="1.1"/>
+    <circle cx="1220" cy="430" r="1.1"/>
+  </g>
+
+  <!-- outer frame -->
+  <rect x="18" y="18" width="1244" height="684" rx="20" fill="none" stroke="url(#borderGrad)" stroke-width="2"/>
+  <rect x="30" y="30" width="1220" height="660" rx="12" fill="none" stroke="#e8b84b" stroke-opacity="0.16" stroke-width="1"/>
+
+  <!-- kicker -->
+  <g transform="translate(640,90)" text-anchor="middle">
+    <use href="#diamond" x="-400" y="-8" width="16" height="16" fill="#c9a45c"/>
+    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="9" fill="#c9a45c">D&amp;D 5.5e CONVERSION MOD</text>
+    <use href="#diamond" x="390" y="-8" width="16" height="16" fill="#c9a45c"/>
+  </g>
+
+  <!-- title -->
+  <text x="640" y="193" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="700" fill="url(#goldGrad)">DnD 5.5e All-in-One BEYOND</text>
+
+  <!-- decorative rule -->
+  <line x1="361" y1="222" x2="919" y2="222" stroke="#e8b84b" stroke-opacity="0.4" stroke-width="1.5"/>
+  <use href="#diamond" x="353" y="214" width="17" height="17" fill="#e8b84b" fill-opacity="0.7"/>
+  <use href="#diamond" x="927" y="214" width="17" height="17" fill="#e8b84b" fill-opacity="0.7"/>
+
+  <!-- tagline -->
+  <text x="640" y="284" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="600" font-style="italic" fill="#cdc4e0">The most ambitious D&amp;D 5.5e conversion yet</text>
+
+  <!-- stat panel -->
+  <rect x="70" y="308" width="1140" height="282" rx="20" fill="#1c1730" fill-opacity="0.55" stroke="#e8b84b" stroke-opacity="0.25" stroke-width="1.5"/>
+
+  <!-- dividers -->
+  <g stroke="#4a4370" stroke-width="1">
+    <line x1="260" y1="336" x2="260" y2="560"/>
+    <line x1="450" y1="336" x2="450" y2="560"/>
+    <line x1="640" y1="336" x2="640" y2="560"/>
+    <line x1="830" y1="336" x2="830" y2="560"/>
+    <line x1="1020" y1="336" x2="1020" y2="560"/>
+  </g>
+
+  <!-- stat tiles -->
+  <g text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+    <text x="165" y="472" font-size="82" font-weight="800" fill="url(#goldGrad)">16</text>
+    <text x="165" y="534" font-size="28" font-weight="600" fill="#cdc4e0">Classes</text>
+
+    <text x="355" y="472" font-size="82" font-weight="800" fill="url(#goldGrad)">106</text>
+    <text x="355" y="534" font-size="28" font-weight="600" fill="#cdc4e0">Subclasses</text>
+
+    <text x="545" y="472" font-size="82" font-weight="800" fill="url(#goldGrad)">80+</text>
+    <text x="545" y="534" font-size="28" font-weight="600" fill="#cdc4e0">Feats</text>
+
+    <text x="735" y="472" font-size="82" font-weight="800" fill="url(#goldGrad)">60+</text>
+    <text x="735" y="534" font-size="28" font-weight="600" fill="#cdc4e0">Spells</text>
+
+    <text x="925" y="472" font-size="82" font-weight="800" fill="url(#goldGrad)">37</text>
+    <text x="925" y="534" font-size="28" font-weight="600" fill="#cdc4e0">Backgrounds</text>
+
+    <text x="1115" y="472" font-size="82" font-weight="800" fill="url(#goldGrad)">5</text>
+    <text x="1115" y="534" font-size="28" font-weight="600" fill="#cdc4e0">Races</text>
+  </g>
+
+  <!-- footer -->
+  <text x="640" y="652" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="600" font-style="italic" fill="#cdc4e0">A complete rebuild, still growing with every update.</text>
+</svg>

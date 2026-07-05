@@ -103,6 +103,38 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="(Character() and not Dead()) or Item() and CanShoveWeight() and IsMovable() and not Grounded();" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeWeaponAttack" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Charger_Push" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e9698430-3bdf-465c-bfcd-33f6b003bc6c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Charger_Attack_Unarmed" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="88fd1b67-d134-4a22-b2fa-929f92538452" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((max(1,UnarmedDamage +1d8)), Bludgeoning);ExecuteWeaponFunctors(MainHand);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_FreeUnarmedStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h679a5d3cgea36g8caagcfd7gebbdee910cc1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h39e3d3b1gb37fgc87bg75c2g7b659b7eb280" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage +1d8, Bludgeoning)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeUnarmedAttack;Strength" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="878702ae-500e-4ea5-ba5e-7316be100e60" />
+        <field name="Name" type="NameTableFieldDefinition" value="Charger_Push_Unarmed" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f858ca70-0c29-4ec2-900b-c1ece09d97ea" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((max(1,UnarmedDamage )), Bludgeoning);ExecuteWeaponFunctors(MainHand);IF(Dead() or SkillCheck(Skill.Athletics,math.max(context.Target.GetPassiveSkill(Skill.Athletics),context.Target.GetPassiveSkill(Skill.Acrobatics)), IsSneakingOrInvisible())):Force(ShoveDistance,OriginToEntity,Aggressive);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeUnarmedAttack;Strength" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
