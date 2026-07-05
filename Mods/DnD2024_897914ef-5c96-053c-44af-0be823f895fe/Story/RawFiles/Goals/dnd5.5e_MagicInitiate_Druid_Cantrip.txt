@@ -9,10 +9,12 @@ AND
 GetStatusCurrentLifetime(_Player,"MAGICINITIATE_DRUID_CANTRIP",_Duration)
 AND
 _Duration > 11.0
+AND
+ResolveTranslatedString("h42e9d28cgdac3g453ag98b9ge050ea1a6f39", _Msg)
 THEN
 RemoveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", NULL_00000000-0000-0000-0000-000000000000);
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_END", -1.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned two cantrips. Well chosen.");
+OpenMessageBox(_Player, _Msg);
 
 IF
 CastedSpell((CHARACTER)_Player,"Target_Guidance",_,_,_)
@@ -20,9 +22,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("hc9f0aba8gd775g4df7gb799gd7c53747085b", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP", 6.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected cantrip.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_GUIDANCE", -1.0, 1, _Player);
 
 IF
@@ -31,9 +35,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("hc9f0aba8gd775g4df7gb799gd7c53747085b", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP", 6.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected cantrip.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_POISONSPRAY", -1.0, 1, _Player);
 
 IF
@@ -42,9 +48,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("hc9f0aba8gd775g4df7gb799gd7c53747085b", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP", 6.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected cantrip.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_PRODUCEFLAME", -1.0, 1, _Player);
 
 IF
@@ -53,9 +61,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("hc9f0aba8gd775g4df7gb799gd7c53747085b", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP", 6.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected cantrip.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_RESISTANCE", -1.0, 1, _Player);
 
 IF
@@ -64,9 +74,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("hc9f0aba8gd775g4df7gb799gd7c53747085b", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP", 6.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected cantrip.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_SHILLELAGH", -1.0, 1, _Player);
 
 IF
@@ -75,9 +87,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("hc9f0aba8gd775g4df7gb799gd7c53747085b", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP", 6.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected cantrip.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_SPARETHEDYING", -1.0, 1, _Player);
 
 IF
@@ -86,9 +100,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("hc9f0aba8gd775g4df7gb799gd7c53747085b", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP", 6.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected cantrip.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_STARRYWISP", -1.0, 1, _Player);
 
 IF
@@ -97,9 +113,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("hc9f0aba8gd775g4df7gb799gd7c53747085b", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP", 6.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected cantrip.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_THORNWHIP", -1.0, 1, _Player);
 
 IF
@@ -108,9 +126,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("hc9f0aba8gd775g4df7gb799gd7c53747085b", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP", 6.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected cantrip.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_THUNDERCLAP", -1.0, 1, _Player);
 EXITSECTION
 

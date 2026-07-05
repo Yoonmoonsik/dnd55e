@@ -9,9 +9,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("h758b92a3gedfcg4ab3g8e8fg85ad854a1ce6", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_ANIMALFRIENDSHIP", -1.0, 1, _Player);
 
 IF
@@ -20,9 +22,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("h758b92a3gedfcg4ab3g8e8fg85ad854a1ce6", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_CHARMPERSON", -1.0, 1, _Player);
 
 IF
@@ -31,9 +35,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("h758b92a3gedfcg4ab3g8e8fg85ad854a1ce6", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_CREATEDESTROYWATER", -1.0, 1, _Player);
 
 IF
@@ -42,9 +48,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("h758b92a3gedfcg4ab3g8e8fg85ad854a1ce6", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_CREATEDESTROYWATER", -1.0, 1, _Player);
 
 IF
@@ -53,9 +61,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("h758b92a3gedfcg4ab3g8e8fg85ad854a1ce6", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_CUREWOUNDS", -1.0, 1, _Player);
 
 IF
@@ -64,9 +74,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("h758b92a3gedfcg4ab3g8e8fg85ad854a1ce6", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_ENTANGLE", -1.0, 1, _Player);
 
 IF
@@ -75,9 +87,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("h758b92a3gedfcg4ab3g8e8fg85ad854a1ce6", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_FAERIEFIRE", -1.0, 1, _Player);
 
 IF
@@ -86,9 +100,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("h758b92a3gedfcg4ab3g8e8fg85ad854a1ce6", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_FOGCLOUD", -1.0, 1, _Player);
 
 IF
@@ -97,9 +113,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("h758b92a3gedfcg4ab3g8e8fg85ad854a1ce6", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_GOODBERRY", -1.0, 1, _Player);
 
 IF
@@ -108,9 +126,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("h758b92a3gedfcg4ab3g8e8fg85ad854a1ce6", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_HEALINGWORD", -1.0, 1, _Player);
 
 IF
@@ -119,9 +139,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("h758b92a3gedfcg4ab3g8e8fg85ad854a1ce6", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_ICEKNIFE", -1.0, 1, _Player);
 
 IF
@@ -130,9 +152,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("h758b92a3gedfcg4ab3g8e8fg85ad854a1ce6", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_JUMP", -1.0, 1, _Player);
 
 IF
@@ -141,9 +165,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("h758b92a3gedfcg4ab3g8e8fg85ad854a1ce6", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_LONGSTRIDER", -1.0, 1, _Player);
 
 IF
@@ -152,9 +178,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("h758b92a3gedfcg4ab3g8e8fg85ad854a1ce6", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_PROTECTIONFROMEVILANDGOOD", -1.0, 1, _Player);
 
 IF
@@ -163,9 +191,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("h758b92a3gedfcg4ab3g8e8fg85ad854a1ce6", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_SPEAKWITHANIMALS", -1.0, 1, _Player);
 
 IF
@@ -174,9 +204,11 @@ AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+ResolveTranslatedString("h758b92a3gedfcg4ab3g8e8fg85ad854a1ce6", _Msg)
 THEN
 ApplyStatus(_Player, "MAGICINITIATE_DRUID_SPELL_END", -1.0, 1, _Player);
-OpenMessageBox(_Player, "Magic Initiate (Druid): You have learned the selected spell.");
+OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_THUNDERWAVE", -1.0, 1, _Player);
 EXITSECTION
 
