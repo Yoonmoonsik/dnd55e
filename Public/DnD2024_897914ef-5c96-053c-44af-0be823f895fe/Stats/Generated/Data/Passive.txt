@@ -844,7 +844,7 @@ data "Icon" "Action_Disengage_Bonus"
 data "PriorityOrder" "1310"
 data "Properties" "Highlighted;ForceShowInCC"
 data "BoostContext" "OnStatusApplied;OnStatusRemoved"
-data "Boosts" "IF(not HasStatus('SG_Rage', context.Source)):UnlockSpell(Shout_Disengage_BonusAction);IF(not HasStatus('SG_Rage', context.Source)):UnlockSpell(Target_Help_BonusAction);IF(HasStatus('SG_Rage', context.Source) and IsMeleeUnarmedAttack()):ReduceCriticalAttackThreshold(1);"
+data "Boosts" "IF(not HasStatus('SG_Rage', context.Source)):UnlockSpell(Shout_Disengage_BonusAction_Temp);IF(not HasStatus('SG_Rage', context.Source)):UnlockSpell(Target_Help_BonusAction);IF(HasStatus('SG_Rage', context.Source) and IsMeleeUnarmedAttack()):ReduceCriticalAttackThreshold(1);"
 
 new entry "__BARD__"
 type "PassiveData"

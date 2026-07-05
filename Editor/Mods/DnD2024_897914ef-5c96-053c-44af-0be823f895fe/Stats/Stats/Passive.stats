@@ -1152,7 +1152,7 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1310" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('SG_Rage', context.Source)):UnlockSpell(Shout_Disengage_BonusAction);IF(not HasStatus('SG_Rage', context.Source)):UnlockSpell(Target_Help_BonusAction);IF(HasStatus('SG_Rage', context.Source) and IsMeleeUnarmedAttack()):ReduceCriticalAttackThreshold(1);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('SG_Rage', context.Source)):UnlockSpell(Shout_Disengage_BonusAction_Temp);IF(not HasStatus('SG_Rage', context.Source)):UnlockSpell(Target_Help_BonusAction);IF(HasStatus('SG_Rage', context.Source) and IsMeleeUnarmedAttack()):ReduceCriticalAttackThreshold(1);" />
       </fields>
     </stat_object>
     <stat_object color="#FFEE82EE" is_substat="false">
