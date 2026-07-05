@@ -55,3 +55,13 @@ function ImprovedIllusions()
 	| SpellId('Target_Seeming')
 	| SpellId('Target_Seeming_6')
 end
+
+function ArcaneWard()
+	return SpellId('Shout_ArcaneWard')
+	 | SpellId('Shout_ArcaneWard_1')
+	 | SpellId('Shout_ArcaneWard_2')
+	 | SpellId('Shout_ArcaneWard_3')
+	 | SpellId('Shout_ArcaneWard_4')
+	 | SpellId('Shout_ArcaneWard_5')
+	 | SpellId('Shout_ArcaneWard_6')
+end

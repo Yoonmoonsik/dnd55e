@@ -1,0 +1,18 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+StatusApplied(_Character, "WILDMAGIC_YMS_OSIRIS", _, _)
+AND
+Random(100, _Random)
+AND
+IntegerToString(_Random,_NumberString)
+AND
+Concatenate("WILDMAGIC_YMS_",_NumberString,_Surge)
+THEN
+ApplyStatus(_Character, _Surge, 6.0);
+EXITSECTION
+
+ENDEXITSECTION
