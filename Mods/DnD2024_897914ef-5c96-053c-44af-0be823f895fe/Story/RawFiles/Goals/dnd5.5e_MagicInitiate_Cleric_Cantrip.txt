@@ -17,11 +17,13 @@ ApplyStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_END", -1.0, 1, _Player);
 OpenMessageBox(_Player, _Msg);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_BurstingSinew",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_BurstingSinew",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Cleric",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_BURSTINGSINEW", 1)
 AND
 ResolveTranslatedString("h64af36efg690cg437bg9309gc6f9d243ddc7", _Msg)
 THEN
@@ -30,11 +32,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_BURSTINGSINEW", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_Guidance",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_Guidance",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Cleric",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_GUIDANCE", 1)
 AND
 ResolveTranslatedString("h64af36efg690cg437bg9309gc6f9d243ddc7", _Msg)
 THEN
@@ -43,11 +47,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_GUIDANCE", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_Light",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_Light",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Cleric",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_LIGHT", 1)
 AND
 ResolveTranslatedString("h64af36efg690cg437bg9309gc6f9d243ddc7", _Msg)
 THEN
@@ -56,11 +62,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_LIGHT", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_Resistance",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_Resistance",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Cleric",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_RESISTANCE", 1)
 AND
 ResolveTranslatedString("h64af36efg690cg437bg9309gc6f9d243ddc7", _Msg)
 THEN
@@ -69,11 +77,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_RESISTANCE", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_SacredFlame",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_SacredFlame",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Cleric",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_SACREDFLAME", 1)
 AND
 ResolveTranslatedString("h64af36efg690cg437bg9309gc6f9d243ddc7", _Msg)
 THEN
@@ -82,11 +92,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_SACREDFLAME", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_SpareTheDying",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_SpareTheDying",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Cleric",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_SPARETHEDYING", 1)
 AND
 ResolveTranslatedString("h64af36efg690cg437bg9309gc6f9d243ddc7", _Msg)
 THEN
@@ -95,11 +107,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_SPARETHEDYING", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Shout_Thaumaturgy",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Shout_Thaumaturgy",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Cleric",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_THAUMATURGY", 1)
 AND
 ResolveTranslatedString("h64af36efg690cg437bg9309gc6f9d243ddc7", _Msg)
 THEN
@@ -108,11 +122,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_THAUMATURGY", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_TollTheDead",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_TollTheDead",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Cleric",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_TOLLTHEDEAD", 1)
 AND
 ResolveTranslatedString("h64af36efg690cg437bg9309gc6f9d243ddc7", _Msg)
 THEN
@@ -121,11 +137,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_TOLLTHEDEAD", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Shout_WordOfRadiance",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Shout_WordOfRadiance",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Cleric",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_WORDOFRADIANCE", 1)
 AND
 ResolveTranslatedString("h64af36efg690cg437bg9309gc6f9d243ddc7", _Msg)
 THEN
@@ -134,11 +152,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_WORDOFRADIANCE", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_HolyWord",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_HolyWord",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Cleric",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_HOLYWORD", 1)
 AND
 ResolveTranslatedString("h64af36efg690cg437bg9309gc6f9d243ddc7", _Msg)
 THEN

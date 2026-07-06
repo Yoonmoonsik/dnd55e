@@ -4,11 +4,13 @@ INITSECTION
 
 KBSECTION
 IF
-CastedSpell((CHARACTER)_Player,"Zone_BurningHands",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Zone_BurningHands",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_BURNINGHANDS", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -17,11 +19,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_BURNINGHANDS", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_CharmPerson",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_CharmPerson",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CHARMPERSON", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -30,11 +34,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_CHARMPERSON", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Projectile_ChromaticOrb_Acid",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_ChromaticOrb_Acid",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CHROMATICORB", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -43,11 +49,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_CHROMATICORB", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Projectile_ChromaticOrb_Cold",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_ChromaticOrb_Cold",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CHROMATICORB", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -56,11 +64,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_CHROMATICORB", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Projectile_ChromaticOrb_Fire",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_ChromaticOrb_Fire",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CHROMATICORB", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -69,11 +79,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_CHROMATICORB", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Projectile_ChromaticOrb_Lightning",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_ChromaticOrb_Lightning",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CHROMATICORB", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -82,11 +94,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_CHROMATICORB", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Projectile_ChromaticOrb_Poison",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_ChromaticOrb_Poison",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CHROMATICORB", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -95,11 +109,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_CHROMATICORB", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Projectile_ChromaticOrb_Thunder",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_ChromaticOrb_Thunder",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CHROMATICORB", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -108,11 +124,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_CHROMATICORB", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Shout_CloakOfShadow",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Shout_CloakOfShadow",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CLOAKOFSHADOW", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -121,11 +139,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_CLOAKOFSHADOW", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Zone_ColorSpray",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Zone_ColorSpray",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_COLORSPRAY", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -134,11 +154,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_COLORSPRAY", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Shout_DisguiseSelf",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Shout_DisguiseSelf",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_DISGUISESELF", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -147,11 +169,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_DISGUISESELF", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Shout_ExpeditiousRetreat",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Shout_ExpeditiousRetreat",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_EXPEDITIOUSRETREAT", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -160,11 +184,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_EXPEDITIOUSRETREAT", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Shout_FalseLife",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Shout_FalseLife",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_FALSELIFE", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -173,11 +199,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_FALSELIFE", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Shout_FeatherFall",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Shout_FeatherFall",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_FEATHERFALL", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -186,11 +214,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_FEATHERFALL", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_FindFamiliar_Cat",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_FindFamiliar_Cat",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_FINDFAMILIAR", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -199,11 +229,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_FINDFAMILIAR", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_FindFamiliar_Crab",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_FindFamiliar_Crab",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_FINDFAMILIAR", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -212,11 +244,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_FINDFAMILIAR", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_FindFamiliar_Frog",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_FindFamiliar_Frog",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_FINDFAMILIAR", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -225,11 +259,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_FINDFAMILIAR", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_FindFamiliar_Rat",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_FindFamiliar_Rat",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_FINDFAMILIAR", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -238,11 +274,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_FINDFAMILIAR", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_FindFamiliar_Raven",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_FindFamiliar_Raven",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_FINDFAMILIAR", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -251,11 +289,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_FINDFAMILIAR", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_FindFamiliar_Spider",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_FindFamiliar_Spider",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_FINDFAMILIAR", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -264,11 +304,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_FINDFAMILIAR", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_FogCloud",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_FogCloud",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_FOGCLOUD", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -277,11 +319,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_FOGCLOUD", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_Grease",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_Grease",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_GREASE", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -290,11 +334,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_GREASE", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Projectile_IceKnife",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_IceKnife",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_ICEKNIFE", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -303,11 +349,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_ICEKNIFE", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_Jump",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_Jump",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_JUMP", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -316,11 +364,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_JUMP", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_Longstrider",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_Longstrider",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_LONGSTRIDER", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -329,11 +379,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_LONGSTRIDER", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_MageArmor",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_MageArmor",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_MAGEARMOR", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -342,11 +394,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_MAGEARMOR", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Projectile_MagicMissile",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_MagicMissile",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_MAGICMISSILE", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -355,11 +409,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_MAGICMISSILE", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_ProtectionFromEvilAndGood",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_ProtectionFromEvilAndGood",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_PROTECTIONFROMEVILANDGOOD", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -368,11 +424,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_PROTECTIONFROMEVILANDGOOD", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Projectile_RayOfSickness",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_RayOfSickness",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_RAYOFSICKNESS", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -381,11 +439,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_RAYOFSICKNESS", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Shout_Shield_Dummy",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Shout_Shield_Dummy",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_SHIELD", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -394,11 +454,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_SHIELD", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_Sleep",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_Sleep",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_SLEEP", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -407,11 +469,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_SLEEP", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_HideousLaughter",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_HideousLaughter",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_HIDEOUSLAUGHTER", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -420,11 +484,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_HIDEOUSLAUGHTER", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Zone_Thunderwave",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Zone_Thunderwave",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_THUNDERWAVE", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -433,11 +499,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_THUNDERWAVE", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Projectile_Wardaway",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_Wardaway",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_WARDAWAY", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
@@ -446,11 +514,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_WARDAWAY", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Projectile_WitchBolt",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_WitchBolt",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_WITCHBOLT", 1)
 AND
 ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
 THEN
