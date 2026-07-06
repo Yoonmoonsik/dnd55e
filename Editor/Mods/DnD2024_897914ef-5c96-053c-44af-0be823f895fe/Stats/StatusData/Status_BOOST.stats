@@ -6690,7 +6690,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_CLERIC_CANTRIP_START" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_CLERIC_CANTRIP_START" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('MAGICINITIATE_CLERIC_CANTRIP_END',context.Source)):UnlockSpell(Shout_MagicInitiate_Cleric_Cantrip);UnlockSpellVariant(SpellId('Shout_MagicInitiate_Cleric_Cantrip'),ModifyIconGlow());" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hee720882g4ca7g0c82g0f6dgda96a14a144e" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hee720882g4ca7g0c82g0f6dgda96a14a144e" version="3" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he64b4a45gba6eg30a6g9703gb0f13f9230e8" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateCleric" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
