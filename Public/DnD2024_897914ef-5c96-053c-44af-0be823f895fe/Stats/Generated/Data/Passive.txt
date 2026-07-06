@@ -3858,7 +3858,7 @@ data "PriorityOrder" "11005"
 data "Properties" "Highlighted"
 data "BoostContext" "OnCreate;OnShortRest;OnLongRest"
 data "BoostConditions" "HasPassive('PactOfTheBlade_Hex',context.Source) and ClassLevelHigherOrEqualThan(5,'Warlock',context.Source);"
-data "Boosts" "UnlockSpell(Target_Smite_Eldritch,MostPowerfull,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockInterrupt(Interrupt_Smite_Eldritch_3);UnlockInterrupt(Interrupt_Smite_Eldritch_4);UnlockInterrupt(Interrupt_Smite_Eldritch_5);UnlockInterrupt(Interrupt_Smite_Eldritch_Critical_3);UnlockInterrupt(Interrupt_Smite_Eldritch_Critical_4);UnlockInterrupt(Interrupt_Smite_Eldritch_Critical_5);"
+data "Boosts" "UnlockSpell(Target_Smite_Eldritch,MostPowerfull,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockInterrupt(Interrupt_Smite_Eldritch_3);UnlockInterrupt(Interrupt_Smite_Eldritch_4);UnlockInterrupt(Interrupt_Smite_Eldritch_5);UnlockInterrupt(Interrupt_Smite_Eldritch_Critical_3);UnlockInterrupt(Interrupt_Smite_Eldritch_Critical_4);UnlockInterrupt(Interrupt_Smite_Eldritch_Critical_5);UnlockInterrupt(Interrupt_Smite_Eldritch_Ranged_3);UnlockInterrupt(Interrupt_Smite_Eldritch_Ranged_4);UnlockInterrupt(Interrupt_Smite_Eldritch_Ranged_5);UnlockInterrupt(Interrupt_Smite_Eldritch_Ranged_Critical_3);UnlockInterrupt(Interrupt_Smite_Eldritch_Ranged_Critical_4);UnlockInterrupt(Interrupt_Smite_Eldritch_Ranged_Critical_5);"
 
 new entry "BookOfAncientSecrets"
 type "PassiveData"
