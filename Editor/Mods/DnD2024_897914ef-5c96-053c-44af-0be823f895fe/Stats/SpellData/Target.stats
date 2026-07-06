@@ -8916,6 +8916,7 @@
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_Smite_Eldritch_3;Target_Smite_Eldritch_4;Target_Smite_Eldritch_5;" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source));" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeWeaponAttack;Constitution" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
