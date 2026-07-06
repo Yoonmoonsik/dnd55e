@@ -6832,8 +6832,9 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_ACIDSPLASH" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_ACIDSPLASH" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_AcidSplash);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;FreezeDuration;ApplyToDead;DisableOverhead;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h711b7815g70c9g4712ga219g0ff6e0b8c207" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6843,6 +6844,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_FRIENDS" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Friends);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h70fd1410g49a4g44d1g9f8eg7f6bc1c21fea" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6852,6 +6854,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_FIREBOLT" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_FireBolt);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha6ce862fg4edeg49f7g9320gb8580541d70a" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6861,6 +6864,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_DANCINGLIGHTS" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_DancingLights);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h97d2ab9cgaaf9g4bd4gb544g5862fb5d10b9" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6870,6 +6874,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_CHILLTOUCH" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ChillTouch);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc5fa63acg91f7g498fg8be8g4f77f6e608e1" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6879,6 +6884,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_BURSTINGSINEW" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_BurstingSinew);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8cab8439g423ag41e7ga45bg7c1a4c23cde3" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6888,6 +6894,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_BOOMINGBLADE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_BoomingBlade_ClassSpell);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4def798ag029dg4d00g8d1eg8929e03098d6" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6897,6 +6904,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_BLADEWARD" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_BladeWard);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h83dc6116g533dg4e65g8c4ag7f3230f15b56" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6906,6 +6914,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_GUIDANCE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Guidance);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc43d9642g1590g42d6gbab6ga3dc6574eb50" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6915,6 +6924,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_GREENFLAMEBLADE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_GreenFlameBlade);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haada0dc8gc767g45e4g98c2g6c5644d040c1" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6924,6 +6934,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_LIGHT" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Light);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1e7a31c9g35c0g4b54g8f69g25b327a4c999" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6933,6 +6944,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_MAGEHAND" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MageHand);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hee3244d3g6916g4229gb4b7gd98a4f519f8e" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6942,6 +6954,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_MINDSLIVER" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MindSliver);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd455a5aag6fb4g48ccgbec8gdf13c11a88ab" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6951,6 +6964,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_MINORILLUSION" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MinorIllusion);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h965b7dc5ga4acg4b60g9e4bgcd236212e8b4" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6960,6 +6974,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_POISONSPRAY" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_PoisonSpray);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcb1e67e1g69e7g4710g9cd5ga81a12763305" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6969,6 +6984,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_PRODUCEFLAME" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ProduceFlame);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf6e4b463g8945g4e41g8f63g065eb4ecdd0b" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6978,6 +6994,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_PRESTIDIGITATION" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Prestidigitation);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4f7e0ea1g2ff6g48b2g937bg7cc4f590d0e7" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6987,6 +7004,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_RAYOFFROST" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_RayOfFrost);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h893b82a7g6490g43ebg981ag9315af05142b" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6996,6 +7014,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_RESISTANCE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Resistance);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heda822d9g6ca8g4d69g862cg8e593ceb6f22" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7005,6 +7024,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_SACREDFLAME" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SacredFlame);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h04241b75g4f7eg40dagbac2g1acb8e2326f5" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7014,6 +7034,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_SHILLELAGH" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Shillelagh);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdd5d9c2cg059eg4e76gb6b6g01e4d851171d" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7023,6 +7044,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_SHOCKINGGRASP" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ShockingGrasp);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4527bdb1gf97cg4adcg9003g64255fe6abdf" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7032,6 +7054,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_SPARETHEDYING" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SpareTheDying);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h29d6991cg8d76g4e4bga787g7f988a72fe15" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7041,6 +7064,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_STARRYWISP" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_StarryWisp);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb163e2e9gb2d2g4adeg8801g80dbb2b50492" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7050,6 +7074,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_SWORDBURST" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SwordBurst);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9f283e92g10dfg43b6g837dg39ee82977d4b" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7059,6 +7084,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_THAUMATURGY" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Thaumaturgy);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h66c0ac32gf014g42dag9841g3b01a76087d3" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7068,6 +7094,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_THORNWHIP" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ThornWhip);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc3c05220gcdefg4521g8152g4898ef5b675d" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7077,6 +7104,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_THUNDERCLAP" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Thunderclap);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h663fe553g789ag4344gba16g9856c5fe1f6c" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7086,6 +7114,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_TOLLTHEDEAD" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_TollTheDead);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8a1afdf9g8010g4ad9gbda9ged21cac57381" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7095,6 +7124,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_TRUESTRIKE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_TrueStrike);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfc64fd6bgba50g4748gaa9fg22adb16ff81b" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7104,6 +7134,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_VENGEFULBLADE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_VengefulBlade);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc24e0712g664bg4e59gad6fg394d985f4bfb" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7113,6 +7144,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_WORDOFRADIANCE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WordOfRadiance);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he02ce6f7gdbe0g4af4g8e20g9e0b3c31c653" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7122,6 +7154,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_HOLYWORD" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_HolyWord);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb0e3941dgfac2g426ag9ccdgee197b362bd8" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7131,6 +7164,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_FRIGHTFULSTART" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_FrightfulStart);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h749a56acgdc0fg4869g9757g0be1a08703ea" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7140,6 +7174,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_ANIMALFRIENDSHIP" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_AnimalFriendship,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h21645e9ag9d9cg418aga245g6a9015289552" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7149,6 +7184,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_CREATEDESTROYWATER" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CreateDestroyWater,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdf583f63gea12g4423g9944g3daa981713d3" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7158,6 +7194,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_COMMAND" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Command_Container,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcc29c239gc13fg4023gb368g06aa956b1eb2" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7167,6 +7204,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_COLORSPRAY" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_ColorSpray,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hce902b37g2b1fg4c69gb496g34f99e16b2db" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7176,6 +7214,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_CLOAKOFSHADOW" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_CloakOfShadow,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc3ea7a0bg4a33g447egab4cg59b3544f61a4" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7185,6 +7224,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_CHROMATICORB" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_ChromaticOrb,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h20d0eed4gb780g487cg8ab2g2a8f0df204ec" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7194,6 +7234,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_CHARMPERSON" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CharmPerson,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbcff1db6g661fg44b2gaa19ge984fa1cedb3" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7203,6 +7244,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_BURNINGHANDS" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_BurningHands,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h32091888g9007g441cgb899gf48ab4745ec0" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7212,6 +7254,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_BLESS" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Bless,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb964961egd956g43e4gb1f4gbbd5199911f7" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7221,6 +7264,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_BANE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Bane,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf286fcbga673g4b58g9ca2g7cb218338271" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7230,6 +7274,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_CUREWOUNDS" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CureWounds,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h40603322g7144g4076ga600g816c1a3bf347" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7239,6 +7284,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_ENTANGLE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Entangle,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h21dc2164g914fg40f1g96f0g6370fd2112f5" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7248,6 +7294,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_EXPEDITIOUSRETREAT" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ExpeditiousRetreat,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1b472549g17edg4c6bgac27gf0b44463bc4c" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7257,6 +7304,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_FAERIEFIRE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_FaerieFire,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hffc26135gf1a3g4a40ga837gc93edb478e30" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7266,6 +7314,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_FALSELIFE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_FalseLife,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4ded108bga017g4608gbf95g21aa64af5306" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7275,6 +7324,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_FEATHERFALL" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_FeatherFall,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haba60ef6g99aag4749g96b9g8d1f04316129" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7284,6 +7334,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_FINDFAMILIAR" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_FindFamiliar,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h38f40cc0g5620g4711g8d56gdd9c138dc7bf" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7293,6 +7344,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_FOGCLOUD" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_FogCloud,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf8e02fcbgdb8bg4268gb21cg13293d623b07" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7302,6 +7354,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_GOODBERRY" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Goodberry,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7fe00d2bgea8ag4b0fgbbacgdbf44e74157c" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7311,6 +7364,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_GREASE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Grease,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc6e80bc7gdc11g4a8egafadg36b0c70eecad" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7320,6 +7374,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_GUIDINGBOLT" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_GuidingBolt,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h06ce1335g4a93g488eg9ce8g7f24e3f055ce" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7329,6 +7384,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_HEALINGWORD" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_HealingWord,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h050d8dc6gbc79g42dbg906dg75bd310a68ea" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7338,6 +7394,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_HIDEOUSLAUGHTER" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_HideousLaughter,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3ea7727eg6fb7g4437g8abfg5b8b01c08404" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7347,6 +7404,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_ICEKNIFE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_IceKnife,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdc5cb67eg6726g4f71ga0a5g19d3f916892d" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7356,6 +7414,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_INFLICTWOUNDS" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_InflictWounds,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h86f50d94gf85eg4f54g9043g7300025a6b85" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7365,6 +7424,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_JUMP" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Jump,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h57c34580gbbf4g41acgbcb6g5f4b946ba3e2" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7374,6 +7434,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_LONGSTRIDER" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Longstrider,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h931b6d31gbc0cg42a0ga0fdg6bf79513d2f8" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7383,6 +7444,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_MAGEARMOR" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MageArmor,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3cb9ecd6gc656g434eg9178g4828fbd9e74c" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7392,6 +7454,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_MAGICMISSILE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_MagicMissile,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc12ab9b5ga37dg4463g97c9gcfaef383ed25" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7401,6 +7464,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_PROTECTIONFROMEVILANDGOOD" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ProtectionFromEvilAndGood,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7380d024gd726g4ecbgaf7bg7053d764150b" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7410,6 +7474,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_RAYOFSICKNESS" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_RayOfSickness,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8ec3e1ffgcbf4g4037g9bc0g84441c8fa842" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7419,6 +7484,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_SANCTUARY" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Sanctuary,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h124523e9g22fbg4ef6g9eadg44197da47bfb" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7428,6 +7494,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_SHIELD" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Shield_Wizard,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2cd9127cg7278g4d0fgb936g380f15ea9889" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7437,6 +7504,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_SHIELDOFFAITH" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ShieldOfFaith,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2ad87388g142dg4348gbbedg0e1f69d37af7" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7446,6 +7514,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_SLEEP" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Sleep,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h11e7e65ag5981g4ae2g8c38gc618d023f94b" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7455,6 +7524,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_SPEAKWITHANIMALS" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SpeakWithAnimals,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcacff426g1d0ag44e6g9598gd4e780c75798" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7464,6 +7534,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_THUNDERWAVE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_Thunderwave,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5aa03de7gf337g42a1gb453ge89a6f671278" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7473,6 +7544,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_WARDAWAY" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Wardaway,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4a25b113gd59eg4b37gb1fag1d64b4e65972" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7482,6 +7554,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_WITCHBOLT" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_WitchBolt,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4a465394gc707g4e0bga071g165709a73a35" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
