@@ -742,7 +742,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Paladin SLevel 1 List"/>
-                    <attribute id="Spells" type="LSString" value=";Target_Bless;Target_Command_Container;Target_CompelledDuel;Target_CureWounds;Shout_DivineFavor;Target_Heroism;Target_ProtectionFromEvilAndGood;Target_ShieldOfFaith;Target_Smite_Searing;Target_Smite_Thunderous;Target_Smite_Wrathful;Projectile_Wardaway"/>
+                    <attribute id="Spells" type="LSString" value=";Projectile_BallisticSmite;Target_Bless;Target_Command_Container;Target_CompelledDuel;Target_CureWounds;Shout_DivineFavor;Target_Heroism;Target_ProtectionFromEvilAndGood;Target_ShieldOfFaith;Target_Smite_Searing;Target_Smite_Thunderous;Target_Smite_Wrathful;Projectile_Wardaway"/>
                     <attribute id="UUID" type="guid" value="c6288ac5-c68b-40ed-bbdd-2ff388575831"/>
                 </node>
                 <node id="SpellList">
@@ -1712,7 +1712,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Spellslinger Finger Guns"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_FingerGuns"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_BallisticSmite;Projectile_FingerGuns"/>
                     <attribute id="UUID" type="guid" value="a2d17196-c865-4c32-b09a-a9d11ae1c493"/>
                 </node>
                 <node id="SpellList">

@@ -109,7 +109,7 @@ Acid Splash, Blade Ward, Chill Touch, Eldritch Blast, Finger Guns, Frightful Sta
 [size=4][b]Leveled Spells[/b][/size]
 
 [list]
-[*][b]Level 1:[/b] Armor of Agathys, Chromatic Orb, Cloak of Shadow, Color Spray, Cure Wounds, Divine Favor, Divine Smite, Entangle, Feather Fall, Guiding Bolt, Healing Word, Hell's Lash, Hex, Hunter's Mark, Inflict Wounds, Jump, Longstrider, Magic Missile, Ray of Sickness, Searing Smite, Sleep, Tasha's Hideous Laughter, Wardaway, Wrathful Smite.
+[*][b]Level 1:[/b] Armor of Agathys, Ballistic Smite, Chromatic Orb, Cloak of Shadow, Color Spray, Cure Wounds, Divine Favor, Divine Smite, Entangle, Feather Fall, Guiding Bolt, Healing Word, Hell's Lash, Hex, Hunter's Mark, Inflict Wounds, Jump, Longstrider, Magic Missile, Ray of Sickness, Searing Smite, Sleep, Tasha's Hideous Laughter, Wardaway, Wrathful Smite.
 [*][b]Level 2:[/b] Aganazzar's Scorcher, Aid, Arcane Vigor, Blindness, Cloud of Daggers, Crown of Madness, Darkbolt, Darkness, Dazing Blast, Death Armor, Find Steed, Fire Rune, Flame Blade, Gust of Wind, Lesser Restoration, Magic Weapon, Melf's Acid Arrow, Mind Spike, Misty Step, Prayer of Healing, Ray of Enfeeblement, Searing Orb, Shadow Blade, Snilloc's Snowball Swarm, Spiritual Weapon, Summon Beast, Tasha's Mind Whip, Warding Bond.
 [*][b]Level 3:[/b] Astral Flood, Aura of Vitality, Bestow Curse, Blink, Conjure Barrage, Crusader's Mantle, Fear, Lightning Arrow, Mass Healing Word, Murmurs of Doom, Phantom Steed, Summon Fey, Tidal Wave, Trollblood Infusion, Void Strike.
 [*][b]Level 4:[/b] Banishment, Confusion, Dominate Beast, Fount of Moonlight, Ice Storm, Murder of Crows, Otiluke's Resilient Sphere, Phantasmal Killer, Polymorph, Stoneskin, Vitriolic Sphere.

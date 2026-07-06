@@ -826,6 +826,480 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6357b145-0917-48c3-83e6-0142789aa8cf" />
+        <field name="Name" type="NameTableFieldDefinition" value="__BALLISTIC SMITE__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da081c4f-1e25-4429-b6ec-6276bad835f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="05b74467-6401-4332-b826-aad8007a2ef7" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(2d6,Acid);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BallisticSmite" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7282e855ge2c0g4f40gc42bgdec458d13ad3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h13aa2cdag2fb5g8660ga803g42449d529329" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+2d6, MainRangedWeaponDamageType)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedWeaponAttack" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Acid)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;AddFallDamageOnLand;IsLinkedSpellContainer;IsSpell" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="HitEffect" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Acid" enumeration_type_name="Damage Type" version="1" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_BallisticSmite_Acid;Projectile_BallisticSmite_Cold;Projectile_BallisticSmite_Fire;Projectile_BallisticSmite_Lightning;Projectile_BallisticSmite_Poison;Projectile_BallisticSmite_Thunder;" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="45a88ff6-2149-4e72-82db-43d2ef8e497f" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Acid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da081c4f-1e25-4429-b6ec-6276bad835f2" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_BallisticSmite" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(2d6,Acid);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BallisticSmite_Acid" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h55e5be08g5ff7g2cf9g5dabg5964e7cfef5a" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+2d6, Acid)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;AddFallDamageOnLand;IsSpell" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="1cee65a9-20fa-4b5f-9e38-c31035bdec76,142ec2e2-0288-509e-0dde-93e7a53c79f9,c8ebf2a3-074b-e643-c017-c5c1be4f8092" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Proj_Arr_Cast_ArrowOfAcid" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="17d73412-9f44-4080-975f-f79b7a2921bc" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="85559b54-6970-4d3a-8c68-0f661d25c60c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="193b2d73-ae20-48c4-a653-326966e7ab53" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Acid_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="45a88ff6-2149-4e72-82db-43d2ef8e497f" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(3d6,Acid);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+3d6, Acid)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:2;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_BallisticSmite_Acid" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04c2025c-e9e5-4c89-89f3-644bc0ec8e60" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Acid_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="193b2d73-ae20-48c4-a653-326966e7ab53" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(4d6,Acid);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+4d6, Acid)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f07ebc4a-ae3c-4159-be27-57a18f5998e7" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Acid_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="193b2d73-ae20-48c4-a653-326966e7ab53" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d6,Acid);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+5d6, Acid)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d54274f0-5ced-467b-a934-17af70bddb2d" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Acid_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="193b2d73-ae20-48c4-a653-326966e7ab53" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(6d6,Acid);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+6d6, Acid)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e3c436bf-07b1-44c0-9b82-0074b13dd281" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Acid_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="193b2d73-ae20-48c4-a653-326966e7ab53" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(7d6,Acid);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+7d6, Acid)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="09700a78-3a1a-41e2-b0c3-46ac546d15f8" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Cold" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="45a88ff6-2149-4e72-82db-43d2ef8e497f" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(2d6,Cold);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BallisticSmite_Cold" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h40f147a8g98d2gb22dg8665g35bdab166d32" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+2d6, Cold)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Cold)" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Cold" enumeration_type_name="Damage Type" version="1" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="b8b95321-ab56-4613-8160-ef7153d315aa,8c9aaf1d-7f1b-ae33-13d6-4a406dbc6ca6,20840c5b-a3df-5483-c071-118de86c1fa1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Proj_Arr_Cast_Arrow_Ice" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="62bfb923-6000-4022-931f-f9c0fac3b6a0" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="4ab28ec5-1118-4c4b-9376-ba03e8aed6ea" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);GROUND:SurfaceChange(Freeze);GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb6b8805-3e0b-4331-b64a-6a2568d02001" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Cold_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="09700a78-3a1a-41e2-b0c3-46ac546d15f8" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(3d6,Cold);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+3d6, Cold)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:2;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_BallisticSmite_Cold" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a514339-5900-47ad-a865-b80c2e560520" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Cold_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb6b8805-3e0b-4331-b64a-6a2568d02001" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(4d6,Cold);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+4d6, Cold)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3885d6c6-6f69-4528-bfea-216b47b913af" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Cold_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb6b8805-3e0b-4331-b64a-6a2568d02001" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d6,Cold);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+5d6, Cold)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="82e6833c-41e1-42fd-a2a4-2fe03e45777d" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Cold_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb6b8805-3e0b-4331-b64a-6a2568d02001" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(6d6,Cold);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+6d6, Cold)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="957e2057-d6bf-4070-b3c9-e8b97eb8862e" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Cold_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb6b8805-3e0b-4331-b64a-6a2568d02001" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(7d6,Cold);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+7d6, Cold)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6377da8e-646e-489b-9317-d094389c9dc2" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Fire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="09700a78-3a1a-41e2-b0c3-46ac546d15f8" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(2d6,Fire);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BallisticSmite_Fire" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbdc42068gbee7gfa65g006egbbd103dbaeae" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+2d6, Fire)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Fire)" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Fire" enumeration_type_name="Damage Type" version="1" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="a987eb34-3d51-42fb-ba62-d2ebfbdc58c0,632d947d-cc8b-13ec-871d-f35e8eb42799,35087a9c-89ce-781b-a81b-e5ade6b3848d" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Proj_Arr_Cast_Arrow_Of_Fire" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="058553a4-1630-44ff-b08a-4c9dea9a6b32" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b26abd87-14b7-4ed0-93d1-f424bc4fa236" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);GROUND:SurfaceChange(Ignite);GROUND:SurfaceChange(Melt);IF(Item()):ApplyStatus(BURNING, 100, 2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a6cdfe13-c5ee-49db-b6ef-93d3e16609a3" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Fire_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6377da8e-646e-489b-9317-d094389c9dc2" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(3d6,Fire);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+3d6, Fire)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:2;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_BallisticSmite_Fire" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e6713f8b-2578-4184-9930-019e025e3728" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Fire_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a6cdfe13-c5ee-49db-b6ef-93d3e16609a3" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(4d6,Fire);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+4d6, Fire)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="39a1e38b-508a-4e53-bf62-c17e6fb8a917" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Fire_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a6cdfe13-c5ee-49db-b6ef-93d3e16609a3" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d6,Fire);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+5d6, Fire)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bbaddde7-79c0-4c13-ae98-6100f7e8a8a3" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Fire_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a6cdfe13-c5ee-49db-b6ef-93d3e16609a3" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(6d6,Fire);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+6d6, Fire)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c582c0ce-81da-468f-a240-7fa51bc427cf" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Fire_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a6cdfe13-c5ee-49db-b6ef-93d3e16609a3" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(7d6,Fire);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+7d6, Fire)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b207e5c4-ee34-4891-8b95-a335341ea4cf" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Lightning" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6377da8e-646e-489b-9317-d094389c9dc2" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(2d6,Lightning);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BallisticSmite_Lightning" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h96c1b9f4g4877g6b3eg89e6gff5592637883" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+2d6, Lightning)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Lightning)" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Lightning" enumeration_type_name="Damage Type" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);GROUND:SurfaceChange(Electrify);" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="e11d8ca4-6880-4876-88af-220851075f80,66917ab1-c0d9-70fd-2ca6-f0149ac62ec5,e7130737-bc9b-e7f3-a3ba-9f788e99ae2d" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Proj_Arr_Cast_Arrow_Of_Lightning" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="80b941f4-9dc6-4236-a3a2-51d470582411" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="733aaa75-f2eb-49fd-be6c-0f283de55b6f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="366fc219-1e1e-409c-8e85-43b773f72271" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Lightning_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b207e5c4-ee34-4891-8b95-a335341ea4cf" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(3d6,Lightning);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+3d6, Lightning)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:2;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_BallisticSmite_Lightning" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8ab5298a-138d-4078-8fc0-31b9c1b6eeec" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Lightning_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="366fc219-1e1e-409c-8e85-43b773f72271" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(4d6,Lightning);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+4d6, Lightning)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e557d9a9-84b5-4971-935c-4d33567576b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Lightning_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="366fc219-1e1e-409c-8e85-43b773f72271" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d6,Lightning);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+5d6, Lightning)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8e9781a1-93be-4a0b-995c-3005acbf46e4" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Lightning_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="366fc219-1e1e-409c-8e85-43b773f72271" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(6d6,Lightning);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+6d6, Lightning)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d45fe320-8383-4eb7-b2e3-50bc4e386f56" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Lightning_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="366fc219-1e1e-409c-8e85-43b773f72271" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(7d6,Lightning);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+7d6, Lightning)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc7dab9d-82eb-4944-9743-25a47f4eee22" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Poison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b207e5c4-ee34-4891-8b95-a335341ea4cf" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(2d6,Poison);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BallisticSmite_Poison" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hafc90845gfef4gbcabg21e1g4b507cd3aea3" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+2d6, Poison)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Poison)" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Poison" enumeration_type_name="Damage Type" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="1cee65a9-20fa-4b5f-9e38-c31035bdec76,142ec2e2-0288-509e-0dde-93e7a53c79f9,c8ebf2a3-074b-e643-c017-c5c1be4f8092" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Proj_Arr_Cast_ArrowOfAcid" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="17d73412-9f44-4080-975f-f79b7a2921bc" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="85559b54-6970-4d3a-8c68-0f661d25c60c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2830c490-92b2-4dfe-9aa4-56a957c1321f" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Poison_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cc7dab9d-82eb-4944-9743-25a47f4eee22" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(3d6,Poison);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+3d6, Poison)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:2;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_BallisticSmite_Poison" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f693b8c2-52c9-4593-8922-0e062a81c3b3" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Poison_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2830c490-92b2-4dfe-9aa4-56a957c1321f" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(4d6,Poison);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+4d6, Poison)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="37450a3a-1681-412c-bfc8-44dad2782fc3" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Poison_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2830c490-92b2-4dfe-9aa4-56a957c1321f" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d6,Poison);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+5d6, Poison)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="42d5ef48-d78d-489d-9199-0bb1e4db081d" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Poison_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2830c490-92b2-4dfe-9aa4-56a957c1321f" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(6d6,Poison);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+6d6, Poison)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6c2f4561-4f32-48ac-ad99-8f68d51b060d" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Poison_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2830c490-92b2-4dfe-9aa4-56a957c1321f" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(7d6,Poison);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+7d6, Poison)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b534fd74-6a34-457c-8dd6-099ec843e4f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Thunder" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cc7dab9d-82eb-4944-9743-25a47f4eee22" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(2d6,Thunder);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BallisticSmite_Thunder" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h56c89b94g9c5cg3e99g2ac5gc5f4723f0a66" version="2" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+2d6, Thunder)" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Thunder)" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Thunder" enumeration_type_name="Damage Type" version="1" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="46de315c-71f5-4848-818a-dbec9c93583b,101c0773-4de6-7fb3-142a-1916711614aa,09286832-7a86-6f58-0710-bd90b9148455" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Proj_Arr_Cast_ArrowOfDetonation" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="b7096c7b-7d2a-405a-907c-ea2a50edb660" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="c1a2c14e-e131-405c-b140-513c53e45117" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a359f13-ceea-4078-9e0b-194b3e2a4a68" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Thunder_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b534fd74-6a34-457c-8dd6-099ec843e4f5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(3d6,Thunder);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+3d6, Thunder)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:2;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_BallisticSmite_Thunder" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="271edcaf-d305-4360-b218-af01b4b7b8a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Thunder_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3a359f13-ceea-4078-9e0b-194b3e2a4a68" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(4d6,Thunder);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+4d6, Thunder)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6ec93917-f1b1-4627-83a9-e54e668be6ce" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Thunder_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3a359f13-ceea-4078-9e0b-194b3e2a4a68" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d6,Thunder);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+5d6, Thunder)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cf54141a-2449-408e-a631-c22071ccea15" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Thunder_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3a359f13-ceea-4078-9e0b-194b3e2a4a68" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(6d6,Thunder);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+6d6, Thunder)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe93ac72-017d-4135-86a1-655837f9fe30" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_Thunder_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3a359f13-ceea-4078-9e0b-194b3e2a4a68" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(7d6,Thunder);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+7d6, Thunder)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4792fbdc-0c59-4cb8-8095-15f930177b22" />
         <field name="Name" type="NameTableFieldDefinition" value="__CHROMATIC ORB__" />
       </fields>
