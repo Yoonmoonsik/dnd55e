@@ -12,7 +12,7 @@
 이동 제한: 일어서서 상태를 끝내려면 이동 속도의 절반에 해당하는 이동력을 소모해야 합니다. 이동 속도가 0이면 일어설 수 없습니다.
 
 공격 영향: 공격자가 [1] 이내에 있다면 당신에 대한 명중 굴림이 유리 보정을 받습니다. 그렇지 않으면 해당 명중 굴림은 불리 보정을 받습니다.</content>
-  <content contentuid="h4d9f934eg7721gfb63gcff8gb411e659dc78" version="1">규칙: 턴당 주문 슬롯을 사용하는 주문은 하나만 가능</content>
+  <content contentuid="h4d9f934eg7721gfb63gcff8gb411e659dc78" version="1">규칙: 턴당 주문 1회 제한</content>
   <content contentuid="hd3ffb028g9755g52adgf223g4bb289eebf93" version="1">한 턴에 주문을 시전하기 위해 주문 슬롯을 하나만 소모할 수 있습니다. 이 규칙에 따라, 예를 들어 같은 턴에 마법 행동으로 주문 슬롯을 사용하여 주문을 시전하고 보조 행동으로 또 다른 주문 슬롯 주문을 시전할 수는 없습니다.</content>
   <content contentuid="hb60d9b3bg491bg7056g1bd9gc752b67bfd56" version="2">휘두르기</content>
   <content contentuid="h57100728g823cg76f4g4795g878063b680ae" version="2">이 무기를 사용한 근거리 명중 굴림으로 크리처를 적중시키면, 첫 번째 대상에서 [1] 이내에 있고 자신의 사거리 안에 있는 두 번째 크리처에게 이 무기로 근거리 명중 굴림을 할 수 있습니다. 적중 시 두 번째 크리처는 무기 피해를 입지만, 능력 보정치가 음수가 아닌 한 해당 피해에 능력 보정치를 더하지 않습니다. 이 추가 공격은 턴당 한 번만 수행할 수 있습니다.</content>
@@ -634,7 +634,7 @@
   <content contentuid="h6e517fa0g6790g8599ga038gec0254c7fae0" version="1">9레벨: 이동 조준</content>
   <content contentuid="h4ad37d2fg7e63g64e1g0db3g45844045ca7d" version="1">안정적인 조준을 사용해도 이동 속도가 0으로 줄어들지 않습니다.</content>
   <content contentuid="he1072514g2359gf4c9g9ab0gf2fd8d2183ce" version="1">3레벨: 빠른 손놀림</content>
-  <content contentuid="h127592e2g23a4gc43cg2c3fgbbf222b3b2d1" version="1">투척을 보조 행동으로 사용할 수 있습니다.</content>
+  <content contentuid="h127592e2g23a4gc43cg2c3fgbbf222b3b2d1" version="1">보조 행동으로 투척을 사용할 수 있습니다. 보조 행동으로 주문 두루마리를 사용할 수 있습니다. 주문 두루마리 사용 조건은 변경되지 않습니다.</content>
   <content contentuid="h3cad8c7eg48eeg5692g23c0g79706df73d92" version="1">3레벨: 은밀한 작업</content>
   <content contentuid="h2fc3807bg34e4gbdbeg88f4gb50fa0facd7e" version="1">투척: 빠른 손놀림</content>
   <content contentuid="h60ea26b2gbcebg085dg4445g8f07a9d3ff4c" version="1">팔라딘</content>
@@ -4516,7 +4516,7 @@
   <content contentuid="h8f6de0c2g375fgd164gdd46g3b76457a3d70" version="1">3레벨: 정신 반응</content>
   <content contentuid="h5360cb80gee7ag0e61g2927g4eace8e2c5e6" version="2">9m 이내에서 보이는 크리처가 내성 굴림에 성공했을 때, 대응을 취하고 신성한 권능을 소비하여 대상이 성공하거나 실패하기 전에 그 정신을 엿봄으로써 해당 내성 굴림에 불리 보정을 받게 할 수 있습니다.</content>
   <content contentuid="h65dab31ag9d8cg8927g3507g782f6b5249c9" version="1">3레벨: 정신력</content>
-  <content contentuid="h637fd45bg14ebg37d7g4fd0g0b738fa63f79" version="3">정신의 힘으로 적을 타격하는 법을 배웁니다. 광휘 또는 정신 피해를 입히는 클레릭 주문을 시전할 때, 해당 주문의 각 대상은 당신의 매력 보정치만큼의 사령 피해를 추가로 입습니다.</content>
+  <content contentuid="h637fd45bg14ebg37d7g4fd0g0b738fa63f79" version="3">정신의 힘으로 적을 타격하는 법을 배웁니다. 광휘 또는 정신 피해를 입히는 클레릭 주문을 시전할 때, 해당 주문의 각 대상은 당신의 매력 보정치만큼의 추가 정신 피해를 입습니다.</content>
   <content contentuid="h66a70d44ge6f0ga710g9f15ge39c0aaa98f6" version="1">6레벨: 게슈탈트 닻</content>
   <content contentuid="ha688aa5dgc9bege050gd0f4gd8a5d10c7791" version="1">정신의 힘이 증가하여 당신에게서 시작되는 3m 범위에 평온함을 방출할 수 있습니다. 당신이 행동 불능 상태가 되면 방출은 비활성화됩니다.
 
@@ -4532,12 +4532,12 @@
   <content contentuid="h5523ff58gc19agf695g2c18g98109b1b9045" version="1">게슈탈트 닻</content>
   <content contentuid="h63ae3ebcg6ca5g662cga9ebg81bcaf35125f" version="1">지능, 지혜, 매력 내성 굴림에 +2 보너스를 얻습니다.</content>
   <content contentuid="h50b49a89g7327gee14gb91dg12153f8b0fd5" version="1">선제권에 -5 페널티를 받습니다.</content>
-  <content contentuid="h89fdc87bg9104g7a67g82f9gea36ba2329e9" version="1">섬뜩한 강타</content>
-  <content contentuid="hfcd09315g6bf2g29efgc581g90a0a0b160fa" version="1">치명타 시 섬뜩한 강타</content>
-  <content contentuid="h0cd27988g7bc2g4ac0g6bafg09eb92cd684f" version="1">치명타 시 섬뜩한 강타</content>
-  <content contentuid="h2e15736fg5bd6g3f4dg0fc4g819006dce402" version="1">섬뜩한 강타</content>
-  <content contentuid="h5bda03eag283cgfcf7ga7d9g208fb40a60f2" version="1">섬뜩한 강타</content>
-  <content contentuid="h16b86fe8gc17cgeb8cg6b91g3ff530eba5fc" version="1">치명타 시 섬뜩한 강타</content>
+  <content contentuid="h89fdc87bg9104g7a67g82f9gea36ba2329e9" version="2">섬뜩한 강타(근거리)</content>
+  <content contentuid="hfcd09315g6bf2g29efgc581g90a0a0b160fa" version="2">치명타 시 섬뜩한 강타(근거리)</content>
+  <content contentuid="h0cd27988g7bc2g4ac0g6bafg09eb92cd684f" version="2">치명타 시 섬뜩한 강타(근거리)</content>
+  <content contentuid="h2e15736fg5bd6g3f4dg0fc4g819006dce402" version="2">섬뜩한 강타(근거리)</content>
+  <content contentuid="h5bda03eag283cgfcf7ga7d9g208fb40a60f2" version="2">섬뜩한 강타(근거리)</content>
+  <content contentuid="h16b86fe8gc17cgeb8cg6b91g3ff530eba5fc" version="2">치명타 시 섬뜩한 강타(근거리)</content>
   <content contentuid="h8530202fg28b6g772egd8f7gc108c5f8cded" version="1">턴당 한 번 계약 무기로 크리처를 적중시켰을 때, 계약 마법 주문 슬롯을 소모하여 대상에게 1d8 + 주문 슬롯 레벨당 1d8의 역장 피해를 추가로 입힐 수 있으며, 대상이 거대형 이하 크기라면 넘어짐 상태로 만들 수 있습니다.</content>
   <content contentuid="hf7ca621bg1f12ga4d3g3047g634d03c15efe" version="1">턴당 한 번 계약 무기로 크리처를 적중시켰을 때, 계약 마법 주문 슬롯을 소모하여 대상에게 1d8 + 주문 슬롯 레벨당 1d8의 역장 피해를 추가로 입힐 수 있으며, 대상이 거대형 이하 크기라면 넘어짐 상태로 만들 수 있습니다.</content>
   <content contentuid="h479f3229gb556gd7b7g73bcgb4311aa0da92" version="1">턴당 한 번 계약 무기로 크리처를 적중시켰을 때, 계약 마법 주문 슬롯을 소모하여 대상에게 1d8 + 주문 슬롯 레벨당 1d8의 역장 피해를 추가로 입힐 수 있으며, 대상이 거대형 이하 크기라면 넘어짐 상태로 만들 수 있습니다.</content>
@@ -4583,9 +4583,11 @@
   <content contentuid="he6b03eaeg69d3geb4cgfcafg07e44f75a6d9" version="1">자신의 턴에 공격 행동의 일부로 1.5m 이내의 크리처를 공격하여 근거리 무기로 적중시켰을 때, 방패를 장착하고 있다면 즉시 방패로 대상을 후려쳐 근력 내성 굴림(난이도 8 + 근력 보정치 + 숙련 보너스)을 강제할 수 있습니다. 내성 굴림 실패 시, 대상을 당신으로부터 1.5m 밀쳐내거나 넘어뜨립니다(선택 사항). 이 혜택은 자신의 각 턴마다 한 번만 사용할 수 있습니다.</content>
   <content contentuid="he6c26bfag496eg4545g66e5g0166e2cb0452" version="1">방패 후려치기(넘어뜨리기)</content>
   <content contentuid="h86dd84e2ge406g25feg8fbag707fbd12baf0" version="1">규칙: 주문 두루마리</content>
-  <content contentuid="hb0c05d37g1b53g2cb2g912fg504559979b3f" version="2">주문 두루마리는 해당 두루마리의 주문이 자신의 직업이나 하위 직업 중 하나의 주문 목록에 있는 경우에만 사용할 수 있습니다.
+  <content contentuid="hb0c05d37g1b53g2cb2g912fg504559979b3f" version="3">주문 두루마리는 두루마리에 적힌 주문이 자신의 직업 또는 하위 직업 중 하나의 주문 목록에 포함되어 있는 경우에만 사용할 수 있습니다.
 
-또한, 자신이 가진 가장 높은 주문 슬롯 레벨이 두루마리에 기록된 주문의 레벨보다 최소 1레벨 낮아야 합니다. 다중 직업 캐릭터의 주문 슬롯 레벨을 결정할 때는 해당 주문이 주문 목록에 포함된 직업 및 하위 직업의 레벨만 계산합니다.</content>
+또한, 자신이 보유한 가장 높은 주문 슬롯보다 최대 1레벨 높은 주문까지만 두루마리로 시전할 수 있습니다. 다중 직업 캐릭터의 주문 슬롯 레벨을 결정할 때는 해당 주문이 주문 목록에 포함된 직업 및 하위 직업의 레벨만 계산합니다.
+
+생환 두루마리는 항상 이 제한에서 제외되며 모든 캐릭터가 사용할 수 있습니다.</content>
   <content contentuid="h2a38021bge7c4g0eedgdbf5g331c3221892d" version="1">예를 들어, 화염 벽 두루마리(4레벨 주문)을 사용하려면 3레벨 주문 슬롯이 필요합니다. 캐릭터는 위저드 5레벨을 달성하거나, 위저드 4레벨과 비전 괴도 3레벨을 조합하여 이 요구 조건을 충족할 수 있습니다. 하지만 클레릭 4레벨과 비전 괴도 3레벨을 가진 캐릭터는 화염 벽이 클레릭 주문 목록에 없기 때문에 자격을 충족하지 못합니다.</content>
   <content contentuid="h94c617f1g467ag18f3gf740gb5a9fc763e88" version="1">방어적인 결투가</content>
   <content contentuid="hb74c3fd9ga6a8g8c4bg0373g427c3edf70f7" version="4">뛰어내리기</content>
@@ -5161,4 +5163,90 @@
   <content contentuid="hb2bb0f2eg9d2ag5515gead7g44579222fb75" version="1">다음 1분(10턴) 동안 환영 방패가 당신의 주위를 맴돌며, 방어도에 +2 보너스를 부여하고 마력탄에 면역이 되게 합니다.</content>
   <content contentuid="h33261258g796fg3395g69a4gaddfad4937eb" version="1">다음 1분(10턴) 동안, 침묵 상태일 때도 주문을 시전할 수 있습니다.</content>
   <content contentuid="hb2a8f231g4f09g0714g0977ga484944bbb45" version="1">야생 마법 여파: 신속 주문</content>
+  <content contentuid="hf35665d0g7373g4d2dga1f3g0b7fc11ce883" version="1">숙련가: 세 가지 기술에 숙련을 얻었습니다. 현명한 선택입니다.</content>
+  <content contentuid="h5205e9a5g2faag4116g9482g9d62b12da058" version="1">숙련가: 선택한 기술에 숙련을 얻었습니다.</content>
+  <content contentuid="hffac3ddcg8327g4829g8b8fgec3bb18e4a7e" version="1">마법 입문(클레릭): 소마법 두 개를 배웠습니다. 현명한 선택입니다.</content>
+  <content contentuid="h64af36efg690cg437bg9309gc6f9d243ddc7" version="1">마법 입문(클레릭): 선택한 소마법을 배웠습니다.</content>
+  <content contentuid="hd4f0c01cgfa4cg494eg93dagc7401dc42e35" version="1">마법 입문(클레릭): 선택한 주문을 배웠습니다.</content>
+  <content contentuid="h42e9d28cgdac3g453ag98b9ge050ea1a6f39" version="1">마법 입문(드루이드): 소마법 두 개를 배웠습니다. 현명한 선택입니다.</content>
+  <content contentuid="hc9f0aba8gd775g4df7gb799gd7c53747085b" version="1">마법 입문(드루이드): 선택한 소마법을 배웠습니다.</content>
+  <content contentuid="h758b92a3gedfcg4ab3g8e8fg85ad854a1ce6" version="1">마법 입문(드루이드): 선택한 주문을 배웠습니다.</content>
+  <content contentuid="hb26b5f09gacacg4ffdgb947g44c15c47929d" version="1">마법 입문(위저드): 소마법 두 개를 배웠습니다. 현명한 선택입니다.</content>
+  <content contentuid="h60a4f1cegab44g4361g8e56ge21f825230e2" version="1">마법 입문(위저드): 선택한 소마법을 배웠습니다.</content>
+  <content contentuid="h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a" version="1">마법 입문(위저드): 선택한 주문을 배웠습니다.</content>
+  <content contentuid="h70967e04gffcag4f16g93fag7c196b9e4823" version="1">사용 가능 직업: 바드, 클레릭, 위저드</content>
+  <content contentuid="h19eaac92g8ce9g40bcg900cga4ef08faeb00" version="1">사용 가능 직업: 바드, 클레릭, 위저드</content>
+  <content contentuid="hc63b5579g7f2ag4baagb760g89742ef59f21" version="1">사용 가능 직업: 클레릭, 소서러, 워락, 위저드</content>
+  <content contentuid="he2d9401fgf9bag4933g9d4fg8fb89bc284e2" version="1">사용 가능 직업: 클레릭, 워락, 위저드</content>
+  <content contentuid="h10f01d4bg7676g4859ga595g2712bce824c1" version="1">사용 가능 직업: 클레릭, 팔라딘, 워락, 위저드</content>
+  <content contentuid="h73c88544g3627g41a6gbe73g7f725f7093ce" version="1">사용 가능 직업: 위저드</content>
+  <content contentuid="h9036825bg9a32g4e70g8c69gf202e0ae6384" version="1">사용 가능 직업: 팔라딘</content>
+  <content contentuid="h5f032521g0f3bg457agaca7g37bad35cd378" version="1">사용 가능 직업: 클레릭, 드루이드, 팔라딘, 워락, 위저드</content>
+  <content contentuid="h0c4ae731g86b7g4cddg9448g2ec70d8c41e3" version="1">사용 가능 직업: 위저드, 아티피서</content>
+  <content contentuid="h3caacbafgd256g4d2bga846g1e0e85d5bfd9" version="1">사용 가능 직업: 소서러, 위저드</content>
+  <content contentuid="ha43d0c84g7029g4bb4g91b9g40464ff2451d" version="1">사용 가능 직업: 드루이드, 소서러, 위저드</content>
+  <content contentuid="h0f476bcdg9eefg4e31ga725g8d2b8048b540" version="1">사용 가능 직업: 위저드, 아티피서</content>
+  <content contentuid="he3ed5607gfd3bg4037g8cedg98e1474da744" version="1">사용 가능 직업: 드루이드, 레인저, 소서러, 위저드, 아티피서</content>
+  <content contentuid="h850611abg9fa9g4ef3ga920g342e381d85db" version="1">사용 가능 직업: 소서러, 워락, 위저드</content>
+  <content contentuid="h157bc8b6g7bd3g42b6gb126g8844ae4e6897" version="1">사용 가능 직업: 위저드</content>
+  <content contentuid="hf517cb38gb91fg4b74g9651g9d26b04c4a4f" version="1">사용 가능 직업: 소서러, 위저드</content>
+  <content contentuid="hb93accaeg9237g4486g9fefg295f1501c7b3" version="1">사용 가능 직업: 소서러, 위저드</content>
+  <content contentuid="h07c5d370g49d6g4466ga8deg9b86e982e5dd" version="1">사용 가능 직업: 바드, 드루이드, 소서러, 워락, 위저드</content>
+  <content contentuid="h5545fdeegaf71g4a87gb389g8b033c437233" version="1">사용 가능 직업: 바드, 소서러, 위저드</content>
+  <content contentuid="h09f480c3g2968g4108g955cg52ea764a99e8" version="1">사용 가능 직업: 소서러, 위저드</content>
+  <content contentuid="ha6524e13ga393g46c6g81ccg8c0505a61fa6" version="1">사용 가능 직업: 바드, 소서러, 위저드, 아티피서</content>
+  <content contentuid="hfdc5321bg8e80g4295gab40g23fc855ca270" version="1">사용 가능 직업: 바드, 소서러, 위저드</content>
+  <content contentuid="h989195e0gd334g4d2fga48cg60ac72b1b1d9" version="1">사용 가능 직업: 소서러, 위저드</content>
+  <content contentuid="h5198c509gbadfg4c26g8450g1fc86eb31633" version="1">사용 가능 직업: 바드, 소서러, 워락, 위저드</content>
+  <content contentuid="hdf1a248bg7985g430egb25eg7767ee36487c" version="1">사용 가능 직업: 바드, 드루이드, 레인저</content>
+  <content contentuid="h976e404eg3fdeg4338gaf2cgf6ba2a469a74" version="1">사용 가능 직업: 클레릭, 팔라딘</content>
+  <content contentuid="h053b6bdfg7d35g445egbe72ge4ed43fd3166" version="1">사용 가능 직업: 바드, 소서러, 위저드</content>
+  <content contentuid="hc6d3f124g2e9cg4554ga6eeg01dcc0ebadba" version="1">사용 가능 직업: 소서러, 위저드</content>
+  <content contentuid="hfa9345e1gc6c2g46a2gb695g7a77a059e302" version="1">사용 가능 직업: 소서러, 워락, 위저드</content>
+  <content contentuid="he9329f83ga933g46dfgabd0g37d583feacd1" version="1">사용 가능 직업: 클레릭, 팔라딘</content>
+  <content contentuid="h61e1a792g9f16g4e16ga50dg0ee6c9c7ccb1" version="1">사용 가능 직업: 바드, 클레릭, 드루이드, 소서러, 워락, 위저드</content>
+  <content contentuid="h552f275cgee76g4947ga777g927bce86aa21" version="1">사용 가능 직업: 드루이드, 레인저, 소서러, 위저드</content>
+  <content contentuid="h54e64aa9g3189g44e2gbf65g0425fd20f75f" version="1">사용 가능 직업: 바드, 소서러, 워락, 위저드, 아티피서</content>
+  <content contentuid="hc98b225eg8da0g4e31g8bc5g876e89935b90" version="1">사용 가능 직업: 바드, 소서러, 워락, 위저드</content>
+  <content contentuid="hf769e1e7g4972g4edbg966dgd4372642ed9d" version="1">사용 가능 직업: 드루이드, 레인저</content>
+  <content contentuid="h701629dfgc58dg4887g8faeg08469d671d32" version="1">사용 가능 직업: 바드, 드루이드, 소서러, 위저드, 아티피서</content>
+  <content contentuid="haedcf633gdecdg416aga1c4gacc76d9402eb" version="1">사용 가능 직업: 소서러, 위저드, 아티피서</content>
+  <content contentuid="hc0f24a23ge03fg4f9eg9098g245acc8324c0" version="1">사용 가능 직업: 소서러, 워락, 위저드, 아티피서</content>
+  <content contentuid="h6b900209g8da2g4792gaf6dge1c9ef17c58a" version="1">사용 가능 직업: 바드, 드루이드, 레인저, 위저드, 아티피서</content>
+  <content contentuid="h57f41308g4badg4fe3gaac6gcc36d4dc3d8b" version="1">사용 가능 직업: 소서러, 위저드</content>
+  <content contentuid="h65bcba2fg62dfg4712gaae5g9ffa44f4a2b8" version="1">사용 가능 직업: 바드, 소서러, 위저드, 아티피서</content>
+  <content contentuid="hd0f8bef5g3744g473bgb6f7g416cd1b21776" version="1">사용 가능 직업: 바드, 워락, 위저드</content>
+  <content contentuid="h9f107cbeg704cg4efdg80f3gae22cf746ff8" version="1">사용 가능 직업: 소서러, 위저드</content>
+  <content contentuid="h4e563d34g5893g4564g93d3gbe30f8798c6d" version="1">사용 가능 직업: 바드, 드루이드, 소서러, 위저드</content>
+  <content contentuid="h45afcc46g07e8g413ega467g1230c256bb27" version="1">사용 가능 직업: 소서러, 워락, 위저드</content>
+  <content contentuid="hd6dbd33fg0848g46bdg93d0ga604e88b0045" version="1">사용 가능 직업: 소서러, 워락, 위저드</content>
+  <content contentuid="h29717b0bgc570g4958gae52g7e29bf101fb7" version="1">사용 가능 직업: 위저드</content>
+  <content contentuid="h57a34188gbe1dg4aecg9436g26c503c38ca5" version="1">사용 가능 직업: 소서러, 위저드, 아티피서</content>
+  <content contentuid="ha55948cag17d3g4aa3gae23ga952030cb26c" version="1">사용 가능 직업: 위저드</content>
+  <content contentuid="ha069636bg3b39g4b50gae6fg37e461b68a60" version="1">사용 가능 직업: 바드, 소서러, 위저드, 아티피서</content>
+  <content contentuid="hc7c2f070g087bg4664ga8d0gf731f76c0a06" version="1">사용 가능 직업: 소서러, 위저드</content>
+  <content contentuid="hda5eeb36gf99bg4cc8gb43egb740c1c24b98" version="1">사용 가능 직업: 소서러, 워락, 위저드</content>
+  <content contentuid="hea2bda2fgbe08g4ab1g8a22g7f50ccea400e" version="1">사용 가능 직업: 바드, 소서러, 위저드</content>
+  <content contentuid="h0936d3bbg9d40g4b82g991bg63f298cdd927" version="1">사용 가능 직업: 소서러, 워락, 위저드</content>
+  <content contentuid="h25ea32bcgf38dg464dg8a09g608fa6283272" version="1">사용 가능 직업: 팔라딘, 레인저, 소서러, 위저드, 아티피서</content>
+  <content contentuid="h99cdb013gd519g46c8g8ee7g88ce569e971b" version="1">사용 가능 직업: 워락, 위저드</content>
+  <content contentuid="he7c90888g22e0g4d75g85f4g768f561d6f30" version="1">사용 가능 직업: 소서러, 위저드</content>
+  <content contentuid="had587edfg3e1eg46a6g88e9gba4983e47b20" version="1">사용 가능 직업: 소서러, 위저드</content>
+  <content contentuid="hbbbaa8ebg9199g46ffgbeafg104d39c86b43" version="1">사용 가능 직업: 드루이드, 레인저</content>
+  <content contentuid="h2223a50agc511g4d44gb143g94f0113311a5" version="1">사용 가능 직업: 위저드</content>
+  <content contentuid="h0991a1dfgb4b0g45eagbbb3ga5ae65a31f0e" version="1">사용 가능 직업: 드루이드, 레인저, 소서러, 위저드, 아티피서</content>
+  <content contentuid="hca88c584g8a5bg4e69g9eb7g5af56d234776" version="1">사용 가능 직업: 소서러, 워락, 위저드</content>
+  <content contentuid="h37934098g756eg4431gaed9g88557c60ee6e" version="1">사용 가능 직업: 소서러, 위저드</content>
+  <content contentuid="h482dd2dbg9946g4f59g93baga4c4928fd097" version="1">사용 가능 직업: 바드, 클레릭, 팔라딘, 위저드</content>
+  <content contentuid="h2c2386e2g0722g480egaa8ag57417fd707f9" version="1">사용 가능 직업: 소서러, 워락, 위저드, 아티피서</content>
+  <content contentuid="h6d713dd0gf384g4e20g81f0g0a61b2b73a86" version="1">사용 가능 직업: 드루이드, 소서러, 위저드</content>
+  <content contentuid="h102dd2b4gf963g41a5g8094g52a0af052bf9" version="1">사용 가능 직업: 위저드</content>
+  <content contentuid="hed54d08eg254egab54g634egc5696f632258" version="1">섬뜩한 강타(원거리)</content>
+  <content contentuid="h11a41e9fgad2fg3cbfg28b3gcc04b63b160f" version="1">섬뜩한 강타(원거리)</content>
+  <content contentuid="h3dadabd2gf927g0c0eg86c7gef99a7a4e7ad" version="1">섬뜩한 강타(원거리)</content>
+  <content contentuid="h8f7262a7gbdd0g1911g5132g67fcc1eacb9e" version="1">치명타 시 섬뜩한 강타(원거리)</content>
+  <content contentuid="h300d9c12g274eg82c1g8ba1g1bcef5722390" version="1">치명타 시 섬뜩한 강타(원거리)</content>
+  <content contentuid="h6a2383deg87c5g61b6g137cgf2184d150d39" version="1">치명타 시 섬뜩한 강타(원거리)</content>
+  <content contentuid="ha351e5dfg5a09g2d6agfd39geb9d1770a8f5" version="1">섬뜩한 강타(원거리)</content>
+  <content contentuid="hcd8ed7acga54dg31f4gb831g3687c2792f10" version="1">턴당 한 번 계약 무기로 크리처를 적중시켰을 때, 계약 마법 주문 슬롯을 소모하여 대상에게 1d8 + 주문 슬롯 레벨당 1d8의 역장 피해를 추가로 입힐 수 있으며, 대상이 거대형 이하 크기라면 넘어짐 상태로 만들 수 있습니다.</content>
 </contentList>

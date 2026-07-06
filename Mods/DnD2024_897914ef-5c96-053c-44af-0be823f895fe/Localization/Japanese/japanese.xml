@@ -12,7 +12,7 @@
 移動の制限：立ち上がって状態を終了するには、移動速度の半分に等しい移動力を消費しなければならない。移動速度が0の場合、立ち上がることはできない。
 
 攻撃への影響：攻撃者が[1]以内にいる場合、その攻撃者によるあなたへの攻撃ロールは有利になる。それ以外の場合、その攻撃ロールは不利になる。</content>
-  <content contentuid="h4d9f934eg7721gfb63gcff8gb411e659dc78" version="1">ルール：1ターンにつき呪文スロットを使用した呪文は1回まで</content>
+  <content contentuid="h4d9f934eg7721gfb63gcff8gb411e659dc78" version="1">ルール：スロット消費呪文は1ターン1回制限</content>
   <content contentuid="hd3ffb028g9755g52adgf223g4bb289eebf93" version="1">1ターンの間、呪文を詠唱するために消費できる呪文スロットは1つのみである。このルールにより、例えば同じターン内に魔法アクションで呪文スロットを使用して呪文を唱え、さらにボーナス・アクションでもう一つの呪文を唱えることはできない。</content>
   <content contentuid="hb60d9b3bg491bg7056g1bd9gc752b67bfd56" version="2">なぎ払い</content>
   <content contentuid="h57100728g823cg76f4g4795g878063b680ae" version="2">この武器を用いた近接攻撃ロールがクリーチャーに命中した場合、最初の目標から[1]以内で、かつ自分の間合いの中にいる2体目のクリーチャーに対して、その武器で近接攻撃ロールを行える。命中した場合、2体目のクリーチャーは武器ダメージを受けるが、能力修正値が負でない限り、そのダメージに能力修正値を加算しない。この追加攻撃は1ターンに1回のみ行える。</content>
@@ -634,7 +634,7 @@
   <content contentuid="h6e517fa0g6790g8599ga038gec0254c7fae0" version="1">レベル9：遊撃の狙い</content>
   <content contentuid="h4ad37d2fg7e63g64e1g0db3g45844045ca7d" version="1">安定的な狙いを使用しても移動速度が0にならない。</content>
   <content contentuid="he1072514g2359gf4c9g9ab0gf2fd8d2183ce" version="1">レベル3：器用な指先</content>
-  <content contentuid="h127592e2g23a4gc43cg2c3fgbbf222b3b2d1" version="1">ボーナス・アクションとして「投擲」を使用できる。</content>
+  <content contentuid="h127592e2g23a4gc43cg2c3fgbbf222b3b2d1" version="1">ボーナス・アクションとして「投擲」を使用できる。また、ボーナス・アクションとして「呪文の巻物」を使用できる。呪文の巻物を使用するための要件に変更はない。</content>
   <content contentuid="h3cad8c7eg48eeg5692g23c0g79706df73d92" version="1">レベル3：屋根渡り</content>
   <content contentuid="h2fc3807bg34e4gbdbeg88f4gb50fa0facd7e" version="1">投擲：器用な指先</content>
   <content contentuid="h60ea26b2gbcebg085dg4445g8f07a9d3ff4c" version="1">パラディン</content>
@@ -4531,12 +4531,12 @@
   <content contentuid="h5523ff58gc19agf695g2c18g98109b1b9045" version="1">ゲシュタルトの錨</content>
   <content contentuid="h63ae3ebcg6ca5g662cga9ebg81bcaf35125f" version="1">知力、判断力、および魅力セーヴィング・スローに＋2のボーナスを得る。</content>
   <content contentuid="h50b49a89g7327gee14gb91dg12153f8b0fd5" version="1">イニシアチブに－5のペナルティを受ける。</content>
-  <content contentuid="h89fdc87bg9104g7a67g82f9gea36ba2329e9" version="1">妖術の一撃</content>
-  <content contentuid="hfcd09315g6bf2g29efgc581g90a0a0b160fa" version="1">クリティカル・ヒットでの妖術の一撃</content>
-  <content contentuid="h0cd27988g7bc2g4ac0g6bafg09eb92cd684f" version="1">クリティカル・ヒットでの妖術の一撃</content>
-  <content contentuid="h2e15736fg5bd6g3f4dg0fc4g819006dce402" version="1">妖術の一撃</content>
-  <content contentuid="h5bda03eag283cgfcf7ga7d9g208fb40a60f2" version="1">妖術の一撃</content>
-  <content contentuid="h16b86fe8gc17cgeb8cg6b91g3ff530eba5fc" version="1">クリティカル・ヒットでの妖術の一撃</content>
+  <content contentuid="h89fdc87bg9104g7a67g82f9gea36ba2329e9" version="2">妖術の一撃（近接）</content>
+  <content contentuid="hfcd09315g6bf2g29efgc581g90a0a0b160fa" version="2">クリティカル・ヒットでの妖術の一撃（近接）</content>
+  <content contentuid="h0cd27988g7bc2g4ac0g6bafg09eb92cd684f" version="2">クリティカル・ヒットでの妖術の一撃（近接）</content>
+  <content contentuid="h2e15736fg5bd6g3f4dg0fc4g819006dce402" version="2">妖術の一撃（近接）</content>
+  <content contentuid="h5bda03eag283cgfcf7ga7d9g208fb40a60f2" version="2">妖術の一撃（近接）</content>
+  <content contentuid="h16b86fe8gc17cgeb8cg6b91g3ff530eba5fc" version="2">クリティカル・ヒットでの妖術の一撃（近接）</content>
   <content contentuid="h8530202fg28b6g772egd8f7gc108c5f8cded" version="1">各ターンに一度、契約武器をクリーチャーに命中させた際、契約魔法の呪文スロットを消費して、目標に追加で1d8の力場ダメージを与え、さらに呪文スロットのレベルごとに1d8を加算できる。また、目標が「巨大」サイズ以下であれば、目標を伏せ状態にすることができる。</content>
   <content contentuid="hf7ca621bg1f12ga4d3g3047g634d03c15efe" version="1">各ターンに一度、契約武器をクリーチャーに命中させた際、契約魔法の呪文スロットを消費して、目標に追加で1d8の力場ダメージを与え、さらに呪文スロットのレベルごとに1d8を加算できる。また、目標が「巨大」サイズ以下であれば、目標を伏せ状態にすることができる。</content>
   <content contentuid="h479f3229gb556gd7b7g73bcgb4311aa0da92" version="1">各ターンに一度、契約武器をクリーチャーに命中させた際、契約魔法の呪文スロットを消費して、目標に追加で1d8の力場ダメージを与え、さらに呪文スロットのレベルごとに1d8を加算できる。また、目標が「巨大」サイズ以下であれば、目標を伏せ状態にすることができる。</content>
@@ -4582,9 +4582,11 @@
   <content contentuid="he6b03eaeg69d3geb4cgfcafg07e44f75a6d9" version="1">自身のターンの攻撃アクションの一部として1.5メートル以内にいるクリーチャーを攻撃し、近接武器が命中した際、盾を装備しているなら即座に目標をその盾で強打し、筋力セーヴィング・スロー（難易度は8＋自身の筋力修正値＋習熟ボーナス）を行わせることができる。セーヴに失敗すると、目標を自分から1.5メートル押しやるか、あるいは伏せ状態にすることができる（任意で選択）。この恩恵は自身の各ターンに一度だけ使用できる。</content>
   <content contentuid="he6c26bfag496eg4545g66e5g0166e2cb0452" version="1">盾攻撃（伏せ）</content>
   <content contentuid="h86dd84e2ge406g25feg8fbag707fbd12baf0" version="1">ルール：呪文の巻物</content>
-  <content contentuid="hb0c05d37g1b53g2cb2g912fg504559979b3f" version="2">呪文の巻物は、その巻物に記された呪文が自身のクラスまたはサブクラスのいずれかの呪文リストにある場合にのみ使用できる。
+  <content contentuid="hb0c05d37g1b53g2cb2g912fg504559979b3f" version="3">呪文の巻物は、そこに記された呪文が自身のクラスまたはサブクラスのいずれかの呪文リストに存在する場合にのみ使用できる。
 
-また、自身の最高レベルの呪文スロットが、巻物の呪文レベルよりも少なくとも1レベル低いかそれ以上でなければならない。マルチクラス・キャラクターの呪文スロット・レベルを決定する際、その呪文が呪文リストに含まれているクラスおよびサブクラスのレベルのみがカウントされる。</content>
+さらに、自身の最高呪文スロット・レベルより、最大1レベル高い呪文までしか唱えることはできない。マルチクラスのキャラクターにおける呪文スロット・レベルを判定する際、その呪文が呪文リストに含まれているクラスおよびサブクラスのレベルのみがカウントされる。
+
+「緊急復活」の巻物は常にこの制限から除外され、あらゆるキャラクターが使用できる。</content>
   <content contentuid="h2a38021bge7c4g0eedgdbf5g331c3221892d" version="1">例えば、「火の壁」（レベル4呪文）の巻物を使用するには、レベル3の呪文スロットが必要である。キャラクターはこの要件を、ウィザード5レベル、あるいはウィザード4レベルとアーケイン・トリックスター3レベルの組み合わせなどで満たすことができる。しかし、クレリック4レベルとアーケイン・トリックスター3レベルを持つキャラクターは要件を満たせない。なぜなら、「火の壁」はクレリックの呪文リストに含まれていないからである。</content>
   <content contentuid="h94c617f1g467ag18f3gf740gb5a9fc763e88" version="1">守りの決闘術</content>
   <content contentuid="hb74c3fd9ga6a8g8c4bg0373g427c3edf70f7" version="4">飛び降り</content>
@@ -5160,4 +5162,90 @@
   <content contentuid="hb2bb0f2eg9d2ag5515gead7g44579222fb75" version="1">これから1分（10ターン）の間、幽玄な盾が自身の近くに浮遊し、アーマー・クラスに＋2のボーナスを与え、「魔法の矢」に対する完全耐性を得る。</content>
   <content contentuid="h33261258g796fg3395g69a4gaddfad4937eb" version="1">これから1分（10ターン）の間、沈黙状態であっても呪文を唱えることができる。</content>
   <content contentuid="hb2a8f231g4f09g0714g0977ga484944bbb45" version="1">魔法暴走：呪文高速化</content>
+  <content contentuid="hf35665d0g7373g4d2dga1f3g0b7fc11ce883" version="1">技能習熟：3つの技能に習熟した。素晴らしい選択です。</content>
+  <content contentuid="h5205e9a5g2faag4116g9482g9d62b12da058" version="1">技能習熟：選択した技能に習熟した。</content>
+  <content contentuid="hffac3ddcg8327g4829g8b8fgec3bb18e4a7e" version="1">魔法のたしなみ（クレリック）：2つの初級呪文を習得した。素晴らしい選択です。</content>
+  <content contentuid="h64af36efg690cg437bg9309gc6f9d243ddc7" version="1">魔法のたしなみ（クレリック）：選択した初級呪文を習得した。</content>
+  <content contentuid="hd4f0c01cgfa4cg494eg93dagc7401dc42e35" version="1">魔法のたしなみ（クレリック）：選択した呪文を習得した。</content>
+  <content contentuid="h42e9d28cgdac3g453ag98b9ge050ea1a6f39" version="1">魔法のたしなみ（ドルイド）：2つの初級呪文を習得した。素晴らしい選択です。</content>
+  <content contentuid="hc9f0aba8gd775g4df7gb799gd7c53747085b" version="1">魔法のたしなみ（ドルイド）：選択した初級呪文を習得した。</content>
+  <content contentuid="h758b92a3gedfcg4ab3g8e8fg85ad854a1ce6" version="1">魔法のたしなみ（ドルイド）：選択した呪文を習得した。</content>
+  <content contentuid="hb26b5f09gacacg4ffdgb947g44c15c47929d" version="1">魔法のたしなみ（ウィザード）：2つの初級呪文を習得した。素晴らしい選択です。</content>
+  <content contentuid="h60a4f1cegab44g4361g8e56ge21f825230e2" version="1">魔法のたしなみ（ウィザード）：選択した初級呪文を習得した。</content>
+  <content contentuid="h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a" version="1">魔法のたしなみ（ウィザード）：選択した呪文を習得した。</content>
+  <content contentuid="h70967e04gffcag4f16g93fag7c196b9e4823" version="1">使用可能なクラス：バード、クレリック、ウィザード</content>
+  <content contentuid="h19eaac92g8ce9g40bcg900cga4ef08faeb00" version="1">使用可能なクラス：バード、クレリック、ウィザード</content>
+  <content contentuid="hc63b5579g7f2ag4baagb760g89742ef59f21" version="1">使用可能なクラス：クレリック、ソーサラー、ウォーロック、ウィザード</content>
+  <content contentuid="he2d9401fgf9bag4933g9d4fg8fb89bc284e2" version="1">使用可能なクラス：クレリック、ウォーロック、ウィザード</content>
+  <content contentuid="h10f01d4bg7676g4859ga595g2712bce824c1" version="1">使用可能なクラス：クレリック、パラダン、ウォーロック、ウィザード</content>
+  <content contentuid="h73c88544g3627g41a6gbe73g7f725f7093ce" version="1">使用可能なクラス：ウィザード</content>
+  <content contentuid="h9036825bg9a32g4e70g8c69gf202e0ae6384" version="1">使用可能なクラス：パラディン</content>
+  <content contentuid="h5f032521g0f3bg457agaca7g37bad35cd378" version="1">使用可能なクラス：クレリック、ドルイド、パラディン、ウォーロック、ウィザード</content>
+  <content contentuid="h0c4ae731g86b7g4cddg9448g2ec70d8c41e3" version="1">使用可能なクラス：ウィザード、アーティフィサー</content>
+  <content contentuid="h3caacbafgd256g4d2bga846g1e0e85d5bfd9" version="1">使用可能なクラス：ソーサラー、ウィザード</content>
+  <content contentuid="ha43d0c84g7029g4bb4g91b9g40464ff2451d" version="1">使用可能なクラス：ドルイド、ソーサラー、ウィザード</content>
+  <content contentuid="h0f476bcdg9eefg4e31ga725g8d2b8048b540" version="1">使用可能なクラス：ウィザード、アーティフィサー</content>
+  <content contentuid="he3ed5607gfd3bg4037g8cedg98e1474da744" version="1">使用可能なクラス：ドルイド、レンジャー、ソーサラー、ウィザード、アーティフィサー</content>
+  <content contentuid="h850611abg9fa9g4ef3ga920g342e381d85db" version="1">使用可能なクラス：ソーサラー、ウォーロック、ウィザード</content>
+  <content contentuid="h157bc8b6g7bd3g42b6gb126g8844ae4e6897" version="1">使用可能なクラス：ウィザード</content>
+  <content contentuid="hf517cb38gb91fg4b74g9651g9d26b04c4a4f" version="1">使用可能なクラス：ソーサラー、ウィザード</content>
+  <content contentuid="hb93accaeg9237g4486g9fefg295f1501c7b3" version="1">使用可能なクラス：ソーサラー、ウィザード</content>
+  <content contentuid="h07c5d370g49d6g4466ga8deg9b86e982e5dd" version="1">使用可能なクラス：バード、ドルイド、ソーサラー、ウォーロック、ウィザード</content>
+  <content contentuid="h5545fdeegaf71g4a87gb389g8b033c437233" version="1">使用可能なクラス：バード、ソーサラー、ウィザード</content>
+  <content contentuid="h09f480c3g2968g4108g955cg52ea764a99e8" version="1">使用可能なクラス：ソーサラー、ウィザード</content>
+  <content contentuid="ha6524e13ga393g46c6g81ccg8c0505a61fa6" version="1">使用可能なクラス：バード、ソーサラー、ウィザード、アーティフィサー</content>
+  <content contentuid="hfdc5321bg8e80g4295gab40g23fc855ca270" version="1">使用可能なクラス：バード、ソーサラー、ウィザード</content>
+  <content contentuid="h989195e0gd334g4d2fga48cg60ac72b1b1d9" version="1">使用可能なクラス：ソーサラー、ウィザード</content>
+  <content contentuid="h5198c509gbadfg4c26g8450g1fc86eb31633" version="1">使用可能なクラス：バード、ソーサラー、ウォーロック、ウィザード</content>
+  <content contentuid="hdf1a248bg7985g430egb25eg7767ee36487c" version="1">使用可能なクラス：バード、ドルイド、レンジャー</content>
+  <content contentuid="h976e404eg3fdeg4338gaf2cgf6ba2a469a74" version="1">使用可能なクラス：クレリック、パラディン</content>
+  <content contentuid="h053b6bdfg7d35g445egbe72ge4ed43fd3166" version="1">使用可能なクラス：バード、ソーサラー、ウィザード</content>
+  <content contentuid="hc6d3f124g2e9cg4554ga6eeg01dcc0ebadba" version="1">使用可能なクラス：ソーサラー、ウィザード</content>
+  <content contentuid="hfa9345e1gc6c2g46a2gb695g7a77a059e302" version="1">使用可能なクラス：ソーサラー、ウォーロック、ウィザード</content>
+  <content contentuid="he9329f83ga933g46dfgabd0g37d583feacd1" version="1">使用可能なクラス：クレリック、パラディン</content>
+  <content contentuid="h61e1a792g9f16g4e16ga50dg0ee6c9c7ccb1" version="1">使用可能なクラス：バード、クレリック、ドルイド、ソーサラー、ウォーロック、ウィザード</content>
+  <content contentuid="h552f275cgee76g4947ga777g927bce86aa21" version="1">使用可能なクラス：ドルイド、レンジャー、ソーサラー、ウィザード</content>
+  <content contentuid="h54e64aa9g3189g44e2gbf65g0425fd20f75f" version="1">使用可能なクラス：バード、ソーサラー、ウォーロック、ウィザード、アーティフィサー</content>
+  <content contentuid="hc98b225eg8da0g4e31g8bc5g876e89935b90" version="1">使用可能なクラス：バード、ソーサラー、ウォーロック、ウィザード</content>
+  <content contentuid="hf769e1e7g4972g4edbg966dgd4372642ed9d" version="1">使用可能なクラス：ドルイド、レンジャー</content>
+  <content contentuid="h701629dfgc58dg4887g8faeg08469d671d32" version="1">使用可能なクラス：バード、ドルイド、ソーサラー、ウィザード、アーティフィサー</content>
+  <content contentuid="haedcf633gdecdg416aga1c4gacc76d9402eb" version="1">使用可能なクラス：ソーサラー、ウィザード、アーティフィサー</content>
+  <content contentuid="hc0f24a23ge03fg4f9eg9098g245acc8324c0" version="1">使用可能なクラス：ソーサラー、ウォーロック、ウィザード、アーティフィサー</content>
+  <content contentuid="h6b900209g8da2g4792gaf6dge1c9ef17c58a" version="1">使用可能なクラス：バード、ドルイド、レンジャー、ウィザード、アーティフィサー</content>
+  <content contentuid="h57f41308g4badg4fe3gaac6gcc36d4dc3d8b" version="1">使用可能なクラス：ソーサラー、ウィザード</content>
+  <content contentuid="h65bcba2fg62dfg4712gaae5g9ffa44f4a2b8" version="1">使用可能なクラス：バード、ソーサラー、ウィザード、アーティフィサー</content>
+  <content contentuid="hd0f8bef5g3744g473bgb6f7g416cd1b21776" version="1">使用可能なクラス：バード、ウォーロック、ウィザード</content>
+  <content contentuid="h9f107cbeg704cg4efdg80f3gae22cf746ff8" version="1">使用可能なクラス：ソーサラー、ウィザード</content>
+  <content contentuid="h4e563d34g5893g4564g93d3gbe30f8798c6d" version="1">使用可能なクラス：バード、ドルイド、ソーサラー、ウィザード</content>
+  <content contentuid="h45afcc46g07e8g413ega467g1230c256bb27" version="1">使用可能なクラス：ソーサラー、ウォーロック、ウィザード</content>
+  <content contentuid="hd6dbd33fg0848g46bdg93d0ga604e88b0045" version="1">使用可能なクラス：ソーサラー、ウォーロック、ウィザード</content>
+  <content contentuid="h29717b0bgc570g4958gae52g7e29bf101fb7" version="1">使用可能なクラス：ウィザード</content>
+  <content contentuid="h57a34188gbe1dg4aecg9436g26c503c38ca5" version="1">使用可能なクラス：ソーサラー、ウィザード、アーティフィサー</content>
+  <content contentuid="ha55948cag17d3g4aa3gae23ga952030cb26c" version="1">使用可能なクラス：ウィザード</content>
+  <content contentuid="ha069636bg3b39g4b50gae6fg37e461b68a60" version="1">使用可能なクラス：バード、ソーサラー、ウィザード、アーティフィサー</content>
+  <content contentuid="hc7c2f070g087bg4664ga8d0gf731f76c0a06" version="1">使用可能なクラス：ソーサラー、ウィザード</content>
+  <content contentuid="hda5eeb36gf99bg4cc8gb43egb740c1c24b98" version="1">使用可能なクラス：ソーサラー、ウォーロック、ウィザード</content>
+  <content contentuid="hea2bda2fgbe08g4ab1g8a22g7f50ccea400e" version="1">使用可能なクラス：バード、ソーサラー、ウィザード</content>
+  <content contentuid="h0936d3bbg9d40g4b82g991bg63f298cdd927" version="1">使用可能なクラス：ソーサラー、ウォーロック、ウィザード</content>
+  <content contentuid="h25ea32bcgf38dg464dg8a09g608fa6283272" version="1">使用可能なクラス：パラディン、レンジャー、ソーサラー、ウィザード、アーティフィサー</content>
+  <content contentuid="h99cdb013gd519g46c8g8ee7g88ce569e971b" version="1">使用可能なクラス：ウォーロック、ウィザード</content>
+  <content contentuid="he7c90888g22e0g4d75g85f4g768f561d6f30" version="1">使用可能なクラス：ソーサラー、ウィザード</content>
+  <content contentuid="had587edfg3e1eg46a6g88e9gba4983e47b20" version="1">使用可能なクラス：ソーサラー、ウィザード</content>
+  <content contentuid="hbbbaa8ebg9199g46ffgbeafg104d39c86b43" version="1">使用可能なクラス：ドルイド、レンジャー</content>
+  <content contentuid="h2223a50agc511g4d44gb143g94f0113311a5" version="1">使用可能なクラス：ウィザード</content>
+  <content contentuid="h0991a1dfgb4b0g45eagbbb3ga5ae65a31f0e" version="1">使用可能なクラス：ドルイド、レンジャー、ソーサラー、ウィザード、アーティフィサー</content>
+  <content contentuid="hca88c584g8a5bg4e69g9eb7g5af56d234776" version="1">使用可能なクラス：ソーサラー、ウォーロック、ウィザード</content>
+  <content contentuid="h37934098g756eg4431gaed9g88557c60ee6e" version="1">使用可能なクラス：ソーサラー、ウィザード</content>
+  <content contentuid="h482dd2dbg9946g4f59g93baga4c4928fd097" version="1">使用可能なクラス：バード、クレリック、パラディン、ウィザード</content>
+  <content contentuid="h2c2386e2g0722g480egaa8ag57417fd707f9" version="1">使用可能なクラス：ソーサラー、ウォーロック、ウィザード、アーティフィサー</content>
+  <content contentuid="h6d713dd0gf384g4e20g81f0g0a61b2b73a86" version="1">使用可能なクラス：ドルイド、ソーサラー、ウィザード</content>
+  <content contentuid="h102dd2b4gf963g41a5g8094g52a0af052bf9" version="1">使用可能なクラス：ウィザード</content>
+  <content contentuid="hed54d08eg254egab54g634egc5696f632258" version="1">妖術の一撃（遠隔）</content>
+  <content contentuid="h11a41e9fgad2fg3cbfg28b3gcc04b63b160f" version="1">妖術の一撃（遠隔）</content>
+  <content contentuid="h3dadabd2gf927g0c0eg86c7gef99a7a4e7ad" version="1">妖術の一撃（遠隔）</content>
+  <content contentuid="h8f7262a7gbdd0g1911g5132g67fcc1eacb9e" version="1">クリティカル・ヒットでの妖術の一撃（遠隔）</content>
+  <content contentuid="h300d9c12g274eg82c1g8ba1g1bcef5722390" version="1">クリティカル・ヒットでの妖術の一撃（遠隔）</content>
+  <content contentuid="h6a2383deg87c5g61b6g137cgf2184d150d39" version="1">クリティカル・ヒットでの妖術の一撃（遠隔）</content>
+  <content contentuid="ha351e5dfg5a09g2d6agfd39geb9d1770a8f5" version="1">妖術の一撃（遠隔）</content>
+  <content contentuid="hcd8ed7acga54dg31f4gb831g3687c2792f10" version="1">各ターンに一度、契約武器をクリーチャーに命中させた際、契約魔法の呪文スロットを消費して、目標に追加で1d8の力場ダメージを与え、さらに呪文スロットのレベルごとに1d8を加算できる。また、目標が「巨大」サイズ以下であれば、目標を伏せ状態にすることができる。</content>
 </contentList>
