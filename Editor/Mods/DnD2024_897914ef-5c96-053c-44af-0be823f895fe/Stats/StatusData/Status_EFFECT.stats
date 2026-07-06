@@ -26,5 +26,13 @@
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="929b9108-3537-49dd-a45b-eb67570ab670" />
+        <field name="Name" type="NameTableFieldDefinition" value="INTERRUPT_SMITE_ELDRITCH_VFX" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3168d54d-b150-4a4e-930e-0aa1e4dac704" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="38e81436-b403-4c8b-abe3-616e5600016e" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

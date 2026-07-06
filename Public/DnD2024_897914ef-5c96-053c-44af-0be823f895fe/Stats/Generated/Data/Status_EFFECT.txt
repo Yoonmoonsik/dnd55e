@@ -17,3 +17,9 @@ using "INTERRUPT_PROJECTED_WARD"
 data "Boosts" "TemporaryHP(Cause.ClassLevel(Wizard)*2+Cause.IntelligenceModifier);RedirectDamage(1);"
 data "RemoveEvents" "OnDamage"
 
+new entry "INTERRUPT_SMITE_ELDRITCH_VFX"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "INTERRUPT_SMITE_DIVINE_VFX"
+data "StatusEffect" "38e81436-b403-4c8b-abe3-616e5600016e"
+
