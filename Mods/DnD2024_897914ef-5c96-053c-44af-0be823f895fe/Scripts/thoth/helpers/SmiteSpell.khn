@@ -7,7 +7,7 @@ function IsSmiteSpells()
     | SpellId('Target_Smite_Divine') | SpellId('Target_Smite_Divine_2') | SpellId('Target_Smite_Divine_3') | SpellId('Target_Smite_Divine_4') | SpellId('Target_Smite_Divine_5') | SpellId('Target_Smite_Divine_6')
     | SpellId('Target_Smite_Thunderous') | SpellId('Target_Smite_Thunderous_2') | SpellId('Target_Smite_Thunderous_3') | SpellId('Target_Smite_Thunderous_4') | SpellId('Target_Smite_Thunderous_5') | SpellId('Target_Smite_Thunderous_6') | SpellId('Target_MAG_ThunderousSmite')
     | SpellId('Target_Smite_Wrathful') | SpellId('Target_Smite_Wrathful_2') | SpellId('Target_Smite_Wrathful_3') | SpellId('Target_Smite_Wrathful_4') | SpellId('Target_Smite_Wrathful_5') | SpellId('Target_Smite_Wrathful_6') | SpellId('Target_MAG_Smite_Wrathful')
-    | SpellId('Target_StaggeringSmite') | SpellId('Target_Smite_Divine_Paladin') | SpellId('Target_Smite_Eldritch_3') | SpellId('Target_Smite_Eldritch_4') | SpellId('Target_Smite_Eldritch_5') 
+    | SpellId('Target_StaggeringSmite') | SpellId('Target_Smite_Divine_Paladin') | SpellId('Target_Smite_Eldritch_3') | SpellId('Target_Smite_Eldritch_4') | SpellId('Target_Smite_Eldritch_5') | SpellId('Projectile_Smite_Eldritch_3') | SpellId('Projectile_Smite_Eldritch_4') | SpellId('Projectile_Smite_Eldritch_5')
 end
 
 function IsDivineSmite()
@@ -19,5 +19,5 @@ function IsDivineSmite()
     | SpellId('Target_Smite_Divine') | SpellId('Target_Smite_Divine_2') | SpellId('Target_Smite_Divine_3') | SpellId('Target_Smite_Divine_4') | SpellId('Target_Smite_Divine_5') | SpellId('Target_Smite_Divine_6')
     | SpellId('Target_Smite_Thunderous') | SpellId('Target_Smite_Thunderous_2') | SpellId('Target_Smite_Thunderous_3') | SpellId('Target_Smite_Thunderous_4') | SpellId('Target_Smite_Thunderous_5') | SpellId('Target_Smite_Thunderous_6') | SpellId('Target_MAG_ThunderousSmite')
     | SpellId('Target_Smite_Wrathful') | SpellId('Target_Smite_Wrathful_2') | SpellId('Target_Smite_Wrathful_3') | SpellId('Target_Smite_Wrathful_4') | SpellId('Target_Smite_Wrathful_5') | SpellId('Target_Smite_Wrathful_6') | SpellId('Target_MAG_Smite_Wrathful')
-    | SpellId('Target_StaggeringSmite') | SpellId('Target_Smite_Divine_Paladin') | SpellId('Target_Smite_Eldritch_3') | SpellId('Target_Smite_Eldritch_4') | SpellId('Target_Smite_Eldritch_5') 
+    | SpellId('Target_StaggeringSmite') | SpellId('Target_Smite_Divine_Paladin') | SpellId('Target_Smite_Eldritch_3') | SpellId('Target_Smite_Eldritch_4') | SpellId('Target_Smite_Eldritch_5') | SpellId('Projectile_Smite_Eldritch_3') | SpellId('Projectile_Smite_Eldritch_4') | SpellId('Projectile_Smite_Eldritch_5')
 end
