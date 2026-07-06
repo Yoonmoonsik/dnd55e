@@ -400,11 +400,24 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="18acb5cb-34a7-4d00-81c3-aefd9be088e9" />
         <field name="Name" type="NameTableFieldDefinition" value="WEAPONMASTERY_NICK" />
-        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="AttackSpellOverride(Target_MainHandAttack_OnlyNick, Target_MainHandAttack);ActionResource(NickActionPoint,1,0);UnlockSpellVariant(SpellId('Target_OffhandAttack') or SpellId('Projectile_OffhandAttack'),ModifyUseCosts(Add,NickActionPoint,1,0));" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AttackSpellOverride(Target_MainHandAttack_OnlyNick, Target_MainHandAttack);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
         <field name="StackId" type="StringTableFieldDefinition" value="WEAPONMASTERY_NICK" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6bd9db98g1e8fg33a3g0a09gadb7f2151497" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h939f5eb1gd3c5g103bg2cdage99686250a71" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Target_OffHandAttack" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="417ce666-b3ea-4a13-b689-d6e6f7c5bad9" />
+        <field name="Name" type="NameTableFieldDefinition" value="WEAPONMASTERY_NICK_BLOCK_OFFHANDATTACK" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5e1086d5gb686g5218gd9b8g8728d0edb265" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h112fb3e9g734ag7e2dg4366g1a44c9038a26" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Target_OffHandAttack" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WEAPONMASTERY_NICK_BLOCK_OFFHANDATTACK" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
       </fields>
     </stat_object>
@@ -414,9 +427,10 @@
         <field name="Name" type="NameTableFieldDefinition" value="DUAL_WIELDER_NICK" />
         <field name="StackId" type="StringTableFieldDefinition" value="DUAL_WIELDER_NICK" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
-        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_OffhandAttack_DualWielder);" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h004828cbg6ae4g9d9fgef10g00102cb4f553" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3a446706g6505g19b1g3826gb313d8b63d3f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Target_OffHandAttack" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
