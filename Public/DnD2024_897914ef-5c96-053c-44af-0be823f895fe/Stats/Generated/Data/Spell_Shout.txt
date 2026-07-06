@@ -4127,3 +4127,92 @@ data "SpellType" "Shout"
 using "Shout_Sacrifice_Slayer"
 data "SpellRoll" "not SavingThrow(Ability.Constitution,ManeuverSaveDC());"
 
+new entry "Shout___SCROLL__"
+type "SpellData"
+data "SpellType" "Shout"
+
+new entry "Shout_Blur_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Blur"
+
+new entry "Shout_DetectThoughts_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_DetectThoughts"
+
+new entry "Shout_DisguiseSelf_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_DisguiseSelf"
+
+new entry "Shout_ExpeditiousRetreat_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_ExpeditiousRetreat"
+
+new entry "Shout_FalseLife_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FalseLife"
+
+new entry "Shout_FlameBlade_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FlameBlade"
+
+new entry "Shout_MirrorImage_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_MirrorImage"
+
+new entry "Shout_Aid_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Aid"
+
+new entry "Shout_FeatherFall_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FeatherFall"
+
+new entry "Shout_Blink_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Blink"
+
+new entry "Shout_FireShield_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FireShield"
+
+new entry "Shout_SeeInvisibility_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_SeeInvisibility"
+
+new entry "Shout_CloakOfShadow_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_CloakOfShadow"
+
+new entry "Shout_ArcaneVigor_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_ArcaneVigor"
+
+new entry "Shout_ElminstersElusion_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_ElminstersElusion"
+
+new entry "Shout_FindSteed_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FindSteed"
+
+new entry "Shout_FountOfMoonlight_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FountOfMoonlight"
+

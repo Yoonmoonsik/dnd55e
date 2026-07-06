@@ -2471,3 +2471,112 @@ using "Projectile_TerrifyingLunge_Slayer_10"
 data "SpellRoll" "not SavingThrow(Ability.Strength, ManeuverSaveDC(), AdvantageOnOrinFear())"
 data "UseCosts" "BonusActionPoint:1;Movement:3;"
 
+new entry "Projectile___SCROLL__"
+type "SpellData"
+data "SpellType" "Projectile"
+
+new entry "Projectile_AcidArrow_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_AcidArrow"
+
+new entry "Projectile_ChromaticOrb_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_ChromaticOrb"
+
+new entry "Projectile_FireBolt_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_FireBolt"
+
+new entry "Projectile_WitchBolt_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_WitchBolt"
+
+new entry "Projectile_MagicMissile_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_MagicMissile"
+
+new entry "Projectile_RayOfEnfeeblement_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_RayOfEnfeeblement"
+
+new entry "Projectile_RayOfFrost_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_RayOfFrost"
+
+new entry "Projectile_RayOfSickness_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_RayOfSickness"
+
+new entry "Projectile_ScorchingRay_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_ScorchingRay"
+
+new entry "Projectile_Fireball_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Fireball"
+
+new entry "Projectile_ChainLightning_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_ChainLightning"
+
+new entry "Projectile_Disintegrate_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Disintegrate"
+
+new entry "Projectile_IceKnife_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_IceKnife"
+
+new entry "Projectile_SpellfireFlare_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_SpellfireFlare"
+
+new entry "Projectile_Wardaway_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Wardaway"
+
+new entry "Projectile_Darkbolt_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Darkbolt"
+
+new entry "Projectile_DazingBlast_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_DazingBlast"
+
+new entry "Projectile_SearingOrb_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_SearingOrb"
+
+new entry "Projectile_SnowballSwarm_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_SnowballSwarm"
+
+new entry "Projectile_VoidStrike_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_VoidStrike"
+
+new entry "Projectile_VitriolicSphere_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_VitriolicSphere"
+

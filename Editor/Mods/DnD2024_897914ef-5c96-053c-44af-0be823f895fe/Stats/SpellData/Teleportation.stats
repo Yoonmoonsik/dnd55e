@@ -86,5 +86,25 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;CannotTargetItems" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3b565678-b5af-43e5-867d-6b29ecdbfc12" />
+        <field name="Name" type="NameTableFieldDefinition" value="__SCROLL__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28628c41-0a43-48fb-aeba-63ed68888971" />
+        <field name="Name" type="NameTableFieldDefinition" value="TrueResurrection_Scroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c8feabb7-eb07-4457-a439-1a83d5bf9071" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1698ac1b-078d-4bd3-b621-55f9fb22b0a2" />
+        <field name="Name" type="NameTableFieldDefinition" value="DimensionDoor_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f48dfb67-37f1-45aa-9148-74b7c25e28fc" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

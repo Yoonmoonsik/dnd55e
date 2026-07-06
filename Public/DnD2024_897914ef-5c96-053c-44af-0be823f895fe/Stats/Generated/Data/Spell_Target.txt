@@ -2477,11 +2477,6 @@ data "BeamEffect" "7a20894a-09a9-45f2-9b9e-c2a824adaad4"
 data "DamageType" "Radiant"
 data "Sheathing" "Sheathed"
 
-new entry "Target_New_Stat_0"
-type "SpellData"
-data "SpellType" "Target"
-using "Target_Smite_Divine"
-
 new entry "Target___EVOCATION__SLEVEL__1__"
 type "SpellData"
 data "SpellType" "Target"
@@ -8687,4 +8682,408 @@ type "SpellData"
 data "SpellType" "Target"
 using "Target_Devour_Ghoul_AnimateDead"
 data "TargetConditions" "not Self() and not Tagged('UNDEAD') and not Dead() and (HasStatus('HIDEOUS_LAUGHTER') or HasStatus('COMMAND_GROVEL') or HasStatus('PRONE') or HasStatus('PRONE_FALLEN') or HasStatus('PRONE_GREASE') or HasStatus('PRONE_ICE') or HasStatus('PRONE_SEWER') or HasStatus('PRONE_THUNDEROUS_SMITE') or HasStatus('KNOCKED_OUT') or HasStatus('SG_Prone') or HasStatus('SG_Sleeping'));"
+
+new entry "Target___SCROLL__"
+type "SpellData"
+data "SpellType" "Target"
+
+new entry "Target_ArcaneLock_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_ArcaneLock"
+
+new entry "Target_Darkvision_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Darkvision"
+
+new entry "Target_FeignDeath_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FeignDeath"
+
+new entry "Target_Fly_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Fly"
+
+new entry "Target_GaseousForm_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_GaseousForm"
+
+new entry "Target_Goodberry_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Goodberry"
+
+new entry "Target_Invisibility_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Invisibility"
+
+new entry "Target_Jump_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Jump"
+
+new entry "Target_Longstrider_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Longstrider"
+
+new entry "Target_MageArmor_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MageArmor"
+
+new entry "Target_MagicWeapon_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MagicWeapon"
+
+new entry "Target_ProtectionFromEnergy_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_ProtectionFromEnergy"
+
+new entry "Target_ProtectionFromEvilAndGood_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_ProtectionFromEvilAndGood"
+
+new entry "Target_RemoveCurse_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_RemoveCurse"
+
+new entry "Target_ShockingGrasp_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_ShockingGrasp"
+
+new entry "Target_VampiricTouch_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_VampiricTouch"
+
+new entry "Target_AnimalFriendship_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_AnimalFriendship"
+
+new entry "Target_BestowCurse_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_BestowCurse"
+
+new entry "Target_Blindness_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Blindness"
+
+new entry "Target_CharmPerson_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_CharmPerson"
+
+new entry "Target_ChillTouch_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_ChillTouch"
+
+new entry "Target_CrownOfMadness_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_CrownOfMadness"
+
+new entry "Target_EnlargeReduce_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EnlargeReduce"
+
+new entry "Target_Haste_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Haste"
+
+new entry "Target_HideousLaughter_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HideousLaughter"
+
+new entry "Target_HoldPerson_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HoldPerson"
+
+new entry "Target_Knock_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Knock"
+
+new entry "Target_MistyStep_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MistyStep"
+
+new entry "Target_PhantasmalForce_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_PhantasmalForce"
+
+new entry "Target_SpeakWithDead_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SpeakWithDead"
+
+new entry "Target_AnimateDead_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_AnimateDead"
+
+new entry "Target_FlamingSphere_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FlamingSphere"
+
+new entry "Target_FindFamiliar_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FindFamiliar"
+
+new entry "Target_GlyphOfWarding_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_GlyphOfWarding"
+
+new entry "Target_CloudOfDaggers_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_CloudOfDaggers"
+
+new entry "Target_Darkness_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Darkness"
+
+new entry "Target_FogCloud_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FogCloud"
+
+new entry "Target_Grease_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Grease"
+
+new entry "Target_HypnoticPattern_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HypnoticPattern"
+
+new entry "Target_Shatter_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Shatter"
+
+new entry "Target_Sleep_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Sleep"
+
+new entry "Target_SleetStorm_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SleetStorm"
+
+new entry "Target_StinkingCloud_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StinkingCloud"
+
+new entry "Target_Web_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Web"
+
+new entry "Target_FreezingSphere_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FreezingSphere"
+
+new entry "Target_Invisibility_Greater_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Invisibility_Greater"
+
+new entry "Target_Stoneskin_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Stoneskin"
+
+new entry "Target_Banishment_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Banishment"
+
+new entry "Target_Blight_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Blight"
+
+new entry "Target_DominatePerson_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_DominatePerson"
+
+new entry "Target_Eyebite_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Eyebite"
+
+new entry "Target_FleshToStone_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FleshToStone"
+
+new entry "Target_HoldMonster_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HoldMonster"
+
+new entry "Target_IrresistibleDance_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_IrresistibleDance"
+
+new entry "Target_PhantasmalKiller_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_PhantasmalKiller"
+
+new entry "Target_PlanarBinding_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_PlanarBinding"
+
+new entry "Target_Polymorph_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Polymorph"
+
+new entry "Target_ResilientSphere_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_ResilientSphere"
+
+new entry "Target_Slow_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slow"
+
+new entry "Target_ConjureElemental_Container_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_ConjureElemental_Container"
+
+new entry "Target_ConjureElementals_Minor_Container_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_ConjureElementals_Minor_Container"
+
+new entry "Target_BlackTentacles_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_BlackTentacles"
+
+new entry "Target_CircleOfDeath_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_CircleOfDeath"
+
+new entry "Target_Cloudkill_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Cloudkill"
+
+new entry "Target_Confusion_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Confusion"
+
+new entry "Target_GlobeOfInvulnerability_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_GlobeOfInvulnerability"
+
+new entry "Target_IceStorm_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_IceStorm"
+
+new entry "Target_Seeming_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Seeming"
+
+new entry "Target_HellsLash_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HellsLash"
+
+new entry "Target_DeathArmor_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_DeathArmor"
+
+new entry "Target_FireRune_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FireRune"
+
+new entry "Target_MindSpike_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MindSpike"
+
+new entry "Target_SummonBeast_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonBeast"
+
+new entry "Target_MindWhip_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MindWhip"
+
+new entry "Target_MurmursOfDoom_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MurmursOfDoom"
+
+new entry "Target_SummonFey_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonFey"
+
+new entry "Target_TrollbloodInfusion_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_TrollbloodInfusion"
+
+new entry "Target_SpellfireStorm_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SpellfireStorm"
+
+new entry "Target_SteelWindStrike_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SteelWindStrike"
+
+new entry "Target_SynapticStatic_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SynapticStatic"
 

@@ -2940,13 +2940,6 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_HolyWord" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="27dc609a-c59c-4569-84ce-963fdf48ab73" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="9d355be4-587d-41d9-a288-4fbd1211ff6e" />
-      </fields>
-    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a5d5dbd2-4a39-4c01-bb0d-5f868adc2db5" />
@@ -10223,6 +10216,572 @@
         <field name="Name" type="NameTableFieldDefinition" value="Devour_Ghoul_AnimateDead" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9411012a-8d9d-4977-9bf9-4549dcd2e8ef" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Tagged('UNDEAD') and not Dead() and (HasStatus('HIDEOUS_LAUGHTER') or HasStatus('COMMAND_GROVEL') or HasStatus('PRONE') or HasStatus('PRONE_FALLEN') or HasStatus('PRONE_GREASE') or HasStatus('PRONE_ICE') or HasStatus('PRONE_SEWER') or HasStatus('PRONE_THUNDEROUS_SMITE') or HasStatus('KNOCKED_OUT') or HasStatus('SG_Prone') or HasStatus('SG_Sleeping'));" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0eadcc66-207f-4947-be28-f96dee1c457a" />
+        <field name="Name" type="NameTableFieldDefinition" value="__SCROLL__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21af7b51-65a4-4653-a90e-c9ac67493a7a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArcaneLock_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="27852707-2e28-4bce-8253-5d021beafc67" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0203df21-ed3f-4382-8a0b-d9c20e5edc6a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Darkvision_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="30d7992a-d676-4f79-92c0-b4f6fdd3e63c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="12650537-9aa1-44ab-a0b4-7c3c51dd6575" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeignDeath_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c65cbcb2-fdd4-45fd-83ac-46946a87e465" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8805386a-94d6-4eb1-b290-735ecc1f9975" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fly_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="797cb094-d02e-4585-9363-f8a300b9235e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28175eea-203d-4a49-9f02-5b93f7c6718b" />
+        <field name="Name" type="NameTableFieldDefinition" value="GaseousForm_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7eca6d64-334a-40fc-a7ef-9d1ddb072622" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5fb3dffb-871d-4dcc-93ab-d1561bd3b888" />
+        <field name="Name" type="NameTableFieldDefinition" value="Goodberry_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ddafbfad-c646-40d5-9929-c781b653b957" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b0de3771-42a1-4399-aa57-c7b34df1ba8f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Invisibility_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="eeec6dd8-fae5-4aaa-bb20-f59654031897" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="67d5af10-2384-4524-9c2f-7e00fd1ef7cf" />
+        <field name="Name" type="NameTableFieldDefinition" value="Jump_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="99170283-5c5f-4544-8994-ab4563d865e6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e53f9b1c-0eb4-4fb7-9698-dd671e53b7be" />
+        <field name="Name" type="NameTableFieldDefinition" value="Longstrider_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3b83e8b5-66d8-48ef-843f-e7f109036ed5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b502d941-a250-4ae7-ac69-2ace2c47e53e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MageArmor_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b2e2410f-f3bf-4698-b6d5-2a47a23e2fbd" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1245b3ee-87b5-4a14-ab86-9d2fc99b3974" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicWeapon_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9afe4468-ad49-416c-8890-121940499ba9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1e77d62a-c4ec-4fd9-8ef7-e55c5ef3eb06" />
+        <field name="Name" type="NameTableFieldDefinition" value="ProtectionFromEnergy_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9f3c789c-2d22-40f4-a0ab-5f9891da79c0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5fc3112a-9190-4a84-a6ac-c2014472c529" />
+        <field name="Name" type="NameTableFieldDefinition" value="ProtectionFromEvilAndGood_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="35f42350-2de9-456e-a036-b858537804fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2021bce2-dd98-43de-9f53-bec981fa4b2a" />
+        <field name="Name" type="NameTableFieldDefinition" value="RemoveCurse_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="12e1f07e-0c58-4f9e-b7cd-cbf6019d7140" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="389dc4d2-a091-4c96-bdc4-7b538052f263" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShockingGrasp_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4d5442cc-62cb-49f0-8e01-a5a90ff09f0c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e7ffc945-094d-4bb3-939a-a31f9f827632" />
+        <field name="Name" type="NameTableFieldDefinition" value="VampiricTouch_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a8f2dc3e-6f40-45ff-a346-12354d107254" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0eb98435-ae3f-4193-8f08-7c749387bde5" />
+        <field name="Name" type="NameTableFieldDefinition" value="AnimalFriendship_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f4acd9d3-d03c-42ad-834b-61fa4230502e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7bfdcf8a-810c-4903-ad08-404e55619401" />
+        <field name="Name" type="NameTableFieldDefinition" value="BestowCurse_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="129ab8be-4040-4aab-a527-b63358e6ec30" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8affc6f8-e580-4249-90e9-d6f6bc8aa7d2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Blindness_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5074431a-102f-4603-a414-2547d282459f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db21c791-35e2-40b0-a04a-a228a58d29d6" />
+        <field name="Name" type="NameTableFieldDefinition" value="CharmPerson_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a6cb2d23-b5e3-493a-b69c-24ef59c1983c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e6d68961-87e9-4cf2-a038-6f3ddf888f04" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChillTouch_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5e50c4cc-22cf-4748-997d-e0a914ba5805" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e9e02797-72df-459c-932c-0a8a33a66449" />
+        <field name="Name" type="NameTableFieldDefinition" value="CrownOfMadness_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f8f2f80f-8458-4148-b548-7ba5ff70a61a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1b44f8b0-1c10-42f8-bdec-8161b71080cd" />
+        <field name="Name" type="NameTableFieldDefinition" value="EnlargeReduce_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6bf15c7d-b79e-483e-a810-f9acc82fdb6a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6eadbc1b-ecc5-4fb7-a18c-11204abb871f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Haste_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1558a5f4-e1bb-43a4-b2be-c8a7b682c6cb" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1807e60d-c3b3-4d46-82ef-e941b3dab6ef" />
+        <field name="Name" type="NameTableFieldDefinition" value="HideousLaughter_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="22bedbec-1743-4df2-bbc4-47e832a91e19" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="41ef5b20-f57d-41da-9b6d-ff24d3c30073" />
+        <field name="Name" type="NameTableFieldDefinition" value="HoldPerson_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6f947751-5dcd-4079-8f8a-0457d8c8957e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0cc31630-513d-4de9-91d5-3cc3d55c67bc" />
+        <field name="Name" type="NameTableFieldDefinition" value="Knock_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d514e28e-64d0-4f70-a8ef-31024d811e34" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="81c8f848-da32-492e-9522-ba44cb0991e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MistyStep_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fdf25d3d-b45f-47b6-9760-d2f2f0651239" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3672496b-0416-4dc3-a457-51cfe3e30bb9" />
+        <field name="Name" type="NameTableFieldDefinition" value="PhantasmalForce_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="362a8bcc-7aec-4d39-a833-fd01b4815e9d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="097382bc-02ac-4c1c-9605-6aae05253a14" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpeakWithDead_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d974eb02-0056-4553-92aa-fb4d05a7a021" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="046a4d16-11c4-4a20-b40d-ef0f16f45e76" />
+        <field name="Name" type="NameTableFieldDefinition" value="AnimateDead_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="200c59b8-96da-4045-a88c-d0b6d398808b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d58fd7ea-f286-4728-82b6-a0d1a3eab82b" />
+        <field name="Name" type="NameTableFieldDefinition" value="FlamingSphere_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ab1d432b-dc1f-498f-b5ef-a10f9675975a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a87e801a-2d83-40a0-887b-1a0d42833051" />
+        <field name="Name" type="NameTableFieldDefinition" value="FindFamiliar_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c4010be3-d207-4f0a-bec7-f1f89e81ac71" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="311c8b11-6903-42d1-ad5c-1351ee1fbb79" />
+        <field name="Name" type="NameTableFieldDefinition" value="GlyphOfWarding_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e7f141dd-80b0-4552-9c67-9aeeacfed85f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7b0c0c68-bfb1-4ced-b4b9-d82c4f929d74" />
+        <field name="Name" type="NameTableFieldDefinition" value="CloudOfDaggers_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c5c14e47-5792-4ed6-8204-3e0c70bb6c48" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99c05cb4-169f-489c-a732-67be6d218d64" />
+        <field name="Name" type="NameTableFieldDefinition" value="Darkness_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3b9b1321-b19a-46cd-8f11-a63535356caf" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0340d6e4-7547-4ebe-a290-d4ac4852fc6f" />
+        <field name="Name" type="NameTableFieldDefinition" value="FogCloud_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1dae9bd4-be33-4df6-88fa-89f309a5c8a4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6ac0699-2177-4832-8a42-f1fcfdb69c28" />
+        <field name="Name" type="NameTableFieldDefinition" value="Grease_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="54ad03cd-561c-4a54-917f-d5293a5d63d9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7242db0a-6a5d-4c4b-a90b-599130f28cee" />
+        <field name="Name" type="NameTableFieldDefinition" value="HypnoticPattern_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2ed51899-8101-4622-a3d5-74c9cebf63a9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="17961799-ab67-4c3f-abb5-1635ac24aa29" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shatter_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1783a003-8146-48a3-a077-5a5182b5b4a6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9f439e79-e79a-4c32-a42c-129467fec54e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Sleep_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7c87100c-1e7d-47cd-87f3-e91d937e5ed5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9db1ef3b-3bf4-4061-9bf0-bd272b673e84" />
+        <field name="Name" type="NameTableFieldDefinition" value="SleetStorm_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d3cb49d0-66ea-446e-8d2e-3379126af8b5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bac0269d-4ada-4c0f-bde1-d93e880e19b3" />
+        <field name="Name" type="NameTableFieldDefinition" value="StinkingCloud_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="27e21d2b-9bc6-45ce-9505-8fd706015cf6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f44f2aa9-cedc-485f-9306-64da2453203f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Web_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="61290327-ad72-462a-80af-e1e76dabddb1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a4f94936-0d3f-4a81-a897-a2fb9295f7c3" />
+        <field name="Name" type="NameTableFieldDefinition" value="FreezingSphere_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dcec059b-f18f-4a52-bdc5-9a6c17ffac15" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8d1d93c2-803d-44ef-b66c-95cb8d035188" />
+        <field name="Name" type="NameTableFieldDefinition" value="Invisibility_Greater_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ba21ed98-a4c5-44e9-a5a0-a6a741b475d2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="29fb2465-87c5-4537-aebd-559513012454" />
+        <field name="Name" type="NameTableFieldDefinition" value="Stoneskin_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a49524b-a084-46dd-9039-c52fefeee381" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a3f41b0-3e11-4c41-989a-8c86bbbb21e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Banishment_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="29ec8943-020d-43db-83d5-b7a474ed8e35" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9fcc945f-2d98-4f2a-afc7-a945c73e5729" />
+        <field name="Name" type="NameTableFieldDefinition" value="Blight_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b38a1ef6-a154-40e2-87a2-bc4609f58480" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="42588877-9816-4ea7-afe8-14d279f4d71b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DominatePerson_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="22f190a7-278a-4166-a57a-a341dd75950e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c01817de-ffda-4ec0-84cf-5b0672962936" />
+        <field name="Name" type="NameTableFieldDefinition" value="Eyebite_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="88f594dc-6b99-4625-8643-9c8f245ff256" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e5135d6-7d71-474f-9c15-22dbff6f79b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="FleshToStone_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b22b2ce-9122-41b3-8227-71688d67e4e1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="56fccc11-326e-44b0-8844-4164f19931d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="HoldMonster_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1e80f78d-0349-4fcb-8a40-893fb5fb0741" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a2e2e08c-0992-4430-987d-653be53297f8" />
+        <field name="Name" type="NameTableFieldDefinition" value="IrresistibleDance_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="121e2b03-f7ee-48d2-82c4-822e787870db" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4b5e9481-0b13-4c11-8d4c-058293228937" />
+        <field name="Name" type="NameTableFieldDefinition" value="PhantasmalKiller_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="501f7f93-5535-4172-97fb-7fd97be8c1c6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3ceb5c3d-ac0d-45b3-b134-1c5a1e9055a6" />
+        <field name="Name" type="NameTableFieldDefinition" value="PlanarBinding_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="060d9dca-7365-49e4-ba73-8c3a0da10990" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2032037d-74de-47a0-8d13-438b07116ea4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Polymorph_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="004b1ec8-9eb7-4519-b28e-bc4098ee8f1b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea42e291-3142-4a83-8415-2815bca2d4e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="ResilientSphere_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4b6ea298-4ca8-4320-abc4-4684c01539ba" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c8a9d5ef-e6dc-4846-9038-c0d20d196e75" />
+        <field name="Name" type="NameTableFieldDefinition" value="Slow_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b074ca92-ec78-4e3b-9aad-c656f4beb2f7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="11d5ebcd-e40a-4561-ba2a-4a76578d8aa9" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Container_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9194c31d-a91c-47f0-a479-5eb5e287f81e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eae59bf6-438f-4eef-8431-8939a22ff259" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureElementals_Minor_Container_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6bb405e6-eb12-49fd-8559-6f55eae17c7e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a50349a4-73aa-423f-96a4-275f1b9864c7" />
+        <field name="Name" type="NameTableFieldDefinition" value="BlackTentacles_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="398af52e-38b6-4792-b5e1-884038c9a785" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="547f6e47-a5d0-4aa9-8fc0-17a3bb5931cd" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfDeath_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5940c685-cd68-4d61-a516-d666389ac4bb" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="74d09649-457e-4bc3-89d7-05ea1df30933" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cloudkill_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3fd2f608-3ef7-444b-bd94-1c46d93799e3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="49edb88f-8395-4740-ad3c-56a156a28cf1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Confusion_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="947ee15a-4931-44ba-bdf6-15efe1785d7a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="192bf699-e89a-4f84-ad24-e1fc20db0955" />
+        <field name="Name" type="NameTableFieldDefinition" value="GlobeOfInvulnerability_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="82f6dfe0-8551-4a36-8f2f-e632024a4c6a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="46f6482b-5bb5-4e4f-b800-23c7ad4e7b3f" />
+        <field name="Name" type="NameTableFieldDefinition" value="IceStorm_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d6cfb81e-11bb-4035-9f4e-ca0a65c8d5ab" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a859c967-1316-4ec8-817f-c8b6e2ee3556" />
+        <field name="Name" type="NameTableFieldDefinition" value="Seeming_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="eb381ab2-8103-4add-b303-2acb022c3361" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da811f44-d8f8-4a6a-b924-3d397ef6ffdb" />
+        <field name="Name" type="NameTableFieldDefinition" value="HellsLash_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="efd58be3-e5f8-4476-9705-501626b7c0d5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c33653af-0b7e-4d75-9dca-987d7f818298" />
+        <field name="Name" type="NameTableFieldDefinition" value="DeathArmor_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="255eddc5-d195-47d5-b473-7ef3bd774a44" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8530e882-a54e-4493-b8de-98ae2876a2de" />
+        <field name="Name" type="NameTableFieldDefinition" value="FireRune_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fc9b772c-30f8-45a7-a84c-c0dfadc9a898" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fcdb11ac-0f3c-4f55-8a9a-b8256973110f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MindSpike_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a2a75c80-56a6-4611-8c85-893b292348d3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5add438a-5f92-4ea5-b029-5d4780e1c597" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonBeast_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0d9eab81-a6e3-4da5-a4c8-f94f98836ecc" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="245769ce-7cc9-42f3-b635-a77ac1b38544" />
+        <field name="Name" type="NameTableFieldDefinition" value="MindWhip_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="75be8e0f-461d-4640-aa5b-211c6b51a13c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bd668437-1657-4cb8-8238-4637b195add2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MurmursOfDoom_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b806a12d-cfa1-4186-93ca-460e63782fb0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d62af4cd-d40b-4a96-8e50-e8f6106f1ed9" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonFey_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e945e15d-b412-414a-a7ed-2feeaecc0edd" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="65da94b6-9265-45bf-a779-4c479e1745df" />
+        <field name="Name" type="NameTableFieldDefinition" value="TrollbloodInfusion_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="08b6917c-68ae-430b-ba21-c02c6f31d70c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0fad5f16-4de4-406b-814d-0ef4cf36c841" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpellfireStorm_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4e072273-17d1-47d7-9cf3-5757ecc042d7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="70642103-a0ee-463a-bcd5-b54df8a52c91" />
+        <field name="Name" type="NameTableFieldDefinition" value="SteelWindStrike_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e2699a2b-18e1-4b78-8e56-268680319ab5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5108a1d1-b9db-437c-a6f2-d3d129c49c66" />
+        <field name="Name" type="NameTableFieldDefinition" value="SynapticStatic_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="999c3895-792a-4a03-a9da-580c612b7975" />
       </fields>
     </stat_object>
   </stat_objects>

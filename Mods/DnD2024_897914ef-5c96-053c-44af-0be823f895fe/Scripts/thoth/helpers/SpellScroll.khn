@@ -8,72 +8,146 @@
 -- 5. Warlock is treated as a full caster for slot progression.
 
 local SPELL_CLASS_MAP = {
-    Projectile_ChainLightning = '6 Sorcerer Wizard',
-    Projectile_Disintegrate = '6 Sorcerer Wizard',
-    Projectile_Fireball = '3 Sorcerer Wizard',
-    Projectile_VitriolicSphere = '4 Sorcerer Wizard',
-    Projectile_VoidStrike = '3 Wizard',
+    Target_AnimalFriendship_spellscroll = '1 Bard Druid Ranger',
+    Zone_BurningHands_spellscroll = '1 Sorcerer Wizard',
+    Target_CharmPerson_spellscroll = '1 Bard Druid Sorcerer Warlock Wizard',
+    Projectile_ChromaticOrb_spellscroll = '1 Sorcerer Wizard',
+    Shout_CloakOfShadow_spellscroll = '1 Wizard',
+    Zone_ColorSpray_spellscroll = '1 Bard Sorcerer Wizard',
+    Shout_DisguiseSelf_spellscroll = '1 Bard Sorcerer Wizard Artificer',
+    Shout_ExpeditiousRetreat_spellscroll = '1 Sorcerer Warlock Wizard Artificer',
+    Shout_FalseLife_spellscroll = '1 Sorcerer Wizard Artificer',
+    Shout_FeatherFall_spellscroll = '1 Bard Sorcerer Wizard Artificer',
+    Target_FindFamiliar_spellscroll = '1 Wizard',
+    Target_FogCloud_spellscroll = '1 Druid Ranger Sorcerer Wizard',
+    Target_Goodberry_spellscroll = '1 Druid Ranger',
+    Target_Grease_spellscroll = '1 Wizard Artificer',
+    Target_HellsLash_spellscroll = '1 Sorcerer Warlock Wizard',
+    Target_HideousLaughter_spellscroll = '1 Bard Warlock Wizard',
+    Projectile_IceKnife_spellscroll = '1 Druid Sorcerer Wizard',
+    Target_Jump_spellscroll = '1 Druid Ranger Sorcerer Wizard Artificer',
+    Target_Longstrider_spellscroll = '1 Bard Druid Ranger Wizard Artificer',
+    Target_MageArmor_spellscroll = '1 Sorcerer Wizard',
+    Projectile_MagicMissile_spellscroll = '1 Sorcerer Wizard',
+    Target_ProtectionFromEvilAndGood_spellscroll = '1 Cleric Druid Paladin Warlock Wizard',
+    Projectile_RayOfSickness_spellscroll = '1 Sorcerer Wizard',
+    Target_Sleep_spellscroll = '1 Bard Sorcerer Wizard',
+    Projectile_SpellfireFlare_spellscroll = '1 Sorcerer Wizard',
+    Zone_Thunderwave_spellscroll = '1 Bard Druid Sorcerer Wizard',
+    Projectile_Wardaway_spellscroll = '1 Bard Cleric Paladin Wizard',
+    Projectile_WitchBolt_spellscroll = '1 Sorcerer Warlock Wizard',
 
-    Shout_Blink = '3 Sorcerer Wizard Artificer',
-    Shout_FireShield = '4 Druid Sorcerer Wizard',
-    Shout_FireShield_Warm = '4 Druid Sorcerer Wizard',
-    Shout_FireShield_Chill = '4 Druid Sorcerer Wizard',
-    Shout_FlameBlade = '2 Druid Sorcerer',
-    Shout_FountOfMoonlight = '4 Bard Druid',
+    Projectile_AcidArrow_spellscroll = '2 Wizard',
+    Zone_AganazzarsScorcher_spellscroll = '2 Sorcerer Wizard',
+    Shout_Aid_spellscroll = '2 Cleric Paladin',
+    Target_ArcaneLock_spellscroll = '2 Wizard Artificer',
+    Shout_ArcaneVigor_spellscroll = '2 Sorcerer Warlock Wizard Artificer',
+    Target_Blindness_spellscroll = '2 Bard Cleric Sorcerer Wizard',
+    Shout_Blur_spellscroll = '2 Sorcerer Wizard Artificer',
+    Target_CloudOfDaggers_spellscroll = '2 Bard Sorcerer Warlock Wizard',
+    Target_CrownOfMadness_spellscroll = '2 Bard Sorcerer Warlock Wizard',
+    Projectile_Darkbolt_spellscroll = '2 Sorcerer Warlock Wizard',
+    Target_Darkness_spellscroll = '2 Sorcerer Warlock Wizard',
+    Target_Darkvision_spellscroll = '2 Druid Ranger Sorcerer Wizard Artificer',
+    Projectile_DazingBlast_spellscroll = '2 Sorcerer Warlock Wizard',
+    Target_DeathArmor_spellscroll = '2 Sorcerer Wizard',
+    Shout_DetectThoughts_spellscroll = '2 Bard Sorcerer Wizard',
+    Shout_ElminstersElusion_spellscroll = '2 Wizard',
+    Target_EnlargeReduce_spellscroll = '2 Bard Druid Sorcerer Wizard Artificer',
+    Shout_FindSteed_spellscroll = '2 Paladin',
+    Target_FireRune_spellscroll = '2 Wizard',
+    Shout_FlameBlade_spellscroll = '2 Druid Sorcerer',
+    Target_FlamingSphere_spellscroll = '2 Druid Sorcerer Wizard',
+    Zone_GustOfWind_spellscroll = '2 Druid Ranger Sorcerer Wizard',
+    Target_HoldPerson_spellscroll = '2 Bard Cleric Druid Sorcerer Warlock Wizard',
+    Target_Invisibility_spellscroll = '2 Bard Sorcerer Warlock Wizard Artificer',
+    Target_Knock_spellscroll = '2 Bard Sorcerer Wizard',
+    Target_MagicWeapon_spellscroll = '2 Paladin Ranger Sorcerer Wizard Artificer',
+    Target_MindSpike_spellscroll = '2 Sorcerer Warlock Wizard',
+    Target_MindWhip_spellscroll = '2 Sorcerer Wizard',
+    Shout_MirrorImage_spellscroll = '2 Bard Sorcerer Warlock Wizard',
+    Target_MistyStep_spellscroll = '2 Sorcerer Warlock Wizard',
+    Target_PhantasmalForce_spellscroll = '2 Bard Sorcerer Wizard',
+    Projectile_RayOfEnfeeblement_spellscroll = '2 Warlock Wizard',
+    Projectile_ScorchingRay_spellscroll = '2 Sorcerer Wizard',
+    Projectile_SearingOrb_spellscroll = '2 Cleric Paladin',
+    Shout_SeeInvisibility_spellscroll = '2 Bard Sorcerer Wizard Artificer',
+    Target_Shatter_spellscroll = '2 Bard Sorcerer Wizard',
+    Projectile_SnowballSwarm_spellscroll = '2 Sorcerer Wizard',
+    Target_SummonBeast_spellscroll = '2 Druid Ranger',
+    Target_Web_spellscroll = '2 Sorcerer Wizard',
 
-    Target_Blight = '4 Druid Sorcerer Warlock Wizard',
-    Target_CircleOfDeath = '6 Sorcerer Warlock Wizard',
-    Target_Cloudkill = '5 Sorcerer Wizard',
-    Target_Confusion = '3 Bard Druid Sorcerer Wizard',
-    Target_ConjureElemental_Container = '5 Druid Wizard',
-    Target_ConjureElementals_Minor_Container = '4 Druid Wizard',
-    Target_DominatePerson = '5 Bard Sorcerer Wizard',
-    Target_Eyebite = '6 Bard Sorcerer Warlock Wizard',
-    Target_FeignDeath = '3 Bard Cleric Druid Wizard',
-    Target_FleshToStone = '6 Druid Sorcerer Wizard',
-    Target_Fly = '3 Sorcerer Warlock Wizard Artificer',
-    Target_FreezingSphere = '6 Sorcerer Wizard',
-    Target_GaseousForm = '3 Sorcerer Warlock Wizard',
-    Target_GlobeOfInvulnerability = '6 Sorcerer Wizard',
-    Target_GlyphOfWarding = '3 Bard Cleric Wizard Artificer',
-    Target_Haste = '3 Sorcerer Wizard Artificer',
-    Target_HoldMonster = '5 Bard Sorcerer Warlock Wizard',
-    Target_HypnoticPattern = '3 Bard Sorcerer Warlock Wizard',
-    Target_IceStorm = '4 Druid Sorcerer Wizard',
-    Target_Invisibility_Greater = '4 Bard Sorcerer Wizard',
-    Target_IrresistibleDance = '6 Bard Wizard',
-    Target_MurmursOfDoom = '3 Bard Warlock',
-    Target_PhantasmalKiller = '4 Bard Wizard',
-    Target_PlanarBinding = '5 Bard Cleric Druid Warlock Wizard',
-    Target_Polymorph = '4 Bard Druid Sorcerer Wizard',
-    Target_ProtectionFromEnergy = '3 Cleric Druid Ranger Sorcerer Wizard Artificer',
-    Target_ResilientSphere = '4 Wizard Artificer',
-    Target_Seeming = '5 Bard Sorcerer Wizard',
-    Target_SleetStorm = '3 Druid Sorcerer Wizard',
-    Target_Slow = '3 Bard Sorcerer Wizard',
-    Target_SpellfireStorm = '4 Sorcerer Wizard',
-    Target_SteelWindStrike = '5 Wizard',
-    Target_StinkingCloud = '3 Bard Sorcerer Wizard',
-    Target_Stoneskin = '4 Druid Ranger Sorcerer Wizard Artificer',
-    Target_SummonFey = '3 Druid Ranger Warlock Wizard',
-    Target_SynapticStatic = '5 Bard Sorcerer Warlock Wizard',
-    Target_TrollbloodInfusion = '3 Bard Cleric Druid Warlock',
-    Target_VampiricTouch = '3 Sorcerer Warlock Wizard',
+    Target_AnimateDead_spellscroll = '3 Cleric Warlock Wizard',
+    Zone_AstralFlood_spellscroll = '3 Bard Sorcerer Wizard',
+    Target_BestowCurse_spellscroll = '3 Bard Cleric Wizard',
+    Shout_Blink_spellscroll = '3 Sorcerer Wizard Artificer',
+    Target_Confusion_spellscroll = '3 Bard Druid Sorcerer Wizard',
+    Zone_Fear_spellscroll = '3 Bard Sorcerer Warlock Wizard',
+    Target_FeignDeath_spellscroll = '3 Bard Cleric Druid Wizard',
+    Projectile_Fireball_spellscroll = '3 Sorcerer Wizard',
+    Target_Fly_spellscroll = '3 Sorcerer Warlock Wizard Artificer',
+    Target_GaseousForm_spellscroll = '3 Sorcerer Warlock Wizard',
+    Target_GlyphOfWarding_spellscroll = '3 Bard Cleric Wizard Artificer',
+    Target_Haste_spellscroll = '3 Sorcerer Wizard Artificer',
+    Target_HypnoticPattern_spellscroll = '3 Bard Sorcerer Warlock Wizard',
+    Zone_LightningBolt_spellscroll = '3 Sorcerer Wizard',
+    Target_MurmursOfDoom_spellscroll = '3 Bard Warlock',
+    Target_ProtectionFromEnergy_spellscroll = '3 Cleric Druid Ranger Sorcerer Wizard Artificer',
+    Target_RemoveCurse_spellscroll = '3 Cleric Paladin Warlock Wizard',
+    Target_SleetStorm_spellscroll = '3 Druid Sorcerer Wizard',
+    Target_Slow_spellscroll = '3 Bard Sorcerer Wizard',
+    Target_SpeakWithDead_spellscroll = '3 Bard Cleric Wizard',
+    Target_StinkingCloud_spellscroll = '3 Bard Sorcerer Wizard',
+    Target_SummonFey_spellscroll = '3 Druid Ranger Warlock Wizard',
+    Zone_TidalWave_spellscroll = '3 Druid Sorcerer Wizard',
+    Target_TrollbloodInfusion_spellscroll = '3 Bard Cleric Druid Warlock',
+    Target_VampiricTouch_spellscroll = '3 Sorcerer Warlock Wizard',
+    Projectile_VoidStrike_spellscroll = '3 Wizard',
 
-    Teleportation_DimensionDoor = '4 Bard Sorcerer Warlock Wizard',
-    Throw_Telekinesis = '5 Sorcerer Wizard',
-    Wall_WallOfFire = '4 Druid Sorcerer Wizard',
-    Wall_WallOfIce = '6 Wizard',
-    Wall_WallOfStone = '5 Druid Sorcerer Wizard Artificer',
+    Target_Banishment_spellscroll = '4 Cleric Sorcerer Warlock Wizard',
+    Target_BlackTentacles_spellscroll = '4 Wizard',
+    Target_Blight_spellscroll = '4 Druid Sorcerer Warlock Wizard',
+    Target_ConjureElementals_Minor_Container_spellscroll = '4 Druid Wizard',
+    Teleportation_DimensionDoor_spellscroll = '4 Bard Sorcerer Warlock Wizard',
+    Shout_FireShield_spellscroll = '4 Druid Sorcerer Wizard',
+    Shout_FireShield_Chill_spellscroll = '4 Druid Sorcerer Wizard',
+    Shout_FireShield_Warm_spellscroll = '4 Druid Sorcerer Wizard',
+    Shout_FountOfMoonlight_spellscroll = '4 Bard Druid',
+    Target_IceStorm_spellscroll = '4 Druid Sorcerer Wizard',
+    Target_Invisibility_Greater_spellscroll = '4 Bard Sorcerer Wizard',
+    Zone_MurderOfCrows_spellscroll = '4 Druid Sorcerer Warlock Wizard',
+    Target_PhantasmalKiller_spellscroll = '4 Bard Wizard',
+    Target_Polymorph_spellscroll = '4 Bard Druid Sorcerer Wizard',
+    Target_ResilientSphere_spellscroll = '4 Wizard Artificer',
+    Target_SpellfireStorm_spellscroll = '4 Sorcerer Wizard',
+    Target_Stoneskin_spellscroll = '4 Druid Ranger Sorcerer Wizard Artificer',
+    Projectile_VitriolicSphere_spellscroll = '4 Sorcerer Wizard',
+    Wall_WallOfFire_spellscroll = '4 Druid Sorcerer Wizard',
 
-    Zone_AstralFlood = '3 Bard Sorcerer Wizard',
-    Zone_ConeOfCold = '5 Druid Sorcerer Wizard',
-    Zone_Fear = '3 Bard Sorcerer Warlock Wizard',
-    Zone_LightningBolt = '3 Sorcerer Wizard',
-    Zone_MurderOfCrows = '4 Druid Sorcerer Warlock Wizard',
-    Zone_Sunbeam = '6 Cleric Druid Sorcerer Wizard',
-    Zone_TidalWave = '3 Druid Sorcerer Wizard',
+    Target_Cloudkill_spellscroll = '5 Sorcerer Wizard',
+    Zone_ConeOfCold_spellscroll = '5 Druid Sorcerer Wizard',
+    Target_ConjureElemental_Container_spellscroll = '5 Druid Wizard',
+    Target_DominatePerson_spellscroll = '5 Bard Sorcerer Wizard',
+    Target_HoldMonster_spellscroll = '5 Bard Sorcerer Warlock Wizard',
+    Target_PlanarBinding_spellscroll = '5 Bard Cleric Druid Warlock Wizard',
+    Target_Seeming_spellscroll = '5 Bard Sorcerer Wizard',
+    Target_SteelWindStrike_spellscroll = '5 Wizard',
+    Target_SynapticStatic_spellscroll = '5 Bard Sorcerer Warlock Wizard',
+    Throw_Telekinesis_spellscroll = '5 Sorcerer Wizard',
+    Wall_WallOfStone_spellscroll = '5 Druid Sorcerer Wizard Artificer',
+
+    Projectile_ChainLightning_spellscroll = '6 Sorcerer Wizard',
+    Target_CircleOfDeath_spellscroll = '6 Sorcerer Warlock Wizard',
+    Projectile_Disintegrate_spellscroll = '6 Sorcerer Wizard',
+    Target_Eyebite_spellscroll = '6 Bard Sorcerer Warlock Wizard',
+    Target_FleshToStone_spellscroll = '6 Druid Sorcerer Wizard',
+    Target_FreezingSphere_spellscroll = '6 Sorcerer Wizard',
+    Target_GlobeOfInvulnerability_spellscroll = '6 Sorcerer Wizard',
+    Target_IrresistibleDance_spellscroll = '6 Bard Wizard',
+    Zone_Sunbeam_spellscroll = '6 Cleric Druid Sorcerer Wizard',
+    Wall_WallOfIce_spellscroll = '6 Wizard',
 }
+
 
 local MULTICLASS_SLOT_LEVEL = {
     [1]  = 1, [2]  = 1,
@@ -179,4 +253,142 @@ function CanUseSpellScroll(spell, entity)
     local highestSlot = GetHighestSpellSlotLevel(entity, cls, isWizardProxyTag)
 
     return ConditionResult(highestSlot >= (spellLevel - 1))
+end
+
+function IsScrollSpell()
+	return SpellId('Shout_FindSteed_spellscroll')
+	| SpellId('Shout_MirrorImage_spellscroll')
+	| SpellId('Target_ProtectionFromEvilAndGood_spellscroll')
+	| SpellId('Zone_Sunbeam_spellscroll')
+	| SpellId('Target_GlyphOfWarding_spellscroll')
+	| SpellId('Target_ArcaneLock_spellscroll')
+	| SpellId('Target_DeathArmor_spellscroll')
+	| SpellId('Target_FlamingSphere_spellscroll')
+	| SpellId('Target_Grease_spellscroll')
+	| SpellId('Zone_MurderOfCrows_spellscroll')
+	| SpellId('Target_SteelWindStrike_spellscroll')
+	| SpellId('Target_Darkvision_spellscroll')
+	| SpellId('Target_HellsLash_spellscroll')
+	| SpellId('Target_Cloudkill_spellscroll')
+	| SpellId('Target_StinkingCloud_spellscroll')
+	| SpellId('Wall_WallOfFire_spellscroll')
+	| SpellId('Projectile_AcidArrow_spellscroll')
+	| SpellId('Shout_DetectThoughts_spellscroll')
+	| SpellId('Projectile_ChainLightning_spellscroll')
+	| SpellId('Target_MindWhip_spellscroll')
+	| SpellId('Throw_Telekinesis_spellscroll')
+	| SpellId('Target_Fly_spellscroll')
+	| SpellId('Projectile_RayOfSickness_spellscroll')
+	| SpellId('Target_CharmPerson_spellscroll')
+	| SpellId('Target_Shatter_spellscroll')
+	| SpellId('Target_Blindness_spellscroll')
+	| SpellId('Target_MageArmor_spellscroll')
+	| SpellId('Target_Sleep_spellscroll')
+	| SpellId('Shout_SeeInvisibility_spellscroll')
+	| SpellId('Target_PhantasmalForce_spellscroll')
+	| SpellId('Target_Web_spellscroll')
+	| SpellId('Target_CloudOfDaggers_spellscroll')
+	| SpellId('Target_SpeakWithDead_spellscroll')
+	| SpellId('Target_Polymorph_spellscroll')
+	| SpellId('Target_DominatePerson_spellscroll')
+	| SpellId('Target_PhantasmalKiller_spellscroll')
+	| SpellId('Target_IrresistibleDance_spellscroll')
+	| SpellId('Target_AnimalFriendship_spellscroll')
+	| SpellId('Shout_Aid_spellscroll')
+	| SpellId('Projectile_Disintegrate_spellscroll')
+	| SpellId('Target_BestowCurse_spellscroll')
+	| SpellId('Target_GaseousForm_spellscroll')
+	| SpellId('Target_Knock_spellscroll')
+	| SpellId('Target_Slow_spellscroll')
+	| SpellId('Zone_Fear_spellscroll')
+	| SpellId('Projectile_ScorchingRay_spellscroll')
+	| SpellId('Projectile_Darkbolt_spellscroll')
+	| SpellId('Projectile_SearingOrb_spellscroll')
+	| SpellId('Target_HoldPerson_spellscroll')
+	| SpellId('Zone_TidalWave_spellscroll')
+	| SpellId('Target_PlanarBinding_spellscroll')
+	| SpellId('Shout_FireShield_spellscroll')
+	| SpellId('Zone_GustOfWind_spellscroll')
+	| SpellId('Target_FeignDeath_spellscroll')
+	| SpellId('Target_Invisibility_spellscroll')
+	| SpellId('Target_VampiricTouch_spellscroll')
+	| SpellId('Target_CrownOfMadness_spellscroll')
+	| SpellId('Target_FreezingSphere_spellscroll')
+	| SpellId('Teleportation_DimensionDoor_spellscroll')
+	| SpellId('Target_Confusion_spellscroll')
+	| SpellId('Target_SummonBeast_spellscroll')
+	| SpellId('Target_Invisibility_Greater_spellscroll')
+	| SpellId('Projectile_Fireball_spellscroll')
+	| SpellId('Target_ChillTouch_spellscroll')
+	| SpellId('Target_EnlargeReduce_spellscroll')
+	| SpellId('Shout_FalseLife_spellscroll')
+	| SpellId('Target_Stoneskin_spellscroll')
+	| SpellId('Shout_ArcaneVigor_spellscroll')
+	| SpellId('Target_Longstrider_spellscroll')
+	| SpellId('Target_Banishment_spellscroll')
+	| SpellId('Zone_AganazzarsScorcher_spellscroll')
+	| SpellId('Shout_FeatherFall_spellscroll')
+	| SpellId('Zone_LightningBolt_spellscroll')
+	| SpellId('Target_SynapticStatic_spellscroll')
+	| SpellId('Target_MurmursOfDoom_spellscroll')
+	| SpellId('Target_AnimateDead_spellscroll')
+	| SpellId('Target_HideousLaughter_spellscroll')
+	| SpellId('Target_GlobeOfInvulnerability_spellscroll')
+	| SpellId('Projectile_MagicMissile_spellscroll')
+	| SpellId('Zone_Thunderwave_spellscroll')
+	| SpellId('Projectile_DazingBlast_spellscroll')
+	| SpellId('Target_Haste_spellscroll')
+	| SpellId('Projectile_VitriolicSphere_spellscroll')
+	| SpellId('Target_MistyStep_spellscroll')
+	| SpellId('Shout_ElminstersElusion_spellscroll')
+	| SpellId('Target_ProtectionFromEnergy_spellscroll')
+	| SpellId('Target_ConjureElementals_Minor_Container_spellscroll')
+	| SpellId('Zone_AstralFlood_spellscroll')
+	| SpellId('Shout_FlameBlade_spellscroll')
+	| SpellId('Target_SummonFey_spellscroll')
+	| SpellId('Shout_Blur_spellscroll')
+	| SpellId('Target_FleshToStone_spellscroll')
+	| SpellId('Shout_CloakOfShadow_spellscroll')
+	| SpellId('Target_ShockingGrasp_spellscroll')
+	| SpellId('Target_CircleOfDeath_spellscroll')
+	| SpellId('Shout_DisguiseSelf_spellscroll')
+	| SpellId('Zone_BurningHands_spellscroll')
+	| SpellId('Target_HypnoticPattern_spellscroll')
+	| SpellId('Target_SleetStorm_spellscroll')
+	| SpellId('Target_ConjureElemental_Container_spellscroll')
+	| SpellId('Target_MindSpike_spellscroll')
+	| SpellId('Zone_ColorSpray_spellscroll')
+	| SpellId('Target_Darkness_spellscroll')
+	| SpellId('Target_MagicWeapon_spellscroll')
+	| SpellId('Projectile_RayOfEnfeeblement_spellscroll')
+	| SpellId('Target_Eyebite_spellscroll')
+	| SpellId('Wall_WallOfStone_spellscroll')
+	| SpellId('Target_Seeming_spellscroll')
+	| SpellId('Projectile_ChromaticOrb_spellscroll')
+	| SpellId('Shout_Blink_spellscroll')
+	| SpellId('Projectile_SpellfireFlare_spellscroll')
+	| SpellId('Target_HoldMonster_spellscroll')
+	| SpellId('Target_TrollbloodInfusion_spellscroll')
+	| SpellId('Target_FogCloud_spellscroll')
+	| SpellId('Projectile_VoidStrike_spellscroll')
+	| SpellId('Target_RemoveCurse_spellscroll')
+	| SpellId('Target_Goodberry_spellscroll')
+	| SpellId('Target_FireRune_spellscroll')
+	| SpellId('Target_Blight_spellscroll')
+	| SpellId('Target_SpellfireStorm_spellscroll')
+	| SpellId('Target_Jump_spellscroll')
+	| SpellId('Projectile_WitchBolt_spellscroll')
+	| SpellId('Wall_WallOfIce_spellscroll')
+	| SpellId('Projectile_SnowballSwarm_spellscroll')
+	| SpellId('Zone_ConeOfCold_spellscroll')
+	| SpellId('Target_IceStorm_spellscroll')
+	| SpellId('Shout_FountOfMoonlight_spellscroll')
+	| SpellId('Target_BlackTentacles_spellscroll')
+	| SpellId('Projectile_Wardaway_spellscroll')
+	| SpellId('Shout_ExpeditiousRetreat_spellscroll')
+	| SpellId('Projectile_IceKnife_spellscroll')
+	| SpellId('Target_ResilientSphere_spellscroll')
+	| SpellId('Projectile_RayOfFrost_spellscroll')
+	| SpellId('Target_FindFamiliar_spellscroll')
+	| SpellId('Projectile_FireBolt_spellscroll')
 end

@@ -73,3 +73,17 @@ data "DisplayName" "hb6ad15b6g6a5cgc8edg95d4gd631318ac05a;1"
 data "UseCosts" "BonusActionPoint:1;HiddenPaths:1;"
 data "SpellFlags" "HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;CannotTargetItems"
 
+new entry "Teleportation___SCROLL__"
+type "SpellData"
+data "SpellType" "Teleportation"
+
+new entry "Teleportation_TrueResurrection_Scroll"
+type "SpellData"
+data "SpellType" "Teleportation"
+using "Teleportation_TrueResurrection_Scroll"
+
+new entry "Teleportation_DimensionDoor_spellscroll"
+type "SpellData"
+data "SpellType" "Teleportation"
+using "Teleportation_DimensionDoor"
+

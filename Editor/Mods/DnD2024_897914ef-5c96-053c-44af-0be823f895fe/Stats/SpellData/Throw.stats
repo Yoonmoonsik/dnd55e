@@ -19,5 +19,18 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2fc3807bg34e4gbdbeg88f4gb50fa0facd7e" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="49d6a0ad-f95e-4368-b304-edbda478964d" />
+        <field name="Name" type="NameTableFieldDefinition" value="__SCROLL__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea4b76e3-1b20-4c22-9f3e-9edbbfa7a96a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Telekinesis_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7151b415-3c1c-402b-b83c-1f660e42b1fe" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

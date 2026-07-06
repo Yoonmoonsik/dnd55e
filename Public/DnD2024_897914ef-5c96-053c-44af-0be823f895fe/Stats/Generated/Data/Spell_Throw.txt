@@ -12,3 +12,12 @@ data "Icon" "Action_Throw_BonusAction"
 data "DisplayName" "h2fc3807bg34e4gbdbeg88f4gb50fa0facd7e;1"
 data "UseCosts" "BonusActionPoint:1"
 
+new entry "Throw___SCROLL__"
+type "SpellData"
+data "SpellType" "Throw"
+
+new entry "Throw_Telekinesis_spellscroll"
+type "SpellData"
+data "SpellType" "Throw"
+using "Throw_Telekinesis"
+

@@ -797,3 +797,67 @@ data "BeamEffect" "6a1dbffa-77da-4362-bcad-a035db12aeec"
 data "DamageType" "Lightning"
 data "Sheathing" "Melee"
 
+new entry "Zone___SCROLL__"
+type "SpellData"
+data "SpellType" "Zone"
+
+new entry "Zone_BurningHands_spellscroll"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_BurningHands"
+
+new entry "Zone_ColorSpray_spellscroll"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_ColorSpray"
+
+new entry "Zone_Fear_spellscroll"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_Fear"
+
+new entry "Zone_GustOfWind_spellscroll"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_GustOfWind"
+
+new entry "Zone_Thunderwave_spellscroll"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_Thunderwave"
+
+new entry "Zone_ConeOfCold_spellscroll"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_ConeOfCold"
+
+new entry "Zone_LightningBolt_spellscroll"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_LightningBolt"
+
+new entry "Zone_Sunbeam_spellscroll"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_Sunbeam"
+
+new entry "Zone_AganazzarsScorcher_spellscroll"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_AganazzarsScorcher"
+
+new entry "Zone_AstralFlood_spellscroll"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_AstralFlood"
+
+new entry "Zone_TidalWave_spellscroll"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_TidalWave"
+
+new entry "Zone_MurderOfCrows_spellscroll"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_MurderOfCrows"
+

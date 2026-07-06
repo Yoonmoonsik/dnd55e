@@ -1,0 +1,19 @@
+new entry "Wall___SCROLL__"
+type "SpellData"
+data "SpellType" "Wall"
+
+new entry "Wall_WallOfFire_spellscroll"
+type "SpellData"
+data "SpellType" "Wall"
+using "Wall_WallOfFire"
+
+new entry "Wall_WallOfIce_spellscroll"
+type "SpellData"
+data "SpellType" "Wall"
+using "Wall_WallOfIce"
+
+new entry "Wall_WallOfStone_spellscroll"
+type "SpellData"
+data "SpellType" "Wall"
+using "Wall_WallOfStone"
+
