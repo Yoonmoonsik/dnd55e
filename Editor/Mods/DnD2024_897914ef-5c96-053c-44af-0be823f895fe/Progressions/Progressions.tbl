@@ -8840,7 +8840,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="FirearmExpert;Artillerist_3_Spells;Artillerist_3_EldritchCannon" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(HeavyCrossbows);Proficiency(HandCrossbows);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(HeavyCrossbows);Proficiency(HandCrossbows);Proficiency(Longbows);" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(f22bf3aa-e6c0-4195-ac17-c6101bc68f64,,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
@@ -8876,7 +8876,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="BattleSmith" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="BattleSmith_3_Spells;BattleSmith_3_BattleReady;BattleSmith_3_SteelDefender" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="BattleSmith_3_Spells;BattleSmith_3_BattleReady;BattleSmith_3_SteelDefender;FirearmExpert" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(MartialWeapons)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(39e366a2-9be2-4867-af1c-76f30039f59e,,,,AlwaysPrepared)" />
       </fields>

@@ -6848,7 +6848,7 @@
                     <attribute id="UUID" type="guid" value="703e518c-51ce-4dd7-bb9d-7b3bbbbde489"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="Proficiency(HeavyCrossbows);Proficiency(HandCrossbows);"/>
+                    <attribute id="Boosts" type="LSString" value="Proficiency(HeavyCrossbows);Proficiency(HandCrossbows);Proficiency(Longbows);"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Artillerist"/>
                     <attribute id="PassivesAdded" type="LSString" value="FirearmExpert;Artillerist_3_Spells;Artillerist_3_EldritchCannon"/>
@@ -6879,7 +6879,7 @@
                     <attribute id="Boosts" type="LSString" value="Proficiency(MartialWeapons)"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="BattleSmith"/>
-                    <attribute id="PassivesAdded" type="LSString" value="BattleSmith_3_Spells;BattleSmith_3_BattleReady;BattleSmith_3_SteelDefender"/>
+                    <attribute id="PassivesAdded" type="LSString" value="BattleSmith_3_Spells;BattleSmith_3_BattleReady;BattleSmith_3_SteelDefender;FirearmExpert"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(39e366a2-9be2-4867-af1c-76f30039f59e,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="88bb5c8e-b795-486a-82f0-b2531f396604"/>
