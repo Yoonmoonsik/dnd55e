@@ -17,11 +17,13 @@ ApplyStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_END", -1.0, 1, _Player);
 OpenMessageBox(_Player, _Msg);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_Guidance",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_Guidance",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_GUIDANCE", 1)
 AND
 ResolveTranslatedString("hc9f0aba8gd775g4df7gb799gd7c53747085b", _Msg)
 THEN
@@ -30,11 +32,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_GUIDANCE", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Projectile_PoisonSpray",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_PoisonSpray",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_POISONSPRAY", 1)
 AND
 ResolveTranslatedString("hc9f0aba8gd775g4df7gb799gd7c53747085b", _Msg)
 THEN
@@ -43,11 +47,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_POISONSPRAY", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Shout_ProduceFlame",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Shout_ProduceFlame",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_PRODUCEFLAME", 1)
 AND
 ResolveTranslatedString("hc9f0aba8gd775g4df7gb799gd7c53747085b", _Msg)
 THEN
@@ -56,11 +62,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_PRODUCEFLAME", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_Resistance",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_Resistance",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_RESISTANCE", 1)
 AND
 ResolveTranslatedString("hc9f0aba8gd775g4df7gb799gd7c53747085b", _Msg)
 THEN
@@ -69,11 +77,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_RESISTANCE", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Shout_Shillelagh",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Shout_Shillelagh",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_SHILLELAGH", 1)
 AND
 ResolveTranslatedString("hc9f0aba8gd775g4df7gb799gd7c53747085b", _Msg)
 THEN
@@ -82,11 +92,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_SHILLELAGH", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_SpareTheDying",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_SpareTheDying",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_SPARETHEDYING", 1)
 AND
 ResolveTranslatedString("hc9f0aba8gd775g4df7gb799gd7c53747085b", _Msg)
 THEN
@@ -95,11 +107,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_SPARETHEDYING", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Projectile_StarryWisp",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_StarryWisp",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_STARRYWISP", 1)
 AND
 ResolveTranslatedString("hc9f0aba8gd775g4df7gb799gd7c53747085b", _Msg)
 THEN
@@ -108,11 +122,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_STARRYWISP", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Target_ThornWhip",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Target_ThornWhip",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_THORNWHIP", 1)
 AND
 ResolveTranslatedString("hc9f0aba8gd775g4df7gb799gd7c53747085b", _Msg)
 THEN
@@ -121,11 +137,13 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_THORNWHIP", -1.0, 1, _Player);
 
 IF
-CastedSpell((CHARACTER)_Player,"Shout_Thunderclap",_,_,_)
+StartedPreviewingSpell((CHARACTER)_Player,"Shout_Thunderclap",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
 AND
 HasPassive(_Player,"OriginFeat_MagicInitiate_Druid",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_THUNDERCLAP", 1)
 AND
 ResolveTranslatedString("hc9f0aba8gd775g4df7gb799gd7c53747085b", _Msg)
 THEN
