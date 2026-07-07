@@ -1,0 +1,17 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+CastedSpell((CHARACTER)_Character,"Target_MainHandAttack_OnlyNick", _, _, _)
+THEN
+RealtimeObjectTimerLaunch(_Character, "MainHandAttack_OnlyNick", 100);
+
+IF
+ObjectTimerFinished(_Character, "MainHandAttack_OnlyNick")
+THEN
+RemoveStatus(_Character, "WEAPONMASTERY_NICK", NULL_00000000-0000-0000-0000-000000000000);
+EXITSECTION
+
+ENDEXITSECTION

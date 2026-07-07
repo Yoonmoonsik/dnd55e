@@ -34,6 +34,7 @@ For gameplay examples, build ideas, and practical references, check the playthro
 - Heavy Weapon Ability Requirement
 - Hiding
 - Hit Point Dice
+- Inspiration from Background
 - One Spell Slot Spell per Turn
 - Prone
 - Spell Scroll Usage Limitation
@@ -68,12 +69,12 @@ See the [Wiki](https://github.com/Yoonmoonsik/dnd55e/wiki) and each class page f
 | --- | --- |
 | [Artificer](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Artificer) | Alchemist, Armorer, Artillerist, Battle Smith |
 | [Barbarian](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Barbarian) | Berserker, Fractured, Giant, Shadow Gnawer, Wild Magic, Wildheart, World Tree, Zealot |
-| [Bard](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Bard) | Dance, Swords, Glamour, Lore, Moon, Valor |
+| [Bard](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Bard) | Dance, Glamour, Lore, Moon, Spirits, Swords, Valor |
 | [Cleric](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Cleric) | Apocalypse, Astral, Death, Grave, Nature, Shadow, Tempest, Knowledge, Life, Light, Mind, Trickery, War |
 | [Druid](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Druid) | Circle of Dragons, Dreams, Stars, Land, Moon, Sea, Spores, Unbroken |
 | [Fighter](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Fighter) | Arcane Archer, Banneret, Battle Master, Cavalier, Champion, Eldritch Knight, Psi Warrior, Rune Knight, Viking |
 | [Gunslinger](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Gunslinger) | High Roller, Spellslinger, White Hat |
-| [Illrigger](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Illrigger) | Hellspeaker, Painkiller, Sanguine Knight, Shadowmaster |
+| [Illrigger](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Illrigger) | Architect of Ruin, Hellspeaker, Painkiller, Sanguine Knight, Shadowmaster |
 | [Monk](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Monk) | Elements, Kensei, Mercy, Open Hand, Shadow |
 | [Monster Hunter](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Monster-Hunter) | Carver Guild, Devourer Guild, Occultist Guild |
 | [Paladin](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Paladin) | Ancients, Crown, Devotion, Glory, Noble Genies, Vengeance, Oathbreaker |
@@ -81,7 +82,7 @@ See the [Wiki](https://github.com/Yoonmoonsik/dnd55e/wiki) and each class page f
 | [Rogue](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Rogue) | Arcane Trickster, Assassin, Blade of Radiance, Scion of the Three, Highway Rider, Soulknife, Swashbuckler, Thief |
 | [Sorcerer](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Sorcerer) | Aberrant Sorcery, Clockwork Sorcery, Draconic Sorcery, Frost Sorcery, Shadow Magic, Spellfire Sorcery, Storm Sorcery, Wild Magic Sorcery |
 | [Warlock](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Warlock) | Archfey, Celestial, Fiend, Great Old One, Hexblade, Undead, expanded Invocations |
-| [Wizard](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Wizard) | Abjurer, Bladesinger, Diviner, Evoker, Illusionist |
+| [Wizard](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Wizard) | Abjurer, Bladesinger, Conjurer, Diviner, Enchanter, Evoker, Illusionist, Necromancer, Transmuter |
 | Psion | Coming soon |
 
 ## Feats
@@ -122,7 +123,7 @@ Acid Splash, Blade Ward, Chill Touch, Eldritch Blast, Finger Guns, Frightful Sta
 
 ### Leveled Spells
 
-- Level 1: Armor of Agathys, Ballistic Smite, Chromatic Orb, Cloak of Shadow, Color Spray, Cure Wounds, Divine Favor, Divine Smite, Entangle, Feather Fall, Guiding Bolt, Healing Word, Hell's Lash, Hex, Hunter's Mark, Inflict Wounds, Jump, Longstrider, Magic Missile, Ray of Sickness, Searing Smite, Sleep, Tasha's Hideous Laughter, Wardaway, Wrathful Smite.
+- Level 1: Absorb Elements, Armor of Agathys, Ballistic Smite, Chromatic Orb, Cloak of Shadow, Color Spray, Cure Wounds, Divine Favor, Divine Smite, Entangle, Feather Fall, Guiding Bolt, Healing Word, Hell's Lash, Hex, Hunter's Mark, Inflict Wounds, Jump, Longstrider, Magic Missile, Ray of Sickness, Searing Smite, Sleep, Tasha's Hideous Laughter, Tide of Darkness, Umbral Tendril, Wardaway, Wrathful Smite.
 - Level 2: Aganazzar's Scorcher, Aid, Arcane Vigor, Blindness, Cloud of Daggers, Crown of Madness, Darkbolt, Darkness, Dazing Blast, Death Armor, Find Steed, Fire Rune, Flame Blade, Gust of Wind, Lesser Restoration, Magic Weapon, Melf's Acid Arrow, Mind Spike, Misty Step, Prayer of Healing, Ray of Enfeeblement, Searing Orb, Shadow Blade, Snilloc's Snowball Swarm, Spiritual Weapon, Summon Beast, Tasha's Mind Whip, Warding Bond.
 - Level 3: Astral Flood, Aura of Vitality, Bestow Curse, Blink, Conjure Barrage, Crusader's Mantle, Fear, Lightning Arrow, Mass Healing Word, Murmurs of Doom, Phantom Steed, Summon Fey, Tidal Wave, Trollblood Infusion, Void Strike.
 - Level 4: Banishment, Confusion, Dominate Beast, Fount of Moonlight, Ice Storm, Murder of Crows, Otiluke's Resilient Sphere, Phantasmal Killer, Polymorph, Stoneskin, Vitriolic Sphere.

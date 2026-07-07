@@ -21,6 +21,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2c4a4b12-ae32-4633-8e13-a6c766755cce" />
+        <field name="Name" type="NameTableFieldDefinition" value="OffhandAttack" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fc76ba39-5bb7-4d3c-9ff0-9460ade43e2a" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(OffhandRangedWeapon, OffhandRangedWeaponDamageType);GROUND:ExecuteWeaponFunctors(OffHand);RemoveStatus(SELF,WEAPONMASTERY_NICK);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('WEAPONMASTERY_NICK_BLOCK_OFFHANDATTACK');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7b8ca146-2be1-4d85-8d73-f3908caf0588" />
         <field name="Name" type="NameTableFieldDefinition" value="OffhandAttack_Firearm" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fc76ba39-5bb7-4d3c-9ff0-9460ade43e2a" />
@@ -28,6 +37,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Projectile_OffHandAttack_Firearm" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsAttack;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="ef285efc-0551-4929-b591-40fcfaac8369" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(OffhandRangedWeapon, OffhandRangedWeaponDamageType);GROUND:ExecuteWeaponFunctors(OffHand);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('WEAPONMASTERY_NICK_BLOCK_OFFHANDATTACK');" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -472,6 +472,40 @@ data "DisplayName" "h58264943ge8a3g47cdg09c2gd71af9051c26;1"
 data "Icon" "Medicine"
 data "Boosts" "ProficiencyBonus(Skill,Medicine)"
 
+new entry "__ABJURATION__"
+type "PassiveData"
+
+new entry "Absorb_Elements_Spell_Technical_Passive"
+type "PassiveData"
+using "Absorb_Elements_Technical_Passive"
+data "Conditions" ""
+data "StatsFunctors" "IF(IsDamageTypeAcid()):ApplyStatus(ABSORB_ELEMENTS_ACID_DAMAGE_1, 100, 2);IF(IsDamageTypeCold()):ApplyStatus(ABSORB_ELEMENTS_COLD_DAMAGE_1, 100, 2);IF(IsDamageTypeFire()):ApplyStatus(ABSORB_ELEMENTS_FIRE_DAMAGE_1, 100, 2);IF(IsDamageTypeLightning()):ApplyStatus(ABSORB_ELEMENTS_LIGHTNING_DAMAGE_1, 100, 2);IF(IsDamageTypeThunder()):ApplyStatus(ABSORB_ELEMENTS_THUNDER_DAMAGE_1, 100, 2);IF(IsDamageTypeAcid() or IsDamageTypeCold() or IsDamageTypeFire() or IsDamageTypeLightning() or IsDamageTypeThunder()):RemoveStatus(ABSORB_ELEMENTS_ACTIVE_SPELL_1)"
+
+new entry "Absorb_Elements_Spell_Technical_Passive_2"
+type "PassiveData"
+using "Absorb_Elements_Spell_Technical_Passive"
+data "StatsFunctors" "IF(IsDamageTypeAcid()):ApplyStatus(ABSORB_ELEMENTS_ACID_DAMAGE_2, 100, 2);IF(IsDamageTypeCold()):ApplyStatus(ABSORB_ELEMENTS_COLD_DAMAGE_2, 100, 2);IF(IsDamageTypeFire()):ApplyStatus(ABSORB_ELEMENTS_FIRE_DAMAGE_2, 100, 2);IF(IsDamageTypeLightning()):ApplyStatus(ABSORB_ELEMENTS_LIGHTNING_DAMAGE_2, 100, 2);IF(IsDamageTypeThunder()):ApplyStatus(ABSORB_ELEMENTS_THUNDER_DAMAGE_2, 100, 2);IF(IsDamageTypeAcid() or IsDamageTypeCold() or IsDamageTypeFire() or IsDamageTypeLightning() or IsDamageTypeThunder()):RemoveStatus(ABSORB_ELEMENTS_ACTIVE_SPELL_2)"
+
+new entry "Absorb_Elements_Spell_Technical_Passive_3"
+type "PassiveData"
+using "Absorb_Elements_Spell_Technical_Passive_2"
+data "StatsFunctors" "IF(IsDamageTypeAcid()):ApplyStatus(ABSORB_ELEMENTS_ACID_DAMAGE_3, 100, 2);IF(IsDamageTypeCold()):ApplyStatus(ABSORB_ELEMENTS_COLD_DAMAGE_3, 100, 2);IF(IsDamageTypeFire()):ApplyStatus(ABSORB_ELEMENTS_FIRE_DAMAGE_3, 100, 2);IF(IsDamageTypeLightning()):ApplyStatus(ABSORB_ELEMENTS_LIGHTNING_DAMAGE_3, 100, 2);IF(IsDamageTypeThunder()):ApplyStatus(ABSORB_ELEMENTS_THUNDER_DAMAGE_3, 100, 2);IF(IsDamageTypeAcid() or IsDamageTypeCold() or IsDamageTypeFire() or IsDamageTypeLightning() or IsDamageTypeThunder()):RemoveStatus(ABSORB_ELEMENTS_ACTIVE_SPELL_3)"
+
+new entry "Absorb_Elements_Spell_Technical_Passive_4"
+type "PassiveData"
+using "Absorb_Elements_Spell_Technical_Passive_2"
+data "StatsFunctors" "IF(IsDamageTypeAcid()):ApplyStatus(ABSORB_ELEMENTS_ACID_DAMAGE_4, 100, 2);IF(IsDamageTypeCold()):ApplyStatus(ABSORB_ELEMENTS_COLD_DAMAGE_4, 100, 2);IF(IsDamageTypeFire()):ApplyStatus(ABSORB_ELEMENTS_FIRE_DAMAGE_4, 100, 2);IF(IsDamageTypeLightning()):ApplyStatus(ABSORB_ELEMENTS_LIGHTNING_DAMAGE_4, 100, 2);IF(IsDamageTypeThunder()):ApplyStatus(ABSORB_ELEMENTS_THUNDER_DAMAGE_4, 100, 2);IF(IsDamageTypeAcid() or IsDamageTypeCold() or IsDamageTypeFire() or IsDamageTypeLightning() or IsDamageTypeThunder()):RemoveStatus(ABSORB_ELEMENTS_ACTIVE_SPELL_4)"
+
+new entry "Absorb_Elements_Spell_Technical_Passive_5"
+type "PassiveData"
+using "Absorb_Elements_Spell_Technical_Passive_2"
+data "StatsFunctors" "IF(IsDamageTypeAcid()):ApplyStatus(ABSORB_ELEMENTS_ACID_DAMAGE_5, 100, 2);IF(IsDamageTypeCold()):ApplyStatus(ABSORB_ELEMENTS_COLD_DAMAGE_5, 100, 2);IF(IsDamageTypeFire()):ApplyStatus(ABSORB_ELEMENTS_FIRE_DAMAGE_5, 100, 2);IF(IsDamageTypeLightning()):ApplyStatus(ABSORB_ELEMENTS_LIGHTNING_DAMAGE_5, 100, 2);IF(IsDamageTypeThunder()):ApplyStatus(ABSORB_ELEMENTS_THUNDER_DAMAGE_5, 100, 2);IF(IsDamageTypeAcid() or IsDamageTypeCold() or IsDamageTypeFire() or IsDamageTypeLightning() or IsDamageTypeThunder()):RemoveStatus(ABSORB_ELEMENTS_ACTIVE_SPELL_5)"
+
+new entry "Absorb_Elements_Spell_Technical_Passive_6"
+type "PassiveData"
+using "Absorb_Elements_Spell_Technical_Passive_2"
+data "StatsFunctors" "IF(IsDamageTypeAcid()):ApplyStatus(ABSORB_ELEMENTS_ACID_DAMAGE_6, 100, 2);IF(IsDamageTypeCold()):ApplyStatus(ABSORB_ELEMENTS_COLD_DAMAGE_6, 100, 2);IF(IsDamageTypeFire()):ApplyStatus(ABSORB_ELEMENTS_FIRE_DAMAGE_6, 100, 2);IF(IsDamageTypeLightning()):ApplyStatus(ABSORB_ELEMENTS_LIGHTNING_DAMAGE_6, 100, 2);IF(IsDamageTypeThunder()):ApplyStatus(ABSORB_ELEMENTS_THUNDER_DAMAGE_6, 100, 2);IF(IsDamageTypeAcid() or IsDamageTypeCold() or IsDamageTypeFire() or IsDamageTypeLightning() or IsDamageTypeThunder()):RemoveStatus(ABSORB_ELEMENTS_ACTIVE_SPELL_6)"
+
 new entry "__CONJURATION__"
 type "PassiveData"
 
@@ -5742,7 +5776,7 @@ using "GreatWeaponMaster_BonusAttack"
 data "DisplayName" "h349877e7geb40gb92agf0ebg6d7a8824b88d;1"
 data "Description" "hf5c74f9cg9d34g5f2dgb774g506b6adf6782;1"
 data "PriorityOrder" "700"
-data "Boosts" "IF(GreatWeaponMaster(context.Source)):CharacterWeaponDamage(ProficiencyBonus);"
+data "Boosts" "IF(GreatWeaponMaster(context.Source) and not HasUseCosts('BonusActionPoint')):CharacterWeaponDamage(ProficiencyBonus);"
 
 new entry "HeavilyArmored"
 type "PassiveData"
