@@ -1,0 +1,13 @@
+function ShoveCheck()
+    local result = Dead() | Item() | Ally()
+    if not result.Result then
+        local attackerModifier = GetModifier(context.Source.Strength)
+        if HasPassive('MartialArts_DextrousUnarmedAttacks', context.Source).Result and IsDexterityGreaterThanStrength().Result then
+            attackerModifier = GetModifier(context.Source.Dexterity)
+        end
+        local dc = 8 + context.Source.ProficiencyBonus + attackerModifier
+        local st = ~SavingThrowWithHigherAbility(Ability.Strength, Ability.Dexterity, dc)
+        return ConditionResult(st.Result,{},{},st.Chance)
+    end
+    return result
+end
