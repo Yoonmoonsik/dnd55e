@@ -7968,7 +7968,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h349877e7geb40gb92agf0ebg6d7a8824b88d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf5c74f9cg9d34g5f2dgb774g506b6adf6782" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(GreatWeaponMaster(context.Source)):CharacterWeaponDamage(ProficiencyBonus);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(GreatWeaponMaster(context.Source) and not HasUseCosts('BonusActionPoint')):CharacterWeaponDamage(ProficiencyBonus);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

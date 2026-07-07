@@ -5776,7 +5776,7 @@ using "GreatWeaponMaster_BonusAttack"
 data "DisplayName" "h349877e7geb40gb92agf0ebg6d7a8824b88d;1"
 data "Description" "hf5c74f9cg9d34g5f2dgb774g506b6adf6782;1"
 data "PriorityOrder" "700"
-data "Boosts" "IF(GreatWeaponMaster(context.Source)):CharacterWeaponDamage(ProficiencyBonus);"
+data "Boosts" "IF(GreatWeaponMaster(context.Source) and not HasUseCosts('BonusActionPoint')):CharacterWeaponDamage(ProficiencyBonus);"
 
 new entry "HeavilyArmored"
 type "PassiveData"
