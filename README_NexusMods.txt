@@ -22,6 +22,7 @@ For gameplay examples, build ideas, and practical references, check the playthro
 [*]Heavy Weapon Ability Requirement
 [*]Hiding
 [*]Hit Point Dice
+[*]Inspiration from Background
 [*]One Spell Slot Spell per Turn
 [*]Prone
 [*]Spell Scroll Usage Limitation
@@ -54,12 +55,12 @@ Chondathan Freebooter, Dead Magic Dweller, Dragon Cultist, Emerald Enclave Caret
 [list]
 [*][b]Artificer[/b] — Alchemist, Armorer, Artillerist, Battle Smith
 [*][b]Barbarian[/b] — Berserker, Fractured, Giant, Shadow Gnawer, Wild Magic, Wildheart, World Tree, Zealot
-[*][b]Bard[/b] — Dance, Swords, Glamour, Lore, Moon, Valor
+[*][b]Bard[/b] — Dance, Glamour, Lore, Moon, Spirits, Swords, Valor
 [*][b]Cleric[/b] — Apocalypse, Astral, Death, Grave, Nature, Shadow, Tempest, Knowledge, Life, Light, Mind, Trickery, War
 [*][b]Druid[/b] — Circle of Dragons, Dreams, Stars, Land, Moon, Sea, Spores, Unbroken
 [*][b]Fighter[/b] — Arcane Archer, Banneret, Battle Master, Cavalier, Champion, Eldritch Knight, Psi Warrior, Rune Knight, Viking
 [*][b]Gunslinger[/b] — High Roller, Spellslinger, White Hat
-[*][b]Illrigger[/b] — Hellspeaker, Painkiller, Sanguine Knight, Shadowmaster
+[*][b]Illrigger[/b] — Architect of Ruin, Hellspeaker, Painkiller, Sanguine Knight, Shadowmaster
 [*][b]Monk[/b] — Elements, Kensei, Mercy, Open Hand, Shadow
 [*][b]Monster Hunter[/b] — Carver Guild, Devourer Guild, Occultist Guild
 [*][b]Paladin[/b] — Ancients, Crown, Devotion, Glory, Noble Genies, Vengeance, Oathbreaker
@@ -67,7 +68,7 @@ Chondathan Freebooter, Dead Magic Dweller, Dragon Cultist, Emerald Enclave Caret
 [*][b]Rogue[/b] — Arcane Trickster, Assassin, Blade of Radiance, Scion of the Three, Highway Rider, Soulknife, Swashbuckler, Thief
 [*][b]Sorcerer[/b] — Aberrant Sorcery, Clockwork Sorcery, Draconic Sorcery, Frost Sorcery, Shadow Magic, Spellfire Sorcery, Storm Sorcery, Wild Magic Sorcery
 [*][b]Warlock[/b] — Archfey, Celestial, Fiend, Great Old One, Hexblade, Undead, expanded Invocations
-[*][b]Wizard[/b] — Abjurer, Bladesinger, Diviner, Evoker, Illusionist
+[*][b]Wizard[/b] — Abjurer, Bladesinger, Conjurer, Diviner, Enchanter, Evoker, Illusionist, Necromancer, Transmuter
 [*][b]Psion[/b] — Coming soon
 [/list]
 
