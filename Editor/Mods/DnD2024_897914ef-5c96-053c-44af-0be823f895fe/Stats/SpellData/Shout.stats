@@ -45,7 +45,6 @@
         <field name="Autocast" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="HitPointDice06" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hda98b41agfc26g23d3g9dafg4d09cb0cc2d8" version="1" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(1d6+ConstitutionModifier);" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="414bbf02-2918-4f01-83fb-1ddc7a588d88,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;0c5dcc83-fa78-41da-b6a5-440b5ea30936,,;,,;bea988a0-2ec5-40d8-a67e-ffbd7454bc53,,;,,;,," />
@@ -55,6 +54,7 @@
         <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Peaceful" enumeration_type_name="SpellAnimationIntentType" version="1" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_HitPointDice06;Shout_HitPointDice08;Shout_HitPointDice10;Shout_HitPointDice12;" />
         <field name="Requirements" type="StringTableFieldDefinition" value="!Combat" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h28992689gab7eg0bcega955gb5ee06d7deaf" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -67,6 +67,7 @@
         <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9a5993cagb688g4704g8ed3gd3d161fe6ef5" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;HitPointDice06:1;" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(1d6+ConstitutionModifier);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
