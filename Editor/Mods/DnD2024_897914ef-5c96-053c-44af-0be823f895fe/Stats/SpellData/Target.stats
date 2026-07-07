@@ -2973,7 +2973,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h74c27673g4c1bga1beg5a49ga7aec2022773" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h347e6fe4g42a8g22ecgdb29gefc97f004483" version="1" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8,Necrotic);" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SELF,UMBRAL_TENDRIL_TEMPHP_1,100,-1);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(UMBRAL_TENDRIL_TEMPHP_1,100,-1);" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Necrotic)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_AdhesiveWhip" />
@@ -3000,7 +3000,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="934f952f-2a88-44a4-bd55-b0e0454c7f8a" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d8,Necrotic);ApplyStatus(SELF,UMBRAL_TENDRIL_TEMPHP_2,100,-1);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8,Necrotic);" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SELF,UMBRAL_TENDRIL_TEMPHP_2,100,-1);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(UMBRAL_TENDRIL_TEMPHP_2,100,-1);" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_UmbralTendril" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
@@ -3013,7 +3013,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="99ca629b-5afe-47a4-987d-3fcabc8a3451" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Necrotic);ApplyStatus(SELF,UMBRAL_TENDRIL_TEMPHP_3,100,-1);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Necrotic);" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SELF,UMBRAL_TENDRIL_TEMPHP_3,100,-1);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(UMBRAL_TENDRIL_TEMPHP_3,100,-1);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
       </fields>
@@ -3025,7 +3025,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="22aa327b-2b81-49aa-90f9-fe804362610b" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Necrotic);ApplyStatus(SELF,UMBRAL_TENDRIL_TEMPHP_4,100,-1);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Necrotic);" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SELF,UMBRAL_TENDRIL_TEMPHP_4,100,-1);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(UMBRAL_TENDRIL_TEMPHP_4,100,-1);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
       </fields>
@@ -3037,7 +3037,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="862dbb9d-8ffd-4df0-b1a4-f4b726d10498" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Necrotic);ApplyStatus(SELF,UMBRAL_TENDRIL_TEMPHP_5,100,-1);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Necrotic);" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SELF,UMBRAL_TENDRIL_TEMPHP_5,100,-1);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(UMBRAL_TENDRIL_TEMPHP_5,100,-1);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
       </fields>
@@ -3049,7 +3049,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="8a77c591-80b5-4221-aeaf-bc2f7833e6be" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d8,Necrotic);ApplyStatus(SELF,UMBRAL_TENDRIL_TEMPHP_6,100,-1);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Necrotic);" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SELF,UMBRAL_TENDRIL_TEMPHP_6,100,-1);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(UMBRAL_TENDRIL_TEMPHP_6,100,-1);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
