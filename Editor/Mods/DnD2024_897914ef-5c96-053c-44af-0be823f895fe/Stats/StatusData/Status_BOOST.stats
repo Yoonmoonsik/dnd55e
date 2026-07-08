@@ -1272,6 +1272,118 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="69695478-c64f-45b0-8ff6-6bc468ac1f4b" />
+        <field name="Name" type="NameTableFieldDefinition" value="CACOPHONIC_SHIELD_DAMAGE_RECEIVED" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CACOPHONIC_SHIELD_DAMAGE_RECEIVED" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d3fc099-8ac0-4282-b954-d4bb0ba46426" />
+        <field name="Name" type="NameTableFieldDefinition" value="CACOPHONIC_SHIELD_AURA" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heffa3bccgf354g0581ga23dg44eac5095fa6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha911b6bdg2959g695ag9c06gb0936ebd052e" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_CacophonicShield" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CACOPHONIC_SHIELD_AURA" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CACOPHONIC_SHIELD,100,-1)" />
+        <field name="AuraFlags" type="EnumerationListTableFieldDefinition" value="ShouldCheckLOS" enumeration_type_name="AuraFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Invisible);Resistance(Thunder, Resistant);IF(IsRangedAttack()):Disadvantage(AttackTarget);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasStatus('SANCTUARY')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(3d6,Thunder)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;BringIntoCombat" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="0ea9ef0c-adf9-478a-9a2d-69f606eda842" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="315b06e5-756a-4248-b908-7945f3dccc59" />
+        <field name="Name" type="NameTableFieldDefinition" value="CACOPHONIC_SHIELD_AURA_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d3fc099-8ac0-4282-b954-d4bb0ba46426" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CACOPHONIC_SHIELD_4,100,-1)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(4d6,Thunder)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2b5d01a2-1454-4187-a993-af2bf1587056" />
+        <field name="Name" type="NameTableFieldDefinition" value="CACOPHONIC_SHIELD_AURA_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d3fc099-8ac0-4282-b954-d4bb0ba46426" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CACOPHONIC_SHIELD_5,100,-1)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(5d6,Thunder)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8ade9f07-b16c-4922-b7f4-31ecbacc91b9" />
+        <field name="Name" type="NameTableFieldDefinition" value="CACOPHONIC_SHIELD_AURA_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d3fc099-8ac0-4282-b954-d4bb0ba46426" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CACOPHONIC_SHIELD_6,100,-1)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(6d6,Thunder)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d24bafa1-e226-494c-9001-6492b1db00a2" />
+        <field name="Name" type="NameTableFieldDefinition" value="CACOPHONIC_SHIELD" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2a8fc538g7a44g3571g385dg12e8a9a60425" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h656c049cg0ff4g758bge643g1386718cedb8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_CacophonicShield" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(3d6,Thunder)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution,SourceSpellDC())" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):DealDamage(3d6,Thunder,Magical);IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnApplyFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):DealDamage(3d6/2,Thunder,Magical);IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution,SourceSpellDC())" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'CACOPHONIC_SHIELD_DAMAGE_RECEIVED', 0.1)):DealDamage(3d6,Thunder,Magical);ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'CACOPHONIC_SHIELD_DAMAGE_RECEIVED', 0.1)):DealDamage(3d6/2,Thunder,Magical);ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="e04b2226-50e5-47ec-888e-4008193fb9ea" />
+        <field name="StatusEffectOnTurn" type="GuidObjectTableFieldDefinition" value="e04b2226-50e5-47ec-888e-4008193fb9ea" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="40bb4331-08bd-493c-8fd8-54e4f0de347b" />
+        <field name="Name" type="NameTableFieldDefinition" value="CACOPHONIC_SHIELD_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d24bafa1-e226-494c-9001-6492b1db00a2" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(4d6,Thunder)" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):DealDamage(4d6,Thunder,Magical);IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnApplyFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):DealDamage(4d6/2,Thunder,Magical);IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'CACOPHONIC_SHIELD_DAMAGE_RECEIVED', 0.1)):DealDamage(4d6,Thunder,Magical);ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'CACOPHONIC_SHIELD_DAMAGE_RECEIVED', 0.1)):DealDamage(4d6/2,Thunder,Magical);ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f6bbb63-940a-4a40-9630-282fe273f90f" />
+        <field name="Name" type="NameTableFieldDefinition" value="CACOPHONIC_SHIELD_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d24bafa1-e226-494c-9001-6492b1db00a2" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(5d6,Thunder)" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):DealDamage(5d6,Thunder,Magical);IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnApplyFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):DealDamage(5d6/2,Thunder,Magical);IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'CACOPHONIC_SHIELD_DAMAGE_RECEIVED', 0.1)):DealDamage(5d6,Thunder,Magical);ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'CACOPHONIC_SHIELD_DAMAGE_RECEIVED', 0.1)):DealDamage(5d6/2,Thunder,Magical);ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="513c32f8-23ab-4640-a799-858b698c6bf1" />
+        <field name="Name" type="NameTableFieldDefinition" value="CACOPHONIC_SHIELD_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d24bafa1-e226-494c-9001-6492b1db00a2" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(6d6,Thunder)" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):DealDamage(6d6,Thunder,Magical);IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnApplyFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):DealDamage(6d6/2,Thunder,Magical);IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'CACOPHONIC_SHIELD_DAMAGE_RECEIVED', 0.1)):DealDamage(6d6,Thunder,Magical);ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'CACOPHONIC_SHIELD_DAMAGE_RECEIVED', 0.1)):DealDamage(6d6/2,Thunder,Magical);ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e3194911-53b4-4b28-ae68-213ca23a9912" />
         <field name="Name" type="NameTableFieldDefinition" value="CLOUDKILL" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f1a83df1-2ba0-4e85-be73-00f551f1ec9c" />
