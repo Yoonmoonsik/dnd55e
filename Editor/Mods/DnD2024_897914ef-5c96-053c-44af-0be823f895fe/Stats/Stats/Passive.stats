@@ -202,6 +202,20 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1de8200b-4672-4b74-bba2-a69cd2b34e6e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Whip" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="258f2485-8e6b-4138-b3d9-8eab83479c4a" />
+        <field name="Name" type="NameTableFieldDefinition" value="VFX_Whip" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AttackSpellOverride(Target_MainHandAttack_Whip,Target_MainHandAttack);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9daae7da-e5d9-4b0e-943b-ad63b909e1c1" />
         <field name="Name" type="NameTableFieldDefinition" value="HeavyEquipment" />
       </fields>

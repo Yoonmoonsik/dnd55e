@@ -21,6 +21,18 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4d3825e1-765c-4e79-9f0d-5c2bbfbcd6a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="MainHandAttack_Whip" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b846e8d8-f5e9-4b93-a52b-f1ad50878bf7" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_ThornWhip_L0" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_ThornWhip_L0" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;ad12e2fa-1b15-4fcd-884f-38ba82d7e50e,,;5ee4c893-0149-4d08-a1f7-c4fe633530ba,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="32b12e6c-7b91-4dab-aeb6-061578dbdf51" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Slashing" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fd1c8b0c-908e-4ba4-80fb-f193598dfd73" />
         <field name="Name" type="NameTableFieldDefinition" value="OffhandAttack" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="34c87ba1-754a-4700-9178-d939ad7003c6" />

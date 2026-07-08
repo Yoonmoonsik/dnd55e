@@ -121,5 +121,33 @@
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2b2faf25-e973-4e4a-b654-3086266ffeff" />
+        <field name="Name" type="NameTableFieldDefinition" value="ST_MartialMeleeWeapons" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_Whip" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b2faf25-e973-4e4a-b654-3086266ffeff" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ed9c0378-5757-4022-a21e-55526dc8ea6d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ST_MartialMeleeWeapons_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_Whip_1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b2faf25-e973-4e4a-b654-3086266ffeff" />
+        <field name="UUID" type="IdTableFieldDefinition" value="466c442f-3243-4c55-a74c-230a84b25f46" />
+        <field name="Name" type="NameTableFieldDefinition" value="2b2faf25-e973-4e4a-b654-3086266ffeff_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_Whip_2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

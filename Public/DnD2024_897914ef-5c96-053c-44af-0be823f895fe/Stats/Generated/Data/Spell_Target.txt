@@ -12,6 +12,16 @@ data "SpellProperties" "GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamage
 data "SpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878:722df2d7-7898-4b0b-b930-5a850b55ccf0,,;a693a7c3-e7e7-4edb-98dd-db5fd700663f,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
 data "SpellFlags" "IsAttack;IsMelee;IsHarmful"
 
+new entry "Target_MainHandAttack_Whip"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MainHandAttack"
+data "CastSound" "Spell_Cast_Damage_ThornWhip_L0"
+data "TargetSound" "Spell_Impact_Damage_ThornWhip_L0"
+data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;ad12e2fa-1b15-4fcd-884f-38ba82d7e50e,,;5ee4c893-0149-4d08-a1f7-c4fe633530ba,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
+data "BeamEffect" "32b12e6c-7b91-4dab-aeb6-061578dbdf51"
+data "DamageType" "Slashing"
+
 new entry "Target_OffhandAttack"
 type "SpellData"
 data "SpellType" "Target"

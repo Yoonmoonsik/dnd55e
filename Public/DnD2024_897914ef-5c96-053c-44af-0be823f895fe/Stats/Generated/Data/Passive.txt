@@ -140,6 +140,14 @@ using "Firearm_MainHand"
 data "Properties" "IsHidden"
 data "Boosts" "AttackSpellOverride(Projectile_OffhandAttack_Firearm,Projectile_OffhandAttack);"
 
+new entry "Whip"
+type "PassiveData"
+
+new entry "VFX_Whip"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Boosts" "AttackSpellOverride(Target_MainHandAttack_Whip,Target_MainHandAttack);"
+
 new entry "HeavyEquipment"
 type "PassiveData"
 
