@@ -762,7 +762,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Paladin SLevel 1 List"/>
-                    <attribute id="Spells" type="LSString" value=";Projectile_BallisticSmite;Target_Bless;Target_Command_Container;Target_CompelledDuel;Target_CureWounds;Shout_DivineFavor;Target_Heroism;Target_ProtectionFromEvilAndGood;Target_ShieldOfFaith;Target_Smite_Searing;Target_Smite_Thunderous;Target_Smite_Wrathful;Projectile_Wardaway"/>
+                    <attribute id="Spells" type="LSString" value=";Projectile_BallisticSmite;Target_Bless;Target_Command_Container;Target_CompelledDuel;Target_CureWounds;Shout_DivineFavor;Target_Heroism;Shout_HungeringBlade;Target_ProtectionFromEvilAndGood;Target_ShieldOfFaith;Target_Smite_Searing;Target_Smite_Thunderous;Target_Smite_Wrathful;Projectile_Wardaway"/>
                     <attribute id="UUID" type="guid" value="c6288ac5-c68b-40ed-bbdd-2ff388575831"/>
                 </node>
                 <node id="SpellList">
@@ -866,7 +866,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Ranger SLevel 1 List"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AbsorbElements;Target_AnimalFriendship;Target_CureWounds;Projectile_EnsnaringStrike_Container;Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_HailOfThorns;Target_HuntersMark;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AbsorbElements;Target_AnimalFriendship;Target_CureWounds;Projectile_EnsnaringStrike_Container;Target_Entangle;Target_FogCloud;Target_Goodberry;Projectile_HailOfThorns;Shout_HungeringBlade;Target_HuntersMark;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals"/>
                     <attribute id="UUID" type="guid" value="458be063-60d4-4548-ae7d-50117fa0226f"/>
                 </node>
                 <node id="SpellList">
@@ -1306,31 +1306,31 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Warlock SLevel 1"/>
-                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_BodyWarpingOfGorgoroth;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_HellsLash;Target_Hex;Target_HideousLaughter;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Shout_TideOfDarkness;Target_UmbralTendril;Projectile_WitchBolt"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_BodyWarpingOfGorgoroth;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_HellsLash;Target_Hex;Target_HideousLaughter;Shout_HungeringBlade;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Shout_TideOfDarkness;Target_UmbralTendril;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="24c2b246-bb86-47ed-b85e-24dc6695b6ca"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="648310a4-d9b7-4cf5-b6a0-51bd957a798f"/>
                     <attribute id="Name" type="FixedString" value="5.5 Warlock SLevel 1 to 5"/>
-                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_BodyWarpingOfGorgoroth;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_HellsLash;Target_Hex;Target_HideousLaughter;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Shout_TideOfDarkness;Target_UmbralTendril;Projectile_WitchBolt"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_BodyWarpingOfGorgoroth;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_HellsLash;Target_Hex;Target_HideousLaughter;Shout_HungeringBlade;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Shout_TideOfDarkness;Target_UmbralTendril;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="c7ee9255-6ba5-4e07-99f4-2d24b62eed41"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="94fb74d6-c832-40f1-9e08-159ce46091a1"/>
                     <attribute id="Name" type="FixedString" value="5.5 Warlock SLevel 1 to 4"/>
-                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_BodyWarpingOfGorgoroth;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_HellsLash;Target_Hex;Target_HideousLaughter;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Shout_TideOfDarkness;Target_UmbralTendril;Projectile_WitchBolt"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_BodyWarpingOfGorgoroth;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_HellsLash;Target_Hex;Target_HideousLaughter;Shout_HungeringBlade;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Shout_TideOfDarkness;Target_UmbralTendril;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="9dbacf78-a61e-4eb8-ac90-d8c1f18535e5"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="f2067e9a-2780-44d0-b696-1870cc537dd4"/>
                     <attribute id="Name" type="FixedString" value="5.5 Warlock SLevel 1 to 3"/>
-                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_BodyWarpingOfGorgoroth;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_HellsLash;Target_Hex;Target_HideousLaughter;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Shout_TideOfDarkness;Target_UmbralTendril;Projectile_WitchBolt"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_BodyWarpingOfGorgoroth;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_HellsLash;Target_Hex;Target_HideousLaughter;Shout_HungeringBlade;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Shout_TideOfDarkness;Target_UmbralTendril;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="8b55ec1b-e825-46cc-9c07-e5981f164776"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="854033fe-84b8-4a22-9a0c-ddc0eb2a74d1"/>
                     <attribute id="Name" type="FixedString" value="5.5 Warlock SLevel 1 to 2"/>
-                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_BodyWarpingOfGorgoroth;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_HellsLash;Target_Hex;Target_HideousLaughter;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Shout_TideOfDarkness;Target_UmbralTendril;Projectile_WitchBolt"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_BodyWarpingOfGorgoroth;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_HellsLash;Target_Hex;Target_HideousLaughter;Shout_HungeringBlade;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Shout_TideOfDarkness;Target_UmbralTendril;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="473b1fb8-2fb8-422f-b0d2-e614718c609a"/>
                 </node>
                 <node id="SpellList">

@@ -2480,6 +2480,45 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ac877eff-d933-4066-b64b-e2a9d6c0d2ce" />
+        <field name="Name" type="NameTableFieldDefinition" value="HUNGERING_BLADE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h700ed84bg957fg2a5dg1d50g4d69487d7001" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h353f6fe0g981eg9ab6gd5b9g0148d8001530" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_HungeringBlade" />
+        <field name="StackId" type="StringTableFieldDefinition" value="HUNGERING_BLADE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="CharacterUnarmedDamage(SpellCastingAbilityModifier,Necrotic);CharacterWeaponDamage(SpellCastingAbilityModifier,Necrotic);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HungeringBlade_Passive;" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="cfaf4ceb-5031-425c-8dd2-9f4663c08be6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eca38458-2b9a-4407-9d20-02527ef214f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="HUNGERING_BLADE_TEMPHP" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb6e6fab4gd077g545dge824g9e58b1ec530c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0903fdd3gbfadg55a1gd56cga67f82c909ac" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="SpellCastingAbilityModifier" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_MAG_TemporaryHP" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_Buff_MO" />
+        <field name="StackId" type="StringTableFieldDefinition" value="HUNGERING_BLADE_TEMPHP" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(SpellCastingAbilityModifier);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="79b04e46-1656-4c1b-86d0-a628bccf37d6" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="edef3318-0d00-453e-97d7-ee2b96c8ce59" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b2e93fcb-6b73-4d36-99db-95877cd658d5" />
         <field name="Name" type="NameTableFieldDefinition" value="FALSE_LIFE" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7706db7cg7c7dgf09bg4d14gc9faed17fc8b" version="1" />

@@ -570,6 +570,13 @@ data "StatsFunctors" "DealDamage(2d6, Radiant);"
 new entry "__NECROMANCY__"
 type "PassiveData"
 
+new entry "HungeringBlade_Passive"
+type "PassiveData"
+data "Properties" "IsHidden;OncePerTurn"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "not IsMiss() and not IsSpell();"
+data "StatsFunctors" "ApplyStatus(SELF,HUNGERING_BLADE_TEMPHP,100,-1)"
+
 new entry "DeathArmor_Passive"
 type "PassiveData"
 data "DisplayName" "h0e05ff53ge761gd35cg2778g68647c918731;1"
