@@ -7385,6 +7385,16 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a8e28b51-514b-4ebc-a835-3e229bc45819" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_CATAPULT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_CATAPULT" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Catapult,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h531eb181g2185g4a8eg9a93g7866406491b2" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="13b1e598-2faf-4ba9-b160-735e17cf6bc6" />
         <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_FRIENDS" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
