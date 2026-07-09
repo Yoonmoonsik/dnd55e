@@ -2606,6 +2606,71 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="64730d18-1d0c-4e21-9534-9a74d57734e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CONJURATION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2699a2b-18e1-4b78-8e56-268680319ab6" />
+        <field name="Name" type="NameTableFieldDefinition" value="SteelWindStrike_Extra" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeSpellAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d10,Force);ExecuteWeaponFunctors(MainHand);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_SteelWindStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h002f5e57g1181g2dbbg226fgf29f606b801c" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0da58492g230cg424fg00cdg006fb672dd4d" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d10,Force)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d10,Force)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeSpellAttack" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Lightning_Gen_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Lightning_Gen_L1to3_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Lightning_ShockingGrasp_L0" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="b94b9184-9bd0-4840-be7d-003700173b37,,;,,;5df11e35-f081-44f7-bd6f-7049d0e533cd,,:5df11e35-f081-44f7-bd6f-7049d0e533cd,,:5df11e35-f081-44f7-bd6f-7049d0e533cd,,:5df11e35-f081-44f7-bd6f-7049d0e533cd,,:5df11e35-f081-44f7-bd6f-7049d0e533cd,,;a508bef8-6767-4560-ac3a-6c04132c825e,,;066f8e0e-b3e1-4b76-a473-d1e23a3b7230,,;,,;7a28f440-1b0b-4a18-96a8-3767959b601a,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="PhysicalDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="fc0bf64d-73e3-4c2d-9ee0-803c630df649" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="4d97dc4c-0b6f-4c87-a65a-6e6f08c186b9" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="3a1161a5-ecfe-40f1-ac2a-c75a5e4d147e" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="b6a44217-dbd6-443a-8c04-b2796820fe79" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource(true,true);SpawnExtraProjectiles(Projectile_SteelWindStrike_Extra);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8c74f359-bb08-4e87-ab58-aac2be728978" />
+        <field name="Name" type="NameTableFieldDefinition" value="SteelWindStrike_Extra_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e2699a2b-18e1-4b78-8e56-268680319ab6" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource(true,true);SpawnExtraProjectiles(Projectile_SteelWindStrike_Extra_3);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ff069294-7f25-431c-a7bf-c9e26e15dda0" />
+        <field name="Name" type="NameTableFieldDefinition" value="SteelWindStrike_Extra_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e2699a2b-18e1-4b78-8e56-268680319ab6" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource(true,true);SpawnExtraProjectiles(Projectile_SteelWindStrike_Extra_4);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="905a4b06-bcc9-48c0-88df-9eb053bbeb3d" />
+        <field name="Name" type="NameTableFieldDefinition" value="SteelWindStrike_Extra_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e2699a2b-18e1-4b78-8e56-268680319ab6" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource(true,true);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ddc08ef3-f67d-4603-9773-158f2aecabbc" />
         <field name="Name" type="NameTableFieldDefinition" value="__NECROMANCY__" />
       </fields>
