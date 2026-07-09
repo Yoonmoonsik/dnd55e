@@ -1486,6 +1486,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="ccdea1c2-ad45-42da-b5e5-8e34053b1ea1" />
         <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Wisdom, SourceSpellDC())" />
         <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="RemoveStatus(FRIGHTENED)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AllAbilities);Disadvantage(AttackRoll);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1557,6 +1558,34 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a664167f-49ee-460a-afc2-6cc0e44b0a12" />
         <field name="Name" type="NameTableFieldDefinition" value="__EVOCATION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a43902b-ff2f-44b9-a54e-673a870a56b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="FRIGHTENED_COLDFIRE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="60a09934-feba-4335-b387-f1581fc07702" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FRIGHTENED_COLDFIRE" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9625c0b9-ef69-480d-befa-d31eba293dcf" />
+        <field name="Name" type="NameTableFieldDefinition" value="FRIGHTENED_EARTH" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c4adbdd5-a5ed-40f7-8a7c-4aaa560feff7" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(Movement);Attribute(Grounded);Attribute(Grounded);StatusImmunity(BURNING);StatusImmunity(WILD_MAGIC_BURNING);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e0644b7-081d-4b97-8599-04b64071288b" />
+        <field name="Name" type="NameTableFieldDefinition" value="FRIGHTENED_FIRE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b285885e-32d0-4b35-8d54-6c95a8ad2bbb" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FRIGHTENED_FIRE" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d6,Fire)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not Tagged('TORCH')):DealDamage(2d6,Fire)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
