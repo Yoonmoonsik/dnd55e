@@ -2876,6 +2876,212 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Bludgeoning, Resistant);Resistance(Piercing, Resistant);Resistance(Slashing, Resistant);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0e15b624-49fd-4a4a-b561-21ebddecc18b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_ACID" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8b5c0d31g91fdg86d0g19aag926c55ff9469" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Dragonborn_BreathWeapon_Acid" />
+        <field name="StackId" type="StringTableFieldDefinition" value="DRAGONS_BREATH" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Acid);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9fe4347c-529a-4687-be8e-1ba71550b867" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_ACID_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0e15b624-49fd-4a4a-b561-21ebddecc18b" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Acid_3);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8057b682-e910-4b64-8454-f831ba086276" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_ACID_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9fe4347c-529a-4687-be8e-1ba71550b867" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Acid_4);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea0d88fc-9386-49cc-9928-8ffaaa407e66" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_ACID_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9fe4347c-529a-4687-be8e-1ba71550b867" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Acid_5);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c74d038d-78bf-4166-9302-add9ebf3d4aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_ACID_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9fe4347c-529a-4687-be8e-1ba71550b867" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Acid_6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="87757bf0-4a89-42ea-9b8e-f5cd53cab5f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_COLD" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0e15b624-49fd-4a4a-b561-21ebddecc18b" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Dragonborn_BreathWeapon_Cold" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Cold);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e284bbbb-d0c6-4030-b287-c26893dfac7c" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_COLD_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="87757bf0-4a89-42ea-9b8e-f5cd53cab5f1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Cold_3);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="08521cb6-bca9-47f3-9d6f-596217ffee58" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_COLD_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e284bbbb-d0c6-4030-b287-c26893dfac7c" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Cold_4);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fbc0fa54-3985-44f8-9e8e-be8938500065" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_COLD_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e284bbbb-d0c6-4030-b287-c26893dfac7c" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Cold_5);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b228ee74-1ce8-4a64-8144-3e18cb4f6604" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_COLD_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e284bbbb-d0c6-4030-b287-c26893dfac7c" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Cold_6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d6decbe8-aed7-4c03-b118-5d9eeaf2b07b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_FIRE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="87757bf0-4a89-42ea-9b8e-f5cd53cab5f1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Dragonborn_BreathWeapon_FireCone" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Fire);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e2c188d-ae8f-4c1d-9926-a535dc739a1d" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_FIRE_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d6decbe8-aed7-4c03-b118-5d9eeaf2b07b" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Fire_3);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4a3aab64-7d6e-4521-93d0-0e167246c947" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_FIRE_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6e2c188d-ae8f-4c1d-9926-a535dc739a1d" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Fire_4);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99cb5f35-08cc-4537-988b-6465fa0b1abc" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_FIRE_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6e2c188d-ae8f-4c1d-9926-a535dc739a1d" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Fire_5);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d9ae964c-6c62-4717-a824-14db51de4155" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_FIRE_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6e2c188d-ae8f-4c1d-9926-a535dc739a1d" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Fire_6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2e185e00-0724-44ae-94c9-7b700fda3d7f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_LIGHTNING" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d6decbe8-aed7-4c03-b118-5d9eeaf2b07b" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Dragonborn_BreathWeapon_Lightning" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Lightning);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4e4d4fd6-49ad-48fe-9867-2424c9c2c549" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_LIGHTNING_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2e185e00-0724-44ae-94c9-7b700fda3d7f" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Lightning_3);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="692cab8f-bd19-45ad-9f7d-94809ae615e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_LIGHTNING_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4e4d4fd6-49ad-48fe-9867-2424c9c2c549" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Lightning_4);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f82a028d-2814-456c-b675-7310116ce7c5" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_LIGHTNING_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4e4d4fd6-49ad-48fe-9867-2424c9c2c549" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Lightning_5);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3327c5de-cd9d-4ae1-9bc6-a3f00de0d020" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_LIGHTNING_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4e4d4fd6-49ad-48fe-9867-2424c9c2c549" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Lightning_6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="786ce321-84d8-4b0b-b6e0-dc149ea20a74" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_POISON" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2e185e00-0724-44ae-94c9-7b700fda3d7f" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Dragonborn_BreathWeapon_Poison" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Poison);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d9a2aa08-330b-4ee6-85f8-3760c272f4fe" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_POISON_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="786ce321-84d8-4b0b-b6e0-dc149ea20a74" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Poison_3);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b822e941-8ccf-4119-91de-c73ee5ce6c6a" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_POISON_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d9a2aa08-330b-4ee6-85f8-3760c272f4fe" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Poison_4);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="414cc9b2-a373-4394-b3b7-d0a4000bff0d" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_POISON_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d9a2aa08-330b-4ee6-85f8-3760c272f4fe" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Poison_5);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4075e3ba-bf5d-4bdc-9a7e-224c0767c64a" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRAGONS_BREATH_POISON_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d9a2aa08-330b-4ee6-85f8-3760c272f4fe" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Poison_6);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="69ede3eb-5730-413d-b072-32395b13a5fc" />
