@@ -3204,6 +3204,21 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_DragonsBreath_Poison_6);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dce45412-632a-49ff-a7fa-030a6503ae72" />
+        <field name="Name" type="NameTableFieldDefinition" value="AWAKEN" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h98169436gc6eagd39ag00f1g64c904ff7649" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h947e61d6g7b1fg7654gbc73g3ec51f29fd5a" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Awaken" />
+        <field name="StackId" type="StringTableFieldDefinition" value="AWAKEN" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="FactionOverride(Source);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="LoseControl;TickingWithSource;LoseControlFriendly;RemoveOnLongRest" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Charmed;SG_Dominated" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="0a13ccc8-8a1f-4035-8d15-ab53a21cca0c" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="566dbef7-e2b0-40ec-b731-5372c5ff0554" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="69ede3eb-5730-413d-b072-32395b13a5fc" />

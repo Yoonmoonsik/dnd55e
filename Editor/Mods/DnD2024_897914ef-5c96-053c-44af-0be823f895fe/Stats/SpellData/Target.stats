@@ -6584,6 +6584,12 @@
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8ce1f06a-ded3-446d-8801-2ca34a5130b9" />
+        <field name="Name" type="NameTableFieldDefinition" value="__TRANSMUTATION__SLEVEL 4__" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="60478081-4b41-49d0-9772-302ef05b3bb7" />
@@ -6617,6 +6623,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Stoneskin" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9a49524b-a084-46dd-9039-c52fefeee381" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h36a49c70g93aeg56fag31d6g861694b3eca0" version="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6625,6 +6632,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Stoneskin_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4f21431d-77fd-4f59-a689-3fbcf2290b8c" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbd15ec06ga1begd062g730ega5c6e100ec6f" version="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6633,6 +6641,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Stoneskin_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="949cd7e9-48d4-4727-ad8c-6e9bde48ba49" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h901059e2g5cefg4bbbg2e95g491ea1dbb812" version="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6641,6 +6650,56 @@
         <field name="Name" type="NameTableFieldDefinition" value="LOW_RamazithsTower_Stoneskin" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9fb31b2b-f70d-4a64-a7ff-633e5a79d814" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h138ad957g4e4cgf396gebd4g8ad15a605ba6" version="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1749853a-f74a-4664-8f5f-a77faa58c86e" />
+        <field name="Name" type="NameTableFieldDefinition" value="__TRANSMUTATION__SLEVEL 5__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cdafd4a8-e184-4507-ad9b-aa0149358611" />
+        <field name="Name" type="NameTableFieldDefinition" value="Awaken" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Intelligence, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(AWAKEN,100,-1);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL_DOMINATED,100,0)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self() and not IntelligenceGreaterThan(3);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Awaken" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfefb5384gcdb9g70a3g4fd3g5796fed23526" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4016a9a2g8d51g2860gce0aga3dae07e0895" version="2" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Intelligence" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(AWAKEN,100,-1);" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Control_Gen_L1to3_01" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Control_Gen_L1to3_01_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Control_DominatePerson_L4to5" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Control_DominatePerson_L4to5" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Character() and not Self() and not IntelligenceGreaterThan(3);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;af94aac1-d8eb-4ccb-9520-694ade11b61c,,;f5db4001-b136-4c48-9aa4-026c4a7dd3b7,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Control" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="2fa6b127-6f8a-4150-8be6-6f62b7a85911" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="a7ffe334-15bc-4515-976c-932e6d45b9d9" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="fdf323a9-8912-4dcd-b55e-e268f7f45170" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e3847bb8-6b3c-43d5-b646-fa597567a08f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Awaken_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cdafd4a8-e184-4507-ad9b-aa0149358611" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Awaken" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
