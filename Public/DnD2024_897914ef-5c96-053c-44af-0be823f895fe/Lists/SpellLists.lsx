@@ -254,13 +254,13 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Cleric SLevel 3 List"/>
-                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Zone_AstralFlood;Shout_AuraOfVitality;Shout_BeaconOfHope;Target_BestowCurse;Target_Daylight_Container;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_ProtectionFromEnergy;Target_RemoveCurse;Teleportation_Revivify;Target_SpeakWithDead;Shout_SpiritGuardians;Target_TrollbloodInfusion"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Zone_AstralFlood;Shout_AuraOfVitality;Shout_BeaconOfHope;Target_BestowCurse;Target_Daylight_Container;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Zone_LaeralsSilverLance;Target_ProtectionFromEnergy;Target_RemoveCurse;Teleportation_Revivify;Target_SpeakWithDead;Shout_SpiritGuardians;Target_TrollbloodInfusion"/>
                     <attribute id="UUID" type="guid" value="21be0992-499f-4c7a-a77a-4430085e947a"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                     <attribute id="Name" type="FixedString" value="5.5 Cleric SLevel 3 List to Bard"/>
-                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Zone_AstralFlood;Shout_AuraOfVitality;Shout_BeaconOfHope;Target_BestowCurse;Target_Daylight_Container;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Target_ProtectionFromEnergy;Target_RemoveCurse;Teleportation_Revivify;Target_SpeakWithDead;Shout_SpiritGuardians;Target_TrollbloodInfusion"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Zone_AstralFlood;Shout_AuraOfVitality;Shout_BeaconOfHope;Target_BestowCurse;Target_Daylight_Container;Target_FeignDeath;Target_GlyphOfWarding;Shout_HealingWord_Mass;Zone_LaeralsSilverLance;Target_ProtectionFromEnergy;Target_RemoveCurse;Teleportation_Revivify;Target_SpeakWithDead;Shout_SpiritGuardians;Target_TrollbloodInfusion"/>
                     <attribute id="UUID" type="guid" value="92126467-9055-4b99-b3c4-e582063284a0"/>
                 </node>
                 <node id="SpellList">
@@ -710,6 +710,15 @@
                     <attribute id="UUID" type="guid" value="0a52fc3e-d165-4fe6-8c7f-d48030e646f1"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="__FIGHTER__"/>
+                    <attribute id="UUID" type="guid" value="bb58a3fb-16b6-4bc7-b756-e397ee59cdd0"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="WeaponBond for Eldritch Knight"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WeaponBond"/>
+                    <attribute id="UUID" type="guid" value="42c2f7ed-8d06-4347-a912-01172a0e318b"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="__MONK__"/>
                     <attribute id="UUID" type="guid" value="16bc2dbf-2cf1-4141-86ff-bbb2e01e3579"/>
                 </node>
@@ -1007,54 +1016,54 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 3 List"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Zone_AstralFlood;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Zone_AstralFlood;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LaeralsSilverLance;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
                     <attribute id="UUID" type="guid" value="dcbaf2ae-1f45-453e-ab83-cd154f8277a4"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="1270a6db-980b-4e3b-bf26-2924da61dfd5"/>
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 3 List to 6"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Zone_AstralFlood;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Zone_AstralFlood;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LaeralsSilverLance;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
                     <attribute id="UUID" type="guid" value="6dcebda8-8f21-4a33-b477-d1f07eecddf4"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="3276fcfe-e143-4559-b6e0-7d7aa0ffcb53"/>
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 3 List to 5"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Zone_AstralFlood;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Zone_AstralFlood;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LaeralsSilverLance;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
                     <attribute id="UUID" type="guid" value="beb12724-edaa-483f-bdb6-d04de55eb063"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="5fe40622-1d3e-4cc1-8d89-e66fe51d8c5c"/>
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 3 List to 4"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Zone_AstralFlood;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Zone_AstralFlood;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LaeralsSilverLance;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
                     <attribute id="UUID" type="guid" value="3857e7ea-5a06-4d07-8a9f-fe58e7ebdd96"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 2 List"/>
-                    <attribute id="Spells" type="LSString" value="Zone_AganazzarsScorcher;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
+                    <attribute id="Spells" type="LSString" value="Zone_AganazzarsScorcher;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Target_DragonsBreath;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
                     <attribute id="UUID" type="guid" value="f80396e2-cb76-4694-b0db-5c34da61a478"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="1270a6db-980b-4e3b-bf26-2924da61dfd5"/>
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 2 List to 6"/>
-                    <attribute id="Spells" type="LSString" value="Zone_AganazzarsScorcher;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
+                    <attribute id="Spells" type="LSString" value="Zone_AganazzarsScorcher;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Target_DragonsBreath;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
                     <attribute id="UUID" type="guid" value="fd1fea52-e5ec-45c0-8b96-ddce7c2c20fb"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="3276fcfe-e143-4559-b6e0-7d7aa0ffcb53"/>
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 2 List to 5"/>
-                    <attribute id="Spells" type="LSString" value="Zone_AganazzarsScorcher;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
+                    <attribute id="Spells" type="LSString" value="Zone_AganazzarsScorcher;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Target_DragonsBreath;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
                     <attribute id="UUID" type="guid" value="0f5f659d-4ac0-4f0a-8ddd-491ca982ca75"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="5fe40622-1d3e-4cc1-8d89-e66fe51d8c5c"/>
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 2 List to 4"/>
-                    <attribute id="Spells" type="LSString" value="Zone_AganazzarsScorcher;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
+                    <attribute id="Spells" type="LSString" value="Zone_AganazzarsScorcher;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Target_DragonsBreath;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
                     <attribute id="UUID" type="guid" value="09b00a68-2466-4e0f-96be-0cf5ea11b050"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="dcbaf2ae-1f45-453e-ab83-cd154f8277a4"/>
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 2 List to 3"/>
-                    <attribute id="Spells" type="LSString" value="Zone_AganazzarsScorcher;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
+                    <attribute id="Spells" type="LSString" value="Zone_AganazzarsScorcher;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Target_DragonsBreath;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameBlade;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
                     <attribute id="UUID" type="guid" value="0a908d1e-4d6d-4dd2-9037-417be89cc9a9"/>
                 </node>
                 <node id="SpellList">
@@ -1170,7 +1179,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Draconic Level 3"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_ChromaticOrb;Target_Command_Container"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_ChromaticOrb;Target_Command_Container;Target_DragonsBreath"/>
                     <attribute id="UUID" type="guid" value="f2edc485-d2db-46dd-a0fa-df40578e1fdd"/>
                 </node>
                 <node id="SpellList">
@@ -1534,66 +1543,66 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 3"/>
-                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Shout_AshardalonsStride;Zone_AstralFlood;Target_BestowCurse;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_PhantomSteed;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_SummonFey;Zone_TidalWave;Target_VampiricTouch;Projectile_VoidStrike"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Shout_AshardalonsStride;Zone_AstralFlood;Target_BestowCurse;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Zone_LaeralsSilverLance;Zone_LightningBolt;Target_PhantomSteed;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_SummonFey;Zone_TidalWave;Target_VampiricTouch;Projectile_VoidStrike"/>
                     <attribute id="UUID" type="guid" value="22755771-ca11-49f4-b772-13d8b8fecd93"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 3 to Bard"/>
-                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Shout_AshardalonsStride;Zone_AstralFlood;Target_BestowCurse;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_PhantomSteed;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_SummonFey;Zone_TidalWave;Target_VampiricTouch;Projectile_VoidStrike"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Shout_AshardalonsStride;Zone_AstralFlood;Target_BestowCurse;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Zone_LaeralsSilverLance;Zone_LightningBolt;Target_PhantomSteed;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_SummonFey;Zone_TidalWave;Target_VampiricTouch;Projectile_VoidStrike"/>
                     <attribute id="UUID" type="guid" value="e8c03337-0d0b-4746-afb8-8a5f07afe3b0"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="bc917f22-7f71-4a25-9a77-7d2f91a96a65"/>
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 3 to 6"/>
-                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Shout_AshardalonsStride;Zone_AstralFlood;Target_BestowCurse;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_PhantomSteed;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_SummonFey;Zone_TidalWave;Target_VampiricTouch;Projectile_VoidStrike"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Shout_AshardalonsStride;Zone_AstralFlood;Target_BestowCurse;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Zone_LaeralsSilverLance;Zone_LightningBolt;Target_PhantomSteed;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_SummonFey;Zone_TidalWave;Target_VampiricTouch;Projectile_VoidStrike"/>
                     <attribute id="UUID" type="guid" value="308b5066-ac24-41d8-bab7-178c31d18361"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="f781a25e-d288-43b4-bf5d-3d8d98846687"/>
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 3 to 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Shout_AshardalonsStride;Zone_AstralFlood;Target_BestowCurse;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_PhantomSteed;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_SummonFey;Zone_TidalWave;Target_VampiricTouch;Projectile_VoidStrike"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Shout_AshardalonsStride;Zone_AstralFlood;Target_BestowCurse;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Zone_LaeralsSilverLance;Zone_LightningBolt;Target_PhantomSteed;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_SummonFey;Zone_TidalWave;Target_VampiricTouch;Projectile_VoidStrike"/>
                     <attribute id="UUID" type="guid" value="fe4c0b8c-317d-4c04-b3b8-b600b51cb160"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="820b1220-0385-426d-ae15-458dc8a6f5c0"/>
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 3 to 4"/>
-                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Shout_AshardalonsStride;Zone_AstralFlood;Target_BestowCurse;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Zone_LightningBolt;Target_PhantomSteed;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_SummonFey;Zone_TidalWave;Target_VampiricTouch;Projectile_VoidStrike"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Shout_AshardalonsStride;Zone_AstralFlood;Target_BestowCurse;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Zone_Fear;Target_FeignDeath;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Zone_LaeralsSilverLance;Zone_LightningBolt;Target_PhantomSteed;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Target_SummonFey;Zone_TidalWave;Target_VampiricTouch;Projectile_VoidStrike"/>
                     <attribute id="UUID" type="guid" value="394b7a10-19de-491a-a334-6429bbe87b42"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 2"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_AcidArrow;Zone_AganazzarsScorcher;Target_ArcaneLock;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Shout_ElminstersElusion;Target_EnhanceAbility;Target_EnlargeReduce;Target_FireRune;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidArrow;Zone_AganazzarsScorcher;Target_ArcaneLock;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Target_DragonsBreath;Shout_ElminstersElusion;Target_EnhanceAbility;Target_EnlargeReduce;Target_FireRune;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
                     <attribute id="UUID" type="guid" value="80c6b070-c3a6-4864-84ca-e78626784eb4"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 2 to Bard"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_AcidArrow;Zone_AganazzarsScorcher;Target_ArcaneLock;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Shout_ElminstersElusion;Target_EnhanceAbility;Target_EnlargeReduce;Target_FireRune;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidArrow;Zone_AganazzarsScorcher;Target_ArcaneLock;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Target_DragonsBreath;Shout_ElminstersElusion;Target_EnhanceAbility;Target_EnlargeReduce;Target_FireRune;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
                     <attribute id="UUID" type="guid" value="25a83c0f-1acc-4c15-8809-3940e9105222"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="bc917f22-7f71-4a25-9a77-7d2f91a96a65"/>
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 2 to 6"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_AcidArrow;Zone_AganazzarsScorcher;Target_ArcaneLock;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Shout_ElminstersElusion;Target_EnhanceAbility;Target_EnlargeReduce;Target_FireRune;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidArrow;Zone_AganazzarsScorcher;Target_ArcaneLock;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Target_DragonsBreath;Shout_ElminstersElusion;Target_EnhanceAbility;Target_EnlargeReduce;Target_FireRune;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
                     <attribute id="UUID" type="guid" value="24b9fc89-2a34-42c5-8b1b-4642b1ac7aad"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="f781a25e-d288-43b4-bf5d-3d8d98846687"/>
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 2 to 5"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_AcidArrow;Zone_AganazzarsScorcher;Target_ArcaneLock;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Shout_ElminstersElusion;Target_EnhanceAbility;Target_EnlargeReduce;Target_FireRune;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidArrow;Zone_AganazzarsScorcher;Target_ArcaneLock;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Target_DragonsBreath;Shout_ElminstersElusion;Target_EnhanceAbility;Target_EnlargeReduce;Target_FireRune;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
                     <attribute id="UUID" type="guid" value="62a2a287-9863-4d24-b4ff-7249261edef4"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="820b1220-0385-426d-ae15-458dc8a6f5c0"/>
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 2 to 4"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_AcidArrow;Zone_AganazzarsScorcher;Target_ArcaneLock;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Shout_ElminstersElusion;Target_EnhanceAbility;Target_EnlargeReduce;Target_FireRune;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidArrow;Zone_AganazzarsScorcher;Target_ArcaneLock;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Target_DragonsBreath;Shout_ElminstersElusion;Target_EnhanceAbility;Target_EnlargeReduce;Target_FireRune;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
                     <attribute id="UUID" type="guid" value="1ccf0cf3-ffdf-4049-a1ff-5db60ddca211"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="22755771-ca11-49f4-b772-13d8b8fecd93"/>
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 2 to 3"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_AcidArrow;Zone_AganazzarsScorcher;Target_ArcaneLock;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Shout_ElminstersElusion;Target_EnhanceAbility;Target_EnlargeReduce;Target_FireRune;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidArrow;Zone_AganazzarsScorcher;Target_ArcaneLock;Shout_ArcaneVigor;Target_Blindness;Shout_Blur;Target_CloudOfDaggers;Target_CrownOfMadness;Projectile_Darkbolt;Target_Darkness;Target_Darkvision;Projectile_DazingBlast;Target_DeathArmor;Shout_DetectThoughts;Target_DragonsBreath;Shout_ElminstersElusion;Target_EnhanceAbility;Target_EnlargeReduce;Target_FireRune;Target_FlamingSphere;Zone_GustOfWind;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MagicWeapon;Target_MindSpike;Target_MindWhip;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Projectile_SnowballSwarm;Target_Web"/>
                     <attribute id="UUID" type="guid" value="49a4bc9d-a5e3-456c-9cc3-3b539aa39c7a"/>
                 </node>
                 <node id="SpellList">
@@ -1648,7 +1657,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Artificier Cantrip"/>
-                    <attribute id="Spells" type="LSString" value=";Projectile_AcidSplash;Target_BoomingBlade_ClassSpell;Target_DancingLights;Projectile_FingerGuns;Projectile_FireBolt;Target_GreenFlameBlade;Target_Guidance;Target_Light;Target_MageHand;Projectile_PoisonSpray;Shout_Prestidigitation;Projectile_RayOfFrost;Target_Resistance;Target_ShockingGrasp;Target_SpareTheDying;Shout_SwordBurst;Target_ThornWhip;Shout_Thunderclap;Target_TrueStrike"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Target_BoomingBlade_ClassSpell;Target_DancingLights;Projectile_FingerGuns;Projectile_FireBolt;Target_GreenFlameBlade;Target_Guidance;Target_Light;Target_MageHand;Projectile_PoisonSpray;Shout_Prestidigitation;Projectile_RayOfFrost;Target_Resistance;Target_ShockingGrasp;Target_SpareTheDying;Shout_SwordBurst;Target_ThornWhip;Shout_Thunderclap;Target_TrueStrike"/>
                     <attribute id="UUID" type="guid" value="d5f17616-b3cf-47ff-b898-3e37c3961034"/>
                 </node>
                 <node id="SpellList">
@@ -1658,22 +1667,22 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Artificier SLevel 2"/>
-                    <attribute id="Spells" type="LSString" value=";Target_Aid;Target_ArcaneLock;Shout_ArcaneVigor;Shout_Blur;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Target_HeatMetal;Target_Invisibility;Target_LesserRestoration;Target_MagicWeapon;Target_ProtectionFromPoison;Shout_SeeInvisibility"/>
+                    <attribute id="Spells" type="LSString" value="Target_Aid;Target_ArcaneLock;Shout_ArcaneVigor;Shout_Blur;Target_Darkvision;Target_DragonsBreath;Target_EnhanceAbility;Target_EnlargeReduce;Target_HeatMetal;Target_Invisibility;Target_LesserRestoration;Target_MagicWeapon;Target_ProtectionFromPoison;Shout_SeeInvisibility"/>
                     <attribute id="UUID" type="guid" value="6f179227-b6b1-4aeb-b9e6-ecc6bc5e8f0e"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Artificier SLevel 3"/>
-                    <attribute id="Spells" type="LSString" value=";Shout_AshardalonsStride;Shout_Blink;Target_ElementalWeapon;Target_Fly;Target_GlyphOfWarding;Target_Haste;Target_ProtectionFromEnergy;Teleportation_Revivify"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Shout_Blink;Target_ElementalWeapon;Target_Fly;Target_GlyphOfWarding;Target_Haste;Target_ProtectionFromEnergy;Teleportation_Revivify"/>
                     <attribute id="UUID" type="guid" value="ab75a59b-f600-45fa-9457-87799e53c006"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Alchemist Level 3"/>
-                    <attribute id="Spells" type="LSString" value=";Shout_ExperimentalElixir;Shout_ExperimentalElixir_Resource;Target_HealingWord;Projectile_RayOfSickness"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ExperimentalElixir;Shout_ExperimentalElixir_Resource;Target_HealingWord;Projectile_RayOfSickness"/>
                     <attribute id="UUID" type="guid" value="459fb871-5919-42ba-ab17-db656bf8dd68"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Alchemist Level 5"/>
-                    <attribute id="Spells" type="LSString" value=";Projectile_AcidArrow;Target_FlamingSphere"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidArrow;Target_FlamingSphere"/>
                     <attribute id="UUID" type="guid" value="a002fede-0013-436b-9b60-2230b5adcc41"/>
                 </node>
                 <node id="SpellList">
@@ -1796,15 +1805,6 @@
                     <attribute id="Name" type="FixedString" value="Forest Gnome 1"/>
                     <attribute id="Spells" type="LSString" value="Target_MinorIllusion;Shout_SpeakWithAnimals_ForestGnome"/>
                     <attribute id="UUID" type="guid" value="582ed05c-c6fa-4d6f-99f9-efcc9de769f9"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="WeaponBond for Eldritch Knight"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WeaponBond"/>
-                    <attribute id="UUID" type="guid" value="42c2f7ed-8d06-4347-a912-01172a0e318b"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="__FIGHTER__"/>
-                    <attribute id="UUID" type="guid" value="bb58a3fb-16b6-4bc7-b756-e397ee59cdd0"/>
                 </node>
             </children>
         </node>
