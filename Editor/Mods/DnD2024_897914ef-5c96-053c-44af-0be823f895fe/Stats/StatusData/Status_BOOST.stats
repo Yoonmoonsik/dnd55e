@@ -4962,6 +4962,7 @@
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="IsAttack() or IsSpell() or IsUnarmedAttack();" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
