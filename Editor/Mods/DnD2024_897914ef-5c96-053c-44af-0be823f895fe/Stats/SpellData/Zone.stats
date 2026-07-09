@@ -172,6 +172,86 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b14dbb4f-541e-4f72-b264-f903ea91503f" />
+        <field name="Name" type="NameTableFieldDefinition" value="LaeralsSilverLance" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SurfaceType" type="EnumerationTableFieldDefinition" value="Sentinel" enumeration_type_name="Surface Type" version="1" />
+        <field name="SurfaceLifetime" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SurfaceGrowStep" type="IntegerTableFieldDefinition" value="5" />
+        <field name="SurfaceGrowInterval" type="IntegerTableFieldDefinition" value="10" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Strength, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d10,Force,Magical);ApplyStatus(PRONE,100,1);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(3d10/2,Force,Magical);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Dead() and not (HasPassive('SculptSpells', context.Source) and Ally()) and not Tagged('INVISIBLE_HELPER');" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_LaeralsSilverLance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h090fc065geb1dge3e6g22b1g1d5d2fa91c92" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h55dbf30agbd12g301dga596g935c9cd3ab5e" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d10,Force,Magical)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Strength" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PRONE,100,1);" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Radiant_Sunbeam_L6to8" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Damage_Radiant_Sunbeam_L6to8" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Radiant_Sunbeam_L6to8" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_Radiant_Sunbeam_L6to8" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="Shape" type="StringTableFieldDefinition" value="Square" />
+        <field name="Range" type="IntegerTableFieldDefinition" value="36" />
+        <field name="Base" type="IntegerTableFieldDefinition" value="2" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;d30d2b40-c45a-45bd-94d7-9b2baaf0f77b,,;a601b33c-5320-455d-b4d4-74d6dc35b757,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="bb817069-1b71-4b63-959c-b85e03a492eb" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2ef28b19-d0cc-4260-8dc5-b1905c116add" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="ddc1430f-4a0d-42c3-9ac8-ec4c3deaed35" />
+        <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="5607d4d2-7585-48d5-b613-b009375c2c35" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+        <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="Big" enumeration_type_name="SpellSoundMagnitude" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c0cef888-64c1-4c51-b894-736b0ba0d1c6" />
+        <field name="Name" type="NameTableFieldDefinition" value="LaeralsSilverLance_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b14dbb4f-541e-4f72-b264-f903ea91503f" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d10,Force,Magical);ApplyStatus(PRONE,100,1);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(4d10/2,Force,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d10,Force,Magical)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Zone_LaeralsSilverLance" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="39237ee7-ea40-4f0f-9c15-165fb101f3a6" />
+        <field name="Name" type="NameTableFieldDefinition" value="LaeralsSilverLance_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c0cef888-64c1-4c51-b894-736b0ba0d1c6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d10,Force,Magical);ApplyStatus(PRONE,100,1);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d10/2,Force,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d10,Force,Magical)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0825cd36-40af-4ecf-ae91-a89729f95a8a" />
+        <field name="Name" type="NameTableFieldDefinition" value="LaeralsSilverLance_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c0cef888-64c1-4c51-b894-736b0ba0d1c6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d10,Force,Magical);ApplyStatus(PRONE,100,1);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d10/2,Force,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d10,Force,Magical)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d2000371-15f7-4dba-b1be-ac7d420bf89c" />
         <field name="Name" type="NameTableFieldDefinition" value="AstralFlood" />
         <field name="Level" type="IntegerTableFieldDefinition" value="3" />
