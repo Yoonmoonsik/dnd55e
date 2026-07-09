@@ -4415,57 +4415,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="dd4e2e47-d691-4acd-8cb1-3c1612338dc7" />
-        <field name="Name" type="NameTableFieldDefinition" value="FireDance" />
-        <field name="Level" type="IntegerTableFieldDefinition" value="4" />
-        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Illusion" enumeration_type_name="SpellSchool" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(2064328c-a090-454f-b3b8-b488bbe64567, 10,,,,FIRE_DANCE);" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
-        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
-        <field name="AoEConditions" type="StringTableFieldDefinition" value="not Ally();" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_FireDance" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9cf5d531g4949g8b3ag675egdf76db2f6a46" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h19186d60g16e9g1e3bgcbc7g45d59987d331" version="1" />
-        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Wisdom" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FIRE_DANCE,100,10);ApplyStatus(HYPNOTIC_PATTERN,100,1)" />
-        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Control_Gen_L1to3_01" />
-        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Control_Gen_L1to3_01_Loop" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_DancingLights_L0" />
-        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_DancingLights_L0" />
-        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_Light" />
-        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
-        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;c0513845-6e0e-42e8-9a8c-baa5e2b6ead6,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
-        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Control" enumeration_type_name="VerbalIntent" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IsConcentration;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="518bc78f-c169-43ba-b951-977d75429199" />
-        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="eed7578c-35c5-4531-9315-a83239028487" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="d6188074-6075-4d15-b950-7317d63669eb" />
-        <field name="Name" type="NameTableFieldDefinition" value="FireDance_5" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="dd4e2e47-d691-4acd-8cb1-3c1612338dc7" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
-        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_FireDance" />
-        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="556d5c8c-0034-4079-84c0-ac9a5241dad9" />
-        <field name="Name" type="NameTableFieldDefinition" value="FireDance_6" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="d6188074-6075-4d15-b950-7317d63669eb" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
-        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0c7b8b84-6bd4-490f-89a4-15eb1e6544bb" />
         <field name="Name" type="NameTableFieldDefinition" value="PhantasmalKiller" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="501f7f93-5535-4172-97fb-7fd97be8c1c6" />

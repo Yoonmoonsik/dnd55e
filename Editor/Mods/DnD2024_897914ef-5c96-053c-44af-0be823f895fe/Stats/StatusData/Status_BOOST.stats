@@ -2684,9 +2684,9 @@
         <field name="StackId" type="StringTableFieldDefinition" value="FIRE_DANCE_AURA" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
-        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Wisdom,15)" />
+        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Wisdom,SourceSpellDC())" />
         <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="ApplyStatus(HYPNOTIC_PATTERN,100,1)" />
-        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Wisdom,15)" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Wisdom,SourceSpellDC())" />
         <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="ApplyStatus(HYPNOTIC_PATTERN,100,1)" />
       </fields>
     </stat_object>
