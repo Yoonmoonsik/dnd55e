@@ -581,13 +581,13 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Druid SLevel 3 List"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm;Target_SummonFey;Zone_TidalWave;Target_TrollbloodInfusion"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Zone_ElementalExhalation;Target_ElementalWeapon;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm;Target_SummonFey;Zone_TidalWave;Target_TrollbloodInfusion"/>
                     <attribute id="UUID" type="guid" value="3156daf5-9266-41d0-b52c-5bc559a98654"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                     <attribute id="Name" type="FixedString" value="5.5 Druid SLevel 3 List to Bard"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Target_ElementalWeapon;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm;Target_SummonFey;Zone_TidalWave;Target_TrollbloodInfusion"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Target_CallLightning;Target_Daylight_Container;Zone_ElementalExhalation;Target_ElementalWeapon;Target_FeignDeath;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SleetStorm;Target_SummonFey;Zone_TidalWave;Target_TrollbloodInfusion"/>
                     <attribute id="UUID" type="guid" value="7dc7cd4c-d5ca-4b5b-81a8-c7528f76866d"/>
                 </node>
                 <node id="SpellList">
@@ -1016,25 +1016,25 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 3 List"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Zone_AstralFlood;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LaeralsSilverLance;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Zone_AstralFlood;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Target_Daylight_Container;Zone_ElementalExhalation;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LaeralsSilverLance;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
                     <attribute id="UUID" type="guid" value="dcbaf2ae-1f45-453e-ab83-cd154f8277a4"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="1270a6db-980b-4e3b-bf26-2924da61dfd5"/>
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 3 List to 6"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Zone_AstralFlood;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LaeralsSilverLance;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Zone_AstralFlood;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Target_Daylight_Container;Zone_ElementalExhalation;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LaeralsSilverLance;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
                     <attribute id="UUID" type="guid" value="6dcebda8-8f21-4a33-b477-d1f07eecddf4"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="3276fcfe-e143-4559-b6e0-7d7aa0ffcb53"/>
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 3 List to 5"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Zone_AstralFlood;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LaeralsSilverLance;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Zone_AstralFlood;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Target_Daylight_Container;Zone_ElementalExhalation;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LaeralsSilverLance;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
                     <attribute id="UUID" type="guid" value="beb12724-edaa-483f-bdb6-d04de55eb063"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="5fe40622-1d3e-4cc1-8d89-e66fe51d8c5c"/>
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 3 List to 4"/>
-                    <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Zone_AstralFlood;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LaeralsSilverLance;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Zone_AstralFlood;Shout_Blink;Shout_CacophonicShield;Target_Counterspell;Target_Daylight_Container;Zone_ElementalExhalation;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Target_HypnoticPattern;Zone_LaeralsSilverLance;Zone_LightningBolt;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Zone_TidalWave;Target_VampiricTouch"/>
                     <attribute id="UUID" type="guid" value="3857e7ea-5a06-4d07-8a9f-fe58e7ebdd96"/>
                 </node>
                 <node id="SpellList">
