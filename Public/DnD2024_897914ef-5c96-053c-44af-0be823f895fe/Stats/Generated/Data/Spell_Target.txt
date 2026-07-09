@@ -3601,6 +3601,10 @@ data "SpellType" "Target"
 using "Target_PhantasmalForce_6"
 data "TooltipDamageList" "DealDamage(2d8,Psychic)"
 
+new entry "Target___ILLUSION SLEVEL 3__"
+type "SpellData"
+data "SpellType" "Target"
+
 new entry "Target_HypnoticPattern"
 type "SpellData"
 data "SpellType" "Target"
@@ -3679,6 +3683,30 @@ data "SpellType" "Target"
 using "Target_PhantomSteed_4"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
 data "PowerLevel" "6"
+
+new entry "Target___ILLUSION SLEVEL 4__"
+type "SpellData"
+data "SpellType" "Target"
+
+new entry "Target_DancingLights"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_DancingLights"
+data "SpellSchool" "Illusion"
+
+new entry "Target_New_Stat_0"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "4"
+data "SpellSchool" "Illusion"
+
+new entry "Target_New_Stat_1"
+type "SpellData"
+data "SpellType" "Target"
+
+new entry "Target_New_Stat_2"
+type "SpellData"
+data "SpellType" "Target"
 
 new entry "Target_PhantasmalKiller"
 type "SpellData"

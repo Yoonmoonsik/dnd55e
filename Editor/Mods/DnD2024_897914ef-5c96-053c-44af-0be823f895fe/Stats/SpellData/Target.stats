@@ -4298,6 +4298,12 @@
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8,Psychic)" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7863b676-defa-402c-9131-b2287b242752" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ILLUSION SLEVEL 3__" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="086b7c30-7450-4731-ba25-fa8cb74487dc" />
@@ -4391,6 +4397,40 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="6fb96ac3-be23-434d-907f-57d1e2539645" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a4654af-de18-48da-97ef-6fab66b9a439" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ILLUSION SLEVEL 4__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="45fc6080-c225-4ab8-892e-3dd06937ce77" />
+        <field name="Name" type="NameTableFieldDefinition" value="DancingLights" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f06d5b01-286a-47d0-953c-64ad3ffb83d9" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Illusion" enumeration_type_name="SpellSchool" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dd4e2e47-d691-4acd-8cb1-3c1612338dc7" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="4" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Illusion" enumeration_type_name="SpellSchool" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d6188074-6075-4d15-b950-7317d63669eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="556d5c8c-0034-4079-84c0-ac9a5241dad9" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
