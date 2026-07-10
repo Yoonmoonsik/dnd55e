@@ -127,7 +127,7 @@ Acid Splash, Blade Ward, Chill Touch, Eldritch Blast, Finger Guns, Frightful Sta
 - Level 2: Aganazzar's Scorcher, Aid, Arcane Vigor, Blindness, Cloud of Daggers, Crown of Madness, Darkbolt, Darkness, Dazing Blast, Death Armor, Dragon's Breath, Find Steed, Fire Rune, Flame Blade, Gust of Wind, Lesser Restoration, Magic Weapon, Melf's Acid Arrow, Mind Spike, Misty Step, Prayer of Healing, Ray of Enfeeblement, Searing Orb, Shadow Blade, Snilloc's Snowball Swarm, Spiritual Weapon, Summon Beast, Tasha's Mind Whip, Warding Bond.
 - Level 3: Ashardalon's Stride, Astral Flood, Aura of Vitality, Bestow Curse, Blink, Cacophonic Shield, Conjure Barrage, Crusader's Mantle, Elemental Exhalation, Fear, Laeral's Silver Lance, Lightning Arrow, Mass Healing Word, Murmurs of Doom, Phantom Steed, Summon Fey, Tidal Wave, Trollblood Infusion, Void Strike.
 - Level 4: Banishment, Confusion, Conjure Woodland Beings, Dominate Beast, Fount of Moonlight, Ice Storm, Murder of Crows, Otiluke's Resilient Sphere, Phantasmal Killer, Polymorph, Stoneskin, Vitriolic Sphere.
-- Level 5: Awaken, Cone of Cold, Contagion, Danse Macabre, Dominate Person, Hold Monster, Insect Plague, Mass Cure Wounds, Steel Wind Strike, Synaptic Static.
+- Level 5: Awaken, Circle of Power, Cone of Cold, Contagion, Danse Macabre, Dominate Person, Hold Monster, Insect Plague, Mass Cure Wounds, Steel Wind Strike, Synaptic Static.
 - Level 6: Circle of Death, Disintegrate.
 
 ## Items
