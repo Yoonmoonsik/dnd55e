@@ -1,0 +1,25 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+StatusApplied(_Duplicity, "BODY_WARPING_OF_GORGOROTH_TARGET", _Player, _)
+THEN
+DB_GLO_InvokeDuplicity((CHARACTER)_Duplicity, (CHARACTER)_Player);
+RealtimeObjectTimerLaunch(_Duplicity, "BodyWarpingOfGorgoroth", 100);
+
+IF
+ObjectTimerFinished(_Duplicity, "BodyWarpingOfGorgoroth")
+AND
+DB_GLO_InvokeDuplicity((CHARACTER)_Duplicity, (CHARACTER)_Player)
+THEN
+Transform(_Player, _Duplicity, DisguiseKeepName_c7c3381e-b901-416e-a0c4-bc745e1ff54a);
+
+IF
+StatusRemoved(_Player, "BODY_WARPING_OF_GORGOROTH", _, _)
+THEN
+RemoveTransforms(_Player);
+EXITSECTION
+
+ENDEXITSECTION

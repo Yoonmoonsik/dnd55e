@@ -1,6 +1,6 @@
 [center][size=6][b]DnD 5.5e All-in-One BEYOND[/b][/size][/center]
 
-[url=https://github.com/Yoonmoonsik/dnd55e]DnD 5.5e All-in-One BEYOND[/url] is a Baldur's Gate 3 mod project that brings a broad set of D&D 2024 / 5.5e-inspired rules, player options, spells, feats, equipment, and class updates into one package.
+[url=https://github.com/Yoonmoonsik/dnd55e]DnD 5.5e All-in-One BEYOND[/url] is a Baldur's Gate 3 mod that packs a broad set of D&D 5.5e-inspired rules, player options, spells, feats, equipment, and class updates into a single all-in-one mod.
 
 For deeper gameplay notes, class details, spell behavior, item locations, and community-maintained documentation, see the [url=https://github.com/Yoonmoonsik/dnd55e/wiki]Wiki[/url].
 
@@ -110,11 +110,11 @@ Acid Splash, Blade Ward, Chill Touch, Eldritch Blast, Finger Guns, Frightful Sta
 [size=4][b]Leveled Spells[/b][/size]
 
 [list]
-[*][b]Level 1:[/b] Absorb Elements, Armor of Agathys, Ballistic Smite, Chromatic Orb, Cloak of Shadow, Color Spray, Cure Wounds, Divine Favor, Divine Smite, Entangle, Feather Fall, Guiding Bolt, Healing Word, Hell's Lash, Hex, Hunter's Mark, Inflict Wounds, Jump, Longstrider, Magic Missile, Ray of Sickness, Searing Smite, Sleep, Tasha's Hideous Laughter, Wardaway, Wrathful Smite.
-[*][b]Level 2:[/b] Aganazzar's Scorcher, Aid, Arcane Vigor, Blindness, Cloud of Daggers, Crown of Madness, Darkbolt, Darkness, Dazing Blast, Death Armor, Find Steed, Fire Rune, Flame Blade, Gust of Wind, Lesser Restoration, Magic Weapon, Melf's Acid Arrow, Mind Spike, Misty Step, Prayer of Healing, Ray of Enfeeblement, Searing Orb, Shadow Blade, Snilloc's Snowball Swarm, Spiritual Weapon, Summon Beast, Tasha's Mind Whip, Warding Bond.
-[*][b]Level 3:[/b] Astral Flood, Aura of Vitality, Bestow Curse, Blink, Conjure Barrage, Crusader's Mantle, Fear, Lightning Arrow, Mass Healing Word, Murmurs of Doom, Phantom Steed, Summon Fey, Tidal Wave, Trollblood Infusion, Void Strike.
-[*][b]Level 4:[/b] Banishment, Confusion, Dominate Beast, Fount of Moonlight, Ice Storm, Murder of Crows, Otiluke's Resilient Sphere, Phantasmal Killer, Polymorph, Stoneskin, Vitriolic Sphere.
-[*][b]Level 5:[/b] Cone of Cold, Contagion, Danse Macabre, Dominate Person, Hold Monster, Insect Plague, Mass Cure Wounds, Steel Wind Strike, Synaptic Static.
+[*][b]Level 1:[/b] Absorb Elements, Armor of Agathys, Ballistic Smite, Body Warping of Gorgoroth, Catapult, Chromatic Orb, Cloak of Shadow, Color Spray, Cure Wounds, Divine Favor, Divine Smite, Entangle, Feather Fall, Guiding Bolt, Healing Word, Hell's Lash, Hex, Hungering Blade, Hunter's Mark, Inflict Wounds, Jump, Longstrider, Magic Missile, Ray of Sickness, Searing Smite, Sleep, Spectral Slash, Tasha's Hideous Laughter, Thorn Armor, Tide of Darkness, Umbral Tendril, Wardaway, Wrathful Smite.
+[*][b]Level 2:[/b] Aganazzar's Scorcher, Aid, Arcane Vigor, Blindness, Cloud of Daggers, Crown of Madness, Darkbolt, Darkness, Dazing Blast, Death Armor, Dragon's Breath, Find Steed, Fire Rune, Flame Blade, Gust of Wind, Lesser Restoration, Magic Weapon, Melf's Acid Arrow, Mind Spike, Misty Step, Prayer of Healing, Ray of Enfeeblement, Searing Orb, Shadow Blade, Snilloc's Snowball Swarm, Spiritual Weapon, Summon Beast, Tasha's Mind Whip, Warding Bond.
+[*][b]Level 3:[/b] Ashardalon's Stride, Astral Flood, Aura of Vitality, Bestow Curse, Blink, Cacophonic Shield, Conjure Barrage, Crusader's Mantle, Elemental Exhalation, Fear, Laeral's Silver Lance, Lightning Arrow, Mass Healing Word, Murmurs of Doom, Phantom Steed, Summon Fey, Tidal Wave, Trollblood Infusion, Void Strike.
+[*][b]Level 4:[/b] Banishment, Confusion, Conjure Woodland Beings, Dominate Beast, Fount of Moonlight, Ice Storm, Murder of Crows, Otiluke's Resilient Sphere, Phantasmal Killer, Polymorph, Stoneskin, Vitriolic Sphere.
+[*][b]Level 5:[/b] Awaken, Circle of Power, Cone of Cold, Contagion, Danse Macabre, Dominate Person, Enervation, Hold Monster, Insect Plague, Mass Cure Wounds, Steel Wind Strike, Synaptic Static.
 [*][b]Level 6:[/b] Circle of Death, Disintegrate.
 [/list]
 
@@ -122,7 +122,7 @@ Acid Splash, Blade Ward, Chill Touch, Eldritch Blast, Finger Guns, Frightful Sta
 
 [size=4][b]Equipment[/b][/size]
 
-Argument Solver, Blazer of Benevolence, Cap of Curing, Chain of Liberation, Charge-Bound Warhammer, Corrosive Flail, Dragon's Grasp, Enforcer Club, Enforcer Helmet, Enforcer Shield, Gloves of Heroism, Hellrider's Pride, Helmet of Smiting, Holy Avenger, Hoppy, Hunting Shortbow, Moon Sickle, Musket, Musket +1, Musket +2, Pistol, Pistol +1, Pistol +2, Rupturing Blade, Spellthief, The Baneful, The Oak Father's Embrace, The Sacred Star, True Name, Voltedge, Xyanyde.
+Argument Solver, Blazer of Benevolence, Cap of Curing, Chain of Liberation, Charge-Bound Warhammer, Corrosive Flail, Dragon's Grasp, Enforcer Club, Enforcer Helmet, Enforcer Shield, Gloves of Heroism, Hellrider's Pride, Helmet of Smiting, Holy Avenger, Hoppy, Hunting Shortbow, Moon Sickle, Musket, Musket +1, Musket +2, Pistol, Pistol +1, Pistol +2, Rupturing Blade, Spellthief, The Baneful, The Oak Father's Embrace, The Sacred Star, True Name, Voltedge, Whip, Whip +1, Whip +2, Xyanyde.
 
 [size=4][b]Spell Scrolls[/b][/size]
 

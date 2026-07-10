@@ -46,22 +46,6 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
-    id: classes
-    attributes:
-      label: Which class spell list(s) does this belong to?
-      description: Check all that apply, based on the 2024 rules or the spell's original source.
-      options:
-        - label: Bard
-        - label: Cleric
-        - label: Druid
-        - label: Paladin
-        - label: Ranger
-        - label: Sorcerer
-        - label: Warlock
-        - label: Wizard
-        - label: Other / subclass-specific (explain below)
-
   - type: input
     id: source
     attributes:

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="24%" r="80%">
+      <stop offset="0%" stop-color="#241c3f"/>
+      <stop offset="55%" stop-color="#14101f"/>
+      <stop offset="100%" stop-color="#09070f"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7dd97"/>
+      <stop offset="50%" stop-color="#e8b84b"/>
+      <stop offset="100%" stop-color="#c98f2c"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8b84b" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#e8b84b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#e8b84b" stop-opacity="0.55"/>
+    </linearGradient>
+</defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="url(#bgGlow)"/>
+
+  <g fill="#f7dd97" opacity="0.28">
+    <circle cx="110" cy="70" r="1.5"/>
+    <circle cx="1180" cy="80" r="1.5"/>
+    <circle cx="60" cy="360" r="1.2"/>
+    <circle cx="1225" cy="360" r="1.2"/>
+    <circle cx="110" cy="655" r="1.4"/>
+    <circle cx="1180" cy="650" r="1.4"/>
+  </g>
+
+  <rect x="18" y="18" width="1244" height="684" rx="20" fill="none" stroke="url(#borderGrad)" stroke-width="2"/>
+  <rect x="30" y="30" width="1220" height="660" rx="12" fill="none" stroke="#e8b84b" stroke-opacity="0.16" stroke-width="1"/>
+
+  <text x="70" y="62" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="5" fill="#c9a45c">D&amp;D 5.5e ALL-IN-ONE BEYOND</text>
+  <text x="1210" y="62" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#8f88a3">10 / 12</text>
+  <text x="70" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="url(#goldGrad)">Level 2</text>
+  <text x="1210" y="128" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="800" fill="url(#goldGrad)">20</text>
+  <text x="1210" y="160" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">level 2 spells</text>
+<text x="70" y="172" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">Aganazzar&#39;s Scorcher through Warding Bond — new spells alongside 5.5e-revised classics.</text>
+  <line x1="70" y1="195" x2="1210" y2="195" stroke="#e8b84b" stroke-opacity="0.35" stroke-width="1.5"/>
+<text x="70" y="222" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Aganazzar&#39;s Scorcher</tspan><tspan fill="#cdc4e0"> — 30-ft line; Dexterity save; 3d8 Fire damage on a</tspan></text>
+<text x="70" y="240" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">failed save, half on success</text>
+<text x="70" y="265" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Darkbolt</tspan><tspan fill="#cdc4e0"> — Hurl three rays of dark energy (divided among targets as you</tspan></text>
+<text x="70" y="283" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">choose)</text>
+<text x="70" y="308" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Death Armor</tspan><tspan fill="#cdc4e0"> — Surround one creature with an inky aura: the target has</tspan></text>
+<text x="70" y="326" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Advantage on Death…</text>
+<text x="70" y="351" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Elminster&#39;s Elusion</tspan><tspan fill="#cdc4e0"> — Concentration; Advantage on saves vs spells and</tspan></text>
+<text x="70" y="369" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">magical effects</text>
+<text x="70" y="394" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Gust of Wind</tspan><tspan fill="#cdc4e0"> — Push direction reworked; can now be recast as a Bonus</tspan></text>
+<text x="70" y="412" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Action each turn for up…</text>
+<text x="70" y="437" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Moonbeam</tspan><tspan fill="#cdc4e0"> — Constitution save; 2d10 Radiant damage on a failed save, half</tspan></text>
+<text x="70" y="455" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">on success…</text>
+<text x="70" y="480" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Searing Orb</tspan><tspan fill="#cdc4e0"> — Ranged spell attack; 3d4 Radiant damage; the target and</tspan></text>
+<text x="70" y="498" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">creatures within 10 ft…</text>
+<text x="70" y="523" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Snilloc&#39;s Snowball Swarm</tspan><tspan fill="#cdc4e0"> — Hurl multiple snowballs; Dexterity save in a</tspan></text>
+<text x="70" y="541" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">5-ft sphere per snowball</text>
+<text x="70" y="566" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Warding Bond</tspan><tspan fill="#cdc4e0"> — Link to an ally to share damage and grant resistances</tspan></text>
+<text x="670" y="222" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Arcane Vigor</tspan><tspan fill="#cdc4e0"> — Bonus Action; expend a spell slot and roll 2 of your</tspan></text>
+<text x="670" y="240" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">unexpended Hit Point Dice…</text>
+<text x="670" y="265" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Dazing Blast</tspan><tspan fill="#cdc4e0"> — Constitution save; 2d6 Force damage regardless of the save</tspan></text>
+<text x="670" y="283" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">result</text>
+<text x="670" y="308" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Dragon&#39;s Breath</tspan><tspan fill="#cdc4e0"> — Concentration; touch a willing creature and choose Acid,</tspan></text>
+<text x="670" y="326" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Cold, Fire…</text>
+<text x="670" y="351" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Find Steed</tspan><tspan fill="#cdc4e0"> — Summon an otherworldly steed and immediately mount it</tspan></text>
+<text x="670" y="376" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Fire Rune</tspan><tspan fill="#cdc4e0"> — Bonus Action; inscribe a fire rune on a weapon</tspan></text>
+<text x="670" y="401" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Lesser Restoration</tspan><tspan fill="#cdc4e0"> — Now costs a Bonus Action instead of an Action</tspan></text>
+<text x="670" y="426" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Mind Spike</tspan><tspan fill="#cdc4e0"> — Wisdom save; Psychic damage; on a failed save, you always</tspan></text>
+<text x="670" y="444" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">know the target&#39;s…</text>
+<text x="670" y="469" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Prayer of Healing</tspan><tspan fill="#cdc4e0"> — Now also triggers a Short Rest effect (once per rest)</tspan></text>
+<text x="670" y="487" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">when used out of combat</text>
+<text x="670" y="512" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Shadow Blade</tspan><tspan fill="#cdc4e0"> — Create a psychic weapon from shadow</tspan></text>
+<text x="670" y="537" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Summon Beast</tspan><tspan fill="#cdc4e0"> — Conjure a spirit beast ally</tspan></text>
+<text x="670" y="562" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Tasha&#39;s Mind Whip</tspan><tspan fill="#cdc4e0"> — Intelligence save; Psychic damage; failed save: target</tspan></text>
+<text x="670" y="580" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">loses its reaction and…</text>
+</svg>

@@ -6,8 +6,12 @@ function BreathWeaponCheck()
     return SpellId('Zone_BreathWeapon_Acid') | SpellId('Zone_BreathWeapon_Poison') | SpellId('Zone_BreathWeapon_Cold') | SpellId('Zone_BreathWeapon_Fire_Cone') | SpellId('Zone_BreathWeapon_Fire_Line') | SpellId('Zone_BreathWeapon_Lightning') | SpellId('Zone_BreathWeapon_DragonShape')
 end
 
+function SpectralSlashCheck()
+    return SpellId('Target_SpectralSlash') | SpellId('Target_SpectralSlash_2') | SpellId('Target_SpectralSlash_3') | SpellId('Target_SpectralSlash_4') | SpellId('Target_SpectralSlash_5') | SpellId('Target_SpectralSlash_6')
+end
+
 function ExtraAttackSpellCheck()
-    return ~TrueStrike() & ~SpellId('Target_VengefulBlade') & ~SpellId('Target_BoomingBlade_ClassSpell') & ~SpellId('Target_GreenFlameBlade') & HasStringInSpellRoll('WeaponAttack') | HasStringInSpellRoll('UnarmedAttack') | HasStringInSpellRoll('ThrowAttack') | SpellId('Target_CommandersStrike') | SpellId('Target_Shove') | SpellId('Target_Trip') | BreathWeaponCheck() | SpellId('Target_BootOfTheGiants') | SpellId('Teleportation_PactOfTheChain') | SpellId('Target_CreepingFog')
+    return ~TrueStrike() & ~SpellId('Target_VengefulBlade') & ~SpellId('Target_BoomingBlade_ClassSpell') & ~SpellId('Target_GreenFlameBlade') & HasStringInSpellRoll('WeaponAttack') | HasStringInSpellRoll('UnarmedAttack') | HasStringInSpellRoll('ThrowAttack') | SpellId('Target_CommandersStrike') | SpellId('Target_Shove') | SpellId('Target_Trip') | BreathWeaponCheck() | SpectralSlashCheck() | SpellId('Target_BootOfTheGiants') | SpellId('Teleportation_PactOfTheChain') | SpellId('Target_CreepingFog')
 end
 
 function ExtraAttackCheck()

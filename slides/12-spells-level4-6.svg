@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="24%" r="80%">
+      <stop offset="0%" stop-color="#241c3f"/>
+      <stop offset="55%" stop-color="#14101f"/>
+      <stop offset="100%" stop-color="#09070f"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7dd97"/>
+      <stop offset="50%" stop-color="#e8b84b"/>
+      <stop offset="100%" stop-color="#c98f2c"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8b84b" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#e8b84b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#e8b84b" stop-opacity="0.55"/>
+    </linearGradient>
+</defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="url(#bgGlow)"/>
+
+  <g fill="#f7dd97" opacity="0.28">
+    <circle cx="110" cy="70" r="1.5"/>
+    <circle cx="1180" cy="80" r="1.5"/>
+    <circle cx="60" cy="360" r="1.2"/>
+    <circle cx="1225" cy="360" r="1.2"/>
+    <circle cx="110" cy="655" r="1.4"/>
+    <circle cx="1180" cy="650" r="1.4"/>
+  </g>
+
+  <rect x="18" y="18" width="1244" height="684" rx="20" fill="none" stroke="url(#borderGrad)" stroke-width="2"/>
+  <rect x="30" y="30" width="1220" height="660" rx="12" fill="none" stroke="#e8b84b" stroke-opacity="0.16" stroke-width="1"/>
+
+  <text x="70" y="62" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="5" fill="#c9a45c">D&amp;D 5.5e ALL-IN-ONE BEYOND</text>
+  <text x="1210" y="62" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#8f88a3">12 / 12</text>
+  <text x="70" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="url(#goldGrad)">Levels 4–6</text>
+  <text x="1210" y="128" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="800" fill="url(#goldGrad)">15</text>
+  <text x="1210" y="160" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">high-level spells</text>
+<text x="70" y="172" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">Fount of Moonlight through Disintegrate — new spells alongside 5.5e-revised classics.</text>
+  <line x1="70" y1="195" x2="1210" y2="195" stroke="#e8b84b" stroke-opacity="0.35" stroke-width="1.5"/>
+<text x="70" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="1" fill="#e8b84b">LEVEL 4 · 6</text>
+<line x1="70" y1="232" x2="600" y2="232" stroke="#4a4370" stroke-width="1"/>
+<text x="70" y="256" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Conjure Woodland Beings</tspan><tspan fill="#cdc4e0"> — Conjure nature spirits in a 10-ft Emanation for</tspan></text>
+<text x="70" y="274" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">the duration</text>
+<text x="70" y="299" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Fire Dance</tspan><tspan fill="#cdc4e0"> — Concentration; wreathes you in dancing flame for the duration</tspan></text>
+<text x="70" y="324" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Fount of Moonlight</tspan><tspan fill="#cdc4e0"> — Concentration; Resistance to Radiant damage</tspan></text>
+<text x="70" y="349" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Murder of Crows</tspan><tspan fill="#cdc4e0"> — Summon a 30-ft Cone of crows; Dexterity save</tspan></text>
+<text x="70" y="374" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Spellfire Storm</tspan><tspan fill="#cdc4e0"> — 6m-radius area; Constitution save; 4d10 Radiant on a</tspan></text>
+<text x="70" y="392" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">failed save (half on…</text>
+<text x="70" y="417" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Vitriolic Sphere</tspan><tspan fill="#cdc4e0"> — Dexterity save; 10d4 Acid in a 20-ft Sphere</tspan></text>
+<text x="70" y="450" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="1" fill="#e8b84b">LEVEL 6 · 2</text>
+<line x1="70" y1="460" x2="600" y2="460" stroke="#4a4370" stroke-width="1"/>
+<text x="70" y="484" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Circle of Death</tspan><tspan fill="#cdc4e0"> — 8d8 Necrotic damage in an 18m-radius sphere</tspan></text>
+<text x="70" y="509" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Disintegrate</tspan><tspan fill="#cdc4e0"> — Creatures that succeed on the save still take 40 Force</tspan></text>
+<text x="70" y="527" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">damage</text>
+<text x="670" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="1" fill="#e8b84b">LEVEL 5 · 7</text>
+<line x1="670" y1="232" x2="1200" y2="232" stroke="#4a4370" stroke-width="1"/>
+<text x="670" y="256" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Awaken</tspan><tspan fill="#cdc4e0"> — Intelligence save; on a failed save, a creature with Intelligence</tspan></text>
+<text x="670" y="274" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">3 or lower…</text>
+<text x="670" y="299" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Circle of Power</tspan><tspan fill="#cdc4e0"> — Self 9m-radius aura, Concentration; you and allies</tspan></text>
+<text x="670" y="317" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">inside gain Advantage on…</text>
+<text x="670" y="342" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Cone of Cold</tspan><tspan fill="#cdc4e0"> — Revised to 8d8 Cold damage in an 18m cone</tspan></text>
+<text x="670" y="367" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Dream</tspan><tspan fill="#cdc4e0"> — Wisdom save; on a failed save, the target gains no benefit from</tspan></text>
+<text x="670" y="385" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">its rest and…</text>
+<text x="670" y="410" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Enervation</tspan><tspan fill="#cdc4e0"> — Dexterity save; 4d8 Necrotic on a failed save (2d8 and the</tspan></text>
+<text x="670" y="428" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">spell ends on…</text>
+<text x="670" y="453" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Steel Wind Strike</tspan><tspan fill="#cdc4e0"> — Vanish and make melee spell attacks (6d10 Force each)</tspan></text>
+<text x="670" y="471" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">against up to 5 creatures</text>
+<text x="670" y="496" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Synaptic Static</tspan><tspan fill="#cdc4e0"> — Intelligence save; 8d6 Psychic damage in a 6m sphere</tspan></text>
+
+</svg>

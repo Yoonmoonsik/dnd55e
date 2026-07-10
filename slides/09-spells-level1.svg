@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="24%" r="80%">
+      <stop offset="0%" stop-color="#241c3f"/>
+      <stop offset="55%" stop-color="#14101f"/>
+      <stop offset="100%" stop-color="#09070f"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7dd97"/>
+      <stop offset="50%" stop-color="#e8b84b"/>
+      <stop offset="100%" stop-color="#c98f2c"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8b84b" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#e8b84b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#e8b84b" stop-opacity="0.55"/>
+    </linearGradient>
+</defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="url(#bgGlow)"/>
+
+  <g fill="#f7dd97" opacity="0.28">
+    <circle cx="110" cy="70" r="1.5"/>
+    <circle cx="1180" cy="80" r="1.5"/>
+    <circle cx="60" cy="360" r="1.2"/>
+    <circle cx="1225" cy="360" r="1.2"/>
+    <circle cx="110" cy="655" r="1.4"/>
+    <circle cx="1180" cy="650" r="1.4"/>
+  </g>
+
+  <rect x="18" y="18" width="1244" height="684" rx="20" fill="none" stroke="url(#borderGrad)" stroke-width="2"/>
+  <rect x="30" y="30" width="1220" height="660" rx="12" fill="none" stroke="#e8b84b" stroke-opacity="0.16" stroke-width="1"/>
+
+  <text x="70" y="62" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="5" fill="#c9a45c">D&amp;D 5.5e ALL-IN-ONE BEYOND</text>
+  <text x="1210" y="62" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#8f88a3">09 / 12</text>
+  <text x="70" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="url(#goldGrad)">Level 1</text>
+  <text x="1210" y="128" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="800" fill="url(#goldGrad)">23</text>
+  <text x="1210" y="160" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">level 1 spells</text>
+<text x="70" y="172" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">Absorb Elements through Wrathful Smite — new spells alongside 5.5e-revised classics.</text>
+  <line x1="70" y1="195" x2="1210" y2="195" stroke="#e8b84b" stroke-opacity="0.35" stroke-width="1.5"/>
+<text x="70" y="222" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Absorb Elements</tspan><tspan fill="#cdc4e0"> — Reaction to taking Acid, Cold, Fire, Lightning, or</tspan></text>
+<text x="70" y="240" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Thunder damage</text>
+<text x="70" y="265" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Ballistic Smite</tspan><tspan fill="#cdc4e0"> — Ranged weapon attack; choose Acid, Cold, Fire,</tspan></text>
+<text x="70" y="283" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Lightning, Poison, or Thunder</text>
+<text x="70" y="308" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Catapult</tspan><tspan fill="#cdc4e0"> — Hurl a nearby unattended 1-5 lb object up to 60 ft at a target</tspan></text>
+<text x="70" y="333" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Cloak of Shadow</tspan><tspan fill="#cdc4e0"> — Bonus Action; Concentration; become Invisible and gain</tspan></text>
+<text x="70" y="351" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Advantage on Stealth…</text>
+<text x="70" y="376" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Cure Wounds</tspan><tspan fill="#cdc4e0"> — Now restores 2d8 + spellcasting modifier HP (up from 1d8)</tspan></text>
+<text x="70" y="401" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">False Life</tspan><tspan fill="#cdc4e0"> — Now grants 2d4 + 4 temporary hit points (up from 1d4 + 4),</tspan></text>
+<text x="70" y="419" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">plus 5 additional…</text>
+<text x="70" y="444" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Hell&#39;s Lash</tspan><tspan fill="#cdc4e0"> — Constitution save; 4d4 fire damage and tethers target</tspan></text>
+<text x="70" y="469" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Spectral Slash</tspan><tspan fill="#cdc4e0"> — Bonus Action; melee spell attack against a creature</tspan></text>
+<text x="70" y="487" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">within 20 ft (range…</text>
+<text x="70" y="512" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Thorn Armor</tspan><tspan fill="#cdc4e0"> — A willing target gains 3d6 Temporary HP; while those</tspan></text>
+<text x="70" y="530" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Temporary HP last, any…</text>
+<text x="70" y="555" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Tide of Darkness</tspan><tspan fill="#cdc4e0"> — Wisdom save; each creature in a 10-ft Cube of Darkness</tspan></text>
+<text x="70" y="573" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">originating from you…</text>
+<text x="70" y="598" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Wardaway</tspan><tspan fill="#cdc4e0"> — Constitution save; 2d4 Force damage (scales +2d4 per slot level</tspan></text>
+<text x="70" y="616" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">above 1st)</text>
+<text x="670" y="222" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Armor of Agathys</tspan><tspan fill="#cdc4e0"> — Now cast as a Bonus Action; surrounds with icy armor</tspan></text>
+<text x="670" y="240" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">granting temporary HP and…</text>
+<text x="670" y="265" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Body Warping of Gorgoroth</tspan><tspan fill="#cdc4e0"> — Concentration; choose a Humanoid of your size</tspan></text>
+<text x="670" y="283" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">that you can see</text>
+<text x="670" y="308" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Chromatic Orb</tspan><tspan fill="#cdc4e0"> — Ranged spell attack; choose from Acid, Cold, Fire,</tspan></text>
+<text x="670" y="326" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Lightning, Poison, or Thunder</text>
+<text x="670" y="351" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Color Spray</tspan><tspan fill="#cdc4e0"> — Constitution save in a 15 ft cone; Blinded until end of next</tspan></text>
+<text x="670" y="369" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">turn on a failed…</text>
+<text x="670" y="394" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Divine Smite</tspan><tspan fill="#cdc4e0"> — Redesigned as a prepared spell</tspan></text>
+<text x="670" y="419" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Healing Word</tspan><tspan fill="#cdc4e0"> — Now restores 2d4 + spellcasting modifier HP (up from 1d4)</tspan></text>
+<text x="670" y="444" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Hungering Blade</tspan><tspan fill="#cdc4e0"> — Bonus Action; imbue your weapon or Unarmed Strikes with</tspan></text>
+<text x="670" y="462" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">negative energy for 10…</text>
+<text x="670" y="487" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Spellfire Flare</tspan><tspan fill="#cdc4e0"> — Ranged spell attack; 2d10 Radiant damage</tspan></text>
+<text x="670" y="512" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Thunderous Smite</tspan><tspan fill="#cdc4e0"> — Bonus Action; imbue your next melee weapon attack with</tspan></text>
+<text x="670" y="530" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">2d6 Thunder damage</text>
+<text x="670" y="555" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Umbral Tendril</tspan><tspan fill="#cdc4e0"> — Ranged spell attack; 2d8 Necrotic damage on a hit, then</tspan></text>
+<text x="670" y="573" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">roll the damage dice…</text>
+<text x="670" y="598" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Witch Bolt</tspan><tspan fill="#cdc4e0"> — Initial hit now deals 2d12 Lightning damage</tspan></text>
+<text x="670" y="623" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Wrathful Smite</tspan><tspan fill="#cdc4e0"> — Bonus Action; imbue your next melee weapon attack with</tspan></text>
+<text x="670" y="641" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">1d6 Necrotic damage</text>
+</svg>

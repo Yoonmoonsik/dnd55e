@@ -202,6 +202,20 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1de8200b-4672-4b74-bba2-a69cd2b34e6e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Whip" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="258f2485-8e6b-4138-b3d9-8eab83479c4a" />
+        <field name="Name" type="NameTableFieldDefinition" value="VFX_Whip" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AttackSpellOverride(Target_MainHandAttack_Whip,Target_MainHandAttack);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9daae7da-e5d9-4b0e-943b-ad63b909e1c1" />
         <field name="Name" type="NameTableFieldDefinition" value="HeavyEquipment" />
       </fields>
@@ -299,7 +313,7 @@
         <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Nick', context.Source);" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WEAPONMASTERY_NICK,100,1);" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnTurn;OnCombatStarted;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatsFunctorContext" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -437,7 +451,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="HasWeaponMastery_Slow" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb839de91gb995ge42eg62b9g1dd41fe4da4b" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h7773a857g54d9g0e61gc338g5671eef1378d" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h53e29765gaf78g1680g5805g24b5594244ac" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h53e29765gaf78g1680g5805g24b5594244ac" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_HamstringShot" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10" />
@@ -710,6 +724,17 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDamageTypeAcid()):ApplyStatus(ABSORB_ELEMENTS_ACID_DAMAGE_6, 100, 2);IF(IsDamageTypeCold()):ApplyStatus(ABSORB_ELEMENTS_COLD_DAMAGE_6, 100, 2);IF(IsDamageTypeFire()):ApplyStatus(ABSORB_ELEMENTS_FIRE_DAMAGE_6, 100, 2);IF(IsDamageTypeLightning()):ApplyStatus(ABSORB_ELEMENTS_LIGHTNING_DAMAGE_6, 100, 2);IF(IsDamageTypeThunder()):ApplyStatus(ABSORB_ELEMENTS_THUNDER_DAMAGE_6, 100, 2);IF(IsDamageTypeAcid() or IsDamageTypeCold() or IsDamageTypeFire() or IsDamageTypeLightning() or IsDamageTypeThunder()):RemoveStatus(ABSORB_ELEMENTS_ACTIVE_SPELL_6)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="16acaa94-b97a-42a5-ac8c-1ff7ecf693fd" />
+        <field name="Name" type="NameTableFieldDefinition" value="ThornArmor_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h56d01007g7639g76b3g6944ge9e37780bfa3" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellTypeIs(SpellType.Throw)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,DamageDone,Piercing,Magical)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="bdde706b-febe-4658-bff4-05ed2f30bf96" />
@@ -797,6 +822,16 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ba1fcd47-e8a7-4342-9f02-f543847de381" />
         <field name="Name" type="NameTableFieldDefinition" value="__NECROMANCY__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b625e51f-490e-4b39-9851-c9c210b96db9" />
+        <field name="Name" type="NameTableFieldDefinition" value="HungeringBlade_Passive" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not IsMiss() and not IsSpell();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,HUNGERING_BLADE_TEMPHP,100,-1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3440,6 +3475,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0b54e985-7c75-4937-8472-defa2be6d0db" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalAttunement_Reach" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(HasStringInSpellRoll('UnarmedAttack'),ModifyTargetRadius(Override,4.5));" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h890a9938gac70g797cg8e84g4f982f91e71f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h11332473g3979g9abfg761agdee2787744e5" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_HarmonyOfFireAndWater" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3465,6 +3504,57 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_MagicItem_PullingShout" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PULL_3M,100,0,,,,not SavingThrow(Ability.Strength, ManeuverSaveDC()))" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="560fcab7-b43b-452e-b1dc-0fd4ed439283" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalAttunement_Acid" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h68c0c939g9c12g8d64g237dg0bcc02c524be" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1e811cadgb62eg0b4cgf227g305228f83fc7" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Acid" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="ElementalAttunement" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c2681b9f-27ea-4630-bc3a-03169052150a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalAttunement_Cold" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="560fcab7-b43b-452e-b1dc-0fd4ed439283" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb2926a7dga9a0g4670g41dfgdf5650a0d520" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Cold" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b7d6d7cf-8604-4877-aa27-34b1f6720e4c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalAttunement_Fire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="560fcab7-b43b-452e-b1dc-0fd4ed439283" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf7a5b3f5g2f88g5a34g7903g2114ecd26adf" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Fire" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f44c821d-7690-4c00-ab85-5109a70208e5" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalAttunement_Lightning" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="560fcab7-b43b-452e-b1dc-0fd4ed439283" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1cc7d9bbge33egb7e6gcb43g3b381b51b4ab" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Lightning" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2798b812-ac97-40fe-bd52-5c8fa2ed5865" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalAttunement_Thunder" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="560fcab7-b43b-452e-b1dc-0fd4ed439283" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4028f5b6g1c7cg62bfgf7ceg0d2244ad20f2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Thunder" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9863,6 +9953,38 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="c8381d87-a050-40ba-9333-43fd5ffd1517" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h39511b28g3843gdb43gabc4g14a37310891b" version="1" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PRONE,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d1694180-b511-4b69-a6cc-ab6c682fdb20" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_BoundToBeBonded_Technical_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b3a04f86-2eb1-4833-a97e-986ef52e65e2" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="StatusId('WEAPON_BOND') or StatusId('WEAPON_BOND_2') or StatusId('PACT_BLADE') or StatusId('HEXBLADE_BIND');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f594c84a-a1f2-49dc-a1e3-b33b7f44f7bc" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Bound_Throwing_Technical_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4c161e44-8c84-442e-8ea9-4f33022fef9e" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="StatusId('WEAPON_BOND') or StatusId('WEAPON_BOND_2');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7e3ed082-52d3-48c4-899e-094f31638214" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_ShockingBound_Passive_Technical_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="58462178-6280-4c35-a289-68fd4e0cedab" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="StatusId('WEAPON_BOND') or StatusId('WEAPON_BOND_2') or StatusId('PACT_BLADE') or StatusId('HEXBLADE_BIND');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0bc00bd1-ded7-4559-bfd9-39fd6e5c8378" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Bound_ProficiencyToDamage_Technical_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b9bdd8a2-9eef-4496-8749-a2701e2a0a5b" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="StatusId('WEAPON_BOND') or StatusId('WEAPON_BOND_2') or StatusId('PACT_BLADE') or StatusId('HEXBLADE_BIND');" />
       </fields>
     </stat_object>
   </stat_objects>

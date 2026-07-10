@@ -85,6 +85,26 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6a34857e-005c-4f80-99d2-f6921b17cf63" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CONJURATION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9a015a08-6501-4320-ba1b-49dcb455bade" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_SpectralSlash" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h95052719gb237gac57g92e1g14b60980710f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_SpectralSlash" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('SPECTRAL_SLASH_TARGET',context.Target) and HasStatus('SPECTRAL_SLASH_TARGET_2',context.Target);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="UseSpell(OBSERVER_TARGET,Target_SpectralSlash_Attack,true,true,true);" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2d51d2d5-2630-4cf5-846f-353dc78df2d0" />
         <field name="Name" type="NameTableFieldDefinition" value="__EVOCATION__" />
       </fields>
@@ -327,10 +347,10 @@
         <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="InterruptContext" version="1" />
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('COMMANDERS_STRIKE_TARGET',context.Target) and not DistanceToEntityGreaterThan(2, context.ObserverPosition, context.Target);" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('COMMANDERS_STRIKE_TARGET_2',context.Target) and HasStatus('COMMANDERS_STRIKE_TARGET',context.Target) and not DistanceToEntityGreaterThan(2, context.ObserverPosition, context.Target);" />
         <field name="Properties" type="StringTableFieldDefinition" value="UseSpell(OBSERVER_TARGET,Target_CommanderStrike_Attack_D8,true,true,true);" />
         <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;" />
-        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -339,7 +359,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_CommandersStrike_Ranged" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="46ecb798-bdc9-4401-b660-be194e0feda8" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h679b8ed8g5188g6efege018gb74b3c65aafc" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('COMMANDERS_STRIKE_TARGET',context.Target) and DistanceToEntityGreaterThan(2, context.ObserverPosition, context.Target);" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('COMMANDERS_STRIKE_TARGET_2',context.Target) and HasStatus('COMMANDERS_STRIKE_TARGET',context.Target) and DistanceToEntityGreaterThan(2, context.ObserverPosition, context.Target);" />
         <field name="Properties" type="StringTableFieldDefinition" value="UseSpell(OBSERVER_TARGET,Projectile_CommanderStrike_Attack_D8,true,true,true);" />
       </fields>
     </stat_object>
@@ -866,7 +886,7 @@
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
         <field name="Conditions" type="StringTableFieldDefinition" value="not Self(context.Source, context.Observer) and IsAbleToReact(context.Observer) and Enemy(context.Target,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and HasFunctor(StatsFunctorType.DealDamage) and not Dead(context.Target) and not DistanceToEntityGreaterThan(9, context.ObserverPosition, context.Target) and HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Target);" />
-        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_OBSERVER,ADDITIONAL_SNEAKATTACK_CHARGE,100,1);UseSpell(OBSERVER_TARGET,Target_Bloodthirst,true,true,true);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_OBSERVER,ADDITIONAL_SNEAKATTACK_CHARGE,100,1);UseSpell(OBSERVER_TARGET,Projectile_Bloodthirst,true,true,true);" />
         <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;Bloodthirst:1;" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
         <field name="EnableCondition" type="StringTableFieldDefinition" value="not HasStatus('SG_Blinded') and not HasStatus('PRONE');" />

@@ -19,6 +19,21 @@ OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_ABSORBELEMENTS", -1.0, 1, _Player);
 
 IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_BodyWarpingOfGorgoroth",_, _)
+AND
+HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_BODYWARPINGOFGORGOROTH", 1)
+AND
+ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
+THEN
+ApplyStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_END", -1.0, 1, _Player);
+OpenMessageBox(_Player, _Msg);
+ApplyStatus(_Player, "MAGICINITIATE_BODYWARPINGOFGORGOROTH", -1.0, 1, _Player);
+
+IF
 StartedPreviewingSpell((CHARACTER)_Player,"Zone_BurningHands",_, _)
 AND
 HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
@@ -32,6 +47,21 @@ THEN
 ApplyStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_END", -1.0, 1, _Player);
 OpenMessageBox(_Player, _Msg);
 ApplyStatus(_Player, "MAGICINITIATE_BURNINGHANDS", -1.0, 1, _Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_Catapult",_, _)
+AND
+HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_START", 1)
+AND
+HasPassive(_Player,"OriginFeat_MagicInitiate_Wizard",1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CATAPULT", 1)
+AND
+ResolveTranslatedString("h2e45d3c2gc1beg4101g9a04gcbaaaac11f0a", _Msg)
+THEN
+ApplyStatus(_Player, "MAGICINITIATE_WIZARD_SPELL_END", -1.0, 1, _Player);
+OpenMessageBox(_Player, _Msg);
+ApplyStatus(_Player, "MAGICINITIATE_CATAPULT", -1.0, 1, _Player);
 
 IF
 StartedPreviewingSpell((CHARACTER)_Player,"Target_CharmPerson",_, _)

@@ -20,5 +20,16 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="960dad73-5352-431a-a15e-1b62b1816cd0" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="abca3a91-4799-4207-8c26-853b13e37967" />
+        <field name="Name" type="NameTableFieldDefinition" value="DREAM" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2f23a92e-c431-47f6-91fd-04a6e92e2232" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb36377c1g08c0g556fge8fbg80cbd9b569ef" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb0fea27dgc56fg62a0ge057g7c9ddc6f463e" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3d6,Psychic)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="24%" r="80%">
+      <stop offset="0%" stop-color="#241c3f"/>
+      <stop offset="55%" stop-color="#14101f"/>
+      <stop offset="100%" stop-color="#09070f"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7dd97"/>
+      <stop offset="50%" stop-color="#e8b84b"/>
+      <stop offset="100%" stop-color="#c98f2c"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8b84b" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#e8b84b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#e8b84b" stop-opacity="0.55"/>
+    </linearGradient>
+</defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="url(#bgGlow)"/>
+
+  <g fill="#f7dd97" opacity="0.28">
+    <circle cx="110" cy="70" r="1.5"/>
+    <circle cx="1180" cy="80" r="1.5"/>
+    <circle cx="60" cy="360" r="1.2"/>
+    <circle cx="1225" cy="360" r="1.2"/>
+    <circle cx="110" cy="655" r="1.4"/>
+    <circle cx="1180" cy="650" r="1.4"/>
+  </g>
+
+  <rect x="18" y="18" width="1244" height="684" rx="20" fill="none" stroke="url(#borderGrad)" stroke-width="2"/>
+  <rect x="30" y="30" width="1220" height="660" rx="12" fill="none" stroke="#e8b84b" stroke-opacity="0.16" stroke-width="1"/>
+
+  <text x="70" y="62" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="5" fill="#c9a45c">D&amp;D 5.5e ALL-IN-ONE BEYOND</text>
+  <text x="1210" y="62" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#8f88a3">08 / 12</text>
+  <text x="70" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="url(#goldGrad)">Cantrips</text>
+  <text x="1210" y="128" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="800" fill="url(#goldGrad)">17</text>
+  <text x="1210" y="160" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">cantrips</text>
+<text x="70" y="172" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">Level-0 spells — free to cast, no slot required.</text>
+  <line x1="70" y1="195" x2="1210" y2="195" stroke="#e8b84b" stroke-opacity="0.35" stroke-width="1.5"/>
+<text x="70" y="222" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Blade Ward</tspan><tspan fill="#cdc4e0"> — Now Concentration; forces attackers to subtract 1d4 from</tspan></text>
+<text x="70" y="240" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">attack rolls against…</text>
+<text x="70" y="265" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Bursting Sinew</tspan><tspan fill="#cdc4e0"> — Explode a nearby corpse, impaling creatures around it</tspan></text>
+<text x="70" y="290" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Frightful Start</tspan><tspan fill="#cdc4e0"> — Wisdom save; target must succeed or have the Frightened</tspan></text>
+<text x="70" y="308" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">condition until the…</text>
+<text x="70" y="333" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Hellfire</tspan><tspan fill="#cdc4e0"> — Charisma save; deals Fire and Necrotic damage (each scaling</tspan></text>
+<text x="70" y="351" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">with level) to a…</text>
+<text x="70" y="376" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Mind Sliver</tspan><tspan fill="#cdc4e0"> — Intelligence save; Psychic damage; target subtracts 1d4 from</tspan></text>
+<text x="70" y="394" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">its next saving…</text>
+<text x="70" y="419" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Starry Wisp</tspan><tspan fill="#cdc4e0"> — Ranged spell attack; Radiant damage; target emits Dim Light</tspan></text>
+<text x="70" y="437" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">and loses…</text>
+<text x="70" y="462" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Thunderclap</tspan><tspan fill="#cdc4e0"> — Constitution save; Thunder damage to all creatures in a 5-ft</tspan></text>
+<text x="70" y="480" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Emanation</text>
+<text x="70" y="505" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">True Strike</tspan><tspan fill="#cdc4e0"> — Melee or ranged weapon attack using your spellcasting</tspan></text>
+<text x="70" y="523" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">ability for the attack…</text>
+<text x="70" y="548" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Word of Radiance</tspan><tspan fill="#cdc4e0"> — Constitution save; Radiant damage to chosen creatures</tspan></text>
+<text x="70" y="566" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">in a 5-ft Emanation</text>
+<text x="670" y="222" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Booming Blade</tspan><tspan fill="#cdc4e0"> — Melee attack; afflicts your foe with resonance that deals</tspan></text>
+<text x="670" y="240" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">bonus Thunder damage…</text>
+<text x="670" y="265" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Finger Guns</tspan><tspan fill="#cdc4e0"> — Ranged spell attack; Force damage; applies Weapon Mastery</tspan></text>
+<text x="670" y="283" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Slow on hit</text>
+<text x="670" y="308" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Green-Flame Blade</tspan><tspan fill="#cdc4e0"> — Melee attack; on a hit, green fire leaps from the</tspan></text>
+<text x="670" y="326" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">target to a creature within…</text>
+<text x="670" y="351" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Holy Word</tspan><tspan fill="#cdc4e0"> — Ranged spell attack; Radiant damage; Fey, Fiend, or Undead</tspan></text>
+<text x="670" y="369" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">also lose 10 ft…</text>
+<text x="670" y="394" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Sorcerous Burst</tspan><tspan fill="#cdc4e0"> — Ranged spell attack; choose from 7 damage types: Acid,</tspan></text>
+<text x="670" y="412" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Cold, Fire, Lightning…</text>
+<text x="670" y="437" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Sword Burst</tspan><tspan fill="#cdc4e0"> — Dexterity save; spectral blades deal Force damage to all</tspan></text>
+<text x="670" y="455" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">creatures within 5 ft</text>
+<text x="670" y="480" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Toll the Dead</tspan><tspan fill="#cdc4e0"> — Necrotic damage; deals more to injured targets</tspan></text>
+<text x="670" y="505" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Vengeful Blade</tspan><tspan fill="#cdc4e0"> — Melee attack; on a hit, target radiates a dark aura — if</tspan></text>
+<text x="670" y="523" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">it attacks or casts a…</text>
+</svg>

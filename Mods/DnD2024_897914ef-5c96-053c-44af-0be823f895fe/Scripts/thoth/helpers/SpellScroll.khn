@@ -36,6 +36,15 @@ local SPELL_CLASS_MAP = {
     Zone_Thunderwave_spellscroll = '1 Bard Druid Sorcerer Wizard',
     Projectile_Wardaway_spellscroll = '1 Bard Cleric Paladin Wizard',
     Projectile_WitchBolt_spellscroll = '1 Sorcerer Warlock Wizard',
+    Projectile_BallisticSmite_spellscroll = '1 Artificer Paladin',
+    Projectile_Catapult_spellscroll = '1 Artificer Sorcerer Wizard',
+    Shout_HungeringBlade_spellscroll = '1 Paladin Ranger Warlock',
+    Shout_TideOfDarkness_spellscroll = '1 Sorcerer Warlock Wizard',
+    Target_BodyWarpingOfGorgoroth_spellscroll = '1 Sorcerer Warlock Wizard',
+    Target_Smite_Wrathful_spellscroll = '1 Paladin',
+    Target_SpectralSlash_spellscroll = '1 Paladin Ranger',
+    Target_ThornArmor_spellscroll = '1 Druid Ranger',
+    Target_UmbralTendril_spellscroll = '1 Sorcerer Warlock Wizard',
 
     Projectile_AcidArrow_spellscroll = '2 Wizard',
     Zone_AganazzarsScorcher_spellscroll = '2 Sorcerer Wizard',
@@ -76,6 +85,7 @@ local SPELL_CLASS_MAP = {
     Projectile_SnowballSwarm_spellscroll = '2 Sorcerer Wizard',
     Target_SummonBeast_spellscroll = '2 Druid Ranger',
     Target_Web_spellscroll = '2 Sorcerer Wizard',
+    Target_DragonsBreath_spellscroll = '2 Artificer Sorcerer Wizard',
 
     Target_AnimateDead_spellscroll = '3 Cleric Warlock Wizard',
     Zone_AstralFlood_spellscroll = '3 Bard Sorcerer Wizard',
@@ -103,6 +113,10 @@ local SPELL_CLASS_MAP = {
     Target_TrollbloodInfusion_spellscroll = '3 Bard Cleric Druid Warlock',
     Target_VampiricTouch_spellscroll = '3 Sorcerer Warlock Wizard',
     Projectile_VoidStrike_spellscroll = '3 Wizard',
+    Shout_AshardalonsStride_spellscroll = '3 Artificer Ranger Sorcerer Wizard',
+    Shout_CacophonicShield_spellscroll = '3 Bard Sorcerer Wizard',
+    Zone_ElementalExhalation_spellscroll = '3 Druid Sorcerer',
+    Zone_LaeralsSilverLance_spellscroll = '3 Cleric Sorcerer Wizard',
 
     Target_Banishment_spellscroll = '4 Cleric Sorcerer Warlock Wizard',
     Target_BlackTentacles_spellscroll = '4 Wizard',
@@ -123,6 +137,7 @@ local SPELL_CLASS_MAP = {
     Target_Stoneskin_spellscroll = '4 Druid Ranger Sorcerer Wizard Artificer',
     Projectile_VitriolicSphere_spellscroll = '4 Sorcerer Wizard',
     Wall_WallOfFire_spellscroll = '4 Druid Sorcerer Wizard',
+    Shout_FireDance_spellscroll = '4 Bard Sorcerer Warlock Wizard',
 
     Target_Cloudkill_spellscroll = '5 Sorcerer Wizard',
     Zone_ConeOfCold_spellscroll = '5 Druid Sorcerer Wizard',
@@ -135,6 +150,10 @@ local SPELL_CLASS_MAP = {
     Target_SynapticStatic_spellscroll = '5 Bard Sorcerer Warlock Wizard',
     Throw_Telekinesis_spellscroll = '5 Sorcerer Wizard',
     Wall_WallOfStone_spellscroll = '5 Druid Sorcerer Wizard Artificer',
+    Target_Awaken_spellscroll = '5 Bard Druid',
+    Target_Dream_spellscroll = '5 Bard Cleric Warlock Wizard',
+    Target_Enervation_spellscroll = '5 Sorcerer Warlock Wizard',
+    Shout_CircleOfPower_spellscroll = '5 Cleric Wizard',
 
     Projectile_ChainLightning_spellscroll = '6 Sorcerer Wizard',
     Target_CircleOfDeath_spellscroll = '6 Sorcerer Warlock Wizard',
@@ -391,4 +410,23 @@ function IsScrollSpell()
 	| SpellId('Projectile_RayOfFrost_spellscroll')
 	| SpellId('Target_FindFamiliar_spellscroll')
 	| SpellId('Projectile_FireBolt_spellscroll')
+	| SpellId('Projectile_BallisticSmite_spellscroll')
+	| SpellId('Projectile_Catapult_spellscroll')
+	| SpellId('Shout_AshardalonsStride_spellscroll')
+	| SpellId('Shout_CacophonicShield_spellscroll')
+	| SpellId('Shout_FireDance_spellscroll')
+	| SpellId('Shout_HungeringBlade_spellscroll')
+	| SpellId('Shout_TideOfDarkness_spellscroll')
+	| SpellId('Target_Awaken_spellscroll')
+	| SpellId('Target_BodyWarpingOfGorgoroth_spellscroll')
+	| SpellId('Target_Dream_spellscroll')
+	| SpellId('Target_Enervation_spellscroll')
+	| SpellId('Target_Smite_Wrathful_spellscroll')
+	| SpellId('Target_SpectralSlash_spellscroll')
+	| SpellId('Target_ThornArmor_spellscroll')
+	| SpellId('Target_UmbralTendril_spellscroll')
+	| SpellId('Zone_ElementalExhalation_spellscroll')
+	| SpellId('Zone_LaeralsSilverLance_spellscroll')
+	| SpellId('Shout_CircleOfPower_spellscroll')
+	| SpellId('Target_DragonsBreath_spellscroll')
 end
