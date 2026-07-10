@@ -706,7 +706,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SpectralSlash" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPECTRAL_SLASH_TARGET_2,100,1);ApplyStatus(SELF,SPECTRAL_SLASH,100,1);ApplyStatus(SELF,SPECTRAL_SLASH_2,100,0);GROUND:TeleportSource();" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPECTRAL_SLASH_TARGET_2,100,1);ApplyStatus(SELF,SPECTRAL_SLASH,100,1);GROUND:TeleportSource();" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="6" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeSpellAttack)" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d8,MainMeleeWeaponDamageType,Magical);" />

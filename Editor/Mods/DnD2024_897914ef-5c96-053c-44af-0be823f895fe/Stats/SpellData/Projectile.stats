@@ -2612,16 +2612,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="07a7c880-5e60-4832-81f1-1658877e268b" />
-        <field name="Name" type="NameTableFieldDefinition" value="SpectralSlash_Explosion" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="0125e010-157b-42d3-be62-f117e4ae233f" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPECTRAL_SLASH_TARGET,100,1);" />
-        <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="2" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Enemy();" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e2699a2b-18e1-4b78-8e56-268680319ab6" />
         <field name="Name" type="NameTableFieldDefinition" value="SteelWindStrike_Extra" />
         <field name="Level" type="IntegerTableFieldDefinition" value="5" />

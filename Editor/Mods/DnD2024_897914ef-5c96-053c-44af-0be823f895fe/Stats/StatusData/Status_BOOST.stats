@@ -1195,17 +1195,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="5f250ae6-925d-4ab4-b10c-1c0f3d7e2221" />
-        <field name="Name" type="NameTableFieldDefinition" value="SPECTRAL_SLASH_2" />
-        <field name="StackId" type="StringTableFieldDefinition" value="SPECTRAL_SLASH_2" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
-        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="CreateExplosion(Projectile_SpectralSlash_Explosion)" />
-        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="daabce93-b8ca-496f-aa52-6f1f70f5bc36" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_SpectralSlash" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="da0f2eff-93f6-4c2a-aaf8-dde6ce4acdb8" />
         <field name="Name" type="NameTableFieldDefinition" value="SPECTRAL_SLASH_TARGET" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h63ced89eg89ebg0483ga272g25ce1e27bec3" version="1" />
