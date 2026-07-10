@@ -2891,6 +2891,33 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MurmursOfDoom_Recast);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e9a19a95-4c12-4096-9d89-00b65a7f2284" />
+        <field name="Name" type="NameTableFieldDefinition" value="ENERVATION" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6f070cfeg02fbgebecga6d1gb5a5d6ee555e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enervation" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="b8091ea6-a6d8-4a78-bdb8-80ff1d5203d2" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="b8091ea6-a6d8-4a78-bdb8-80ff1d5203d2" />
+        <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="b8091ea6-a6d8-4a78-bdb8-80ff1d5203d2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="00ca9a5f-8643-40ac-b3e4-8a904900b9ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="ENERVATION_RECAST" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Enervation);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a5b83bab-41c4-43a9-bd47-569df7a52c43" />
+        <field name="Name" type="NameTableFieldDefinition" value="ENERVATION_RECAST_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00ca9a5f-8643-40ac-b3e4-8a904900b9ee" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Enervation_6);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="004d83f8-8a7a-42ed-be19-8e0531a62aa6" />

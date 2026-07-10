@@ -5660,6 +5660,96 @@
         <field name="Name" type="NameTableFieldDefinition" value="__NECROMANCY__SLEVEL 4__" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8c07dbb7-52a6-4742-8d05-5682c4abc0d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="__NECROMANCY__SLEVEL 5__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea5d1ba3-0c89-4c81-aeb3-36a094388c30" />
+        <field name="Name" type="NameTableFieldDefinition" value="Enervation" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Necromancy" enumeration_type_name="SpellSchool" version="1" />
+        <field name="ConcentrationSpellID" type="StringTableFieldDefinition" value="Shout_Enervation" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Necrotic);RegainHitPoints(SELF,(DamageDone)/2);ApplyStatus(ENERVATION,100,10);ApplyStatus(SELF,ENERVATION_RECAST,100,10);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(2d8,Necrotic);RegainHitPoints(SELF,(DamageDone)/2);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() " />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enervation" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb0a6474bg13f1g3902g0e55g5cd782210550" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0680f65eg2944g3595ga9d1gc7b9d923668f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2d8;4d8" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ENERVATION,100,10);" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Necrotic)" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Necrotic_ArmsOfHadar_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Damage_Necrotic_ArmsOfHadar_L1to3" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Necrotic_VampiricTouch_L4to5" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_Necrotic_VampiricTouch_L4to5" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_DamageNecroticVamparic" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;c17a3562-3758-4c4a-96e8-790cebed1df4,,;a8012b19-b279-45ec-89b0-86a1b73ad584,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Internal" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="MaximumTargets" type="IntegerTableFieldDefinition" value="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="c4b28ad0-5d3b-4f66-9f33-0d7c82217257" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="4cab2089-4c14-44f6-9fe0-5421ec911552" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="f455729a-1c6d-4a9b-8a60-6a05ea057bb4" />
+        <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="b8091ea6-a6d8-4a78-bdb8-80ff1d5203d2" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1f65a29f-fe22-4b65-aad0-25bfd6b0c2a0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Enervation_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ea5d1ba3-0c89-4c81-aeb3-36a094388c30" />
+        <field name="ConcentrationSpellID" type="StringTableFieldDefinition" value="Shout_Enervation_6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Necrotic);RegainHitPoints(SELF,(DamageDone)/2);ApplyStatus(ENERVATION,100,10);ApplyStatus(SELF,ENERVATION_RECAST_6,100,10);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(3d8,Necrotic);RegainHitPoints(SELF,(DamageDone)/2);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="3d8;5d8" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Enervation" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7469e101-d9d5-42de-a7b3-b011001d65e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="DanseMacabre" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="52201d6c-6d5a-487c-af5b-7fbc7d3070f8" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IgnorePreviouslyPickedEntities;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a8e2407-e94d-4d71-b29c-e78ad44f3f78" />
+        <field name="Name" type="NameTableFieldDefinition" value="DanseMacabre_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7469e101-d9d5-42de-a7b3-b011001d65e9" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="6" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_DanseMacabre" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="841a5362-64d5-48ed-96b9-fa4096ee7e54" />
+        <field name="Name" type="NameTableFieldDefinition" value="__NECROMANCY__CONTAGION__" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f0254175-3720-4d33-bdf7-f266d0ecf813" />
@@ -5869,28 +5959,6 @@
         <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CONTAGION_SLIMY_DOOM,100,-1)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="7469e101-d9d5-42de-a7b3-b011001d65e9" />
-        <field name="Name" type="NameTableFieldDefinition" value="DanseMacabre" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="52201d6c-6d5a-487c-af5b-7fbc7d3070f8" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IgnorePreviouslyPickedEntities;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="3a8e2407-e94d-4d71-b29c-e78ad44f3f78" />
-        <field name="Name" type="NameTableFieldDefinition" value="DanseMacabre_6" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="7469e101-d9d5-42de-a7b3-b011001d65e9" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
-        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="6" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="6" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
-        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_DanseMacabre" />
-        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
