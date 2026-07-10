@@ -4825,3 +4825,27 @@ type "SpellData"
 data "SpellType" "Shout"
 using "Shout_FountOfMoonlight"
 
+new entry "Shout_HungeringBlade_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_HungeringBlade"
+
+new entry "Shout_TideOfDarkness_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_TideOfDarkness"
+
+new entry "Shout_AshardalonsStride_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_AshardalonsStride"
+
+new entry "Shout_CacophonicShield_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_CacophonicShield"
+
+new entry "Shout_FireDance_spellscroll"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FireDance"
