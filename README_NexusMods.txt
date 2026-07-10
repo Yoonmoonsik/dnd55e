@@ -110,11 +110,11 @@ Acid Splash, Blade Ward, Chill Touch, Eldritch Blast, Finger Guns, Frightful Sta
 [size=4][b]Leveled Spells[/b][/size]
 
 [list]
-[*][b]Level 1:[/b] Absorb Elements, Armor of Agathys, Ballistic Smite, Chromatic Orb, Cloak of Shadow, Color Spray, Cure Wounds, Divine Favor, Divine Smite, Entangle, Feather Fall, Guiding Bolt, Healing Word, Hell's Lash, Hex, Hunter's Mark, Inflict Wounds, Jump, Longstrider, Magic Missile, Ray of Sickness, Searing Smite, Sleep, Tasha's Hideous Laughter, Wardaway, Wrathful Smite.
-[*][b]Level 2:[/b] Aganazzar's Scorcher, Aid, Arcane Vigor, Blindness, Cloud of Daggers, Crown of Madness, Darkbolt, Darkness, Dazing Blast, Death Armor, Find Steed, Fire Rune, Flame Blade, Gust of Wind, Lesser Restoration, Magic Weapon, Melf's Acid Arrow, Mind Spike, Misty Step, Prayer of Healing, Ray of Enfeeblement, Searing Orb, Shadow Blade, Snilloc's Snowball Swarm, Spiritual Weapon, Summon Beast, Tasha's Mind Whip, Warding Bond.
-[*][b]Level 3:[/b] Astral Flood, Aura of Vitality, Bestow Curse, Blink, Conjure Barrage, Crusader's Mantle, Fear, Lightning Arrow, Mass Healing Word, Murmurs of Doom, Phantom Steed, Summon Fey, Tidal Wave, Trollblood Infusion, Void Strike.
-[*][b]Level 4:[/b] Banishment, Confusion, Dominate Beast, Fount of Moonlight, Ice Storm, Murder of Crows, Otiluke's Resilient Sphere, Phantasmal Killer, Polymorph, Stoneskin, Vitriolic Sphere.
-[*][b]Level 5:[/b] Cone of Cold, Contagion, Danse Macabre, Dominate Person, Hold Monster, Insect Plague, Mass Cure Wounds, Steel Wind Strike, Synaptic Static.
+[*][b]Level 1:[/b] Absorb Elements, Armor of Agathys, Ballistic Smite, Body Warping of Gorgoroth, Catapult, Chromatic Orb, Cloak of Shadow, Color Spray, Cure Wounds, Divine Favor, Divine Smite, Entangle, Feather Fall, Guiding Bolt, Healing Word, Hell's Lash, Hex, Hungering Blade, Hunter's Mark, Inflict Wounds, Jump, Longstrider, Magic Missile, Ray of Sickness, Searing Smite, Sleep, Spectral Slash, Tasha's Hideous Laughter, Thorn Armor, Tide of Darkness, Umbral Tendril, Wardaway, Wrathful Smite.
+[*][b]Level 2:[/b] Aganazzar's Scorcher, Aid, Arcane Vigor, Blindness, Cloud of Daggers, Crown of Madness, Darkbolt, Darkness, Dazing Blast, Death Armor, Dragon's Breath, Find Steed, Fire Rune, Flame Blade, Gust of Wind, Lesser Restoration, Magic Weapon, Melf's Acid Arrow, Mind Spike, Misty Step, Prayer of Healing, Ray of Enfeeblement, Searing Orb, Shadow Blade, Snilloc's Snowball Swarm, Spiritual Weapon, Summon Beast, Tasha's Mind Whip, Warding Bond.
+[*][b]Level 3:[/b] Ashardalon's Stride, Astral Flood, Aura of Vitality, Bestow Curse, Blink, Cacophonic Shield, Conjure Barrage, Crusader's Mantle, Elemental Exhalation, Fear, Laeral's Silver Lance, Lightning Arrow, Mass Healing Word, Murmurs of Doom, Phantom Steed, Summon Fey, Tidal Wave, Trollblood Infusion, Void Strike.
+[*][b]Level 4:[/b] Banishment, Confusion, Conjure Woodland Beings, Dominate Beast, Fount of Moonlight, Ice Storm, Murder of Crows, Otiluke's Resilient Sphere, Phantasmal Killer, Polymorph, Stoneskin, Vitriolic Sphere.
+[*][b]Level 5:[/b] Awaken, Cone of Cold, Contagion, Danse Macabre, Dominate Person, Hold Monster, Insect Plague, Mass Cure Wounds, Steel Wind Strike, Synaptic Static.
 [*][b]Level 6:[/b] Circle of Death, Disintegrate.
 [/list]
 
