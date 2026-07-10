@@ -1105,6 +1105,32 @@
         <field name="AuraStatuses" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="139e40f3-a2d5-4b86-afaa-c07c7b7bcac9" />
+        <field name="Name" type="NameTableFieldDefinition" value="CIRCLE_OF_POWER_AURA" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5f04addfg41ecgbc72gedadga5ba2a2eea90" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc52cdfedg87a2g694bg6d16g81bc875203c5" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_AuraOfDevotion" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CIRCLE_OF_POWER_AURA" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="9" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(not Enemy()):ApplyStatus(CIRCLE_OF_POWER)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="SpellResistance(Resistant);IF(HasSpellFlag(SpellFlags.Spell)):Advantage(AllSavingThrows);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="eab76c6a-a5a7-445b-8430-bfce0e7bb5ea" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="465061d3-ee02-4d1a-a492-b0aa12845e61" />
+        <field name="Name" type="NameTableFieldDefinition" value="CIRCLE_OF_POWER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5e4da7bfg3d53g34b0g1618g433a0364acc2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbf2c5134g52beg6d66g0aa1ga4e82c15a448" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_AuraOfDevotion" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CIRCLE_OF_POWER" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="SpellResistance(Resistant);IF(HasSpellFlag(SpellFlags.Spell)):Advantage(AllSavingThrows);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="eab76c6a-a5a7-445b-8430-bfce0e7bb5ea" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1fac10e1-f974-4943-ab3b-0a15f2d0d1a0" />

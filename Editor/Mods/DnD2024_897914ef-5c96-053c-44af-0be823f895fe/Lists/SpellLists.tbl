@@ -313,14 +313,14 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b73aeea5-1ff9-4cac-b61d-b5aa6dfe31c2" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 5 List" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Contagion;Target_CureWounds_Mass;Shout_DispelEvilAndGood;Target_FlameStrike;Target_GreaterRestoration;Target_InsectPlague;Target_PlanarBinding" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_CircleOfPower;Target_Contagion;Target_CureWounds_Mass;Shout_DispelEvilAndGood;Target_FlameStrike;Target_GreaterRestoration;Target_InsectPlague;Target_PlanarBinding" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="72106c32-784a-43c5-ba2d-10c2369eb5c8" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Cleric SLevel 5 List to Bard" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Contagion;Target_CureWounds_Mass;Shout_DispelEvilAndGood;Target_FlameStrike;Target_GreaterRestoration;Target_InsectPlague;Target_PlanarBinding" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_CircleOfPower;Target_Contagion;Target_CureWounds_Mass;Shout_DispelEvilAndGood;Target_FlameStrike;Target_GreaterRestoration;Target_InsectPlague;Target_PlanarBinding" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
@@ -2090,14 +2090,14 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f781a25e-d288-43b4-bf5d-3d8d98846687" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 5" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DanseMacabre;Target_DominatePerson;Target_Dream;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_CircleOfPower;Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DanseMacabre;Target_DominatePerson;Target_Dream;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="45afb374-c3e4-4d85-97a1-4dd6be40496e" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 5 to Bard" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DanseMacabre;Target_DominatePerson;Target_Dream;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_CircleOfPower;Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DanseMacabre;Target_DominatePerson;Target_Dream;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
       </fields>
     </stat_object>
@@ -2105,7 +2105,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dfd47382-14d1-40d6-b933-09aec5b100e1" />
         <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard SLevel 5 to 6" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DanseMacabre;Target_DominatePerson;Target_Dream;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_CircleOfPower;Target_Cloudkill;Zone_ConeOfCold;Target_ConjureElemental_Container;Target_DanseMacabre;Target_DominatePerson;Target_Dream;Target_HoldMonster;Target_PlanarBinding;Target_Seeming;Target_SteelWindStrike;Target_SynapticStatic;Throw_Telekinesis;Wall_WallOfStone" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="bc917f22-7f71-4a25-9a77-7d2f91a96a65" />
       </fields>
     </stat_object>
