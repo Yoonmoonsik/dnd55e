@@ -1,6 +1,6 @@
 # DnD 5.5e All-in-One BEYOND
 
-[DnD 5.5e All-in-One BEYOND](https://github.com/Yoonmoonsik/dnd55e) is a Baldur's Gate 3 mod project that brings a broad set of D&D 2024 / 5.5e-inspired rules, player options, spells, feats, equipment, and class updates into one package.
+[DnD 5.5e All-in-One BEYOND](https://github.com/Yoonmoonsik/dnd55e) is a Baldur's Gate 3 mod project that brings a broad set of D&D 5.5e-inspired rules, player options, spells, feats, equipment, and class updates into one package.
 
 For deeper gameplay notes, class details, spell behavior, item locations, and community-maintained documentation, see the [Wiki](https://github.com/Yoonmoonsik/dnd55e/wiki).
 
