@@ -50,7 +50,6 @@ local SPELL_CLASS_MAP = {
     Zone_AganazzarsScorcher_spellscroll = '2 Sorcerer Wizard',
     Shout_Aid_spellscroll = '2 Cleric Paladin',
     Target_ArcaneLock_spellscroll = '2 Wizard Artificer',
-    Shout_ArcaneVigor_spellscroll = '2 Sorcerer Warlock Wizard Artificer',
     Target_Blindness_spellscroll = '2 Bard Cleric Sorcerer Wizard',
     Shout_Blur_spellscroll = '2 Sorcerer Wizard Artificer',
     Target_CloudOfDaggers_spellscroll = '2 Bard Sorcerer Warlock Wizard',
@@ -342,7 +341,6 @@ function IsScrollSpell()
 	| SpellId('Target_EnlargeReduce_spellscroll')
 	| SpellId('Shout_FalseLife_spellscroll')
 	| SpellId('Target_Stoneskin_spellscroll')
-	| SpellId('Shout_ArcaneVigor_spellscroll')
 	| SpellId('Target_Longstrider_spellscroll')
 	| SpellId('Target_Banishment_spellscroll')
 	| SpellId('Zone_AganazzarsScorcher_spellscroll')

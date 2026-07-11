@@ -2891,7 +2891,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c3be68fb-18a3-49c3-a321-d85370178db4" />
         <field name="Name" type="NameTableFieldDefinition" value="WildShape_Combat_Heal" />
-        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_StarryWisp;Target_CureWounds;Target_Moonbeam;Target_PlantGrowth;Shout_FountOfMoonlight;Target_CureWounds_Mass;Target_MoonlightStep;" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_StarryWisp;Target_CureWounds;Target_Moonbeam;Target_PlantGrowth;Shout_FountOfMoonlight;Target_CureWounds_Mass;Target_MoonlightStep_Spell;" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_Heal" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8d0f6247g32e9g935cg8e24g277269d5eee0" version="1" />
@@ -5714,13 +5714,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="d4b00809-75b7-45d9-84a1-877f2b8da068" />
-        <field name="Name" type="NameTableFieldDefinition" value="ArcaneVigor_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="9d2df13c-143c-4a15-8c64-62476423723a" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b4aac164-230d-4791-a27e-2ea0a8449f25" />
         <field name="Name" type="NameTableFieldDefinition" value="ElminstersElusion_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="87b2a6aa-7d9e-4f93-93ec-3371d7b91b47" />
@@ -5743,44 +5736,44 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2ae5ace1-4080-4089-b592-26289a602632" />
-        <field name="Name" type="NameTableFieldDefinition" value="Shout_HungeringBlade_spellscroll" />
+        <field name="Name" type="NameTableFieldDefinition" value="HungeringBlade_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4c9d9555-2e6a-4935-b7a2-c96b08c77424" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cbe7c70b-fc71-4bbe-8578-06d52b17a53d" />
-        <field name="Name" type="NameTableFieldDefinition" value="Shout_TideOfDarkness_spellscroll" />
+        <field name="Name" type="NameTableFieldDefinition" value="TideOfDarkness_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="851038b8-b168-4a0a-bac7-a72085d4e32a" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f1f046ba-2158-4992-96cc-c33cdabc96b7" />
-        <field name="Name" type="NameTableFieldDefinition" value="Shout_AshardalonsStride_spellscroll" />
+        <field name="Name" type="NameTableFieldDefinition" value="AshardalonsStride_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fa320ee8-c8bb-4949-bd0e-2c0258c5297d" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="de3f7d21-4791-4e25-ab79-08a7d7d7d9d2" />
-        <field name="Name" type="NameTableFieldDefinition" value="Shout_CacophonicShield_spellscroll" />
+        <field name="Name" type="NameTableFieldDefinition" value="CacophonicShield_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7127103d-4568-4297-9df9-ff7aa8d6b8bc" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0a89b401-00e4-4e58-a069-b26ff784a4f3" />
-        <field name="Name" type="NameTableFieldDefinition" value="Shout_FireDance_spellscroll" />
+        <field name="Name" type="NameTableFieldDefinition" value="FireDance_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="dd4e2e47-d691-4acd-8cb1-3c1612338dc7" />
       </fields>
     </stat_object>
-      <stat_object is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ebef070f-ac0a-4aa0-b90b-2fc31074b89b" />
-        <field name="Name" type="NameTableFieldDefinition" value="Shout_CircleOfPower_spellscroll" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfPower_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5a11e406-fb99-471c-8d6c-063b5ba68beb" />
       </fields>
     </stat_object>
-</stat_objects>
+  </stat_objects>
 </stats>
