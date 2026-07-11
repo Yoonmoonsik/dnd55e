@@ -25,29 +25,11 @@ For gameplay examples, build ideas, and practical references, check the playthro
 
 ## Rules and Actions
 
-### Basic Rules
-
-- Bloodied
-- Equipping Weapons
-- Extra Attack, including War Magic integration
-- Heavy Armor Strength Requirement
-- Heavy Weapon Ability Requirement
-- Hiding
-- Hit Point Dice
-- Inspiration from Background
-- One Spell Slot Spell per Turn
-- Prone
-- Spell Scroll Usage Limitation
-- Weapon Mastery
-
-### Common Actions
-
-- Distract
-- Dodge
-- Hide
-- Jump
-- Shove
-- Topple
+- **Action Economy**: Equipping Weapons, Extra Attack (including War Magic integration), One Spell Slot Spell per Turn, Shove, Topple
+- **Conditions**: Bloodied, Hide/Hiding, Prone
+- **Rest and Recovery**: Hit Point Dice, Inspiration from Background
+- **Equipment and Items**: Heavy Armor Strength Requirement, Heavy Weapon Ability Requirement, Spell Scroll Usage Limitation, Weapon Mastery
+- **Other Actions**: Distract, Dodge, Jump
 
 ## Character Backgrounds
 
