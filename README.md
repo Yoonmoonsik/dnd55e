@@ -65,21 +65,13 @@ See the [Wiki](https://github.com/Yoonmoonsik/dnd55e/wiki) and each class page f
 
 See [Feat](https://github.com/Yoonmoonsik/dnd55e/wiki/Feats).
 
+Actor, Alert, Altered, Athlete, Charger, Charm Twister, Cold Caster, Crossbow Expert, Crusher, Cult of the Dragon Initiate, Deadly Archery, Death Defier, Defensive Duelist, Dragon Fear, Dragon Hide, Dragonscarred, Dragon-Slayer, Dual Wielder, Dungeon Delver, Durable, Dwarven Fortitude, Eldritch Adept, Elemental Adept, Elven Accuracy, Emerald Enclave Fledgling, Enclave Magic, Fade Away, Fairy Trickster, Fey Touched, Fierce Shot, Fighting Initiate, Flames of Phlegethos, Genie Magic, Gleam of Wrath, Grave Keeper, Great Weapon Master, Harper Agent, Harper Teamwork, Healer, Heavily Armored, Heavy Armor Master, Infernal Constitution, Inspiring Leader, Lightly Armored, Lordly Resolve, Lords' Alliance Agent, Lucky, Mage Slayer, Magic Initiate: Cleric, Magic Initiate: Druid, Magic Initiate: Wizard, Martial Adept, Medium Armor Master, Moderately Armored, Mounted Combatant, Musician, Mythal Touched, Nimbleness, Orcish Fury, Order's Resilience, Piercer, Poisoner, Polearm Master, Purple Dragon Commandant, Purple Dragon Rook, Resilient, Ritual Caster, Rune Shaper, Savage Attacker, Sentinel, Shadow Touched, Sharpshooter, Shield Master, Skill Expert, Skilled, Skulker, Slasher, Speedy, Spellfire Adept, Spellfire Spark, Spell Sniper, Squat Nimbleness, Swift Witchcraft, Tavern Brawler, Tough, Tyro of the Gauntlet, War Caster, Weapon Master, Zhentarim Ruffian, Zhentarim Tactics.
+
 ### Fighting Styles
 
+See [Fighting Styles](https://github.com/Yoonmoonsik/dnd55e/wiki/Fighting-Styles).
+
 Archery, Blind Fighting, Defense, Dueling, Great Weapon Fighting, Interception, Protection, Thrown Weapon Fighting, Two-Weapon Fighting, Unarmed Fighting.
-
-### Player's Handbook
-
-- Origin Feats: Alert, Lucky, Magic Initiate: Cleric, Magic Initiate: Druid, Magic Initiate: Wizard, Musician, Savage Attacker, Skilled, Tavern Brawler, Tough, Healer.
-- General Feats: Actor, Athlete, Charger, Crossbow Expert, Death Defier, Defensive Duelist, Dual Wielder, Dungeon Delver, Durable, Elemental Adept, Great Weapon Master, Heavily Armored, Heavy Armor Master, Lightly Armored, Mage Slayer, Martial Adept, Medium Armor Master, Moderately Armored, Polearm Master, Resilient, Ritual Caster, Rune Shaper, Sentinel, Sharpshooter, Shield Master, Speedy, Spell Sniper, Swift Witchcraft, War Caster, Weapon Master, Crusher, Fey Touched, Inspiring Leader, Mounted Combatant, Piercer, Poisoner, Shadow Touched, Skill Expert, Skulker, Slasher.
-
-### Additional Sources
-
-- Xanathar's Guide to Everything: Dragon Fear, Dragon Hide, Dwarven Fortitude, Elven Accuracy, Fade Away, Flames of Phlegethos, Infernal Constitution, Orcish Fury, Squat Nimbleness.
-- Tasha's Cauldron of Everything: Eldritch Adept, Fighting Initiate, Metamagic Adept.
-- Forgotten Realms: Heroes of Faerun: Cult of the Dragon Initiate, Emerald Enclave Fledgling, Harper Agent, Lords' Alliance Agent, Purple Dragon Rook, Spellfire Spark, Tyro of the Gauntlet, Zhentarim Ruffian, Cold Caster, Dragonscarred, Enclave Magic, Fairy Trickster, Genie Magic, Harper Teamwork, Lordly Resolve, Mythal Touched, Order's Resilience, Purple Dragon Commandant, Spellfire Adept, Zhentarim Tactics.
-- The Lord of The Ring Roleplaying: Deadly Archery, Dragon-Slayer, Fierce Shot, Gleam of Wrath, Nimbleness.
 
 ## Races and Species
 
