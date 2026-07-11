@@ -3098,6 +3098,11 @@ type "SpellData"
 data "SpellType" "Projectile"
 using "Projectile_ChromaticOrb"
 
+new entry "Projectile_BallisticSmite_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_BallisticSmite_Acid"
+
 new entry "Projectile_FireBolt_spellscroll"
 type "SpellData"
 data "SpellType" "Projectile"
@@ -3193,12 +3198,8 @@ type "SpellData"
 data "SpellType" "Projectile"
 using "Projectile_VitriolicSphere"
 
-new entry "Projectile_BallisticSmite_spellscroll"
-type "SpellData"
-data "SpellType" "Projectile"
-using "Projectile_BallisticSmite"
-
 new entry "Projectile_Catapult_spellscroll"
 type "SpellData"
 data "SpellType" "Projectile"
 using "Projectile_Catapult"
+

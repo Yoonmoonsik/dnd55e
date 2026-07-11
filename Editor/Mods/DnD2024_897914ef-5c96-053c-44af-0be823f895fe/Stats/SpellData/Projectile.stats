@@ -3667,6 +3667,13 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f106f98-ba6b-47ae-b703-1fd2ce432377" />
+        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="45a88ff6-2149-4e72-82db-43d2ef8e497f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="769e6898-7bb8-4918-8484-27c57834cca4" />
         <field name="Name" type="NameTableFieldDefinition" value="FireBolt_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8a1e2663-731b-4b88-a2ce-d310746ff110" />
@@ -3798,13 +3805,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="8733bdc5-42a9-4b99-a12a-e5e54add7a8b" />
       </fields>
     </stat_object>
-      <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="3f106f98-ba6b-47ae-b703-1fd2ce432377" />
-        <field name="Name" type="NameTableFieldDefinition" value="BallisticSmite_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="da081c4f-1e25-4429-b6ec-6276bad835f2" />
-      </fields>
-    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="19e595ef-982d-4958-867a-16f58a498a20" />
@@ -3812,5 +3812,5 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="68837c07-c86b-4803-b7cc-923e5142505d" />
       </fields>
     </stat_object>
-</stat_objects>
+  </stat_objects>
 </stats>

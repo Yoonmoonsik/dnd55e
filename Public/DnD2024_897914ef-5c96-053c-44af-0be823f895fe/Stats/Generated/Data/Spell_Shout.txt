@@ -4805,11 +4805,6 @@ type "SpellData"
 data "SpellType" "Shout"
 using "Shout_CloakOfShadow"
 
-new entry "Shout_ArcaneVigor_spellscroll"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_ArcaneVigor"
-
 new entry "Shout_ElminstersElusion_spellscroll"
 type "SpellData"
 data "SpellType" "Shout"
