@@ -1797,7 +1797,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="d8ae5941-e009-4087-ba21-4eb9684e36e5" />
       </fields>
     </stat_object>
-      <stat_object is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="20f43f10-c22b-4533-8e73-0fe8e2c796a1" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_spellscroll" />
@@ -1811,5 +1811,12 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="b14dbb4f-541e-4f72-b264-f903ea91503f" />
       </fields>
     </stat_object>
-</stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c496ab60-9f70-4355-be15-841b8d0eb050" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureBarrage_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="24386609-17dd-4c11-8373-d5b343fd9793" />
+      </fields>
+    </stat_object>
+  </stat_objects>
 </stats>

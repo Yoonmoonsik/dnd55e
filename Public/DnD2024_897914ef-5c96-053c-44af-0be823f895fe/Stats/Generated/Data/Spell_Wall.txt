@@ -17,3 +17,13 @@ type "SpellData"
 data "SpellType" "Wall"
 using "Wall_WallOfStone"
 
+new entry "Wall_BladeBarrier_spellscroll"
+type "SpellData"
+data "SpellType" "Wall"
+using "Wall_BladeBarrier"
+
+new entry "Wall_WallOfThorns_spellscroll"
+type "SpellData"
+data "SpellType" "Wall"
+using "Wall_WallOfThorns"
+

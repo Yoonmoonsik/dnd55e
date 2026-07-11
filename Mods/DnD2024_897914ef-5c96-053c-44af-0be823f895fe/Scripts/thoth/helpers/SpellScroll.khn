@@ -46,6 +46,30 @@ local SPELL_CLASS_MAP = {
     Target_ThornArmor_spellscroll = '1 Druid Ranger',
     Target_UmbralTendril_spellscroll = '1 Sorcerer Warlock Wizard',
     Target_Hex_spellscroll = '1 Warlock',
+    Shout_ArmorOfAgathys_spellscroll = '1 Warlock',
+    Shout_ArmsOfHadar_spellscroll = '1 Warlock',
+    Target_Bane_spellscroll = '1 Bard Cleric Warlock',
+    Target_Bless_spellscroll = '1 Cleric Paladin',
+    Target_Command_spellscroll = '1 Bard Cleric Paladin',
+    Target_CompelledDuel_spellscroll = '1 Paladin',
+    Target_CreateDestroyWater_spellscroll = '1 Cleric Druid',
+    Target_CureWounds_spellscroll = '1 Artificer Bard Cleric Druid Paladin Ranger',
+    Target_DissonantWhispers_spellscroll = '1 Bard',
+    Shout_DivineFavor_spellscroll = '1 Paladin',
+    Projectile_EnsnaringStrike_spellscroll = '1 Ranger',
+    Target_Entangle_spellscroll = '1 Druid Ranger',
+    Target_FaerieFire_spellscroll = '1 Artificer Bard Druid',
+    Projectile_GuidingBolt_spellscroll = '1 Cleric',
+    Projectile_HailOfThorns_spellscroll = '1 Ranger',
+    Target_HealingWord_spellscroll = '1 Bard Cleric Druid',
+    Target_Heroism_spellscroll = '1 Bard Paladin',
+    Target_HuntersMark_spellscroll = '1 Ranger',
+    Target_InflictWounds_spellscroll = '1 Cleric',
+    Target_Sanctuary_spellscroll = '1 Artificer Cleric',
+    Target_SearingSmite_spellscroll = '1 Paladin',
+    Target_ShieldOfFaith_spellscroll = '1 Cleric Paladin',
+    Shout_SpeakWithAnimals_spellscroll = '1 Bard Druid Ranger Warlock',
+    Target_ThunderousSmite_spellscroll = '1 Paladin',
 
     Projectile_AcidArrow_spellscroll = '2 Wizard',
     Zone_AganazzarsScorcher_spellscroll = '2 Sorcerer Wizard',
@@ -86,6 +110,22 @@ local SPELL_CLASS_MAP = {
     Target_SummonBeast_spellscroll = '2 Druid Ranger',
     Target_Web_spellscroll = '2 Sorcerer Wizard',
     Target_DragonsBreath_spellscroll = '2 Artificer Sorcerer Wizard',
+    Target_Barkskin_spellscroll = '2 Druid Ranger',
+    Target_BrandingSmite_spellscroll = '2 Paladin',
+    Target_CalmEmotions_spellscroll = '2 Bard Cleric',
+    Target_EnhanceAbility_spellscroll = '2 Artificer Bard Cleric Druid Ranger Sorcerer Wizard',
+    Target_Enthrall_spellscroll = '2 Bard',
+    Target_HeatMetal_spellscroll = '2 Artificer Bard Druid',
+    Target_LesserRestoration_spellscroll = '2 Artificer Bard Cleric Druid Paladin Ranger',
+    Target_Moonbeam_spellscroll = '2 Druid',
+    Shout_PassWithoutTrace_spellscroll = '2 Druid Ranger',
+    Shout_PrayerOfHealing_spellscroll = '2 Cleric Paladin',
+    Target_ProtectionFromPoison_spellscroll = '2 Artificer Cleric Druid Paladin Ranger',
+    Shout_ShadowBlade_spellscroll = '2 Sorcerer Warlock Wizard',
+    Target_Silence_spellscroll = '2 Bard Cleric Ranger',
+    Target_SpikeGrowth_spellscroll = '2 Druid Ranger',
+    Target_SpiritualWeapon_spellscroll = '2 Cleric',
+    Target_WardingBond_spellscroll = '2 Cleric Paladin',
 
     Target_AnimateDead_spellscroll = '3 Cleric Warlock Wizard',
     Zone_AstralFlood_spellscroll = '3 Bard Sorcerer Wizard',
@@ -119,6 +159,18 @@ local SPELL_CLASS_MAP = {
     Zone_LaeralsSilverLance_spellscroll = '3 Cleric Sorcerer Wizard',
     Shout_AuraOfVitality_spellscroll = '3 Cleric Druid Paladin',
     Target_PhantomSteed_spellscroll = '3 Wizard',
+    Shout_BeaconOfHope_spellscroll = '3 Cleric',
+    Target_BlindingSmite_spellscroll = '3 Paladin',
+    Target_CallLightning_spellscroll = '3 Druid',
+    Zone_ConjureBarrage_spellscroll = '3 Ranger',
+    Shout_CrusadersMantle_spellscroll = '3 Paladin',
+    Target_Daylight_spellscroll = '3 Cleric Druid Paladin Ranger Sorcerer',
+    Target_ElementalWeapon_spellscroll = '3 Artificer Druid Paladin Ranger',
+    Target_HungerOfHadar_spellscroll = '3 Warlock',
+    Projectile_LightningArrow_spellscroll = '3 Ranger',
+    Shout_MassHealingWord_spellscroll = '3 Bard Cleric',
+    Target_PlantGrowth_spellscroll = '3 Bard Druid Ranger',
+    Shout_SpiritGuardians_spellscroll = '3 Cleric',
 
     Target_Banishment_spellscroll = '4 Cleric Sorcerer Warlock Wizard',
     Target_BlackTentacles_spellscroll = '4 Wizard',
@@ -140,6 +192,12 @@ local SPELL_CLASS_MAP = {
     Projectile_VitriolicSphere_spellscroll = '4 Sorcerer Wizard',
     Wall_WallOfFire_spellscroll = '4 Druid Sorcerer Wizard',
     Shout_FireDance_spellscroll = '4 Bard Sorcerer Warlock Wizard',
+    Target_ConjureWoodlandBeings_spellscroll = '4 Druid',
+    Target_DeathWard_spellscroll = '4 Cleric',
+    Target_DominateBeast_spellscroll = '4 Druid Sorcerer',
+    Target_FreedomOfMovement_spellscroll = '4 Bard Cleric Druid',
+    Target_GraspingVine_spellscroll = '4 Druid',
+    Target_GuardianOfFaith_spellscroll = '4 Cleric',
 
     Target_Cloudkill_spellscroll = '5 Sorcerer Wizard',
     Zone_ConeOfCold_spellscroll = '5 Druid Sorcerer Wizard',
@@ -157,6 +215,12 @@ local SPELL_CLASS_MAP = {
     Target_Enervation_spellscroll = '5 Sorcerer Warlock Wizard',
     Shout_CircleOfPower_spellscroll = '5 Cleric Wizard',
     Target_Contagion_spellscroll = '5 Cleric Druid',
+    Target_DanseMacabre_spellscroll = '5 Warlock Wizard',
+    Shout_DispelEvilAndGood_spellscroll = '5 Cleric',
+    Target_FlameStrike_spellscroll = '5 Cleric',
+    Target_GreaterRestoration_spellscroll = '5 Bard Cleric Druid',
+    Target_InsectPlague_spellscroll = '5 Cleric Druid Sorcerer',
+    Target_MassCureWounds_spellscroll = '5 Bard Cleric Druid',
 
     Projectile_ChainLightning_spellscroll = '6 Sorcerer Wizard',
     Target_CircleOfDeath_spellscroll = '6 Sorcerer Warlock Wizard',
@@ -168,6 +232,15 @@ local SPELL_CLASS_MAP = {
     Target_IrresistibleDance_spellscroll = '6 Bard Wizard',
     Zone_Sunbeam_spellscroll = '6 Cleric Druid Sorcerer Wizard',
     Wall_WallOfIce_spellscroll = '6 Wizard',
+    Teleportation_ArcaneGate_spellscroll = '6 Sorcerer Wizard',
+    Wall_BladeBarrier_spellscroll = '6 Cleric',
+    Target_CreateUndead_spellscroll = '6 Cleric Wizard',
+    Target_Harm_spellscroll = '6 Cleric',
+    Target_Heal_spellscroll = '6 Cleric Druid',
+    Shout_HeroesFeast_spellscroll = '6 Bard Cleric Druid',
+    Target_PlanarAlly_spellscroll = '6 Cleric',
+    Wall_WallOfThorns_spellscroll = '6 Druid',
+    Shout_WindWalk_spellscroll = '6 Bard Druid',
 }
 
 
@@ -450,4 +523,96 @@ function IsScrollSpell()
 	| SpellId('Projectile_SorcerousBurst_spellscroll')
 	| SpellId('Target_Hex_spellscroll')
 	| SpellId('Target_Contagion_spellscroll')
+	| SpellId('Projectile_AcidSplash_spellscroll')
+	| SpellId('Shout_BladeWard_spellscroll')
+	| SpellId('Target_BurstingSinew_spellscroll')
+	| SpellId('Target_DancingLights_spellscroll')
+	| SpellId('Target_Friends_spellscroll')
+	| SpellId('Target_Guidance_spellscroll')
+	| SpellId('Target_Light_spellscroll')
+	| SpellId('Target_MageHand_spellscroll')
+	| SpellId('Target_MinorIllusion_spellscroll')
+	| SpellId('Projectile_PoisonSpray_spellscroll')
+	| SpellId('Shout_ProduceFlame_spellscroll')
+	| SpellId('Target_Resistance_spellscroll')
+	| SpellId('Target_SacredFlame_spellscroll')
+	| SpellId('Shout_Shillelagh_spellscroll')
+	| SpellId('Shout_Thaumaturgy_spellscroll')
+	| SpellId('Target_ThornWhip_spellscroll')
+	| SpellId('Target_TollTheDead_spellscroll')
+	| SpellId('Target_TrueStrike_spellscroll')
+	| SpellId('Target_ViciousMockery_spellscroll')
+	| SpellId('Shout_ArmorOfAgathys_spellscroll')
+	| SpellId('Shout_ArmsOfHadar_spellscroll')
+	| SpellId('Target_Bane_spellscroll')
+	| SpellId('Target_Bless_spellscroll')
+	| SpellId('Target_Command_spellscroll')
+	| SpellId('Target_CompelledDuel_spellscroll')
+	| SpellId('Target_CreateDestroyWater_spellscroll')
+	| SpellId('Target_CureWounds_spellscroll')
+	| SpellId('Target_DissonantWhispers_spellscroll')
+	| SpellId('Shout_DivineFavor_spellscroll')
+	| SpellId('Projectile_EnsnaringStrike_spellscroll')
+	| SpellId('Target_Entangle_spellscroll')
+	| SpellId('Target_FaerieFire_spellscroll')
+	| SpellId('Projectile_GuidingBolt_spellscroll')
+	| SpellId('Projectile_HailOfThorns_spellscroll')
+	| SpellId('Target_HealingWord_spellscroll')
+	| SpellId('Target_Heroism_spellscroll')
+	| SpellId('Target_HuntersMark_spellscroll')
+	| SpellId('Target_InflictWounds_spellscroll')
+	| SpellId('Target_Sanctuary_spellscroll')
+	| SpellId('Target_SearingSmite_spellscroll')
+	| SpellId('Target_ShieldOfFaith_spellscroll')
+	| SpellId('Shout_SpeakWithAnimals_spellscroll')
+	| SpellId('Target_ThunderousSmite_spellscroll')
+	| SpellId('Target_Barkskin_spellscroll')
+	| SpellId('Target_BrandingSmite_spellscroll')
+	| SpellId('Target_CalmEmotions_spellscroll')
+	| SpellId('Target_EnhanceAbility_spellscroll')
+	| SpellId('Target_Enthrall_spellscroll')
+	| SpellId('Target_HeatMetal_spellscroll')
+	| SpellId('Target_LesserRestoration_spellscroll')
+	| SpellId('Target_Moonbeam_spellscroll')
+	| SpellId('Shout_PassWithoutTrace_spellscroll')
+	| SpellId('Shout_PrayerOfHealing_spellscroll')
+	| SpellId('Target_ProtectionFromPoison_spellscroll')
+	| SpellId('Shout_ShadowBlade_spellscroll')
+	| SpellId('Target_Silence_spellscroll')
+	| SpellId('Target_SpikeGrowth_spellscroll')
+	| SpellId('Target_SpiritualWeapon_spellscroll')
+	| SpellId('Target_WardingBond_spellscroll')
+	| SpellId('Shout_BeaconOfHope_spellscroll')
+	| SpellId('Target_BlindingSmite_spellscroll')
+	| SpellId('Target_CallLightning_spellscroll')
+	| SpellId('Zone_ConjureBarrage_spellscroll')
+	| SpellId('Shout_CrusadersMantle_spellscroll')
+	| SpellId('Target_Daylight_spellscroll')
+	| SpellId('Target_ElementalWeapon_spellscroll')
+	| SpellId('Target_HungerOfHadar_spellscroll')
+	| SpellId('Projectile_LightningArrow_spellscroll')
+	| SpellId('Shout_MassHealingWord_spellscroll')
+	| SpellId('Target_PlantGrowth_spellscroll')
+	| SpellId('Shout_SpiritGuardians_spellscroll')
+	| SpellId('Target_ConjureWoodlandBeings_spellscroll')
+	| SpellId('Target_DeathWard_spellscroll')
+	| SpellId('Target_DominateBeast_spellscroll')
+	| SpellId('Target_FreedomOfMovement_spellscroll')
+	| SpellId('Target_GraspingVine_spellscroll')
+	| SpellId('Target_GuardianOfFaith_spellscroll')
+	| SpellId('Target_DanseMacabre_spellscroll')
+	| SpellId('Shout_DispelEvilAndGood_spellscroll')
+	| SpellId('Target_FlameStrike_spellscroll')
+	| SpellId('Target_GreaterRestoration_spellscroll')
+	| SpellId('Target_InsectPlague_spellscroll')
+	| SpellId('Target_MassCureWounds_spellscroll')
+	| SpellId('Teleportation_ArcaneGate_spellscroll')
+	| SpellId('Wall_BladeBarrier_spellscroll')
+	| SpellId('Target_CreateUndead_spellscroll')
+	| SpellId('Target_Harm_spellscroll')
+	| SpellId('Target_Heal_spellscroll')
+	| SpellId('Shout_HeroesFeast_spellscroll')
+	| SpellId('Target_PlanarAlly_spellscroll')
+	| SpellId('Wall_WallOfThorns_spellscroll')
+	| SpellId('Shout_WindWalk_spellscroll')
 end

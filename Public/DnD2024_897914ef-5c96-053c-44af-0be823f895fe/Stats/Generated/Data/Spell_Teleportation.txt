@@ -87,3 +87,8 @@ type "SpellData"
 data "SpellType" "Teleportation"
 using "Teleportation_DimensionDoor"
 
+new entry "Teleportation_ArcaneGate_spellscroll"
+type "SpellData"
+data "SpellType" "Teleportation"
+using "Teleportation_ArcaneGate"
+

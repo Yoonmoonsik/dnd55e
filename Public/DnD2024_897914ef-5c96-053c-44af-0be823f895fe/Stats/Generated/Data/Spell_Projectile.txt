@@ -3223,3 +3223,33 @@ type "SpellData"
 data "SpellType" "Projectile"
 using "Projectile_SorcerousBurst_1"
 
+new entry "Projectile_AcidSplash_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_AcidSplash"
+
+new entry "Projectile_PoisonSpray_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_PoisonSpray"
+
+new entry "Projectile_EnsnaringStrike_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_EnsnaringStrike"
+
+new entry "Projectile_GuidingBolt_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_GuidingBolt"
+
+new entry "Projectile_HailOfThorns_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_HailOfThorns"
+
+new entry "Projectile_LightningArrow_spellscroll"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_LightningArrow"
+
