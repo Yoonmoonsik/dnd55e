@@ -3726,7 +3726,7 @@ data "StackType" "Overwrite"
 data "Boosts" "IF(HasPassive('Elemental_11_StrideOfTheElement',context.Source)):UnlockSpell(Projectile_Fly_Monk);"
 data "Passives" "ElementalAttunement_Acid;ElementalAttunement_Cold;ElementalAttunement_Fire;ElementalAttunement_Lightning;ElementalAttunement_Thunder;ElementalAttunement_Reach;ElementalAttunement_Push;ElementalAttunement_Pull;"
 data "StatusGroups" "SG_RemoveOnRespec"
-data "StatusEffect" "eeb2f0ba-c0fe-4435-864c-17a2847ef9a7"
+data "StatusEffect" "e9166c42-4fa5-42dd-afb7-36446e0609f4"
 
 new entry "HAND_OF_HEALING"
 type "StatusData"

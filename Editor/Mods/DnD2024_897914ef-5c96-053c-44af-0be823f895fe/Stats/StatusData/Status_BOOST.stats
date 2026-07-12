@@ -4623,7 +4623,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_HarmonyOfFireAndWater" />
         <field name="StackId" type="StringTableFieldDefinition" value="MONK_ELEMENTAL_ATTUNEMENT" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
-        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="eeb2f0ba-c0fe-4435-864c-17a2847ef9a7" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="e9166c42-4fa5-42dd-afb7-36446e0609f4" />
         <field name="Passives" type="StringTableFieldDefinition" value="ElementalAttunement_Acid;ElementalAttunement_Cold;ElementalAttunement_Fire;ElementalAttunement_Lightning;ElementalAttunement_Thunder;ElementalAttunement_Reach;ElementalAttunement_Push;ElementalAttunement_Pull;" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasPassive('Elemental_11_StrideOfTheElement',context.Source)):UnlockSpell(Projectile_Fly_Monk);" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
