@@ -3,12 +3,117 @@
   <stat_objects>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_44" />
+        <field name="UUID" type="IdTableFieldDefinition" value="da27c2d9-64fc-4c5c-a49b-c318e1cfcf15" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="229c98da-2cd1-4a5e-8051-9d90ec7931e7" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Add" type="StringTableFieldDefinition" value="Target_DancingLights;Target_ViciousMockery" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="BardCantrip" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Bard Cantrips" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_45" />
+        <field name="UUID" type="IdTableFieldDefinition" value="da6f4c28-e457-4fc1-ab56-8ab414d09a80" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="229c98da-2cd1-4a5e-8051-9d90ec7931e7" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Add" type="StringTableFieldDefinition" value="Target_CharmPerson;Zone_ColorSpray;Target_DissonantWhispers;Target_HealingWord" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="BardSpells" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Bard Level 1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_24" />
+        <field name="UUID" type="IdTableFieldDefinition" value="815c9bd6-538a-4460-8b9e-c94384a438ed" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="64474b62-b4f5-46b3-b94a-c676c6da3116" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Add" type="StringTableFieldDefinition" value="Target_Guidance;Target_SacredFlame;Shout_Thaumaturgy" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Cleric" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_35" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dea46e55-dda3-4046-99c1-f452c69f7db1" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="6e7b7bad-e122-4679-8b3c-8f8987a9d466" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Add" type="StringTableFieldDefinition" value="Shout_ProduceFlame;Target_Guidance" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Druid" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="75d8b14c-760a-4f05-95d8-b1adfc39c8eb" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="2db3f02e-dfa9-4235-b9bd-28a89bf41435" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
+        <field name="Add" type="StringTableFieldDefinition" value="Projectile_RayOfFrost;Target_ShockingGrasp" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Eldritch Knight" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1750444f-a8ac-4860-bbeb-ad35136177d2" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="2db3f02e-dfa9-4235-b9bd-28a89bf41435" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
+        <field name="Add" type="StringTableFieldDefinition" value="Zone_BurningHands;Target_Jump;Shout_Shield_Wizard" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Eldritch Knight" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a29cde5d-4a81-4f26-b215-898d76d14b36" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="7205dbe2-5eef-4cd6-ad7f-45b3dc254f78" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
+        <field name="Add" type="StringTableFieldDefinition" value="Target_MindSliver;Target_MinorIllusion" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Arcane Trickster" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="22917f92-60b5-4399-ae9a-7fd0ebdc9015" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="7205dbe2-5eef-4cd6-ad7f-45b3dc254f78" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
+        <field name="Add" type="StringTableFieldDefinition" value="Target_CharmPerson;Shout_DisguiseSelf;Target_FogCloud" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Arcane Trickster" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_38" />
+        <field name="UUID" type="IdTableFieldDefinition" value="07fb60ab-d647-4943-9cc5-aadfa64bb6cb" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Add" type="StringTableFieldDefinition" value="Target_Light;Shout_Prestidigitation;Target_ShockingGrasp;Projectile_SorcerousBurst" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="SorcererCantrip" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Sorcerer Cantrips" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_39" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d53e45da-d34a-417c-897e-f4190e5b015e" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Add" type="StringTableFieldDefinition" value="Zone_BurningHands;Target_MageArmor" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="SorcererSpell" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Sorcerer Spells" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
         <field name="UUID" type="IdTableFieldDefinition" value="b5af7877-75d9-4384-89ae-436744cbd5cd" />
         <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="a7a958f1-d858-4021-9fa7-cf87e7d71377" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
-        <field name="Add" type="StringTableFieldDefinition" value="Projectile_EldritchBlast;Target_ChillTouch" />
+        <field name="Add" type="StringTableFieldDefinition" value="Projectile_EldritchBlast;Shout_Prestidigitation" />
         <field name="SelectorId" type="StringTableFieldDefinition" value="WarlockCantrip" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Warlock Cantrip" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17,8 +122,60 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a67c5f08-ec51-4d3e-8879-29cb5273df82" />
         <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="a7a958f1-d858-4021-9fa7-cf87e7d71377" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
-        <field name="Add" type="StringTableFieldDefinition" value="Target_Hex;Shout_ArmorOfAgathys" />
+        <field name="Add" type="StringTableFieldDefinition" value="Target_CharmPerson;Target_Hex" />
         <field name="SelectorId" type="StringTableFieldDefinition" value="WarlockSpell" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Warlock Spell" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c67ec31c-b43f-4a8e-813a-48f4318af526" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="a7a958f1-d858-4021-9fa7-cf87e7d71377" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Add" type="StringTableFieldDefinition" value="Shout_ArmorOfAgathys" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Warlock Level 2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4d02bfc1-75e6-42eb-acd9-126e65f43862" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="d18eda7e-4b7d-490d-9952-cd33a3c60479" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Add" type="StringTableFieldDefinition" value="Target_Light;Target_MageHand;Projectile_RayOfFrost;Target_MageArmor;Projectile_MagicMissile;Target_Grease;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Wizard" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_32" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7c0e63c3-791a-43ed-92fe-aa2514b43cf9" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="d18eda7e-4b7d-490d-9952-cd33a3c60479" />
+        <field name="Origin" type="GuidTableFieldDefinition" value="35c3caad-5543-4593-be75-e7deba30f062" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Add" type="StringTableFieldDefinition" value="Target_Light;Target_MageHand;Projectile_RayOfFrost;Target_MageArmor;Projectile_MagicMissile;Target_Grease;Target_Sleep;Zone_Thunderwave;Projectile_WitchBolt" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Gale" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b23e9eca-2ce8-479e-bd9a-0f358d2e95f0" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="d18eda7e-4b7d-490d-9952-cd33a3c60479" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Add" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb;Shout_Shield_Wizard" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Wizard Level 2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4a9ebc88-c282-4442-9697-235959b2fc31" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="d18eda7e-4b7d-490d-9952-cd33a3c60479" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Add" type="StringTableFieldDefinition" value="Target_Longstrider_Ritual" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Wizard Level 2 Ritual Adept" />
       </fields>
     </stat_object>
   </stat_objects>

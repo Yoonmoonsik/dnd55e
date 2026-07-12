@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="Prepare" type="LSString" value="Target_AnimalFriendship;Target_CureWounds;Target_FaerieFire;Zone_Thunderwave"/>
+                    <attribute id="TableUUID" type="guid" value="6e7b7bad-e122-4679-8b3c-8f8987a9d466"/>
+                    <attribute id="UUID" type="guid" value="4be2ec7e-e6f4-4762-8854-34cb71bb7325"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="Prepare" type="LSString" value="Target_Bless;Target_CureWounds;Projectile_GuidingBolt;Target_ShieldOfFaith"/>
+                    <attribute id="TableUUID" type="guid" value="64474b62-b4f5-46b3-b94a-c676c6da3116"/>
+                    <attribute id="UUID" type="guid" value="27ebe84d-b634-4c50-971b-81332474da02"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

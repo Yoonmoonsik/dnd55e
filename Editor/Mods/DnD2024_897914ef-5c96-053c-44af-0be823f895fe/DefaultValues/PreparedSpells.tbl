@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a62accf3-b701-4088-8a83-ee3bafc8e05b">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="27ebe84d-b634-4c50-971b-81332474da02" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="64474b62-b4f5-46b3-b94a-c676c6da3116" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Prepare" type="StringTableFieldDefinition" value="Target_Bless;Target_CureWounds;Projectile_GuidingBolt;Target_ShieldOfFaith" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Cleric" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4be2ec7e-e6f4-4762-8854-34cb71bb7325" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="6e7b7bad-e122-4679-8b3c-8f8987a9d466" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Prepare" type="StringTableFieldDefinition" value="Target_AnimalFriendship;Target_CureWounds;Target_FaerieFire;Zone_Thunderwave" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Druid" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

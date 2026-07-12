@@ -51,5 +51,15 @@
         <field name="Comment" type="CommentTableFieldDefinition" value="Monster Hunter" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="05b6fcdb-c805-457d-ac59-3b2c2e95680f" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="d18eda7e-4b7d-490d-9952-cd33a3c60479" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Arcana;History;Investigation;Medicine;Nature;Religion" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Wizard Scholar" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
