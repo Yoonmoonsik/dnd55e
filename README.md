@@ -77,7 +77,7 @@ Archery, Blind Fighting, Defense, Dueling, Great Weapon Fighting, Interception, 
 
 See [Race](https://github.com/Yoonmoonsik/dnd55e/wiki/Races).
 
-- Aasimar, Dhampir, Goliath, and Kalashtar are available as Human subclass options.
+- Aasimar, Changeling, Dhampir, Goliath, and Kalashtar are available as Human subclass options.
 - Dragonborn, Dwarf, Elf, Githyanki, Gnome, Half Elf, Halfling, Human, Orc, and Tiefling are supported.
 - Several species include ancestry or lineage options, including Dragonborn Draconic Ancestry, Elf and Half Elf sub-lineages, Goliath Giant Ancestry, and Tiefling legacy options.
 
