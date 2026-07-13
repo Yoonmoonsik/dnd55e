@@ -5199,6 +5199,7 @@
         <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasActionResource('SorceryPoint', 2, 0, false, false, context.Source);" />
         <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,1)" />
         <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(USING_METAMAGIC)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc7b21ba7g1c09g7de4g9eaag014c9a24930a" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
