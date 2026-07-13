@@ -1402,6 +1402,12 @@ using "DOMINATE_PERSON"
 data "RemoveConditions" "SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnCharmed(),DisadvantageOnHeightenedSpell())"
 data "StatusPropertyFlags" "LoseControl;TickingWithSource"
 
+new entry "IRRESISTIBLE_DANCE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "IRRESISTIBLE_DANCE"
+data "RemoveConditions" "SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnCharmed(),DisadvantageOnHeightenedSpell())"
+
 new entry "__EVOCATION__"
 type "StatusData"
 data "StatusType" "BOOST"

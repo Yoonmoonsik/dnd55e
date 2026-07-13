@@ -2732,6 +2732,17 @@ data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
 data "RootSpellID" "Target_SynapticStatic"
 data "PowerLevel" "6"
 
+new entry "Target___ENCHANTMENT__SLEVEL__6"
+type "SpellData"
+data "SpellType" "Target"
+
+new entry "Target_IrresistibleDance"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_IrresistibleDance"
+data "SpellProperties" "ApplyStatus(IRRESISTIBLE_DANCE,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);"
+data "SpellRoll" "not SavingThrow(Ability.Wisdom, SourceSpellDC())"
+
 new entry "Target___EVOCATION__CANTRIP__"
 type "SpellData"
 data "SpellType" "Target"

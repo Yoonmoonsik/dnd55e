@@ -1761,6 +1761,14 @@
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnCharmed(),DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="912f37c7-3fd9-4be3-bfda-f65c2790e9ff" />
+        <field name="Name" type="NameTableFieldDefinition" value="IRRESISTIBLE_DANCE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97764827-8e57-4655-a1e0-0ba9a2a25892" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnCharmed(),DisadvantageOnHeightenedSpell())" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a664167f-49ee-460a-afc2-6cc0e44b0a12" />

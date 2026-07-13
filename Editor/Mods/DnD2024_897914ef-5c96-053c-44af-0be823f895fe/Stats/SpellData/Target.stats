@@ -3220,6 +3220,21 @@
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c1a9a389-4a42-425a-8c9b-40f91a88cc88" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ENCHANTMENT__SLEVEL__6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a04e6b50-a822-416b-a0bc-07b597741226" />
+        <field name="Name" type="NameTableFieldDefinition" value="IrresistibleDance" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="121e2b03-f7ee-48d2-82c4-822e787870db" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(IRRESISTIBLE_DANCE,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Wisdom, SourceSpellDC())" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6026dce2-35e9-4b58-8c8c-837a8c8b0b05" />
@@ -12107,7 +12122,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a2e2e08c-0992-4430-987d-653be53297f8" />
         <field name="Name" type="NameTableFieldDefinition" value="IrresistibleDance_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="121e2b03-f7ee-48d2-82c4-822e787870db" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a04e6b50-a822-416b-a0bc-07b597741226" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
