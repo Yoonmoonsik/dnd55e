@@ -2855,7 +2855,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3e7bb141-8ea4-4f25-9a73-64710c2d9fcb" />
         <field name="Name" type="NameTableFieldDefinition" value="CrownOfMadness" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f8f2f80f-8458-4148-b548-7ba5ff70a61a" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
       </fields>
     </stat_object>
@@ -2864,7 +2864,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d993b480-a6e4-491a-8560-4c36b6f0857d" />
         <field name="Name" type="NameTableFieldDefinition" value="CrownOfMadness_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6da5bd4f-ceb2-4916-9cc7-650b5248fe30" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
       </fields>
     </stat_object>
@@ -2873,7 +2873,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a7ea935d-75fc-431c-92ee-1e20b6f107e4" />
         <field name="Name" type="NameTableFieldDefinition" value="CrownOfMadness_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fb03bc06-c26e-4d88-bb87-e39372e9b80f" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
       </fields>
     </stat_object>
@@ -2882,7 +2882,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="11c4b2c3-831b-481c-91b9-f049e3218702" />
         <field name="Name" type="NameTableFieldDefinition" value="CrownOfMadness_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7fb41025-38f7-4d73-908d-dacb992629d9" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
       </fields>
     </stat_object>
@@ -2891,7 +2891,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c857a4dd-759b-452e-a179-96a4024b4965" />
         <field name="Name" type="NameTableFieldDefinition" value="CrownOfMadness_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6b1bfd2c-3a9d-468c-8301-9d1bbd5cbe0e" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
       </fields>
     </stat_object>
@@ -2900,7 +2900,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="000e67e1-a9f4-4eb7-a857-5a76685da4d8" />
         <field name="Name" type="NameTableFieldDefinition" value="MAG_CrownOfMadness" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9683bcbc-6065-457c-b51c-ed22786ed531" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CROWN_OF_MADNESS,100,10);" />
       </fields>
     </stat_object>
@@ -11577,7 +11577,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e9e02797-72df-459c-932c-0a8a33a66449" />
         <field name="Name" type="NameTableFieldDefinition" value="CrownOfMadness_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="f8f2f80f-8458-4148-b548-7ba5ff70a61a" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3e7bb141-8ea4-4f25-9a73-64710c2d9fcb" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -1331,6 +1331,7 @@ new entry "CROWN_OF_MADNESS"
 type "StatusData"
 data "StatusType" "BOOST"
 using "CROWN_OF_MADNESS"
+data "RemoveConditions" "SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnCharmed(), DisadvantageOnHeightenedSpell())"
 data "StatusPropertyFlags" "LoseControl;OverheadOnTurn;InitiateCombat;BringIntoCombat;TickingWithSource"
 
 new entry "MIND_WHIP"
