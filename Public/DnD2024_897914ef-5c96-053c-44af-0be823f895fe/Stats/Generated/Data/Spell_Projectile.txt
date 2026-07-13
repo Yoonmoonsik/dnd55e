@@ -2320,7 +2320,7 @@ data "SpellProperties" "GROUND:TeleportSource(true,true);SpawnExtraProjectiles(P
 data "TargetRadius" "9"
 data "SpellRoll" "Attack(AttackType.MeleeSpellAttack)"
 data "SpellSuccess" "DealDamage(6d10,Force);ExecuteWeaponFunctors(MainHand);"
-data "TargetConditions" "Character() and not Dead() and not Self()"
+data "TargetConditions" "Character() and not Dead() and Enemy();"
 data "ProjectileCount" "1"
 data "Trajectories" "b6a44217-dbd6-443a-8c04-b2796820fe79"
 data "Icon" "Spell_Conjuration_SteelWindStrike"

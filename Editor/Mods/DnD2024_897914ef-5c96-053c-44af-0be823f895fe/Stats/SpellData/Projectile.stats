@@ -2667,7 +2667,7 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeSpellAttack)" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d10,Force);ExecuteWeaponFunctors(MainHand);" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Self()" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and Enemy();" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_SteelWindStrike" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h002f5e57g1181g2dbbg226fgf29f606b801c" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0da58492g230cg424fg00cdg006fb672dd4d" version="2" />
