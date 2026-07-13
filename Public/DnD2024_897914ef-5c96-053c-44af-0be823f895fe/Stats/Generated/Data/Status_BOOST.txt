@@ -113,6 +113,7 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "BLINDNESS"
 data "TickType" "StartTurn"
+data "RemoveConditions" "SavingThrow(Ability.Constitution, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())"
 data "StatusPropertyFlags" "InitiateCombat;Blind;TickingWithSource"
 
 new entry "DAZED"

@@ -150,6 +150,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="a0d18e92-7e8f-4155-b25c-a3302d356b32" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;Blind;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Constitution, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

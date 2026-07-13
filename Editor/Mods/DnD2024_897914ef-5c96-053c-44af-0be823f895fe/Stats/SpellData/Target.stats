@@ -6686,6 +6686,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Blindness" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5074431a-102f-4603-a414-2547d282459f" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(BLINDNESS,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6694,6 +6695,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Blindness_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d5c6a23e-d00a-4770-a78b-fb4fc2196ddf" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(BLINDNESS,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6702,6 +6704,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Blindness_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0e4c0ac9-c53b-4929-b1be-ff43a6beeda3" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(BLINDNESS,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6710,6 +6713,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Blindness_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5091e369-737a-4568-977a-5fb6ab449480" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(BLINDNESS,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6718,6 +6722,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Blindness_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7c083cd8-d89b-468e-b3a0-740012d05099" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(BLINDNESS,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -11618,7 +11623,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8affc6f8-e580-4249-90e9-d6f6bc8aa7d2" />
         <field name="Name" type="NameTableFieldDefinition" value="Blindness_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="5074431a-102f-4603-a414-2547d282459f" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="77b8bc56-169c-4040-87a1-aa7e4495f52f" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
