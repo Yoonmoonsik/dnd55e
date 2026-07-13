@@ -1,0 +1,6 @@
+new entry "EYEBITE_PANICKED"
+type "StatusData"
+data "StatusType" "FEAR"
+using "EYEBITE_PANICKED"
+data "RemoveConditions" "SavingThrow(Ability.Wisdom, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())"
+

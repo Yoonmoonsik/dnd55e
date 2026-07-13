@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="1d8c865f-bfa7-4f37-b0e4-2bdc12ecf6be">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d004bb49-b368-4228-b49a-ca9d74afa16e" />
+        <field name="Name" type="NameTableFieldDefinition" value="EYEBITE_PANICKED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9f990dc6-5d51-4f08-8b06-21877ea09e68" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Wisdom, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -47,5 +47,12 @@
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Wisdom, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="487832d0-3f76-4293-8859-3a22f3a7de92" />
+        <field name="Name" type="NameTableFieldDefinition" value="SLEEPING_EYEBITE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c7cb7abe-9583-43a9-9f01-0c37c4c4f936" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

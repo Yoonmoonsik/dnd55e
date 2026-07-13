@@ -2988,6 +2988,14 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Enervation_6);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f12b5a5-4897-429e-bbdd-b75eb040c383" />
+        <field name="Name" type="NameTableFieldDefinition" value="EYEBITE_SICKENED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0a92a077-b859-4896-a261-18a8543bb8e7" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Constitution, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cb9821dc-2f33-4b0c-90b7-b52ee85d20cb" />

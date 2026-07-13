@@ -2428,6 +2428,12 @@ data "StatusType" "BOOST"
 using "ENERVATION_RECAST"
 data "Boosts" "UnlockSpell(Shout_Enervation_6);"
 
+new entry "EYEBITE_SICKENED"
+type "StatusData"
+data "StatusType" "BOOST"
+using "EYEBITE_SICKENED"
+data "RemoveConditions" "SavingThrow(Ability.Constitution, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())"
+
 new entry "__CONTAGION__"
 type "StatusData"
 data "StatusType" "BOOST"

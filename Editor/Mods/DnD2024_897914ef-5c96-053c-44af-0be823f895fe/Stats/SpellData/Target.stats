@@ -6181,6 +6181,12 @@
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CONTAGION_SLIMY_DOOM,100,-1)" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="42a48f9e-256e-4f58-9f7d-43805602e7f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="__NECROMANCY__SLEVEL 6__" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1f65b3b0-039b-4089-b6fe-eca63c83e773" />
@@ -6193,6 +6199,61 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="(Character() or Tagged('FUNGUS')) and not Ally();" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d8, Necrotic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8, Necrotic)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5b634730-e5d7-4b31-9733-bf06527c524f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Eyebite" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="88f594dc-6b99-4625-8643-9c8f245ff256" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a28aae76-9f35-4189-a0cd-ba535c34a993" />
+        <field name="Name" type="NameTableFieldDefinition" value="Eyebite_Asleep" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0122da87-4662-486c-a2af-3ad7f0687af5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SLEEPING_EYEBITE,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="15559f67-7b68-4b69-82e6-4f4a42de5fec" />
+        <field name="Name" type="NameTableFieldDefinition" value="Eyebite_Asleep_Free" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37901577-f607-4b80-8642-4f3439c7a60d" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SLEEPING_EYEBITE,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="746f08fe-c1b9-47ab-bd5b-5d9dcca2794f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Eyebite_Panicked" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1f9a23c9-029b-44c3-a4f1-5fdb1f99690c" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(EYEBITE_PANICKED,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cefffc2a-8191-4c50-a55c-c37a3b337217" />
+        <field name="Name" type="NameTableFieldDefinition" value="Eyebite_Panicked_Free" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="464aa509-8ec9-462a-86b4-2a922e40a42b" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(EYEBITE_PANICKED,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a465a261-6a19-40cd-9166-aa346e93fb5c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Eyebite_Sickened" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d686a6ca-2b9a-4f70-a778-5b5484b7157b" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(EYEBITE_SICKENED,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aae52ba7-eaa2-4c7c-a125-e3c383f7030c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Eyebite_Sickened_Free" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="deff252c-35be-4cd5-aa4a-150408804ad6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(EYEBITE_SICKENED,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
