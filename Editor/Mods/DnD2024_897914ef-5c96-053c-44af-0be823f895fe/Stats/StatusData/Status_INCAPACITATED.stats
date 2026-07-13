@@ -39,5 +39,13 @@
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Wisdom, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d6e43f60-517e-461b-b5b0-1ef3cfb6eb12" />
+        <field name="Name" type="NameTableFieldDefinition" value="HOLD_MONSTER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37e97b42-f8c0-4855-89fb-ff28d6d1b61b" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Wisdom, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

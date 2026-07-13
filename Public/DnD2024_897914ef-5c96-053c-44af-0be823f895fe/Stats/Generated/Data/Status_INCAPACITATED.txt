@@ -28,3 +28,9 @@ data "StatusType" "INCAPACITATED"
 using "HOLD_PERSON"
 data "RemoveConditions" "SavingThrow(Ability.Wisdom, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())"
 
+new entry "HOLD_MONSTER"
+type "StatusData"
+data "StatusType" "INCAPACITATED"
+using "HOLD_MONSTER"
+data "RemoveConditions" "SavingThrow(Ability.Wisdom, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())"
+

@@ -3051,6 +3051,28 @@
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CONFUSION,100,10)" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f3a2e98b-4995-4a5a-bcf6-d6a492b43fd4" />
+        <field name="Name" type="NameTableFieldDefinition" value="__ENCHANTMENT__SLEVEL__5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4c7929cd-4e1b-4424-bcb5-7e329cb70911" />
+        <field name="Name" type="NameTableFieldDefinition" value="HoldMonster" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1e80f78d-0349-4fcb-8a40-893fb5fb0741" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(HOLD_MONSTER,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d9382d1a-e371-4aa1-bbf9-25a212237837" />
+        <field name="Name" type="NameTableFieldDefinition" value="HoldMonster_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c3189221-b5e3-4ee6-8d32-bacd1f642ce9" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(HOLD_MONSTER,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="999c3895-792a-4a03-a9da-580c612b7975" />
@@ -11834,7 +11856,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="56fccc11-326e-44b0-8844-4164f19931d3" />
         <field name="Name" type="NameTableFieldDefinition" value="HoldMonster_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="1e80f78d-0349-4fcb-8a40-893fb5fb0741" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4c7929cd-4e1b-4424-bcb5-7e329cb70911" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

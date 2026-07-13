@@ -2597,6 +2597,22 @@ using "Target_Confusion_6"
 data "SpellSuccess" "ApplyStatus(CONFUSION,100,10)"
 data "TooltipStatusApply" "ApplyStatus(CONFUSION,100,10)"
 
+new entry "Target___ENCHANTMENT__SLEVEL__5"
+type "SpellData"
+data "SpellType" "Target"
+
+new entry "Target_HoldMonster"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HoldMonster"
+data "SpellSuccess" "ApplyStatus(HOLD_MONSTER,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);"
+
+new entry "Target_HoldMonster_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HoldMonster_6"
+data "SpellSuccess" "ApplyStatus(HOLD_MONSTER,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);"
+
 new entry "Target_SynapticStatic"
 type "SpellData"
 data "SpellType" "Target"
