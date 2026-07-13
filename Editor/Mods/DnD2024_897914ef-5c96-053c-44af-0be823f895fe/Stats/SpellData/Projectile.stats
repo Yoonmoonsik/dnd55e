@@ -2788,10 +2788,11 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e5a7f84e-3b93-4dd3-960d-866241bc9485" />
         <field name="Name" type="NameTableFieldDefinition" value="RayOfEnfeeblement" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e79ff3d4-c908-4fab-b483-43274fe16563" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAY_OF_ENFEEBLEMENT,100,10);" />
-        <field name="SpellRoll" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5f226a79g1b15g405cgf870gf64805e10151" version="1" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(RAY_OF_ENFEEBLEMENT,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5f226a79g1b15g405cgf870gf64805e10151" version="2" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL, 100, 0)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2799,10 +2800,11 @@
         <field name="UUID" type="IdTableFieldDefinition" value="69fd0d8b-5aaa-4fc5-a1b7-e0b3ba86a1b2" />
         <field name="Name" type="NameTableFieldDefinition" value="RayOfEnfeeblement_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="df60480c-6839-46c7-aab8-421ba8fb9b3f" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAY_OF_ENFEEBLEMENT,100,10);" />
-        <field name="SpellRoll" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h204f9579g57ceg19e1g0cd5g863a58542053" version="1" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(RAY_OF_ENFEEBLEMENT,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h204f9579g57ceg19e1g0cd5g863a58542053" version="2" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL, 100, 0)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2810,10 +2812,11 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d1ea94ff-85d4-412f-ba10-21a11193f327" />
         <field name="Name" type="NameTableFieldDefinition" value="RayOfEnfeeblement_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6337c627-7698-421c-a56d-c35b74cb3478" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAY_OF_ENFEEBLEMENT,100,10);" />
-        <field name="SpellRoll" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h58d34c7bgba94g21d5gf05ag4ed5c0aea0ab" version="1" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(RAY_OF_ENFEEBLEMENT,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h58d34c7bgba94g21d5gf05ag4ed5c0aea0ab" version="2" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL, 100, 0)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2821,10 +2824,11 @@
         <field name="UUID" type="IdTableFieldDefinition" value="cf83a198-a105-4daa-91bc-778a37e54598" />
         <field name="Name" type="NameTableFieldDefinition" value="RayOfEnfeeblement_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="dda2f767-003d-423c-b13e-1097f008f153" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAY_OF_ENFEEBLEMENT,100,10);" />
-        <field name="SpellRoll" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0b14dd67gb5f5gc96dg4d31g57097dbedd01" version="1" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(RAY_OF_ENFEEBLEMENT,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0b14dd67gb5f5gc96dg4d31g57097dbedd01" version="2" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL, 100, 0)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2832,10 +2836,11 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5c2c956e-6267-4405-9fc8-9f0b3e7b7c74" />
         <field name="Name" type="NameTableFieldDefinition" value="RayOfEnfeeblement_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c7b85ef9-2b76-4d89-a37c-8ddc5bebd6e5" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAY_OF_ENFEEBLEMENT,100,10);" />
-        <field name="SpellRoll" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2eb3007dg66b1g256cg24e5g51538a8f09c9" version="1" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(RAY_OF_ENFEEBLEMENT,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2eb3007dg66b1g256cg24e5g51538a8f09c9" version="2" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL, 100, 0)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2843,10 +2848,11 @@
         <field name="UUID" type="IdTableFieldDefinition" value="28c0e37c-5a41-4503-a9d4-8ddd59531780" />
         <field name="Name" type="NameTableFieldDefinition" value="MAG_RayOfEnfeeblement" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2b0b8271-8072-4b9f-a78d-39eb3e2a90a0" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAY_OF_ENFEEBLEMENT,100,10);" />
-        <field name="SpellRoll" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h07724cb8g58c2g9aaag313cg5be5871047e1" version="1" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(RAY_OF_ENFEEBLEMENT,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h07724cb8g58c2g9aaag313cg5be5871047e1" version="2" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL, 100, 0)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -3697,7 +3703,10 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="17346f45-bac8-4101-8398-dcae75fc614c" />
         <field name="Name" type="NameTableFieldDefinition" value="RayOfEnfeeblement_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="e79ff3d4-c908-4fab-b483-43274fe16563" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e5a7f84e-3b93-4dd3-960d-866241bc9485" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(RAY_OF_ENFEEBLEMENT,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

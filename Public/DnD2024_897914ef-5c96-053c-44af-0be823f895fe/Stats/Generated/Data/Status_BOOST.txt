@@ -2351,6 +2351,7 @@ data "StatusType" "BOOST"
 using "RAY_OF_ENFEEBLEMENT"
 data "Description" "h6f9f97e3gf464g5501g588eg5db8ef9b538f;1"
 data "Boosts" "DamageBonus(-1d8,,false);Disadvantage(Ability, Strength);Disadvantage(SavingThrow, Strength);IF(AttackRollAbility(Ability.Strength)):Disadvantage(AttackRoll);"
+data "RemoveConditions" "SavingThrow(Ability.Constitution, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())"
 
 new entry "DEATH_ARMOR"
 type "StatusData"

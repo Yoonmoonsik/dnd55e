@@ -2888,6 +2888,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="68aa7ced-3a22-443a-94ce-d98f9a93370a" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6f9f97e3gf464g5501g588eg5db8ef9b538f" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="DamageBonus(-1d8,,false);Disadvantage(Ability, Strength);Disadvantage(SavingThrow, Strength);IF(AttackRollAbility(Ability.Strength)):Disadvantage(AttackRoll);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Constitution, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
