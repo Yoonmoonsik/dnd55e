@@ -2069,7 +2069,7 @@
         <field name="StackId" type="StringTableFieldDefinition" value="HELLS_LASH" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
         <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Constitution, SourceSpellDC(),false,HasStatus('INTERDICTED'))" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Constitution,SourceSpellDC(),false,DisadvantageOnRestrainedIllrigger())" />
         <field name="TooltipSave" type="StringTableFieldDefinition" value="Constitution" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d4, Fire,Magical)" />
       </fields>
@@ -2633,6 +2633,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Psychic)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Psychic)" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="AI_ONLY:DealDamage(2d8,Psychic,Magical)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Intelligence,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2643,6 +2644,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Slashing)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Slashing)" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Slashing,Magical)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Intelligence,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2653,6 +2655,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Piercing)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Piercing)" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Piercing,Magical)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Intelligence,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2663,6 +2666,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Bludgeoning)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Bludgeoning)" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Bludgeoning,Magical)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Intelligence,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2673,6 +2677,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Acid)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Acid)" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Acid,Magical)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Intelligence,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2683,6 +2688,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Thunder)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Thunder)" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Thunder,Magical)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Intelligence,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2693,6 +2699,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Necrotic)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Necrotic)" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Necrotic,Magical)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Intelligence,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2703,6 +2710,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Fire)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Fire)" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Fire,Magical)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Intelligence,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2713,6 +2721,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Lightning)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Lightning)" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Lightning,Magical)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Intelligence,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2723,6 +2732,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Cold)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Cold)" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Cold,Magical)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Intelligence,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2733,6 +2743,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Psychic)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Psychic)" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Psychic,Magical)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Intelligence,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2743,6 +2754,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Poison)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Poison)" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Poison,Magical)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Intelligence,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2753,6 +2765,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Radiant)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Radiant)" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Radiant,Magical)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Intelligence,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2763,6 +2776,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Force)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d8,Force)" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8,Force,Magical)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Intelligence,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2782,6 +2796,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_KILLER" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="415e89f2-8d0c-4370-804d-19910721e2f1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AllAbilities);Disadvantage(AttackRoll);" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Wisdom,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2790,6 +2805,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_KILLER_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d3aefdc2-03b7-4a95-8ff3-61ca05c71541" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AllAbilities);Disadvantage(AttackRoll);" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Wisdom,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2798,6 +2814,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_KILLER_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fb3b118f-e423-4369-a4bc-6f743a12dbf8" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AllAbilities);Disadvantage(AttackRoll);" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Wisdom,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
