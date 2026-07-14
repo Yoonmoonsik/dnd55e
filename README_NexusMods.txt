@@ -132,7 +132,12 @@ Spell scrolls are restricted to specific classes, with cantrip scrolls and Scrol
 
 [list]
 [*]Bugbear
-[*]Dire Wolf
+[*]Displacer Beast
+[*]Giant Eagle
+[*]Hyena
+[*]Raven
+[*]Spectator
+[*]Spider
 [*]Wolf
 [*]Worg
 [/list]
