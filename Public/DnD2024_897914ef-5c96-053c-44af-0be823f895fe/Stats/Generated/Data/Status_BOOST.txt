@@ -4339,7 +4339,7 @@ new entry "MAGEHAND_REST"
 type "StatusData"
 data "StatusType" "BOOST"
 using "MAGEHAND_REST"
-data "Boosts" "ProficiencyBonusOverride(Owner.LevelMapValue(StandardProficiencyBonusScale));ProficiencyBonus(Skill,SleightOfHand);ExpertiseBonus(SleightOfHand);UnlockSpell(Target_MageHand_Pickpocketing);Skill(SleightOfHand, Owner.DexterityModifier);"
+data "Boosts" "ProficiencyBonusOverride(Owner.LevelMapValue(StandardProficiencyBonusScale));ProficiencyBonus(Skill,SleightOfHand);ExpertiseBonus(SleightOfHand);UnlockSpell(Target_MageHand_Pickpocketing);Skill(SleightOfHand, Owner.DexterityModifier);Tag(MAGEHAND);"
 
 new entry "MAGICAL_AMBUSH"
 type "StatusData"

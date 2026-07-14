@@ -5407,7 +5407,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d95687f0-d924-4b5c-8982-bd0ee73abbcf" />
         <field name="Name" type="NameTableFieldDefinition" value="MAGEHAND_REST" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="57e06d85-ff8e-458d-9284-33602fd7b00a" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonusOverride(Owner.LevelMapValue(StandardProficiencyBonusScale));ProficiencyBonus(Skill,SleightOfHand);ExpertiseBonus(SleightOfHand);UnlockSpell(Target_MageHand_Pickpocketing);Skill(SleightOfHand, Owner.DexterityModifier);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonusOverride(Owner.LevelMapValue(StandardProficiencyBonusScale));ProficiencyBonus(Skill,SleightOfHand);ExpertiseBonus(SleightOfHand);UnlockSpell(Target_MageHand_Pickpocketing);Skill(SleightOfHand, Owner.DexterityModifier);Tag(MAGEHAND);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

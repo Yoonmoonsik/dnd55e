@@ -13,6 +13,8 @@ StartPickpocket(_MageHand,_Target,1);
 IF
 AddedTo(_Item,(CHARACTER)_MageHand, _)
 AND
+IsTagged(_MageHand,(TAG)MAGEHAND_87d4dc3d-82e4-40c6-bcc6-95c21abd4645,1)
+AND
 IsCharacter(_MageHand, 1)
 AND
 IsSummon((CHARACTER)_MageHand, 1)
