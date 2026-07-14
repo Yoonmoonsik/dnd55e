@@ -6090,7 +6090,7 @@
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ArcaneWard,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);UnlockInterrupt(Interrupt_ArcaneWard_1);UnlockInterrupt(Interrupt_ArcaneWard_2);UnlockInterrupt(Interrupt_ArcaneWard_3);UnlockInterrupt(Interrupt_ArcaneWard_4);UnlockInterrupt(Interrupt_ArcaneWard_5);UnlockInterrupt(Interrupt_ArcaneWard_6);" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(ARCANE_WARD_55E,100,Target.ClassLevel(Wizard)+Target.IntelligenceModifier)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(ARCANE_WARD_55E,100,Target.ClassLevel(Wizard)*2+Target.IntelligenceModifier)" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;OncePerLongRest" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
@@ -6099,7 +6099,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a5023f5a-8f34-49e7-b85c-8aecbd027df1" />
         <field name="Name" type="NameTableFieldDefinition" value="ArcaneWard_Cast_55e" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ef2fc58c-aec6-4a3c-9ad3-f273f939498d" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(ARCANE_WARD_55E,100,SpellPowerLevel*2)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(ARCANE_WARD_55E,100,SpellPowerLevel*2);ApplyStatus(ARCANE_WARD_55E_TECHNICAL,100,1)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12103" />
       </fields>
     </stat_object>
@@ -6122,7 +6122,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="8fdc14f6-2e06-4737-a00c-37c0ea88ff01" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h288cd5f8gfde5gf844g35b4g78176c8d8034" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d3fbbaegc6b1gf48egd8c4gef06e95785f3" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(ARCANE_WARD_55E,100,Target.ClassLevel(Wizard)+Target.IntelligenceModifier)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(ARCANE_WARD_55E,100,Target.ClassLevel(Wizard)*2+Target.IntelligenceModifier)" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;OncePerShortRest" enumeration_type_name="PassiveFlags" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12110" />
       </fields>

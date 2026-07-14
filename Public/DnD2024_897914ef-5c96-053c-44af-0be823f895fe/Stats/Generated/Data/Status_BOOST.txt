@@ -5660,6 +5660,13 @@ data "StatusPropertyFlags" "FreezeDuration"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusEffect" "370b3339-9668-49e8-bdc6-ff0a4444f8dd"
 
+new entry "ARCANE_WARD_55E_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "ARCANE_WARD_55E_TECHNICAL"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead"
+data "OnApplyFunctors" "IF(MaximumArcaneWardStackableStatus(context.Target) and ClassLevelHigherOrEqualThan(3,'Wizard',context.Source)):SetStatusDuration(ARCANE_WARD_55E,10,ForceSet);IF(MaximumArcaneWardStackableStatus(context.Target) and ClassLevelHigherOrEqualThan(4,'Wizard',context.Source)):SetStatusDuration(ARCANE_WARD_55E,13,ForceSet);IF(MaximumArcaneWardStackableStatus(context.Target) and ClassLevelHigherOrEqualThan(5,'Wizard',context.Source)):SetStatusDuration(ARCANE_WARD_55E,15,ForceSet);IF(MaximumArcaneWardStackableStatus(context.Target) and ClassLevelHigherOrEqualThan(6,'Wizard',context.Source)):SetStatusDuration(ARCANE_WARD_55E,17,ForceSet);IF(MaximumArcaneWardStackableStatus(context.Target) and ClassLevelHigherOrEqualThan(7,'Wizard',context.Source)):SetStatusDuration(ARCANE_WARD_55E,19,ForceSet);IF(MaximumArcaneWardStackableStatus(context.Target) and ClassLevelHigherOrEqualThan(8,'Wizard',context.Source)):SetStatusDuration(ARCANE_WARD_55E,21,ForceSet);IF(MaximumArcaneWardStackableStatus(context.Target) and ClassLevelHigherOrEqualThan(9,'Wizard',context.Source)):SetStatusDuration(ARCANE_WARD_55E,23,ForceSet);IF(MaximumArcaneWardStackableStatus(context.Target) and ClassLevelHigherOrEqualThan(10,'Wizard',context.Source)):SetStatusDuration(ARCANE_WARD_55E,25,ForceSet);IF(MaximumArcaneWardStackableStatus(context.Target) and ClassLevelHigherOrEqualThan(11,'Wizard',context.Source)):SetStatusDuration(ARCANE_WARD_55E,27,ForceSet);IF(MaximumArcaneWardStackableStatus(context.Target) and ClassLevelHigherOrEqualThan(12,'Wizard',context.Source)):SetStatusDuration(ARCANE_WARD_55E,29,ForceSet);"
+
 new entry "ARCANE_WARD_55E_RESTORE"
 type "StatusData"
 data "StatusType" "BOOST"
