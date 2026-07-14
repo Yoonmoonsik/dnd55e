@@ -289,12 +289,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="__MONSTER MANUEL__" />
       </fields>
     </stat_object>
-    <stat_object color="#FF000000" is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="f73ff9b2-c63d-4b6c-8d57-700a089e6e70" />
-        <field name="Name" type="NameTableFieldDefinition" value="__Aberration__" />
-      </fields>
-    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8912d0b5-cc32-46cf-aba0-c8ad500cf314" />
@@ -340,47 +334,32 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="c0ddc1a8-2486-41cc-9712-9f6c38a1b10a" />
-        <field name="Name" type="NameTableFieldDefinition" value="Cloaker" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="7033b4b4-fca7-4d29-ada0-d682224ca361" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7fd24f22-8fdb-44e2-973a-1ada8405088d" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisplacerBeast" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cdfd2fc0-9681-4bca-804c-79fba6697b93" />
         <field name="Strength" type="IntegerTableFieldDefinition" value="18" />
-        <field name="Dexterity" type="IntegerTableFieldDefinition" value="16" />
-        <field name="Constitution" type="IntegerTableFieldDefinition" value="15" />
-        <field name="Intelligence" type="IntegerTableFieldDefinition" value="12" />
-        <field name="Wisdom" type="IntegerTableFieldDefinition" value="13" />
-        <field name="Charisma" type="IntegerTableFieldDefinition" value="14" />
-        <field name="Armor" type="IntegerTableFieldDefinition" value="11" />
-        <field name="Vitality" type="IntegerTableFieldDefinition" value="105" />
-        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Bare" enumeration_type_name="StepsType" version="1" />
-        <field name="Flags" type="EnumerationListTableFieldDefinition" value="Floating;FloatingWhileMoving" enumeration_type_name="AttributeFlags" version="1" />
-        <field name="Weight" type="FloatTableFieldDefinition" value="80" />
-        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="PRONE_FALLEN;CRIPPLED" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="6" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="85" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ExtraAttack;AttackOfOpportunity;Darkvision;DarknessRules;DisplacerBeast_Avoidance;ShortResting" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="140" />
         <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
-        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:16;ReactionActionPoint:1" />
-        <field name="DarkvisionRange" type="StringTableFieldDefinition" value="18" />
-        <field name="GameSize" type="EnumerationTableFieldDefinition" value="Large" enumeration_type_name="ObjectSize" version="1" />
-        <field name="Passives" type="StringTableFieldDefinition" value="Multiattack_Cloaker;LightSensitivity;AttackOfOpportunity;DarknessRules;Darkvision" />
-        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="4ee02692-eb98-43a6-803f-2da645364568" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="Skill(Stealth, 5); BlockRegainHP(Undead;Construct)" />
-        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_HARD: HEALTHBOOST_HARDCORE; STATUS_HARD: CLOAKER_HARDCORE" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="2a17e46d-066c-4db7-be53-2da7ffc72764" />
-        <field name="Name" type="NameTableFieldDefinition" value="Cloaker_Phantasm" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="c0ddc1a8-2486-41cc-9712-9f6c38a1b10a" />
-        <field name="Vitality" type="IntegerTableFieldDefinition" value="56" />
-        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="SG_Poisoned;EXHAUSTED;PARALYZED;HOLD_PERSON;PETRIFIED;PRONE;RESTRAINED;POISONED;KNOCKED_DOWN;ABJURE_ENEMY_FRIGHT;NET;SG_Condition" />
-        <field name="Passives" type="StringTableFieldDefinition" value="DarknessRules;Ethereal;Darkvision;IncorporealMovement" />
-        <field name="BludgeoningResistance" type="EnumerationListTableFieldDefinition" value="ResistantToNonMagical" enumeration_type_name="ResistanceFlags" version="1" />
-        <field name="SlashingResistance" type="EnumerationListTableFieldDefinition" value="ResistantToNonMagical" enumeration_type_name="ResistanceFlags" version="1" />
-        <field name="PiercingResistance" type="EnumerationListTableFieldDefinition" value="ResistantToNonMagical" enumeration_type_name="ResistanceFlags" version="1" />
-        <field name="PoisonResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
-        <field name="Weight" type="FloatTableFieldDefinition" value="1" />
-        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="40806669-8c6b-4068-8bc4-07e4981bb020" />
-        <field name="NecroticResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
-        <field name="PsychicResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cafc2650-31b4-48a8-aea4-61d39f3691fd" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisplacerBeast_Illusion" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e97b5078-e1ff-4975-abcd-b4c1d1569887" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Opportune_Predator;ImmuneToDisarm" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="85" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="13" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
