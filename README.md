@@ -110,10 +110,9 @@ Spell scrolls are restricted to specific classes, with cantrip scrolls and Scrol
 
 ## Creatures
 
-- Bugbear
-- Dire Wolf
-- Wolf
-- Worg
+See [Creatures](https://github.com/Yoonmoonsik/dnd55e/wiki/Creatures).
+
+Bugbear, Displacer Beast, Giant Eagle, Hyena, Raven, Spectator, Spider, Wolf, Worg.
 
 ## Credits
 
