@@ -581,6 +581,17 @@
         <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_96" />
+        <field name="UUID" type="IdTableFieldDefinition" value="04fc5f5d-7230-4061-8a17-cc72c445d8af" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="DarkOnesOwnLuck" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8b958c8ag5476g5bd5g1951gae850853f115" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6c5d2c6egd7c2gfb23g896eg360dd2c50b66" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF800000" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_61" />

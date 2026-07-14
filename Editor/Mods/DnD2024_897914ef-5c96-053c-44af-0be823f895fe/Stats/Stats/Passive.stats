@@ -5783,6 +5783,28 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="c5752dae-6b9b-4637-94e8-7a5a0b79eedf" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbbedb4f1g60d4g6ed0gb97bg90c73d16c026" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11306" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h08045ad1gb50dgc96dg8318gd971f112b84f" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h3deb4586gfae5g7a55gadcagd4ee75ff94b8" version="1" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="DarkOnesOwnLuck:1" />
+        <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasActionResource('DarkOnesOwnLuck', 1, 0, false, false, context.Source);" />
+        <field name="EnabledContext" type="EnumerationListTableFieldDefinition" value="OnAbilityCheck;OnInterruptUsed;OnShortRest;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="UseActionResource(SELF,DarkOnesOwnLuck,1,0)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_DarkOnesBlessing" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="63c14715-228b-4778-8367-735e1ddbe4e4" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkOnesOwnLuck_Resource" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnProficiencyChange;OnShortRest;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DarkOnesOwnLuck,1,0);IF(AbilityGreaterThan('Charisma',13,context.Source)):ActionResource(DarkOnesOwnLuck,1,0);IF(AbilityGreaterThan('Charisma',15,context.Source)):ActionResource(DarkOnesOwnLuck,1,0);IF(AbilityGreaterThan('Charisma',17,context.Source)):ActionResource(DarkOnesOwnLuck,1,0);IF(AbilityGreaterThan('Charisma',19,context.Source)):ActionResource(DarkOnesOwnLuck,1,0);IF(AbilityGreaterThan('Charisma',21,context.Source)):ActionResource(DarkOnesOwnLuck,1,0);IF(AbilityGreaterThan('Charisma',23,context.Source)):ActionResource(DarkOnesOwnLuck,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cd4715a0-8fd3-4b03-8cd6-a933c02f7691" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

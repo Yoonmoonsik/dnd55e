@@ -689,6 +689,14 @@
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
                     <attribute id="UUID" type="guid" value="014d6340-84cf-4d14-b5a4-4b3f5886f8ba"/>
                 </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h6c5d2c6egd7c2gfb23g896eg360dd2c50b66" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8b958c8ag5476g5bd5g1951gae850853f115" version="1"/>
+                    <attribute id="Name" type="FixedString" value="DarkOnesOwnLuck"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="04fc5f5d-7230-4061-8a17-cc72c445d8af"/>
+                </node>
             </children>
         </node>
     </region>
