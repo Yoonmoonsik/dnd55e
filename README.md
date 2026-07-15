@@ -112,7 +112,7 @@ Spell scrolls are restricted to specific classes, with cantrip scrolls and Scrol
 
 See [Creatures](https://github.com/Yoonmoonsik/dnd55e/wiki/Creatures).
 
-Bugbear, Displacer Beast, Giant Eagle, Hyena, Raven, Spectator, Spider, Wolf, Worg.
+Bugbear, Displacer Beast, Drider, Ettercap, Giant Eagle, Gnoll, Goblin, Harpy, Hobgoblin, Hook Horror, Hyena, Kobold, Kuo-Toa, Raven, Spectator, Spider, Wolf, Worg.
 
 ## Credits
 

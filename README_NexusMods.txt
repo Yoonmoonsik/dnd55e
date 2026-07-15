@@ -133,8 +133,17 @@ Spell scrolls are restricted to specific classes, with cantrip scrolls and Scrol
 [list]
 [*]Bugbear
 [*]Displacer Beast
+[*]Drider
+[*]Ettercap
 [*]Giant Eagle
+[*]Gnoll
+[*]Goblin
+[*]Harpy
+[*]Hobgoblin
+[*]Hook Horror
 [*]Hyena
+[*]Kobold
+[*]Kuo-Toa
 [*]Raven
 [*]Spectator
 [*]Spider
