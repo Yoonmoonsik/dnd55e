@@ -3831,6 +3831,7 @@ new entry "COMMANDERS_STRIKE"
 type "StatusData"
 data "StatusType" "BOOST"
 data "StackId" "COMMANDERS_STRIKE"
+data "TickType" "EndTurn"
 data "Boosts" "UnlockInterrupt(Interrupt_CommandersStrike_Melee);UnlockInterrupt(Interrupt_CommandersStrike_Ranged);"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 

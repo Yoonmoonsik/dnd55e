@@ -4760,6 +4760,7 @@
         <field name="StackId" type="StringTableFieldDefinition" value="COMMANDERS_STRIKE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_CommandersStrike_Melee);UnlockInterrupt(Interrupt_CommandersStrike_Ranged);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
