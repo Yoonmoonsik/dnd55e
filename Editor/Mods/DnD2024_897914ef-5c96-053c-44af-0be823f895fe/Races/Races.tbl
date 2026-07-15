@@ -203,5 +203,17 @@
         <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="eed2c9e5-d1b4-4010-99c4-0e96939867a0" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_52" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ef9802b4-e872-4dec-bdb2-1cc0038b6856" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="4bd6dcba-b21c-4d83-90fe-21bf84ecd50b" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="Kuotoa" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h49f573e0g51d8gab8ag3788g56d525e94705" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="e3763301-199e-4022-8813-da1bb4eb9542" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf0fa09deg1153gff8agc30fgf43e347dc403" version="1" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="4bd6dcba-b21c-4d83-90fe-21bf84ecd50b" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
