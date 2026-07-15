@@ -1,6 +1,7 @@
 new entry "HEIGHTENED_TARGET"
 type "StatusData"
 data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
 new entry "DODGE"
 type "StatusData"
