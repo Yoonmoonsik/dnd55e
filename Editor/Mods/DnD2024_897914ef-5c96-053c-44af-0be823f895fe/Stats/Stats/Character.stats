@@ -1348,5 +1348,68 @@
         <field name="Sight" type="IntegerTableFieldDefinition" value="2200" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b1c47f41-daf4-4998-94fc-a535dced3e36" />
+        <field name="Name" type="NameTableFieldDefinition" value="Hobgoblin" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7f03d35b-37bb-4268-8017-e721af97cff2" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="17" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="58" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="StuddedLeather" enumeration_type_name="ArmorType" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="MartialWeapons;MediumArmor;SimpleWeapons;LightArmor;Shields" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Bare" enumeration_type_name="StepsType" version="1" />
+        <field name="DarkvisionRange" type="StringTableFieldDefinition" value="16" />
+        <field name="Passives" type="StringTableFieldDefinition" value="MartialAdvantage;AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="75" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5d0926f2-6a36-4341-8c30-e189acdbe44b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Hobgoblin_Captain" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b1c47f41-daf4-4998-94fc-a535dced3e36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="552a868c-b9fd-45a3-af00-18360ca93476" />
+        <field name="Name" type="NameTableFieldDefinition" value="Hobgoblin_Boss" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b1c47f41-daf4-4998-94fc-a535dced3e36" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Plate" enumeration_type_name="ArmorType" version="1" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Metal" enumeration_type_name="StepsType" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="HeavyArmor;LightArmor;MartialWeapons;MediumArmor;SimpleWeapons;Shields" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow, Charisma); ProficiencyBonus(SavingThrow, Intelligence); ProficiencyBonus(SavingThrow, Wisdom); BlockRegainHP(Undead;Construct)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f75a3fc-d862-4f59-a253-9ba202eeb518" />
+        <field name="Name" type="NameTableFieldDefinition" value="Hobgoblin_Devastator" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b1c47f41-daf4-4998-94fc-a535dced3e36" />
+        <field name="Passives" type="StringTableFieldDefinition" value="MartialAdvantage;ArmyArcana;AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="Progressions" type="StringTableFieldDefinition" value="44bdbc5e-a003-4d61-87f0-5ced20d3804e" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="ArmorType" version="1" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:9;ReactionActionPoint:1;SpellSlot:4:4:3;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea86335f-dfcb-4216-8dde-a20a0acb56fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="GOB_Hobgoblin_Boss" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="552a868c-b9fd-45a3-af00-18360ca93476" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="18" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="112" />
+        <field name="Progressions" type="StringTableFieldDefinition" value="56db8107-e04c-4fe3-94f3-fd4acd44cd4a" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;Darkvision;MartialAdvantage;UnarmouredDefence_Barbarian;" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="ArmorType" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_HARD: HEALTHBOOST_HARDCORE;STATUS_HARD:HOBGOBLINKING_HARDCORE" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
