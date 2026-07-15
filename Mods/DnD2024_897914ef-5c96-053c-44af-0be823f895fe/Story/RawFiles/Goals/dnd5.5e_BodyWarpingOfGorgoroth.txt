@@ -20,6 +20,16 @@ IF
 StatusRemoved(_Player, "BODY_WARPING_OF_GORGOROTH", _, _)
 THEN
 RemoveTransforms(_Player);
+
+IF
+LevelUnloading(_Level)
+AND
+DB_Players(_Player)
+AND
+HasAppliedStatus(_Player,"BODY_WARPING_OF_GORGOROTH",1)
+THEN
+RemoveStatus(_Player,"BODY_WARPING_OF_GORGOROTH");
+RemoveTransforms(_Player);
 EXITSECTION
 
 ENDEXITSECTION

@@ -20,6 +20,16 @@ IF
 StatusRemoved(_Player, "CHANGELING_SHAPESHIFTER", _, _)
 THEN
 RemoveTransforms(_Player);
+
+IF
+LevelUnloading(_Level)
+AND
+DB_Players(_Player)
+AND
+HasAppliedStatus(_Player,"CHANGELING_SHAPESHIFTER",1)
+THEN
+RemoveStatus(_Player,"CHANGELING_SHAPESHIFTER");
+RemoveTransforms(_Player);
 EXITSECTION
 
 ENDEXITSECTION
