@@ -191,5 +191,17 @@
         <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="632746dc-dcab-4b16-9e7e-029a04aafb59" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="90e5a7c5-365b-48a6-8b71-15c61955a4d1" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="eed2c9e5-d1b4-4010-99c4-0e96939867a0" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="Kobold" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haaeaefd6ge211ge406g3964g5d846312973c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h670b4035g1e83g155bg1b6bgbe2c3ed49f65" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="f68151f2-58ee-42e6-98ad-7d858c4a0f13" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="eed2c9e5-d1b4-4010-99c4-0e96939867a0" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
