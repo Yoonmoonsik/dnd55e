@@ -1411,5 +1411,26 @@
         <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_HARD: HEALTHBOOST_HARDCORE;STATUS_HARD:HOBGOBLINKING_HARDCORE" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5e2281b3-c02a-4df2-b506-48047c15e3be" />
+        <field name="Name" type="NameTableFieldDefinition" value="HookHorror" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cdfd2fc0-9681-4bca-804c-79fba6697b93" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="18" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="6" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="75" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Clawed" enumeration_type_name="StepsType" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Multiattack_HookHorror;Blindsight;AttackOfOpportunity;Darkvision;DarknessRules;ExtraAttack" />
+        <field name="DarkvisionRange" type="StringTableFieldDefinition" value="18" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="Skill(Perception, 3); Skill(Athletics, 2); BlockRegainHP(Undead;Construct)" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="252" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
