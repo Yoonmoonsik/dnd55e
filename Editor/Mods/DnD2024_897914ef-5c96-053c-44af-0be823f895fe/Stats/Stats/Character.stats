@@ -1259,7 +1259,7 @@
         <field name="Armor" type="IntegerTableFieldDefinition" value="13" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d3da2f37-a690-4732-8253-bcefdf1e3dae" />
         <field name="Name" type="NameTableFieldDefinition" value="Drider" />
@@ -1292,6 +1292,37 @@
         <field name="Vitality" type="IntegerTableFieldDefinition" value="184" />
         <field name="Passives" type="StringTableFieldDefinition" value="Multiattack_Drider;ImprovedCritical;DarkDevotion;DualWielder_PassiveBonuses;SpiderWalk;Alert;AttackOfOpportunity;SunlightSensitivity;Darkvision;DarknessRules" />
         <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_HARD: HEALTHBOOST_HARDCORE; STATUS_HARD: DRIDER_HARDCORE;STATUS_EASY:DRIDER_EASY;" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a401148b-eb1c-4554-bb54-b47c90d9f811" />
+        <field name="Name" type="NameTableFieldDefinition" value="Ettercap" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cdfd2fc0-9681-4bca-804c-79fba6697b93" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="44" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Clawed" enumeration_type_name="StepsType" version="1" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="WEB;DIFFICULT_TERRAIN_WEB" />
+        <field name="Passives" type="StringTableFieldDefinition" value="SpiderWalk;AttackOfOpportunity;Darkvision;DarknessRules;ExtraAttack" />
+        <field name="PathInfluence" type="StringTableFieldDefinition" value="BloodElectrified,100;BloodFrozen,30;Lava,700;Fire,40;HolyFire,40;Hellfire,100;PoisonCloud,70;WyvernPoison,70;DrowPoisonCloud,70;PurpleWormPoison,70;SerpentVenom,70;InvisibleGithAcid,70;CloudkillCloud,70;MaliceCloud,70;CrawlerMucusCloud,70;WaterElectrified,100;WaterFrozen,30;Grease,30;Vines,40;SporeBlackCloud,100;WaterCloudElectrified,40;SporeGreenCloud,40;Acid,30;CausticBrine,40;DarknessCloud,30;FogCloud,30;Mud,30;Oil,30;Poison,30;SpikeGrowth,40;SporePinkCloud,40;StinkingCloud,40" />
+        <field name="DarkvisionRange" type="StringTableFieldDefinition" value="18" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="85" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Constitution" enumeration_type_name="Ability" version="1" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_HARD: HEALTHBOOST_HARDCORE; STATUS_HARD: ETTERCAP_HARDCORE; STATUS_MEDIUM: ETTERCAP_NORMAL" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8a9a9757-801b-4dd8-bdd4-6844b66046d2" />
+        <field name="Name" type="NameTableFieldDefinition" value="FOR_Ettercap" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a401148b-eb1c-4554-bb54-b47c90d9f811" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;SpiderWalk;FOR_BottomlessWell_WebSensePassive;DarknessRules;ExtraAttack" />
       </fields>
     </stat_object>
   </stat_objects>
