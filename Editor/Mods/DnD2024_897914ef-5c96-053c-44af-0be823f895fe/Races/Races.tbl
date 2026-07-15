@@ -125,5 +125,30 @@
         <field name="RaceSoundSwitch" type="FixedStringTableFieldDefinition" value="Human" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_20" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2a873c76-fb44-404a-982e-5b9c57256b4f" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="99c33978-f236-4f5b-a8d8-59aeeaf6140f" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="Gnoll" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2944739bg0fccgd61eg92c1g5c03f06fda01" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb1e1f1ccg8b1fg0c0eg7a39gdbe307c41c2a" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="1350164f-85e1-42f9-89c9-eb0c6703e890" />
+        <field name="RaceSoundSwitch" type="FixedStringTableFieldDefinition" value="Gnoll" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_82" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4f2fd01e-fa57-4c3f-81e2-408d6fd4fdd0" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="99c33978-f236-4f5b-a8d8-59aeeaf6140f" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="Gnoll Flind" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcfaede04g37feg52c1g02a1g79498988da95" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2c4006d3g73ecg08bfg17a3g3faf573592f2" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="1350164f-85e1-42f9-89c9-eb0c6703e890" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="99c33978-f236-4f5b-a8d8-59aeeaf6140f" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

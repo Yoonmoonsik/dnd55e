@@ -2387,6 +2387,33 @@
                         </node>
                     </children>
                 </node>
+                <node id="Race">
+                    <attribute id="Description" type="TranslatedString" handle="hb1e1f1ccg8b1fg0c0eg7a39gdbe307c41c2a" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2944739bg0fccgd61eg92c1g5c03f06fda01" version="1"/>
+                    <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="Name" type="FixedString" value="Gnoll"/>
+                    <attribute id="ParentGuid" type="guid" value="99c33978-f236-4f5b-a8d8-59aeeaf6140f"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Gnoll"/>
+                    <attribute id="UUID" type="guid" value="2a873c76-fb44-404a-982e-5b9c57256b4f"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="1350164f-85e1-42f9-89c9-eb0c6703e890"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Race">
+                    <attribute id="Description" type="TranslatedString" handle="h2c4006d3g73ecg08bfg17a3g3faf573592f2" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hcfaede04g37feg52c1g02a1g79498988da95" version="1"/>
+                    <attribute id="DisplayTypeUUID" type="guid" value="99c33978-f236-4f5b-a8d8-59aeeaf6140f"/>
+                    <attribute id="Name" type="FixedString" value="Gnoll Flind"/>
+                    <attribute id="ParentGuid" type="guid" value="99c33978-f236-4f5b-a8d8-59aeeaf6140f"/>
+                    <attribute id="UUID" type="guid" value="4f2fd01e-fa57-4c3f-81e2-408d6fd4fdd0"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="1350164f-85e1-42f9-89c9-eb0c6703e890"/>
+                        </node>
+                    </children>
+                </node>
             </children>
         </node>
     </region>

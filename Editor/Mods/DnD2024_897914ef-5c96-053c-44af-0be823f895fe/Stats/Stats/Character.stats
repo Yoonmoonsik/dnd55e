@@ -1100,5 +1100,119 @@
         <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;WorgBite" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="53791390-3495-48fa-b731-006aff2bffc0" />
+        <field name="Name" type="NameTableFieldDefinition" value="_Gnolls" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7f03d35b-37bb-4268-8017-e721af97cff2" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Clawed" enumeration_type_name="StepsType" version="1" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Leather" enumeration_type_name="ArmorType" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="LightArmor;Longbows;SimpleWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="UnarmedAttackAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="DarkvisionRange" type="StringTableFieldDefinition" value="9" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="100" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_HARD: HEALTHBOOST_HARDCORE" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="6" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="27" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9533af00-fba3-4380-812e-d604613c54e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Gnoll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="53791390-3495-48fa-b731-006aff2bffc0" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Rampage;AttackOfOpportunity;Darkvision;DarknessRules" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="869b7b66-0383-4dde-8576-90793cce194d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Gnoll_Newborn" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9533af00-fba3-4380-812e-d604613c54e2" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="ArmorType" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics;Rampage;AttackOfOpportunity;Darkvision;DarknessRules" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8eb8dbbd-5052-48b4-a66b-e484d0d6ef02" />
+        <field name="Name" type="NameTableFieldDefinition" value="Gnoll_FleshGnawer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="53791390-3495-48fa-b731-006aff2bffc0" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="49" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Leather" enumeration_type_name="ArmorType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d976bca0-2eee-4189-b6ef-3f12b6157983" />
+        <field name="Name" type="NameTableFieldDefinition" value="Gnoll_Hunter" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="53791390-3495-48fa-b731-006aff2bffc0" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="49" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Rampage;AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Leather" enumeration_type_name="ArmorType" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="Skill(Perception, 3); Skill(Stealth, 4); BlockRegainHP(Undead;Construct)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3cad6850-c41f-4b0d-8c56-3be5705fcbf2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Gnoll_Fang" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="53791390-3495-48fa-b731-006aff2bffc0" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="17" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="71" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Rampage;AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Leather" enumeration_type_name="ArmorType" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow, Constitution); ProficiencyBonus(SavingThrow, Wisdom); ProficiencyBonus(SavingThrow, Charisma); BlockRegainHP(Undead;Construct)" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2e3d2798-2ac1-41e8-9fb9-63b86b774134" />
+        <field name="Name" type="NameTableFieldDefinition" value="Gnoll_Flind" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="53791390-3495-48fa-b731-006aff2bffc0" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="17" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="17" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="135" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Initiative" type="IntegerTableFieldDefinition" value="6" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="ScaleMail" enumeration_type_name="ArmorType" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="LightArmor;Longbows;SimpleWeapons;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ImmuneToDisarm;AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow, Constitution); ProficiencyBonus(SavingThrow, Wisdom); Skill(Intimidation,5); Skill(Perception,5); BlockRegainHP(Undead;Construct)" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
