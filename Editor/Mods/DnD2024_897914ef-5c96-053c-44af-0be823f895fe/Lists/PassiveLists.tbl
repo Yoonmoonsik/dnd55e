@@ -340,6 +340,20 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04324705-5bef-4df1-95aa-9a1d75103339" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fey Touched Feat" />
+        <field name="Passives" type="StringTableFieldDefinition" value="FeyTouched_AnimalFriendship,FeyTouched_Bane,FeyTouched_Bless,FeyTouched_CharmPerson,FeyTouched_Command,FeyTouched_CompelledDuel,FeyTouched_DissonantWhispers,FeyTouched_Heroism,FeyTouched_Hex,FeyTouched_HideousLaughter,FeyTouched_HuntersMark,FeyTouched_Sleep,FeyTouched_SpeakWithAnimals" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea067b3a-46cc-4f74-9b84-3a2fd2aa5945" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shadow Touched Feat" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ShadowTouched_CloakOfShadow,ShadowTouched_ColorSpray,ShadowTouched_DisguiseSelf,ShadowTouched_FalseLife,ShadowTouched_HungeringBlade,ShadowTouched_InflictWounds,ShadowTouched_RayOfSickness,ShadowTouched_WrathfulSmite" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4ef24101-ccab-47cd-8196-55da7c92ccd4" />
         <field name="Name" type="NameTableFieldDefinition" value="Goliath Giant Ancestry" />
         <field name="Passives" type="StringTableFieldDefinition" value="Goliath_1_GiantAncestry_Cloud,Goliath_1_GiantAncestry_Fire,Goliath_1_GiantAncestry_Frost,Goliath_1_GiantAncestry_Hill,Goliath_1_GiantAncestry_Stone,Goliath_1_GiantAncestry_Storm" />

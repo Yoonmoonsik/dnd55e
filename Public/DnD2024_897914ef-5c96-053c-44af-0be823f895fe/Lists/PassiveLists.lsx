@@ -250,6 +250,16 @@
                     <attribute id="UUID" type="guid" value="b0daa5cc-db0c-4f31-a082-c91dbb8e368f"/>
                 </node>
                 <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Fey Touched Feat"/>
+                    <attribute id="Passives" type="LSString" value="FeyTouched_AnimalFriendship,FeyTouched_Bane,FeyTouched_Bless,FeyTouched_CharmPerson,FeyTouched_Command,FeyTouched_CompelledDuel,FeyTouched_DissonantWhispers,FeyTouched_Heroism,FeyTouched_Hex,FeyTouched_HideousLaughter,FeyTouched_HuntersMark,FeyTouched_Sleep,FeyTouched_SpeakWithAnimals"/>
+                    <attribute id="UUID" type="guid" value="04324705-5bef-4df1-95aa-9a1d75103339"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Shadow Touched Feat"/>
+                    <attribute id="Passives" type="LSString" value="ShadowTouched_CloakOfShadow,ShadowTouched_ColorSpray,ShadowTouched_DisguiseSelf,ShadowTouched_FalseLife,ShadowTouched_HungeringBlade,ShadowTouched_InflictWounds,ShadowTouched_RayOfSickness,ShadowTouched_WrathfulSmite"/>
+                    <attribute id="UUID" type="guid" value="ea067b3a-46cc-4f74-9b84-3a2fd2aa5945"/>
+                </node>
+                <node id="PassiveList">
                     <attribute id="Name" type="FixedString" value="Goliath Giant Ancestry"/>
                     <attribute id="Passives" type="LSString" value="Goliath_1_GiantAncestry_Cloud,Goliath_1_GiantAncestry_Fire,Goliath_1_GiantAncestry_Frost,Goliath_1_GiantAncestry_Hill,Goliath_1_GiantAncestry_Stone,Goliath_1_GiantAncestry_Storm"/>
                     <attribute id="UUID" type="guid" value="4ef24101-ccab-47cd-8196-55da7c92ccd4"/>

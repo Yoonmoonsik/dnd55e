@@ -8844,6 +8844,239 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="63b6e68e-8581-44de-a431-06772b073925" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyTouched_AnimalFriendship" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc8800178g3eabg44b8g93a8g0d839444e75f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdc7ba426ge98dg4316g94c9g943ef2f71ef1" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_AnimalFriendship,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_AnimalFriendship" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="18622372-e227-455b-9554-e0440b5e7c43" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyTouched_Bane" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="63b6e68e-8581-44de-a431-06772b073925" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbe627f0bg708bg47b4gba79gf882af49eaca" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf80f1d43g98c1g4673gb72fgdffcfee338d2" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Bane,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Bane" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="df578c19-5284-4620-b399-7e5ea69f40a2" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyTouched_Bless" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="63b6e68e-8581-44de-a431-06772b073925" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8b1e18f1g4012g4e69gb0a3g8425b829678e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h87ead348ga862g462agbdd2g7079cbc25ffe" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Bless,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Bless" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="770bba39-851b-4b52-bd34-d83557ff7c9f" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyTouched_CharmPerson" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="63b6e68e-8581-44de-a431-06772b073925" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h184c59beg8cefg4990ga08bg9f97071dab68" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd754a089gcc84g46b1gb5d1gf25f7a821bb1" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CharmPerson,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_CharmPerson" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b5f25283-c378-4796-91b4-f7f49ea15280" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyTouched_Command" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="63b6e68e-8581-44de-a431-06772b073925" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5f709a6dg1beeg401dgac54g6745b0befb35" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5702aa7bgc62dg498dgb2feg449b551cc59f" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Command_Container,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_CommandHalt" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e19b15e0-243a-48df-b8d9-16cd8abf2271" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyTouched_CompelledDuel" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="63b6e68e-8581-44de-a431-06772b073925" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haa6cb53ega264g466egae57g0fd95c9d62e4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb21ce401g18b9g45c9g80cdg70f83e883cb9" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CompelledDuel,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_CompelledDuel" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c9ee601a-294b-448e-96c0-c0b72319b6aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyTouched_DissonantWhispers" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="63b6e68e-8581-44de-a431-06772b073925" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he981e206gd26fg4370gb1a0g19058c7e847c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2713c54cga6ddg44bfgbd2fg22ad3a219a9e" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_DissonantWhispers,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_DissonantWhispers" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b00cb70c-ea83-4605-96cd-a85aef59556c" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyTouched_Heroism" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="63b6e68e-8581-44de-a431-06772b073925" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h665b240bge251g4890gbb5cg7879ce993465" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1f496538gbf09g4d50gaffdg135542e5928e" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Heroism,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Heroism" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ce60f373-7bc3-40cd-a6d7-249b7ee54a8f" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyTouched_Hex" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="63b6e68e-8581-44de-a431-06772b073925" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h58b730d5g4dcbg4b48g971cg5b740e2ffc3d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4fbc6dd5g38b2g47f9g9735g678004c05e74" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Hex,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Hex" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="808f838d-4f67-4fd3-aac8-5c5508a3cf97" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyTouched_HideousLaughter" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="63b6e68e-8581-44de-a431-06772b073925" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdd4dbdd2g4659g4a31g8aa0gc4c445c1be33" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h23321941gc35bg4651g9eb6gf98a34d2777f" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_HideousLaughter,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Tasha'sHideousLaughter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="56e743cc-0bed-4fac-98fc-eaa8abc400cd" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyTouched_HuntersMark" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="63b6e68e-8581-44de-a431-06772b073925" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbb161f9ega89fg403eg823fge6c45b2fb19b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h57d8ec12g3ceeg4061gaf4eg0e05c40d93ef" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_HuntersMark,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_HuntersMark" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4cafd8e2-9baa-4cbc-a93b-a9fd5408f903" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyTouched_Sleep" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="63b6e68e-8581-44de-a431-06772b073925" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h62dc921dgae66g4db2ga508g1e377eaf2e8c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3db64f18g5e4dg4e28g992ag1e784239f0a8" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Sleep,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Sleep" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="654f6353-3150-408a-9be5-8617ec31d049" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeyTouched_SpeakWithAnimals" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="63b6e68e-8581-44de-a431-06772b073925" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4ce0ba4bg2079g403cg83a5g54abfdb0d35f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hced8ae2egc19bg42fbg92dbg72edc975847f" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SpeakWithAnimals,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_SpeakWithAnimals" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ac32e50f-fdd1-4d0a-ab55-28b74af2271c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowTouched_CloakOfShadow" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h960b967fgb408g48dbgb993gf63379043e63" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h34439d3ag8594g4874g9ca5g56e52762b609" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_CloakOfShadow,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_CloakOfShadow" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f0f06152-e4a5-4096-86b6-4f69b4cb1b95" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowTouched_ColorSpray" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac32e50f-fdd1-4d0a-ab55-28b74af2271c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h88e4b50cg73bdg46deg82a9g19b90a463135" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h07573fd6g637bg4a9eg99f4ge58d387e8342" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_ColorSpray,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_ColorSpray" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="00f3c3c8-527f-4fd4-b2f8-35d79aa44742" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowTouched_DisguiseSelf" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac32e50f-fdd1-4d0a-ab55-28b74af2271c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h551dff5egdb3fg4e5ega360ge241592e4da6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h70ce5477gbb1cg40f6g841agc7cebcf0e7cc" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DisguiseSelf,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_DisguiseSelf" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c53d6272-e40c-4515-af95-d55e0cd35b98" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowTouched_FalseLife" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac32e50f-fdd1-4d0a-ab55-28b74af2271c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbbc31f40ga186g46d4gbeadgb81be01d433d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb88252c9g43aeg4312g85deg472a9430cfae" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_FalseLife,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_FalseLife" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="097af5f3-1d2f-4635-af9c-b71df548c3f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowTouched_HungeringBlade" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac32e50f-fdd1-4d0a-ab55-28b74af2271c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdc840f83g6ad0g4288g88b6gcca1b7dcad99" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf1657fa1g090bg436ag8f9fg502202b9b2f7" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_HungeringBlade,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_HungeringBlade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9e651766-18cb-471c-b8cb-97e5c8daea7c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowTouched_InflictWounds" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac32e50f-fdd1-4d0a-ab55-28b74af2271c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb35411e3g6de2g4ec5g8a5fg844b807cd1dc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h23b5cf8bgb1a2g4710g80e0gb9671a8df06c" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_InflictWounds,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_InflictWounds" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="12f8dbf9-aa99-443c-9a3d-11e774e5f657" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowTouched_RayOfSickness" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac32e50f-fdd1-4d0a-ab55-28b74af2271c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h065d0fb7gf230g4f4bgb93eg770449c981b0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h97a5bcafge6d2g4934ga19bg37906036d192" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_RayOfSickness,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_RayOfSickness" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="76e918ab-127b-49b3-840b-a2f71b46cdda" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShadowTouched_WrathfulSmite" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac32e50f-fdd1-4d0a-ab55-28b74af2271c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h46162844g8514g42c9g8a0bg5ec0e854c4ee" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6d721699g12f1g47a5g9e59gb8faf326752a" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Smite_Wrathful,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_WrathfulSmite_Custom" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="63af0edc-5548-4ea2-96ac-17240ef81373" />
         <field name="Name" type="NameTableFieldDefinition" value="StrikeOfTheGiants" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7161b496g15eeg82f5gd23agbcddcc7ddb56" version="1" />

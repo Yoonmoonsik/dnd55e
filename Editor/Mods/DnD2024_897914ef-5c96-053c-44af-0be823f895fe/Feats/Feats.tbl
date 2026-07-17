@@ -248,7 +248,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="04ca42bc-8dfd-4aaa-8cc4-e27f564fd7a6" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="FeyTouched" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="FeyTouched" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);SelectSpells(7e61eac9-f8cf-4a12-81fc-7877e6ab5ce0,1,0,,,,AlwaysPrepared)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);SelectPassives(04324705-5bef-4df1-95aa-9a1d75103339,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -663,7 +663,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5d736b5a-70a2-4cfa-9c9e-d580fe6de1dc" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="ShadowTouched" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="ShadowTouched" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);SelectSpells(51db480f-3894-4dc1-9990-eaed90968e12,1,0,,,,AlwaysPrepared)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectAbilities(e9912c21-bfdf-4c75-ab58-0750e257e76c,1,1,INT_WIS_CHA);SelectPassives(ea067b3a-46cc-4f74-9b84-3a2fd2aa5945,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
