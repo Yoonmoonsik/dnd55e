@@ -2484,7 +2484,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape');" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL_3X,100,-1)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL_3X,100,-1);ApplyStatus(WILDSHAPE_CIRCLE_FORMS,100,-1);IF(HasPassive('Moon_6_ImprovedCircleForms'),context.Source):ApplyStatus(WILDSHAPE_IMPROVED_CIRCLE_FORMS,100,-1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

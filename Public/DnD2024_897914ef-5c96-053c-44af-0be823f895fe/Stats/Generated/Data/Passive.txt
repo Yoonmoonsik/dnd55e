@@ -1810,7 +1810,7 @@ data "PriorityOrder" "4203"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnStatusApplied"
 data "Conditions" "StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape');"
-data "StatsFunctors" "ApplyStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL_3X,100,-1)"
+data "StatsFunctors" "ApplyStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL_3X,100,-1);ApplyStatus(WILDSHAPE_CIRCLE_FORMS,100,-1);IF(HasPassive('Moon_6_ImprovedCircleForms'),context.Source):ApplyStatus(WILDSHAPE_IMPROVED_CIRCLE_FORMS,100,-1)"
 
 new entry "WildShape_TempHP_NPC"
 type "PassiveData"

@@ -4563,7 +4563,6 @@
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4572,8 +4571,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_TEMPHP_DRUIDLEVEL_3X" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7b211a00-eb33-42a0-9499-66f75b344b3b" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="3" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(ClassLevel(Druid)*3);ACOverrideFormula(13,true,Wisdom);IF(HasPassive('Moon_6_ImprovedCircleForms'),context.Source):RollBonus(SavingThrow, WisdomModifier, Constitution);" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(ClassLevel(Druid)*3);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4582,7 +4580,28 @@
         <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_TEMPHP_DRUIDLEVEL_3X_NPC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6f884536-39f7-4874-9eeb-9adf72fa6e8a" />
         <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(Level*3);" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(IsDowned()):RegainHitPoints(1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="659cfae3-8755-4e8f-bc60-1df8dda8039f" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_CIRCLE_FORMS" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h032b8a67g1d02geaddg0a67g885aa13f6da3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0a5c529fg9486g9b83gd997g8501abdfdb1b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WILDSHAPE_MOON_DRUID" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ACOverrideFormula(13,true,Wisdom);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="af21e7b0-9f7e-49ea-8090-3930508f47fe" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_IMPROVED_CIRCLE_FORMS" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6f04cce5g29c8g83f2gad05g7191e1a42b7d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h13f6765agce21gaac2g7533gb00e71fd0d88" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WILDSHAPE_IMPROVED_CIRCLE_FORMS" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, WisdomModifier, Constitution);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4590,7 +4609,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="84bc75ba-289b-46a4-b268-bd1608d8bbd4" />
         <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_TECHNICAL" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="20fc0baa-c32b-4c36-87a0-7bf412492682" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL);RemoveStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL_3X)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL);RemoveStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL_3X);RemoveStatus(WILDSHAPE_TEMPHP_DRUIDLEVEL_3X_NPC);RemoveStatus(WILDSHAPE_CIRCLE_FORMS);RemoveStatus(WILDSHAPE_IMPROVED_CIRCLE_FORMS)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
