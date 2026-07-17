@@ -525,7 +525,7 @@
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Strength, SourceSpellDC())" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d10,Force,Magical);ApplyStatus(PRONE,100,1);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(3d10/2,Force,Magical);" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Dead() and not (HasPassive('SculptSpells', context.Source) and Ally()) and not Tagged('INVISIBLE_HELPER');" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Dead() and not Ally();" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_LaeralsSilverLance" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h090fc065geb1dge3e6g22b1g1d5d2fa91c92" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h55dbf30agbd12g301dga596g935c9cd3ab5e" version="1" />
