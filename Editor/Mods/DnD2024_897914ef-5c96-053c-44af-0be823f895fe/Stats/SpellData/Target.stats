@@ -6530,7 +6530,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0dcdc1c9g2349g6dc5g0490g2bd7268e6913" version="1" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d6,Fire)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_ACID,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_FIRE,100,10);" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Fire)" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Buff_ElementalWeaponAcid_L1to3" />
@@ -6563,6 +6563,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsConcentration;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_ACID,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_ACID,100,10);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
