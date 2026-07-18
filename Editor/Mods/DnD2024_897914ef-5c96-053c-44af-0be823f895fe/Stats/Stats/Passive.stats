@@ -831,7 +831,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="not IsMiss() and not IsSpell();" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,HUNGERING_BLADE_TEMPHP,100,-1)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,HUNGERING_BLADE_TEMPHP,100,-1);DealDamage(SpellCastingAbilityModifier,Necrotic)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

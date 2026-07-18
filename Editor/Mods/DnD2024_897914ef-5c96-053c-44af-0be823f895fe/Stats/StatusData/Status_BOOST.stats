@@ -2861,7 +2861,6 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h353f6fe0g981eg9ab6gd5b9g0148d8001530" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_HungeringBlade" />
         <field name="StackId" type="StringTableFieldDefinition" value="HUNGERING_BLADE" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="CharacterUnarmedDamage(SpellCastingAbilityModifier,Necrotic);CharacterWeaponDamage(SpellCastingAbilityModifier,Necrotic);" />
         <field name="Passives" type="StringTableFieldDefinition" value="HungeringBlade_Passive;" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="cfaf4ceb-5031-425c-8dd2-9f4663c08be6" />
