@@ -3236,6 +3236,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SLOW" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8d50f327-8202-40ad-bcae-7517e8ffb93d" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Wisdom, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AC(-2);RollBonus(SavingThrow,0-2,Dexterity);ActionResourceBlock(ReactionActionPoint);ActionResourceMultiplier(Movement,50,0);MovementSpeedLimit(Walk);AI_IGNORE:Tag(EXTRA_ATTACK_BLOCKED);StatusImmunity(EXTRA_ATTACK);StatusImmunity(EXTRA_ATTACK_2);StatusImmunity(EXTRA_ATTACK_3);StatusImmunity(EXTRA_ATTACK_WAR_MAGIC);StatusImmunity(EXTRA_ATTACK_THIRSTING_BLADE_2);StatusImmunity(EXTRA_ATTACK_WARPRIEST);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

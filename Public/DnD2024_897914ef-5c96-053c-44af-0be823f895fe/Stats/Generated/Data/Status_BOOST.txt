@@ -2612,6 +2612,7 @@ new entry "SLOW"
 type "StatusData"
 data "StatusType" "BOOST"
 using "SLOW"
+data "Boosts" "AC(-2);RollBonus(SavingThrow,0-2,Dexterity);ActionResourceBlock(ReactionActionPoint);ActionResourceMultiplier(Movement,50,0);MovementSpeedLimit(Walk);AI_IGNORE:Tag(EXTRA_ATTACK_BLOCKED);StatusImmunity(EXTRA_ATTACK);StatusImmunity(EXTRA_ATTACK_2);StatusImmunity(EXTRA_ATTACK_3);StatusImmunity(EXTRA_ATTACK_WAR_MAGIC);StatusImmunity(EXTRA_ATTACK_THIRSTING_BLADE_2);StatusImmunity(EXTRA_ATTACK_WARPRIEST);"
 data "RemoveConditions" "SavingThrow(Ability.Wisdom, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())"
 
 new entry "SHILLELAGH"
