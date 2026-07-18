@@ -120,9 +120,10 @@ See the [Wiki](https://github.com/Yoonmoonsik/dnd55e/wiki) for full attribution.
 
 - **Japanese Translation**: [Eolaloe](https://www.nexusmods.com/profile/Eolaloe)
 - **Spanish / Latin Spanish Translation**: [incolhermex-droid](https://github.com/incolhermex-droid)
-- **French Translation**: CyberBoloss
-- **Brazilian Portuguese Translation**: [ShadowAhJin](https://mod.io/u/shadowahjin)
+- **French Translation**: [CyberBoloss](https://github.com/mcz-xiocku)
+- **Brazilian Portuguese Translation**: [ShadowAhJin](https://mod.io/u/shadowahjin) ([CaioShin93](https://github.com/CaioShin93))
 - **Italian Translation**: Alessandro
+- **Russian Translation**: [ANizamutdinov](https://github.com/ANizamutdinov)
 - **Item Models**: [skirbie](https://mod.io/g/baldursgate3/u/skirbie) ([Viper Carbine Steampunk Rifle Gun](https://mod.io/g/baldursgate3/m/viper-carbine-steampunk-rifle-gun), [Hand Cannon Gunslinger Weapon](https://mod.io/g/baldursgate3/m/hand-cannon-gunslinger-weapon))
 
 ## Legal
