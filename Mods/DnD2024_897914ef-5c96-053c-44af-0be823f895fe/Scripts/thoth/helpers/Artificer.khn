@@ -1,0 +1,7 @@
+function IntelligenceGreaterOrEqualToStrengthAndDexterity(entity)
+	entity = entity or context.Source
+	local intMod = GetModifier(entity.Intelligence)
+	local strMod = GetModifier(entity.Strength)
+	local dexMod = GetModifier(entity.Dexterity)
+	return ConditionResult(intMod >= strMod and intMod >= dexMod)
+end
