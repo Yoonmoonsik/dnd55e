@@ -2264,7 +2264,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d8b9c0d8-6cb9-4b27-a70c-ebdf376ad7d8" />
         <field name="Name" type="NameTableFieldDefinition" value="ShadowSmoke" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(3,1,FogCloud,true);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(3,2,FogCloud,true);" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FogCloud" />
