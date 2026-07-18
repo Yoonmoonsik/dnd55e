@@ -5282,6 +5282,7 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="ad70c67d-f4f6-4dea-b6b6-d871fae6ddc1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5293,6 +5294,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_NaturalExplorer_WastelandWanderer_Cold" />
         <field name="StackId" type="StringTableFieldDefinition" value="DISENGAGE" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="99" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="ad70c67d-f4f6-4dea-b6b6-d871fae6ddc1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
