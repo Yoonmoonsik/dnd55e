@@ -1313,7 +1313,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ArcaneWard_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c1069f8e-b719-446d-b61f-9fe085c6cdb8" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h36d4544fg5333g6da5gaa73g9d6577de11a3" version="1" />
-        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(OBSERVER_TARGET,-5,All);ApplyStatus(OBSERVER_OBSERVER,ARCANE_WARD_55E,100,-4);ApplyStatus(OBSERVER_TARGET,INTERRUPT_PROJECTED_WARD,100,0);UseSpell(OBSERVER_TARGET,Target_ProjectedWard_Interrupt,true,true,true);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(OBSERVER_TARGET,-5,All);ApplyStatus(OBSERVER_OBSERVER,ARCANE_WARD_55E,100,-3);ApplyStatus(OBSERVER_TARGET,INTERRUPT_PROJECTED_WARD,100,0);UseSpell(OBSERVER_TARGET,Target_ProjectedWard_Interrupt,true,true,true);" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and not StatusDurationLessThan(context.Observer,'ARCANE_WARD_55E',5);" />
       </fields>
     </stat_object>
@@ -1323,7 +1323,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ArcaneWard_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c1069f8e-b719-446d-b61f-9fe085c6cdb8" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1cb5ab02gf336ge150g0148g642f1196f8a5" version="1" />
-        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(OBSERVER_TARGET,-10,All);ApplyStatus(OBSERVER_OBSERVER,ARCANE_WARD_55E,100,-9);ApplyStatus(OBSERVER_TARGET,INTERRUPT_PROJECTED_WARD,100,0);UseSpell(OBSERVER_TARGET,Target_ProjectedWard_Interrupt,true,true,true);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(OBSERVER_TARGET,-10,All);ApplyStatus(OBSERVER_OBSERVER,ARCANE_WARD_55E,100,-7);ApplyStatus(OBSERVER_TARGET,INTERRUPT_PROJECTED_WARD,100,0);UseSpell(OBSERVER_TARGET,Target_ProjectedWard_Interrupt,true,true,true);" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and not StatusDurationLessThan(context.Observer,'ARCANE_WARD_55E',10);" />
       </fields>
     </stat_object>
@@ -1333,7 +1333,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ArcaneWard_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c1069f8e-b719-446d-b61f-9fe085c6cdb8" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7934c92cg8530g3159g655ag6b05c5e60aef" version="1" />
-        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(OBSERVER_TARGET,-15,All);ApplyStatus(OBSERVER_OBSERVER,ARCANE_WARD_55E,100,-14);ApplyStatus(OBSERVER_TARGET,INTERRUPT_PROJECTED_WARD,100,0);UseSpell(OBSERVER_TARGET,Target_ProjectedWard_Interrupt,true,true,true);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(OBSERVER_TARGET,-15,All);ApplyStatus(OBSERVER_OBSERVER,ARCANE_WARD_55E,100,-11);ApplyStatus(OBSERVER_TARGET,INTERRUPT_PROJECTED_WARD,100,0);UseSpell(OBSERVER_TARGET,Target_ProjectedWard_Interrupt,true,true,true);" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and not StatusDurationLessThan(context.Observer,'ARCANE_WARD_55E',15);" />
       </fields>
     </stat_object>
@@ -1343,7 +1343,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ArcaneWard_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c1069f8e-b719-446d-b61f-9fe085c6cdb8" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4f08c9a8gd738g8d4dg31c2gb975d622852c" version="1" />
-        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(OBSERVER_TARGET,-20,All);ApplyStatus(OBSERVER_OBSERVER,ARCANE_WARD_55E,100,-19);ApplyStatus(OBSERVER_TARGET,INTERRUPT_PROJECTED_WARD,100,0);UseSpell(OBSERVER_TARGET,Target_ProjectedWard_Interrupt,true,true,true);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(OBSERVER_TARGET,-20,All);ApplyStatus(OBSERVER_OBSERVER,ARCANE_WARD_55E,100,-15);ApplyStatus(OBSERVER_TARGET,INTERRUPT_PROJECTED_WARD,100,0);UseSpell(OBSERVER_TARGET,Target_ProjectedWard_Interrupt,true,true,true);" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and not StatusDurationLessThan(context.Observer,'ARCANE_WARD_55E',20);" />
       </fields>
     </stat_object>
@@ -1353,7 +1353,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ArcaneWard_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c1069f8e-b719-446d-b61f-9fe085c6cdb8" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd316ed92gc935g3e5ag2680g5fe344efd87e" version="3" />
-        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(OBSERVER_TARGET,-25,All);ApplyStatus(OBSERVER_OBSERVER,ARCANE_WARD_55E,100,-24);ApplyStatus(OBSERVER_TARGET,INTERRUPT_PROJECTED_WARD,100,0);UseSpell(OBSERVER_TARGET,Target_ProjectedWard_Interrupt,true,true,true);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(OBSERVER_TARGET,-25,All);ApplyStatus(OBSERVER_OBSERVER,ARCANE_WARD_55E,100,-19);ApplyStatus(OBSERVER_TARGET,INTERRUPT_PROJECTED_WARD,100,0);UseSpell(OBSERVER_TARGET,Target_ProjectedWard_Interrupt,true,true,true);" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and not StatusDurationLessThan(context.Observer,'ARCANE_WARD_55E',25);" />
       </fields>
     </stat_object>
@@ -1366,6 +1366,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h621ec36dg3794g4862g4538gb2c4399f06cd" version="1" />
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Ally(context.Target,context.Observer) and not Self(context.Target,context.Observer) and not StatusDurationLessThan(context.Observer,'ARCANE_WARD_55E',2) and not DistanceToEntityGreaterThan(9, context.ObserverPosition, context.Target);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1377,6 +1378,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcd21cc8fgd961g0feeg16afgf78a1e0a3fba" version="1" />
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Ally(context.Target,context.Observer) and not Self(context.Target,context.Observer) and not StatusDurationLessThan(context.Observer,'ARCANE_WARD_55E',5) and not DistanceToEntityGreaterThan(9, context.ObserverPosition, context.Target);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1388,6 +1390,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h221aec9fgee6dgf291gdaedg74950253b4a2" version="1" />
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Ally(context.Target,context.Observer) and not Self(context.Target,context.Observer) and not StatusDurationLessThan(context.Observer,'ARCANE_WARD_55E',10) and not DistanceToEntityGreaterThan(9, context.ObserverPosition, context.Target);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1399,6 +1402,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h97912cc4g21bfg2c6egbd0cgbc22ad403d83" version="1" />
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Ally(context.Target,context.Observer) and not Self(context.Target,context.Observer) and not StatusDurationLessThan(context.Observer,'ARCANE_WARD_55E',15) and not DistanceToEntityGreaterThan(9, context.ObserverPosition, context.Target);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1410,6 +1414,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6df157b5g12d3g2b2bgd643g1dd6b4025001" version="1" />
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Ally(context.Target,context.Observer) and not Self(context.Target,context.Observer) and not StatusDurationLessThan(context.Observer,'ARCANE_WARD_55E',20) and not DistanceToEntityGreaterThan(9, context.ObserverPosition, context.Target);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1421,6 +1426,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb4209506g884fg3190g8d94g0432d0658315" version="1" />
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Ally(context.Target,context.Observer) and not Self(context.Target,context.Observer) and not StatusDurationLessThan(context.Observer,'ARCANE_WARD_55E',25) and not DistanceToEntityGreaterThan(9, context.ObserverPosition, context.Target);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
