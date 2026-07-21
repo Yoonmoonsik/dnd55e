@@ -53,7 +53,7 @@ See the [Wiki](https://github.com/Yoonmoonsik/dnd55e/wiki) and each class page f
 | [Illrigger](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Illrigger) | Architect of Ruin, Hellspeaker, Painkiller, Sanguine Knight, Shadowmaster |
 | [Monk](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Monk) | Drunken Master, Elements, Kensei, Mercy, Open Hand, Shadow |
 | [Monster Hunter](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Monster-Hunter) | Carver Guild, Devourer Guild, Occultist Guild |
-| [Paladin](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Paladin) | Ancients, Crown, Devotion, Glory, Noble Genies, Vengeance, Oathbreaker |
+| [Paladin](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Paladin) | Ancients, Conquest, Crown, Devotion, Glory, Noble Genies, Vengeance, Oathbreaker |
 | [Ranger](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Ranger) | Beast Master, Fey Wanderer, Gloom Stalker, Hollow Warden, Hunter, Swarm Keeper, Winter Walker |
 | [Rogue](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Rogue) | Arcane Trickster, Assassin, Blade of Radiance, Scion of the Three, Highway Rider, Soulknife, Swashbuckler, Thief |
 | [Sorcerer](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Sorcerer) | Aberrant Sorcery, Clockwork Sorcery, Draconic Sorcery, Frost Sorcery, Shadow Magic, Spellfire Sorcery, Storm Sorcery, Wild Magic Sorcery |

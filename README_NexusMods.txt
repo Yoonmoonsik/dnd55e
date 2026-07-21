@@ -63,7 +63,7 @@ Chondathan Freebooter, Dead Magic Dweller, Dragon Cultist, Emerald Enclave Caret
 [*][b]Illrigger[/b] — Architect of Ruin, Hellspeaker, Painkiller, Sanguine Knight, Shadowmaster
 [*][b]Monk[/b] — Elements, Kensei, Mercy, Open Hand, Shadow
 [*][b]Monster Hunter[/b] — Carver Guild, Devourer Guild, Occultist Guild
-[*][b]Paladin[/b] — Ancients, Crown, Devotion, Glory, Noble Genies, Vengeance, Oathbreaker
+[*][b]Paladin[/b] — Ancients, Conquest, Crown, Devotion, Glory, Noble Genies, Vengeance, Oathbreaker
 [*][b]Ranger[/b] — Beast Master, Fey Wanderer, Gloom Stalker, Hollow Warden, Hunter, Swarm Keeper, Winter Walker
 [*][b]Rogue[/b] — Arcane Trickster, Assassin, Blade of Radiance, Scion of the Three, Highway Rider, Soulknife, Swashbuckler, Thief
 [*][b]Sorcerer[/b] — Aberrant Sorcery, Clockwork Sorcery, Draconic Sorcery, Frost Sorcery, Shadow Magic, Spellfire Sorcery, Storm Sorcery, Wild Magic Sorcery
