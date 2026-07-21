@@ -537,6 +537,24 @@
         <field name="Tags" type="GuidObjectListTableFieldDefinition" value="7c89622b-4194-41df-b2ff-145a5056ee49" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_74" />
+        <field name="UUID" type="IdTableFieldDefinition" value="16085a26-2e7b-4ee0-a3dd-2fdb678e238d" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="ff4d9497-023c-434a-bd14-82fc367e991c" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Conquest" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hadb5b7dage07bge3f2g8c43g6e8443272c86" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h64172b01gaf40g5fcaga683g03d6646d0c6f" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="06cd782b-69b2-4200-93ea-77a611f87363" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Paladin" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="True" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="a1aa47b2-4d0a-4c97-931b-2c53353d5b23" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF228B22" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />

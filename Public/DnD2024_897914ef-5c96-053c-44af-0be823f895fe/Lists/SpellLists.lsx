@@ -1796,6 +1796,21 @@
                     <attribute id="Spells" type="LSString" value="Target_MinorIllusion;Shout_SpeakWithAnimals_ForestGnome"/>
                     <attribute id="UUID" type="guid" value="582ed05c-c6fa-4d6f-99f9-efcc9de769f9"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Conquest Spell Level 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Target_Command_Container"/>
+                    <attribute id="UUID" type="guid" value="e94560d3-1c65-471b-a7fe-8d79408b4812"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Conquest Spell Level 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_HoldPerson;Target_SpiritualWeapon"/>
+                    <attribute id="UUID" type="guid" value="dfeaff4a-de0e-40fa-a1ee-c621dec4775a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Conquest Spell Level 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_BestowCurse;Zone_Fear"/>
+                    <attribute id="UUID" type="guid" value="337c2aa3-1131-4775-b692-03d2c1bbb3cc"/>
+                </node>
             </children>
         </node>
     </region>

@@ -790,6 +790,24 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);Distance(4.5)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fc688059-2f38-4ce8-89c0-f0e8b0fc015c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_GuidedStrike_Conquest" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h120e7e2eg2d57gd215g3dd8g8d3eb76c5977" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h22cd9059g79f9ge465gfd13g8edb0f14801b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_GuidedStrike" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPostRoll" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Source,context.Observer) and HasInterruptedAttack() and not AnyEntityIsItem() and IsFlatValueInterruptInteresting(10, context.Source)" />
+        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(10);ApplyStatus(OBSERVER_SOURCE,GUIDED_STRIKE,100,1)" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ChannelOath:1;" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" value="not HasStatus('SG_Polymorph') or HasAnyStatus({'SG_Disguise','WILDSHAPE_STARRY_ARCHER_PLAYER','WILDSHAPE_STARRY_CHALICE_PLAYER','WILDSHAPE_STARRY_DRAGON_PLAYER'});" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF006400" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="558dcc8c-07ec-4a4c-aa43-80ae550b62ff" />

@@ -3946,6 +3946,70 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFA500" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2b3ec5d9-6769-4b90-b6f7-1592712642be" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CONQUEST__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1194baff-64f0-4ca9-b5b0-a27345e1b8b1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conquest_3_Tenets" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2e82e99agfea3g9983g241bg150e083ca5e5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb8f19c6eg8b30gf2a4gf843g35b9073b6cf0" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_VowOfEnmity" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6883d5c4-ecd6-4074-9f9a-bba4a38079d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conquest_3_OathSpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h903867a1g3cfdg2b4fge6ebg7a3e79936727" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbf3f7449g1ed3gab0dgc670g9f81ada8e42a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_CommandFlee" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8a0f050e-3320-459b-8578-1eea2b4f9b56" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conquest_3_ConqueringPresence" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha9bb3551ge412g5c19g5e97g106901d50282" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5bee8c93gf2c8gd340g65cfge6d42d8c4a32" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_DreadfulAspect" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ConqueringPresence);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b004f2ef-27f9-4665-ba3d-d09bf0617496" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conquest_3_GuidedStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h996c924egb5b7g1b84g76a7g77794f881ec6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0f884270g61b3g274fg3068g30e5ff265b7a" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_GuidedStrike" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_GuidedStrike_Conquest);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c4b59833-f000-4bd1-887c-b46740f817b9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conquest_7_AuraOfConquest" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h73506d7ega609g97beg9101g93708e3a082e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h999836e2gda36g81ebg8675g32c73bf93de3" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_AuraOfHate" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7507" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_AuraOfConquest);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF006400" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f620b722-de59-43de-ab62-d304856a04ec" />
@@ -5799,12 +5863,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="DarkOnesOwnLuck_Resource" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnProficiencyChange;OnShortRest;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(DarkOnesOwnLuck,1,0);IF(AbilityGreaterThan('Charisma',13,context.Source)):ActionResource(DarkOnesOwnLuck,1,0);IF(AbilityGreaterThan('Charisma',15,context.Source)):ActionResource(DarkOnesOwnLuck,1,0);IF(AbilityGreaterThan('Charisma',17,context.Source)):ActionResource(DarkOnesOwnLuck,1,0);IF(AbilityGreaterThan('Charisma',19,context.Source)):ActionResource(DarkOnesOwnLuck,1,0);IF(AbilityGreaterThan('Charisma',21,context.Source)):ActionResource(DarkOnesOwnLuck,1,0);IF(AbilityGreaterThan('Charisma',23,context.Source)):ActionResource(DarkOnesOwnLuck,1,0);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="cd4715a0-8fd3-4b03-8cd6-a933c02f7691" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

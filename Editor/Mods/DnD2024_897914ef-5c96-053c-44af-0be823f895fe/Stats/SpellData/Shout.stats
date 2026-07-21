@@ -3460,6 +3460,56 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hae6c4966g7a68ga1edg4bc6gae39ac7aeb6b" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8be53088-bd3c-4d56-bedd-d5d26438ee3d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConqueringPresence" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="9" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Wisdom, SourceSpellDC(),AdvantageOnFrightened(), DisadvantageOnFrightened())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(FRIGHTENED,100,10);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and Enemy() and not Dead()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_DreadfulAspect" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he29c0fa8g0bcdgab6cgc0c7ge447100b3ff3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h573bf455gce7agc4a2gb934gf7147ae4c160" version="2" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Wisdom" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FRIGHTENED,100,10);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Paladin_OathBreaker_DreadfulAspect_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Paladin_OathBreaker_DreadfulAspect_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ChannelOath:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="83fb0115-57dd-4cce-ac40-87182b2865e2,,;,,;62e74220-ba87-4fe7-aa99-9d12cab9d654,,;b1f3f86a-a1fc-43f6-8a2b-0110a9f99ead,,;42014429-21fb-412d-bba6-0f8216f5e502,,;,,;43fa5e31-ad7e-47a9-9ca2-f6d40ba8e1cf,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Control" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="c218f05b-1e12-4298-beff-e4d33a5fa5a5" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1eee1ec0-263e-4f15-8909-84da438559e4" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="68ad05e0-ad4d-48cf-8b19-84434100711a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f94ee591-85f9-41ce-9b40-b64c4559d56c" />
+        <field name="Name" type="NameTableFieldDefinition" value="AuraOfConquest" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(AURA_OF_CONQUEST,100,-1);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_AuraOfHate" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h109e64a1gcfdeg5849g6011g2589d481fc32" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4f9f38d6gda7fg1e2egc9a1gab2a9e20fa30" version="2" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(AURA_OF_CONQUEST,100,-1);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Paladin_AuraOfHate_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Paladin_AuraOfHate_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="83fb0115-57dd-4cce-ac40-87182b2865e2,,;,,;62e74220-ba87-4fe7-aa99-9d12cab9d654,,;b1f3f86a-a1fc-43f6-8a2b-0110a9f99ead,,;42014429-21fb-412d-bba6-0f8216f5e502,,;,,;43fa5e31-ad7e-47a9-9ca2-f6d40ba8e1cf,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('AURA_OF_CONQUEST')" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="c218f05b-1e12-4298-beff-e4d33a5fa5a5" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="8265c6d6-662a-40fe-888b-024af0e2b1b9" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF006400" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="eb2020fb-f98a-4905-ad5f-98692c6e91b0" />

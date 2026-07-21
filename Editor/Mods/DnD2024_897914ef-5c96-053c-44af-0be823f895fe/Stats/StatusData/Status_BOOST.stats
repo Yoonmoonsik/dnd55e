@@ -5243,6 +5243,35 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Acid, Resistant);Resistance(Thunder, Resistant);Resistance(Fire, Resistant);Resistance(Lightning, Resistant);Resistance(Cold, Resistant);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2abe4075-e80a-44fe-9d9f-d573e6bb2fbe" />
+        <field name="Name" type="NameTableFieldDefinition" value="AURA_OF_CONQUEST" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h866d88e1g1047ge1d0gd19agda4ac87262ec" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb19479e8gdf8bgc260g8a24g5668daa9bfeb" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_AuraOfHate" />
+        <field name="StackId" type="StringTableFieldDefinition" value="AURA_OF_CONQUEST" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(Enemy() and HasStatus('SG_Frightened')):ApplyStatus(AURA_OF_CONQUEST_DEBUFF)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasAnyStatus({'SG_Unconscious','SG_Incapacitated'},{},{'LONG_REST'})" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4c67cc35-c4c5-46ee-8b3f-1339748a35f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="AURA_OF_CONQUEST_DEBUFF" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h317ce04ag4c31g046cgc0e5gc22245456709" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_AuraOfHate" />
+        <field name="StackId" type="StringTableFieldDefinition" value="AURA_OF_CONQUEST_DEBUFF" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AllAbilities);Disadvantage(AttackRoll);" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.ClassLevel(Paladin)/2,Psychic)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.ClassLevel(Paladin)/2,Psychic)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF006400" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f7ca82b5-bfe1-41a2-a6d5-03ed78930ecb" />
