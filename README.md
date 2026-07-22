@@ -45,7 +45,7 @@ See the [Wiki](https://github.com/Yoonmoonsik/dnd55e/wiki) and each class page f
 | --- | --- |
 | [Artificer](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Artificer) | Alchemist, Armorer, Artillerist, Battle Smith |
 | [Barbarian](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Barbarian) | Berserker, Fractured, Giant, Shadow Gnawer, Wild Magic, Wildheart, World Tree, Zealot |
-| [Bard](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Bard) | Dance, Glamour, Lore, Moon, Spirits, Swords, Valor |
+| [Bard](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Bard) | Choreography, Dance, Glamour, Lore, Moon, Spirits, Swords, Valor |
 | [Cleric](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Cleric) | Apocalypse, Astral, Death, Grave, Nature, Shadow, Tempest, Knowledge, Life, Light, Mind, Trickery, War |
 | [Druid](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Druid) | Circle of Dragons, Dreams, Stars, Land, Moon, Sea, Spores, Unbroken |
 | [Fighter](https://github.com/Yoonmoonsik/dnd55e/wiki/Class-Fighter) | Arcane Archer, Banneret, Battle Master, Cavalier, Champion, Eldritch Knight, Psi Warrior, Rune Knight, Viking |
