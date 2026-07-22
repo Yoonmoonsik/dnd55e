@@ -4349,6 +4349,37 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Frightened;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FFDDA0DD" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="06bbfc7b-3a9c-44de-88ad-ba0ae3654fb8" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CHOREOGRAPHY__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="01e44800-76fc-4520-a2c6-559a6b226a2b" />
+        <field name="Name" type="NameTableFieldDefinition" value="INSPIRATIONAL_DANCE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha3470339g553agf518ge686g4bd2e7eabe4e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_MAG_TemporaryHP" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_Buff_MO" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INSPIRATIONAL_DANCE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(Cause.LevelMapValue(BardicInspiration)+Cause.CharismaModifier);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(INSPIRATIONAL_DANCE_ACTION,100,1)" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0a98ea55-bae9-4263-9021-dc768d69e640" />
+        <field name="Name" type="NameTableFieldDefinition" value="INSPIRATIONAL_DANCE_ACTION" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Disengage_Reaction_Temp);UnlockSpell(Shout_Dodge_Reaction_Temp);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFD700" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="77df3921-0178-43dd-a351-3784d5ac19a5" />

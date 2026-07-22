@@ -15,10 +15,27 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c4a7020d-4333-4032-b8d1-9ba89fe9f6d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dodge_Reaction_Temp" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8940d1db-6644-425e-9f8d-8810cf5ed840" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ReactionActionPoint:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="NoCameraMove;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7650d474-9c29-4266-81e9-c4037701bbb7" />
         <field name="Name" type="NameTableFieldDefinition" value="Disengage_BonusAction_Temp" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="701b4f79-15bf-4da8-a70b-bfe613bee61f" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="NoCameraMove;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="104297ec-ca40-4734-b005-2ac775356dbe" />
+        <field name="Name" type="NameTableFieldDefinition" value="Disengage_Reaction_Temp" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7650d474-9c29-4266-81e9-c4037701bbb7" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ReactionActionPoint:1;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

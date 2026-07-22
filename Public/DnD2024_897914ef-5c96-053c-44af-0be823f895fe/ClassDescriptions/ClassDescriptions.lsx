@@ -473,6 +473,25 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h64172b01gaf40g5fcaga683g03d6646d0c6f" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hadb5b7dage07bge3f2g8c43g6e8443272c86" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Conquest"/>
+                    <attribute id="ParentGuid" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="06cd782b-69b2-4200-93ea-77a611f87363"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Paladin"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="16085a26-2e7b-4ee0-a3dd-2fdb678e238d"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="a1aa47b2-4d0a-4c97-931b-2c53353d5b23"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h60b4a6b6g2c59g4b4cgb657g5872fb1a68d4" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h7448ea4fg8ab9g8b26gf04dg6a7767cae2dd" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
@@ -1118,22 +1137,16 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="h64172b01gaf40g5fcaga683g03d6646d0c6f" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="hadb5b7dage07bge3f2g8c43g6e8443272c86" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hb4cccef8g4f09g6448g556ag2414e437228a" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha7123ebbg3a7eg5a2agbb2agd275e5b96e50" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="Conquest"/>
-                    <attribute id="ParentGuid" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
-                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="06cd782b-69b2-4200-93ea-77a611f87363"/>
-                    <attribute id="SoundClassType" type="FixedString" value="Paladin"/>
+                    <attribute id="Name" type="FixedString" value="ChoreographyCollege"/>
+                    <attribute id="ParentGuid" type="guid" value="92cd50b6-eb1b-4824-8adb-853e90c34c90"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="6ecf4e50-6458-4f11-b525-644171eeb5b7"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Bard"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="6"/>
-                    <attribute id="UUID" type="guid" value="16085a26-2e7b-4ee0-a3dd-2fdb678e238d"/>
-                    <children>
-                        <node id="Tags">
-                            <attribute id="Object" type="guid" value="a1aa47b2-4d0a-4c97-931b-2c53353d5b23"/>
-                        </node>
-                    </children>
+                    <attribute id="UUID" type="guid" value="638b865a-87ba-485d-aa75-f8b219934c45"/>
                 </node>
             </children>
         </node>

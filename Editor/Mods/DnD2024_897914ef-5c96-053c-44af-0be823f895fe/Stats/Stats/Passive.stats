@@ -1569,6 +1569,61 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,1d8,Force,Magical)" />
       </fields>
     </stat_object>
+    <stat_object color="#FFEE82EE" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="16397507-b280-4388-96ed-4da09f4a82bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CHOREOGRAPHY__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="37e7ece4-6764-4771-9d42-112c2d0fc50d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Choreography_3_FastMovement" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h646d3264gf6b6g560fg5c71g2bdcf82ed18f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1577c90agd0bag445egb032g8a550e8a9aa3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Longstrider" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement, 3, 0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bac6cf70-aeb5-425f-b50a-725ee24831bf" />
+        <field name="Name" type="NameTableFieldDefinition" value="Choreography_3_InspirationalDance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he6ec7f15ga89dg3c20g36ccg1213e02112e6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdfb7e043ga3ecgc3afg13c5g96138794e52b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Choreography_3_InspirationalDance" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_InspirationalDance);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b287224d-d0bc-450f-b1c2-7310135e8e3c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Choreography_6_EntrancingMovement" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4540df02gb020g8e3bg3167gaa78385a6a3d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5f50c057g3d01g7209ga5aeg4ccd4c74e397" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Choreography_3_InspirationalDance" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2506" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CharmPerson_Choreography);UnlockSpell(Target_CharmPerson,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="(IsReactionAttack(context.Source) or HasStatus('DODGE',context.Target)) and HasDamageEffectFlag(DamageFlags.Hit) and not SpellTypeIs(SpellType.Throw);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,CharismaModifier+ClassLevel(Bard)/2,Psychic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0826d73b-ffff-4ef7-82ad-64c6fc3a7c67" />
+        <field name="Name" type="NameTableFieldDefinition" value="Choreography_6_FastMovement" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37e7ece4-6764-4771-9d42-112c2d0fc50d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd49fcd64gff1eg845agd28bg3ab0a14daac8" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2506" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement, 1.5, 0);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFD700" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="66fe610b-11db-4906-b6ba-d2ed0a595376" />

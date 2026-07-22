@@ -505,7 +505,7 @@
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(7ea8f476-97a1-4256-8f10-afa76a845cce,1,1,BardSpells)" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="0da91e7c-7880-4cfa-819b-82eb6f41130f;a06241d2-c432-472c-8c7d-84228d530cfa;d21368ac-c776-465c-9dcf-6123dd52734f;338cd823-6cec-434c-91ea-083ad535833f;2f1f3761-64fd-42b7-a5e1-f1c381f6be1a;c4bd5252-d68a-4330-9431-5e8ab24c5f29;2b46330d-0ada-4eb5-a131-3d250a41ca6a" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="638b865a-87ba-485d-aa75-f8b219934c45;0da91e7c-7880-4cfa-819b-82eb6f41130f;a06241d2-c432-472c-8c7d-84228d530cfa;d21368ac-c776-465c-9dcf-6123dd52734f;338cd823-6cec-434c-91ea-083ad535833f;2f1f3761-64fd-42b7-a5e1-f1c381f6be1a;c4bd5252-d68a-4330-9431-5e8ab24c5f29;2b46330d-0ada-4eb5-a131-3d250a41ca6a" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1240,6 +1240,95 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0970439c-93e1-490c-b334-baa75ccb2008" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="3669d6ce-d951-4491-8c23-fe2fa922357c" />
         <field name="FSName" type="StringTableFieldDefinition" value="SpiritsCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFEE82EE" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_970" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ce4c106f-afaf-4a89-af11-9a78a9580074" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6ecf4e50-6458-4f11-b525-644171eeb5b7" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ChoreographyCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Choreography_3_FastMovement;Choreography_3_InspirationalDance;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_971" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1098731a-45dd-480d-b702-1cda7ba4f65a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6ecf4e50-6458-4f11-b525-644171eeb5b7" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ChoreographyCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Choreography_6_EntrancingMovement;Choreography_6_FastMovement" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(c213ca01-3767-457b-a5c8-fd4c1dd656e2,1,0,BardSpells)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_972" />
+        <field name="UUID" type="IdTableFieldDefinition" value="47c16ae8-45d2-4185-96a0-5220151e55eb" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6ecf4e50-6458-4f11-b525-644171eeb5b7" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ChoreographyCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_973" />
+        <field name="UUID" type="IdTableFieldDefinition" value="eec85a7a-923f-406a-9b6d-56058512158e" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6ecf4e50-6458-4f11-b525-644171eeb5b7" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ChoreographyCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_974" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3225fae5-00bd-4435-a551-dd31f1a06b26" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6ecf4e50-6458-4f11-b525-644171eeb5b7" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ChoreographyCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,2,1,BardSpells)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_975" />
+        <field name="UUID" type="IdTableFieldDefinition" value="85dfac7b-fbcc-45d0-bdba-64a2374ef53e" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6ecf4e50-6458-4f11-b525-644171eeb5b7" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ChoreographyCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_976" />
+        <field name="UUID" type="IdTableFieldDefinition" value="abca0c64-0f31-4280-92fd-8c6cb5724b8a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6ecf4e50-6458-4f11-b525-644171eeb5b7" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ChoreographyCollege" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_977" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8daf559e-3dea-429a-a4db-4828a4d821d1" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="6ecf4e50-6458-4f11-b525-644171eeb5b7" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ChoreographyCollege" />
         <field name="Level" type="ByteTableFieldDefinition" value="12" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)" />
