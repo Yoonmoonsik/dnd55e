@@ -153,6 +153,19 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_13" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e716d37c-2a7e-471e-b92b-53746921082b" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="f1b3f884-4029-4f0f-b158-1f9fe0ae5a0d" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="DhampirGnome" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfd3e7f7cg81d3g32b1gc592g7b0eafc25b98" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h66794ce7gf729g4f43gdf2cge8ec589e9348" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="309fc88d-4dde-43e9-989d-3d4170e67785;f78562da-91a2-4f2f-ac89-17c3cec21892" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="c588bc70-f0cd-4a34-9252-54deb7a5211b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
         <field name="UUID" type="IdTableFieldDefinition" value="65ab9967-ab57-4728-ad56-1e552d9f5ef6" />
         <field name="ParentUUID" type="GuidTableFieldDefinition" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba" />

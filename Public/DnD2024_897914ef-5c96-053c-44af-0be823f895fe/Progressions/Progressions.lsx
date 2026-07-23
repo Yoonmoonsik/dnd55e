@@ -8261,7 +8261,7 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0);"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Gnome"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Gnome_Cunning"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Darkvision"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="TableUUID" type="guid" value="c1d4adfe-9f00-44b4-a433-a45250d00631"/>
                     <attribute id="UUID" type="guid" value="d48f8fb3-4351-4b5d-a28c-946fd33be726"/>
@@ -8491,7 +8491,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="RockGnome"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Darkvision;RockGnome_ArtificersLore"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Gnome_Cunning;RockGnome_ArtificersLore"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(87762fb9-bc0a-43bd-9467-74cebf09b38e,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="1e9f254e-6aa4-4e54-9937-82065b3182ee"/>
@@ -8500,7 +8500,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="ForestGnome"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Darkvision"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Gnome_Cunning"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(582ed05c-c6fa-4d6f-99f9-efcc9de769f9,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="f0a6b572-9612-403f-981c-978c21225845"/>
@@ -8653,10 +8653,27 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(Movement,1.5,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="DhampirHalf"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Dhampir_1_TraceOfUndeath;Dhampir_1_VampiricBite"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Darkvision;Dhampir_1_TraceOfUndeath;Dhampir_1_VampiricBite"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="TableUUID" type="guid" value="e32466a7-3499-42d6-a498-dc76ffdeafba"/>
                     <attribute id="UUID" type="guid" value="5ec63027-9cd7-42fc-9746-43aea211dbda"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,1.5,0)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="DhampirGnome"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dhampir_1_TraceOfUndeath;Dhampir_1_VampiricBite"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="c588bc70-f0cd-4a34-9252-54deb7a5211b"/>
+                    <attribute id="UUID" type="guid" value="8007e4a9-80cc-47d3-9cf3-3385da4b82ae"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="DeepGnome"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Gnome_Cunning;SuperiorDarkvision;DeepGnome_StoneCamouflage"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="0f6d9f53-a2d0-422b-beea-a2fdfd88628a"/>
+                    <attribute id="UUID" type="guid" value="938b6f72-18a6-4af0-924b-5292251d32bf"/>
                 </node>
             </children>
         </node>

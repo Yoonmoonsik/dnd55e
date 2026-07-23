@@ -10670,7 +10670,42 @@
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Darkvision" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_780" />
+        <field name="UUID" type="IdTableFieldDefinition" value="aa2257a9-1779-4d8b-be65-8a08eede07fa" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1e9f254e-6aa4-4e54-9937-82065b3182ee" />
+        <field name="FSName" type="StringTableFieldDefinition" value="RockGnome" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Gnome_Cunning;RockGnome_ArtificersLore" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(87762fb9-bc0a-43bd-9467-74cebf09b38e,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_781" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a63bbb3c-c37c-4578-94e6-7d1c4c063d5c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="f0a6b572-9612-403f-981c-978c21225845" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ForestGnome" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Gnome_Cunning" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(582ed05c-c6fa-4d6f-99f9-efcc9de769f9,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_988" />
+        <field name="UUID" type="IdTableFieldDefinition" value="938b6f72-18a6-4af0-924b-5292251d32bf" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="0f6d9f53-a2d0-422b-beea-a2fdfd88628a" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DeepGnome" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Gnome_Cunning;SuperiorDarkvision;DeepGnome_StoneCamouflage" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -10994,30 +11029,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_780" />
-        <field name="UUID" type="IdTableFieldDefinition" value="aa2257a9-1779-4d8b-be65-8a08eede07fa" />
-        <field name="TableUUID" type="GuidTableFieldDefinition" value="1e9f254e-6aa4-4e54-9937-82065b3182ee" />
-        <field name="FSName" type="StringTableFieldDefinition" value="RockGnome" />
-        <field name="Level" type="ByteTableFieldDefinition" value="1" />
-        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Darkvision;RockGnome_ArtificersLore" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(87762fb9-bc0a-43bd-9467-74cebf09b38e,,,,AlwaysPrepared)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_781" />
-        <field name="UUID" type="IdTableFieldDefinition" value="a63bbb3c-c37c-4578-94e6-7d1c4c063d5c" />
-        <field name="TableUUID" type="GuidTableFieldDefinition" value="f0a6b572-9612-403f-981c-978c21225845" />
-        <field name="FSName" type="StringTableFieldDefinition" value="ForestGnome" />
-        <field name="Level" type="ByteTableFieldDefinition" value="1" />
-        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Darkvision" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(582ed05c-c6fa-4d6f-99f9-efcc9de769f9,,,,AlwaysPrepared)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_647" />
         <field name="UUID" type="IdTableFieldDefinition" value="dbde4d66-d3e4-4c3f-ae87-fd6e2d1cd276" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e" />
@@ -11152,6 +11163,18 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5ec63027-9cd7-42fc-9746-43aea211dbda" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="e32466a7-3499-42d6-a498-dc76ffdeafba" />
         <field name="FSName" type="StringTableFieldDefinition" value="DhampirHalf" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Darkvision;Dhampir_1_TraceOfUndeath;Dhampir_1_VampiricBite" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,1.5,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_987" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8007e4a9-80cc-47d3-9cf3-3385da4b82ae" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="c588bc70-f0cd-4a34-9252-54deb7a5211b" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DhampirGnome" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Dhampir_1_TraceOfUndeath;Dhampir_1_VampiricBite" />
