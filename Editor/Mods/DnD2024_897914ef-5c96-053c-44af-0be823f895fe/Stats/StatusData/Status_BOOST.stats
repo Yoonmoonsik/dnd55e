@@ -6933,6 +6933,34 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,-4.5,0);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ce69f11-a2ad-434d-83d3-b809c5eca1aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="HEROIC_SOUL_TEMPHP" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3402fc68g9109gef6dgd022gbf7d7085770c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6aa73d7cg8370gbdf1gf6e2g1f60946189a8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Durable" />
+        <field name="StackId" type="StringTableFieldDefinition" value="HEROIC_SOUL_TEMPHP" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(1d6+ClassLevel(Sorcerer));" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="51eb35d6-828f-4bd6-94d6-f035bcbf9dd0" />
+        <field name="Name" type="NameTableFieldDefinition" value="INNATE_BLADEWORK" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h023b6e62gd527gd06ag21f5g62d6b5499a8f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he6de2090g4ec1g94fdg1c3fgd41c1e984607" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_PactOfTheBlade_Rapier" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INNATE_BLADEWORK" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(CharismaGreaterOrEqualToStrengthAndDexterity()):WeaponAttackRollAbilityOverride(Charisma);" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="63760e78-ec10-4c41-a097-173a6f1fe536" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="894106a1-04a8-4f54-a29a-e3513e4493dc" />

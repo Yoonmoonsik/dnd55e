@@ -3999,6 +3999,31 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="d822f332-8213-49a1-bc48-4668a89199ad" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4932b6b0-cbfc-4ef0-b7ac-6310ad7c1a14" />
+        <field name="Name" type="NameTableFieldDefinition" value="HeroicSoul" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(HEROIC_SOUL_TEMPHP,100,-1);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Durable" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h53a12d9egc7c5gf706ga7b8g2d29d648745c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h93fa867eg625fg359eg2832g67fe332a6780" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HEROIC_SOUL_TEMPHP,100,-1);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_SorcererGen_L1to3_01" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_SorcererGen_L1to3_01" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_CreateSorceryPoint_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_CreateSorceryPoint_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SorceryPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="9fd22d7d-5d7a-470b-a939-810046915bed,,;,,;4222840e-85c4-41d4-89f3-cf525ab7a2ce,,;d58199b1-9bc5-4715-99d4-43a5b5c1ec16,,;2d19a206-bf18-4f4d-ba95-f83c5fc38fd7,,;,,;57db495b-2467-467b-a599-d7df2fa4d659,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="5feec47c-a895-48e3-baba-7d97ec89aa9f" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="d822f332-8213-49a1-bc48-4668a89199ad" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f8ca137f-7ee2-4e3b-894b-71c8eb15772a" />

@@ -1749,6 +1749,40 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_Cloudkill;Target_Contagion" />
       </fields>
     </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0f57a979-a681-4ac5-a0f6-3eeb7b793ed5" />
+        <field name="Name" type="NameTableFieldDefinition" value="__HEROIC SORCERY__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4a1cad9b-264a-41fd-9653-6500d0203862" />
+        <field name="Name" type="NameTableFieldDefinition" value="Heroic Level 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_GreenFlameBlade;Target_TrueStrike;Target_Heroism;Target_MagicWeapon;Shout_MirrorImage;Shout_Shield_Sorcerer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6468f699-dc34-44c0-9133-be6f5c7a594b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Heroic Level 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Haste;Target_PhantomSteed" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3bfc445f-dcb4-48a6-97a7-c59b95d0e399" />
+        <field name="Name" type="NameTableFieldDefinition" value="Heroic Level 7" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_DeathWard;Target_Stoneskin" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e65fb617-8905-40a8-98a3-ea453c22e04b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Heroic Level 9" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_HoldMonster" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="28297251-2b44-4554-8723-4ab94229a3c0" />

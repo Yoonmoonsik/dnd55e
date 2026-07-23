@@ -4679,6 +4679,9 @@
                                     <attribute id="Object" type="guid" value="d45d0e7a-e5f9-4b43-865d-fb51aec2d32b"/>
                                 </node>
                                 <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="722826c2-5d11-4e17-9b21-b74e9dfca4d6"/>
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="b443a7fa-b36a-4cbc-9e4b-f3167de34d1b"/>
                                 </node>
                                 <node id="SubClass">
@@ -8267,12 +8270,54 @@
                     <attribute id="UUID" type="guid" value="d48f8fb3-4351-4b5d-a28c-946fd33be726"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="RockGnome"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Gnome_Cunning;RockGnome_ArtificersLore"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(87762fb9-bc0a-43bd-9467-74cebf09b38e,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="1e9f254e-6aa4-4e54-9937-82065b3182ee"/>
+                    <attribute id="UUID" type="guid" value="aa2257a9-1779-4d8b-be65-8a08eede07fa"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="ForestGnome"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Gnome_Cunning"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(582ed05c-c6fa-4d6f-99f9-efcc9de769f9,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="f0a6b572-9612-403f-981c-978c21225845"/>
+                    <attribute id="UUID" type="guid" value="a63bbb3c-c37c-4578-94e6-7d1c4c063d5c"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="DeepGnome"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Gnome_Cunning;SuperiorDarkvision;DeepGnome_StoneCamouflage"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="0f6d9f53-a2d0-422b-beea-a2fdfd88628a"/>
+                    <attribute id="UUID" type="guid" value="938b6f72-18a6-4af0-924b-5292251d32bf"/>
+                </node>
+                <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0);"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Halfling"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="TableUUID" type="guid" value="7e1ae395-6f2a-456b-ab64-1012c18065d4"/>
                     <attribute id="UUID" type="guid" value="963edcba-c572-4f51-b447-8810bbb43a8e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="LightfootHalfing"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Halfling_Lucky;Halfling_Brave;Halfling_LightfootStealth"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="fa29312c-6ec6-4bf9-9613-6d99feb57467"/>
+                    <attribute id="UUID" type="guid" value="bc2d257b-a405-4f58-891e-3083c5f71127"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="StoutHalfling"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Halfling_Lucky;Halfling_Brave;Halfling_StoutResilience"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="786cb743-3286-462b-af46-3b1ba84c801e"/>
+                    <attribute id="UUID" type="guid" value="b7a39730-2820-40c7-be96-2c134fead68a"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0)"/>
@@ -8489,24 +8534,6 @@
                     <attribute id="UUID" type="guid" value="37ad7172-291b-4a05-b226-2734170fb4fa"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="RockGnome"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Gnome_Cunning;RockGnome_ArtificersLore"/>
-                    <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(87762fb9-bc0a-43bd-9467-74cebf09b38e,,,,AlwaysPrepared)"/>
-                    <attribute id="TableUUID" type="guid" value="1e9f254e-6aa4-4e54-9937-82065b3182ee"/>
-                    <attribute id="UUID" type="guid" value="aa2257a9-1779-4d8b-be65-8a08eede07fa"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="ForestGnome"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Gnome_Cunning"/>
-                    <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(582ed05c-c6fa-4d6f-99f9-efcc9de769f9,,,,AlwaysPrepared)"/>
-                    <attribute id="TableUUID" type="guid" value="f0a6b572-9612-403f-981c-978c21225845"/>
-                    <attribute id="UUID" type="guid" value="a63bbb3c-c37c-4578-94e6-7d1c4c063d5c"/>
-                </node>
-                <node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>
@@ -8604,6 +8631,24 @@
                     <attribute id="UUID" type="guid" value="f5edf3be-2f98-4287-9568-c1391f37c4ec"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,1.5,0)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="DhampirHalf"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Darkvision;Dhampir_1_TraceOfUndeath;Dhampir_1_VampiricBite"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="e32466a7-3499-42d6-a498-dc76ffdeafba"/>
+                    <attribute id="UUID" type="guid" value="5ec63027-9cd7-42fc-9746-43aea211dbda"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,1.5,0)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="DhampirGnome"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dhampir_1_TraceOfUndeath;Dhampir_1_VampiricBite"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="c588bc70-f0cd-4a34-9252-54deb7a5211b"/>
+                    <attribute id="UUID" type="guid" value="8007e4a9-80cc-47d3-9cf3-3385da4b82ae"/>
+                </node>
+                <node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Kalashtar"/>
                     <attribute id="PassivesAdded" type="LSString" value="Kalashtar_1_DualMind;Kalashtar_1_MentalDiscipline;Kalashtar_1_SeveredFromDreams"/>
@@ -8634,46 +8679,46 @@
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="StoutHalfling"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Halfling_Lucky;Halfling_Brave;Halfling_StoutResilience"/>
-                    <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="TableUUID" type="guid" value="786cb743-3286-462b-af46-3b1ba84c801e"/>
-                    <attribute id="UUID" type="guid" value="b7a39730-2820-40c7-be96-2c134fead68a"/>
+                    <attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(MartialWeapons)"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="HeroicSorcery"/>
+                    <attribute id="PassivesAdded" type="LSString" value="HeroicSorcery_3_HeroicSpells;HeroicSorcery_3_MartialSorcery"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(4a1cad9b-264a-41fd-9653-6500d0203862)"/>
+                    <attribute id="TableUUID" type="guid" value="1d22072e-d314-4520-9446-d656210ecbdf"/>
+                    <attribute id="UUID" type="guid" value="6516a6d4-237e-4d39-9d7b-1a7979c0af67"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="LightfootHalfing"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Halfling_Lucky;Halfling_Brave;Halfling_LightfootStealth"/>
-                    <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="TableUUID" type="guid" value="fa29312c-6ec6-4bf9-9613-6d99feb57467"/>
-                    <attribute id="UUID" type="guid" value="bc2d257b-a405-4f58-891e-3083c5f71127"/>
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="HeroicSorcery"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(6468f699-dc34-44c0-9133-be6f5c7a594b)"/>
+                    <attribute id="TableUUID" type="guid" value="1d22072e-d314-4520-9446-d656210ecbdf"/>
+                    <attribute id="UUID" type="guid" value="c517eddd-69eb-4667-aaed-7ff4a2c3af67"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,1.5,0)"/>
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="DhampirHalf"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Darkvision;Dhampir_1_TraceOfUndeath;Dhampir_1_VampiricBite"/>
-                    <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="TableUUID" type="guid" value="e32466a7-3499-42d6-a498-dc76ffdeafba"/>
-                    <attribute id="UUID" type="guid" value="5ec63027-9cd7-42fc-9746-43aea211dbda"/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="HeroicSorcery"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ExtraAttack_Warmagic;WarMagic"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="1d22072e-d314-4520-9446-d656210ecbdf"/>
+                    <attribute id="UUID" type="guid" value="3a037586-ebb8-4e3f-a076-1a0896be8c2b"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,1.5,0)"/>
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="DhampirGnome"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Dhampir_1_TraceOfUndeath;Dhampir_1_VampiricBite"/>
-                    <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="TableUUID" type="guid" value="c588bc70-f0cd-4a34-9252-54deb7a5211b"/>
-                    <attribute id="UUID" type="guid" value="8007e4a9-80cc-47d3-9cf3-3385da4b82ae"/>
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="HeroicSorcery"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(3bfc445f-dcb4-48a6-97a7-c59b95d0e399)"/>
+                    <attribute id="TableUUID" type="guid" value="1d22072e-d314-4520-9446-d656210ecbdf"/>
+                    <attribute id="UUID" type="guid" value="fdc15251-18bd-4874-ae7b-5bcafc9fee64"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="DeepGnome"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Gnome_Cunning;SuperiorDarkvision;DeepGnome_StoneCamouflage"/>
-                    <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="TableUUID" type="guid" value="0f6d9f53-a2d0-422b-beea-a2fdfd88628a"/>
-                    <attribute id="UUID" type="guid" value="938b6f72-18a6-4af0-924b-5292251d32bf"/>
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="HeroicSorcery"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(e65fb617-8905-40a8-98a3-ea453c22e04b)"/>
+                    <attribute id="TableUUID" type="guid" value="1d22072e-d314-4520-9446-d656210ecbdf"/>
+                    <attribute id="UUID" type="guid" value="fc1d33fe-7c77-401c-b4cc-c9a38e6b555c"/>
                 </node>
             </children>
         </node>

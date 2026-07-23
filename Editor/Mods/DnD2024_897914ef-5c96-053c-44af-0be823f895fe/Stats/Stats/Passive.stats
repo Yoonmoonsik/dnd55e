@@ -5267,6 +5267,38 @@
     </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b7d9b7fa-cd65-44a1-a773-870daddee015" />
+        <field name="Name" type="NameTableFieldDefinition" value="__HEROIC SORCERY__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="58041071-d5f9-42dc-97f0-473fce7b0927" />
+        <field name="Name" type="NameTableFieldDefinition" value="HeroicSorcery_3_HeroicSpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb63faa4cg7994gfa72g49ffg512d528710ca" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4ed71b8cg3ed3gd84eg3c79gb92ad8cf0e94" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_PactOfTheBlade_Rapier" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b2986d6-1a52-40d0-b8b7-f617414f12dd" />
+        <field name="Name" type="NameTableFieldDefinition" value="HeroicSorcery_3_MartialSorcery" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81636128ge683g92f7g0c18g5a4d21a7d6cd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h269da4dcg7dabg981bg4001gfcda57b7c806" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_PactOfTheBlade_Rapier" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_HeroicSoul);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnAttack;OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="SpellId('Shout_InnateSorcery');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyEquipmentStatus(MeleeMainHand,INNATE_BLADEWORK,100,10);ApplyEquipmentStatus(MeleeOffHand,INNATE_BLADEWORK,100,10);ApplyEquipmentStatus(RangedMainHand,INNATE_BLADEWORK,100,10);ApplyEquipmentStatus(RangedOffHand,INNATE_BLADEWORK,100,10);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFDC143C" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f2082bb4-d1fe-4f0c-918b-4d5a8d43b9f1" />
         <field name="Name" type="NameTableFieldDefinition" value="__METAMAGIC__" />
       </fields>

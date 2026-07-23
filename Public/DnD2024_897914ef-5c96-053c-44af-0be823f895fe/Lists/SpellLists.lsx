@@ -860,6 +860,21 @@
                     <attribute id="UUID" type="guid" value="b84fa5b9-209a-472a-add4-9db277b89fdf"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Conquest Spell Level 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Target_Command_Container"/>
+                    <attribute id="UUID" type="guid" value="e94560d3-1c65-471b-a7fe-8d79408b4812"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Conquest Spell Level 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_HoldPerson;Target_SpiritualWeapon"/>
+                    <attribute id="UUID" type="guid" value="dfeaff4a-de0e-40fa-a1ee-c621dec4775a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Conquest Spell Level 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_BestowCurse;Zone_Fear"/>
+                    <attribute id="UUID" type="guid" value="337c2aa3-1131-4775-b692-03d2c1bbb3cc"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="__RANGER__"/>
                     <attribute id="UUID" type="guid" value="40b9f92a-90a7-45dd-a189-1b249b2c49a2"/>
                 </node>
@@ -1797,19 +1812,28 @@
                     <attribute id="UUID" type="guid" value="582ed05c-c6fa-4d6f-99f9-efcc9de769f9"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Conquest Spell Level 3"/>
-                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Target_Command_Container"/>
-                    <attribute id="UUID" type="guid" value="e94560d3-1c65-471b-a7fe-8d79408b4812"/>
+                    <attribute id="Name" type="FixedString" value="__HEROIC SORCERY__"/>
+                    <attribute id="UUID" type="guid" value="0f57a979-a681-4ac5-a0f6-3eeb7b793ed5"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Conquest Spell Level 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_HoldPerson;Target_SpiritualWeapon"/>
-                    <attribute id="UUID" type="guid" value="dfeaff4a-de0e-40fa-a1ee-c621dec4775a"/>
+                    <attribute id="Name" type="FixedString" value="Heroic Level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_GreenFlameBlade;Target_TrueStrike;Target_Heroism;Target_MagicWeapon;Shout_MirrorImage;Shout_Shield_Sorcerer"/>
+                    <attribute id="UUID" type="guid" value="4a1cad9b-264a-41fd-9653-6500d0203862"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="5.5 Conquest Spell Level 9"/>
-                    <attribute id="Spells" type="LSString" value="Target_BestowCurse;Zone_Fear"/>
-                    <attribute id="UUID" type="guid" value="337c2aa3-1131-4775-b692-03d2c1bbb3cc"/>
+                    <attribute id="Name" type="FixedString" value="Heroic Level 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_Haste;Target_PhantomSteed"/>
+                    <attribute id="UUID" type="guid" value="6468f699-dc34-44c0-9133-be6f5c7a594b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Heroic Level 7"/>
+                    <attribute id="Spells" type="LSString" value="Target_DeathWard;Target_Stoneskin"/>
+                    <attribute id="UUID" type="guid" value="3bfc445f-dcb4-48a6-97a7-c59b95d0e399"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Heroic Level 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_HoldMonster"/>
+                    <attribute id="UUID" type="guid" value="e65fb617-8905-40a8-98a3-ea453c22e04b"/>
                 </node>
             </children>
         </node>
