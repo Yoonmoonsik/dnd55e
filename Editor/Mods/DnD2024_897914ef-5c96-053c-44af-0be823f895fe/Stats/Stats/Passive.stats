@@ -4672,7 +4672,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Soulknife_3_PsychicBlades" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9403" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PsychicBlades);UnlockSpell(Shout_PsychicBlades_Dissmiss);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PsychicBlades);UnlockSpell(Projectile_Throw_Soulknife);UnlockSpell(Shout_PsychicBlades_Dissmiss);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
