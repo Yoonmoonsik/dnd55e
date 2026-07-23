@@ -1455,7 +1455,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="edb438a7-b7d1-47b0-b990-711e34263fd5" />
         <field name="Name" type="NameTableFieldDefinition" value="BreathWeapon_DragonShape" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceChange(Ignite);GROUND:SurfaceChange(Melt);TARGET:IF(Item()):ApplyStatus(BURNING,100,2)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceChange(Ignite);GROUND:SurfaceChange(Melt);TARGET:IF(Item()):ApplyStatus(BURNING,100,2);" />
         <field name="SurfaceType" type="EnumerationTableFieldDefinition" value="Sentinel" enumeration_type_name="Surface Type" version="1" />
         <field name="SurfaceLifetime" type="IntegerTableFieldDefinition" value="0" />
         <field name="SurfaceGrowStep" type="IntegerTableFieldDefinition" value="5" />
@@ -1484,6 +1484,7 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="855a50f5-6ef5-4a32-a8e1-a83273176c9a" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="53412dd1-8066-4860-a2ae-b27e77bfdab5" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Fire" enumeration_type_name="Damage Type" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF483D8B" is_substat="false">
