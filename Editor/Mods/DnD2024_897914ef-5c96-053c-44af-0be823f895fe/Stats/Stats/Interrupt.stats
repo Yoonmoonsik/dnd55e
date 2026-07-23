@@ -1151,7 +1151,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite" />
         <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(4d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,1);ApplyStatus(INTERRUPT_SMITE_ELDRITCH_VFX,100,0);" />
-        <field name="Cost" type="StringTableFieldDefinition" value="BonusActionPoint:1;WarlockSpellSlot:1:3;" />
+        <field name="Cost" type="StringTableFieldDefinition" value="WarlockSpellSlot:1:3;" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source));" />
       </fields>
@@ -1166,7 +1166,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite" />
         <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(5d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,1);ApplyStatus(INTERRUPT_SMITE_ELDRITCH_VFX,100,0);" />
-        <field name="Cost" type="StringTableFieldDefinition" value="BonusActionPoint:1;WarlockSpellSlot:1:4;" />
+        <field name="Cost" type="StringTableFieldDefinition" value="WarlockSpellSlot:1:4;" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source));" />
       </fields>
@@ -1181,7 +1181,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite" />
         <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(6d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,1);ApplyStatus(INTERRUPT_SMITE_ELDRITCH_VFX,100,0);" />
-        <field name="Cost" type="StringTableFieldDefinition" value="BonusActionPoint:1;WarlockSpellSlot:1:5;" />
+        <field name="Cost" type="StringTableFieldDefinition" value="WarlockSpellSlot:1:5;" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source));" />
       </fields>
@@ -1196,7 +1196,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite" />
         <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(4d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,1);ApplyStatus(INTERRUPT_SMITE_ELDRITCH_VFX,100,0);" />
-        <field name="Cost" type="StringTableFieldDefinition" value="BonusActionPoint:1;WarlockSpellSlot:1:3;" />
+        <field name="Cost" type="StringTableFieldDefinition" value="WarlockSpellSlot:1:3;" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source));" />
       </fields>
@@ -1211,7 +1211,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite" />
         <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(5d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,1);ApplyStatus(INTERRUPT_SMITE_ELDRITCH_VFX,100,0);" />
-        <field name="Cost" type="StringTableFieldDefinition" value="BonusActionPoint:1;WarlockSpellSlot:1:4;" />
+        <field name="Cost" type="StringTableFieldDefinition" value="WarlockSpellSlot:1:4;" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source));" />
       </fields>
@@ -1226,7 +1226,7 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite" />
         <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(6d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,1);ApplyStatus(INTERRUPT_SMITE_ELDRITCH_VFX,100,0);" />
-        <field name="Cost" type="StringTableFieldDefinition" value="BonusActionPoint:1;WarlockSpellSlot:1:5;" />
+        <field name="Cost" type="StringTableFieldDefinition" value="WarlockSpellSlot:1:5;" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source));" />
       </fields>

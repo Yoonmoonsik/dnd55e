@@ -10631,7 +10631,7 @@
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_StaggeringSmite_L4to5" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_StaggeringSmite_L4to5" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
-        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;WarlockSpellSlot:1:3;" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="WarlockSpellSlot:1:3;" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="71369b20-18f1-4d33-89ad-a99b10f0444c,,;b590e52e-a453-470a-882a-13e13b6d1937,,;76578635-47f2-47d3-ab8f-5bd9bca88bf7,,;6748a2ec-fe1e-4aa4-ac27-570aedaba922,,;3b9da8d4-3eff-43bd-9eaa-1c13fba0045e,,;c609adf0-7a55-4094-b395-97e3d53f14cd,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
         <field name="DualWieldingSpellAnimation" type="CastAnimationsTableFieldDefinition" value="71369b20-18f1-4d33-89ad-a99b10f0444c,,;b590e52e-a453-470a-882a-13e13b6d1937,,;76578635-47f2-47d3-ab8f-5bd9bca88bf7,,;6748a2ec-fe1e-4aa4-ac27-570aedaba922,,;3b9da8d4-3eff-43bd-9eaa-1c13fba0045e,,;c609adf0-7a55-4094-b395-97e3d53f14cd,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
         <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
@@ -10665,7 +10665,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,1);" />
         <field name="SpellFail" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(5d8,Force)" />
-        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;WarlockSpellSlot:1:4;" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="WarlockSpellSlot:1:4;" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Smite_Eldritch" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Smite_Eldritch" />
@@ -10682,7 +10682,7 @@
         <field name="SpellFail" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(6d8,Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Force)" />
-        <field name="HitCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;WarlockSpellSlot:1:5;" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="WarlockSpellSlot:1:5;" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Smite_Eldritch" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Smite_Eldritch" />
