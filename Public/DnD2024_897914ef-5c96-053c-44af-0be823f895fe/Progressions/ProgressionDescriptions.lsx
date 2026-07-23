@@ -129,6 +129,20 @@
                     <attribute id="UUID" type="guid" value="45f17154-fd9e-482b-9f93-5714f12dd377"/>
                 </node>
                 <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h29af99d0g2e9ag3d27gcacdgac35a6d11c60" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf9129957g8bdeg2134g6e2age3382971e6e3" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="3b7f2980-db9d-4f21-99f6-eca8d73436fa"/>
+                    <attribute id="Type" type="FixedString" value="DhampirElf"/>
+                    <attribute id="UUID" type="guid" value="001945a5-90d2-4a28-b178-f1aac1bb1331"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h978f29d5g39e2g5802g4afcg6a4dffb9929f" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7989fcf7g80c8g49bfg77ddgaeac695ed86e" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="a2a9cfb8-8830-45be-8a66-b77550660df1"/>
+                    <attribute id="Type" type="FixedString" value="DhampirTief"/>
+                    <attribute id="UUID" type="guid" value="9ffb6ee2-b52c-42eb-9e99-e2c75868e5be"/>
+                </node>
+                <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="hd180b5fege06agd03ag32b2g4030476ac579" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="ha860cb95g7c9ag10c1g85f5gc9e5b708f2a5" version="1"/>
                     <attribute id="ProgressionTableId" type="guid" value="aedab8ae-60c9-4b3a-bc02-1ac7753a3dba"/>
@@ -141,6 +155,13 @@
                     <attribute id="ProgressionTableId" type="guid" value="5a7f3016-7c27-48df-9577-029e3fbed799"/>
                     <attribute id="Type" type="FixedString" value="Changeling"/>
                     <attribute id="UUID" type="guid" value="c746e2b0-739e-4474-a650-6af3ebd5ff61"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h829a529cgba40gbd9bgd9e8g825169df27eb" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha8bd3c45g2bd9g6ed2ga865g2a1729d8e621" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="f0376690-ad79-4511-9f15-aef7183a4113"/>
+                    <attribute id="Type" type="FixedString" value="DhampirDwarf"/>
+                    <attribute id="UUID" type="guid" value="9d0599ff-90ea-4bae-bfe5-1c27e1d33807"/>
                 </node>
             </children>
         </node>

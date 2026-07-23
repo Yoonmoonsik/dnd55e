@@ -99,6 +99,47 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9e2a81d9-9359-43e2-adcb-c18c1cd97c89" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="DhampirElf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7552731cg5e2eg86a4gd7e3ga6729073015a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfc668bb4g673dg15b5gb679g36c811cabc30" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="26fcfe3f-2bed-4955-b025-45674c51c7f0;25d3f8ac-1d8f-47d0-a44b-a1fd859aabfb" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="3b7f2980-db9d-4f21-99f6-eca8d73436fa" />
+        <field name="RaceSoundSwitch" type="FixedStringTableFieldDefinition" value="Elf" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />
+        <field name="UUID" type="IdTableFieldDefinition" value="559c8f85-0b8c-4dde-bdab-38902b80dc3e" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="b6dccbed-30f3-424b-a181-c4540cf38197" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="DhampirTief" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd588ecc6gf8ffgac9ag1bffg8633c4557ecc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h820e0342ga3cdgd6f8g1854g962328eb1e3f" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="f757d97a-1c53-44ce-87bf-2b4f360fe3a4;7e1d4696-e257-416c-ad32-c1c2c325569b" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="a2a9cfb8-8830-45be-8a66-b77550660df1" />
+        <field name="RaceSoundSwitch" type="FixedStringTableFieldDefinition" value="Tiefling" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_10" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bc26d66a-693f-4a8f-926c-fbdd4aef1a9c" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="0ab2874d-cfdc-405e-8a97-d37bfbb23c52" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="DhampirDwarf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha6ecc729g769ag468fgb75cg0234cfc91fc6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hae4bb06dgcfafg1ed6g6340g86782467a12b" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="1cf0435d-6192-45d0-aee2-4bb82f01c851;43e16ba9-c6e9-4ed3-bc0b-9a155bbab447" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="f0376690-ad79-4511-9f15-aef7183a4113" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
         <field name="UUID" type="IdTableFieldDefinition" value="65ab9967-ab57-4728-ad56-1e552d9f5ef6" />
         <field name="ParentUUID" type="GuidTableFieldDefinition" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba" />

@@ -8107,27 +8107,52 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Dwarf"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Darkvision;Dwarf_DwarvenResilience"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Darkvision"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="TableUUID" type="guid" value="d93def5b-a2df-4675-8a33-e47c9647eeae"/>
                     <attribute id="UUID" type="guid" value="3c9a0bd8-bb0f-4a42-b77f-7a9a1cff2e5d"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="IncreaseMaxHP(Level)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="HillDwarf"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dwarf_DwarvenResilience"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="fa449725-ed8a-4d8c-8908-9ff1469c2e21"/>
+                    <attribute id="UUID" type="guid" value="207d038e-1add-4335-81d1-b0861f524c19"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="MountainDwarf"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dwarf_DwarvenResilience;MountainDwarf_DwarvenArmorTraining"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="c19dc7fa-0a57-459c-ae4a-648472cbb8fe"/>
+                    <attribute id="UUID" type="guid" value="3576f8c6-e515-49c5-808c-b68b77154ffd"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Duergar"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dwarf_DwarvenResilience;SuperiorDarkvision;Duergar_DuergarResilience"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="0f8458cb-9edd-401d-8066-86ba8e1529cf"/>
+                    <attribute id="UUID" type="guid" value="bd012f5b-0a0b-424e-ab7c-186dbd82ab30"/>
                 </node>
                 <node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Elf"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Darkvision;FeyAncestry"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Darkvision"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(8738b757-88a6-424b-bec4-7807c7af8f70,1,ElfKeenSenses);"/>
                     <attribute id="TableUUID" type="guid" value="eb9db11d-1091-49fa-9006-2f52bbb76f6a"/>
                     <attribute id="UUID" type="guid" value="496486a4-b5f2-4f91-90ea-6cad9023952e"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="HighElf"/>
+                    <attribute id="PassivesAdded" type="LSString" value="FeyAncestry"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0,HighElfCantrip)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(8738b757-88a6-424b-bec4-7807c7af8f70,1,ElfKeenSenses);SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0,HighElfCantrip)"/>
                     <attribute id="TableUUID" type="guid" value="5fd1dfd5-b5bd-4152-a04a-87fb3faba1e9"/>
                     <attribute id="UUID" type="guid" value="db13a1fb-7d64-4309-a1c8-e2a5c752ded5"/>
                 </node>
@@ -8153,7 +8178,9 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(Movement,1.5,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="WoodElf"/>
+                    <attribute id="PassivesAdded" type="LSString" value="FeyAncestry"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(8738b757-88a6-424b-bec4-7807c7af8f70,1,ElfKeenSenses);"/>
                     <attribute id="TableUUID" type="guid" value="c0210455-03b5-437c-9d80-3cc4e3c61a9f"/>
                     <attribute id="UUID" type="guid" value="b262db2c-7a80-4c76-a1e8-0efdb9c1db13"/>
                 </node>
@@ -8178,8 +8205,9 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="IceElf"/>
-                    <attribute id="PassivesAdded" type="LSString" value="RaceSpell_RayOfFrost"/>
+                    <attribute id="PassivesAdded" type="LSString" value="FeyAncestry;RaceSpell_RayOfFrost"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(8738b757-88a6-424b-bec4-7807c7af8f70,1,ElfKeenSenses);"/>
                     <attribute id="TableUUID" type="guid" value="50faf06c-c294-450a-abe8-26bba3482118"/>
                     <attribute id="UUID" type="guid" value="1af31dd3-12db-41f9-8e6e-85980e69603c"/>
                 </node>
@@ -8262,7 +8290,6 @@
                     <attribute id="Name" type="LSString" value="Tiefling"/>
                     <attribute id="PassivesAdded" type="LSString" value="Darkvision"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(5eada6b7-d9a2-4ef2-8872-0dce047e458c,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="1640733f-c32b-4d9d-9132-5ca6e985155c"/>
                     <attribute id="UUID" type="guid" value="56529178-3df2-4067-b1c0-e35fe82fbd37"/>
                 </node>
@@ -8271,7 +8298,7 @@
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="AsmodeusTiefling"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(03313193-d4b4-471a-b6ac-57fc4082ff5d,,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(5eada6b7-d9a2-4ef2-8872-0dce047e458c,,,,AlwaysPrepared);AddSpells(03313193-d4b4-471a-b6ac-57fc4082ff5d,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="5ae9c280-64fd-43fb-85f3-40d1796c5b24"/>
                     <attribute id="UUID" type="guid" value="a8b18f0c-fe70-4f13-9dbc-23f4dbc3d648"/>
                 </node>
@@ -8298,7 +8325,7 @@
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="MephistophelesTiefling"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(ae2f64b5-aea1-475a-8066-f89988f45ac3,,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(5eada6b7-d9a2-4ef2-8872-0dce047e458c,,,,AlwaysPrepared);AddSpells(ae2f64b5-aea1-475a-8066-f89988f45ac3,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="0d83cb0b-1f39-47bb-97bc-a6e49cd8a5c5"/>
                     <attribute id="UUID" type="guid" value="bdd1cf22-1b3c-4bc6-8313-898a49fcfe49"/>
                 </node>
@@ -8325,7 +8352,7 @@
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="ZarielTiefling"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(50aae515-92fe-455b-ac0b-cbda60c2b8f2,,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(5eada6b7-d9a2-4ef2-8872-0dce047e458c,,,,AlwaysPrepared);AddSpells(50aae515-92fe-455b-ac0b-cbda60c2b8f2,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="957ba6a9-68f4-4190-a432-25675d00f434"/>
                     <attribute id="UUID" type="guid" value="89d57acd-85ff-4da6-b989-9b82d0241e46"/>
                 </node>
@@ -8549,6 +8576,33 @@
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="TableUUID" type="guid" value="33e8199c-4646-4bb9-9b6c-4a435044a40a"/>
                     <attribute id="UUID" type="guid" value="e3cca850-5ecc-4557-bac9-315a28f601fe"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,1.5,0)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="DhampirElf"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dhampir_1_TraceOfUndeath;Dhampir_1_VampiricBite"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="3b7f2980-db9d-4f21-99f6-eca8d73436fa"/>
+                    <attribute id="UUID" type="guid" value="48a2ede3-d045-4a48-a08d-b1daf9656edb"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,1.5,0)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="DhampirTief"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dhampir_1_TraceOfUndeath;Dhampir_1_VampiricBite"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="a2a9cfb8-8830-45be-8a66-b77550660df1"/>
+                    <attribute id="UUID" type="guid" value="a9cf7d3d-34a7-4af5-8c38-4d445348935e"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,1.5,0)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="DhampirDwarf"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dhampir_1_TraceOfUndeath;Dhampir_1_VampiricBite"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="f0376690-ad79-4511-9f15-aef7183a4113"/>
+                    <attribute id="UUID" type="guid" value="f5edf3be-2f98-4287-9568-c1391f37c4ec"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
