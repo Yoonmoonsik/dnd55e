@@ -10682,7 +10682,28 @@
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0);" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Halfling_Lucky;Halfling_Brave" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_984" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bc2d257b-a405-4f58-891e-3083c5f71127" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="fa29312c-6ec6-4bf9-9613-6d99feb57467" />
+        <field name="FSName" type="StringTableFieldDefinition" value="LightfootHalfing" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Halfling_Lucky;Halfling_Brave;Halfling_LightfootStealth" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_985" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b7a39730-2820-40c7-be96-2c134fead68a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="786cb743-3286-462b-af46-3b1ba84c801e" />
+        <field name="FSName" type="StringTableFieldDefinition" value="StoutHalfling" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Halfling_Lucky;Halfling_Brave;Halfling_StoutResilience" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -11119,6 +11140,18 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f5edf3be-2f98-4287-9568-c1391f37c4ec" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="f0376690-ad79-4511-9f15-aef7183a4113" />
         <field name="FSName" type="StringTableFieldDefinition" value="DhampirDwarf" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Dhampir_1_TraceOfUndeath;Dhampir_1_VampiricBite" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,1.5,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_986" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5ec63027-9cd7-42fc-9746-43aea211dbda" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="e32466a7-3499-42d6-a498-dc76ffdeafba" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DhampirHalf" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Dhampir_1_TraceOfUndeath;Dhampir_1_VampiricBite" />

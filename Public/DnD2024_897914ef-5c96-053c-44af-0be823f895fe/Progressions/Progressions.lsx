@@ -8270,7 +8270,6 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0);"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Halfling"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Halfling_Lucky;Halfling_Brave"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="TableUUID" type="guid" value="7e1ae395-6f2a-456b-ab64-1012c18065d4"/>
                     <attribute id="UUID" type="guid" value="963edcba-c572-4f51-b447-8810bbb43a8e"/>
@@ -8633,6 +8632,31 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="7e76da16-650c-4a6e-85b0-f9e23a7f5a60"/>
                     <attribute id="UUID" type="guid" value="13b286a5-fb07-4944-97e9-58be14a32678"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="StoutHalfling"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Halfling_Lucky;Halfling_Brave;Halfling_StoutResilience"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="786cb743-3286-462b-af46-3b1ba84c801e"/>
+                    <attribute id="UUID" type="guid" value="b7a39730-2820-40c7-be96-2c134fead68a"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="LightfootHalfing"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Halfling_Lucky;Halfling_Brave;Halfling_LightfootStealth"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="fa29312c-6ec6-4bf9-9613-6d99feb57467"/>
+                    <attribute id="UUID" type="guid" value="bc2d257b-a405-4f58-891e-3083c5f71127"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,1.5,0)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="DhampirHalf"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dhampir_1_TraceOfUndeath;Dhampir_1_VampiricBite"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="e32466a7-3499-42d6-a498-dc76ffdeafba"/>
+                    <attribute id="UUID" type="guid" value="5ec63027-9cd7-42fc-9746-43aea211dbda"/>
                 </node>
             </children>
         </node>

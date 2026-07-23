@@ -214,6 +214,16 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_19" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d17bf55d-39a9-49b9-8b25-428afb17583d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haab89db8ga65dg07f1g9db9g3edaf3c7bb19" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha60076e9g9f3ag0cecg4b9cg5b1f5aabf8ba" version="1" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="DhampirHalf" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="e32466a7-3499-42d6-a498-dc76ffdeafba" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_14" />
         <field name="UUID" type="IdTableFieldDefinition" value="cd6d923c-951c-4537-b41f-164f66c86917" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha860cb95g7c9ag10c1g85f5gc9e5b708f2a5" version="1" />
