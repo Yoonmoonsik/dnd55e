@@ -10307,6 +10307,22 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="390a91ac-5528-492f-92eb-e746f7aed7ea" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Monk_Magic_Gloves_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d7432e3-ef0f-4b61-b01e-b87bd69aadf7" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="EntityThrowDamage(1d4);IF(SpellId('Projectile_Throw_Soulknife')):DamageBonus(1d4);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="00f58a9c-159a-40e7-a129-c107ef89483d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Harpers_RingOfProjection_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7799bf3b-ed7b-4910-9a3d-46957aad390d" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="EntityThrowDamage(1d4);IF(SpellId('Projectile_Throw_Soulknife')):DamageBonus(1d4);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9d4edce1-a74f-4ea4-9dd1-e83dbd14d105" />
         <field name="Name" type="NameTableFieldDefinition" value="UND_Tower_AutomatonHalberd_Passive" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1f3ed72c-94da-4731-80a5-ac2dde38c26f" />

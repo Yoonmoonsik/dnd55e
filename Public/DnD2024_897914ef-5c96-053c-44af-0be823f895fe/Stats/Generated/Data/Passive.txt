@@ -7467,6 +7467,16 @@ data "Boosts" "StatusImmunity(ONE_SPELL_WITH_A_SPELL_SLOT_PER_TURN);"
 new entry "__MAGIC ITEM__"
 type "PassiveData"
 
+new entry "MAG_Monk_Magic_Gloves_Passive"
+type "PassiveData"
+using "MAG_Monk_Magic_Gloves_Passive"
+data "Boosts" "EntityThrowDamage(1d4);IF(SpellId('Projectile_Throw_Soulknife')):DamageBonus(1d4);"
+
+new entry "MAG_Harpers_RingOfProjection_Passive"
+type "PassiveData"
+using "MAG_Harpers_RingOfProjection_Passive"
+data "Boosts" "EntityThrowDamage(1d4);IF(SpellId('Projectile_Throw_Soulknife')):DamageBonus(1d4);"
+
 new entry "UND_Tower_AutomatonHalberd_Passive"
 type "PassiveData"
 using "UND_Tower_AutomatonHalberd_Passive"
