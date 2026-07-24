@@ -211,6 +211,15 @@ data "Properties" "SetDisadvantage();"
 data "Cost" "ReactionActionPoint:1;ChannelDivinity:1;"
 data "InterruptDefaultValue" "Ask;Enabled"
 
+new entry "Interrupt_ChannelDivinity_ArtisansBlessing"
+type "InterruptData"
+using "Interrupt_ChannelDivinity_TouchOfDeath"
+data "DisplayName" "h5087f168gc945g5fb3g83d6g3f3a84dd61d9;1"
+data "Description" "hf4556a98g94c2g16ddg4fe9g5fa3c35a3652;1"
+data "Icon" "Action_DivineStrike_Fire_Melee"
+data "Properties" "DealDamage(5+(ClassLevel(Cleric)*2),Fire);"
+data "TooltipDamageList" "DealDamage(5,Fire);DealDamage(ClassLevel(Cleric),Fire);DealDamage(ClassLevel(Cleric),Fire)"
+
 new entry "__FIGHTER__"
 type "InterruptData"
 

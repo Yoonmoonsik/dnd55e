@@ -1396,7 +1396,7 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(2968a3e6-6c8a-4c2e-882a-ad295a2ad8ac)" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel2" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="4d7bc9f4-526f-4902-b9a2-b31577203d02;0a7ae8c2-4fd5-48d8-9e5e-6a29189f3fb1;b927a22a-d64b-48d6-bc7c-38c5f7f6a061;aa644f08-d368-40d3-802a-b3bce31cd4e8;ebe18794-b5e1-41c4-befa-4b9d6922b0ec;4b5da2f5-b999-4623-8bff-a63df5560fb3;c54d7591-b305-4f22-b2a7-1bf5c4a3470a;bfad935f-cefd-4e18-bb9c-e052fcb0229e;6dec76d0-df22-411c-8a78-3d6fb843ae50;926bed98-903f-45db-8df1-b8a57742c622;89bacf1b-8f15-4972-ada7-bf59c7c78441;f013d01b-3310-43f7-81bf-a51130442b5e;b9ccf90e-b35b-4b73-b896-8ed2d32ae8c6" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="4d7bc9f4-526f-4902-b9a2-b31577203d02;0a7ae8c2-4fd5-48d8-9e5e-6a29189f3fb1;b927a22a-d64b-48d6-bc7c-38c5f7f6a061;47bb5544-fcd6-4187-81b8-6616ce07b028;aa644f08-d368-40d3-802a-b3bce31cd4e8;ebe18794-b5e1-41c4-befa-4b9d6922b0ec;4b5da2f5-b999-4623-8bff-a63df5560fb3;c54d7591-b305-4f22-b2a7-1bf5c4a3470a;bfad935f-cefd-4e18-bb9c-e052fcb0229e;6dec76d0-df22-411c-8a78-3d6fb843ae50;926bed98-903f-45db-8df1-b8a57742c622;89bacf1b-8f15-4972-ada7-bf59c7c78441;f013d01b-3310-43f7-81bf-a51130442b5e;b9ccf90e-b35b-4b73-b896-8ed2d32ae8c6" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2528,6 +2528,62 @@
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(2652f702-8bbc-4d6d-bbe7-72620dd9ad44,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_994" />
+        <field name="UUID" type="IdTableFieldDefinition" value="665f732f-db67-4c9a-81a0-84a0f866d6c9" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="defe59d4-62be-4428-80cd-c34a10a4cb0d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ForgeDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ForgeDomain_3_ArtisansBlessing;ForgeDomain_3_BlessingOfTheForge;ForgeDomain_3_ForgeDomainSpells" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(9b80c746-9937-4bb8-8f93-a799cc84cdcc,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_995" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dee5c699-2f01-47d2-89ca-3244987e69d1" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="defe59d4-62be-4428-80cd-c34a10a4cb0d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ForgeDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(cd533120-a78d-41f6-8f4a-c47a0ec391d3,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_996" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e43168a0-387a-4dd6-801e-ba5be0466d26" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="defe59d4-62be-4428-80cd-c34a10a4cb0d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ForgeDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ForgeDomain_6_SoulOfTheForge" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_997" />
+        <field name="UUID" type="IdTableFieldDefinition" value="41f4f22a-e79d-4b2e-ac0b-57f216a1aced" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="defe59d4-62be-4428-80cd-c34a10a4cb0d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ForgeDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(3cbe5876-e594-4ae0-bbd3-5064aaf8e2da,,,,AlwaysPrepared)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_998" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a6a01179-c227-4028-911d-60fc8489b819" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="defe59d4-62be-4428-80cd-c34a10a4cb0d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="ForgeDomain" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(808576a6-c4c8-4376-b8f7-cbf3b13c99e0,,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">

@@ -295,6 +295,18 @@
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="df54e936-a333-4417-982e-8ef0d246138e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ChannelDivinity_ArtisansBlessing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="49564fdc-3f40-47c6-b8c9-171d7576929a" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5087f168gc945g5fb3g83d6g3f3a84dd61d9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf4556a98g94c2g16ddg4fe9g5fa3c35a3652" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Fire_Melee" />
+        <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(5+(ClassLevel(Cleric)*2),Fire);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5,Fire);DealDamage(ClassLevel(Cleric),Fire);DealDamage(ClassLevel(Cleric),Fire)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA0522D" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="468d8269-7090-46eb-aaed-ab7aec258538" />

@@ -1259,6 +1259,30 @@
                     <attribute id="UUID" type="guid" value="a6a29fa7-e1dd-4b4c-9e73-4d35e80d1154"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="__HEROIC SORCERY__"/>
+                    <attribute id="UUID" type="guid" value="0f57a979-a681-4ac5-a0f6-3eeb7b793ed5"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Heroic Level 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_GreenFlameBlade;Target_TrueStrike;Target_Heroism;Target_MagicWeapon;Shout_MirrorImage;Shout_Shield_Sorcerer"/>
+                    <attribute id="UUID" type="guid" value="4a1cad9b-264a-41fd-9653-6500d0203862"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Heroic Level 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_Haste;Target_PhantomSteed"/>
+                    <attribute id="UUID" type="guid" value="6468f699-dc34-44c0-9133-be6f5c7a594b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Heroic Level 7"/>
+                    <attribute id="Spells" type="LSString" value="Target_DeathWard;Target_Stoneskin"/>
+                    <attribute id="UUID" type="guid" value="3bfc445f-dcb4-48a6-97a7-c59b95d0e399"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Heroic Level 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_HoldMonster"/>
+                    <attribute id="UUID" type="guid" value="e65fb617-8905-40a8-98a3-ea453c22e04b"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="__WARLOCK__"/>
                     <attribute id="UUID" type="guid" value="28297251-2b44-4554-8723-4ab94229a3c0"/>
                 </node>
@@ -1812,28 +1836,24 @@
                     <attribute id="UUID" type="guid" value="582ed05c-c6fa-4d6f-99f9-efcc9de769f9"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="__HEROIC SORCERY__"/>
-                    <attribute id="UUID" type="guid" value="0f57a979-a681-4ac5-a0f6-3eeb7b793ed5"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Forge Domain SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_Grease;Target_Smite_Searing;Target_HeatMetal;Target_MagicWeapon"/>
+                    <attribute id="UUID" type="guid" value="9b80c746-9937-4bb8-8f93-a799cc84cdcc"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Heroic Level 3"/>
-                    <attribute id="Spells" type="LSString" value="Target_GreenFlameBlade;Target_TrueStrike;Target_Heroism;Target_MagicWeapon;Shout_MirrorImage;Shout_Shield_Sorcerer"/>
-                    <attribute id="UUID" type="guid" value="4a1cad9b-264a-41fd-9653-6500d0203862"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Forge Domain SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_ElementalWeapon;Target_ProtectionFromEnergy"/>
+                    <attribute id="UUID" type="guid" value="cd533120-a78d-41f6-8f4a-c47a0ec391d3"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Heroic Level 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_Haste;Target_PhantomSteed"/>
-                    <attribute id="UUID" type="guid" value="6468f699-dc34-44c0-9133-be6f5c7a594b"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Forge Domain SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FireShield;Wall_WallOfFire"/>
+                    <attribute id="UUID" type="guid" value="3cbe5876-e594-4ae0-bbd3-5064aaf8e2da"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Heroic Level 7"/>
-                    <attribute id="Spells" type="LSString" value="Target_DeathWard;Target_Stoneskin"/>
-                    <attribute id="UUID" type="guid" value="3bfc445f-dcb4-48a6-97a7-c59b95d0e399"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Heroic Level 9"/>
-                    <attribute id="Spells" type="LSString" value="Target_HoldMonster"/>
-                    <attribute id="UUID" type="guid" value="e65fb617-8905-40a8-98a3-ea453c22e04b"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Forge Domain SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_FlameStrike;Wall_WallOfStone"/>
+                    <attribute id="UUID" type="guid" value="808576a6-c4c8-4376-b8f7-cbf3b13c99e0"/>
                 </node>
             </children>
         </node>

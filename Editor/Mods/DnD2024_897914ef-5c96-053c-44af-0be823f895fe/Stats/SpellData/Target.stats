@@ -8934,6 +8934,65 @@
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="b3b84171-9c99-44d7-98da-f0a1b2d1e206" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0488d8c6-5fbc-4b91-a63e-842742f9d506" />
+        <field name="Name" type="NameTableFieldDefinition" value="__FORGE DOMAIN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7b0c45ac-620f-4237-bf78-b1a3ce444366" />
+        <field name="Name" type="NameTableFieldDefinition" value="BlessingOfTheForge" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_BlessingOfTheForge_Weapon;Target_BlessingOfTheForge_Armor;" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_SacredWeapon" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcfc31e88g634cg3791g5bd4g069de9d3afa9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hefcf1e0bge10fg7393g82e0g78428fef9233" version="1" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Buff_Gen_L1to3_01" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Buff_Gen_L1to3_01_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_MagicWeapon_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Buff_MagicWeapon_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_EnchantWeapon" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;a4da186a-0872-461e-ae5e-93d5b32b9bef,,;527ca082-4ffa-4edb-a23f-5e7fa798a6ce,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;499b7945-9eff-40a2-9911-73b8963108e4,,;1d3a29f0-9409-462e-81cd-3f24944f63ca,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="bcd66fb0-b0bc-41d0-abba-ad443d63dd72" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8ff7691a-f69d-419b-aaaf-ef9ebe4eb65c" />
+        <field name="Name" type="NameTableFieldDefinition" value="BlessingOfTheForge_Weapon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7b0c45ac-620f-4237-bf78-b1a3ce444366" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_BlessingOfTheForge" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(Item()):ApplyStatus(MAGIC_WEAPON,100,-1);IF(not Item()):ApplyEquipmentStatus(MainHand,MAGIC_WEAPON,100,-1)" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Item() or (Ally() and HasWeaponInMainHand())" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_MagicWeapon" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha16f58efga1b2gc6a6g85fdg6414a27e6567" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MAGIC_WEAPON,100,-1)" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f0cc42ec-f461-41ce-b6ea-342e96658aab" />
+        <field name="Name" type="NameTableFieldDefinition" value="BlessingOfTheForge_Armor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8ff7691a-f69d-419b-aaaf-ef9ebe4eb65c" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(FORGEDOMAIN_MAGICARMOR,100,-1);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_MageArmor" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he7ab672fgb558g9a55g2482gc3f14b08385f" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FORGEDOMAIN_MAGICARMOR,100,-1);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a0751ec9-cebe-43fc-a45c-c7e3eb09e01d" />

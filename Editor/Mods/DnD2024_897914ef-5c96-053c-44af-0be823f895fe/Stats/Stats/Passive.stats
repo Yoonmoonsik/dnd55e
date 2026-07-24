@@ -2311,6 +2311,59 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(FadeToBlack,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(FadeToBlack,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(FadeToBlack,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(FadeToBlack,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(FadeToBlack,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(FadeToBlack,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(FadeToBlack,1,0);" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e8dbca32-b8a1-4569-97fe-a8585977f72e" />
+        <field name="Name" type="NameTableFieldDefinition" value="__FORGE DOMAIN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6b904108-48ea-4b02-987f-d3362783f6b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="ForgeDomain_3_ForgeDomainSpells" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="had29e8cegec4eg276ege02ag8c1fb424d18f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he9a93975g783agd634g2f29gb040a65e4d4f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_HeatMetal" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9d9d6c52-7e34-4d90-98b3-6d6ed1fdccaa" />
+        <field name="Name" type="NameTableFieldDefinition" value="ForgeDomain_3_BlessingOfTheForge" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e23e8e3g27adg66cegbf84g1bde42d332f0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h33ead399g18efg529agdf5dg0a4cac22bf2b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_MagicWeapon" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_BlessingOfTheForge);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7d572d8f-c467-465e-bdf3-860d1236981b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ForgeDomain_3_ArtisansBlessing" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5fba6a7eg02bcga50egc7c7g758496cdc1a1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h913cbdacgf9e4g58feg0296g889e13ab49d9" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Fire_Melee" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_ChannelDivinity_ArtisansBlessing);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f61bee0f-9861-437c-a6fc-0489e4857a65" />
+        <field name="Name" type="NameTableFieldDefinition" value="ForgeDomain_6_SoulOfTheForge" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc11d4f13g1389ga831ged26g22c173679faf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6fd0c21eg2405ga4afg118eg1a3ac90348cb" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_MageArmor" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3506" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Fire,Resistant);IF(WearingArmor(context.Source)):AC(1);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7802f41d-bd65-4255-a3bf-5d50027cc099" />

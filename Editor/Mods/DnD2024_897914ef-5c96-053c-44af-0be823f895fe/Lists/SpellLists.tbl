@@ -725,6 +725,34 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Zone_ConeOfCold;Target_Dream;" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFD700" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b80c746-9937-4bb8-8f93-a799cc84cdcc" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Forge Domain SLevel 2" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Grease;Target_Smite_Searing;Target_HeatMetal;Target_MagicWeapon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cd533120-a78d-41f6-8f4a-c47a0ec391d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Forge Domain SLevel 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ElementalWeapon;Target_ProtectionFromEnergy" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3cbe5876-e594-4ae0-bbd3-5064aaf8e2da" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Forge Domain SLevel 4" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_FireShield;Wall_WallOfFire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="808576a6-c4c8-4376-b8f7-cbf3b13c99e0" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Forge Domain SLevel 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_FlameStrike;Wall_WallOfStone" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF9ACD32" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a650b325-6d8d-46ae-a2a8-28009a511806" />
